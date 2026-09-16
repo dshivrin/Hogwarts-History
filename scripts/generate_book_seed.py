@@ -10,6 +10,11 @@ import sys
 
 import yaml
 
+try:
+    from scripts.source_files import discover_source_yaml
+except ModuleNotFoundError:  # Direct script execution.
+    from source_files import discover_source_yaml
+
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_PATH = ROOT / "book-seed" / "hogwarts-a-history-seed.md"
@@ -50,7 +55,7 @@ def load_book_seed_order(root: Path) -> dict:
 
 def load_entries(root: Path) -> list[dict]:
     rows: list[dict] = []
-    for path in sorted((root / "sources").glob("book-*/*.yaml")):
+    for path in discover_source_yaml(root):
         data = load_yaml(path)
         source_unit = data.get("source_unit") or {}
         entries = data.get("entries") or []
@@ -135,6 +140,8 @@ def entry_evidence_label(entry: dict) -> str:
 
 def format_source_line(entry: dict, source_path: Path | None = None) -> str:
     yaml_path = source_path.as_posix() if source_path else str(entry.get("_output_yaml") or "")
+    if entry.get("source_url"):
+        return f"Source: {entry.get('source_id')}, {entry.get('source_url')}, `{yaml_path}`"
     return (
         f"Source: {entry.get('_book')}, {entry.get('_chapter')}, "
         f"PDF p. {entry.get('pdf_page')}, `{entry.get('id')}`, `{yaml_path}`"

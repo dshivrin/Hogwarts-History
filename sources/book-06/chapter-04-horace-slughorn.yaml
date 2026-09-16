@@ -1,0 +1,333 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Four - Horace Slughorn
+  chapter_start_pdf_page: 2462
+  chapter_end_pdf_page: 2481
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used processing-state anchors for Chapter Four, pages 2462-2481, with Chapter Five anchored to start at page 2482.
+  processed_date: '2026-07-17'
+  processor_notes: "Extracted with pypdf via scripts/extract_pages.py using only the anchored page range; no explicit Hogwarts: A History citation appears in this chapter."
+
+entries:
+  - id: hbp-ch04-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Four - Horace Slughorn
+    chapter_start_pdf_page: 2462
+    chapter_end_pdf_page: 2481
+    pdf_page: 2465
+    printed_page: null
+    extracted_text_lines: 88-96
+    text_anchor:
+      start_phrase: why couldn't we just Apparate directly
+      end_phrase: And she is quite right
+      local_occurrence_note: Dumbledore explains wizarding courtesy and protected dwellings before Harry supplies the Hogwarts anti-Apparition rule from Hermione.
+    nearby_context: Dumbledore and Harry have just arrived in Budleigh Babberton and are walking to Slughorn's temporary house.
+    match_terms:
+      - Apparition
+      - Wizarding dwellings
+      - unwanted Apparators
+      - Hogwarts
+      - buildings
+      - grounds
+    quote_excerpt_short: "you can't Apparate anywhere inside the buildings or grounds"
+    source_note: Dumbledore frames anti-Apparition as a common protection for wizarding dwellings, and Harry restates that Hogwarts blocks Apparition inside both buildings and grounds.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - apparition
+      - anti-apparition
+      - wizarding-dwellings
+      - hogwarts-grounds
+      - school-protection
+      - magical-transportation
+      - hermione-granger
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Movement Limits and Anti-Apparition Protections
+    candidate_section: Wizarding-dwelling courtesy and Hogwarts boundary confirmation
+    reason_for_placement: The passage links Hogwarts's anti-Apparition rule to a broader protective norm for wizarding homes and clarifies that the school restriction covers buildings and grounds.
+    relevance_to_hogwarts_a_history: A later edition can use this as corroborating evidence for how Hogwarts protections fit into general magical dwelling security.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch23-001
+        - gof-ch15-006
+      notes: "ootp-ch23-001 is the explicit Hogwarts: A History citation for no Apparition inside Hogwarts, and gof-ch15-006 states the grounds restriction; this entry adds Dumbledore's broader wizarding-dwelling context."
+    confidence: high
+    limitations: The scene does not identify the spellwork, origin, exceptions, or exact enforcement boundary.
+
+  - id: hbp-ch04-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Four - Horace Slughorn
+    chapter_start_pdf_page: 2462
+    chapter_end_pdf_page: 2481
+    pdf_page: 2466
+    printed_page: null
+    extracted_text_lines: 130-148
+    text_anchor:
+      start_phrase: I got a Ministry of Magic leaflet by owl
+      end_phrase: to make an army of them
+      local_occurrence_note: Harry asks Dumbledore about the Ministry security leaflet and its unclear reference to Inferi.
+    nearby_context: The conversation follows Harry's questions about Scrimgeour, Madam Bones, and Dumbledore's injured hand.
+    match_terms:
+      - Ministry of Magic leaflet
+      - security measures
+      - Death Eaters
+      - impostor
+      - Inferi
+      - Voldemort
+    quote_excerpt_short: "Dead bodies that have been bewitched"
+    source_note: The official Ministry leaflet prompts a practical anti-impersonation reminder from Dumbledore and a definition of Inferi as bewitched corpses associated with Voldemort's previous power.
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - ministry-public-guidance
+      - inferi
+      - identity-verification
+      - impersonation
+      - death-eaters
+      - voldemort
+      - dark-forces
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Wartime Household Precautions
+    candidate_section: Identity checks and Inferi in Ministry public guidance
+    reason_for_placement: The passage extends the prior leaflet evidence with Dumbledore's commentary on identity questions and an authoritative explanation of Inferi.
+    relevance_to_hogwarts_a_history: Though off-campus, it records the Second War security concepts that informed families and students before the 1996 Hogwarts year.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch03-003
+        - ootp-ch03-001
+      notes: hbp-ch03-003 records the same Ministry leaflet's household guidance, and ootp-ch03-001 records identity verification after impersonation; this entry adds Dumbledore's jam example and Inferi definition.
+    confidence: high
+    limitations: The leaflet's full text is not present, and the evidence is filtered through Harry's questions and Dumbledore's explanation.
+
+  - id: hbp-ch04-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Four - Horace Slughorn
+    chapter_start_pdf_page: 2462
+    chapter_end_pdf_page: 2481
+    pdf_page: 2471
+    printed_page: null
+    extracted_text_lines: 303-317
+    text_anchor:
+      start_phrase: all these precautions against intruders
+      end_phrase: bringing in the piano
+      local_occurrence_note: Slughorn describes his year of avoiding Death Eater recruitment by moving through Muggle houses.
+    nearby_context: Dumbledore has noticed Slughorn's staged attack scene and presses him about whether the protections are meant for Death Eaters or Dumbledore.
+    match_terms:
+      - Intruder Charm
+      - Death Eaters
+      - Muggle house
+      - Freezing Charm
+      - burglar alarms
+      - Sneakoscopes
+    quote_excerpt_short: "one simple Freezing Charm"
+    source_note: Slughorn uses an Intruder Charm, Muggle houses, a Freezing Charm on burglar alarms, and avoidance of neighbors to stay hidden during wartime.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - intruder-charm
+      - freezing-charm
+      - sneakoscope
+      - muggle-houses
+      - death-eaters
+      - concealment
+      - wartime-security
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Second War and Hogwarts-Connected Staff
+    candidate_section: Retired staff evasion before returning to Hogwarts
+    reason_for_placement: The evidence explains why an eminent former teacher resisted rejoining Hogwarts and records ordinary protective charms used in the wider wartime context.
+    relevance_to_hogwarts_a_history: A later edition could use this to contextualize staff recruitment and security pressures during the Second War.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found only a prior Sneakoscope/Dark Detector catalog; no prior entry records Slughorn's Intruder Charm, Muggle-house evasion, or freezing of burglar alarms.
+    confidence: medium
+    limitations: The evidence is off-campus and about Slughorn's personal evasion rather than a Hogwarts institution or ordinary school practice.
+
+  - id: hbp-ch04-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Four - Horace Slughorn
+    chapter_start_pdf_page: 2462
+    chapter_end_pdf_page: 2481
+    pdf_page: 2472
+    printed_page: null
+    extracted_text_lines: 321-329
+    text_anchor:
+      start_phrase: if you were to return to Hogwarts
+      end_phrase: filthy half-breeds
+      local_occurrence_note: Slughorn cites rumors after Umbridge left, and Dumbledore specifies that she ran afoul of the Hogwarts centaur herd.
+    nearby_context: Dumbledore is trying to make Hogwarts seem safer than Slughorn's current hiding, but Slughorn has heard alarming accounts of the previous school year.
+    match_terms:
+      - Dolores Umbridge
+      - centaur herd
+      - forest
+      - Hogwarts
+      - teachers
+      - rumors
+    quote_excerpt_short: "ran afoul of our centaur herd"
+    source_note: Dumbledore confirms that Umbridge's post-Hogwarts fate became rumor among former staff and describes the centaurs as Hogwarts's own herd.
+    reference_type: direct_observed_setting
+    era_classification: later_editorial_note
+    topic_tags:
+      - centaurs
+      - dolores-umbridge
+      - forbidden-forest
+      - staff-safety
+      - school-rumor
+      - slughorn
+      - second-war
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Ministry Intervention and Its Collapse
+    candidate_section: Former staff rumors about Umbridge and the centaur herd
+    reason_for_placement: The passage shows the Umbridge episode influencing staff perceptions of Hogwarts and gives Dumbledore's concise retrospective framing of the centaur encounter.
+    relevance_to_hogwarts_a_history: A later edition can cite this as evidence that the centaur incident entered wider staff memory and affected wartime recruitment.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch33-004
+      notes: ootp-ch33-004 records the direct removal of Umbridge and wand destruction; this entry adds the later rumor/recruitment context and Dumbledore's phrase "our centaur herd."
+    confidence: high
+    limitations: The actual confrontation is not shown in this chapter, and Slughorn's source is unspecified rumor.
+
+  - id: hbp-ch04-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Four - Horace Slughorn
+    chapter_start_pdf_page: 2462
+    chapter_end_pdf_page: 2481
+    pdf_page: 2473
+    printed_page: null
+    extracted_text_lines: 354-376
+    text_anchor:
+      start_phrase: I was Head of Slytherin
+      end_phrase: I got his brother, Regulus
+      local_occurrence_note: Slughorn recalls Lily Evans, identifies his former House role, and contrasts Sirius Black's sorting with the rest of the Black family.
+    nearby_context: Dumbledore has left Harry alone with Slughorn so the retired teacher can be tempted by Harry's family connections.
+    match_terms:
+      - Head of Slytherin
+      - Gryffindor
+      - families
+      - Sirius Black
+      - Black family
+      - Regulus
+    quote_excerpt_short: "it usually goes in families. Not always"
+    source_note: Slughorn states that House affiliation often runs in families but not always, citing Sirius Black's Gryffindor sorting against the wider Black family's Slytherin pattern and Regulus's later Slytherin placement.
+    reference_type: house_system
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - house-system
+      - slytherin
+      - gryffindor
+      - black-family
+      - sirius-black
+      - regulus-black
+      - heads-of-house
+    candidate_part: The Four Houses
+    candidate_chapter: Sorting, Families, and Exceptions
+    candidate_section: Family patterns and Sirius Black's exception
+    reason_for_placement: The passage supplies teacher testimony that House sorting often follows family lines while preserving notable exceptions.
+    relevance_to_hogwarts_a_history: This can support a historical section on House identity, familial expectations, and exceptions known before Harry's school years.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found House culture and Slytherin entries but no prior entry on family sorting patterns or the Sirius/Regulus Black contrast.
+    confidence: high
+    limitations: Slughorn's comments are anecdotal and colored by his collector-like view of talented students.
+
+  - id: hbp-ch04-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Four - Horace Slughorn
+    chapter_start_pdf_page: 2462
+    chapter_end_pdf_page: 2481
+    pdf_page: 2477
+    printed_page: null
+    extracted_text_lines: 485-497
+    text_anchor:
+      start_phrase: Horace, said Dumbledore
+      end_phrase: the next junior member of the Goblin Liaison Office
+      local_occurrence_note: Dumbledore explains Slughorn's pattern of selecting favored students and building a network around them.
+    nearby_context: Slughorn has accepted the Hogwarts post, and Dumbledore warns Harry that Slughorn will try to collect him too.
+    match_terms:
+      - Horace Slughorn
+      - handpick favorites
+      - Hogwarts
+      - club
+      - introductions
+      - Goblin Liaison Office
+    quote_excerpt_short: "handpick favorites at Hogwarts"
+    source_note: Dumbledore describes Slughorn's informal Hogwarts patronage network, in which selected students were connected to one another and later repaid him through favors or influence.
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - slug-club
+      - slughorn
+      - patronage
+      - ex-students
+      - school-networks
+      - career-connections
+      - informal-custom
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Teachers, Patronage, and Student Advancement
+    candidate_section: Slughorn's favorites and alumni network
+    reason_for_placement: The passage records a recurring teacher-led informal institution that linked school performance, social selection, and later careers.
+    relevance_to_hogwarts_a_history: A Hogwarts history could use this as evidence for unofficial networks that shaped student advancement beyond formal curriculum.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup for Slughorn, favorites, club, ex-students, contacts, and patronage returned no prior matching entry.
+    confidence: high
+    limitations: The evidence comes from Dumbledore's characterization and does not yet list the full membership or formal name used later.
+
+  - id: hbp-ch04-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Four - Horace Slughorn
+    chapter_start_pdf_page: 2462
+    chapter_end_pdf_page: 2481
+    pdf_page: 2480
+    printed_page: null
+    extracted_text_lines: 600-612
+    text_anchor:
+      start_phrase: it is my wish that you take private lessons with me this year
+      end_phrase: and no, you will not
+      local_occurrence_note: Dumbledore announces that Harry will have private lessons with him and confirms that Snape's Occlumency lessons will not continue.
+    nearby_context: The instruction follows Dumbledore's advice that Harry tell Ron and Hermione the prophecy and precedes his security instructions about the Invisibility Cloak.
+    match_terms:
+      - private lessons
+      - Dumbledore
+      - education
+      - Occlumency
+      - Snape
+      - Professor Snape
+    quote_excerpt_short: "private lessons with me this year"
+    source_note: Dumbledore personally assigns Harry private lessons with the headmaster for the coming year and replaces the failed Snape-led Occlumency arrangement.
+    reference_type: curriculum_or_subject
+    era_classification: later_editorial_note
+    topic_tags:
+      - private-lessons
+      - dumbledore
+      - harry-potter
+      - occlumency
+      - snape
+      - headmaster-authority
+      - exceptional-instruction
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Defense, Mind Magic, and the Second War
+    candidate_section: Headmaster-led private lessons after Occlumency failed
+    reason_for_placement: The passage shows Dumbledore using headmaster authority to create an exceptional private course for Harry during the Second War.
+    relevance_to_hogwarts_a_history: A later edition can cite this as evidence for extraordinary wartime instruction and the headmaster's direct role in a student's education.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch24-001
+        - ootp-ch37-002
+      notes: ootp-ch24-001 records the Snape-led private Occlumency lessons, and ootp-ch37-002 explains their rationale and failure; this entry adds Dumbledore's replacement lessons for the next school year.
+    confidence: high
+    limitations: Dumbledore does not yet disclose the lesson content, so placement under Defense and mind magic remains provisional.

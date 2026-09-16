@@ -1,0 +1,326 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Seven - The Lightning-Struck Tower
+  chapter_start_pdf_page: 2905
+  chapter_end_pdf_page: 2919
+  boundary_confidence: high
+  boundary_notes: Bounded by processing-state anchors for Chapter Twenty-Seven; extracted only PDF pages 2905-2919.
+  processed_date: '2026-07-29'
+  processor_notes: "Created from bounded pypdf extraction. No explicit Hogwarts: A History title citation appears in this chapter."
+entries:
+- id: hbp-ch27-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Seven - The Lightning-Struck Tower
+  chapter_start_pdf_page: 2905
+  chapter_end_pdf_page: 2919
+  pdf_page: 2906
+  printed_page: null
+  extracted_text_lines: 27-58
+  text_anchor:
+    start_phrase: That potion was no health drink
+    end_phrase: You can't go up there alone
+    local_occurrence_note: Harry and Dumbledore return by Apparition to Hogsmeade, where Harry seeks help and Rosmerta appears from the Three Broomsticks.
+  nearby_context: Dumbledore is weakened by the cave potion, Harry thinks first of the hospital wing, and Dumbledore insists that Snape is the person he needs.
+  match_terms:
+  - Hogsmeade
+  - Apparition
+  - hospital wing
+  - Madam Pomfrey
+  - Snape
+  - Three Broomsticks
+  - Rosmerta
+  quote_excerpt_short: "It is Professor Snape whom I need"
+  source_note: After emergency Apparition back to Hogsmeade, Harry treats the hospital wing as the normal urgent-care destination, but Dumbledore specifically asks for Snape instead of Madam Pomfrey.
+  reference_type: security_or_protection
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - hogsmeade
+  - apparition
+  - hospital-wing
+  - madam-pomfrey
+  - snape
+  - emergency-response
+  candidate_part: Hogwarts in Times of Crisis
+  candidate_chapter: Wartime Security and Medical Response
+  candidate_section: Hogsmeade return and headmaster emergency care
+  reason_for_placement: Shows how Hogwarts-adjacent Hogsmeade, school medical care, and staff-specific expertise intersect during a headmaster emergency.
+  relevance_to_hogwarts_a_history: Useful for a later account of emergency routes into Hogwarts and the limits of ordinary hospital-wing care during the Second War.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - hbp-ch25-007
+    notes: hbp-ch25-007 records the outbound Hogsmeade cover route and side-along Apparition; this entry adds the emergency return, Rosmerta's witness role, and Dumbledore's request for Snape over Pomfrey.
+  confidence: high
+  limitations: Dumbledore does not explain in this passage why Snape is medically or magically necessary.
+- id: hbp-ch27-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Seven - The Lightning-Struck Tower
+  chapter_start_pdf_page: 2905
+  chapter_end_pdf_page: 2919
+  pdf_page: 2907
+  printed_page: null
+  extracted_text_lines: 58-66
+  text_anchor:
+    start_phrase: The Dark Mark, Albus
+    end_phrase: wherever they had murdered
+    local_occurrence_note: Rosmerta points out the Dark Mark hanging above Hogwarts while Dumbledore and Harry stand in Hogsmeade.
+  nearby_context: The Dark Mark appears above the school shortly after Dumbledore's absence, creating the immediate assumption that Death Eaters have entered and killed inside Hogwarts.
+  match_terms:
+  - Dark Mark
+  - Hogwarts
+  - Death Eaters
+  - murder
+  - school
+  - green skull
+  quote_excerpt_short: "wherever they had murdered"
+  source_note: The Dark Mark is seen above Hogwarts and identified as the Death Eater sign left after entering a building and murdering there.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - dark-mark
+  - death-eaters
+  - hogwarts
+  - astronomy-tower
+  - murder-sign
+  - wartime-security
+  candidate_part: Hogwarts in Times of Crisis
+  candidate_chapter: Death Eater Infiltration and the Tower Battle
+  candidate_section: Dark Mark over Hogwarts
+  reason_for_placement: Marks the moment when a wider wartime terror symbol becomes a direct Hogwarts security crisis.
+  relevance_to_hogwarts_a_history: Provides core later-editorial evidence for how Death Eater tactics and symbols breached the school itself.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch09-004
+    - gof-ch09-007
+    notes: gof-ch09-004 records Morsmordre and the Mark's appearance, while gof-ch09-007 records Dark Mark terror history; this entry adds its use over Hogwarts as an active lure and murder signal.
+  confidence: high
+  limitations: At this point Harry and Dumbledore do not yet know whether the displayed Mark corresponds to a confirmed death.
+- id: hbp-ch27-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Seven - The Lightning-Struck Tower
+  chapter_start_pdf_page: 2905
+  chapter_end_pdf_page: 2919
+  pdf_page: 2908
+  printed_page: null
+  extracted_text_lines: 69-112
+  text_anchor:
+    start_phrase: we need transport
+    end_phrase: The ramparts were deserted
+    local_occurrence_note: Dumbledore summons brooms from Rosmerta, sends her to alert the Ministry, and flies through his own boundary enchantments to the Astronomy Tower.
+  nearby_context: Harry wears the Invisibility Cloak while flying beside Dumbledore, who mutters in a strange language as the brooms cross the boundary wall into the school grounds.
+  match_terms:
+  - Rosmerta's brooms
+  - Ministry
+  - Invisibility Cloak
+  - boundary wall
+  - enchantments
+  - Astronomy Tower
+  quote_excerpt_short: "undoing the enchantments he himself had set"
+  source_note: Dumbledore's school protections include boundary enchantments that he can actively undo to allow broom entry at speed, and the Dark Mark directs him to the Astronomy Tower ramparts.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - castle-boundary
+  - protective-enchantments
+  - brooms
+  - astronomy-tower
+  - dumbledore
+  - ministry-alert
+  candidate_part: The Castle and Its Protections
+  candidate_chapter: Boundaries, Towers, and Defensive Enchantments
+  candidate_section: Emergency flight through the castle boundary
+  reason_for_placement: Combines physical castle approach, headmaster-controlled protection, and the Astronomy Tower's tactical visibility.
+  relevance_to_hogwarts_a_history: Supports a castle-protection chapter by showing boundary enchantments in operational use rather than only as policy.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found Astronomy Tower and enchantment context, but no prior entry for Dumbledore undoing his own boundary enchantments to enter the grounds by broom during an emergency.
+  confidence: high
+  limitations: The spell language and exact enchantment design are not identified.
+- id: hbp-ch27-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Seven - The Lightning-Struck Tower
+  chapter_start_pdf_page: 2905
+  chapter_end_pdf_page: 2919
+  pdf_page: 2909
+  printed_page: null
+  extracted_text_lines: 121-143
+  text_anchor:
+    start_phrase: Go and wake Severus
+    end_phrase: chance of defending himself
+    local_occurrence_note: Dumbledore orders Harry to fetch Snape, then wordlessly immobilizes Harry as Malfoy bursts onto the ramparts and disarms him.
+  nearby_context: Harry is under the Invisibility Cloak and moving toward the spiral-staircase door when footsteps arrive from inside the castle.
+  match_terms:
+  - Severus
+  - Invisibility Cloak
+  - Expelliarmus
+  - wordlessly immobilized
+  - Dumbledore's wand
+  - Draco
+  quote_excerpt_short: "Dumbledore had wordlessly immobilized Harry"
+  source_note: Dumbledore uses nonverbal magic to immobilize Harry under the Cloak, sacrificing his chance to defend himself when Draco Malfoy disarms him on the tower.
+  reference_type: security_or_protection
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - nonverbal-magic
+  - invisibility-cloak
+  - disarming
+  - dumbledore
+  - draco-malfoy
+  - astronomy-tower
+  candidate_part: Hogwarts in Times of Crisis
+  candidate_chapter: Death Eater Infiltration and the Tower Battle
+  candidate_section: Headmaster sacrifice and concealed witness
+  reason_for_placement: Gives direct evidence of protective headmaster action, nonverbal spell use, and the circumstances that leave Dumbledore wandless.
+  relevance_to_hogwarts_a_history: A later history can use this to document how Dumbledore prioritized protecting a student witness during the tower confrontation.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found broad Dumbledore and Invisibility Cloak entries, but no prior match for Dumbledore immobilizing Harry under the Cloak while being disarmed.
+  confidence: high
+  limitations: The spell used to immobilize Harry is not named in the passage.
+- id: hbp-ch27-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Seven - The Lightning-Struck Tower
+  chapter_start_pdf_page: 2905
+  chapter_end_pdf_page: 2919
+  pdf_page: 2911
+  printed_page: null
+  extracted_text_lines: 184-228
+  text_anchor:
+    start_phrase: How did you smuggle them in here
+    end_phrase: right under my nose
+    local_occurrence_note: Dumbledore questions Draco, who explains how he repaired the Hogwarts Vanishing Cabinet and paired it with the Borgin and Burkes cabinet.
+  nearby_context: Fighting continues below while Draco admits that Death Eaters passed from Borgin and Burkes into the school through the cabinets.
+  match_terms:
+  - Vanishing Cabinet
+  - Montague
+  - Borgin and Burkes
+  - Room of Requirement
+  - Death Eaters
+  - passage
+  quote_excerpt_short: "a kind of passage between them"
+  source_note: The repaired Vanishing Cabinet in Hogwarts forms a passage to Borgin and Burkes, allowing Death Eaters to bypass school defenses and enter through the Room of Requirement.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - vanishing-cabinet
+  - room-of-requirement
+  - borgin-and-burkes
+  - death-eater-infiltration
+  - montague
+  - school-security
+  candidate_part: The Castle and Its Protections
+  candidate_chapter: Maps, Hidden Rooms, and Concealed Routes
+  candidate_section: Vanishing Cabinet passage into Hogwarts
+  reason_for_placement: Reveals the actual mechanism behind Malfoy's year-long hidden-room work and the school breach.
+  relevance_to_hogwarts_a_history: Central evidence for how a neglected magical object and responsive castle room became an invasion route into Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - hbp-ch06-007
+    - hbp-ch21-004
+    - hbp-ch24-005
+    notes: hbp-ch06-007 records Draco's Borgin and Burkes repair consultation, hbp-ch21-004 records Room of Requirement concealment, and hbp-ch24-005 records the broken cabinet in the Room of Hidden Things; this entry adds the completed paired-cabinet passage and Death Eater entry.
+  confidence: high
+  limitations: Draco supplies the explanation under pressure; the passage does not show the repair work or cabinet transit directly.
+- id: hbp-ch27-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Seven - The Lightning-Struck Tower
+  chapter_start_pdf_page: 2905
+  chapter_end_pdf_page: 2919
+  pdf_page: 2913
+  printed_page: null
+  extracted_text_lines: 260-315
+  text_anchor:
+    start_phrase: Rosmerta. How long has she been under
+    end_phrase: We decided to put the Dark Mark
+    local_occurrence_note: Dumbledore reconstructs Rosmerta's coerced role and Draco explains the enchanted-coin communications used to time the trap.
+  nearby_context: The explanation links the cursed necklace, poisoned mead, Filch's screening limits, D.A.-style enchanted coins, and Rosmerta's sighting of Dumbledore leaving the school.
+  match_terms:
+  - Rosmerta
+  - Imperius Curse
+  - cursed necklace
+  - poisoned mead
+  - Filch
+  - enchanted coins
+  - D.A.
+  quote_excerpt_short: "I had one and she had the other"
+  source_note: Draco used the Imperiused Rosmerta as a Hogsmeade accomplice, communicating by enchanted coins and exploiting Filch's limited screening of Rosmerta-linked objects.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - rosmerta
+  - imperius-curse
+  - enchanted-coins
+  - cursed-necklace
+  - poisoned-mead
+  - filch
+  - d-a
+  candidate_part: Hogwarts in Times of Crisis
+  candidate_chapter: Security and Restricted Objects
+  candidate_section: Coerced Hogsmeade accomplice and communication loophole
+  reason_for_placement: Converts earlier attack clues into a confirmed chain of coercion, messaging, and inspection failures.
+  relevance_to_hogwarts_a_history: Useful for a later-editorial security chapter on how external village access and student-derived communication magic undermined Hogwarts protections.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - hbp-ch12-006
+    - hbp-ch15-002
+    - hbp-ch25-006
+    notes: hbp-ch12-006 records the cursed-necklace incident, hbp-ch15-002 records Filch and Secrecy Sensor limits, and hbp-ch25-006 records D.A. contact-Galleon watch planning; this entry adds Rosmerta's Imperius role, paired coin communication, and the trap timing.
+  confidence: high
+  limitations: The account is reconstructed through Dumbledore's questioning and Draco's admissions, not Rosmerta's own testimony.
+- id: hbp-ch27-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Seven - The Lightning-Struck Tower
+  chapter_start_pdf_page: 2905
+  chapter_end_pdf_page: 2919
+  pdf_page: 2918
+  printed_page: null
+  extracted_text_lines: 366-461
+  text_anchor:
+    start_phrase: Dumbledore cornered
+    end_phrase: over the battlements and out of sight
+    local_occurrence_note: Death Eaters reach the ramparts, Snape arrives, and Dumbledore is killed by Avada Kedavra.
+  nearby_context: The tower confrontation includes Amycus and Alecto Carrow, Fenrir Greyback's presence at Hogwarts without the full moon, a blocked staircase below, Draco's inability to kill, and Snape's final spell.
+  match_terms:
+  - Amycus
+  - Alecto
+  - Fenrir Greyback
+  - blocked the stairs
+  - Snape
+  - Avada Kedavra
+  - Dumbledore
+  quote_excerpt_short: "Avada Kedavra!"
+  source_note: During the tower breach, Death Eaters and Fenrir Greyback reach the ramparts, Snape kills Dumbledore with Avada Kedavra, and Dumbledore falls from the Astronomy Tower.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - dumbledore-death
+  - snape
+  - avada-kedavra
+  - death-eaters
+  - fenrir-greyback
+  - astronomy-tower
+  - second-war
+  candidate_part: Hogwarts in Times of Crisis
+  candidate_chapter: Death Eater Infiltration and the Tower Battle
+  candidate_section: Death of Albus Dumbledore
+  reason_for_placement: Records the decisive institutional rupture of Dumbledore's death during an armed Hogwarts breach.
+  relevance_to_hogwarts_a_history: Essential later-editorial evidence for the end of Dumbledore's headmastership, the tower battle, and the Second War's direct impact on Hogwarts governance.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found prior Snape/Dumbledore allegiance and Astronomy Tower context, but no prior entry for Snape killing Dumbledore on the tower.
+  confidence: high
+  limitations: This chapter shows the act and immediate circumstances, but not Snape and Dumbledore's prior arrangement or the aftermath.

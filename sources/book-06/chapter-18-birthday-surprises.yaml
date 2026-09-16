@@ -1,0 +1,343 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Eighteen - Birthday Surprises
+  chapter_start_pdf_page: 2729
+  chapter_end_pdf_page: 2749
+  boundary_confidence: high
+  boundary_notes: Chapter Eighteen range came from project-control/processing-state.yaml and project-control/next-run.md. Book 6 Chapter Eighteen starts on PDF page 2729 and Chapter Nineteen starts on PDF page 2750, so only PDF pages 2729-2749 were extracted and searched.
+  processed_date: '2026-07-26'
+  processor_notes: "Processed only Book 6, Chapter Eighteen. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+  - id: hbp-ch18-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eighteen - Birthday Surprises
+    chapter_start_pdf_page: 2729
+    chapter_end_pdf_page: 2749
+    pdf_page: 2730
+    printed_page: null
+    extracted_text_lines: 50-77; 119-124; 151-170
+    text_anchor:
+      start_phrase: Golpalott's Third Law
+      end_phrase: they don't work on everything, and are pretty rare
+      local_occurrence_note: Slughorn sets a sixth-year antidote lesson that Harry completes by using a bezoar instead of brewing a blended-poison antidote.
+    nearby_context: Hermione recites the textbook law, Slughorn assigns poison phials and protective gloves, and Harry uses the Half-Blood Prince's marginal note to retrieve a bezoar from the classroom cupboard.
+    match_terms:
+      - Golpalott's Third Law
+      - Scarpin's Revelaspell
+      - bezoar
+      - antidotes
+      - Potions
+      - protective gloves
+    quote_excerpt_short: A bezoar would certainly act as an antidote
+    source_note: Sixth-year Potions covers blended-poison antidotes using named theory, diagnostic spellwork, protective gloves, and practical classroom stores, while bezoars remain a rare broad antidote rather than a universal solution.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - potions
+      - antidotes
+      - bezoars
+      - golpalotts-third-law
+      - scarpins-revelaspell
+      - newt-courses
+      - classroom-stores
+    candidate_part: Lessons, Exams, and Magical Knowledge
+    candidate_chapter: Potions Curriculum and Practical Safety
+    candidate_section: N.E.W.T.-level antidote theory and bezoar use
+    reason_for_placement: The lesson supplies advanced curriculum content and practical safety details for Potions instruction.
+    relevance_to_hogwarts_a_history: A school history could use this as evidence for advanced Potions pedagogy, classroom equipment, and how old remedy lore remains available inside formal instruction.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch18-004
+        - cos-ch11-002
+      notes: gof-ch18-004 records a fourth-year antidote-brewing test and cos-ch11-002 records Potions antidotes and stores. This entry adds sixth-year blended-poison theory, Scarpin's Revelaspell, classroom bezoars, and Slughorn's judgment about bezoar limits.
+    confidence: high
+    limitations: The scene is a single Slughorn lesson and does not establish the full N.E.W.T. Potions syllabus.
+
+  - id: hbp-ch18-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eighteen - Birthday Surprises
+    chapter_start_pdf_page: 2729
+    chapter_end_pdf_page: 2749
+    pdf_page: 2735
+    printed_page: null
+    extracted_text_lines: 189-204; 239-255
+    text_anchor:
+      start_phrase: I wondered what you know about
+      end_phrase: we shall not speak nor give direction
+      local_occurrence_note: Slughorn refuses to discuss Horcruxes, and Hermione later reports that even Restricted Section research produced only a refusal in Magick Moste Evile.
+    nearby_context: Harry tries to get the true memory from Slughorn after Potions, then Hermione searches the library and quotes the only Horcrux reference she can find.
+    match_terms:
+      - Horcruxes
+      - Slughorn memory
+      - Restricted Section
+      - Magick Moste Evile
+      - library
+      - Dark Magic
+    quote_excerpt_short: Of the Horcrux, wickedest of magical inventions
+    source_note: Hogwarts library access can include very dark Restricted Section material, but even Magick Moste Evile refuses to give Horcrux directions, forcing Dumbledore and Harry back toward Slughorn's suppressed memory.
+    reference_type: explicit_in_universe_source
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - horcruxes
+      - restricted-section
+      - magick-moste-evile
+      - library-research
+      - dark-magic
+      - slughorn-memory
+      - dumbledore-lessons
+    candidate_part: Lessons, Exams, and Magical Knowledge
+    candidate_chapter: Restricted Books and Forbidden Knowledge
+    candidate_section: Horcrux references withheld from student research
+    reason_for_placement: The passage names an in-universe source while showing a limit on what even advanced library research can recover.
+    relevance_to_hogwarts_a_history: This supports a discussion of the Hogwarts library's dangerous holdings, permissioned student research, and institutional silences around extreme Dark magic.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch17-003
+        - hbp-ch10-004
+        - ps-ch12-004
+      notes: hbp-ch17-003 and hbp-ch10-004 cover Dumbledore's Pensieve-based historical method, while ps-ch12-004 covers Restricted Section research. This entry adds the Horcrux-specific research failure and Magick Moste Evile's explicit refusal.
+    confidence: high
+    limitations: Hermione reports the library search secondhand; the passage does not define Horcruxes.
+
+  - id: hbp-ch18-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eighteen - Birthday Surprises
+    chapter_start_pdf_page: 2729
+    chapter_end_pdf_page: 2749
+    pdf_page: 2736
+    printed_page: null
+    extracted_text_lines: 259-298; 321-386; 390-396
+    text_anchor:
+      start_phrase: the sixth years' first Apparition lesson
+      end_phrase: Destination. Determination. Deliberation.
+      local_occurrence_note: The first Ministry-led Apparition practice uses the Great Hall, Heads of House supervision, a temporary anti-Apparition exception, hoops, and Splinching repair.
+    nearby_context: Weather moves the lesson indoors, Wilkie Twycross introduces the twelve-week preparation, Dumbledore's enchantment is lifted only inside the Hall, and Susan Bones is rejoined after Splinching.
+    match_terms:
+      - Apparition lesson
+      - Great Hall
+      - Wilkie Twycross
+      - Heads of Houses
+      - Splinching
+      - three Ds
+    quote_excerpt_short: lifted this enchantment, purely within the Great Hall
+    source_note: Hogwarts hosts Ministry Apparition instruction by temporarily lifting the castle's anti-Apparition protection only inside the Great Hall, under Head-of-House supervision and with Splinching treated as a known training risk.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - apparition
+      - ministry-of-magic
+      - great-hall
+      - anti-apparition
+      - splinching
+      - heads-of-house
+      - magical-transportation
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Magical Transportation and Student Restrictions
+    candidate_section: Ministry Apparition lessons inside a temporary Great Hall exception
+    reason_for_placement: The scene gives operational evidence for how Hogwarts accommodates adult-transport training without generally weakening school protections.
+    relevance_to_hogwarts_a_history: A later note could connect the castle's anti-Apparition enchantments, Ministry licensing, staff supervision, and student safety procedures.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch17-002
+        - ootp-ch23-001
+        - gof-ch06-001
+      notes: "hbp-ch17-002 gives the lesson notice and eligibility details, ootp-ch23-001 cites the anti-Apparition rule from Hogwarts: A History, and gof-ch06-001 covers licensing and Splinching risks. This entry adds the live Great Hall exception, Wilkie Twycross, staff marshalling, hoop exercises, and immediate Splinching repair."
+    confidence: high
+    limitations: The lifted enchantment is explicitly limited to one hour and to the Great Hall.
+
+  - id: hbp-ch18-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eighteen - Birthday Surprises
+    chapter_start_pdf_page: 2729
+    chapter_end_pdf_page: 2749
+    pdf_page: 2741
+    printed_page: null
+    extracted_text_lines: 423-441; 446-456; 459-461
+    text_anchor:
+      start_phrase: The Marauder's Map appeared on the parchment's surface
+      end_phrase: impossible to locate on the map at all
+      local_occurrence_note: Harry uses the map to watch Malfoy after hearing him tell Crabbe and Goyle to keep lookout, but Malfoy later disappears from it.
+    nearby_context: The map shows every castle floor and labeled occupant dots, yet Harry cannot find Malfoy during suspicious periods despite high wartime security in the castle.
+    match_terms:
+      - Marauder's Map
+      - castle floors
+      - labeled black dots
+      - Malfoy
+      - lookout
+      - security
+    quote_excerpt_short: a detailed plan of every one of the castle's floors
+    source_note: The Marauder's Map again functions as castle-wide occupant surveillance, but Malfoy's periodic absence from it reveals a practical blind spot that Harry cannot explain under heightened Hogwarts security.
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - marauders-map
+      - castle-navigation
+      - magical-surveillance
+      - malfoy
+      - room-of-requirement
+      - wartime-security
+      - student-rulebreaking
+    candidate_part: The Castle and Its Protections
+    candidate_chapter: Maps, Hidden Rooms, and Concealed Routes
+    candidate_section: Marauder's Map surveillance and unexplained blind spots
+    reason_for_placement: The passage restates the map's coverage while documenting a case where an occupant can evade Harry's reading of it.
+    relevance_to_hogwarts_a_history: This is useful for an editorial account of Hogwarts mapping, concealed spaces, and the limits of magical surveillance inside the castle.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - poa-ch10-003
+        - gof-ch25-001
+        - gof-ch29-001
+      notes: poa-ch10-003 introduces the map, gof-ch25-001 corroborates castle surveillance, and gof-ch29-001 adds a map boundary. This entry adds Malfoy's unexplained disappearances from map searches during a high-security school year.
+    confidence: medium
+    limitations: The passage does not yet identify the Room of Requirement as the cause of Malfoy's disappearance; that tag is inferential for later duplicate lookup.
+
+  - id: hbp-ch18-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eighteen - Birthday Surprises
+    chapter_start_pdf_page: 2729
+    chapter_end_pdf_page: 2749
+    pdf_page: 2742
+    printed_page: null
+    extracted_text_lines: 463-481
+    text_anchor:
+      start_phrase: a sign went up on all common room notice boards
+      end_phrase: Dogbreath and Dunghead
+      local_occurrence_note: The school cancels the next Hogsmeade trip while students connect the decision to Katie Bell's attack and wider wartime disappearances.
+    nearby_context: The notice appears in all common rooms; Katie remains at St. Mungo's and the Daily Prophet reports disappearances involving relatives of Hogwarts students.
+    match_terms:
+      - Hogsmeade
+      - common room notice boards
+      - Katie Bell
+      - St. Mungo's
+      - Daily Prophet
+      - disappearances
+    quote_excerpt_short: the next trip into Hogsmeade had been canceled
+    source_note: During the Second War, Hogwarts cancels a planned Hogsmeade weekend after Katie Bell's cursed-object attack, while external disappearances affect relatives of students at the school.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hogsmeade
+      - wartime-security
+      - katie-bell
+      - student-safety
+      - common-room-notices
+      - daily-prophet
+      - second-war
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Wartime Student Movement Restrictions
+    candidate_section: Hogsmeade cancellations after attacks and disappearances
+    reason_for_placement: The passage shows school mobility privileges being withdrawn in response to current danger and public wartime conditions.
+    relevance_to_hogwarts_a_history: This can support a later-era note on how Hogwarts adjusted ordinary student privileges during wartime threats.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch12-006
+        - hbp-ch12-002
+        - hbp-ch08-001
+      notes: hbp-ch12-006 covers Katie Bell's attack, hbp-ch12-002 covers wartime Hogsmeade screening, and hbp-ch08-001 covers Hogsmeade-area wartime security. This entry adds the later full trip cancellation and the reported disappearances of students' relatives.
+    confidence: high
+    limitations: The cancellation reason is inferred by characters and context rather than formally stated in the notice.
+
+  - id: hbp-ch18-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eighteen - Birthday Surprises
+    chapter_start_pdf_page: 2729
+    chapter_end_pdf_page: 2749
+    pdf_page: 2746
+    printed_page: null
+    extracted_text_lines: 594-602; 640-663; 667-673
+    text_anchor:
+      start_phrase: they're the Chocolate Cauldrons Romilda gave me
+      end_phrase: he gulped the antidote down noisily
+      local_occurrence_note: Ron eats old spiked Chocolate Cauldrons, and Harry takes him to Slughorn for a love-potion antidote rather than Madam Pomfrey.
+    nearby_context: Harry identifies the sweets as Romilda Vane's spiked gift, worries about awkward questions around banned joke-shop products, and Slughorn notes that aged love potions strengthen.
+    match_terms:
+      - Chocolate Cauldrons
+      - Romilda Vane
+      - love potion
+      - antidote
+      - Slughorn's office
+      - Weasleys' Wizard Wheezes
+    quote_excerpt_short: They can strengthen, you know, the longer they're kept
+    source_note: Spiked sweets can carry love potion into student spaces, aged love potions can strengthen, and a Potions master can prepare a quick antidote from a portable kit outside normal hospital-wing channels.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - love-potions
+      - chocolate-cauldrons
+      - romilda-vane
+      - restricted-objects
+      - weasleys-wizard-wheezes
+      - slughorn-office
+      - antidotes
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Restricted Objects and Student Misuse
+    candidate_section: Love-potion sweets and staff antidote response
+    reason_for_placement: The incident connects banned or suspect student goods, dormitory access, potion aging, and informal staff medical response.
+    relevance_to_hogwarts_a_history: A history could use this as evidence for why love potions and disguised sweets matter as school-safety issues, not just adolescent mischief.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch15-002
+        - hbp-ch06-006
+        - gof-ch27-003
+      notes: hbp-ch15-002 covers disguised contraband, hbp-ch06-006 covers love-potion retail access, and gof-ch27-003 covers a stated Hogwarts love-potion ban. This entry adds a successful poisoning-by-sweets incident, potion aging, and Slughorn's antidote response.
+    confidence: high
+    limitations: Harry avoids Madam Pomfrey to avoid questions, so this should not be treated as standard school medical procedure.
+
+  - id: hbp-ch18-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eighteen - Birthday Surprises
+    chapter_start_pdf_page: 2729
+    chapter_end_pdf_page: 2749
+    pdf_page: 2748
+    printed_page: null
+    extracted_text_lines: 679-686; 689-717
+    text_anchor:
+      start_phrase: one last bottle of this oak-matured mead
+      end_phrase: thrust the bezoar into his mouth
+      local_occurrence_note: Slughorn opens mead intended for Dumbledore; Ron is poisoned and Harry saves him with the bezoar from Slughorn's kit.
+    nearby_context: The poisoned mead creates a crisis in Slughorn's study immediately after Ron's love-potion antidote, while Slughorn freezes and Harry applies the Potions-class bezoar remedy.
+    match_terms:
+      - oak-matured mead
+      - Dumbledore
+      - Slughorn
+      - poison
+      - bezoar
+      - emergency antidote
+    quote_excerpt_short: meant to give that to Dumbledore for Christmas
+    source_note: A poisoned bottle meant as a gift for Dumbledore reaches a professor's study, and the earlier bezoar lesson becomes an emergency antidote when Slughorn is too shocked to act.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - poisoned-mead
+      - dumbledore
+      - slughorn-office
+      - bezoars
+      - emergency-response
+      - wartime-security
+      - assassination-attempt
+    candidate_part: The Castle and Its Protections
+    candidate_chapter: Wartime Threats Inside Hogwarts
+    candidate_section: Poisoned gifts and emergency antidotes
+    reason_for_placement: The incident shows that wartime attacks can exploit trusted gifts and staff spaces, while classroom medical knowledge can become immediately life-saving.
+    relevance_to_hogwarts_a_history: This belongs in a later editorial account of Second War security failures and emergency magical remedies within the castle.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate search found general Dumbledore and Slughorn entries and the earlier hbp-ch12-006 cursed-object attack, but no existing entry on the poisoned mead intended for Dumbledore or the emergency bezoar response in Slughorn's study.
+    confidence: high
+    limitations: The passage ends before Madam Pomfrey's treatment or the investigation, so culprit and chain-of-custody details are outside this unit.

@@ -1,0 +1,98 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Two - Flesh, Blood, and Bone
+  chapter_start_pdf_page: 1479
+  chapter_end_pdf_page: 1485
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml and project-control/next-run.md; extracted only PDF pages 1479-1485 with pypdf via scripts/extract_pages.py, without scanning the PDF from page 1.
+  processed_date: '2026-07-01'
+  processor_notes: "Processed only Book 4, Chapter Thirty-Two. Text was extracted into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History title reference was found. Quote excerpts were kept under 25 words per entry."
+entries:
+- id: gof-ch32-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Two - Flesh, Blood, and Bone
+  chapter_start_pdf_page: 1479
+  chapter_end_pdf_page: 1485
+  pdf_page: 1479
+  printed_page: null
+  extracted_text_lines: 6-25
+  text_anchor:
+    start_phrase: Harry felt his feet slam into the ground
+    end_phrase: Wands out, d'you reckon?
+    local_occurrence_note: Harry and Cedric arrive by the Cup, realize they have left Hogwarts grounds entirely, and question whether the Cup was a Portkey.
+  nearby_context: The Cup deposits Harry and Cedric in an overgrown graveyard far from the castle; Cedric identifies the Cup as a Portkey and neither champion knows whether this is part of the task.
+  match_terms:
+  - Triwizard Cup
+  - Portkey
+  - Hogwarts grounds
+  - graveyard
+  - tournament security
+  - final task
+  quote_excerpt_short: left the Hogwarts grounds completely
+  source_note: The chapter confirms that the altered Triwizard Cup transported the Hogwarts champions completely off the school grounds to a distant graveyard.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - triwizard-cup
+  - portkey
+  - hogwarts-grounds
+  - tournament-security
+  - off-campus-transport
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Portkey Breach Beyond Hogwarts Grounds
+  reason_for_placement: "The passage identifies the destination and institutional severity of the Cup breach: the final-task object removes students from Hogwarts entirely."
+  relevance_to_hogwarts_a_history: A later edition can use this to document the revived tournament's major security failure and clarify that the breach bypassed the physical bounds of Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch31-007
+    notes: "gof-ch31-007 records the Cup's activation at the maze endpoint; this entry adds the off-grounds destination and Cedric's Portkey identification."
+  confidence: high
+  limitations: The passage does not yet reveal who altered the Cup, when it was altered, or how the Portkey bypassed school protections.
+- id: gof-ch32-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Two - Flesh, Blood, and Bone
+  chapter_start_pdf_page: 1479
+  chapter_end_pdf_page: 1485
+  pdf_page: 1480
+  printed_page: null
+  extracted_text_lines: 44-60
+  text_anchor:
+    start_phrase: It stopped beside a towering marble headstone
+    end_phrase: Cedric was lying spread-eagled on the ground beside him
+    local_occurrence_note: After the champions arrive in the graveyard, Voldemort orders Cedric killed and Wormtail uses the Killing Curse.
+  nearby_context: A hooded figure approaches the transported champions, Harry's scar pain spikes, a cold voice orders the spare killed, and Cedric falls dead beside Harry.
+  match_terms:
+  - Cedric Diggory
+  - Triwizard champion
+  - Killing Curse
+  - graveyard
+  - tournament casualty
+  - Voldemort
+  quote_excerpt_short: Cedric was lying spread-eagled on the ground beside him
+  source_note: The chapter records Cedric Diggory's death immediately after the Cup transports the champions out of the final task.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - cedric-diggory
+  - triwizard-tournament
+  - tournament-casualty
+  - killing-curse
+  - voldemort
+  - later-editorial-note
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Cedric Diggory's Death and Tournament Aftermath
+  reason_for_placement: "The passage gives the immediate event that turned the revived tournament's final task into a fatal institutional crisis."
+  relevance_to_hogwarts_a_history: A later edition can use this evidence when summarizing the 1994-1995 tournament's collapse and the fatal outcome for a Hogwarts champion.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate query for Cedric Diggory, death, Triwizard champion, and later editorial terms returned no matching indexed entry.
+  confidence: high
+  limitations: The passage establishes the death but does not yet capture Hogwarts' discovery, official response, or public explanation.

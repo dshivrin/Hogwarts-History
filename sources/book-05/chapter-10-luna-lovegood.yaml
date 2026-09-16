@@ -1,0 +1,333 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Ten - Luna Lovegood
+  chapter_start_pdf_page: 1741
+  chapter_end_pdf_page: 1760
+  boundary_confidence: high
+  boundary_notes: >-
+    Extracted the bounded current source-unit range from processing-state.yaml,
+    PDF pages 1741-1760, without scanning from the start of the full PDF.
+  processed_date: '2026-07-03'
+  processor_notes: >-
+    Captured seven canon-evidence entries from the start-of-term departure,
+    Hogwarts Express journey, and arrival at Hogsmeade station. No explicit
+    Hogwarts: A History references appear in this chapter.
+
+entries:
+- id: ootp-ch10-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Ten - Luna Lovegood
+  chapter_start_pdf_page: 1741
+  chapter_end_pdf_page: 1760
+  pdf_page: 1742
+  printed_page: null
+  extracted_text_lines: 32-112
+  text_anchor:
+    start_phrase: Mad-Eye's complaining that we can't leave unless Sturgis Podmore's here
+    end_phrase: I don't think we were followed
+    local_occurrence_note: The Order organizes Harry's guarded journey from Grimmauld Place to the Hogwarts Express.
+  nearby_context: Moody insists on a complete guard, Mrs. Weasley routes Harry with herself and Tonks, Sirius accompanies them in dog form, and the group crosses the hidden King's Cross barrier to platform nine and three-quarters.
+  match_terms:
+  - Sturgis Podmore
+  - guard
+  - King's Cross
+  - platform nine and three-quarters
+  - Sirius
+  - Order of the Phoenix
+  quote_excerpt_short: "we can't leave unless Sturgis Podmore's here"
+  source_note: The chapter shows second-war protective logistics around Harry's school departure, combining Order escort practice, concealed travel from Grimmauld Place, platform secrecy, and follow-checking at King's Cross.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - guarded-travel
+  - order-of-the-phoenix
+  - kings-cross
+  - platform-nine-and-three-quarters
+  - school-travel
+  - sirius-black
+  - operational-security
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Second War and Hogwarts-Connected Organizations
+  candidate_section: Order Escorts for School Travel
+  reason_for_placement: The passage connects ordinary Hogwarts Express departure customs to wartime adult protection around a targeted student.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain how second-war security concerns reshaped normal school travel without changing the underlying platform system.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch11-002
+    - ootp-ch04-005
+    notes: gof-ch11-002 records the hidden platform route and discreet boarding customs; ootp-ch04-005 records Order guard work. This entry combines both into Harry's guarded start-of-term escort.
+  confidence: high
+  limitations: The passage does not give the complete guard roster or a formal Order protocol for school travel.
+- id: ootp-ch10-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Ten - Luna Lovegood
+  chapter_start_pdf_page: 1741
+  chapter_end_pdf_page: 1760
+  pdf_page: 1746
+  printed_page: null
+  extracted_text_lines: 152-163; 307-346; 489-493
+  text_anchor:
+    start_phrase: Ron and I are supposed to go into the prefect carriage
+    end_phrase: have the power to hand out punishments
+    local_occurrence_note: Ron and Hermione describe new prefect duties on the train, then Malfoy demonstrates the authority's bullying potential.
+  nearby_context: Hermione says new prefects receive instructions from the Head Boy and Girl and patrol corridors; later she identifies two fifth-year prefects from each House, and Malfoy boasts that the badge lets him assign detention.
+  match_terms:
+  - prefect carriage
+  - Head Boy and Girl
+  - patrol the corridors
+  - two fifth-year prefects
+  - detention
+  - badge
+  quote_excerpt_short: "patrol the corridors from time to time"
+  source_note: The chapter expands prefect evidence by naming the fifth-year House-pair structure, the Head Boy and Girl instruction process, corridor patrols, and the power to punish misconduct.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - prefects
+  - head-boy
+  - head-girl
+  - student-governance
+  - hogwarts-express
+  - discipline
+  - house-system
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Prefects and Student Authority
+  candidate_section: Fifth-Year Prefects and Train Patrols
+  reason_for_placement: The passage gives operational detail about how prefects are organized and deployed at the start of term.
+  relevance_to_hogwarts_a_history: This supports a governance section on prefect selection, badge authority, train duties, and risks of student misuse of disciplinary power.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ps-ch06-002
+    notes: ps-ch06-002 already records prefect badges and reserved train compartments; this entry adds fifth-year House-pair appointments, Head Boy and Girl instructions, patrol duties, and punishment authority.
+  confidence: high
+  limitations: The passage reports student understanding of powers and duties, not a written prefect handbook or staff statement.
+- id: ootp-ch10-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Ten - Luna Lovegood
+  chapter_start_pdf_page: 1741
+  chapter_end_pdf_page: 1760
+  pdf_page: 1747
+  printed_page: null
+  extracted_text_lines: 185-226
+  text_anchor:
+    start_phrase: There's room in this one, there's only Loony Lovegood in here
+    end_phrase: Wit beyond measure is man's greatest treasure
+    local_occurrence_note: Ginny introduces Luna Lovegood on the Hogwarts Express and identifies her as a Ravenclaw in Ginny's year.
+  nearby_context: Luna is introduced with unusual dress and reading habits, Ginny names Neville and Luna to one another, and Luna answers the Ravenclaw identification with the House motto.
+  match_terms:
+  - Luna Lovegood
+  - Ravenclaw
+  - Wit beyond measure
+  - House
+  - The Quibbler
+  quote_excerpt_short: "Wit beyond measure is man's greatest treasure"
+  source_note: The train scene introduces Luna Lovegood as a Ravenclaw student and gives a direct Ravenclaw identity motto centered on wit as treasure.
+  reference_type: house_system
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - luna-lovegood
+  - ravenclaw
+  - house-motto
+  - house-system
+  - student-identity
+  - hogwarts-express
+  candidate_part: Houses and Student Life
+  candidate_chapter: Ravenclaw House
+  candidate_section: House Motto and Student Identity
+  reason_for_placement: The passage supplies concise House-identity language from a named Ravenclaw student in a social setting.
+  relevance_to_hogwarts_a_history: This can support House-system coverage with an observed Ravenclaw maxim rather than only colors, animal symbols, or Sorting references.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Query matches only broad Ravenclaw and House-system entries; no prior result captured this specific motto or Luna's Ravenclaw identification.
+  confidence: high
+  limitations: Luna's delivery does not state whether the phrase is official, traditional, or simply commonly associated with Ravenclaw.
+- id: ootp-ch10-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Ten - Luna Lovegood
+  chapter_start_pdf_page: 1741
+  chapter_end_pdf_page: 1760
+  pdf_page: 1748
+  printed_page: null
+  extracted_text_lines: 246-278
+  text_anchor:
+    start_phrase: Mimbulus mimbletonia
+    end_phrase: Stinksap's not poisonous
+    local_occurrence_note: Neville demonstrates a rare magical plant's defensive mechanism in the train compartment.
+  nearby_context: Neville says the plant is rare, may not be in the Hogwarts greenhouse, interests Professor Sprout, and can be bred from; when prodded, it sprays nonpoisonous Stinksap.
+  match_terms:
+  - Mimbulus mimbletonia
+  - greenhouse
+  - Professor Sprout
+  - Herbology
+  - Stinksap
+  - defensive mechanism
+  quote_excerpt_short: "Stinksap's not poisonous"
+  source_note: The chapter adds Herbology-adjacent evidence for a rare magical plant, student plant collecting, Sprout's likely interest, breeding potential, and Stinksap as a defensive secretion.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - herbology
+  - mimbulus-mimbletonia
+  - magical-plants
+  - professor-sprout
+  - greenhouses
+  - stinksap
+  - plant-defenses
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Herbology and Magical Plant Safety
+  candidate_section: Rare Student-Brought Plants and Stinksap
+  reason_for_placement: The passage connects student enthusiasm, greenhouse collections, plant breeding, and magical plant safety to Hogwarts Herbology culture.
+  relevance_to_hogwarts_a_history: This can support curriculum and grounds material showing how rare plants circulate into school life beyond formal lessons.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch13-002
+    - cos-ch06-003
+    notes: Existing Herbology entries cover practical plant safety with Bubotubers and Mandrakes. This entry adds Mimbulus mimbletonia, Stinksap, rarity, and Neville's extracurricular plant interest.
+  confidence: high
+  limitations: The plant is student-owned on the train; the passage does not confirm that Hogwarts later keeps or teaches with this specimen.
+- id: ootp-ch10-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Ten - Luna Lovegood
+  chapter_start_pdf_page: 1741
+  chapter_end_pdf_page: 1760
+  pdf_page: 1752
+  printed_page: null
+  extracted_text_lines: 392-476
+  text_anchor:
+    start_phrase: How Far Will Fudge Go to Gain Gringotts?
+    end_phrase: My father's the editor
+    local_occurrence_note: Harry reads Luna's copy of The Quibbler and recognizes the Sirius article Kingsley had routed to Sirius.
+  nearby_context: The issue carries speculative articles about Fudge, Gringotts, Sirius Black, Quidditch corruption, Ancient Runes, and moon frogs; Luna states that her father edits the magazine.
+  match_terms:
+  - The Quibbler
+  - Cornelius Fudge
+  - Gringotts
+  - Sirius Black
+  - Ancient Runes
+  - editor
+  quote_excerpt_short: "SIRIUS BLACK: Villain or Victim?"
+  source_note: The chapter identifies The Quibbler as a named in-universe periodical, illustrates its unreliable public claims, and links it to Sirius Black discourse and Luna Lovegood's family.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - quibbler
+  - wizarding-press
+  - sirius-black
+  - cornelius-fudge
+  - gringotts
+  - ancient-runes
+  - luna-lovegood
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Public Records and Wizarding Press
+  candidate_section: The Quibbler as Unreliable Alternative Press
+  reason_for_placement: The passage provides a named source and multiple article titles that a later editor would need to qualify when using public wizarding press records.
+  relevance_to_hogwarts_a_history: This supports source-criticism notes for later editions, especially where Hogwarts students encounter public claims about Ministry policy, Sirius Black, and magical scholarship.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch18-005
+    - ootp-ch07-005
+    notes: gof-ch18-005 already flags unreliable wizarding press around Hogwarts events; ootp-ch07-005 records the official Sirius investigation context. This entry adds The Quibbler's alternative press treatment and Lovegood editorial connection.
+  confidence: high
+  limitations: The content is partly satirical or unreliable; the passage is most useful as evidence about press culture, not as factual confirmation of the articles' claims.
+- id: ootp-ch10-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Ten - Luna Lovegood
+  chapter_start_pdf_page: 1741
+  chapter_end_pdf_page: 1760
+  pdf_page: 1756
+  printed_page: null
+  extracted_text_lines: 545-570
+  text_anchor:
+    start_phrase: First years line up over here, please
+    end_phrase: the reappearance of Professor Grubbly-Plank
+    local_occurrence_note: At Hogsmeade station, Professor Grubbly-Plank calls the first years instead of Hagrid.
+  nearby_context: Harry expects Hagrid's familiar first-year call, but Grubbly-Plank, who had previously substituted in Care of Magical Creatures, handles the station gathering while Hagrid is absent.
+  match_terms:
+  - first years
+  - Professor Grubbly-Plank
+  - Hagrid
+  - Care of Magical Creatures
+  - Hogsmeade station
+  - arrival
+  quote_excerpt_short: "All first years to me!"
+  source_note: The arrival scene shows that the first-year station-gathering role can be performed by a substitute professor when Hagrid is absent, preserving the arrival procedure under staff substitution.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - arrival-logistics
+  - first-years
+  - hagrid
+  - grubbly-plank
+  - care-of-magical-creatures
+  - hogsmeade-station
+  - staff-substitution
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Arrival at Hogwarts
+  candidate_section: First-Year Gathering Under Staff Substitution
+  reason_for_placement: The passage confirms that the first-year gathering is an institutional procedure, not solely Hagrid's personal habit.
+  relevance_to_hogwarts_a_history: This can support arrival-customs coverage by showing continuity of the procedure despite temporary staffing changes.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ps-ch06-006
+    - gof-ch11-006
+    notes: ps-ch06-006 and gof-ch11-006 document Hagrid gathering first years and the usual arrival split; this entry adds Grubbly-Plank as a substitute caller during Hagrid's absence.
+  confidence: high
+  limitations: The passage does not explain why Hagrid is absent or whether Grubbly-Plank also supervises the lake crossing.
+- id: ootp-ch10-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Ten - Luna Lovegood
+  chapter_start_pdf_page: 1741
+  chapter_end_pdf_page: 1760
+  pdf_page: 1757
+  printed_page: null
+  extracted_text_lines: 572-663
+  text_anchor:
+    start_phrase: Here stood the hundred or so horseless stagecoaches
+    end_phrase: They've always pulled the carriages
+    local_occurrence_note: Harry first sees the creatures pulling the school carriages, while Ron cannot see them and Luna can.
+  nearby_context: The creatures are skeletal, winged, horse-like, and invisible to some students; Luna confirms that they have always pulled the carriages.
+  match_terms:
+  - horseless stagecoaches
+  - horse things
+  - winged horse
+  - carriages
+  - Luna
+  - always pulled
+  quote_excerpt_short: "They've always pulled the carriages"
+  source_note: The chapter reveals that the supposedly horseless Hogwarts carriages are pulled by invisible winged creatures visible to Harry and Luna but not Ron.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - thestrals
+  - horseless-carriages
+  - hogsmeade-station
+  - castle-approach
+  - magical-creatures
+  - student-transport
+  - luna-lovegood
+  candidate_part: The Castle, Grounds, and Approaches
+  candidate_chapter: Arrival at Hogwarts
+  candidate_section: Thestral-Drawn Carriages
+  reason_for_placement: The passage explains the magical mechanism behind the older-student carriage route from Hogsmeade station to the castle.
+  relevance_to_hogwarts_a_history: This is strong candidate material for school-transport history and magical-creature infrastructure, especially the hidden nature of the carriage teams.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch11-006
+    notes: gof-ch11-006 records the returning-student horseless carriage route; this entry identifies the invisible creatures pulling those carriages and Luna's claim that they always have.
+  confidence: high
+  limitations: The chapter does not name the creatures as Thestrals or explain the condition for seeing them.

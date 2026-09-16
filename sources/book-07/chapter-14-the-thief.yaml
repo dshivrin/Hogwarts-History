@@ -1,0 +1,334 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Fourteen - The Thief
+  chapter_start_pdf_page: 3202
+  chapter_end_pdf_page: 3215
+  boundary_confidence: high
+  boundary_notes: "Bounded from processing-state.yaml and extracted directly from inclusive PDF pages 3202-3215; no full-PDF scan was used."
+  processed_date: '2026-08-04'
+  processor_notes: "Created during the hogwarts-history automation run for the next pending source unit. No explicit Hogwarts: A History references were found."
+
+entries:
+  - id: dh-ch14-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Fourteen - The Thief
+    chapter_start_pdf_page: 3202
+    chapter_end_pdf_page: 3215
+    pdf_page: 3203
+    printed_page: null
+    extracted_text_lines: "31-65"
+    text_anchor:
+      start_phrase: "Splinched"
+      end_phrase: "cause more damage"
+      local_occurrence_note: "Hermione treats Ron's severe Apparition injury with Essence of Dittany after the Ministry escape."
+    nearby_context: "Ron is still changing back from Polyjuice when Hermione exposes the missing flesh and limits herself to emergency wound closure."
+    match_terms:
+      - Splinched
+      - Essence of Dittany
+      - Polyjuice Potion
+      - Apparition
+      - field healing
+    quote_excerpt_short: "Essence of Dittany"
+    source_note: "Severe Splinching can remove flesh during a hurried escape, and Essence of Dittany can close the wound enough for field survival while full healing remains risky."
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - splinching
+      - apparition
+      - dittany
+      - healing
+      - polyjuice-potion
+      - horcrux-hunt
+      - magical-transport
+    candidate_part: Magical Transportation and Student Restrictions
+    candidate_chapter: Apparition Training, Licensing, and Risks
+    candidate_section: Emergency treatment after Splinching
+    reason_for_placement: "The scene turns earlier classroom and licensing warnings about Splinching into observed wartime consequences."
+    relevance_to_hogwarts_a_history: "A later edition can use this as practical evidence for why Hogwarts Apparition instruction treats Splinching as a serious safety risk."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch06-001
+        - hbp-ch18-003
+        - hbp-ch22-001
+      notes: "Likely related to prior entries on Apparition licensing, lessons, testing, and Splinching risk; this entry adds severe field injury and Dittany treatment after an escape."
+    confidence: high
+    limitations: "The passage shows emergency care by Hermione, not formal Healer procedure or a complete cure."
+
+  - id: dh-ch14-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Fourteen - The Thief
+    chapter_start_pdf_page: 3202
+    chapter_end_pdf_page: 3215
+    pdf_page: 3204
+    printed_page: null
+    extracted_text_lines: "72-89; 304-314"
+    text_anchor:
+      start_phrase: "As we Disapparated, Yaxley caught hold of me"
+      end_phrase: "that had taken Yaxley to Grimmauld Place"
+      local_occurrence_note: "Hermione explains that Yaxley crossed inside the Fidelius protection during Side-Along travel, later prompting concern about Kreacher and elf Apparition."
+    nearby_context: "The trio accepts that Grimmauld Place is no longer usable and that Yaxley may bring other Death Eaters there."
+    match_terms:
+      - Yaxley
+      - Grimmauld Place
+      - Fidelius Charm
+      - Secret-Keepers
+      - Kreacher
+      - elfish Apparition
+    quote_excerpt_short: "I've given him the secret"
+    source_note: "The diluted Fidelius arrangement around Grimmauld Place can be compromised when a Secret-Keeper involuntarily carries an enemy inside the protected boundary during Apparition."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - fidelius
+      - grimmauld-place
+      - secret-keeper
+      - yaxley
+      - apparition
+      - kreacher
+      - safe-house
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Information Security and Secret Keeping
+    candidate_section: Fidelius breach through involuntary Side-Along entry
+    reason_for_placement: "The scene gives a concrete failure mode for a Secret-Keeper system after Dumbledore's death."
+    relevance_to_hogwarts_a_history: "A later edition can use this to explain why wartime safe houses and headquarters became unstable once protected secrets were distributed."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch06-002
+        - dh-ch09-006
+        - ootp-ch06-007
+        - ootp-ch37-004
+      notes: "Likely continuation of prior Grimmauld/Fidelius and Secret-Keeper entries; this entry adds the actual Yaxley breach and the concern that Kreacher could expose information under pursuit."
+    confidence: high
+    limitations: "Hermione infers the legal-magical consequence immediately after the escape; the chapter does not show Yaxley inside the house."
+
+  - id: dh-ch14-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Fourteen - The Thief
+    chapter_start_pdf_page: 3202
+    chapter_end_pdf_page: 3215
+    pdf_page: 3206
+    printed_page: null
+    extracted_text_lines: "123-152; 245-259"
+    text_anchor:
+      start_phrase: "we should put some protective enchantments"
+      end_phrase: "their protected clearing"
+      local_occurrence_note: "Hermione casts layered camp protections and the trio later keeps watch with the Sneakoscope silent."
+    nearby_context: "The protected clearing is in the old Quidditch World Cup woods after the trio abandons Grimmauld Place."
+    match_terms:
+      - Salvio Hexia
+      - Protego Totalum
+      - Repello Muggletum
+      - Muffliato
+      - Cave Inimicum
+      - Sneakoscope
+    quote_excerpt_short: "Salvio Hexia . . . Protego Totalum"
+    source_note: "A mobile wartime camp can be protected with layered charms for concealment, warning, sound masking, Muggle repelling, and lookout support from a Sneakoscope."
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - protective-enchantments
+      - campsite
+      - muggle-repelling
+      - muffliato
+      - sneakoscope
+      - horcrux-hunt
+      - wards
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Mobile Wards and Field Concealment
+    candidate_section: Campsite protections during the Horcrux hunt
+    reason_for_placement: "The scene provides a rare named cluster of practical defensive charms outside a fixed building."
+    relevance_to_hogwarts_a_history: "A later edition can contrast Hogwarts' permanent protections with portable wartime protections used by former students."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate queries found general safe-house, Hogwarts concealment, and Dark Detector entries, but no prior entry for this mobile campsite ward cluster."
+    confidence: high
+    limitations: "Hermione cannot guarantee that the protections will keep Voldemort out, so their strength is uncertain."
+
+  - id: dh-ch14-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Fourteen - The Thief
+    chapter_start_pdf_page: 3202
+    chapter_end_pdf_page: 3215
+    pdf_page: 3206
+    printed_page: null
+    extracted_text_lines: "132-148; 168-175"
+    text_anchor:
+      start_phrase: "Tent?"
+      end_phrase: "pulling kettle and mugs from the depths of her bag"
+      local_occurrence_note: "Harry retrieves Perkins's old World Cup tent from Hermione's bag, Hermione erects it, and the interior functions like a small flat."
+    nearby_context: "The tent had previously been used at the Quidditch World Cup and is now repurposed as emergency lodging."
+    match_terms:
+      - tent
+      - Erecto
+      - Perkins
+      - Ministry
+      - beaded bag
+      - tiny kitchen
+    quote_excerpt_short: "a small flat, complete with bathroom"
+    source_note: "Wizarding tents can combine ordinary canvas setup with enlarged domestic interiors, and a borrowed Ministry employee's tent becomes portable lodging for the fugitives."
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - expanded-tent
+      - magical-lodging
+      - beaded-bag
+      - erecto
+      - ministry-of-magic
+      - world-cup
+      - horcrux-hunt
+    candidate_part: Magical Architecture and Domestic Space
+    candidate_chapter: Expanded Interiors and Temporary Lodgings
+    candidate_section: Wizarding tents as portable flats
+    reason_for_placement: "The evidence shows domestic-scale magical architecture in a field object rather than a permanent building."
+    relevance_to_hogwarts_a_history: "This supports discussion of space-expansion magic familiar to Hogwarts families and alumni outside the castle."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Targeted duplicate query for expanded tents and World Cup lodging returned no matches."
+    confidence: high
+    limitations: "The passage does not specify the spell that creates the enlarged interior or whether Perkins's tent is typical."
+
+  - id: dh-ch14-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Fourteen - The Thief
+    chapter_start_pdf_page: 3202
+    chapter_end_pdf_page: 3215
+    pdf_page: 3206
+    printed_page: null
+    extracted_text_lines: "149-163; 360-366"
+    text_anchor:
+      start_phrase: "Don't say the name!"
+      end_phrase: "You-Know-Who's mind"
+      local_occurrence_note: "Ron twice interrupts use of Voldemort's name and describes the name as feeling like a jinx."
+    nearby_context: "The warning comes immediately after the Ministry escape and before the trio fully understands the wartime Taboo on Voldemort's name."
+    match_terms:
+      - Voldemort
+      - You-Know-Who
+      - name
+      - jinx
+      - Ron
+    quote_excerpt_short: "it feels like a - a jinx"
+    source_note: "Ron treats speaking Voldemort's name as magically unsafe before the trio knows the formal mechanism, foreshadowing wartime speech-based tracking."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - voldemort-name
+      - taboo
+      - speech-magic
+      - jinx
+      - wartime-security
+      - you-know-who
+      - second-war
+    candidate_part: Wars, Crises, and School Memory
+    candidate_chapter: Wartime Security and Communication
+    candidate_section: Dangerous names and speech-based tracking
+    reason_for_placement: "The exchange records ordinary wizarding fear of a name becoming operational security practice."
+    relevance_to_hogwarts_a_history: "A later edition can use this as an early field sign of the Second War's speech restrictions and cultural shift away from Dumbledore's naming principle."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Targeted duplicate query for Voldemort-name Taboo evidence returned no matches."
+    confidence: medium
+    limitations: "The chapter does not yet explain the Taboo; the interpretation as speech tracking depends on later confirmation."
+
+  - id: dh-ch14-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Fourteen - The Thief
+    chapter_start_pdf_page: 3202
+    chapter_end_pdf_page: 3215
+    pdf_page: 3208
+    printed_page: null
+    extracted_text_lines: "201-243; 280-287"
+    text_anchor:
+      start_phrase: "Where's the locket?"
+      end_phrase: "the tiny heartbeat ticking"
+      local_occurrence_note: "The trio inspect Slytherin's locket, fail to open it, and Harry wears it for safekeeping."
+    nearby_context: "Hermione reasons that a destroyed Horcrux would show damage, while Harry remembers the diary and ring remnants."
+    match_terms:
+      - locket
+      - Horcrux
+      - S
+      - magically destroyed
+      - diary
+      - ring
+    quote_excerpt_short: "something beating inside the locket"
+    source_note: "Slytherin's locket remains apparently undamaged, resists ordinary opening and a prior unlocking charm, and feels active when carried against the body."
+    reference_type: magical_architecture
+    era_classification: later_editorial_note
+    topic_tags:
+      - slytherin-locket
+      - horcrux
+      - magical-artifacts
+      - regulus-black
+      - horcrux-destruction
+      - dark-magic
+      - second-war
+    candidate_part: Magical Artefacts and Everyday Objects
+    candidate_chapter: Founder Relics and Later Dark Uses
+    candidate_section: Slytherin's locket as an active Horcrux
+    reason_for_placement: "The evidence connects a founder-associated relic to later dark enchantment, physical handling, and destruction constraints."
+    relevance_to_hogwarts_a_history: "A later edition can treat this as post-1984 evidence about how a founder relic survived into the Second War as a Horcrux."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch10-007
+      notes: "Likely continuation of dh-ch10-007, which records Regulus and Kreacher's locket exchange; this entry adds the recovered object's condition, resistance to opening, and active physical effect."
+    confidence: high
+    limitations: "The chapter confirms the locket's behavior but not the eventual means of destruction."
+
+  - id: dh-ch14-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Fourteen - The Thief
+    chapter_start_pdf_page: 3202
+    chapter_end_pdf_page: 3215
+    pdf_page: 3211
+    printed_page: null
+    extracted_text_lines: "322-351; 376-431"
+    text_anchor:
+      start_phrase: "Give it to me, Gregorovitch"
+      end_phrase: "which had been stolen by the unknown thief"
+      local_occurrence_note: "Harry's scar vision shows Voldemort interrogating Gregorovitch, entering his memory of a theft, and killing him."
+    nearby_context: "Harry and Ron initially expect a wandmaking solution, but Harry notices Voldemort did not ask about twin cores or a new wand."
+    match_terms:
+      - Gregorovitch
+      - thief
+      - Stunning Spell
+      - wandmaker
+      - Voldemort
+      - memory
+    quote_excerpt_short: "It was, many years ago, stolen from me!"
+    source_note: "Voldemort's pursuit shifts from merely finding Gregorovitch to recovering an object stolen years earlier by a golden-haired thief preserved in the wandmaker's memory."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - gregorovitch
+      - wand-lore
+      - voldemort
+      - scar-connection
+      - memory
+      - thief
+      - elder-wand
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Wands, Equipment, and Magical Materials
+    candidate_section: Gregorovitch's stolen object and Voldemort's search
+    reason_for_placement: "The scene is a key transition from general wandmaker evidence to the historical chain behind a stolen wandlike object."
+    relevance_to_hogwarts_a_history: "A later edition can use this as evidence for how pre-Harry wand history and Voldemort's wartime search intersect with Hogwarts-era events."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch08-003
+        - dh-ch12-005
+      notes: "Likely continuation of prior Gregorovitch entries: dh-ch08-003 establishes his wandmaker reputation, and dh-ch12-005 records Voldemort's search; this entry adds the stolen object memory and Gregorovitch's death."
+    confidence: high
+    limitations: "This chapter does not identify the thief by name or the stolen object as the Elder Wand; those labels are later-context indexing terms."

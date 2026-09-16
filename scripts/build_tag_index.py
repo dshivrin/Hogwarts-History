@@ -9,6 +9,11 @@ from pathlib import Path
 
 import yaml
 
+try:
+    from scripts.source_files import discover_source_yaml
+except ModuleNotFoundError:  # Direct script execution.
+    from source_files import discover_source_yaml
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_DIR = ROOT / "sources"
@@ -31,7 +36,7 @@ def build_index() -> dict:
         }
     )
 
-    for path in sorted(SOURCES_DIR.glob("book-*/*.yaml")):
+    for path in discover_source_yaml(ROOT):
         data = load_yaml(path)
         entries = data.get("entries") or []
         if not isinstance(entries, list):

@@ -1,0 +1,535 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A09
+  source_file: resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md
+  title: The Great Lake
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake
+  capture_completeness: complete
+  content_sha256: 93b8f7c536b449bb8ed35f3dab24307fede43c3e5ea05da07a8a0dd1a685cf9e
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and evidence extracted.
+
+entries:
+  - id: ext-a09-001
+    source_file: resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md
+    source_id: A09
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake
+    source_section: The Great Lake
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The grounds of Hogwarts function partly as a nature reserve
+      end_phrase: Muggle-inhabited areas.
+      local_occurrence_note: Opening paragraph, first sentence.
+    nearby_context: Rowling introduces the Hogwarts grounds before describing the lake's inhabitants.
+    match_terms:
+      - hogwarts grounds
+      - nature reserve
+      - magical creatures
+    quote_excerpt_short: The grounds of Hogwarts function partly as a nature reserve for magical creatures which have difficulty existing in Muggle-inhabited areas.
+    source_note: Hogwarts grounds partly function as a reserve for magical creatures that struggle to live in Muggle-inhabited areas.
+    reference_type: direct_observed_setting
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - great-lake
+      - hogwarts-grounds
+      - magical-creatures
+      - nature-reserve
+    candidate_part: 'Part I: The Castle and Its Grounds'
+    candidate_chapter: The Grounds and the Great Lake
+    candidate_section: Grounds ecology and creature refuge
+    reason_for_placement: It establishes the Great Lake and surrounding grounds as a managed ecological part of Hogwarts.
+    relevance_to_hogwarts_a_history: Useful setting evidence for a section on the grounds, while its description is a post-1984 Rowling account of the Harry-era school.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries concern other creatures or transport and do not state the grounds' reserve function.
+      audit:
+        query_tags:
+          - great-lake
+          - hogwarts-grounds
+          - magical-creatures
+          - nature-reserve
+        candidates:
+          - id: gof-ch19-005
+            disposition: corroborating
+          - id: cos-ch05-003
+            disposition: distinct
+          - id: cos-ch08-003
+            disposition: distinct
+          - id: dh-ch11-005
+            disposition: distinct
+          - id: dh-ch12-007
+            disposition: distinct
+          - id: dh-ch20-006
+            disposition: distinct
+          - id: dh-ch27-001
+            disposition: distinct
+          - id: ext-a04-001
+            disposition: distinct
+          - id: gof-ch04-003
+            disposition: distinct
+          - id: gof-ch08-006
+            disposition: distinct
+    confidence: high
+    limitations: This is a Rowling descriptive statement published in 2015; it does not specify the reserve's legal status, staff, or historical start date.
+
+  - id: ext-a09-002
+    source_file: resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md
+    source_id: A09
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake
+    source_section: The Great Lake
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: There are Grindylows
+      end_phrase: water demons)
+      local_occurrence_note: Opening paragraph, first creature named in the lake inventory.
+    nearby_context: The lake's creature inventory names Grindylows before merpeople and the giant squid.
+    match_terms:
+      - Grindylows
+      - water demons
+      - Great Lake
+    quote_excerpt_short: There are Grindylows (vicious little water demons)
+    source_note: The Great Lake contains Grindylows, characterized here as vicious small water demons.
+    reference_type: direct_observed_setting
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - great-lake
+      - grindylows
+      - magical-creatures
+      - water-demons
+    candidate_part: 'Part I: The Castle and Its Grounds'
+    candidate_chapter: The Grounds and the Great Lake
+    candidate_section: Lake ecology and dangerous residents
+    reason_for_placement: It supplies an explicit description of a dangerous creature inhabiting the school lake.
+    relevance_to_hogwarts_a_history: Supports a concise account of the lake's hazardous magical ecology during the Harry era.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The Second Task entry independently observes Grindylow habitat but does not duplicate this characterization.
+      audit:
+        query_tags:
+          - great-lake
+          - grindylows
+          - magical-creatures
+          - water-demons
+        candidates:
+          - id: gof-ch26-006
+            disposition: corroborating
+          - id: cos-ch08-003
+            disposition: distinct
+          - id: dh-ch11-005
+            disposition: distinct
+          - id: dh-ch12-007
+            disposition: distinct
+          - id: dh-ch20-006
+            disposition: distinct
+          - id: dh-ch27-001
+            disposition: distinct
+          - id: gof-ch08-006
+            disposition: distinct
+          - id: gof-ch09-005
+            disposition: distinct
+          - id: gof-ch19-005
+            disposition: distinct
+          - id: gof-ch20-001
+            disposition: distinct
+    confidence: high
+    limitations: The source provides a compact descriptive label rather than a taxonomy, population estimate, or account of Grindylow behavior at Hogwarts.
+
+  - id: ext-a09-003
+    source_file: resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md
+    source_id: A09
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake
+    source_section: The Great Lake
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: merpeople (of a hardy Scottish strain)
+      end_phrase: a giant squid
+      local_occurrence_note: Opening paragraph, middle of the lake creature inventory.
+    nearby_context: Rowling lists merpeople among the magical creatures living in the lake.
+    match_terms:
+      - merpeople
+      - Scottish strain
+      - Great Lake
+    quote_excerpt_short: merpeople (of a hardy Scottish strain)
+    source_note: The lake's merpeople are identified as a hardy Scottish strain.
+    reference_type: direct_observed_setting
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - great-lake
+      - magical-creatures
+      - merpeople
+      - scottish-strain
+    candidate_part: 'Part I: The Castle and Its Grounds'
+    candidate_chapter: The Grounds and the Great Lake
+    candidate_section: Lake ecology and merpeople
+    reason_for_placement: It gives a specific identification of the merpeople associated with Hogwarts lake.
+    relevance_to_hogwarts_a_history: Adds official descriptive evidence for a section on the lake's non-human residents.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed Second Task entry corroborates merpeople in the Hogwarts lake but not their Scottish strain.
+      audit:
+        query_tags:
+          - great-lake
+          - magical-creatures
+          - merpeople
+          - scottish-strain
+        candidates:
+          - id: cos-ch08-003
+            disposition: distinct
+          - id: dh-ch11-005
+            disposition: distinct
+          - id: dh-ch12-007
+            disposition: distinct
+          - id: dh-ch20-006
+            disposition: distinct
+          - id: dh-ch27-001
+            disposition: distinct
+          - id: gof-ch08-006
+            disposition: distinct
+          - id: gof-ch09-005
+            disposition: distinct
+          - id: gof-ch19-005
+            disposition: distinct
+          - id: gof-ch20-001
+            disposition: distinct
+          - id: gof-ch25-003
+            disposition: corroborating
+    confidence: high
+    limitations: The source calls them a Scottish strain but supplies no name for their settlement, language, governance, or period of residence.
+
+  - id: ext-a09-004
+    source_file: resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md
+    source_id: A09
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake
+    source_section: The Great Lake
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: and a giant squid, which is semi-domesticated
+      end_phrase: basks in the shallows.
+      local_occurrence_note: Opening paragraph, final creature in the lake inventory.
+    nearby_context: The giant squid is described after the Grindylows and merpeople.
+    match_terms:
+      - giant squid
+      - semi-domesticated
+      - students
+    quote_excerpt_short: a giant squid, which is semi-domesticated
+    source_note: A semi-domesticated giant squid lives in the lake and permits students to tickle its tentacles while it basks in the shallows on sunny days.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - giant-squid
+      - great-lake
+      - magical-creatures
+      - student-custom
+    candidate_part: 'Part I: The Castle and Its Grounds'
+    candidate_chapter: The Grounds and the Great Lake
+    candidate_section: Lake ecology and student contact
+    reason_for_placement: It records a distinctive recurring form of student interaction with a lake resident.
+    relevance_to_hogwarts_a_history: Useful for describing the Great Lake as both dangerous habitat and familiar school landscape during the Harry era.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The Durmstrang entry mentions the giant squid only in connection with lake mooring, not its relationship with students.
+      audit:
+        query_tags:
+          - giant-squid
+          - great-lake
+          - magical-creatures
+          - student-custom
+        candidates:
+          - id: cos-ch08-003
+            disposition: distinct
+          - id: dh-ch11-005
+            disposition: distinct
+          - id: dh-ch12-007
+            disposition: distinct
+          - id: dh-ch20-006
+            disposition: distinct
+          - id: dh-ch27-001
+            disposition: distinct
+          - id: gof-ch08-006
+            disposition: distinct
+          - id: gof-ch09-005
+            disposition: distinct
+          - id: gof-ch19-005
+            disposition: distinct
+          - id: gof-ch20-001
+            disposition: distinct
+          - id: gof-ch24-005
+            disposition: corroborating
+    confidence: high
+    limitations: The source does not establish how often students interact with the squid, whether the practice is supervised, or whether it is an authorized custom.
+
+  - id: ext-a09-005
+    source_file: resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md
+    source_id: A09
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The lake is the setting for the second task
+      end_phrase: favourite task.
+      local_occurrence_note: First sentence of the Author’s note.
+    nearby_context: Rowling identifies the lake's role in Goblet of Fire before discussing draft revisions.
+    match_terms:
+      - Triwizard Tournament
+      - second task
+      - Great Lake
+    quote_excerpt_short: The lake is the setting for the second task that the Triwizard competitors must face in *Goblet of Fire*
+    source_note: In Goblet of Fire, the Great Lake is the setting for the Triwizard Tournament's second task.
+    reference_type: historical_claim
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - great-lake
+      - second-task
+      - triwizard-tournament
+    candidate_part: 'Part I: The Castle and Its Grounds'
+    candidate_chapter: The Grounds and the Great Lake
+    candidate_section: The lake as tournament venue
+    reason_for_placement: It links a major school landscape to a documented interschool event.
+    relevance_to_hogwarts_a_history: Can frame the lake's exceptional public use during the 1994–95 Triwizard Tournament, with narrative evidence retained separately.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries provide independent event logistics and preparation; this is Rowling's direct placement statement.
+      audit:
+        query_tags:
+          - great-lake
+          - second-task
+          - triwizard-tournament
+        candidates:
+          - id: gof-ch20-007
+            disposition: corroborating
+          - id: gof-ch21-001
+            disposition: corroborating
+          - id: gof-ch22-006
+            disposition: corroborating
+          - id: gof-ch23-007
+            disposition: corroborating
+          - id: gof-ch24-006
+            disposition: corroborating
+          - id: gof-ch25-003
+            disposition: corroborating
+          - id: gof-ch26-005
+            disposition: corroborating
+          - id: gof-ch27-001
+            disposition: corroborating
+          - id: gof-ch07-007
+            disposition: corroborating
+          - id: gof-ch11-003
+            disposition: corroborating
+    confidence: high
+    limitations: This relates to a specific 1994–95 event and does not show that the lake was routinely used as a public arena.
+
+  - id: ext-a09-006
+    source_file: resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md
+    source_id: A09
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: In the original draft of *Chamber of Secrets*, I had Harry and Ron
+      end_phrase: at this stage.
+      local_occurrence_note: Author’s note paragraph on a discarded Chamber of Secrets scene.
+    nearby_context: Rowling explains that an early draft had Harry and Ron crash into the lake and meet merpeople, before she chose the Whomping Willow crash instead.
+    match_terms:
+      - Chamber of Secrets
+      - original draft
+      - Ford Anglia
+    quote_excerpt_short: I had Harry and Ron crash into the lake in Mr Weasley’s Ford Anglia
+    source_note: An original Chamber of Secrets draft would have had Harry and Ron crash the Ford Anglia into the lake and first meet merpeople there; Rowling replaced that scene with the Whomping Willow crash.
+    reference_type: weak_context_only
+    era_classification: later_editorial_note
+    topic_tags:
+      - chamber-of-secrets
+      - great-lake
+      - merpeople
+      - original-draft
+    candidate_part: 'Part I: The Castle and Its Grounds'
+    candidate_chapter: The Grounds and the Great Lake
+    candidate_section: Authorial development note
+    reason_for_placement: It is useful editorial context about the lake's development in Rowling's drafts, rather than in-universe history.
+    relevance_to_hogwarts_a_history: Preserve only as a clearly labeled editorial note; it must not be presented as an event in Hogwarts history.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed Chamber entries concern in-universe plot and institutional history, not discarded authorial material.
+      audit:
+        query_tags:
+          - chamber-of-secrets
+          - great-lake
+          - merpeople
+          - original-draft
+        candidates:
+          - id: cos-ch02-002
+            disposition: distinct
+          - id: cos-ch07-006
+            disposition: distinct
+          - id: cos-ch08-006
+            disposition: distinct
+          - id: cos-ch09-001
+            disposition: distinct
+          - id: cos-ch09-002
+            disposition: distinct
+          - id: cos-ch09-005
+            disposition: distinct
+          - id: cos-ch09-006
+            disposition: distinct
+          - id: cos-ch10-006
+            disposition: distinct
+          - id: cos-ch11-006
+            disposition: distinct
+          - id: cos-ch12-007
+            disposition: distinct
+    confidence: high
+    limitations: This is retrospective authorial drafting commentary, not canonical evidence that the discarded crash or first meeting occurred.
+
+  - id: ext-a09-007
+    source_file: resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md
+    source_id: A09
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The Great Lake (which is really a Scottish loch
+      end_phrase: other waterways.
+      local_occurrence_note: Author’s note paragraph after the discarded-draft discussion.
+    nearby_context: Rowling describes the lake's intended geography and contrasts a rejected portal idea with the Durmstrang ship's magical implication.
+    match_terms:
+      - Scottish loch
+      - magical shortcut
+      - Durmstrang ship
+    quote_excerpt_short: never did develop as a portal to other seas or rivers
+    source_note: The Great Lake is presented as a freshwater, landlocked Scottish loch rather than a portal, although an enchanted craft might take a magical shortcut to other waterways.
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - durmstrang
+      - great-lake
+      - magical-transport
+      - waterways
+    candidate_part: 'Part I: The Castle and Its Grounds'
+    candidate_chapter: The Grounds and the Great Lake
+    candidate_section: Lake geography and enchanted water travel
+    reason_for_placement: It provides Rowling's geographical clarification and a qualified note about enchanted transport.
+    relevance_to_hogwarts_a_history: Useful with careful wording for a geography section; the transport possibility is expressly speculative and should not be stated as established infrastructure.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Returned transport and Durmstrang entries do not state this geographical clarification or confirm a shortcut route.
+      audit:
+        query_tags:
+          - durmstrang
+          - great-lake
+          - magical-transport
+          - waterways
+        candidates:
+          - id: dh-ch04-001
+            disposition: distinct
+          - id: dh-ch04-004
+            disposition: distinct
+          - id: dh-ch05-002
+            disposition: distinct
+          - id: dh-ch08-002
+            disposition: distinct
+          - id: dh-ch10-006
+            disposition: distinct
+          - id: dh-ch12-003
+            disposition: distinct
+          - id: dh-ch14-001
+            disposition: distinct
+          - id: dh-ch18-005
+            disposition: distinct
+          - id: dh-ch23-005
+            disposition: distinct
+          - id: ext-a04-001
+            disposition: distinct
+    confidence: medium
+    limitations: The freshwater and landlocked description is authorial commentary, while the shortcut is explicitly framed as a possibility inferred from the Durmstrang ship.
+
+  - id: ext-a09-008
+    source_file: resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md
+    source_id: A09
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Giant squid genuinely exist
+      end_phrase: magical powers.
+      local_occurrence_note: Final paragraph of the Author’s note.
+    nearby_context: Rowling compares real-world giant squid with the magical giant squid of the Hogwarts lake.
+    match_terms:
+      - giant squid
+      - Muggles
+      - magical powers
+    quote_excerpt_short: I strongly suspect them of having magical powers.
+    source_note: Rowling notes that real giant squid exist and humorously speculates that they have magical powers.
+    reference_type: weak_context_only
+    era_classification: later_editorial_note
+    topic_tags:
+      - giant-squid
+      - magical-creatures
+      - magical-powers
+      - muggles
+    candidate_part: 'Part I: The Castle and Its Grounds'
+    candidate_chapter: The Grounds and the Great Lake
+    candidate_section: Authorial creature note
+    reason_for_placement: It is ancillary authorial context for the source of the lake's giant-squid imagery.
+    relevance_to_hogwarts_a_history: At most a labeled editorial sidebar; it does not establish a fact about Hogwarts or the lake's resident squid.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Returned entries discuss other creatures, Muggles, or magical powers and do not duplicate the author's real-world comparison.
+      audit:
+        query_tags:
+          - giant-squid
+          - magical-creatures
+          - magical-powers
+          - muggles
+        candidates:
+          - id: beedle-ch04-004
+            disposition: distinct
+          - id: cos-ch08-003
+            disposition: distinct
+          - id: dh-ch11-005
+            disposition: distinct
+          - id: dh-ch12-006
+            disposition: distinct
+          - id: dh-ch12-007
+            disposition: distinct
+          - id: dh-ch20-006
+            disposition: distinct
+          - id: dh-ch27-001
+            disposition: distinct
+          - id: gof-ch08-006
+            disposition: distinct
+          - id: gof-ch09-005
+            disposition: distinct
+          - id: gof-ch19-005
+            disposition: distinct
+    confidence: high
+    limitations: The statement about magical powers is expressly Rowling's playful suspicion, not a substantiated claim about real animals or Hogwarts.

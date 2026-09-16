@@ -1,0 +1,209 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: "B24"
+  source_file: "resources/external/interviews/accio-quote/b24-bbc-harry-potter-and-me.md"
+  title: "\"Harry Potter and Me\" (BBC Christmas Special, British version), BBC , 28 December 2001"
+  author: "J.K. Rowling"
+  source_site: "Accio Quote"
+  original_publisher: "BBC"
+  source_class: "preservation_transcription"
+  authority: "D"
+  publication_date: "28 December 2001"
+  original_url: null
+  retrieval_url: "https://www.accio-quote.org/articles/2001/1201-bbc-hpandme.htm"
+  retrieved_at: "2026-08-15"
+  archive_url: null
+  carrier_type: "preservation_transcript"
+  is_primary: false
+  is_official: false
+  capture_completeness: "complete"
+  content_sha256: "b5c52ac9f8f93283e65a63073dbcaa6dd650cd11baf25304bb744e633a887ae1"
+  local_path: "resources/external/interviews/accio-quote/b24-bbc-harry-potter-and-me.md"
+  relevance:
+    - "hogwarts"
+    - "rowling_interview"
+    - "author_commentary"
+  notes: "Accio Quote preservation carrier; original outlet: BBC."
+  processed_date: "2026-08-24"
+  processor_notes: "Complete snapshot read. Retained only post-1984 authorial commentary, explicitly excluded from original historical evidence."
+
+entries:
+  - id: ext-b24-001
+    source_file: "resources/external/interviews/accio-quote/b24-bbc-harry-potter-and-me.md"
+    source_id: "B24"
+    source_url: "https://www.accio-quote.org/articles/2001/1201-bbc-hpandme.htm"
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "I wrote Platform 9 3/4 when I was living in Manchester"
+      end_phrase: "I was in Manchester, I couldn't check."
+      local_occurrence_note: "Early train-and-King's-Cross discussion, immediately after the platform-barrier excerpt."
+    nearby_context: "Rowling explains the real-world visual origin of the King's Cross platform scene."
+    match_terms:
+      - "Platform 9 3/4"
+      - "King's Cross"
+      - "Euston"
+    quote_excerpt_short: "I wrongly visualized the platforms, and I was actually thinking of Euston."
+    source_note: "Rowling says her Platform 9 3/4 visualization mistakenly used Euston's platforms while she was living in Manchester."
+    reference_type: cross_reference_candidate
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - "platform-nine-and-three-quarters"
+      - "kings-cross-station"
+      - "authorial-inspiration"
+    candidate_part: "Editorial apparatus"
+    candidate_chapter: "Authorial commentary and source provenance"
+    candidate_section: "Platform Nine and Three-Quarters creation note"
+    reason_for_placement: "This is a creation-history correction, not an in-universe historical fact."
+    relevance_to_hogwarts_a_history: "May support a clearly separated editorial note on the fictional platform's visual conception; excluded from the pre-1984 historical narrative."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - "platform-nine-and-three-quarters"
+          - "kings-cross-station"
+          - "authorial-inspiration"
+        candidates:
+          - id: cos-ch05-001
+            disposition: distinct
+          - id: dh-ch33-004
+            disposition: distinct
+          - id: ext-a19-002
+            disposition: distinct
+          - id: ext-b18-003
+            disposition: distinct
+          - id: gof-ch11-002
+            disposition: distinct
+          - id: hbp-ch07-001
+            disposition: distinct
+          - id: ootp-ch10-001
+            disposition: distinct
+          - id: poa-ch01-005
+            disposition: distinct
+          - id: poa-ch05-001
+            disposition: distinct
+          - id: ps-ch06-001
+            disposition: distinct
+    confidence: medium
+    limitations: "A 2001 preservation transcript records retrospective author commentary; it does not establish the in-universe platform's history."
+
+  - id: ext-b24-002
+    source_file: "resources/external/interviews/accio-quote/b24-bbc-harry-potter-and-me.md"
+    source_id: "B24"
+    source_url: "https://www.accio-quote.org/articles/2001/1201-bbc-hpandme.htm"
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "JKR: Memories of this time definitely created the dementors."
+      end_phrase: "I still think they are the most frightening thing I've written."
+      local_occurrence_note: "Edinburgh-apartment discussion, immediately following the account of the difficult 1993 period."
+    nearby_context: "Rowling connects her difficult personal period in Edinburgh with the conception of dementors."
+    match_terms:
+      - "dementors"
+      - "depression"
+      - "Edinburgh"
+    quote_excerpt_short: "They are kind of depression personified."
+    source_note: "Rowling describes dementors as personified depression and connects their creation to her difficult Edinburgh period."
+    reference_type: cross_reference_candidate
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - "dementors"
+      - "authorial-inspiration"
+      - "post-1984"
+    candidate_part: "Editorial apparatus"
+    candidate_chapter: "Authorial commentary and source provenance"
+    candidate_section: "Dementor creation note"
+    reason_for_placement: "This supplies authorial interpretation of a fictional creature, not historical evidence about Hogwarts before 1984."
+    relevance_to_hogwarts_a_history: "May be used only as a labeled authorial note; it is excluded from the pre-1984 historical narrative."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - "dementors"
+          - "authorial-inspiration"
+          - "post-1984"
+        candidates:
+          - id: dh-ch03-003
+            disposition: distinct
+          - id: dh-ch13-006
+            disposition: distinct
+          - id: dh-ch28-001
+            disposition: distinct
+          - id: dh-ch28-006
+            disposition: distinct
+          - id: dh-ch29-001
+            disposition: distinct
+          - id: dh-ch32-004
+            disposition: distinct
+          - id: dh-ch34-005
+            disposition: distinct
+          - id: gof-ch02-006
+            disposition: distinct
+          - id: gof-ch14-004
+            disposition: distinct
+          - id: gof-ch30-003
+            disposition: distinct
+    confidence: medium
+    limitations: "The claim is retrospective author commentary in a preservation transcript and has no pre-1984 in-universe date."
+
+  - id: ext-b24-003
+    source_file: "resources/external/interviews/accio-quote/b24-bbc-harry-potter-and-me.md"
+    source_id: "B24"
+    source_url: "https://www.accio-quote.org/articles/2001/1201-bbc-hpandme.htm"
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "The Mirror of Erised is absolutely entirely drawn from my own experience"
+      end_phrase: "It'll never be enough."
+      local_occurrence_note: "Late personal-bereavement discussion, directly before the Mirror of Erised film excerpt."
+    nearby_context: "Rowling discusses her mother's death and relates it to the emotional basis of the Mirror of Erised scene."
+    match_terms:
+      - "mirror-of-erised"
+      - "bereavement"
+      - "authorial-inspiration"
+    quote_excerpt_short: "The Mirror of Erised is absolutely entirely drawn from my own experience of losing a parent."
+    source_note: "Rowling says her own loss of a parent informed the Mirror of Erised's emotional premise."
+    reference_type: cross_reference_candidate
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - "mirror-of-erised"
+      - "bereavement"
+      - "authorial-inspiration"
+    candidate_part: "Editorial apparatus"
+    candidate_chapter: "Authorial commentary and source provenance"
+    candidate_section: "Mirror of Erised creation note"
+    reason_for_placement: "This is authorial creative context, not a claim about the Mirror's in-universe history or a pre-1984 event."
+    relevance_to_hogwarts_a_history: "May support a clearly marked editorial annotation; excluded from the pre-1984 historical narrative."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - "mirror-of-erised"
+          - "bereavement"
+          - "authorial-inspiration"
+        candidates:
+          - id: ext-a14-001
+            disposition: distinct
+          - id: ext-a14-003
+            disposition: distinct
+          - id: ext-a14-004
+            disposition: distinct
+          - id: ext-a14-005
+            disposition: distinct
+          - id: ps-ch12-006
+            disposition: distinct
+          - id: ps-ch17-002
+            disposition: distinct
+          - id: ps-ch17-003
+            disposition: distinct
+    confidence: medium
+    limitations: "A retrospective preservation transcript records creative inspiration, not independent evidence for the Mirror's in-universe history."

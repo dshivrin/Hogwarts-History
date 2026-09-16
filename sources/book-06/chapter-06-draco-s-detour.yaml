@@ -1,0 +1,333 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Six - Draco's Detour
+  chapter_start_pdf_page: 2503
+  chapter_end_pdf_page: 2522
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used processing-state anchors for Chapter Six, pages 2503-2522, with Chapter Seven anchored to start at page 2523.
+  processed_date: '2026-07-18'
+  processor_notes: "Extracted with pypdf via scripts/extract_pages.py using only the anchored page range; no explicit Hogwarts: A History citation appears in this chapter."
+
+entries:
+  - id: hbp-ch06-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Six - Draco's Detour
+    chapter_start_pdf_page: 2503
+    chapter_end_pdf_page: 2522
+    pdf_page: 2504
+    printed_page: null
+    extracted_text_lines: 48-55; 57-73
+    text_anchor:
+      start_phrase: their letters and booklists arrived from Hogwarts
+      end_phrase: returning to Hogwarts as well
+      local_occurrence_note: Hogwarts letters and booklists arrive after Harry's birthday, including his Quidditch Captain badge and implied return-to-school permissions.
+    nearby_context: The family discusses Diagon Alley safety, Ron's booklist, and Mrs. Weasley's anxiety about whether students are mature enough to shop or return to school during the Second War.
+    match_terms:
+      - Hogwarts letters
+      - booklists
+      - Quidditch Captain
+      - prefects
+      - special bathroom
+      - returning to Hogwarts
+    quote_excerpt_short: "equal status with prefects"
+    source_note: Hogwarts continues sending summer letters and booklists, and Harry's appointment as Quidditch Captain gives him badge-marked authority comparable to prefect privileges.
+    reference_type: institutional_custom
+    era_classification: later_editorial_note
+    topic_tags:
+      - school-letters
+      - booklists
+      - quidditch-captain
+      - prefect-status
+      - student-leadership
+      - school-return
+      - sixth-year
+    candidate_part: Ceremonies and School Traditions
+    candidate_chapter: Student Offices, Prefects, and House Teams
+    candidate_section: Quidditch Captain status and summer appointment letters
+    reason_for_placement: The passage links official pre-term correspondence to a named student leadership office and the privileges associated with prefect-level status.
+    relevance_to_hogwarts_a_history: A later edition can use this as evidence for how leadership appointments were communicated before term and how Quidditch captaincy ranked within student status.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - poa-ch01-005
+        - gof-ch06-004
+      notes: poa-ch01-005 records annual letters and booklist enclosures, while gof-ch06-004 records another House Quidditch captain; this entry adds Harry's captain appointment and explicit prefect-status comparison.
+    confidence: high
+    limitations: The passage does not show the full letter text, appointing authority, or complete list of captain privileges.
+
+  - id: hbp-ch06-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Six - Draco's Detour
+    chapter_start_pdf_page: 2503
+    chapter_end_pdf_page: 2522
+    pdf_page: 2507
+    printed_page: null
+    extracted_text_lines: 144-185
+    text_anchor:
+      start_phrase: Diagon Alley had changed
+      end_phrase: Nobody seemed to be shopping alone
+      local_occurrence_note: Harry observes Diagon Alley after entering through the Leaky Cauldron with Hagrid and the Weasleys.
+    nearby_context: Ministry posters cover shop displays, Bellatrix Lestrange's wanted image is visible, Fortescue's windows are boarded, and shabby amulet stalls exploit public fear.
+    match_terms:
+      - Diagon Alley
+      - Ministry posters
+      - Death Eaters
+      - Florean Fortescue
+      - amulets
+      - shopping alone
+    quote_excerpt_short: "Diagon Alley had changed"
+    source_note: The school supply district shows Second War disruption through Ministry security posters, wanted photographs, boarded shops, fraudulent-looking protective amulet stalls, and shoppers moving only in groups.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - diagon-alley
+      - wartime-security
+      - ministry-posters
+      - death-eaters
+      - fortescue
+      - protective-amulets
+      - school-supplies
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Second War and School Supply Routes
+    candidate_section: Diagon Alley under wartime security pressure
+    reason_for_placement: The passage records how ordinary pre-term Hogwarts shopping was visibly altered by war, public warnings, business closures, and fear-driven protective commerce.
+    relevance_to_hogwarts_a_history: A later edition can cite this as Harry-era context for how war affected students' access to books, robes, ingredients, and school-supply spaces.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ps-ch05-003
+        - poa-ch04-001
+      notes: ps-ch05-003 and poa-ch04-001 establish Diagon Alley as the school-supply district and Leaky Cauldron route; this entry adds the Second War transformation, Ministry poster coverage, boarded shops, and group-shopping behavior.
+    confidence: high
+    limitations: The passage observes the street in one wartime visit and does not quantify how many supply shops remained open.
+
+  - id: hbp-ch06-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Six - Draco's Detour
+    chapter_start_pdf_page: 2503
+    chapter_end_pdf_page: 2522
+    pdf_page: 2506
+    printed_page: null
+    extracted_text_lines: 95-120; 124-137
+    text_anchor:
+      start_phrase: One of the special Ministry of Magic cars
+      end_phrase: Hogwarts business, yeh know
+      local_occurrence_note: A Ministry car takes Harry's group to the Leaky Cauldron, where Hagrid replaces the Auror detail as the practical escort.
+    nearby_context: Mr. Weasley says Harry has top-grade security status, expects additional security at the Leaky Cauldron, and Hagrid explains that Dumbledore judged him sufficient.
+    match_terms:
+      - Ministry of Magic cars
+      - top-grade security status
+      - Aurors
+      - Hagrid
+      - Dumbledore
+      - Hogwarts business
+    quote_excerpt_short: "top-grade security status"
+    source_note: Harry receives Ministry-level transport protection for school shopping, but Dumbledore overrides the planned Auror escort with Hagrid, who frames the outing as Hogwarts business.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - ministry-security
+      - hagrid
+      - dumbledore
+      - aurors
+      - leaky-cauldron
+      - school-shopping
+      - protective-escort
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Wartime Student Movement and Escorts
+    candidate_section: Ministry transport and Hogwarts-chosen escort
+    reason_for_placement: The passage gives concrete evidence of layered Ministry and Hogwarts-linked protective arrangements around a student's pre-term movement.
+    relevance_to_hogwarts_a_history: A later edition can use this as a Second War example of school-related errands receiving extraordinary security coordination between the Ministry, Dumbledore, and Hogwarts staff.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found general Hagrid and security entries but no close match for Harry's top-grade Ministry security status, car transport, and Dumbledore-selected Hagrid escort for Diagon Alley.
+    confidence: high
+    limitations: The passage does not state whether the security status is personal to Harry, tied to Hogwarts, or a formal Ministry category with written rules.
+
+  - id: hbp-ch06-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Six - Draco's Detour
+    chapter_start_pdf_page: 2503
+    chapter_end_pdf_page: 2522
+    pdf_page: 2512
+    printed_page: null
+    extracted_text_lines: 296-338; 350-352
+    text_anchor:
+      start_phrase: Fred and George's windows hit the eye
+      end_phrase: We had to find a decent bruise remover
+      local_occurrence_note: Harry enters Weasleys' Wizard Wheezes and sees the shop's joke products, school-lesson targeting, and product testing.
+    nearby_context: The shop is crowded despite the wartime street, and its products include Skiving Snackboxes perfected during Fred and George's unfinished Hogwarts year, trick wands, magical quills, Reusable Hangman, Daydream Charms, and bruise remover.
+    match_terms:
+      - Weasleys' Wizard Wheezes
+      - Skiving Snackboxes
+      - Hogwarts
+      - Spell-Checking
+      - Smart-Answer
+      - Daydream Charms
+    quote_excerpt_short: "perfected during their last"
+    source_note: The Weasley twins' shop turns Hogwarts-tested products into commercial goods, including classroom-avoidance sweets, enchanted quills, lesson-targeted Daydream Charms, and self-tested remedies.
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - weasleys-wizard-wheezes
+      - student-inventions
+      - skiving-snackboxes
+      - enchanted-quills
+      - daydream-charms
+      - joke-shop
+      - hogwarts-testing
+    candidate_part: Quidditch and School Recreation
+    candidate_chapter: Student Enterprises and Magical Recreation
+    candidate_section: Hogwarts-tested joke products become commercial goods
+    reason_for_placement: The scene connects in-school experimentation to a post-school magical business whose goods are explicitly designed for classroom and student contexts.
+    relevance_to_hogwarts_a_history: A later edition can use this as evidence for student enterprise, recreational magic, and how Hogwarts life generated products that later affected students and the wider market.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch24-007
+      notes: ootp-ch24-007 records Weasley joke inventions sold in the Gryffindor common room; this entry adds the full Diagon Alley storefront, products perfected during an unfinished Hogwarts year, and lesson-targeted commercial packaging.
+    confidence: high
+    limitations: The evidence is a retail observation and not a formal school record of what products were allowed or confiscated at Hogwarts.
+
+  - id: hbp-ch06-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Six - Draco's Detour
+    chapter_start_pdf_page: 2503
+    chapter_end_pdf_page: 2522
+    pdf_page: 2514
+    printed_page: null
+    extracted_text_lines: 372-397
+    text_anchor:
+      start_phrase: We've just developed this more serious line
+      end_phrase: giving you a diversion if you need one
+      local_occurrence_note: Fred and George take Harry into the back room and describe their defensive product line.
+    nearby_context: George says many people, including Ministry workers, cannot perform a decent Shield Charm, and the Ministry has ordered Shield Hats for support staff.
+    match_terms:
+      - Shield Charm
+      - Shield Hats
+      - Ministry
+      - Shield Cloaks
+      - Shield Gloves
+      - Defense Against the Dark Arts
+    quote_excerpt_short: "can't do a decent Shield Charm"
+    source_note: The shop's serious defensive line exists because many adults, including Ministry workers, lack reliable Shield Charm ability; the Ministry buys hundreds of Shield Hats and the twins expand into cloaks, gloves, darkness powder, and decoys.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - shield-charm
+      - defensive-magic
+      - ministry-of-magic
+      - shield-hats
+      - shield-cloaks
+      - shield-gloves
+      - decoy-detonators
+      - defense-against-the-dark-arts
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Second War and Defensive Magic
+    candidate_section: Commercial defensive devices and Shield Charm gaps
+    reason_for_placement: The passage documents wartime demand for practical defensive magic and suggests a gap between formal magical education and adult combat readiness.
+    relevance_to_hogwarts_a_history: A later edition can use this as supporting evidence when discussing Defense Against the Dark Arts outcomes, Ministry preparedness, and market responses during the Second War.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found no prior match for the Shield Hat defensive line, Ministry support-staff purchases, or Shield Charm competence gap.
+    confidence: high
+    limitations: The competence claim comes from George in a sales context and does not identify how many Ministry employees were tested.
+
+  - id: hbp-ch06-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Six - Draco's Detour
+    chapter_start_pdf_page: 2503
+    chapter_end_pdf_page: 2522
+    pdf_page: 2516
+    printed_page: null
+    extracted_text_lines: 424-448; 460-473
+    text_anchor:
+      start_phrase: Best range of love potions
+      end_phrase: Mum, can I have a Pygmy Puff
+      local_occurrence_note: Fred and George show the WonderWitch section to Hermione and Ginny, including love potions, cosmetics, and Pygmy Puffs.
+    nearby_context: The products are displayed to school-age girls during a pre-term shopping visit, but the twins refuse to sell love potions to their sister and charge Ron for shop goods.
+    match_terms:
+      - love potions
+      - WonderWitch
+      - Pygmy Puffs
+      - miniature puffskeins
+      - pimple vanisher
+      - Ginny
+    quote_excerpt_short: "Best range of love potions"
+    source_note: Weasleys' Wizard Wheezes openly sells love potions and student-attractive magical products, including Pygmy Puffs as miniature puffskeins, during the pre-Hogwarts shopping season.
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - love-potions
+      - pygmy-puffs
+      - puffskeins
+      - student-products
+      - weasleys-wizard-wheezes
+      - magical-creatures
+      - restricted-magic
+    candidate_part: Rules, Discipline, and Student Conduct
+    candidate_chapter: Restricted Magic and Banned Items
+    candidate_section: Love-potion retail access before term
+    reason_for_placement: The scene adds retail-access evidence for products that may later matter to Hogwarts discipline, contraband, and student social life.
+    relevance_to_hogwarts_a_history: A later edition can connect this evidence to school rules on interpersonal magic, student possessions, and the entry of commercial joke-shop goods into Hogwarts.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch27-003
+      notes: gof-ch27-003 records a stated Hogwarts ban on love potions; this entry adds later retail availability from a popular student-facing shop and adjacent Pygmy Puff sales.
+    confidence: medium
+    limitations: The chapter does not show these products entering Hogwarts or state whether the twins apply age checks or school-rule warnings.
+
+  - id: hbp-ch06-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Six - Draco's Detour
+    chapter_start_pdf_page: 2503
+    chapter_end_pdf_page: 2522
+    pdf_page: 2519
+    printed_page: null
+    extracted_text_lines: 518-548; 553-590; 601-613
+    text_anchor:
+      start_phrase: For Malfoy had glanced around
+      end_phrase: he already reserved anything
+      local_occurrence_note: Harry, Ron, and Hermione follow Draco into Knockturn Alley, use Extendable Ears at Borgin and Burkes, and hear Draco negotiate over a repair and a reserved object.
+    nearby_context: Draco is alone despite wartime rules against solitary shopping, threatens Borgin with Fenrir Greyback, refuses to bring the object into the shop because it must stay put, and asks Borgin to keep another item unsold and secret from Narcissa.
+    match_terms:
+      - Knockturn Alley
+      - Borgin and Burkes
+      - black cabinet
+      - Extendable Ears
+      - Fenrir Greyback
+      - keep that one safe
+    quote_excerpt_short: "It's got to stay put"
+    source_note: Draco secretly consults Borgin about repairing an unseen object that must remain in place and reserving another object in Borgin and Burkes, using Greyback's name as coercive leverage.
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - draco-malfoy
+      - borgin-and-burkes
+      - knockturn-alley
+      - vanishing-cabinet
+      - fenrir-greyback
+      - extendable-ears
+      - school-security-threat
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Second War and Hogwarts Security Breaches
+    candidate_section: Borgin and Burkes consultation before the cabinet plot
+    reason_for_placement: The passage is early, bounded evidence for Draco's secret repair project and a later Hogwarts security breach, though the object is not yet named in this chapter.
+    relevance_to_hogwarts_a_history: A later edition can cross-reference this as pre-term evidence for how an off-campus Dark Arts shop became relevant to a school-year infiltration plot.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found no prior match for the Borgin and Burkes cabinet consultation; ootp-ch04-006 covers Extendable Ears generally, but this entry's core evidence is Draco's repair and reservation request.
+    confidence: medium
+    limitations: The chapter does not yet identify the object as a Vanishing Cabinet or confirm that it is located at Hogwarts; that connection depends on later corroboration.

@@ -1,0 +1,282 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Six - The Parting of the Ways
+  chapter_start_pdf_page: 1525
+  chapter_end_pdf_page: 1544
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml and project-control/next-run.md after the completed Chapter Thirty-Five anchor and before the Chapter Thirty-Seven anchor; extracted only PDF pages 1525-1544 with pypdf via scripts/extract_pages.py, without scanning the PDF from page 1.
+  processed_date: '2026-07-01'
+  processor_notes: "Processed only Book 4, Chapter Thirty-Six. Text was extracted into .tmp/current-chapter.txt and searched for explicit Hogwarts history references and institutional evidence. No explicit Hogwarts: A History title reference was found. Entries focus on staff emergency response, Head-of-House pastoral care, survivor debrief and hospital-wing protection, Ministry/Dementor breach, school autonomy under Fudge, and Dumbledore's immediate post-return mobilization. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch36-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Six - The Parting of the Ways
+  chapter_start_pdf_page: 1525
+  chapter_end_pdf_page: 1544
+  pdf_page: 1525
+  printed_page: null
+  extracted_text_lines: 6-18
+  text_anchor:
+    start_phrase: Dumbledore stood up. He stared down at Barty Crouch
+    end_phrase: if he needs me
+    local_occurrence_note: Immediately after Crouch's confession, Dumbledore binds him, assigns McGonagall to guard him, and dispatches Snape for Pomfrey and Fudge.
+  nearby_context: The chapter opens in Moody's office after the Veritaserum interrogation; Dumbledore secures Crouch, delegates guard duty, sends for medical help for Alastor Moody, and prepares for Fudge's questioning.
+  match_terms:
+  - Barty Crouch
+  - Professor McGonagall
+  - Madam Pomfrey
+  - Alastor Moody
+  - hospital wing
+  - Cornelius Fudge
+  quote_excerpt_short: get Alastor Moody into the hospital wing
+  source_note: The chapter records the staff chain of command after the impostor is exposed, combining prisoner custody, medical transfer for the real Moody, and Ministerial notification.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - staff-response
+  - barty-crouch-jr
+  - alastor-moody
+  - hospital-wing
+  - professor-mcgonagall
+  - professor-snape
+  - cornelius-fudge
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Staff Custody and Medical Response After the Impostor Exposure
+  reason_for_placement: The passage shows how senior Hogwarts staff handled the immediate transition from interrogation to custody, treatment, and Ministry involvement after a catastrophic tournament breach.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence for emergency delegation practices when school security, medical care, and external government authority intersected.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch35-006
+    - gof-ch35-007
+    notes: gof-ch35-006 identifies the real Moody's confinement and Polyjuice mechanism, while gof-ch35-007 records the Veritaserum interrogation; this entry adds the immediate custody, hospital-wing, and Ministry-notification response after those discoveries.
+  confidence: high
+  limitations: The scene begins after the confession and does not show Moody's medical treatment itself.
+- id: gof-ch36-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Six - The Parting of the Ways
+  chapter_start_pdf_page: 1525
+  chapter_end_pdf_page: 1544
+  pdf_page: 1526
+  printed_page: null
+  extracted_text_lines: 37-41
+  text_anchor:
+    start_phrase: where are Mr. and Mrs. Diggory
+    end_phrase: and knew him best
+    local_occurrence_note: Harry asks where Cedric's parents are, and Dumbledore says they are with Professor Sprout because she was Cedric's Head of House.
+  nearby_context: Dumbledore is taking Harry from Moody's office toward the headmaster's office when Harry asks about Cedric's parents and Dumbledore identifies Sprout's role.
+  match_terms:
+  - Mr. and Mrs. Diggory
+  - Professor Sprout
+  - Head of House
+  - Cedric Diggory
+  - Hufflepuff
+  quote_excerpt_short: She was Head of Cedric's House.
+  source_note: The chapter shows a Head of House acting as the appropriate staff member to accompany and support a dead student's parents after a school tragedy.
+  reference_type: house_system
+  era_classification: later_editorial_note
+  topic_tags:
+  - head-of-house
+  - professor-sprout
+  - cedric-diggory
+  - hufflepuff
+  - family-care
+  - pastoral-care
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Houses, Heads, and Pastoral Responsibility
+  candidate_section: Head-of-House Family Support After Cedric Diggory's Death
+  reason_for_placement: The passage gives rare concrete evidence that House leadership extended beyond discipline and classes into crisis support for a student's family.
+  relevance_to_hogwarts_a_history: A later edition can use this to describe the pastoral function of Heads of House in moments of bereavement and institutional crisis.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Targeted duplicate queries found prior Cedric and Head-of-House material, especially gof-ch18-002 on Hufflepuff loyalty, but no prior entry focused on Head-of-House family support after a student death.
+  confidence: high
+  limitations: The scene reports Sprout's role indirectly through Dumbledore and does not show the conversation with the Diggorys.
+- id: gof-ch36-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Six - The Parting of the Ways
+  chapter_start_pdf_page: 1525
+  chapter_end_pdf_page: 1544
+  pdf_page: 1527
+  printed_page: null
+  extracted_text_lines: 62-87
+  text_anchor:
+    start_phrase: I need to know what happened after you touched the Portkey
+    end_phrase: lying on the ground beside the cup
+    local_occurrence_note: Dumbledore insists on Harry's immediate account despite Sirius's objection, while Fawkes comforts Harry during the telling.
+  nearby_context: In the headmaster's office, Sirius asks that Harry be allowed to sleep, but Dumbledore says postponement will worsen the pain and asks Harry to recount the graveyard events.
+  match_terms:
+  - Portkey
+  - headmaster's office
+  - Sirius Black
+  - Fawkes
+  - survivor account
+  - Cedric
+  quote_excerpt_short: I ask you to tell us what happened.
+  source_note: The chapter shows Dumbledore taking an immediate survivor account in the headmaster's office while balancing witness evidence, emotional harm, and magical comfort from Fawkes.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - witness-account
+  - headmaster-office
+  - fawkes
+  - portkey
+  - survivor-care
+  - sirius-black
+  - cedric-diggory
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Crisis Evidence and Student Care
+  candidate_section: Immediate Survivor Account in the Headmaster's Office
+  reason_for_placement: The scene documents a rare headmaster-level debrief immediately after a fatal school event, before formal Ministry involvement distorts the evidence.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain how Hogwarts leadership preserved firsthand evidence while attempting to protect an injured student.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch34-005
+    - gof-ch35-007
+    notes: gof-ch34-005 records Harry's Portkey return and gof-ch35-007 records Crouch's Veritaserum confession; this entry adds Harry's immediate survivor debrief as a separate corroborating evidence channel.
+  confidence: high
+  limitations: The account is summarized through Harry's retelling rather than fully transcribed, and it occurs before ordinary rest or formal public reporting.
+- id: gof-ch36-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Six - The Parting of the Ways
+  chapter_start_pdf_page: 1525
+  chapter_end_pdf_page: 1544
+  pdf_page: 1534
+  printed_page: null
+  extracted_text_lines: 286-309
+  text_anchor:
+    start_phrase: he insisted on summoning a dementor
+    end_phrase: cannot give evidence about why he killed those people
+    local_occurrence_note: Snape and McGonagall explain that Fudge brought a Dementor into the castle and it Kissed Barty Crouch before testimony could be preserved.
+  nearby_context: Fudge arrives in the hospital wing with McGonagall and Snape; McGonagall says Dumbledore would never allow Dementors inside the castle, but Fudge defends the act as Ministerial protection.
+  match_terms:
+  - Dementor
+  - castle
+  - Barty Crouch
+  - testimony
+  - Cornelius Fudge
+  - Professor McGonagall
+  quote_excerpt_short: brought it inside the castle
+  source_note: The chapter records a Ministry security breach inside Hogwarts when Fudge brings in a Dementor that destroys Crouch's capacity to testify.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - dementors
+  - ministry-intervention
+  - barty-crouch-jr
+  - testimony
+  - castle-security
+  - cornelius-fudge
+  - professor-mcgonagall
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Dementor Entry and Loss of Crouch's Testimony
+  reason_for_placement: The passage shows Hogwarts staff objecting to a dangerous Ministry creature inside the castle and records the direct evidentiary cost of that intrusion.
+  relevance_to_hogwarts_a_history: A later edition can cite this as a turning point in Hogwarts-Ministry relations and as a concrete example of external authority worsening a school crisis.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch02-006
+    notes: gof-ch02-006 recaps Dementors at Hogwarts during the Sirius Black crisis; this entry adds Fudge's later unauthorized castle entry with a Dementor and the resulting destruction of the only captured infiltrator's testimony.
+  confidence: high
+  limitations: The Dementor's Kiss itself is inferred by Harry from McGonagall's unfinished account, though Dumbledore and Fudge immediately discuss the loss of testimony.
+- id: gof-ch36-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Six - The Parting of the Ways
+  chapter_start_pdf_page: 1525
+  chapter_end_pdf_page: 1544
+  pdf_page: 1539
+  printed_page: null
+  extracted_text_lines: 461-500
+  text_anchor:
+    start_phrase: we have reached a parting of the ways
+    end_phrase: to discuss the running of this school
+    local_occurrence_note: Fudge rejects Dumbledore's course and lists prior autonomy over staffing and curriculum before threatening to revisit school governance.
+  nearby_context: After refusing Dumbledore's warnings about Dementors and giants, Fudge says Dumbledore has had free rein and cites werewolf hiring, retaining Hagrid, and teaching decisions without Ministry reference.
+  match_terms:
+  - parting of the ways
+  - free rein
+  - hire werewolves
+  - keep Hagrid
+  - teach your students
+  - running of this school
+  quote_excerpt_short: decide what to teach your students
+  source_note: The chapter gives Fudge's explicit account of Dumbledore's broad practical autonomy over Hogwarts staffing and curriculum, followed by a threat of Ministry scrutiny.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - school-autonomy
+  - ministry-of-magic
+  - curriculum
+  - staffing
+  - dumbledore
+  - cornelius-fudge
+  - school-governance
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Headmasters and School Authority
+  candidate_section: Dumbledore's Autonomy and Fudge's Governance Threat
+  reason_for_placement: The exchange directly defines the boundary between Hogwarts headmaster discretion and Ministry political pressure at the moment the two institutions split over Voldemort's return.
+  relevance_to_hogwarts_a_history: A later edition can use this as unusually explicit evidence for how much latitude a headmaster could exercise before a Ministry confrontation.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Targeted duplicate queries found related school-governance entries about governors and crisis oversight, but no prior entry stating Fudge's list of Dumbledore's autonomy over staff appointments and curriculum.
+  confidence: high
+  limitations: The evidence is Fudge's hostile description during an argument, so it should be treated as practical political evidence rather than a formal charter.
+- id: gof-ch36-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Six - The Parting of the Ways
+  chapter_start_pdf_page: 1525
+  chapter_end_pdf_page: 1544
+  pdf_page: 1540
+  printed_page: null
+  extracted_text_lines: 511-589
+  text_anchor:
+    start_phrase: There is work to be done
+    end_phrase: as Snape swept wordlessly after Sirius
+    local_occurrence_note: After Fudge leaves, Dumbledore assigns Bill/Arthur, McGonagall, Pomfrey, Sirius, and Snape immediate tasks.
+  nearby_context: Dumbledore begins a discreet response from the hospital wing, asks for Ministry contacts, summons Hagrid and Madame Maxime, sends Winky to the kitchens, reconciles Sirius and Snape enough for action, and dispatches Sirius to the old crowd.
+  match_terms:
+  - Arthur Weasley
+  - Ministry
+  - Hagrid
+  - Madame Maxime
+  - Winky
+  - Sirius Black
+  - Remus Lupin
+  - Severus Snape
+  quote_excerpt_short: There is work to be done.
+  source_note: The chapter shows Hogwarts becoming the staging point for Dumbledore's first organized response to Voldemort's return, including Ministry contacts, giant envoys, house-elf care, old allies, and Snape's mission.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - dumbledore
+  - ministry-contacts
+  - giants
+  - order-network
+  - sirius-black
+  - professor-snape
+  - hagrid
+  - winky
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Immediate Mobilization After Fudge's Refusal
+  reason_for_placement: The passage connects the school crisis to the wider anti-Voldemort response and shows how Hogwarts staff, families, guests, and house-elves were drawn into the first hours of mobilization.
+  relevance_to_hogwarts_a_history: A later edition can use this as the hinge between the Triwizard disaster and the revived resistance network operating through and around Hogwarts.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate queries found related background for giants, Snape, and prior Death Eater history, but no existing entry covering this combined post-Fudge mobilization from the hospital wing.
+  confidence: high
+  limitations: Several assignments are deliberately discreet or unspecified, especially Snape's task and the later outcome of the envoys to giants.

@@ -1,0 +1,234 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Four - Priori Incantatem
+  chapter_start_pdf_page: 1498
+  chapter_end_pdf_page: 1506
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml and project-control/next-run.md after the completed Chapter Thirty-Three anchor; extracted only PDF pages 1498-1506 with pypdf via scripts/extract_pages.py, without scanning the PDF from page 1.
+  processed_date: '2026-07-01'
+  processor_notes: "Processed only Book 4, Chapter Thirty-Four. Text was extracted into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History title reference was found. Entries focus on Hogwarts-linked defensive instruction, Unforgivable Curse preparation, wand-core behavior, the graveyard victim echoes, and the Triwizard Cup's return Portkey function. Quote excerpts were kept under 25 words per entry."
+entries:
+- id: gof-ch34-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Four - Priori Incantatem
+  chapter_start_pdf_page: 1498
+  chapter_end_pdf_page: 1506
+  pdf_page: 1498
+  printed_page: null
+  extracted_text_lines: 18-29
+  text_anchor:
+    start_phrase: You have been taught how to duel
+    end_phrase: the unblockable Avada Kedavra curse
+    local_occurrence_note: Voldemort's question causes Harry to recall the Hogwarts dueling club and the Disarming Spell as his only formal dueling preparation.
+  nearby_context: Harry is returned his wand in the graveyard, remembers the brief second-year dueling club at Hogwarts, and contrasts Expelliarmus with Voldemort's lethal threat and Moody's warnings.
+  match_terms:
+  - dueling club
+  - Hogwarts
+  - Expelliarmus
+  - Disarming Spell
+  - Avada Kedavra
+  - defensive instruction
+  quote_excerpt_short: "the dueling club at Hogwarts"
+  source_note: The chapter confirms that Harry's usable dueling preparation traces back to the brief Hogwarts dueling club, where the Disarming Spell became his practical defensive option.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - dueling-club
+  - disarming-charm
+  - expelliarmus
+  - student-training
+  - harry-potter
+  candidate_part: Classroom Instruction and Practical Magic
+  candidate_chapter: Defense Against the Dark Arts
+  candidate_section: Dueling Club Carryover
+  reason_for_placement: The passage shows a Hogwarts extracurricular lesson becoming the only remembered formal dueling training in a lethal confrontation.
+  relevance_to_hogwarts_a_history: A later edition can use this as corroborating evidence that even a short-lived Hogwarts club had durable practical consequences for student defense.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch11-003
+    - poa-ch19-003
+    notes: cos-ch11-003 records the original staff-authorized dueling club and Expelliarmus lesson, while poa-ch19-003 records later student use of the spell; this entry adds Harry's graveyard recollection that the club was his only formal dueling preparation.
+  confidence: high
+  limitations: The passage is Harry's memory under extreme stress and does not add new procedural details about the dueling club itself.
+- id: gof-ch34-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Four - Priori Incantatem
+  chapter_start_pdf_page: 1498
+  chapter_end_pdf_page: 1506
+  pdf_page: 1500
+  printed_page: null
+  extracted_text_lines: 50-90
+  text_anchor:
+    start_phrase: he had been hit again by the Cruciatus Curse
+    end_phrase: Perhaps another little dose of pain
+    local_occurrence_note: Voldemort uses Cruciatus and Imperius in sequence, and Harry's resistance recalls prior exposure to Imperius control.
+  nearby_context: Voldemort subjects Harry to Cruciatus, then casts Imperio and tries to force a verbal answer; Harry resists the command and the dreamlike effect breaks.
+  match_terms:
+  - Cruciatus Curse
+  - Imperio
+  - Imperius Curse
+  - resistance
+  - Moody
+  - Unforgivable Curses
+  quote_excerpt_short: "I won't do it"
+  source_note: "The chapter shows Hogwarts fourth-year Unforgivable Curse instruction becoming field-relevant: Harry recognizes the threat of Avada Kedavra and resists Imperius compulsion after prior classroom exposure."
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - unforgivable-curses
+  - imperius-curse
+  - cruciatus-curse
+  - mad-eye-moody
+  - student-resistance
+  candidate_part: Classroom Instruction and Practical Magic
+  candidate_chapter: Defense Against the Dark Arts
+  candidate_section: Unforgivable Curse Instruction and Resistance
+  reason_for_placement: The passage links the controversial fourth-year curse curriculum to a student's ability to identify and partially resist hostile Dark magic outside school.
+  relevance_to_hogwarts_a_history: A later edition can cite this as evidence for the Harry-era expansion of practical Defense instruction under wartime pressure.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch14-001
+    - gof-ch14-004
+    - gof-ch14-005
+    notes: gof-ch14-001, gof-ch14-004, and gof-ch14-005 establish Moody's classroom framing of Dark curses and Avada Kedavra; this entry records the later survival context in which that instruction mattered.
+  confidence: high
+  limitations: The scene occurs off campus and reflects an exceptional emergency rather than ordinary classroom practice.
+- id: gof-ch34-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Four - Priori Incantatem
+  chapter_start_pdf_page: 1498
+  chapter_end_pdf_page: 1506
+  pdf_page: 1501
+  printed_page: null
+  extracted_text_lines: 113-149
+  text_anchor:
+    start_phrase: As Harry shouted, "Expelliarmus!"
+    end_phrase: phoenix song
+    local_occurrence_note: Harry and Voldemort's simultaneous spells create a golden connection, dome, and phoenix song before any later explanation of the wand relationship.
+  nearby_context: Expelliarmus meets Avada Kedavra, the wands lock, Harry and Voldemort are moved into a clear space, a golden web encloses them, and the vibrating light produces phoenix song.
+  match_terms:
+  - Expelliarmus
+  - Avada Kedavra
+  - golden light
+  - connected wands
+  - phoenix song
+  - Dumbledore
+  quote_excerpt_short: "a cage of light"
+  source_note: The chapter gives the first direct observed evidence of the Priori Incantatem wand connection, including the golden thread, protective dome, and phoenix song that Harry associates with Dumbledore.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - priori-incantatem
+  - wandlore
+  - phoenix-song
+  - dumbledore
+  - expelliarmus
+  - avada-kedavra
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Priori Incantatem and Wand-Core Evidence
+  reason_for_placement: The passage supplies magical-theory evidence later needed to explain Harry's escape from the graveyard and the limits of Voldemort's attack.
+  relevance_to_hogwarts_a_history: Though not part of the original institutional history, a later edition can use this as cross-reference evidence for Dumbledore-linked phoenix magic and Harry-era wandlore.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Targeted duplicate queries for priori-incantatem, wand, phoenix, and song returned no direct prior entry for this graveyard wand-connection event.
+  confidence: medium
+  limitations: The chapter describes the phenomenon before Dumbledore's technical explanation, so the exact wand-core cause must be supplied by later evidence.
+- id: gof-ch34-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Four - Priori Incantatem
+  chapter_start_pdf_page: 1498
+  chapter_end_pdf_page: 1506
+  pdf_page: 1503
+  printed_page: null
+  extracted_text_lines: 183-237
+  text_anchor:
+    start_phrase: Voldemort's wand began to emit echoing screams of pain
+    end_phrase: Hold on for your father
+    local_occurrence_note: Priori Incantatem forces smoky echoes of Voldemort's recent victims from his wand, including Cedric, Frank Bryce, Bertha Jorkins, Lily, and James.
+  nearby_context: After Harry forces the light bead into Voldemort's wand, the wand emits the silver hand, then the shades of Cedric, an old man, Bertha Jorkins, Lily Potter, and James Potter, who encourage Harry.
+  match_terms:
+  - Cedric Diggory
+  - Bertha Jorkins
+  - Lily Potter
+  - James Potter
+  - Voldemort's victims
+  - Priori Incantatem
+  quote_excerpt_short: "Voldemort's dead victims whispered"
+  source_note: The chapter records Priori Incantatem producing wand echoes of Voldemort's recent victims, creating magical evidence for Cedric's murder, Bertha Jorkins's death, and the Potter murders.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - priori-incantatem
+  - cedric-diggory
+  - bertha-jorkins
+  - potter-family
+  - voldemort
+  - magical-evidence
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Graveyard Victim Echoes
+  reason_for_placement: The apparition sequence corroborates the murder chain behind the tournament plot and links the school tragedy to earlier Voldemort-era deaths.
+  relevance_to_hogwarts_a_history: A later edition can use this as exceptional post-1984 evidence for the Triwizard year's fatal breach and its connection to older wartime history.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Targeted duplicate queries for Priori Incantatem, Death Eaters, graveyard, Cedric, Bertha, and victim echoes did not identify an existing entry covering this sequence.
+  confidence: medium
+  limitations: The victims appear as temporary echoes rather than conventional ghosts, and Harry does not yet understand the mechanism.
+- id: gof-ch34-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Four - Priori Incantatem
+  chapter_start_pdf_page: 1498
+  chapter_end_pdf_page: 1506
+  pdf_page: 1505
+  printed_page: null
+  extracted_text_lines: 246-292
+  text_anchor:
+    start_phrase: you must get to the Portkey
+    end_phrase: They were going back
+    local_occurrence_note: James Potter's echo identifies the Cup as a return Portkey, and Harry summons it while holding Cedric's body.
+  nearby_context: The victim echoes buy Harry time, James says the Portkey will return him to Hogwarts, Cedric asks Harry to take his body back, and Harry uses Accio to summon the Cup before the Portkey activates.
+  match_terms:
+  - Portkey
+  - Hogwarts
+  - Triwizard Cup
+  - Cedric Diggory
+  - Accio
+  - return
+  quote_excerpt_short: "it will return you to Hogwarts"
+  source_note: The chapter confirms that the altered Triwizard Cup still functions as a two-way Portkey, returning Harry and Cedric's body toward Hogwarts after the graveyard encounter.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-cup
+  - portkey
+  - hogwarts
+  - cedric-diggory
+  - tournament-security
+  - off-campus-transport
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Cup Portkey Return to Hogwarts
+  reason_for_placement: The passage adds the return leg of the sabotaged Cup's transport behavior and records how Cedric's body was brought back to the school event.
+  relevance_to_hogwarts_a_history: A later edition can use this to complete the account of the tournament breach by showing that the same Cup moved victims both away from and back toward Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch31-007
+    - gof-ch32-001
+    - gof-ch33-005
+    notes: gof-ch31-007 records the Cup's first observed activation, gof-ch32-001 confirms the off-grounds destination, and gof-ch33-005 confirms the sabotage chain; this entry adds the return-to-Hogwarts leg and Cedric's body retrieval.
+  confidence: high
+  limitations: The destination is stated as Hogwarts by James's echo and implied by the Portkey's activation; the actual arrival scene occurs in the following chapter.

@@ -1,0 +1,150 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B17
+  source_file: resources/external/interviews/accio-quote/b17-the-connection-wbur-radio.md
+  title: "Lydon, Christopher. J.K. Rowling interview transcript, The Connection (WBUR Radio), 12 October, 1999"
+  author: J.K. Rowling
+  source_site: Accio Quote
+  original_publisher: WBUR Radio
+  source_class: preservation_transcription
+  authority: D
+  publication_date: "12 October 1999"
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/1999/1099-connectiontransc2.htm
+  retrieved_at: "2026-08-15"
+  archive_url: null
+  carrier_type: preservation_transcript
+  is_primary: false
+  is_official: false
+  capture_completeness: complete
+  content_sha256: b828eb0e5d49d392cac63fa1874c69cdb48155e3fbdc552db3de1c4ffda54a21
+  relevance:
+    - hogwarts
+    - rowling_interview
+    - author_commentary
+  notes: "Accio Quote preservation carrier; original outlet: WBUR Radio."
+  processed_date: "2026-08-24"
+  processor_notes: Complete preservation-transcription snapshot read; one qualified magical-limit claim and one explicitly excluded Harry-era staff-composition claim extracted.
+
+entries:
+  - id: ext-b17-001
+    source_file: resources/external/interviews/accio-quote/b17-the-connection-wbur-radio.md
+    source_id: B17
+    source_url: https://www.accio-quote.org/articles/1999/1099-connectiontransc2.htm
+    source_section: "Part 25 {44:30}: Peter (caller #10)"
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: the first thing I had to decide was not what magic can do, but what it can't do.
+      end_phrase: there is no returning once you're properly dead
+      local_occurrence_note: Rowling's reply to Peter's suggestion that Lily Potter could return to life.
+    nearby_context: In a 1999 live-radio answer about Harry's parents, Rowling explains the basic limit she set on magic before writing the series.
+    match_terms:
+      - magic
+      - death
+      - resurrection
+      - magical-limits
+    quote_excerpt_short: magic cannot bring dead people back to life
+    source_note: Rowling says she established that magic cannot revive a properly dead person and that this natural law applies to wizards and Muggles alike.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - death
+      - magical-limits
+      - natural-law
+      - resurrection
+    candidate_part: The Library, Books, and Scholarship
+    candidate_chapter: Magical Knowledge and Its Limits
+    candidate_section: Magical limits and mortality
+    reason_for_placement: The statement gives a broad magical constraint that informs the historical and educational treatment of death in wizarding sources.
+    relevance_to_hogwarts_a_history: A future edition may use this only as qualified authorial commentary on a general pre-existing magical law, not as a dated Hogwarts event or policy.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: beedle-ch04-001
+      notes: The Beedle commentary is the stronger primary in-universe source for the same no-resurrection rule; this transcript adds only retrospective authorial framing.
+      audit:
+        query_tags:
+          - death
+          - magical-limits
+          - natural-law
+          - resurrection
+        candidates:
+          - id: beedle-ch04-001
+            disposition: duplicate
+          - id: beedle-ch04-005
+            disposition: distinct
+          - id: ext-a25-001
+            disposition: distinct
+          - id: hbp-ch24-002
+            disposition: distinct
+          - id: ootp-ch38-006
+            disposition: distinct
+    confidence: low
+    limitations: Authority-D preservation transcription rather than the original WBUR carrier; retrospective author commentary has no in-universe date and repeats a stronger in-universe account.
+
+  - id: ext-b17-002
+    source_file: resources/external/interviews/accio-quote/b17-the-connection-wbur-radio.md
+    source_id: B17
+    source_url: https://www.accio-quote.org/articles/1999/1099-connectiontransc2.htm
+    source_section: "Part 19 {32:37}: Tim (caller #5)"
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: if you look down the - the staff-list in - in the school
+      end_phrase: exactly 50% women and 50% men as teachers.
+      local_occurrence_note: Rowling's response to a caller's question about strong female characters.
+    nearby_context: In a 1999 discussion of representation in the published series, Rowling describes the planned Hogwarts teaching staff as evenly split by gender.
+    match_terms:
+      - hogwarts
+      - staff
+      - teachers
+      - women
+    quote_excerpt_short: exactly 50% women and 50% men as teachers
+    source_note: Rowling states that the Hogwarts staff list was designed with an equal number of women and men teaching.
+    reference_type: historical_claim
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - hogwarts
+      - staff
+      - teachers
+      - women
+    candidate_part: "Hogwarts: A History"
+    candidate_chapter: School Staff and Traditions
+    candidate_section: Staff composition and representation
+    reason_for_placement: It is a narrowly stated authorial claim about Hogwarts staff composition, but it concerns the Harry-era school rather than earlier institutional history.
+    relevance_to_hogwarts_a_history: Retain only as a clearly marked later editorial reference; exclude it from a pre-1984 original edition.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Returned staff and Hogwarts entries concern other school functions, personnel, or later events rather than this claimed gender balance.
+      audit:
+        query_tags:
+          - hogwarts
+          - staff
+          - teachers
+          - women
+        candidates:
+          - id: ext-a14-002
+            disposition: distinct
+          - id: cos-ch12-002
+            disposition: distinct
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch10-006
+            disposition: distinct
+          - id: dh-ch15-002
+            disposition: distinct
+          - id: dh-ch15-007
+            disposition: distinct
+          - id: dh-ch16-002
+            disposition: distinct
+          - id: dh-ch22-007
+            disposition: distinct
+          - id: dh-ch24-001
+            disposition: distinct
+          - id: dh-ch24-007
+            disposition: distinct
+    confidence: low
+    limitations: Authority-D preservation transcription rather than the original WBUR carrier; the statement is an undated authorial design assertion, does not identify the staff roster, and concerns post-1984 Harry-era material.

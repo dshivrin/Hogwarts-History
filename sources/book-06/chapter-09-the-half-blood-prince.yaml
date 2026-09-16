@@ -1,0 +1,341 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Nine - The Half-Blood Prince
+  chapter_start_pdf_page: 2559
+  chapter_end_pdf_page: 2577
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used the current processing-state range, pages 2559-2577. Prior anchors placed Chapter Eight complete at PDF page 2558 and Chapter Ten pending at PDF page 2578, so no full-PDF scan was needed.
+  processed_date: '2026-07-21'
+  processor_notes: "Extracted with pypdf via scripts/extract_pages.py using only the bounded page range. No explicit Hogwarts: A History reference was found. Seven strongest Hogwarts institutional, curriculum, and school-life entries were retained."
+
+entries:
+  - id: hbp-ch09-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Nine - The Half-Blood Prince
+    chapter_start_pdf_page: 2559
+    chapter_end_pdf_page: 2577
+    pdf_page: 2561
+    printed_page: null
+    extracted_text_lines: 62-129
+    text_anchor:
+      start_phrase: The distribution of class schedules was more complicated than usual this year
+      end_phrase: I shall pass the list to you in due course
+      local_occurrence_note: McGonagall confirms sixth-year students' O.W.L. results before issuing N.E.W.T. timetables and Quidditch captain materials.
+    nearby_context: After breakfast on the first full school day, students wait in the Great Hall while McGonagall checks subject eligibility and prepares schedules.
+    match_terms:
+      - class schedules
+      - O.W.L. grades
+      - N.E.W.T.s
+      - Professor McGonagall
+      - Head of House
+      - Potions
+      - Auror
+    quote_excerpt_short: "necessary O.W.L. grades to continue"
+    source_note: McGonagall checks each student's O.W.L. results against subject requirements before issuing sixth-year N.E.W.T. schedules, including different Potions thresholds under Snape and Slughorn.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - ordinary-wizarding-levels
+      - newt-courses
+      - class-schedules
+      - head-of-house
+      - academic-progression
+      - potions
+      - auror
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Exams and Assessment
+    candidate_section: O.W.L. thresholds and N.E.W.T. course placement
+    reason_for_placement: The passage turns exam results into observed course-placement procedure, showing Head-of-House advising and teacher-specific subject thresholds.
+    relevance_to_hogwarts_a_history: This is strong evidence for how Hogwarts converts public exam marks into sixth-year timetables and career-relevant N.E.W.T. access.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch05-007
+      notes: hbp-ch05-007 records post-O.W.L. Head-of-House advice and career thresholds; this entry adds the actual first-day N.E.W.T. schedule assignment process and Slughorn's lower Potions admission threshold.
+    confidence: high
+    limitations: The passage shows Gryffindor advising examples and does not establish whether every department sets thresholds independently every year.
+
+  - id: hbp-ch09-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Nine - The Half-Blood Prince
+    chapter_start_pdf_page: 2559
+    chapter_end_pdf_page: 2577
+    pdf_page: 2563
+    printed_page: null
+    extracted_text_lines: 129-148; 307-318
+    text_anchor:
+      start_phrase: twenty hopefuls have already put down their names
+      end_phrase: Tell me when you call trials
+      local_occurrence_note: McGonagall promises Harry the candidate list, and Katie Bell warns him not to exempt established players from fair selection.
+    nearby_context: Harry has just received his sixth-year schedule and returns to the Gryffindor common room wearing the Quidditch Captain's badge.
+    match_terms:
+      - Gryffindor Quidditch
+      - Captain
+      - trials
+      - hopefuls
+      - Katie Bell
+      - team selection
+      - candidate list
+    quote_excerpt_short: "you can fix up trials"
+    source_note: Gryffindor Quidditch captaincy includes receiving a list of applicants, scheduling trials, and managing pressure not to preserve old players or friends without selection.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - quidditch
+      - gryffindor
+      - house-teams
+      - team-captains
+      - team-tryouts
+      - captaincy
+      - extracurriculars
+    candidate_part: Student Life and Houses
+    candidate_chapter: House Quidditch Teams
+    candidate_section: Captain authority, applicant lists, and trials
+    reason_for_placement: The passage gives operational detail for House-team captaincy beyond match play, including recruitment and selection norms.
+    relevance_to_hogwarts_a_history: A history of Hogwarts recreation could use this as evidence for how student captains administer House Quidditch rosters.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch13-007
+      notes: ootp-ch13-007 records Gryffindor Keeper tryouts and captain judgment; this entry adds a new captain receiving applicant names and explicit peer caution against favoritism.
+    confidence: high
+    limitations: The passage concerns Gryffindor and does not state whether all House captains receive candidate lists through the same channel.
+
+  - id: hbp-ch09-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Nine - The Half-Blood Prince
+    chapter_start_pdf_page: 2559
+    chapter_end_pdf_page: 2577
+    pdf_page: 2564
+    printed_page: null
+    extracted_text_lines: 162-260
+    text_anchor:
+      start_phrase: Snape had imposed his personality upon the room already
+      end_phrase: all thought of nonverbal spells forgotten
+      local_occurrence_note: Snape's first sixth-year Defense lesson introduces advanced Dark Arts framing and paired nonverbal jinx-and-shield practice.
+    nearby_context: The class enters the Defense Against the Dark Arts classroom after Snape replaces Umbridge and begins N.E.W.T.-level instruction.
+    match_terms:
+      - Defense Against the Dark Arts
+      - N.E.W.T. work
+      - Dark Arts
+      - nonverbal spells
+      - Inferius
+      - Shield Charm
+      - Standard Book of Spells Grade Six
+    quote_excerpt_short: "complete novices in the use of nonverbal spells"
+    source_note: Snape frames N.E.W.T. Defense as advanced, adaptive work against the Dark Arts, uses classroom images of major threats, and begins practical nonverbal spell practice.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - defense-against-the-dark-arts
+      - newt-courses
+      - nonverbal-spells
+      - shield-charm
+      - inferi
+      - dark-arts
+      - standard-book-of-spells
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Defense Against the Dark Arts
+    candidate_section: Sixth-year nonverbal magic and advanced threat framing
+    reason_for_placement: The lesson gives direct classroom evidence for sixth-year Defense content, pedagogy, and textbook-linked nonverbal spell theory.
+    relevance_to_hogwarts_a_history: This can support a curriculum section on how Defense instruction escalates after O.W.L.s and during the Second War.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found no prior seed for Snape's first N.E.W.T. Defense lesson, nonverbal spell practice, or the specific Grade Six textbook explanation.
+    confidence: high
+    limitations: Snape's tone and threat examples may reflect his personal teaching style as much as the standard syllabus.
+
+  - id: hbp-ch09-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Nine - The Half-Blood Prince
+    chapter_start_pdf_page: 2559
+    chapter_end_pdf_page: 2577
+    pdf_page: 2568
+    printed_page: null
+    extracted_text_lines: 318-335
+    text_anchor:
+      start_phrase: I would like to start our private lessons this Saturday
+      end_phrase: It's the password to get past the gargoyle outside his study
+      local_occurrence_note: Dumbledore sends Harry a written appointment note and embeds the current office-gargoyle password in the postscript.
+    nearby_context: Jack Sloper delivers the parchment after Harry's first Defense lesson, before Harry and his friends speculate about the private lessons.
+    match_terms:
+      - private lessons
+      - Dumbledore
+      - office
+      - Acid Pops
+      - gargoyle
+      - password
+      - parchment
+    quote_excerpt_short: "It's the password to get past the gargoyle"
+    source_note: Dumbledore schedules Harry's Saturday private lesson by written note and supplies the current password for the gargoyle guarding his study.
+    reference_type: magical_architecture
+    era_classification: later_editorial_note
+    topic_tags:
+      - dumbledore-office
+      - headmaster-office
+      - stone-gargoyle
+      - password
+      - private-lessons
+      - headmaster
+      - magical-architecture
+    candidate_part: Magical Architecture and Enchantments
+    candidate_chapter: Headmaster's Office and Protected Entrances
+    candidate_section: Gargoyle password use for scheduled private lessons
+    reason_for_placement: The note corroborates the passworded headmaster-office entrance and shows how a student is given authorized access for exceptional instruction.
+    relevance_to_hogwarts_a_history: This can cross-reference protected administrative spaces with later wartime one-to-one teaching by the headmaster.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch11-007
+        - hbp-ch05-005
+      notes: cos-ch11-007 records the passworded gargoyle and moving staircase, while hbp-ch05-005 records peer interpretation of Dumbledore's private lessons; this entry adds a dated lesson appointment and active password transmission.
+    confidence: high
+    limitations: The passage gives only one password instance and does not explain password rotation or who else may authorize entry.
+
+  - id: hbp-ch09-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Nine - The Half-Blood Prince
+    chapter_start_pdf_page: 2559
+    chapter_end_pdf_page: 2577
+    pdf_page: 2569
+    printed_page: null
+    extracted_text_lines: 340-488
+    text_anchor:
+      start_phrase: there were only a dozen people progressing to N.E.W.T. level
+      end_phrase: It makes you lucky
+      local_occurrence_note: Slughorn's first N.E.W.T. Potions class identifies the small roster, classroom supplies, old textbooks, and advanced demonstration potions.
+    nearby_context: Harry and Ron enter the dungeon without supplies because they had not expected to qualify for N.E.W.T. Potions under the new teacher's threshold.
+    match_terms:
+      - N.E.W.T. Potions
+      - Advanced Potion-Making
+      - store cupboard
+      - Veritaserum
+      - Polyjuice Potion
+      - Amortentia
+      - Felix Felicis
+    quote_excerpt_short: "a small stock of old books"
+    source_note: Slughorn's N.E.W.T. Potions class has a small cross-House roster, loan supplies for newly eligible students, and demonstrations of Veritaserum, Polyjuice Potion, Amortentia, and Felix Felicis.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - potions
+      - newt-courses
+      - advanced-potion-making
+      - classroom-supplies
+      - veritaserum
+      - polyjuice-potion
+      - amortentia
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Potions Instruction and Materials
+    candidate_section: N.E.W.T. class supplies and advanced potion demonstrations
+    reason_for_placement: "The scene gives detailed sixth-year Potions evidence: class size, textbook title, emergency loan materials, and named advanced potions students should recognize."
+    relevance_to_hogwarts_a_history: A curriculum chapter could use it to describe advanced Potions expectations and the practical resources available in the dungeon classroom.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch10-002
+        - hbp-ch08-005
+      notes: cos-ch10-002 records advanced potion recipes and student-store distinctions, and hbp-ch08-005 records Slughorn's Potions appointment; this entry adds N.E.W.T. roster size, loaned books and scales, and Slughorn's advanced demonstration set.
+    confidence: high
+    limitations: The demonstration potions are described as examples students should know by the end of N.E.W.T.s, not necessarily recipes brewed by this class that day.
+
+  - id: hbp-ch09-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Nine - The Half-Blood Prince
+    chapter_start_pdf_page: 2559
+    chapter_end_pdf_page: 2577
+    pdf_page: 2572
+    printed_page: null
+    extracted_text_lines: 474-514
+    text_anchor:
+      start_phrase: that one, ladies and gentlemen, is a most curious little potion
+      end_phrase: sporting events, for instance, examinations, or elections
+      local_occurrence_note: Slughorn introduces Felix Felicis as a prize and explains its effect, risks, dosing caution, and competition ban.
+    nearby_context: After students identify the displayed potions, Slughorn uses the prize bottle to motivate a Draught of Living Death brewing contest.
+    match_terms:
+      - Felix Felicis
+      - liquid luck
+      - toxic
+      - banned substance
+      - organized competitions
+      - examinations
+      - elections
+    quote_excerpt_short: "a banned substance in organized competitions"
+    source_note: Felix Felicis is presented as difficult and dangerous to brew, toxic in excess, useful for a limited span of luck, and banned in organized competitions such as sport, exams, and elections.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - felix-felicis
+      - liquid-luck
+      - potions
+      - banned-substances
+      - examinations
+      - quidditch
+      - competition-rules
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Exams, Sport, and Magical Fairness
+    candidate_section: Banned performance-enhancing potions
+    reason_for_placement: The passage links potion lore to explicit institutional fairness rules across Hogwarts-relevant exams and sport.
+    relevance_to_hogwarts_a_history: A later section on examination and Quidditch regulations could use this as evidence for magical performance-enhancement bans.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found no prior seed for Felix Felicis, liquid luck, or its ban in competitions, examinations, and elections.
+    confidence: high
+    limitations: Slughorn states the ban generally; the passage does not identify the regulatory authority or formal penalty for misuse.
+
+  - id: hbp-ch09-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Nine - The Half-Blood Prince
+    chapter_start_pdf_page: 2559
+    chapter_end_pdf_page: 2577
+    pdf_page: 2574
+    printed_page: null
+    extracted_text_lines: 518-654
+    text_anchor:
+      start_phrase: the previous owner had scribbled all over the pages
+      end_phrase: This Book is the Property of the Half-Blood Prince
+      local_occurrence_note: Harry follows marginal corrections in a loaned Advanced Potion-Making copy, wins Felix Felicis, and discovers the owner's self-label.
+    nearby_context: Slughorn has assigned the Draught of Living Death from Advanced Potion-Making, and Harry works from an old school copy lent from the dungeon stock.
+    match_terms:
+      - Advanced Potion-Making
+      - Half-Blood Prince
+      - marginalia
+      - Draught of Living Death
+      - sopophorous bean
+      - silver dagger
+      - Specialis Revelio
+    quote_excerpt_short: "This Book is the Property of the Half-Blood Prince"
+    source_note: A battered school copy of Advanced Potion-Making contains effective handwritten corrections and spells attributed by ownership note to the Half-Blood Prince.
+    reference_type: explicit_in_universe_source
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - half-blood-prince
+      - advanced-potion-making
+      - potions
+      - marginalia
+      - draught-of-living-death
+      - specialis-revelio
+      - school-textbooks
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Textbooks, Marginalia, and Informal Knowledge
+    candidate_section: The Half-Blood Prince's annotated Potions book
+    reason_for_placement: The passage gives an in-universe written source inside a Hogwarts classroom and shows informal annotations outperforming the printed curriculum.
+    relevance_to_hogwarts_a_history: A later editorial note could use this as a case study in inherited student materials, unofficial magical knowledge, and the risks of annotated books.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch09-007
+        - cos-ch10-002
+      notes: cos-ch09-007 and cos-ch10-002 record advanced Potions books and complex recipes; this entry adds a loaned N.E.W.T. textbook with owner marginalia that changes classroom outcomes.
+    confidence: high
+    limitations: The owner's identity is not yet resolved in this chapter, and Hermione's spell check only suggests the book is not obviously enchanted.

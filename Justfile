@@ -34,7 +34,7 @@ validate:
 
 # Run the current test suite
 test:
-    .venv/bin/python -m unittest tests/test_refactor_support.py
+    .venv/bin/python -m unittest discover -s tests -p 'test_*.py'
 
 # Rebuild compact indexes
 indexes:
@@ -59,6 +59,38 @@ post:
 # Compact orientation for routine agents
 brief:
     just status
+
+# Clear disposable extraction artifacts before rendering the current scanned range
+clean-cache:
+    .venv/bin/python scripts/cleanup_tmp.py
+
+# Validate and complete exactly one current PDF source unit transactionally
+advance-current:
+    .venv/bin/python scripts/complete_current_unit.py
+
+# Claim the next or a specific external source unit
+claim-external agent="codex" unit="":
+    .venv/bin/python scripts/external_sources/queue.py claim --agent "{{agent}}" --unit "{{unit}}"
+
+# Show active external claims or one specific unit
+current-external unit="":
+    .venv/bin/python scripts/external_sources/queue.py current --unit "{{unit}}"
+
+# Complete an external unit through all validation and generation gates
+complete-external unit token:
+    .venv/bin/python scripts/external_sources/queue.py complete --unit "{{unit}}" --claim-token "{{token}}"
+
+# Return an interrupted external claim to pending
+release-external unit token reason:
+    .venv/bin/python scripts/external_sources/queue.py release --unit "{{unit}}" --claim-token "{{token}}" --reason "{{reason}}"
+
+# Block an external claim with a precise reason
+block-external unit token reason:
+    .venv/bin/python scripts/external_sources/queue.py block --unit "{{unit}}" --claim-token "{{token}}" --reason "{{reason}}"
+
+# Show compact external queue counts and pointers
+external-status:
+    .venv/bin/python scripts/external_sources/queue.py status
 
 # Query possible duplicate or corroborating entries by tags
 query-dupes *tags:

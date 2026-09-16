@@ -1,0 +1,106 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B21
+  manifest_id: external-B21
+  source_file: resources/external/interviews/accio-quote/b21-raincoast-books-interview.md
+  title: Raincoast Books interview transcript, Raincoast Books (Canada), March 2001.
+  author: J.K. Rowling
+  source_site: Accio Quote
+  original_publisher: Raincoast Books
+  source_class: preservation_transcription
+  authority: D
+  publication_date: March 2001
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/2001/0301-raincoast-interview.html
+  retrieved_at: '2026-08-15'
+  archive_url: null
+  carrier_type: preservation_transcript
+  is_primary: false
+  is_official: false
+  capture_completeness: complete
+  content_sha256: 0b08d9fcd873df7374d70644dd57246f55adf64abad38f7f67ee76aeece1cc8c
+  relevance:
+    - hogwarts
+    - rowling_interview
+    - author_commentary
+  notes: 'Accio Quote preservation carrier; original outlet: Raincoast Books.'
+  processed_date: '2026-08-24'
+  processor_notes: >-
+    Complete snapshot read. Extracted only the pre-1984 Quidditch-history claim;
+    Harry-era and future-series comments are later editorial material and excluded.
+
+entries:
+  - id: ext-b21-001
+    source_file: resources/external/interviews/accio-quote/b21-raincoast-books-interview.md
+    source_id: B21
+    source_url: https://www.accio-quote.org/articles/2001/0301-raincoast-interview.html
+    source_section: Can you tell me where and when Quidditch was invented?
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Quidditch started in the 11 th century
+      end_phrase: became the game we know now.
+      local_occurrence_note: Answer to the Quidditch-invention question, following the discussion of schoolbooks.
+    nearby_context: >-
+      Rowling explains the game's location and early form, then says further balls
+      were added during the following two centuries.
+    match_terms:
+      - Quidditch
+      - Queerditch Marsh
+      - eleventh century
+      - broomsticks
+    quote_excerpt_short: Quidditch started in the 11 th century, at a place called Queerditch Marsh.
+    source_note: >-
+      The interview places Quidditch's origin at unplottable Queerditch Marsh in the
+      eleventh century and describes its evolution from a crude broomstick game.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - eleventh-century
+      - queerditch-marsh
+      - quidditch-history
+      - wizarding-sports
+    candidate_part: Quidditch and School Recreation
+    candidate_chapter: The History and Rules of Quidditch
+    candidate_section: Origins and Early Development
+    reason_for_placement: >-
+      It supplies a compact authorial statement of the sport's pre-Hogwarts historical
+      origin and early development.
+    relevance_to_hogwarts_a_history: >-
+      Supports contextual history for the school sport while remaining a pre-1984
+      historical claim; no Harry-era or future-series commentary is used.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - qtta-ch03-001
+      notes: >-
+        The Queerditch Marsh origin is the same historical claim as qtta-ch03-001;
+        other ranked Quidditch-history entries provide context or different claims.
+      audit:
+        query_tags:
+          - eleventh-century
+          - queerditch-marsh
+          - quidditch-history
+          - wizarding-sports
+        candidates:
+          - id: ps-ch11-002
+            disposition: distinct
+          - id: qtta-ch03-001
+            disposition: duplicate
+          - id: qtta-ch04-001
+            disposition: corroborating
+          - id: qtta-ch04-002
+            disposition: corroborating
+          - id: qtta-ch04-003
+            disposition: corroborating
+          - id: qtta-ch06-001
+            disposition: corroborating
+          - id: qtta-ch08-001
+            disposition: corroborating
+          - id: qtta-fm-003
+            disposition: distinct
+    confidence: medium
+    limitations: >-
+      This is a 2001 preservation transcription of an interview, not a contemporaneous
+      historical document; later-material answers in the interview were excluded.

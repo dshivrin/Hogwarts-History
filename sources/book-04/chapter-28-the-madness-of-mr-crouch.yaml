@@ -1,0 +1,325 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Eight - The Madness of Mr. Crouch
+  chapter_start_pdf_page: 1394
+  chapter_end_pdf_page: 1418
+  boundary_confidence: high
+  boundary_notes: Chapter Twenty-Eight range came from project-control/processing-state.yaml and project-control/next-run.md. The run used the prior Chapter Twenty-Seven and next Chapter Twenty-Nine anchors and extracted only PDF pages 1394-1418 with pypdf, without scanning the full PDF from page 1.
+  processed_date: '2026-06-30'
+  processor_notes: "Processed only Book 4, Chapter Twenty-Eight. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. One explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch28-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Eight - The Madness of Mr. Crouch
+  chapter_start_pdf_page: 1394
+  chapter_end_pdf_page: 1418
+  pdf_page: 1395
+  printed_page: null
+  extracted_text_lines: 27-149
+  text_anchor:
+    start_phrase: Dobby, where's Winky
+    end_phrase: more stuff out of Winky about Crouch
+    local_occurrence_note: Harry questions Winky in the Hogwarts kitchen while Dobby and the other house-elves react to her drinking and Hermione's labor-rights argument.
+  nearby_context: Winky still treats Crouch as her master, says Dumbledore is now her master only in Dobby's account, drinks butterbeer heavily, and insists she is trusted with important secrets beyond housework.
+  match_terms:
+  - Winky
+  - Dobby
+  - Hogwarts kitchens
+  - house-elves
+  - butterbeer
+  - Dumbledore
+  - Crouch secrets
+  quote_excerpt_short: "Winky keeps her master's secrets"
+  source_note: The kitchen scene extends Hogwarts house-elf evidence by showing Winky's transfer into Dumbledore's service, house-elf sensitivity to butterbeer, labor norms against unhappiness, and elf secrecy around a former master.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - house-elves
+  - winky
+  - dobby
+  - hogwarts-kitchens
+  - magical-servitude
+  - butterbeer
+  - dumbledore
+  candidate_part: Castle Architecture and Daily Operations
+  candidate_chapter: Kitchens, Food Service, and Hidden Labor
+  candidate_section: House-Elf Service, Secrecy, and Winky's Hogwarts Employment
+  reason_for_placement: The scene adds direct evidence about kitchen labor culture, transferred service, and house-elf ideas of duty in a Hogwarts work space.
+  relevance_to_hogwarts_a_history: A later edition can use this to discuss the institution's hidden labor system and how exceptional cases like Dobby and Winky exposed conflicting house-elf customs.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch21-007; gof-ch08-002; gof-ch09-003
+    notes: gof-ch21-007 records Dobby and Winky's Hogwarts employment and wage conflict, gof-ch08-002 records house-elf service norms, and gof-ch09-003 records Winky's dismissal; this entry adds kitchen reactions, butterbeer effects, and Winky's secrecy about Crouch.
+  confidence: high
+  limitations: The most sensitive Crouch material is fragmented by Winky's distress and intoxication, so the entry should not infer the secret's content beyond her refusal.
+- id: gof-ch28-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Eight - The Madness of Mr. Crouch
+  chapter_start_pdf_page: 1394
+  chapter_end_pdf_page: 1418
+  pdf_page: 1400
+  printed_page: null
+  extracted_text_lines: 238-297
+  text_anchor:
+    start_phrase: Hagrid, who had told them last lesson
+    end_phrase: Madame Maxime watching them out of her carriage window
+    local_occurrence_note: Hagrid follows the unicorn sequence with a practical niffler lesson beside his cabin.
+  nearby_context: Students take valuables off, choose nifflers, release them into freshly turned earth, count recovered leprechaun gold, and learn that nifflers detect treasure but wreck houses.
+  match_terms:
+  - Care of Magical Creatures
+  - nifflers
+  - treasure detectors
+  - leprechaun gold
+  - Hagrid
+  - practical lesson
+  quote_excerpt_short: "Useful little treasure detectors"
+  source_note: The Care of Magical Creatures lesson introduces nifflers as mine-dwelling treasure detectors and shows Hagrid structuring a controlled practical exercise with temporary leprechaun gold.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - care-of-magical-creatures
+  - nifflers
+  - hagrid
+  - practical-lessons
+  - leprechaun-gold
+  - magical-creatures
+  - student-safety
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Care of Magical Creatures and Practical Handling
+  candidate_section: Niffler Treasure-Detection Lesson
+  reason_for_placement: The passage adds a non-Skrewt practical creature lesson and shows how magical-creature behavior can be turned into a supervised class activity.
+  relevance_to_hogwarts_a_history: This supports later curriculum coverage with a relatively successful lesson that combines creature lore, student handling, and enchanted currency behavior.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch26-003; gof-ch24-001; gof-ch13-003
+    notes: gof-ch26-003 and gof-ch24-001 cover nearby Care of Magical Creatures unicorn lessons, while gof-ch13-003 records Hagrid's riskier Skrewt project; this entry adds nifflers, treasure detection, and leprechaun-gold practice.
+  confidence: high
+  limitations: The lesson occurs under Hagrid's individual teaching style and does not prove nifflers were part of the long-standing standard syllabus.
+- id: gof-ch28-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Eight - The Madness of Mr. Crouch
+  chapter_start_pdf_page: 1394
+  chapter_end_pdf_page: 1418
+  pdf_page: 1404
+  printed_page: null
+  extracted_text_lines: 366-404
+  text_anchor:
+    start_phrase: I want to know how she's listening
+    end_phrase: Harry was quite sure she was going to the library
+    local_occurrence_note: "Hermione cites Hogwarts: A History while rejecting Muggle surveillance devices as a way Rita Skeeter could be listening at Hogwarts."
+  nearby_context: After Moody reports that Rita was not visibly near the second task, Harry suggests microphones and recording equipment; Hermione says Muggle substitutes for magic fail around Hogwarts because there is too much magic in the air.
+  match_terms:
+  - "Hogwarts: A History"
+  - electricity
+  - computers
+  - radar
+  - Muggle substitutes
+  - magic in the air
+  - Rita Skeeter
+  quote_excerpt_short: "they all go haywire around Hogwarts"
+  source_note: "Hermione explicitly invokes Hogwarts: A History to explain that electricity, computers, radar, and similar Muggle technologies malfunction around Hogwarts because of the surrounding magical saturation."
+  reference_type: explicit_hogwarts_a_history
+  era_classification: original_book_core_candidate
+  topic_tags:
+  - hogwarts-a-history
+  - muggle-technology
+  - electricity
+  - computers
+  - radar
+  - magical-saturation
+  - school-protections
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Castle-Wide Magical Environment
+  candidate_section: Muggle Technology Failure Around Hogwarts
+  reason_for_placement: This is a direct target-book citation and gives a general environmental rule for Hogwarts rather than a one-off event.
+  relevance_to_hogwarts_a_history: The passage should be captured in the explicit-reference appendix and used as core evidence for why ordinary Muggle devices cannot reliably operate at the school.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch11-005; poa-ch09-001; cos-ch09-001
+    notes: "gof-ch11-005 and poa-ch09-001 cite Hogwarts: A History for castle concealment and protective enchantments, while cos-ch09-001 records library demand for the book; this entry adds Muggle technology failure from ambient magic."
+  confidence: high
+  limitations: Hermione paraphrases the book rather than quoting a full passage, and the scene applies the rule to an eavesdropping investigation rather than a technical demonstration.
+- id: gof-ch28-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Eight - The Madness of Mr. Crouch
+  chapter_start_pdf_page: 1394
+  chapter_end_pdf_page: 1418
+  pdf_page: 1406
+  printed_page: null
+  extracted_text_lines: 445-499
+  text_anchor:
+    start_phrase: the third and final task
+    end_phrase: we'll go back up to the castle
+    local_occurrence_note: Bagman briefs the champions on the transformed Quidditch field after McGonagall sends Harry there from Transfiguration.
+  nearby_context: The Quidditch field is being turned into a hedge maze; Hagrid will grow the hedges, provide creatures, and the champions will enter by point standing to reach the Triwizard Cup.
+  match_terms:
+  - third task
+  - Triwizard Tournament
+  - Quidditch field
+  - maze
+  - Hagrid
+  - Triwizard Cup
+  - champion points
+  quote_excerpt_short: "The Triwizard Cup will be placed in the center"
+  source_note: The third-task briefing records the conversion of Hogwarts's Quidditch field into a temporary maze, the task's cup-centered goal, creature and spell obstacles, and staggered champion entry based on points.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - third-task
+  - maze
+  - quidditch-field
+  - hagrid
+  - triwizard-cup
+  - tournament-rules
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Third-Task Maze Construction and Rules
+  reason_for_placement: The passage gives official procedural evidence for the final task and shows ordinary school grounds being repurposed for tournament infrastructure.
+  relevance_to_hogwarts_a_history: A later edition can use this to describe how the revived tournament altered school space, suspended normal Quidditch use, and staged competitive fairness through points-based entry.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-007; gof-ch17-006; gof-ch20-007
+    notes: gof-ch12-007 records the tournament revival, gof-ch17-006 records first-task champion instructions, and gof-ch20-007 records the second-task clue; this entry adds the third-task maze layout, scoring order, and Quidditch-field conversion.
+  confidence: high
+  limitations: The briefing summarizes task structure before the actual event and does not list the final creature or spell obstacle inventory.
+- id: gof-ch28-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Eight - The Madness of Mr. Crouch
+  chapter_start_pdf_page: 1394
+  chapter_end_pdf_page: 1418
+  pdf_page: 1409
+  printed_page: null
+  extracted_text_lines: 545-635
+  text_anchor:
+    start_phrase: something moved behind Krum in the trees
+    end_phrase: Help me, will you
+    local_occurrence_note: Crouch staggers out of the forest after the third-task briefing and alternates between old Ministry instructions and urgent warnings for Dumbledore.
+  nearby_context: Crouch recalls Durmstrang's twelve students and Madame Maxime's possible matching number, asks for Dumbledore, mentions Bertha, his son, Harry Potter, and the Dark Lord, and says he escaped.
+  match_terms:
+  - Bartemius Crouch
+  - Forbidden Forest
+  - Dumbledore
+  - Durmstrang students
+  - Madame Maxime
+  - Bertha Jorkins
+  - Dark Lord
+  quote_excerpt_short: "must warn . . . must tell"
+  source_note: Crouch's appearance on the forest edge combines tournament-administration fragments with an urgent security warning linking Bertha Jorkins, his son, Harry, and Voldemort's growing strength.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - bartemius-crouch
+  - forbidden-forest
+  - dumbledore
+  - bertha-jorkins
+  - dark-lord
+  - durmstrang
+  - triwizard-tournament
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Crouch's Forest Warning and Tournament Administration Fragments
+  reason_for_placement: The passage ties the school-hosted tournament to a Ministry security breach and preserves details about visiting-school delegation numbers.
+  relevance_to_hogwarts_a_history: A later edition can use this as a turning-point source for the tournament year's governance failure and the intrusion of external wartime danger onto Hogwarts grounds.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch27-005; gof-ch07-005; gof-ch17-002
+    notes: gof-ch27-005 records public reports of Crouch's absence and Bertha's disappearance, gof-ch07-005 records early Ministry concern over Bertha, and gof-ch17-002 records inter-school fairness disputes; this entry adds Crouch's direct forest warning and delegation-number fragments.
+  confidence: medium
+  limitations: Crouch is disoriented and fragmented, so the entry should treat the warning as critical but not use his broken speech to reconstruct unstated events.
+- id: gof-ch28-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Eight - The Madness of Mr. Crouch
+  chapter_start_pdf_page: 1394
+  chapter_end_pdf_page: 1418
+  pdf_page: 1412
+  printed_page: null
+  extracted_text_lines: 642-689
+  text_anchor:
+    start_phrase: a stone gargoyle standing halfway along an empty corridor
+    end_phrase: leaving Snape standing next to the gargoyle
+    local_occurrence_note: Harry cannot open the headmaster's office with the old password, then Snape exits and Dumbledore appears from the concealed entrance.
+  nearby_context: The passage confirms the passworded gargoyle, hidden staircase, moving wall, changed password, staff access, and Dumbledore's prompt response when told Crouch is in the forest.
+  match_terms:
+  - Dumbledore's office
+  - stone gargoyle
+  - hidden staircase
+  - password
+  - Snape
+  - headmaster
+  quote_excerpt_short: "the password to the hidden staircase"
+  source_note: The scene corroborates the headmaster-office entrance system and adds that passwords can change, blocking student access while staff can emerge through the concealed stair.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - dumbledore-office
+  - headmaster-office
+  - stone-gargoyle
+  - hidden-staircase
+  - password
+  - magical-architecture
+  - snape
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Protected Offices and Moving Entrances
+  candidate_section: Headmaster's Gargoyle Entrance and Password Changes
+  reason_for_placement: The passage confirms a protected administrative route and clarifies that old passwords do not permanently grant access.
+  relevance_to_hogwarts_a_history: This supports castle-architecture coverage of protected staff spaces and password-controlled moving entrances.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch11-007; cos-ch12-001; cos-ch13-006
+    notes: cos-ch11-007 records the passworded gargoyle and moving staircase, cos-ch12-001 adds office interior details, and cos-ch13-006 shows Dippet-era continuity; this entry adds changed-password failure and Snape's staff-side access.
+  confidence: high
+  limitations: The scene does not enter the office or describe its interior, and it does not state who sets or changes the password.
+- id: gof-ch28-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty-Eight - The Madness of Mr. Crouch
+  chapter_start_pdf_page: 1394
+  chapter_end_pdf_page: 1418
+  pdf_page: 1414
+  printed_page: null
+  extracted_text_lines: 717-839
+  text_anchor:
+    start_phrase: They were here
+    end_phrase: Ha! You can't trust any of 'em
+    local_occurrence_note: Dumbledore finds Krum stunned in the forest, summons help, revives him, orders a search, and contains Karkaroff and Hagrid's escalating confrontation.
+  nearby_context: Dumbledore uses Lumos, sends a silvery birdlike signal toward Hagrid's cabin, revives Krum with Rennervate, orders Hagrid to fetch Karkaroff and Moody, and confines Harry to Gryffindor Tower.
+  match_terms:
+  - Dumbledore
+  - emergency response
+  - Forbidden Forest
+  - Rennervate
+  - Hagrid
+  - Moody
+  - Karkaroff
+  quote_excerpt_short: "it is essential that we find him"
+  source_note: The forest emergency shows Dumbledore coordinating a rapid staff response on the grounds, using message magic, revival magic, delegated search, and student containment during an international incident.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - dumbledore
+  - emergency-response
+  - forbidden-forest
+  - rennervate
+  - hagrid
+  - mad-eye-moody
+  - karkaroff
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Emergencies on the Grounds
+  candidate_section: Forest Search, Revival Magic, and Visiting-School Tension
+  reason_for_placement: The passage provides a concrete incident-response sequence involving the headmaster, groundskeeper, Defense Against the Dark Arts teacher, and a visiting headmaster.
+  relevance_to_hogwarts_a_history: A later edition can use this to document how Hogwarts security operated under Triwizard pressure and how inter-school diplomacy strained emergency handling.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch23-005; gof-ch19-006; cos-ch14-003
+    notes: gof-ch23-005 records tournament-era cooperation and rivalry, gof-ch19-006 records Karkaroff/Moody/Durmstrang security concerns, and cos-ch14-003 records school emergency routing; this entry adds Dumbledore's forest response, Rennervate, a staff search, and Karkaroff's accusation.
+  confidence: high
+  limitations: The silvery birdlike signal is described by Harry without a named spell in this chapter, and Crouch's disappearance remains unresolved here.

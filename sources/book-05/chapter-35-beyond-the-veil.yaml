@@ -1,0 +1,328 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Five - Beyond the Veil
+  chapter_start_pdf_page: 2320
+  chapter_end_pdf_page: 2344
+  boundary_confidence: high
+  boundary_notes: Bounded pypdf extraction starts with the Chapter Thirty-Five heading on PDF page 2320 and ends with Sirius beyond the veil on PDF page 2344, immediately before the next chapter continues the aftermath.
+  processed_date: '2026-07-14'
+  processor_notes: "Extracted only the bounded current range from prior anchors; no full-PDF scan was used. No explicit Hogwarts: A History reference appears in this source unit."
+
+entries:
+- id: ootp-ch35-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Five - Beyond the Veil
+  chapter_start_pdf_page: 2320
+  chapter_end_pdf_page: 2344
+  pdf_page: 2325
+  printed_page: null
+  extracted_text_lines: 148-172
+  text_anchor:
+    start_phrase: Dumbledore never told you that the reason
+    end_phrase: attempted to use others to steal it for him
+    local_occurrence_note: Lucius Malfoy explains why Voldemort needed Harry to retrieve the record from the Department.
+  nearby_context: Malfoy links Harry's scar and Voldemort's earlier attacks to the hidden prophecy record while Death Eaters surround the students in row ninety-seven.
+  match_terms:
+  - prophecy retrieval
+  - Department of Mysteries
+  - Lucius Malfoy
+  - Voldemort
+  - Harry Potter
+  - access rule
+  quote_excerpt_short: "only people who are permitted to retrieve a prophecy"
+  source_note: "The Department's prophecy records appear to have an access restriction: only the subject of a prophecy can retrieve it, forcing Voldemort to manipulate Harry rather than collect the orb directly."
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - department-of-mysteries
+  - prophecy
+  - access-control
+  - hall-of-prophecies
+  - voldemort
+  - harry-potter
+  - lucius-malfoy
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Divination, Prophecy, and School Testimony
+  candidate_section: Ministry custody of prophecy records
+  reason_for_placement: The scene adds an institutional access rule to the prior evidence for physical prophecy storage.
+  relevance_to_hogwarts_a_history: A later edition can connect school-based prophecy testimony to Ministry archival handling and protections around prophetic records.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch34-007
+    notes: ootp-ch34-007 records the labelled Hall of Prophecies orb; this entry adds the retrieval-permission rule for subjects of a prophecy.
+  confidence: high
+  limitations: Malfoy is the source for the rule, so the exact mechanism and exceptions remain unconfirmed by a neutral narrator.
+
+- id: ootp-ch35-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Five - Beyond the Veil
+  chapter_start_pdf_page: 2320
+  chapter_end_pdf_page: 2344
+  pdf_page: 2323
+  printed_page: null
+  extracted_text_lines: 117-137
+  text_anchor:
+    start_phrase: His spell caused hers to hit the shelf
+    end_phrase: fragments of glass upon the floor
+    local_occurrence_note: A deflected spell breaks prophecy orbs and releases brief pearly figures that speak fragments.
+  nearby_context: Later Reductor Curses break many shelves and fill the Hall with more echoing Seer fragments, confirming the same storage behavior at larger scale.
+  match_terms:
+  - glass orbs
+  - shattered prophecy
+  - pearly figures
+  - Seers
+  - Hall of Prophecies
+  - Department of Mysteries
+  quote_excerpt_short: "pearly white as ghosts"
+  source_note: When Department prophecy orbs break, they release smoky or ghostlike figures that speak fragments of the recorded prophecies before dissolving.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - department-of-mysteries
+  - prophecy
+  - glass-orbs
+  - seers
+  - hall-of-prophecies
+  - magical-records
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Divination, Prophecy, and School Testimony
+  candidate_section: Physical prophecy records in the Department of Mysteries
+  reason_for_placement: The evidence clarifies what the Ministry's stored prophecy records contain and how the record manifests when destroyed.
+  relevance_to_hogwarts_a_history: A later edition can contrast classroom Divination skepticism with an official Ministry archive that preserves prophecy voices as magical records.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch34-007
+    notes: ootp-ch34-007 establishes the physical prophecy archive; this entry adds the behavior of a broken prophecy orb and the audible/visual record inside.
+  confidence: high
+  limitations: The chapter gives only overheard fragments, not the full contents or technical preservation method.
+
+- id: ootp-ch35-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Five - Beyond the Veil
+  chapter_start_pdf_page: 2320
+  chapter_end_pdf_page: 2344
+  pdf_page: 2327
+  printed_page: null
+  extracted_text_lines: 219-255
+  text_anchor:
+    start_phrase: the door through which they had come was ajar
+    end_phrase: Alohomora!
+    local_occurrence_note: Hermione seals the time-room door with Colloportus, but pursuing Death Eaters soon reopen it with Alohomora.
+  nearby_context: Malfoy orders the Death Eaters to split into pairs across the Department rooms, showing an organized search pattern inside the rotating-door complex.
+  match_terms:
+  - Colloportus
+  - Alohomora
+  - sealed door
+  - Department of Mysteries
+  - Death Eaters
+  - search pairs
+  quote_excerpt_short: "the door sealed itself"
+  source_note: In the Department fight, ordinary door-sealing and unlocking charms work on some internal doors, while pursuers coordinate room-by-room searches through multiple entrances.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - department-of-mysteries
+  - colloportus
+  - alohomora
+  - doors
+  - magical-security
+  - pursuit
+  - death-eaters
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Interfaces and Magical Research
+  candidate_section: Door charms and search movement inside the Department
+  reason_for_placement: The scene distinguishes ordinary internal door control from the more heavily protected Department door recorded in the prior chapter.
+  relevance_to_hogwarts_a_history: A later edition can compare Hogwarts door charms and corridor security with Ministry rooms where standard charms still matter under pressure.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup returned no prior match for this Colloportus/Alohomora pursuit sequence or its contrast with ordinary Department doors.
+  confidence: high
+  limitations: The evidence applies to some Department doors during a chase, not to all Department security.
+
+- id: ootp-ch35-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Five - Beyond the Veil
+  chapter_start_pdf_page: 2320
+  chapter_end_pdf_page: 2344
+  pdf_page: 2328
+  printed_page: null
+  extracted_text_lines: 285-324
+  text_anchor:
+    start_phrase: The jet of red light flew right over
+    end_phrase: Time . . .
+    local_occurrence_note: Broken time-room objects repair and shatter in a loop, and the bell jar regresses a Death Eater's head to babyhood.
+  nearby_context: Harry later suspects the recurring glass cabinet contained Time-Turners, while the baby-headed Death Eater remains trapped in repeated temporal effects.
+  match_terms:
+  - time room
+  - bell jar
+  - Time-Turners
+  - Department of Mysteries
+  - age regression
+  - hourglasses
+  quote_excerpt_short: "It's time"
+  source_note: "The Time Room contains dangerous temporal artifacts: a cabinet repeatedly repairs and breaks, and the bell jar can cycle a person's body part between adult and infant states."
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - department-of-mysteries
+  - time-room
+  - bell-jar
+  - time-turners
+  - temporal-magic
+  - dangerous-magic
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Interfaces and Magical Research
+  candidate_section: Time Room hazards and temporal artifacts
+  reason_for_placement: The chapter moves from layout evidence to observed effects of Department temporal research objects.
+  relevance_to_hogwarts_a_history: A later edition can use this as external context for school-era Time-Turner use and the Ministry's custody of advanced temporal magic.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch34-007
+    notes: ootp-ch34-007 records the Time Room route and bell jar; this entry adds the hazardous effects of the bell jar and suspected Time-Turner cabinet.
+  confidence: high
+  limitations: Harry only suspects the cabinet contained Time-Turners, and the Department's research purpose is not explained.
+
+- id: ootp-ch35-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Five - Beyond the Veil
+  chapter_start_pdf_page: 2320
+  chapter_end_pdf_page: 2344
+  pdf_page: 2334
+  printed_page: null
+  extracted_text_lines: 481-491
+  text_anchor:
+    start_phrase: I think her ankle's broken
+    end_phrase: blew up Pluto in his face
+    local_occurrence_note: Luna describes the separated group's fight in a dark planetary room where they floated and used a Reductor Curse on Pluto.
+  nearby_context: The report arrives after the rotating circular hallway separates the students, adding another Department chamber to the explored route.
+  match_terms:
+  - planet room
+  - Pluto
+  - floating
+  - Department of Mysteries
+  - Luna Lovegood
+  - Reductor Curse
+  quote_excerpt_short: "a dark room full of planets"
+  source_note: The Department includes a dark chamber filled with planets or planetary models where people can float, and its objects can be damaged in combat.
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - department-of-mysteries
+  - planet-room
+  - pluto
+  - magical-research
+  - luna-lovegood
+  - battle-damage
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Interfaces and Magical Research
+  candidate_section: Planetary research chamber
+  reason_for_placement: The planetary chamber broadens the Department's set of mystery-themed research rooms beyond prophecy, time, brains, and death.
+  relevance_to_hogwarts_a_history: A later edition can use this external Ministry room as a comparison for magical astronomy and cosmological study beyond Hogwarts classrooms.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup returned no prior match for a Department planet room, Pluto model, or floating planetary chamber.
+  confidence: medium
+  limitations: The evidence is Luna's compressed report rather than a detailed direct scene, and the room's official name is not given.
+
+- id: ootp-ch35-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Five - Beyond the Veil
+  chapter_start_pdf_page: 2320
+  chapter_end_pdf_page: 2344
+  pdf_page: 2336
+  printed_page: null
+  extracted_text_lines: 526-580
+  text_anchor:
+    start_phrase: They were back in the Brain Room
+    end_phrase: they would not break
+    local_occurrence_note: Ron summons a brain from the tank, and its thought-like tentacles bind him against cutting attempts.
+  nearby_context: The students seal the Brain Room doors while Death Eaters force entry, turning a previously observed research room into an active hazard.
+  match_terms:
+  - Brain Room
+  - Accio Brain
+  - thought tentacles
+  - Department of Mysteries
+  - Ron Weasley
+  - Diffindo
+  quote_excerpt_short: "tentacles of thought"
+  source_note: "Department brain specimens are active and dangerous: a summoned brain releases ribbon-like thought tentacles that bind Ron and resist Harry's cutting spell."
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - department-of-mysteries
+  - brain-room
+  - magical-research
+  - thoughts
+  - dangerous-magic
+  - ron-weasley
+  - diffindo
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Interfaces and Magical Research
+  candidate_section: Brain Room hazards
+  reason_for_placement: The chapter supplies the strongest functional evidence for the Department's brain research objects and their danger to students.
+  relevance_to_hogwarts_a_history: A later edition can contrast Hogwarts spell instruction with advanced Ministry research hazards involving thought or mind-magic material.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch34-004
+    notes: ootp-ch34-004 identifies the Brain Room and navigation workaround; this entry adds the active danger of summoned brains and thought tentacles.
+  confidence: high
+  limitations: The chapter does not explain whether the brains are independent entities, preserved thoughts, or research specimens.
+
+- id: ootp-ch35-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-Five - Beyond the Veil
+  chapter_start_pdf_page: 2320
+  chapter_end_pdf_page: 2344
+  pdf_page: 2343
+  printed_page: null
+  extracted_text_lines: 800-842
+  text_anchor:
+    start_phrase: Directly above them, framed in the doorway
+    end_phrase: He's gone
+    local_occurrence_note: Sirius is struck in the Death Chamber, falls through the veiled arch, does not return, and Lupin restrains Harry from following.
+  nearby_context: The battle converges in the sunken stone chamber after Harry falls from the Brain Room doorway, confirming the chamber's role as a real battle space as well as an uncanny magical structure.
+  match_terms:
+  - veil
+  - archway
+  - Sirius Black
+  - Remus Lupin
+  - Death Chamber
+  - Department of Mysteries
+  quote_excerpt_short: "disappeared behind the veil"
+  source_note: "The veiled arch is lethally consequential: Sirius falls through it, fails to reappear, and Lupin treats the passage beyond the veil as irreversible."
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - department-of-mysteries
+  - veil
+  - archway
+  - death-chamber
+  - sirius-black
+  - remus-lupin
+  - dangerous-magic
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Interfaces and Magical Research
+  candidate_section: The veiled arch and death-related magic
+  reason_for_placement: The scene clarifies the consequences of the veiled arch first observed in the previous chapter.
+  relevance_to_hogwarts_a_history: A later edition can cite this as the central Harry-era evidence that the Department's ancient-looking death chamber is not merely symbolic or perceptual.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch34-005
+    notes: ootp-ch34-005 records the arch, veil, and voices; this entry adds Sirius's disappearance and Lupin's confirmation that he cannot be retrieved.
+  confidence: high
+  limitations: The chapter shows the effect through Harry's perspective and Lupin's response, not through a formal explanation of the veil.

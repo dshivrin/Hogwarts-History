@@ -1,0 +1,336 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Six - Gringotts
+  chapter_start_pdf_page: 3420
+  chapter_end_pdf_page: 3440
+  boundary_confidence: high
+  boundary_notes: Extracted by bounded pypdf range from processing-state.yaml; chapter heading begins on PDF page 3420 and the next chapter is expected to begin on PDF page 3441.
+  processed_date: '2026-08-08'
+  processor_notes: "Bounded extraction only; no full-PDF scan. No explicit Hogwarts: A History title reference found."
+entries:
+- id: dh-ch26-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Six - Gringotts
+  chapter_start_pdf_page: 3420
+  chapter_end_pdf_page: 3440
+  pdf_page: 3428
+  printed_page: null
+  extracted_text_lines: 281-289; 297-305
+  text_anchor:
+    start_phrase: As Griphook had already warned them
+    end_phrase: crossed the threshold
+    local_occurrence_note: Wizards replace the usual liveried goblin door staff and use Probity Probes at the Gringotts entrance before Confunded guards wave the disguised group through.
+  nearby_context: The trio are entering Gringotts under Polyjuice, Invisibility Cloak concealment, and false identity during Voldemort's wartime control of Diagon Alley.
+  match_terms:
+  - Gringotts
+  - Probity Probes
+  - concealment
+  - hidden magical objects
+  - wizard guards
+  - goblins
+  - Confundus Charm
+  quote_excerpt_short: detected spells of concealment
+  source_note: Wartime Gringotts entrance security includes wizard guards with Probity Probes that detect concealment spells and hidden magical objects, replacing the usual goblin door staff.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - gringotts
+  - probity-probes
+  - concealment
+  - hidden-magical-objects
+  - wartime-security
+  - wizard-control
+  - diagon-alley
+  candidate_part: Magical Institutions Beyond Hogwarts
+  candidate_chapter: Gringotts, Goblins, and Wizarding Power
+  candidate_section: Wartime entrance screening and Probity Probes
+  reason_for_placement: The passage gives observed security procedure at the main public entrance of the wizarding bank under wartime conditions.
+  relevance_to_hogwarts_a_history: A later edition can compare institutional anti-concealment screening at Gringotts with school and Ministry approaches to hidden objects and magical disguise.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup returned general concealment and Gringotts entries, but none records Probity Probes screening Gringotts customers at the entrance.
+  confidence: high
+  limitations: The passage reflects emergency wartime arrangements and may not describe peacetime Gringotts entrance procedure.
+- id: dh-ch26-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Six - Gringotts
+  chapter_start_pdf_page: 3420
+  chapter_end_pdf_page: 3440
+  pdf_page: 3429
+  printed_page: null
+  extracted_text_lines: 325-346; 384-391
+  text_anchor:
+    start_phrase: The goblin tossed the coin
+    end_phrase: Very old family . . . old clients
+    local_occurrence_note: Bogrod checks Travers's key, asks the disguised Bellatrix for identification, requests her wand, and another goblin cites special orders regarding the Lestrange vault.
+  nearby_context: Griphook realizes the bank has been warned about a possible impostor after the theft of Bellatrix's wand.
+  match_terms:
+  - Bogrod
+  - Lestrange vault
+  - identification
+  - Bellatrix's wand
+  - special orders
+  - old family
+  - Gringotts
+  quote_excerpt_short: Your wand will do, madam
+  source_note: Gringotts uses keys, wand verification, and special orders around the Lestrange vault, while Bogrod's remarks identify the Lestranges as an old client family.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - gringotts
+  - lestrange-vault
+  - identification
+  - wand-verification
+  - old-wizarding-families
+  - vault-security
+  - bogrod
+  candidate_part: Magical Institutions Beyond Hogwarts
+  candidate_chapter: Gringotts, Goblins, and Wizarding Power
+  candidate_section: Vault identification and special wartime orders
+  reason_for_placement: The scene shows live customer authentication and heightened access controls for a high-status vault.
+  relevance_to_hogwarts_a_history: A later edition can connect old wizarding family vault privileges to founder relic custody and wartime artifact concealment.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch24-002
+    - dh-ch25-004
+    notes: dh-ch24-002 and dh-ch25-004 establish the Lestrange vault as a high-security old-family target; this entry adds the observed identification process and special orders at the bank counter.
+  confidence: high
+  limitations: Harry's Imperius Curse interrupts the ordinary procedure, so the full legitimate verification sequence remains incomplete.
+- id: dh-ch26-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Six - Gringotts
+  chapter_start_pdf_page: 3420
+  chapter_end_pdf_page: 3440
+  pdf_page: 3433
+  printed_page: null
+  extracted_text_lines: 448-465
+  text_anchor:
+    start_phrase: The Thief's Downfall
+    end_phrase: flowed from brain to wand
+    local_occurrence_note: The waterfall reverses Polyjuice concealment and apparently lifts Bogrod's Imperius Curse before Harry recasts it.
+  nearby_context: The cart crashes after passing through the waterfall in the deep Gringotts passages, leaving the break-in exposed and forcing the group forward on foot.
+  match_terms:
+  - Thief's Downfall
+  - enchantment
+  - magical concealment
+  - Imperius Curse
+  - Polyjuice Potion
+  - Gringotts defenses
+  - waterfall
+  quote_excerpt_short: washes away all enchantment
+  source_note: The Thief's Downfall is an active Gringotts defense that removes enchantment and magical concealment, including Polyjuice disguise and the Imperius Curse.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - gringotts
+  - thiefs-downfall
+  - enchantment
+  - concealment
+  - imperius-curse
+  - polyjuice-potion
+  - vault-security
+  candidate_part: Magical Institutions Beyond Hogwarts
+  candidate_chapter: Gringotts, Goblins, and Wizarding Power
+  candidate_section: The Thief's Downfall and anti-enchantment defenses
+  reason_for_placement: The passage names and demonstrates a specialized institutional defense against magical disguise and coercion.
+  relevance_to_hogwarts_a_history: A later edition can contrast Gringotts anti-enchantment infrastructure with Hogwarts protections against intruders, impostors, and forbidden magic.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup returned Gringotts security context, but no prior entry records the Thief's Downfall or its anti-enchantment mechanics.
+  confidence: high
+  limitations: The exact spellwork behind the waterfall is not explained, and the account comes during an emergency breach.
+- id: dh-ch26-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Six - Gringotts
+  chapter_start_pdf_page: 3420
+  chapter_end_pdf_page: 3440
+  pdf_page: 3434
+  printed_page: null
+  extracted_text_lines: 486-514
+  text_anchor:
+    start_phrase: A gigantic dragon was tethered
+    end_phrase: the door of the vault melted away
+    local_occurrence_note: A chained, partially blind dragon guards the deepest vaults; Griphook distributes Clankers and Bogrod opens the vault by placing his palm on the door.
+  nearby_context: The group has lost the cart and must approach the Lestrange vault on foot while goblins pursue them.
+  match_terms:
+  - dragon
+  - deepest vaults
+  - Clankers
+  - goblin palm
+  - Bogrod
+  - vault door
+  - Gringotts
+  quote_excerpt_short: expect pain when it hears the noise
+  source_note: The deepest Gringotts vaults are protected by a chained dragon conditioned to fear Clankers, and the Lestrange vault door responds to a Gringotts goblin's palm.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - gringotts
+  - dragon
+  - clankers
+  - vault-security
+  - lestrange-vault
+  - goblin-authority
+  - deep-vaults
+  candidate_part: Magical Institutions Beyond Hogwarts
+  candidate_chapter: Gringotts, Goblins, and Wizarding Power
+  candidate_section: Dragon guardians, Clankers, and goblin-authorized vault entry
+  reason_for_placement: The passage supplies concrete mechanics for Gringotts's deepest-vault protections and goblin-controlled access.
+  relevance_to_hogwarts_a_history: A later edition can compare magical-creature custody and access-control practices at Gringotts with Hogwarts creature, ward, and artifact protections.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch24-002
+    - dh-ch25-004
+    notes: dh-ch24-002 and dh-ch25-004 establish the Lestrange vault as high-security and deepest-level; this entry adds dragon guarding, Clankers, and goblin-palm door access.
+  confidence: high
+  limitations: The dragon's species and the enchantment behind the palm-activated door are not specified.
+- id: dh-ch26-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Six - Gringotts
+  chapter_start_pdf_page: 3420
+  chapter_end_pdf_page: 3440
+  pdf_page: 3435
+  printed_page: null
+  extracted_text_lines: 530-544
+  text_anchor:
+    start_phrase: Harry shone his lit wand around the vault
+    end_phrase: expanding gold
+    local_occurrence_note: Inside the Lestrange vault, Harry sees the fake Sword of Gryffindor before Griphook explains Gemino and Flagrante protections on the treasure.
+  nearby_context: The group has been sealed inside the vault and must search quickly for Hufflepuff's cup or another unknown Horcrux.
+  match_terms:
+  - fake sword
+  - Sword of Gryffindor
+  - Gemino Curse
+  - Flagrante Curse
+  - Lestrange vault
+  - treasure
+  - goblin-made helmets
+  quote_excerpt_short: burn and multiply
+  source_note: The Lestrange vault contains the fake Sword of Gryffindor and is protected by Gemino and Flagrante Curses that make touched treasure burn and multiply.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - gringotts
+  - lestrange-vault
+  - gemino-curse
+  - flagrante-curse
+  - fake-sword
+  - sword-of-gryffindor
+  - vault-security
+  candidate_part: Magical Institutions Beyond Hogwarts
+  candidate_chapter: Gringotts, Goblins, and Wizarding Power
+  candidate_section: Cursed treasure and the false Sword of Gryffindor
+  reason_for_placement: The passage confirms the vault's internal defense enchantments and the placement of the decoy founder relic.
+  relevance_to_hogwarts_a_history: A later edition can connect the school founder relic's decoy custody to Gringotts curse-based protections and Death Eater artifact concealment.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch23-003
+    - dh-ch25-004
+    notes: dh-ch23-003 records Bellatrix's claim that Snape sent the sword to her Gringotts vault, and dh-ch25-004 records deep-vault planning; this entry confirms the fake sword's location and adds Gemino/Flagrante protections.
+  confidence: high
+  limitations: The passage does not say who added the curses or when the false sword was placed in the vault.
+- id: dh-ch26-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Six - Gringotts
+  chapter_start_pdf_page: 3420
+  chapter_end_pdf_page: 3440
+  pdf_page: 3436
+  printed_page: null
+  extracted_text_lines: 552-567; 570-580
+  text_anchor:
+    start_phrase: Remember, the cup's small and gold
+    end_phrase: did not multiply
+    local_occurrence_note: Harry searches for Hufflepuff's cup or Ravenclaw's eagle, finds the cup high on a shelf, and uses the Sword of Gryffindor to test contact with cursed treasure.
+  nearby_context: The room is filling with hot duplicate treasure while the group tries to identify the Horcrux.
+  match_terms:
+  - Hufflepuff's cup
+  - Helga Hufflepuff
+  - Hepzibah Smith
+  - Tom Riddle
+  - Ravenclaw's eagle
+  - founder relics
+  - Horcrux
+  quote_excerpt_short: the cup that had belonged to Helga Hufflepuff
+  source_note: Hufflepuff's cup is confirmed inside the Lestrange vault as the founder relic that passed from Helga Hufflepuff to Hepzibah Smith and then to Tom Riddle.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - hufflepuff-cup
+  - helga-hufflepuff
+  - hepzibah-smith
+  - tom-riddle
+  - founder-relics
+  - horcruxes
+  - lestrange-vault
+  candidate_part: The Four Houses
+  candidate_chapter: Founders' Relics and Legacies
+  candidate_section: Hufflepuff's cup in the Lestrange vault
+  reason_for_placement: The passage confirms the physical location and historical chain of a founder relic after its theft by Tom Riddle.
+  relevance_to_hogwarts_a_history: A later edition can use this as direct confirmation of Hufflepuff's cup as both a founder artifact and a Voldemort-concealed Horcrux.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - hbp-ch20-005
+    - dh-ch24-002
+    notes: hbp-ch20-005 records the cup's founder provenance and Tom Riddle's interest; dh-ch24-002 records the Lestrange vault as a suspected Horcrux target. This entry confirms the cup's presence in the vault.
+  confidence: high
+  limitations: The passage does not explain when Voldemort deposited the cup or whether Bellatrix knew it was a Horcrux.
+- id: dh-ch26-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty-Six - Gringotts
+  chapter_start_pdf_page: 3420
+  chapter_end_pdf_page: 3440
+  pdf_page: 3438
+  printed_page: null
+  extracted_text_lines: 623-641
+  text_anchor:
+    start_phrase: It was Griphook who had seen it
+    end_phrase: accepted him without question
+    local_occurrence_note: Griphook seizes the Sword of Gryffindor, throws the cup loose, escapes to the goblins, and calls the trio thieves while brandishing the sword.
+  nearby_context: Harry has just hooked Hufflepuff's cup on the sword amid multiplying treasure and expects to recover both artifacts.
+  match_terms:
+  - Griphook
+  - Sword of Gryffindor
+  - thieves
+  - goblins
+  - goblin ownership
+  - Hufflepuff's cup
+  - founder relics
+  quote_excerpt_short: Thieves! Thieves! Help! Thieves!
+  source_note: Griphook reclaims the Sword of Gryffindor during the vault escape and is immediately accepted by the Gringotts goblins, enacting the goblin ownership dispute over the founder relic.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - sword-of-gryffindor
+  - griphook
+  - goblin-ownership
+  - goblin-made
+  - founder-relics
+  - gringotts
+  - wizard-goblin-relations
+  candidate_part: The Four Houses
+  candidate_chapter: Founders' Relics and Legacies
+  candidate_section: Griphook's reclamation of the Sword of Gryffindor
+  reason_for_placement: The scene is the observed outcome of the prior bargain and the goblin counter-claim over a Hogwarts founder relic.
+  relevance_to_hogwarts_a_history: A later edition can use the event to show how school relic symbolism collided with goblin maker-right and wartime necessity.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch25-002
+    - dh-ch25-005
+    notes: dh-ch25-002 records Griphook's Ragnuk counter-claim to the sword and dh-ch25-005 records goblin maker-right; this entry adds Griphook's actual seizure of the sword during the vault escape.
+  confidence: high
+  limitations: The passage shows Griphook's action and goblin acceptance but does not settle the historical ownership claim.

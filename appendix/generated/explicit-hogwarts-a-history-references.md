@@ -50,3 +50,48 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Destination: Original Book Core / Tournament History and Institutional Omissions / Triwizard judging, 1792 disaster, and house-elf silence
   - Source: PDF p. 1145, `sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml`
   - Classification: original_book_core_candidate | Confidence: high
+
+## Harry Potter and the Goblet of Fire, Chapter Twenty-Eight - The Madness of Mr. Crouch
+
+- `gof-ch28-003`
+  - Quote: "they all go haywire around Hogwarts"
+  - Evidence note: Hermione explicitly invokes Hogwarts: A History to explain that electricity, computers, radar, and similar Muggle technologies malfunction around Hogwarts because of the surrounding magical saturation.
+  - Destination: Magical Architecture and Enchantments / Castle-Wide Magical Environment / Muggle Technology Failure Around Hogwarts
+  - Source: PDF p. 1404, `sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml`
+  - Classification: original_book_core_candidate | Confidence: high
+
+## Harry Potter and the Order of the Phoenix, Chapter Seventeen - Educational Decree Number Twenty-Four
+
+- `ootp-ch17-002`
+  - Quote: "it says in Hogwarts: A History"
+  - Evidence note: Hermione explicitly cites Hogwarts: A History for the founders' gendered dormitory rule, while the staircase enchantment physically enforces the ban on boys entering the girls' dormitories.
+  - Destination: Magical Architecture and Enchantments / House Common Rooms and Dormitories / Founders' dormitory rule and staircase enforcement
+  - Source: PDF p. 1909, `sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+
+## Harry Potter and the Order of the Phoenix, Chapter Twenty-Three - Christmas on the Closed Ward
+
+- `ootp-ch23-001`
+  - Quote: "you can't Apparate or Disapparate inside Hogwarts"
+  - Evidence note: Hermione explicitly cites Hogwarts: A History as a source for the rule that Apparition and Disapparition are impossible inside Hogwarts.
+  - Destination: Protective Magic and Security / Movement Limits and Anti-Apparition Protections / Explicit Hogwarts: A History citation for anti-Apparition inside Hogwarts
+  - Source: PDF p. 2051, `sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml`
+  - Classification: original_book_core_candidate | Confidence: high
+
+## Harry Potter and the Deathly Hallows, Chapter Six - The Ghoul in Pajamas
+
+- `dh-ch06-004`
+  - Quote: "I will take Hogwarts: A History."
+  - Evidence note: Hermione chooses to bring Hogwarts: A History on the Horcrux hunt, saying that even if they are not returning to Hogwarts she would not feel right without it.
+  - Destination: Sources and Historiography / Hogwarts: A History as an In-Universe Source / Hermione's field copy during the Horcrux hunt
+  - Source: PDF p. 3055, `sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml`
+  - Classification: later_editorial_note | Confidence: high
+
+## Unknown book, Unknown chapter
+
+- `ext-b07-004`
+  - Quote: "Never. It’s a gift to me, because all my exposition can be dressed up"
+  - Evidence note: Rowling says Harry and Ron will never read Hogwarts, a History because Hermione uses it to convey exposition to the reader.
+  - Destination: Part IV: Hogwarts, a History as a Source / The Book's Narrative Role / Hermione as Expository Reader
+  - Source: B07, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm, `sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml`
+  - Classification: later_editorial_note | Confidence: medium

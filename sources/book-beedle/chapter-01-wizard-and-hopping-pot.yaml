@@ -1,0 +1,176 @@
+source_unit:
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Wizard and the Hopping Pot and Commentary
+  chapter_start_pdf_page: 9
+  chapter_end_pdf_page: 18
+  boundary_confidence: high
+  boundary_notes: The tale occupies PDF pages 9-14 and Dumbledore's commentary continues from page 14 through page 18; The Fountain of Fair Fortune begins on PDF page 19.
+  processed_date: '2026-08-15'
+  processor_notes: All tale and commentary pages were rendered and compared with the embedded text; only historically or institutionally relevant commentary was retained.
+entries:
+- id: beedle-ch01-001
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Wizard and the Hopping Pot and Commentary
+  chapter_start_pdf_page: 9
+  chapter_end_pdf_page: 18
+  pdf_page: 15
+  printed_page: 12
+  extracted_text_lines: PDF text lines 487-506
+  text_anchor:
+    start_phrase: Beedle was somewhat out of step with his times
+    end_phrase: fetch the firewood for one's own funeral pyre
+    local_occurrence_note: Opening historical discussion in Dumbledore's commentary.
+  nearby_context: Dumbledore explains why Beedle's pro-Muggle moral was dangerous when first circulated.
+  match_terms:
+  - early fifteenth century
+  - persecution
+  - Muggles
+  - Beedle
+  - witch-hunters
+  quote_excerpt_short: persecution of witches and wizards was gathering pace
+  source_note: In the early fifteenth century, accelerating European witch persecution made Beedle's call for magical aid to Muggles unusually dangerous and culturally dissenting.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - witch-persecution
+  - fifteenth-century
+  - muggle-relations
+  - beedle-the-bard
+  - wizarding-secrecy
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: The Tales of Beedle the Bard
+  reason_for_placement: The commentary situates the source's message within the social danger of its original period.
+  relevance_to_hogwarts_a_history: It gives historical context for a text later familiar to Hogwarts pupils and for long-running attitudes toward Muggles.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: The existing index contains later secrecy rules but no matching claim about Beedle's fifteenth-century context.
+  confidence: high
+  limitations: Dumbledore gives a broad European summary rather than named legal records or locations.
+- id: beedle-ch01-002
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Wizard and the Hopping Pot and Commentary
+  chapter_start_pdf_page: 9
+  chapter_end_pdf_page: 18
+  pdf_page: 15
+  printed_page: 13
+  extracted_text_lines: PDF text lines 487-524
+  text_anchor:
+    start_phrase: culminating with the institution of the International Statute
+    end_phrase: in wide circulation among Wizarding families
+    local_occurrence_note: Commentary connecting secrecy law with revised family versions of the tale.
+  nearby_context: Dumbledore describes widening separation from Muggles and the survival of the Hopping Pot image after its moral was changed.
+  match_terms:
+  - International Statute of Wizarding Secrecy
+  - 1689
+  - underground
+  - revised story
+  - Wizarding families
+  quote_excerpt_short: wizardkind voluntarily went underground
+  source_note: The commentary dates the International Statute of Wizarding Secrecy to 1689 and links the underground turn to anti-Muggle revisions of Beedle's tale in family circulation.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - statute-of-secrecy
+  - 1689
+  - wizarding-secrecy
+  - anti-muggle-prejudice
+  - folklore-variants
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: The Tales of Beedle the Bard
+  reason_for_placement: The passage records how legal concealment and family transmission altered a canonical children's story.
+  relevance_to_hogwarts_a_history: It helps explain cultural assumptions about Muggles that pupils could bring with them to Hogwarts.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate queries found no indexed entry combining the 1689 date with Beedle's family-story variants.
+  confidence: high
+  limitations: The commentary connects two broad developments but does not prove that the Statute directly caused every revised version.
+- id: beedle-ch01-003
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Wizard and the Hopping Pot and Commentary
+  chapter_start_pdf_page: 9
+  chapter_end_pdf_page: 18
+  pdf_page: 16
+  printed_page: 15
+  extracted_text_lines: PDF text lines 535-590
+  text_anchor:
+    start_phrase: As the witch hunts grew ever fiercer
+    end_phrase: a weakness for non-magical company
+    local_occurrence_note: Commentary on seventeenth-century double lives and anti-Muggle polemic.
+  nearby_context: Dumbledore quotes Brutus Malfoy's 1675 anti-Muggle periodical Warlock at War as an example of prejudice.
+  match_terms:
+  - Brutus Malfoy
+  - Warlock at War
+  - 1675
+  - Muggle-lover
+  - double lives
+  quote_excerpt_short: Wizarding families began to live double lives
+  source_note: Seventeenth-century concealment made pro-Muggle witches and wizards suspect; Brutus Malfoy's 1675 periodical equated Muggle friendship with inferior magic.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - brutus-malfoy
+  - warlock-at-war
+  - 1675
+  - anti-muggle-prejudice
+  - wizarding-periodicals
+  - secrecy-culture
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: The Tales of Beedle the Bard
+  reason_for_placement: Dumbledore uses a named historical periodical to document resistance to Beedle's values.
+  relevance_to_hogwarts_a_history: It supplies a documented source for prejudices that later shaped school-family politics and blood-status conflict.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing entries document later Malfoy prejudice but not Brutus Malfoy's 1675 publication.
+  confidence: high
+  limitations: The quotation represents Brutus Malfoy's polemic, not a measured survey of seventeenth-century opinion.
+- id: beedle-ch01-004
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Wizard and the Hopping Pot and Commentary
+  chapter_start_pdf_page: 9
+  chapter_end_pdf_page: 18
+  pdf_page: 17
+  printed_page: 17
+  extracted_text_lines: PDF text lines 574-623
+  text_anchor:
+    start_phrase: Beatrix Bloxam (1794-1910)
+    end_phrase: an immediate demand to have the book taken from them
+    local_occurrence_note: Closing commentary on later objections and rewritten children's stories.
+  nearby_context: Dumbledore describes Bloxam's criticism of Beedle and the poor reception of her sanitized Toadstool Tales.
+  match_terms:
+  - Beatrix Bloxam
+  - 1794-1910
+  - Toadstool Tales
+  - rewritten
+  - children
+  quote_excerpt_short: took a variety of old stories and rewrote them
+  source_note: Beatrix Bloxam, author of Toadstool Tales, recast older wizarding stories into sanitized versions that generations of children rejected.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - beatrix-bloxam
+  - toadstool-tales
+  - children's-literature
+  - censorship
+  - folklore-variants
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: The Tales of Beedle the Bard
+  reason_for_placement: The episode records a named editorial challenge and failed alternative canon for wizarding children.
+  relevance_to_hogwarts_a_history: It helps distinguish enduring shared literature from later attempts to sanitize what future pupils read.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No existing entry records Bloxam, Toadstool Tales, or these rewrites.
+  confidence: high
+  limitations: The commentary is openly comic and reports children's reaction impressionistically rather than statistically.

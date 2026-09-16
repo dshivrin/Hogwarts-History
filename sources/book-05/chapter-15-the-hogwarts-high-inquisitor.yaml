@@ -1,0 +1,366 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fifteen - The Hogwarts High Inquisitor
+  chapter_start_pdf_page: 1864
+  chapter_end_pdf_page: 1886
+  boundary_confidence: high
+  boundary_notes: >-
+    Extracted the bounded current source-unit range from processing-state.yaml,
+    PDF pages 1864-1886, without scanning from the start of the full PDF.
+  processed_date: '2026-07-06'
+  processor_notes: >-
+    Captured seven canon-evidence entries from the Daily Prophet account of
+    Educational Decrees Twenty-two and Twenty-three, fifth-year O.W.L. grading,
+    Umbridge's staff inspections, Ministry-approved Defense teaching,
+    McGonagall's inspected Transfiguration lesson, Grubbly-Plank's inspected
+    Care of Magical Creatures lesson, and Hermione's proposal for student-led
+    practical Defense. No explicit Hogwarts: A History references appear in
+    this chapter.
+
+entries:
+- id: ootp-ch15-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fifteen - The Hogwarts High Inquisitor
+  chapter_start_pdf_page: 1864
+  chapter_end_pdf_page: 1886
+  pdf_page: 1864
+  printed_page: null
+  extracted_text_lines: 14-79
+  text_anchor:
+    start_phrase: MINISTRY SEEKS EDUCATIONAL REFORM
+    end_phrase: Hogwarts is a school, not an outpost of Cornelius Fudge's office
+    local_occurrence_note: Hermione reads the Daily Prophet article announcing Umbridge as the first Hogwarts High Inquisitor.
+  nearby_context: The article explains Educational Decree Twenty-two, Educational Decree Twenty-three, inspection powers, parent support, Lucius Malfoy's quotation, and Wizengamot resignations in protest.
+  match_terms:
+  - Educational Decree Twenty-two
+  - Educational Decree Twenty-three
+  - Hogwarts High Inquisitor
+  - Ministry of Magic
+  - Dolores Umbridge
+  - teacher inspections
+  - school governance
+  quote_excerpt_short: "Educational Decree Twenty-three"
+  source_note: The Prophet report gives the formal public account of Ministry legislation that placed Umbridge on the teaching staff and created the High Inquisitor role with authority to inspect other Hogwarts teachers.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - educational-decrees
+  - high-inquisitor
+  - dolores-umbridge
+  - ministry-intervention
+  - school-governance
+  - staff-inspections
+  - lucius-malfoy
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Headmasters and School Authority
+  candidate_section: Educational Decrees and the High Inquisitor
+  reason_for_placement: The passage is the clearest formal explanation of how Ministry authority entered Hogwarts staffing, inspection, and governance during Harry's fifth year.
+  relevance_to_hogwarts_a_history: A later edition could cite this as the legislative turning point that converted earlier Ministry pressure into an internal supervisory office at Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch36-005
+    - ootp-ch11-006
+    - ootp-ch12-006
+    - ootp-ch14-006
+    notes: gof-ch36-005 records Fudge's earlier governance threat, ootp-ch11-006 records Umbridge's coded policy speech, ootp-ch12-006 records the classroom curriculum effect, and ootp-ch14-006 records prefect-level pressure; this entry adds the named decrees and High Inquisitor inspection office.
+  confidence: high
+  limitations: The account is filtered through the Daily Prophet and Percy Weasley, so hostile framing and Ministry spin should be separated from the formal decree facts.
+
+- id: ootp-ch15-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fifteen - The Hogwarts High Inquisitor
+  chapter_start_pdf_page: 1864
+  chapter_end_pdf_page: 1886
+  pdf_page: 1867
+  printed_page: null
+  extracted_text_lines: 98-172
+  text_anchor:
+    start_phrase: I have awarded you the grades you would have received
+    end_phrase: T's in all his O.W.L.s
+    local_occurrence_note: Snape marks a Potions essay to O.W.L. standard and students discuss the O.W.L. grade scale over lunch.
+  nearby_context: Harry receives a D on his moonstone essay, Ron receives a P, and Hermione, Fred, George, and Lee clarify the pass and fail grades used for O.W.L.s.
+  match_terms:
+  - O.W.L. grades
+  - Potions
+  - moonstone essay
+  - Outstanding
+  - Exceeds Expectations
+  - Acceptable
+  - Poor
+  - Dreadful
+  quote_excerpt_short: "O for 'Outstanding'"
+  source_note: The chapter ties fifth-year classroom marking to O.W.L. standards and supplies a student-side explanation of the O.W.L. grade scale from Outstanding through failing grades.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - ordinary-wizarding-levels
+  - examination-grades
+  - fifth-year
+  - potions
+  - snape
+  - academic-assessment
+  - student-workload
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Examinations and Academic Progression
+  candidate_section: O.W.L. grading scale and baseline marking
+  reason_for_placement: The scene gives concrete assessment terminology and shows teachers using examination-style grades before the actual exams.
+  relevance_to_hogwarts_a_history: This supports a curriculum chapter explaining O.W.L. assessment, pass thresholds, and how fifth-year teachers prepared students for public examinations.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch15-002
+    - ootp-ch13-003
+    - ootp-ch14-005
+    notes: Existing entries record O.W.L. workload and practical preparation; this entry adds the named grade ladder and Snape's use of O.W.L.-standard marking in Potions.
+  confidence: high
+  limitations: The lower grade "T" is reported by George and may be partly teasing, though Harry treats the possibility as plausible.
+
+- id: ootp-ch15-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fifteen - The Hogwarts High Inquisitor
+  chapter_start_pdf_page: 1864
+  chapter_end_pdf_page: 1886
+  pdf_page: 1870
+  printed_page: null
+  extracted_text_lines: 194-328
+  text_anchor:
+    start_phrase: Good afternoon, Professor Trelawney
+    end_phrase: waiting for them all when they reached their Defense Against the Dark Arts lesson
+    local_occurrence_note: Umbridge conducts the Divination inspection, observes the lesson, and questions Trelawney about tenure, appointment, ancestry, and prediction.
+  nearby_context: Trelawney is teaching dream interpretation with The Dream Oracle while Umbridge takes notes on a clipboard and asks staff-evaluation questions during class.
+  match_terms:
+  - Professor Trelawney
+  - Divination
+  - inspection
+  - Cassandra Trelawney
+  - Professor Dumbledore
+  - The Dream Oracle
+  - second sight
+  quote_excerpt_short: "Nearly sixteen years"
+  source_note: "Umbridge's Divination inspection shows the High Inquisitor's method in practice: prior notice, classroom observation, student-adjacent questioning, staff-tenure review, appointment review, and a demand for demonstrable subject expertise."
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - teacher-inspections
+  - divination
+  - professor-trelawney
+  - dolores-umbridge
+  - staff-tenure
+  - cassandra-trelawney
+  - dumbledore
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Staff, Subjects, and Ministry Inspection
+  candidate_section: Divination inspection and teacher credentials
+  reason_for_placement: The passage gives a detailed example of how the new inspection authority was applied to a long-serving professor and an elective subject.
+  relevance_to_hogwarts_a_history: A later edition could use it to document the Ministry's assessment of faculty credentials, classroom practice, and Dumbledore-era appointments.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch12-005
+    - ootp-ch11-006
+    notes: ootp-ch12-005 records the fifth-year dream-interpretation unit and course text, while ootp-ch11-006 records Umbridge's intervention agenda; this entry adds the formal inspection encounter and Trelawney's tenure/ancestry questions.
+  confidence: high
+  limitations: The passage shows one hostile inspection rather than a neutral schoolwide evaluation standard.
+
+- id: ootp-ch15-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fifteen - The Hogwarts High Inquisitor
+  chapter_start_pdf_page: 1864
+  chapter_end_pdf_page: 1886
+  pdf_page: 1873
+  printed_page: null
+  extracted_text_lines: 331-400
+  text_anchor:
+    start_phrase: Wands away
+    end_phrase: another week's detentions would do you some good
+    local_occurrence_note: Umbridge continues the theory-only Defense lesson, penalizes Hermione's disagreement, and assigns Harry more detentions.
+  nearby_context: The class reads Defensive Magical Theory, Hermione challenges Slinkhard's view of counterjinxes, Umbridge removes House points, and Harry invokes Quirrell's Voldemort possession.
+  match_terms:
+  - Defensive Magical Theory
+  - Wilbert Slinkhard
+  - counterjinxes
+  - Ministry-approved method
+  - house points
+  - detention
+  - Quirrell
+  quote_excerpt_short: "Ministry-approved method"
+  source_note: The Defense lesson corroborates Umbridge's Ministry-approved pedagogy by showing wands-away reading, rejection of student critique, point loss for argument, comparison with previous teachers, and renewed punitive detentions.
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  topic_tags:
+  - defense-against-the-dark-arts
+  - defensive-magical-theory
+  - ministry-approved-curriculum
+  - counterjinxes
+  - dolores-umbridge
+  - house-points
+  - detention
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Defense Against the Dark Arts Under Ministry Oversight
+  candidate_section: Theory-only lessons, dissent, and discipline
+  reason_for_placement: The passage shows the practical classroom consequences of the Ministry-approved Defense course beyond the first lesson.
+  relevance_to_hogwarts_a_history: A later edition could use this as evidence that curriculum control, classroom discipline, and official denial of prior Dark threats were intertwined under Umbridge.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch12-006
+    - ootp-ch12-007
+    - ootp-ch13-006
+    notes: ootp-ch12-006 records the first theory-centered lesson, ootp-ch12-007 records Ministry denial and discipline, and ootp-ch13-006 records the blood-quill detention; this entry adds Slinkhard counterjinxes, explicit student disagreement, and another detention escalation.
+  confidence: high
+  limitations: The lesson is part of Umbridge's exceptional Ministry-era regime rather than a stable Defense Against the Dark Arts curriculum.
+
+- id: ootp-ch15-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fifteen - The Hogwarts High Inquisitor
+  chapter_start_pdf_page: 1864
+  chapter_end_pdf_page: 1886
+  pdf_page: 1877
+  printed_page: null
+  extracted_text_lines: 463-538
+  text_anchor:
+    start_phrase: Professor Umbridge and her clipboard were sitting in a corner
+    end_phrase: could have sworn he received one in return
+    local_occurrence_note: Umbridge inspects McGonagall's Transfiguration lesson and asks how long McGonagall has taught at Hogwarts.
+  nearby_context: McGonagall continues a Vanishing Spell lesson on mice, controls class discipline, resists interruption, and later says she can hardly wait for the inspection results.
+  match_terms:
+  - Professor McGonagall
+  - Transfiguration
+  - Vanishing Spell
+  - mice
+  - teacher inspection
+  - thirty-nine years
+  - clipboard
+  quote_excerpt_short: "Thirty-nine years this December"
+  source_note: McGonagall's inspection supplies both staff-tenure evidence and fifth-year Transfiguration curriculum detail, showing Vanishing Spell progression from snails to mice under observation by the High Inquisitor.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - transfiguration
+  - professor-mcgonagall
+  - teacher-inspections
+  - vanishing-spells
+  - fifth-year
+  - staff-tenure
+  - classroom-discipline
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Transfiguration and Advanced Spellwork
+  candidate_section: Fifth-year Vanishing Spells under inspection
+  reason_for_placement: The scene combines subject progression, classroom-management norms, and a long-serving teacher's response to external inspection.
+  relevance_to_hogwarts_a_history: A later edition could use this to illustrate mature Transfiguration instruction, staff continuity, and faculty resistance to Ministry intrusion.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch13-003
+    - ootp-ch11-006
+    notes: ootp-ch13-003 records the start of fifth-year Vanishing Spell work, and ootp-ch11-006 records the Ministry intervention agenda; this entry adds mouse Vanishing practice, McGonagall's thirty-nine-year tenure, and a live inspection exchange.
+  confidence: high
+  limitations: The staff-tenure statement is precise for Harry's fifth year but does not identify McGonagall's first role or any interruptions in service.
+
+- id: ootp-ch15-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fifteen - The Hogwarts High Inquisitor
+  chapter_start_pdf_page: 1864
+  chapter_end_pdf_page: 1886
+  pdf_page: 1879
+  printed_page: null
+  extracted_text_lines: 540-603
+  text_anchor:
+    start_phrase: they found her and her clipboard waiting
+    end_phrase: receiving the results of your inspection within ten days
+    local_occurrence_note: Umbridge inspects Grubbly-Plank's Care of Magical Creatures class and probes Hagrid's absence, support from management, syllabus, and prior injuries.
+  nearby_context: The lesson takes place on the lawns near the forest with captive bowtruckles, and Grubbly-Plank describes O.W.L. creature coverage while Malfoy reports the hippogriff injury.
+  match_terms:
+  - Professor Grubbly-Plank
+  - Care of Magical Creatures
+  - Hagrid
+  - bowtruckles
+  - O.W.L.
+  - porlocks
+  - kneazles
+  - hippogriff
+  quote_excerpt_short: "creatures that most often come up in O.W.L."
+  source_note: The inspection confirms Grubbly-Plank as a temporary substitute, records Dumbledore's owl-based hiring request, lists fifth-year Care of Magical Creatures O.W.L. topics, and shows Umbridge collecting adverse evidence about Hagrid's teaching.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - care-of-magical-creatures
+  - professor-grubbly-plank
+  - hagrid
+  - staff-substitution
+  - ordinary-wizarding-levels
+  - bowtruckles
+  - magical-creatures
+  - student-safety
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Care of Magical Creatures and Grounds-Based Teaching
+  candidate_section: Substitute inspection and O.W.L. creature syllabus
+  reason_for_placement: The passage gives concrete fifth-year creature topics while showing how staff substitution and Ministry scrutiny affected Hagrid's subject.
+  relevance_to_hogwarts_a_history: A later edition could use this to compare Hagrid's practical creature teaching with substitute coverage, public safety concerns, and examination preparation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch10-006
+    - ootp-ch11-002
+    - gof-ch24-001
+    - gof-ch24-002
+    notes: Existing entries record Grubbly-Plank substituting for Hagrid, Hagrid's public appointment controversy, and earlier substitute creature instruction; this entry adds the inspection, Dumbledore's owl request, O.W.L. creature list, and renewed hippogriff-injury questioning.
+  confidence: high
+  limitations: Grubbly-Plank's planned syllabus is conditional on Hagrid not returning, so it should not be treated as the full official course for the year.
+
+- id: ootp-ch15-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Fifteen - The Hogwarts High Inquisitor
+  chapter_start_pdf_page: 1864
+  chapter_end_pdf_page: 1886
+  pdf_page: 1882
+  printed_page: null
+  extracted_text_lines: 621-680; 693-755
+  text_anchor:
+    start_phrase: we've got to do something about her
+    end_phrase: We need to know what it's r-really like
+    local_occurrence_note: In the common room after another blood-quill detention, Hermione proposes that Harry teach practical Defense Against the Dark Arts.
+  nearby_context: Hermione argues that Umbridge will not teach real defense, Ron suggests library practice, and both friends cite Harry's prior defensive experience before Hermione names Voldemort.
+  match_terms:
+  - Defense Against the Dark Arts
+  - practical defense
+  - Harry teaching
+  - library practice
+  - Voldemort
+  - Dumbledore's Army
+  - student training
+  quote_excerpt_short: "learn Defense Against the Dark Arts ourselves"
+  source_note: The common-room discussion is the first clear proposal for student-led practical Defense instruction in response to Umbridge's curriculum, identifying Harry's battlefield experience as a substitute for official classroom teaching.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - defense-against-the-dark-arts
+  - practical-defense
+  - student-training
+  - dumbledores-army
+  - harry-potter
+  - dolores-umbridge
+  - voldemort
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Defense Against the Dark Arts Under Ministry Oversight
+  candidate_section: Student-led practical defense after curriculum failure
+  reason_for_placement: The scene connects official curriculum failure to the student initiative that will become a major informal defensive-training response inside Hogwarts.
+  relevance_to_hogwarts_a_history: A later edition could treat this as the origin point for Harry-era student self-organization around practical Defense Against the Dark Arts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch11-003
+    - gof-ch34-001
+    - ootp-ch12-006
+    notes: cos-ch11-003 records the earlier authorized Dueling Club, gof-ch34-001 records Harry's practical carryover from that instruction, and ootp-ch12-006 records Umbridge's theory-only curriculum; this entry adds the student-led proposal that responds to the Ministry course.
+  confidence: high
+  limitations: The organization is still only proposed in this chapter; later chapters are needed for membership, meeting-place, and practice details.

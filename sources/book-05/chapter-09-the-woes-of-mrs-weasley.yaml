@@ -1,0 +1,340 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Nine - The Woes of Mrs. Weasley
+  chapter_start_pdf_page: 1714
+  chapter_end_pdf_page: 1740
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used the control-file page range. PDF page 1714 begins with "CHAPTER NINE THE WOES OF MRS. WEASLEY"; PDF page 1740 closes the chapter without introducing the Chapter Ten heading.
+  processed_date: '2026-07-02'
+  processor_notes: "Extracted only PDF pages 1714-1740 with scripts/extract_pages.py using pypdf; no full-PDF scan was performed. No explicit Hogwarts: A History title reference was found."
+
+entries:
+- id: ootp-ch09-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Nine - The Woes of Mrs. Weasley
+  chapter_start_pdf_page: 1714
+  chapter_end_pdf_page: 1740
+  pdf_page: 1716
+  printed_page: null
+  extracted_text_lines: 62-123
+  text_anchor:
+    start_phrase: Patronus Potter
+    end_phrase: Best not talk about it anymore just now
+    local_occurrence_note: Harry and Arthur meet Lucius Malfoy with Fudge near the courtroom, hear money in Malfoy's robes, and discuss whether Fudge is compromised or acting willingly.
+  nearby_context: The encounter occurs immediately after Harry is cleared, while Arthur suspects Malfoy was trying to learn whether Harry had been expelled.
+  match_terms:
+  - Lucius Malfoy
+  - Cornelius Fudge
+  - gold
+  - Death Eater
+  - Imperius Curse
+  - expelled
+  quote_excerpt_short: "Malfoy's been giving generously"
+  source_note: The chapter shows Lucius Malfoy gaining private access to the Minister after Harry's hearing and frames old Death Eater influence as working through donations, favors, delayed laws, and Fudge's willing denial.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - lucius-malfoy
+  - cornelius-fudge
+  - ministry-influence
+  - death-eaters
+  - political-donations
+  - underage-magic
+  - school-governance
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Ministry Oversight and Student Hearings
+  candidate_section: Political Influence Around Student Discipline
+  reason_for_placement: The passage links Harry's school-status hearing to wider Ministry patronage and Death Eater influence during a crisis year.
+  relevance_to_hogwarts_a_history: A later edition can use this as context for how student discipline, Hogwarts politics, and Ministry denial were affected by elite pure-blood access.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch12-006
+    - cos-ch14-006
+    - cos-ch18-005
+    notes: Earlier entries record Lucius Malfoy's Hogwarts governor role and pressure on school oversight; this entry adds his post-return access to Fudge, political donations, and possible influence over Harry's hearing aftermath.
+  confidence: medium
+  limitations: Arthur's explanation is informed but not documentary proof of specific payments, laws delayed, or favors granted in this scene.
+
+- id: ootp-ch09-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Nine - The Woes of Mrs. Weasley
+  chapter_start_pdf_page: 1714
+  chapter_end_pdf_page: 1740
+  pdf_page: 1718
+  printed_page: null
+  extracted_text_lines: 128-140
+  text_anchor:
+    start_phrase: He looked up into the handsome wizard's face
+    end_phrase: emptied not just ten Galleons
+    local_occurrence_note: Harry revisits the Fountain of Magical Brethren after the hearing and privately rejects its portrayal of goblins, centaurs, and house-elves.
+  nearby_context: Harry donates his whole money bag into the fountain collection pool as he leaves the Ministry Atrium.
+  match_terms:
+  - Fountain of Magical Brethren
+  - goblins
+  - centaurs
+  - house-elf
+  - St Mungo's
+  - Ministry Atrium
+  quote_excerpt_short: "Only the house-elf's attitude"
+  source_note: Harry's second look at the Atrium fountain undercuts the Ministry's public ideology by noting that the goblin and centaur reverence is implausible while the house-elf servility looks convincing.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - fountain-magical-brethren
+  - ministry-of-magic
+  - goblins
+  - centaurs
+  - house-elves
+  - magical-servitude
+  - wizarding-ideology
+  candidate_part: Magical Communities and Families
+  candidate_chapter: Beings, Beasts, and Wizarding Prejudice
+  candidate_section: Ministry Symbolism and Non-Human Beings
+  reason_for_placement: The passage turns the Atrium fountain from architecture into evidence of official wizard-centered ideology.
+  relevance_to_hogwarts_a_history: A later edition can cross-reference this with Hogwarts house-elf labor and Hermione's activism when discussing how institutions normalize non-human subordination.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch07-003
+    notes: ootp-ch07-003 records the fountain's architecture and official display; this entry adds Harry's critical interpretation of its centaur, goblin, and house-elf symbolism.
+  confidence: high
+  limitations: The interpretation is Harry's observation rather than an official Ministry explanation of the fountain's design.
+
+- id: ootp-ch09-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Nine - The Woes of Mrs. Weasley
+  chapter_start_pdf_page: 1714
+  chapter_end_pdf_page: 1740
+  pdf_page: 1721
+  printed_page: null
+  extracted_text_lines: 259-266
+  text_anchor:
+    start_phrase: The fact was that living at the headquarters
+    end_phrase: he had heard on the night of his arrival
+    local_occurrence_note: Harry finds headquarters less informative than expected because adult Order members keep the children outside normal or Extendable-Ear range.
+  nearby_context: Members of the Order arrive for meals or short whispered conversations, but Mrs. Weasley polices what Harry, Ron, Hermione, Fred, George, and Ginny can hear.
+  match_terms:
+  - Order of the Phoenix
+  - headquarters
+  - whispered conversation
+  - Extendable Ears
+  - Mrs Weasley
+  - operational secrecy
+  quote_excerpt_short: "kept well out of earshot"
+  source_note: The chapter confirms that Order headquarters used active information boundaries around school-age children, including countering both normal listening and Extendable-Ear eavesdropping.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - order-of-the-phoenix
+  - grimmauld-place
+  - operational-secrecy
+  - extendable-ears
+  - students
+  - wartime-security
+  - mrs-weasley
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Information Security and Eavesdropping
+  candidate_section: Student Exclusion from Order Intelligence
+  reason_for_placement: The passage documents an information-security boundary affecting Hogwarts students living inside a wartime headquarters.
+  relevance_to_hogwarts_a_history: A later edition can use this to distinguish student rumors from adult wartime knowledge around Hogwarts-connected families and staff.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch04-006
+    - ootp-ch05-001
+    notes: ootp-ch04-006 records Extendable Ears and the Imperturbable Charm, while ootp-ch05-001 records confidential headquarters papers; this entry adds sustained child-exclusion practice after Harry's hearing.
+  confidence: high
+  limitations: The passage does not list the specific conversations withheld or the full security rules for minors at headquarters.
+
+- id: ootp-ch09-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Nine - The Woes of Mrs. Weasley
+  chapter_start_pdf_page: 1714
+  chapter_end_pdf_page: 1740
+  pdf_page: 1722
+  printed_page: null
+  extracted_text_lines: 271-303
+  text_anchor:
+    start_phrase: Booklists have arrived
+    end_phrase: Yeah I see what you mean
+    local_occurrence_note: Harry receives his late school letter and fifth-year booklist, naming the term start, required books, and the new Defense Against the Dark Arts textbook.
+  nearby_context: Fred and George infer from the Slinkhard book that Dumbledore has finally found a new Defense Against the Dark Arts teacher despite the post's recent run of disasters.
+  match_terms:
+  - school letter
+  - booklist
+  - first of September
+  - Standard Book of Spells Grade 5
+  - Defensive Magical Theory
+  - Defense Against the Dark Arts
+  quote_excerpt_short: "term started on the first of September"
+  source_note: The school letter confirms returning-student term logistics and fifth-year required texts, while the Defense Against the Dark Arts booklist signals a late staff appointment after four consecutive failed tenures.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - school-letters
+  - fifth-year-booklist
+  - term-start
+  - defense-against-the-dark-arts
+  - textbooks
+  - teacher-appointments
+  - dumbledore
+  candidate_part: Classes, Curriculum, and Learning
+  candidate_chapter: Defense Against the Dark Arts
+  candidate_section: Fifth-Year Textbooks and Staffing Trouble
+  reason_for_placement: The passage gives concrete course-material evidence and links the text choice to the institutional difficulty of staffing Defense Against the Dark Arts.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence for annual booklist practice, September term start, and the continuing instability of the Defense Against the Dark Arts post.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch04-001
+    - cos-ch07-004
+    - gof-ch12-006
+    notes: cos-ch04-001 records an earlier annual booklist, cos-ch07-004 records the post's hard-to-fill reputation, and gof-ch12-006 records Moody's appointment; this entry adds the fifth-year texts and the post-Moody staffing inference.
+  confidence: high
+  limitations: The passage gives the booklist and student inference but does not yet identify the new teacher or explain who selected the textbook.
+
+- id: ootp-ch09-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Nine - The Woes of Mrs. Weasley
+  chapter_start_pdf_page: 1714
+  chapter_end_pdf_page: 1740
+  pdf_page: 1723
+  printed_page: null
+  extracted_text_lines: 307-355; 481-530
+  text_anchor:
+    start_phrase: Ron was standing very still
+    end_phrase: Maybe he chooses them for other reasons
+    local_occurrence_note: Ron's Hogwarts letter includes a Gryffindor prefect badge, Hermione has also been selected, and Harry recalls that prefects are chosen in fifth year.
+  nearby_context: The twins expected Harry because of the Triwizard Tournament, while Harry reflects that Dumbledore may choose prefects for reasons other than public heroics or dangerous adventures.
+  match_terms:
+  - Ron Weasley
+  - Hermione Granger
+  - prefect
+  - Gryffindor lion
+  - fifth year
+  - Dumbledore
+  quote_excerpt_short: "prefects being chosen in the fifth year"
+  source_note: The chapter confirms that fifth-year Hogwarts letters can carry prefect appointments and House badges, naming Ron and Hermione as Gryffindor prefects and tying the selection to criteria beyond fame or dangerous exploits.
+  reference_type: house_system
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - prefects
+  - gryffindor
+  - fifth-year
+  - student-leadership
+  - ron-weasley
+  - hermione-granger
+  - dumbledore
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Leadership and Prefects
+  candidate_section: Fifth-Year Prefect Selection
+  reason_for_placement: The scene provides direct evidence for when prefects are appointed, how appointments are communicated, and how students understand the selection.
+  relevance_to_hogwarts_a_history: A later edition can use this as a concrete Harry-era example of House-based student leadership selection and the social weight attached to prefect badges.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch04-005
+    notes: cos-ch04-005 names an in-universe book about Hogwarts prefect careers; this entry adds direct fifth-year appointment evidence, House badge delivery, and named Gryffindor selections.
+  confidence: high
+  limitations: The scene implies but does not formally document whether Dumbledore alone chooses prefects or acts with Heads of House.
+
+- id: ootp-ch09-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Nine - The Woes of Mrs. Weasley
+  chapter_start_pdf_page: 1714
+  chapter_end_pdf_page: 1740
+  pdf_page: 1731
+  printed_page: null
+  extracted_text_lines: 617-638
+  text_anchor:
+    start_phrase: To Ron and Hermione the new Gryffindor prefects
+    end_phrase: I need scarcely say that I failed dismally
+    local_occurrence_note: Adult guests discuss prefect history, including Tonks being refused by her Head of House, Sirius and James being too detention-prone, and Lupin receiving the badge.
+  nearby_context: The remarks occur during the Grimmauld Place celebration for Ron and Hermione's new prefect appointments.
+  match_terms:
+  - new Gryffindor prefects
+  - Head of House
+  - detention
+  - Lupin
+  - James Potter
+  - Tonks
+  quote_excerpt_short: "My Head of House said"
+  source_note: "Alumni testimony shows prefect status as selective rather than automatic: Heads of House could cite behavior, detention history mattered socially, and Lupin's appointment may have aimed to moderate his friends."
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - prefects
+  - head-of-house
+  - student-leadership
+  - detention
+  - remus-lupin
+  - nymphadora-tonks
+  - marauders
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Leadership and Prefects
+  candidate_section: Prefect Qualities and Alumni Examples
+  reason_for_placement: The conversation supplies retrospective evidence about selection expectations and behavior standards across older Hogwarts cohorts.
+  relevance_to_hogwarts_a_history: A later edition can use this to supplement formal prefect procedures with remembered practice, including the role of conduct and House authority.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch04-005
+    notes: cos-ch04-005 establishes prefects as a named career-relevant institution; this entry adds alumni examples, Head-of-House judgment, detention reputation, and Lupin's appointment rationale.
+  confidence: medium
+  limitations: The evidence is conversational and retrospective, not an official prefect-selection rulebook.
+
+- id: ootp-ch09-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Nine - The Woes of Mrs. Weasley
+  chapter_start_pdf_page: 1714
+  chapter_end_pdf_page: 1740
+  pdf_page: 1735
+  printed_page: null
+  extracted_text_lines: 727-764; 849-877
+  text_anchor:
+    start_phrase: Original Order of the Phoenix
+    end_phrase: picking us off one by one
+    local_occurrence_note: Moody identifies members and casualties in an old Order photograph, and Lupin later compares the current war with the First War's odds.
+  nearby_context: The photograph includes Dumbledore, Hagrid, Lupin, Sirius, Lily and James Potter, Peter Pettigrew, Longbottoms, Boneses, Prewetts, and other Order members before many were killed, tortured, or vanished.
+  match_terms:
+  - Original Order of the Phoenix
+  - Dumbledore
+  - Longbottom
+  - Bones
+  - Prewett
+  - outnumbered twenty to one
+  quote_excerpt_short: "outnumbered twenty to one"
+  source_note: The chapter preserves a named First Wizarding War Order roster through Moody's photograph and connects those casualties to Lupin's claim that the old Order was badly outnumbered by Death Eaters.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - original-order-phoenix
+  - first-wizarding-war
+  - dumbledore
+  - hogwarts-alumni
+  - longbottoms
+  - prewett-family
+  - death-eaters
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Second War and Hogwarts-Connected Organizations
+  candidate_section: Original Order Roster and First War Casualties
+  reason_for_placement: The passage names a wartime network around Dumbledore and several Hogwarts-connected families, giving later editors a bridge between school history and anti-Voldemort resistance.
+  relevance_to_hogwarts_a_history: A later edition can cite this as compact roster and casualty evidence for the First Wizarding War's effect on Hogwarts families, staff, and alumni.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch30-006
+    - poa-ch10-006
+    - ootp-ch04-004
+    notes: gof-ch30-006 records the Longbottom torture aftermath, poa-ch10-006 records Potter-era alumni war memory, and ootp-ch04-004 defines the Order as a prior-war secret society; this entry adds Moody's named photo roster and Lupin's twenty-to-one comparison.
+  confidence: high
+  limitations: The roster is filtered through Moody's oral identifications and does not give exact dates, membership criteria, or complete casualty records.

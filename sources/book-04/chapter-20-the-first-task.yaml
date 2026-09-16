@@ -1,0 +1,313 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty - The First Task
+  chapter_start_pdf_page: 1230
+  chapter_end_pdf_page: 1251
+  boundary_confidence: high
+  boundary_notes: Chapter Twenty range came from project-control/processing-state.yaml and project-control/next-run.md. The run used the prior Chapter Nineteen anchor and extracted only PDF pages 1230-1251 with pypdf, without scanning the full PDF from page 1.
+  processed_date: '2026-06-29'
+  processor_notes: "Processed only Book 4, Chapter Twenty. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch20-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty - The First Task
+  chapter_start_pdf_page: 1230
+  chapter_end_pdf_page: 1251
+  pdf_page: 1230
+  printed_page: null
+  extracted_text_lines: 20-37
+  text_anchor:
+    start_phrase: every book he could find on dragons
+    end_phrase: Men Who Love Dragons Too Much
+    local_occurrence_note: Harry and Hermione search Hogwarts library dragon books and spellbooks for a first-task strategy.
+  nearby_context: Hermione and Harry first look for dragon-specific magical-creature guidance, then move to simple spellbooks after one dragon book explains that ancient magic makes dragon hides hard to penetrate.
+  match_terms:
+  - dragons
+  - library
+  - spellbooks
+  - ancient-magic
+  - dragon-hide
+  - student-research
+  quote_excerpt_short: "Dragons are extremely difficult to slay"
+  source_note: Harry and Hermione use Hogwarts library dragon books and spellbooks to research the first task, finding that ancient magic protects dragon hides from most spells.
+  topic_tags:
+  - dragons
+  - library
+  - spellbooks
+  - ancient-magic
+  - magical-creatures
+  - student-research
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  candidate_part: Magical Creatures and the School Library
+  candidate_chapter: Dangerous Creatures in Study and Tournament Use
+  candidate_section: Dragon Lore in Hogwarts Library Sources
+  reason_for_placement: The passage shows Hogwarts library holdings being used to research dragon defenses, care, and charms-based countermeasures.
+  relevance_to_hogwarts_a_history: A later school history can use this as evidence for the library's practical creature-lore collections and for how students combine subject knowledge during emergencies.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate search found general library and spellbook entries, but no prior entry focused on dragon books, dragon-hide ancient magic, or first-task dragon research in the Hogwarts library.
+  confidence: high
+  limitations: The named dragon book is glimpsed only briefly, and the research is informal rather than assigned coursework.
+- id: gof-ch20-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty - The First Task
+  chapter_start_pdf_page: 1230
+  chapter_end_pdf_page: 1251
+  pdf_page: 1235
+  printed_page: null
+  extracted_text_lines: 196-209
+  text_anchor:
+    start_phrase: found out about the dragons
+    end_phrase: They want to beat Dumbledore
+    local_occurrence_note: Moody discusses advance knowledge of the first task after overhearing Harry warn Cedric.
+  nearby_context: Moody tells Harry that cheating has always been part of the Triwizard Tournament and expects Karkaroff and Maxime to pass task information to their champions.
+  match_terms:
+  - Triwizard Tournament
+  - cheating
+  - champions
+  - Karkaroff
+  - Maxime
+  - Dumbledore
+  quote_excerpt_short: "Cheating's a traditional part of the Triwizard Tournament"
+  source_note: Moody tells Harry that task-related cheating has long been part of the tournament and expects rival heads to brief their champions.
+  topic_tags:
+  - triwizard-tournament
+  - first-task
+  - cheating
+  - champions
+  - fairness
+  - visiting-schools
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Traditional Cheating and First-Task Fairness
+  reason_for_placement: The passage reframes the first-task leak as part of a broader tournament tradition rather than an isolated breach.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain why the revived tournament's formal rules coexisted with informal coaching, inter-school rivalry, and fairness problems.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch19-004; gof-ch17-006
+    notes: gof-ch19-004 records the actual first-task secrecy breach, and gof-ch17-006 records the formal first-task restrictions; this entry adds Moody's claim that cheating is traditional in the tournament.
+  confidence: medium
+  limitations: Moody's statement is an informed but informal historical claim, and his hidden role later complicates his reliability.
+- id: gof-ch20-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty - The First Task
+  chapter_start_pdf_page: 1230
+  chapter_end_pdf_page: 1251
+  pdf_page: 1235
+  printed_page: null
+  extracted_text_lines: 166-194
+  text_anchor:
+    start_phrase: Like my Dark Detectors
+    end_phrase: That's when I open my trunk
+    local_occurrence_note: Harry examines the unusual objects in Moody's Defense Against the Dark Arts office.
+  nearby_context: Moody identifies a large Sneakoscope, a Secrecy Sensor that reacts to concealment and lies, a Foe-Glass that shows enemies, and a seven-locked trunk.
+  match_terms:
+  - Dark Detectors
+  - Sneakoscope
+  - Secrecy Sensor
+  - Foe-Glass
+  - Defense Against the Dark Arts
+  - Auror
+  quote_excerpt_short: "Secrecy Sensor. Vibrates when it detects concealment and lies"
+  source_note: Moody's office contains multiple Dark Detectors, including a Sneakoscope, Secrecy Sensor, Foe-Glass, and seven-locked trunk.
+  topic_tags:
+  - dark-detectors
+  - sneakoscope
+  - secrecy-sensor
+  - foe-glass
+  - defense-against-the-dark-arts
+  - auror-tools
+  reference_type: security_or_protection
+  era_classification: harry_era_confirmation
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Staff Expertise and Magical Surveillance
+  candidate_section: Moody's Dark Detectors in the Classroom Office
+  reason_for_placement: The office contents show Auror-grade detection artifacts temporarily installed in a Hogwarts teaching space.
+  relevance_to_hogwarts_a_history: This can support later editorial discussion of how staff expertise and personal magical artifacts affected Hogwarts security culture during the Triwizard year.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate search for the named detectors found no likely existing entry; the related Moody magical-eye evidence is a separate artifact and function.
+  confidence: high
+  limitations: These are Moody's personal objects, not permanent Hogwarts defenses, and the Secrecy Sensor is described as unreliable in the noisy school environment.
+- id: gof-ch20-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty - The First Task
+  chapter_start_pdf_page: 1230
+  chapter_end_pdf_page: 1251
+  pdf_page: 1238
+  printed_page: null
+  extracted_text_lines: 250-306
+  text_anchor:
+    start_phrase: learn how to do a Summoning Charm
+    end_phrase: I'm going to be out there on the grounds
+    local_occurrence_note: Hermione coaches Harry through intensive Summoning Charm practice before the task.
+  nearby_context: Harry practices in a free classroom, during Divination, and in Gryffindor common room until he can summon a heavy dictionary and hopes to call his Firebolt from the castle to the grounds.
+  match_terms:
+  - Summoning Charm
+  - Accio
+  - Firebolt
+  - Charms
+  - Gryffindor common room
+  - free classroom
+  quote_excerpt_short: "Accio Dictionary!"
+  source_note: Hermione helps Harry practice the Summoning Charm until he can call objects reliably and plans to summon his Firebolt from the castle to the task grounds.
+  topic_tags:
+  - summoning-charm
+  - accio
+  - charms
+  - firebolt
+  - common-room
+  - student-practice
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  candidate_part: Curriculum, Study, and Practical Magic
+  candidate_chapter: Charms Instruction and Independent Practice
+  candidate_section: Summoning Charms Beyond the Classroom
+  reason_for_placement: The passage shows a classroom charm being drilled independently across school spaces and adapted for a high-risk tournament use.
+  relevance_to_hogwarts_a_history: A later edition can use this to connect formal Charms curriculum, peer tutoring, common-room practice, and practical spell performance on the grounds.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch15-002; gof-ch06-003
+    notes: gof-ch15-002 records Summoning Charm lesson preparation in the fourth-year workload, and gof-ch06-003 records a non-school use of Accio; this entry adds intensive student practice and long-distance first-task application planning.
+  confidence: high
+  limitations: The account follows Harry's accelerated practice rather than the ordinary lesson itself, so it should not be treated as a standard syllabus description.
+- id: gof-ch20-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty - The First Task
+  chapter_start_pdf_page: 1230
+  chapter_end_pdf_page: 1251
+  pdf_page: 1238
+  printed_page: null
+  extracted_text_lines: 306-348
+  text_anchor:
+    start_phrase: Lessons were to stop at midday
+    end_phrase: he'll be telling you the procedure
+    local_occurrence_note: The school day shifts into tournament-spectator mode as McGonagall escorts Harry to the champions' tent.
+  nearby_context: Classes stop at midday so students can go to the dragon enclosure, while McGonagall leads Harry down the grounds to a screened tent where Bagman will explain procedure.
+  match_terms:
+  - lessons
+  - first task
+  - students
+  - dragon enclosure
+  - champions
+  - procedure
+  quote_excerpt_short: "Lessons were to stop at midday"
+  source_note: Hogwarts suspends lessons so students can attend the first task, while McGonagall escorts Harry to the champions' tent on the grounds.
+  topic_tags:
+  - first-task
+  - school-schedule
+  - tournament-spectators
+  - hogwarts-grounds
+  - champions-tent
+  - staff-escort
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Tournament at Hogwarts
+  candidate_section: First-Task Spectatorship and School-Day Disruption
+  reason_for_placement: The passage shows the tournament overriding the ordinary school timetable and moving the student body to a managed outdoor event.
+  relevance_to_hogwarts_a_history: A later edition can document how Hogwarts hosted the revived tournament as an institution-wide public event with staff escorts, spectators, and temporary grounds infrastructure.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch17-006; gof-ch15-005
+    notes: gof-ch17-006 records the formal first-task date and student audience, while gof-ch15-005 records a prior schedule disruption for visiting delegations; this entry adds the actual midday class stop and movement to the dragon enclosure.
+  confidence: high
+  limitations: This describes one tournament day and does not establish whether all Triwizard tasks disrupted lessons in the same way.
+- id: gof-ch20-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty - The First Task
+  chapter_start_pdf_page: 1230
+  chapter_end_pdf_page: 1251
+  pdf_page: 1241
+  printed_page: null
+  extracted_text_lines: 363-399
+  text_anchor:
+    start_phrase: each select a small model
+    end_phrase: the order in which you are to take on the dragons
+    local_occurrence_note: Bagman explains the dragon-selection bag and each champion draws a numbered model.
+  nearby_context: The champions draw miniature Welsh Green, Chinese Fireball, Swedish Short-Snout, and Hungarian Horntail models whose neck numbers determine their task order.
+  match_terms:
+  - Welsh Green
+  - Chinese Fireball
+  - Swedish Short-Snout
+  - Hungarian Horntail
+  - dragon models
+  - task order
+  quote_excerpt_short: "select a small model of the thing you are about to face"
+  source_note: Bagman has each champion draw a numbered miniature dragon model to determine both the assigned dragon and the order of performance.
+  topic_tags:
+  - dragon-breeds
+  - first-task
+  - dragon-enclosure
+  - champions
+  - golden-egg
+  - task-order
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Magical Creature Hazards
+  candidate_section: Dragon Assignment and First-Task Order
+  reason_for_placement: The passage gives the official task-day mechanism for assigning specific dragon breeds and running order.
+  relevance_to_hogwarts_a_history: A later edition can pair this with the prior dragon-containment evidence to describe how the first task was administered to individual champions.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch19-005
+    notes: gof-ch19-005 names the same dragon breeds and containment setup before the task; this entry adds the official model-draw procedure and champion order.
+  confidence: high
+  limitations: The draw procedure is shown only for this task and does not state whether similar randomization was used historically.
+- id: gof-ch20-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Twenty - The First Task
+  chapter_start_pdf_page: 1230
+  chapter_end_pdf_page: 1251
+  pdf_page: 1249
+  printed_page: null
+  extracted_text_lines: 659-718
+  text_anchor:
+    start_phrase: marks out of ten from each one
+    end_phrase: enable you to prepare for it
+    local_occurrence_note: Harry receives judge scores, then Bagman explains the second-task clue inside each golden egg.
+  nearby_context: Five judges score Harry out of ten by raising wand-projected numbers, then Bagman tells all champions that the golden eggs open and contain the clue for the February twenty-fourth second task.
+  match_terms:
+  - judges
+  - marks out of ten
+  - golden eggs
+  - second task
+  - February the twenty-fourth
+  - clue
+  quote_excerpt_short: "marks out of ten from each one"
+  source_note: The five judges score Harry by projecting numbers from their wands, and Bagman later explains that each golden egg contains the clue for the second task.
+  topic_tags:
+  - triwizard-tournament
+  - judges
+  - scoring
+  - golden-egg
+  - second-task
+  - clue
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Scoring and Second-Task Clue Distribution
+  reason_for_placement: The passage supplies concrete scoring mechanics and shows how the first task transitions into second-task preparation.
+  relevance_to_hogwarts_a_history: A later edition can use this to document the revived tournament's public scoring method, judge discretion, and clue-based task sequencing.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch16-002; gof-ch17-006
+    notes: gof-ch16-002 records the broad three-task and judging system, and gof-ch17-006 records staged first-task information; this entry adds per-judge wand-displayed scores and the golden-egg clue for the second task.
+  confidence: high
+  limitations: The chapter shows Harry's score in detail but only summarizes the other champions' scores and clue instructions.

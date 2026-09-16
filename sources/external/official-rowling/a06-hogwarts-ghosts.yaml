@@ -1,0 +1,462 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A06
+  source_file: resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md
+  title: Hogwarts Ghosts
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts
+  capture_completeness: complete
+  content_sha256: 8721c6d5559041772121e6530c83a9e7cbd8a5c8014567826316afb499b4f5dd
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and evidence extracted.
+
+entries:
+  - id: ext-a06-001
+    source_file: resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md
+    source_id: A06
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Hogwarts is the most heavily haunted dwelling place in Britain
+      end_phrase: same old reminiscences
+      local_occurrence_note: Opening paragraph of the main article.
+    nearby_context: The article characterizes the castle as exceptionally hospitable to ghosts because its living residents tolerate and value them.
+    match_terms:
+      - hogwarts ghosts
+      - haunted dwelling
+      - castle residents
+    quote_excerpt_short: Hogwarts is the most heavily haunted dwelling place in Britain.
+    source_note: Rowling describes Hogwarts as Britain's most heavily haunted dwelling, where the living generally treat resident ghosts with tolerance and affection.
+    reference_type: portrait_or_ghost_lore
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - castle
+      - ghosts
+      - haunted
+      - hogwarts
+    candidate_part: 'Part II: The School Community'
+    candidate_chapter: Resident Ghosts and Institutional Memory
+    candidate_section: The castle as a home for ghosts
+    reason_for_placement: Establishes the scale and social character of Hogwarts' resident ghost population.
+    relevance_to_hogwarts_a_history: Useful institutional context, though the superlative describes the school in the Harry-era setting rather than a dated founding-era condition.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries corroborate ghosts as residents but do not make Rowling's comparative claim about Britain.
+      audit:
+        query_tags:
+          - castle
+          - ghosts
+          - haunted
+          - hogwarts
+        candidates:
+          - id: cos-ch01-001
+            disposition: corroborating
+          - id: hbp-ch02-005
+            disposition: distinct
+          - id: cos-ch08-001
+            disposition: corroborating
+          - id: cos-ch08-005
+            disposition: corroborating
+          - id: cos-ch09-003
+            disposition: distinct
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch10-006
+            disposition: distinct
+          - id: dh-ch15-002
+            disposition: distinct
+          - id: dh-ch15-007
+            disposition: distinct
+          - id: dh-ch16-002
+            disposition: distinct
+    confidence: high
+    limitations: This comparative statement is not dated and does not quantify ghost numbers or define the reporting basis for Britain.
+
+  - id: ext-a06-002
+    source_file: resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md
+    source_id: A06
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Each of the four Hogwarts houses has its own ghost.
+      end_phrase: covered in silver bloodstains
+      local_occurrence_note: Second paragraph of the main article, before the description of the Grey Lady.
+    nearby_context: The article introduces the House-ghost arrangement and identifies the Bloody Baron as Slytherin's ghost.
+    match_terms:
+      - house ghosts
+      - slytherin ghost
+      - bloody baron
+    quote_excerpt_short: Slytherin boasts the Bloody Baron, who is covered in silver bloodstains.
+    source_note: Hogwarts assigns a ghost to each House; Slytherin's is the Bloody Baron, whose appearance includes silver bloodstains.
+    reference_type: house_system
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - bloody-baron
+      - house-ghost
+      - slytherin
+    candidate_part: 'Part II: The School Community'
+    candidate_chapter: Resident Ghosts and Institutional Memory
+    candidate_section: House ghosts
+    reason_for_placement: Documents a House-linked resident role and identifies Slytherin's representative ghost.
+    relevance_to_hogwarts_a_history: Supports an account of how House identity extends to the castle's ghostly residents in the Harry-era school.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch08-005
+      notes: The Deathday Party entry already records the House-ghost identification; this source independently supplies the Slytherin assignment and visual detail.
+      audit:
+        query_tags:
+          - bloody-baron
+          - house-ghost
+          - slytherin
+        candidates:
+          - id: cos-ch07-002
+            disposition: distinct
+          - id: cos-ch08-005
+            disposition: duplicate
+          - id: cos-ch18-004
+            disposition: distinct
+          - id: dh-ch10-002
+            disposition: distinct
+          - id: dh-ch10-004
+            disposition: distinct
+          - id: dh-ch31-002
+            disposition: distinct
+          - id: dh-ch33-005
+            disposition: distinct
+          - id: dh-ch36-002
+            disposition: distinct
+          - id: gof-ch15-004
+            disposition: distinct
+          - id: hbp-ch04-005
+            disposition: distinct
+    confidence: high
+    limitations: The article presents the House-ghost arrangement without explaining its origin, selection, or date of establishment.
+
+  - id: ext-a06-003
+    source_file: resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md
+    source_id: A06
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Hufflepuff house is haunted by the Fat Friar
+      end_phrase: never made a cardinal
+      local_occurrence_note: Third paragraph of the main article.
+    nearby_context: Rowling links the Fat Friar to Hufflepuff and supplies a comic account of the conduct that prompted his execution.
+    match_terms:
+      - hufflepuff ghost
+      - fat friar
+      - execution
+    quote_excerpt_short: Hufflepuff house is haunted by the Fat Friar.
+    source_note: The Fat Friar is Hufflepuff's ghost; the account attributes his execution to churchmen's suspicion of his magical healing and conjuring.
+    reference_type: portrait_or_ghost_lore
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - fat-friar
+      - house-ghost
+      - hufflepuff
+      - wizarding-church-history
+    candidate_part: 'Part II: The School Community'
+    candidate_chapter: Resident Ghosts and Institutional Memory
+    candidate_section: House ghosts
+    reason_for_placement: Adds Hufflepuff's resident ghost and a biographical tradition attached to him.
+    relevance_to_hogwarts_a_history: A source-grounded item of House and ghost lore, with its historical setting deliberately left undated.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch08-005
+      notes: The Deathday Party entry duplicates the House-ghost identification but not the biography supplied here.
+      audit:
+        query_tags:
+          - fat-friar
+          - house-ghost
+          - hufflepuff
+        candidates:
+          - id: cos-ch06-002
+            disposition: distinct
+          - id: cos-ch08-005
+            disposition: duplicate
+          - id: gof-ch06-004
+            disposition: distinct
+          - id: gof-ch15-004
+            disposition: distinct
+          - id: gof-ch18-002
+            disposition: distinct
+          - id: gof-ch36-002
+            disposition: distinct
+          - id: ootp-ch26-004
+            disposition: distinct
+          - id: poa-ch09-006
+            disposition: distinct
+          - id: ps-ch05-006
+            disposition: distinct
+          - id: ps-ch13-002
+            disposition: distinct
+    confidence: high
+    limitations: The account gives no date or independent historical record for the Fat Friar's life, execution, or House connection.
+
+  - id: ext-a06-004
+    source_file: resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md
+    source_id: A06
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Gryffindor house is home to Nearly Headless Nick
+      end_phrase: truly headless ghosts
+      local_occurrence_note: Fourth paragraph of the main article.
+    nearby_context: Rowling gives Nick's former name and recounts an execution after a failed magical intervention at Henry VII's court.
+    match_terms:
+      - gryffindor ghost
+      - nearly headless nick
+      - sir nicholas de mimsy-porpington
+    quote_excerpt_short: In life, Nearly Headless Nick was Sir Nicholas de Mimsy-Porpington.
+    source_note: Gryffindor's Nearly Headless Nick is identified as Sir Nicholas de Mimsy-Porpington; an inexpert execution left him nearly, rather than wholly, decapitated.
+    reference_type: portrait_or_ghost_lore
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - gryffindor
+      - house-ghost
+      - nearly-headless-nick
+      - sir-nicholas-de-mimsy-porpington
+    candidate_part: 'Part II: The School Community'
+    candidate_chapter: Resident Ghosts and Institutional Memory
+    candidate_section: House ghosts
+    reason_for_placement: Provides the historical identity and origin tradition of Gryffindor's resident ghost.
+    relevance_to_hogwarts_a_history: Useful biographical ghost lore for the school's long-lived residents; the narrative places Nick at Henry VII's court.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries corroborate Nick's presence and ghost lore but do not duplicate this identity-and-execution account.
+      audit:
+        query_tags:
+          - gryffindor
+          - house-ghost
+          - nearly-headless-nick
+        candidates:
+          - id: ps-ch08-002
+            disposition: corroborating
+          - id: cos-ch06-005
+            disposition: distinct
+          - id: cos-ch07-002
+            disposition: distinct
+          - id: cos-ch08-001
+            disposition: corroborating
+          - id: cos-ch08-005
+            disposition: corroborating
+          - id: cos-ch11-006
+            disposition: distinct
+          - id: cos-ch15-002
+            disposition: distinct
+          - id: cos-ch18-003
+            disposition: distinct
+          - id: dh-ch07-006
+            disposition: distinct
+          - id: dh-ch10-002
+            disposition: distinct
+    confidence: high
+    limitations: The anecdotal biography gives no date beyond the reference to Henry VII's court and offers no independent documentation of the execution.
+
+  - id: ext-a06-005
+    source_file: resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md
+    source_id: A06
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Another notable Hogwarts ghost is Moaning Myrtle
+      end_phrase: her moans and howls
+      local_occurrence_note: Fifth paragraph of the main article, before the Author’s note.
+    nearby_context: Myrtle is described as a former Hogwarts student who remained at school to haunt Olive Hornby before becoming the castle's most miserable ghost.
+    match_terms:
+      - moaning myrtle
+      - olive hornby
+      - girls toilet
+    quote_excerpt_short: Myrtle was a student at Hogwarts when she died.
+    source_note: After dying as a Hogwarts student, Myrtle returned to haunt her bully Olive Hornby and remained as a ghost in an unpopular girls' toilet.
+    reference_type: portrait_or_ghost_lore
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - ghost
+      - moaning-myrtle
+      - student
+      - toilet
+    candidate_part: 'Part II: The School Community'
+    candidate_chapter: Resident Ghosts and Institutional Memory
+    candidate_section: Moaning Myrtle and school spaces
+    reason_for_placement: Connects a former pupil's ghostly return, interpersonal motive, and lasting location within the school.
+    relevance_to_hogwarts_a_history: Supplies resident-ghost lore with a clear institutional location but no date for Myrtle's death or return.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch25-004
+      notes: The Goblet of Fire entry covers Myrtle, Olive Hornby, and bathroom history; other entries extend the bathroom and Chamber context.
+      audit:
+        query_tags:
+          - ghost
+          - moaning-myrtle
+          - student
+          - toilet
+        candidates:
+          - id: cos-ch08-005
+            disposition: corroborating
+          - id: cos-ch15-007
+            disposition: corroborating
+          - id: cos-ch16-006
+            disposition: corroborating
+          - id: gof-ch25-004
+            disposition: duplicate
+          - id: gof-ch26-006
+            disposition: distinct
+          - id: hbp-ch24-003
+            disposition: corroborating
+    confidence: high
+    limitations: The snapshot does not date Myrtle's death, her return, or the later period described as decades.
+
+  - id: ext-a06-006
+    source_file: resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md
+    source_id: A06
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The most productive ghost at Hogwarts is, of course, Professor Binns
+      end_phrase: not the most stimulating teacher
+      local_occurrence_note: First paragraph following the Author’s note.
+    nearby_context: The article identifies Binns as the History of Magic teacher and describes his continued teaching after death, including his entry through the classroom blackboard.
+    match_terms:
+      - professor binns
+      - history of magic
+      - ghost teacher
+    quote_excerpt_short: He simply got up to give his next class, leaving his body behind.
+    source_note: Professor Binns, Hogwarts' History of Magic teacher, became a ghost after falling asleep by the staffroom fire and continued teaching.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - ghost
+      - history-of-magic
+      - professor-binns
+      - teacher
+    candidate_part: 'Part III: Learning at Hogwarts'
+    candidate_chapter: History of Magic and Historical Instruction
+    candidate_section: Professor Binns as a ghost teacher
+    reason_for_placement: Identifies the subject's unusually persistent teacher and the origin story of his ghostly instruction.
+    relevance_to_hogwarts_a_history: Direct evidence for History of Magic's staff continuity in the Harry-era school, while the initial death remains undated.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ps-ch08-005
+      notes: The Philosopher's Stone entry states the same Binns origin and continued teaching; later classroom entries corroborate the subject's routine operation.
+      audit:
+        query_tags:
+          - ghost
+          - history-of-magic
+          - professor-binns
+          - teacher
+        candidates:
+          - id: cos-ch09-002
+            disposition: corroborating
+          - id: gof-ch22-005
+            disposition: corroborating
+          - id: gof-ch29-002
+            disposition: corroborating
+          - id: ootp-ch12-003
+            disposition: corroborating
+          - id: ps-ch08-005
+            disposition: duplicate
+          - id: cos-ch09-003
+            disposition: distinct
+          - id: dh-ch10-003
+            disposition: distinct
+          - id: dh-ch21-005
+            disposition: distinct
+          - id: dh-ch25-005
+            disposition: distinct
+          - id: gof-ch15-002
+            disposition: distinct
+    confidence: high
+    limitations: This overview does not date Binns's death, appointment, or the beginning of his ghostly teaching.
+
+  - id: ext-a06-007
+    source_file: resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md
+    source_id: A06
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The least talkative of the house ghosts is the Grey Lady
+      end_phrase: long-haired and beautiful
+      local_occurrence_note: Second paragraph of the main article, immediately after the Bloody Baron description.
+    nearby_context: Rowling characterizes the Grey Lady as the least talkative House ghost and describes her appearance.
+    match_terms:
+      - grey lady
+      - house ghost
+      - hogwarts ghost
+    quote_excerpt_short: The least talkative of the house ghosts is the Grey Lady.
+    source_note: The Grey Lady is described as the least talkative of Hogwarts' House ghosts and as long-haired and beautiful.
+    reference_type: portrait_or_ghost_lore
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - grey-lady
+      - hogwarts
+      - house-ghost
+    candidate_part: 'Part II: The School Community'
+    candidate_chapter: Resident Ghosts and Institutional Memory
+    candidate_section: House ghosts
+    reason_for_placement: Adds a concise characterization of a House-linked resident ghost.
+    relevance_to_hogwarts_a_history: Useful as Harry-era descriptive ghost lore, not as a dated account of the Grey Lady's earlier life.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No returned candidate concerns the Grey Lady or her characterization.
+      audit:
+        query_tags:
+          - grey-lady
+          - hogwarts
+          - house-ghost
+        candidates:
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch10-006
+            disposition: distinct
+          - id: dh-ch15-002
+            disposition: distinct
+          - id: dh-ch15-007
+            disposition: distinct
+          - id: dh-ch16-002
+            disposition: distinct
+          - id: dh-ch22-007
+            disposition: distinct
+          - id: dh-ch24-001
+            disposition: distinct
+          - id: dh-ch24-007
+            disposition: distinct
+          - id: dh-ch27-004
+            disposition: distinct
+          - id: dh-ch27-005
+            disposition: distinct
+    confidence: high
+    limitations: The description does not identify the Grey Lady's House or supply biographical or chronological evidence.

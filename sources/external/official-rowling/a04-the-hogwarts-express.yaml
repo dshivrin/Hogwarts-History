@@ -1,0 +1,325 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A04
+  source_file: resources/external/official-rowling/harrypotter-com/a04-the-hogwarts-express.md
+  title: The Hogwarts Express
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/the-hogwarts-express
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/the-hogwarts-express
+  capture_completeness: complete
+  content_sha256: f7455c025ae1aa977a1e344b88879d58376ae481f757ed4d3346451790168d06
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and evidence extracted.
+
+entries:
+  - id: ext-a04-001
+    source_file: resources/external/official-rowling/harrypotter-com/a04-the-hogwarts-express.md
+    source_id: A04
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-hogwarts-express
+    source_section: The Hogwarts Express
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: some attempted to Apparate
+      end_phrase: Anti-Apparition Charms)
+      local_occurrence_note: Second paragraph, in the account of pre-train travel methods.
+    nearby_context: Early accounts describe students using varied magical transport before a shared school route existed.
+    match_terms:
+      - anti-apparition
+      - castle protections
+      - historical student travel
+    quote_excerpt_short: the castle and grounds have always been protected with Anti-Apparition Charms
+    source_note: The historical-travel account states that Hogwarts and its grounds have long barred Apparition, making attempted arrival by that method disastrous.
+    reference_type: security_or_protection
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - anti-apparition
+      - castle-protections
+      - hogwarts-grounds
+      - magical-transport
+      - school-travel
+    candidate_part: 'Part I: The School and Its Foundations'
+    candidate_chapter: Castle, Grounds, and Protective Magic
+    candidate_section: Boundaries and Restricted Access
+    reason_for_placement: Establishes a longstanding magical boundary that shaped how students could reach Hogwarts.
+    relevance_to_hogwarts_a_history: Useful as a historical explanation for why school travel required controlled alternatives to direct Apparition.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - anti-apparition
+          - castle-protections
+        candidates:
+          - id: ootp-ch27-007
+            disposition: corroborating
+          - id: poa-ch09-001
+            disposition: corroborating
+          - id: poa-ch22-001
+            disposition: corroborating
+          - id: dh-ch30-004
+            disposition: corroborating
+          - id: hbp-ch04-001
+            disposition: corroborating
+          - id: hbp-ch08-002
+            disposition: distinct
+          - id: hbp-ch17-002
+            disposition: distinct
+          - id: hbp-ch18-003
+            disposition: distinct
+    confidence: high
+    limitations: The source asserts the protection's long duration but does not date its original imposition or describe its mechanism.
+
+  - id: ext-a04-002
+    source_file: resources/external/official-rowling/harrypotter-com/a04-the-hogwarts-express.md
+    source_id: A04
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-hogwarts-express
+    source_section: The Hogwarts Express
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: In spite of the accidents attendant
+      end_phrase: in the Highlands of Scotland.
+      local_occurrence_note: Third paragraph, explaining the 1692 change in school-transport requirements.
+    nearby_context: Parents had previously been responsible for conveying students by varied means, despite accidents and Muggle sightings.
+    match_terms:
+      - international statute of secrecy
+      - 1692
+      - discreet school transport
+    quote_excerpt_short: the imposition of the International Statute of Secrecy in 1692
+    source_note: The source dates the need for a discreet mass-transport solution to the 1692 Statute of Secrecy, after parents had conveyed children individually.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - international-statute-secrecy
+      - magical-transport
+      - muggle-secrecy
+      - school-travel
+      - student-arrivals
+    candidate_part: 'Part II: Governance and the Wider Wizarding World'
+    candidate_chapter: Secrecy, Ministry Policy, and Hogwarts
+    candidate_section: Statute of Secrecy and School Access
+    reason_for_placement: Connects a major secrecy law to institutional transport planning for Hogwarts.
+    relevance_to_hogwarts_a_history: Provides a dated historical rationale for replacing individual family travel with a discreet collective route.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - international-statute-secrecy
+          - school-travel
+        candidates:
+          - id: cos-ch05-001
+            disposition: corroborating
+          - id: gof-ch11-002
+            disposition: corroborating
+          - id: gof-ch11-006
+            disposition: distinct
+          - id: ootp-ch10-001
+            disposition: distinct
+          - id: ootp-ch38-007
+            disposition: distinct
+          - id: poa-ch05-001
+            disposition: corroborating
+          - id: ps-ch06-001
+            disposition: corroborating
+    confidence: high
+    limitations: The source gives the policy date and transport consequence but not the exact legal text or the date the train itself entered service.
+
+  - id: ext-a04-003
+    source_file: resources/external/official-rowling/harrypotter-com/a04-the-hogwarts-express.md
+    source_id: A04
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-hogwarts-express
+    source_section: The Hogwarts Express
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Portkeys were therefore arranged
+      end_phrase: hysterics and nausea.
+      local_occurrence_note: Fourth paragraph, on the interim Portkey collection-point system.
+    nearby_context: Portkeys were used after the Statute created a need for coordinated, concealed travel, but their logistics proved inadequate.
+    match_terms:
+      - portkey
+      - school travel
+      - portkey sickness
+    quote_excerpt_short: Up to a third of students would fail to arrive every year
+    source_note: The interim nationwide Portkey system suffered missed time slots, hard-to-find objects, and widespread nausea; the account says up to one-third of pupils failed to arrive annually.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - magical-transport
+      - portkey
+      - portkey-sickness
+      - school-travel
+      - student-welfare
+    candidate_part: 'Part I: The School and Its Foundations'
+    candidate_chapter: Arrivals, Departures, and the Hogwarts Express
+    candidate_section: The Failed Portkey System
+    reason_for_placement: Documents the unsuccessful collective-transport system that preceded the train.
+    relevance_to_hogwarts_a_history: Gives the operational and welfare reasons that Portkeys were judged unsuitable for annual school transport.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - portkey
+          - school-travel
+        candidates:
+          - id: cos-ch05-001
+            disposition: distinct
+          - id: dh-ch04-001
+            disposition: distinct
+          - id: dh-ch04-002
+            disposition: distinct
+          - id: dh-ch05-002
+            disposition: distinct
+          - id: gof-ch11-002
+            disposition: distinct
+          - id: gof-ch11-006
+            disposition: distinct
+          - id: gof-ch31-007
+            disposition: distinct
+          - id: gof-ch32-001
+            disposition: distinct
+          - id: gof-ch33-005
+            disposition: distinct
+          - id: gof-ch34-005
+            disposition: distinct
+    confidence: high
+    limitations: The stated failure rate is attributed to this retrospective account; it does not identify surviving attendance records or the duration of the Portkey arrangement.
+
+  - id: ext-a04-004
+    source_file: resources/external/official-rowling/harrypotter-com/a04-the-hogwarts-express.md
+    source_id: A04
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-hogwarts-express
+    source_section: The Hogwarts Express
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: A daring and controversial solution
+      end_phrase: mislaid something important.
+      local_occurrence_note: Sixth paragraph, the deliberately qualified account of the Express's acquisition.
+    nearby_context: Minister for Magic Ottaline Gambol proposed a train after Portkeys failed and a Floo entrance was rejected on castle-security grounds.
+    match_terms:
+      - ottaline gambol
+      - memory charms
+      - concealment charm
+    quote_excerpt_short: the largest ever mass Concealment Charm performed in Britain
+    source_note: The account says the Express's exact origin is unproven, while secret Ministry records describe an alleged operation using 167 Memory Charms and an unprecedented mass Concealment Charm.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hogwarts-express
+      - memory-charms
+      - ministry-of-magic
+      - muggle-secrecy
+      - ottaline-gambol
+      - school-travel
+    candidate_part: 'Part II: Governance and the Wider Wizarding World'
+    candidate_chapter: Secrecy, Ministry Policy, and Hogwarts
+    candidate_section: The Uncertain Acquisition of the Hogwarts Express
+    reason_for_placement: Records a Ministry-linked origin tradition while preserving the source's explicit uncertainty.
+    relevance_to_hogwarts_a_history: Useful for discussing the Express's contested provenance and the scale of concealment attributed to its arrival at Hogsmeade.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - hogwarts-express
+          - muggle-secrecy
+        candidates:
+          - id: cos-ch05-001
+            disposition: corroborating
+          - id: gof-ch11-002
+            disposition: corroborating
+          - id: ps-ch06-001
+            disposition: corroborating
+          - id: ps-ch17-006
+            disposition: corroborating
+          - id: cos-ch03-001
+            disposition: distinct
+          - id: cos-ch03-004
+            disposition: corroborating
+          - id: cos-ch04-001
+            disposition: corroborating
+          - id: cos-ch05-002
+            disposition: corroborating
+          - id: cos-ch12-002
+            disposition: distinct
+          - id: cos-ch16-005
+            disposition: distinct
+    confidence: medium
+    limitations: The source expressly says the train's origin has never been conclusively proven and calls the suspected operation alleged crimes.
+
+  - id: ext-a04-005
+    source_file: resources/external/official-rowling/harrypotter-com/a04-the-hogwarts-express.md
+    source_id: A04
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-hogwarts-express
+    source_section: The Hogwarts Express
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The Hogwarts Express underwent several magical modifications
+      end_phrase: objections were swiftly silenced.
+      local_occurrence_note: Final paragraph, on approval, pure-blood objections, and compulsory use.
+    nearby_context: The Ministry modified and approved the train for school use despite pure-blood objections to Muggle transport.
+    match_terms:
+      - hogwarts express
+      - ministry decree
+      - compulsory school transport
+    quote_excerpt_short: students either rode the train or did not attend school
+    source_note: After magical modification and Ministry approval, the Hogwarts Express became compulsory for attendance; objections from pure-blood families were overridden.
+    reference_type: school_rule_or_policy
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hogwarts-express
+      - ministry-of-magic
+      - pure-blood-prejudice
+      - school-attendance
+      - school-travel
+      - student-transport
+    candidate_part: 'Part II: Governance and the Wider Wizarding World'
+    candidate_chapter: Secrecy, Ministry Policy, and Hogwarts
+    candidate_section: Mandated Travel on the Hogwarts Express
+    reason_for_placement: Identifies a Ministry decree that made a particular transport method a condition of attendance.
+    relevance_to_hogwarts_a_history: Supports an account of how Ministry authority standardized the annual school journey despite social resistance.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - hogwarts-express
+          - ministry-of-magic
+          - school-travel
+        candidates:
+          - id: cos-ch05-001
+            disposition: corroborating
+          - id: gof-ch11-002
+            disposition: corroborating
+          - id: ootp-ch38-007
+            disposition: distinct
+          - id: poa-ch05-001
+            disposition: corroborating
+          - id: ps-ch06-001
+            disposition: corroborating
+          - id: cos-ch02-005
+            disposition: distinct
+          - id: cos-ch03-004
+            disposition: distinct
+          - id: cos-ch04-001
+            disposition: corroborating
+          - id: cos-ch05-002
+            disposition: distinct
+          - id: cos-ch12-002
+            disposition: distinct
+    confidence: high
+    limitations: The source reports the decree and reaction but does not date it, reproduce its text, or specify any later exceptions.

@@ -1,0 +1,182 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B10
+  source_file: resources/external/interviews/accio-quote/b10-pottercast-j-k-rowling-interview.md
+  title: 'Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling, part one." PotterCast #130 , 17 December 2007.'
+  author: J.K. Rowling
+  source_site: Accio Quote
+  source_class: preservation_transcription
+  authority: D
+  publication_date: December 2007 / January 2008
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/2007/1217-pottercast-anelli.html
+  capture_completeness: complete
+  content_sha256: b01cb62131342e0889bd9a91c672a3f95760fa595b0275518650f9cce069375d
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read; bounded historical and explicitly post-1984 material extracted from the preservation transcription.
+
+entries:
+  - id: ext-b10-001
+    source_file: resources/external/interviews/accio-quote/b10-pottercast-j-k-rowling-interview.md
+    source_id: B10
+    source_url: https://www.accio-quote.org/articles/2007/1217-pottercast-anelli.html
+    source_section: House-elves discussion
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Hufflepuff did what was the most moral thing to do at that time
+      end_phrase: they can work and not be abused.
+      local_occurrence_note: Opening House-elves exchange, before the formal PotterCast introduction.
+    nearby_context: Rowling responds to a discussion of Helga Hufflepuff and says the setting is more than a thousand years before the interview.
+    match_terms:
+      - helga hufflepuff house-elves
+      - founder-era servitude
+      - conditions of work
+    quote_excerpt_short: Hufflepuff did what was the most moral thing to do at that time.
+    source_note: Rowling characterizes Helga Hufflepuff's founder-era response to house-elves as offering refuge and better working conditions, rather than abolition.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - elf-labour
+      - founder-era
+      - helga-hufflepuff
+      - house-elves
+      - school-origins
+    candidate_part: Foundations and Founders
+    candidate_chapter: The Four Founders and Their Legacy
+    candidate_section: Helga Hufflepuff and House-Elf Refuge
+    reason_for_placement: Addresses Helga Hufflepuff's claimed founder-era treatment of house-elves and its historical rationale.
+    relevance_to_hogwarts_a_history: A qualified late authorial account of founder-era social conditions associated with Helga Hufflepuff.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Ranked items identify Hufflepuff or her relics, but none make this claim about house-elf refuge and working conditions.
+      audit:
+        query_tags:
+          - helga-hufflepuff
+          - founder-era
+          - elf-labour
+        candidates:
+          - id: dh-ch26-006
+            disposition: corroborating
+          - id: ext-a07-005
+            disposition: corroborating
+          - id: hbp-ch20-005
+            disposition: corroborating
+    confidence: medium
+    limitations: Preservation transcription with authority D; Rowling frames the account as a moral interpretation, without identifying a contemporaneous in-universe source or precise date.
+
+  - id: ext-b10-002
+    source_file: resources/external/interviews/accio-quote/b10-pottercast-j-k-rowling-interview.md
+    source_id: B10
+    source_url: https://www.accio-quote.org/articles/2007/1217-pottercast-anelli.html
+    source_section: Horcrux discussion
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: I've got a feeling it was Herpo
+      end_phrase: how I see the Horcrux.
+      local_occurrence_note: Early discussion after a question about who created the first Horcrux.
+    nearby_context: Rowling names Herpo the Foul tentatively, then compares long-running attempts at Horcrux creation to dangerous scientific experimentation.
+    match_terms:
+      - herpo the foul
+      - horcrux origin
+      - ancient dark magic
+    quote_excerpt_short: I've got a feeling it was Herpo, which is H-E-R-P-O.
+    source_note: Rowling tentatively identifies Herpo the Foul as the first Horcrux creator and says wizards had long attempted similarly dangerous soul magic.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - ancient-dark-magic
+      - forbidden-knowledge
+      - herpo
+      - horcrux
+      - magical-history
+    candidate_part: Learning, Books, and Forbidden Knowledge
+    candidate_chapter: Restricted and Banned Magical Subjects
+    candidate_section: Herpo the Foul and Horcrux Origins
+    reason_for_placement: Supplies a tentative historical origin for prohibited soul magic relevant to the treatment of restricted magical knowledge.
+    relevance_to_hogwarts_a_history: May contextualize later Hogwarts restrictions on Horcrux material, but is not direct evidence of a school policy.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The ranked entries concern later Horcruxes and their use or destruction, not Herpo's tentative origin claim.
+      audit:
+        query_tags:
+          - herpo
+          - horcrux
+          - forbidden-knowledge
+        candidates:
+          - id: dh-ch10-007
+            disposition: distinct
+          - id: dh-ch14-006
+            disposition: distinct
+          - id: dh-ch17-005
+            disposition: distinct
+          - id: dh-ch19-005
+            disposition: distinct
+          - id: dh-ch31-003
+            disposition: distinct
+          - id: dh-ch32-006
+            disposition: distinct
+          - id: dh-ch33-007
+            disposition: distinct
+          - id: dh-ch34-002
+            disposition: distinct
+          - id: dh-ch34-007
+            disposition: distinct
+          - id: dh-ch36-003
+            disposition: distinct
+    confidence: low
+    limitations: Rowling expressly presents the identification as a feeling; the preservation transcription supplies no date, independent corroboration, or direct Hogwarts connection.
+
+  - id: ext-b10-003
+    source_file: resources/external/interviews/accio-quote/b10-pottercast-j-k-rowling-interview.md
+    source_id: B10
+    source_url: https://www.accio-quote.org/articles/2007/1217-pottercast-anelli.html
+    source_section: Hogwarts graduation discussion
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: I think the boats would've been the most poetic and beautiful way
+      end_phrase: That would've been great.
+      local_occurrence_note: Closing Hogwarts graduation exchange after the discussion of Harry, Ron, and Hermione's postwar schooling.
+    nearby_context: Asked about a hypothetical graduation tradition, Rowling agrees that graduates leaving by boat would be symbolically fitting.
+    match_terms:
+      - hogwarts graduation
+      - boat departure
+      - school tradition
+    quote_excerpt_short: I think the boats would've been the most poetic and beautiful way.
+    source_note: Rowling endorses, as an unrealized idea, graduates leaving Hogwarts by boat; the text does not establish this as an actual school custom.
+    reference_type: institutional_custom
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - boats
+      - graduation
+      - post-war
+      - school-custom
+      - traditions
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The War Beyond the Gates
+    candidate_section: Hypothetical Postwar Hogwarts Graduation
+    reason_for_placement: It concerns a proposed postwar graduation scene, not an observed or established pre-1984 Hogwarts custom.
+    relevance_to_hogwarts_a_history: Retain only as a clearly excluded editorial note; it cannot support an original-edition claim about Hogwarts practice.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The ranked candidates document first-year lake crossings and ordinary end-of-year departure, not a graduation custom.
+      audit:
+        query_tags:
+          - graduation
+          - boats
+          - traditions
+        candidates:
+          - id: ps-ch06-007
+            disposition: distinct
+          - id: ps-ch17-006
+            disposition: distinct
+    confidence: low
+    limitations: Retrospective authorial speculation about an unwritten scene after the Harry-era timeline; it explicitly does not establish an enacted Hogwarts tradition.

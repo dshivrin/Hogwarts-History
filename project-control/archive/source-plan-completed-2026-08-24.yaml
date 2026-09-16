@@ -1,0 +1,2451 @@
+project:
+  name: 'Hogwarts: A History Seed Builder'
+  tracking_status: secondary_index
+  authoritative_state: project-control/processing-state.yaml
+  update_note: scripts/update_next_run.py keeps completed chapter status synchronized
+    when advancing after a validated extraction.
+current_phase: external-source-extraction
+sources:
+- source_file: pdfs/harrypotter.pdf
+  book_group: book-01
+  book: Harry Potter and the Philosopher's Stone
+  chapters:
+  - number: 1
+    title: Chapter One - The Boy Who Lived
+    status: complete
+    output_file: sources/book-01/chapter-01-boy-who-lived.yaml
+  - number: 2
+    title: Chapter Two - The Vanishing Glass
+    status: complete
+    output_file: sources/book-01/chapter-02-vanishing-glass.yaml
+  - number: 3
+    title: Chapter Three - The Letters From No One
+    status: complete
+    output_file: sources/book-01/chapter-03-letters-from-no-one.yaml
+  - number: 4
+    title: Chapter Four - The Keeper of the Keys
+    status: complete
+    output_file: sources/book-01/chapter-04-keeper-of-the-keys.yaml
+  - number: 5
+    title: Chapter Five - Diagon Alley
+    status: complete
+    output_file: sources/book-01/chapter-05-diagon-alley.yaml
+  - number: 6
+    title: Chapter Six - The Journey from Platform Nine and Three-Quarters
+    status: complete
+    output_file: sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
+  - number: 7
+    title: Chapter Seven - The Sorting Hat
+    status: complete
+    output_file: sources/book-01/chapter-07-sorting-hat.yaml
+  - number: 8
+    title: Chapter Eight - The Potions Master
+    status: complete
+    output_file: sources/book-01/chapter-08-potions-master.yaml
+  - number: 9
+    title: Chapter Nine - The Midnight Duel
+    status: complete
+    output_file: sources/book-01/chapter-09-midnight-duel.yaml
+  - number: 10
+    title: Chapter Ten - Halloween
+    status: complete
+    output_file: sources/book-01/chapter-10-halloween.yaml
+  - number: 11
+    title: Chapter Eleven - Quidditch
+    status: complete
+    output_file: sources/book-01/chapter-11-quidditch.yaml
+  - number: 12
+    title: Chapter Twelve - The Mirror of Erised
+    status: complete
+    output_file: sources/book-01/chapter-12-mirror-of-erised.yaml
+  - number: 13
+    title: Chapter Thirteen - Nicolas Flamel
+    status: complete
+    output_file: sources/book-01/chapter-13-nicolas-flamel.yaml
+  - number: 14
+    title: Chapter Fourteen - Norbert the Norwegian Ridgeback
+    status: complete
+    output_file: sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
+  - number: 15
+    title: Chapter Fifteen - The Forbidden Forest
+    status: complete
+    output_file: sources/book-01/chapter-15-forbidden-forest.yaml
+  - number: 16
+    title: Chapter Sixteen - Through the Trapdoor
+    status: complete
+    output_file: sources/book-01/chapter-16-through-the-trapdoor.yaml
+  - number: 17
+    title: Chapter Seventeen - The Man with Two Faces
+    status: complete
+    output_file: sources/book-01/chapter-17-man-with-two-faces.yaml
+- source_file: pdfs/harrypotter.pdf
+  book_group: book-02
+  book: Harry Potter and the Chamber of Secrets
+  chapters:
+  - number: 1
+    title: Chapter One - The Worst Birthday
+    status: complete
+    output_file: sources/book-02/chapter-01-worst-birthday.yaml
+  - number: 2
+    title: Chapter Two - Dobby's Warning
+    status: complete
+    output_file: sources/book-02/chapter-02-dobbys-warning.yaml
+  - number: 3
+    title: Chapter Three - The Burrow
+    status: complete
+    output_file: sources/book-02/chapter-03-burrow.yaml
+  - number: 4
+    title: Chapter Four - At Flourish and Blotts
+    status: complete
+    output_file: sources/book-02/chapter-04-at-flourish-and-blotts.yaml
+  - number: 5
+    title: Chapter Five - The Whomping Willow
+    status: complete
+    output_file: sources/book-02/chapter-05-whomping-willow.yaml
+  - number: 6
+    title: Chapter Six - Gilderoy Lockhart
+    status: complete
+    output_file: sources/book-02/chapter-06-gilderoy-lockhart.yaml
+  - number: 7
+    title: Chapter Seven - Mudbloods and Murmurs
+    status: complete
+    output_file: sources/book-02/chapter-07-mudbloods-and-murmurs.yaml
+  - number: 8
+    title: Chapter Eight - The Deathday Party
+    status: complete
+    output_file: sources/book-02/chapter-08-the-deathday-party.yaml
+  - number: 9
+    title: Chapter Nine - The Writing on the Wall
+    status: complete
+    output_file: sources/book-02/chapter-09-the-writing-on-the-wall.yaml
+  - number: 10
+    title: Chapter Ten - The Rogue Bludger
+    status: complete
+    output_file: sources/book-02/chapter-10-the-rogue-bludger.yaml
+  - number: 11
+    title: Chapter Eleven - The Dueling Club
+    status: complete
+    output_file: sources/book-02/chapter-11-the-dueling-club.yaml
+  - number: 12
+    title: Chapter Twelve - The Polyjuice Potion
+    status: complete
+    output_file: sources/book-02/chapter-12-the-polyjuice-potion.yaml
+  - number: 13
+    title: Chapter Thirteen - The Very Secret Diary
+    status: complete
+    output_file: sources/book-02/chapter-13-the-very-secret-diary.yaml
+  - number: 14
+    title: Chapter Fourteen - Cornelius Fudge
+    status: complete
+    output_file: sources/book-02/chapter-14-cornelius-fudge.yaml
+  - number: 15
+    title: Chapter Fifteen - Aragog
+    status: complete
+    output_file: sources/book-02/chapter-15-aragog.yaml
+  - number: 16
+    title: Chapter Sixteen - The Chamber of Secrets
+    status: complete
+    output_file: sources/book-02/chapter-16-the-chamber-of-secrets.yaml
+  - number: 17
+    title: Chapter Seventeen - The Heir of Slytherin
+    status: complete
+    output_file: sources/book-02/chapter-17-the-heir-of-slytherin.yaml
+  - number: 18
+    title: Chapter Eighteen - Dobby's Reward
+    status: complete
+    output_file: sources/book-02/chapter-18-dobbys-reward.yaml
+- source_file: pdfs/harrypotter.pdf
+  book_group: book-03
+  book: Harry Potter and the Prisoner of Azkaban
+  chapters:
+  - number: 1
+    title: Chapter One - Owl Post
+    status: complete
+    output_file: sources/book-03/chapter-01-owl-post.yaml
+  - number: 2
+    title: Chapter Two - Aunt Marge's Big Mistake
+    status: complete
+    output_file: sources/book-03/chapter-02-aunt-marges-big-mistake.yaml
+  - number: 3
+    title: Chapter Three - The Knight Bus
+    status: complete
+    output_file: sources/book-03/chapter-03-the-knight-bus.yaml
+  - number: 4
+    title: Chapter Four - The Leaky Cauldron
+    status: complete
+    output_file: sources/book-03/chapter-04-the-leaky-cauldron.yaml
+  - number: 5
+    title: Chapter Five - The Dementor
+    status: complete
+    output_file: sources/book-03/chapter-05-the-dementor.yaml
+  - number: 6
+    title: Chapter Six - Talons and Tea Leaves
+    status: complete
+    output_file: sources/book-03/chapter-06-talons-and-tea-leaves.yaml
+  - number: 7
+    title: Chapter Seven - The Boggart in the Wardrobe
+    status: complete
+    output_file: sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
+  - number: 8
+    title: Chapter Eight - Flight of the Fat Lady
+    status: complete
+    output_file: sources/book-03/chapter-08-flight-of-the-fat-lady.yaml
+  - number: 9
+    title: Chapter Nine - Grim Defeat
+    status: complete
+    output_file: sources/book-03/chapter-09-grim-defeat.yaml
+  - number: 10
+    title: Chapter Ten - The Marauder's Map
+    status: complete
+    output_file: sources/book-03/chapter-10-the-marauders-map.yaml
+  - number: 11
+    title: Chapter Eleven - The Firebolt
+    status: complete
+    output_file: sources/book-03/chapter-11-the-firebolt.yaml
+  - number: 12
+    title: Chapter Twelve - The Patronus
+    status: complete
+    output_file: sources/book-03/chapter-12-the-patronus.yaml
+  - number: 13
+    title: Chapter Thirteen - Gryffindor Versus Ravenclaw
+    status: complete
+    output_file: sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
+  - number: 14
+    title: Chapter Fourteen - Snape's Grudge
+    status: complete
+    output_file: sources/book-03/chapter-14-snapes-grudge.yaml
+  - number: 15
+    title: Chapter Fifteen - The Quidditch Final
+    status: complete
+    output_file: sources/book-03/chapter-15-the-quidditch-final.yaml
+  - number: 16
+    title: Chapter Sixteen - Professor Trelawney's Prediction
+    status: complete
+    output_file: sources/book-03/chapter-16-professor-trelawneys-prediction.yaml
+  - number: 17
+    title: Chapter Seventeen - Cat, Rat, and Dog
+    status: complete
+    output_file: sources/book-03/chapter-17-cat-rat-and-dog.yaml
+  - number: 18
+    title: Chapter Eighteen - Moony, Wormtail, Padfoot, and Prongs
+    status: complete
+    output_file: sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
+  - number: 19
+    title: Chapter Nineteen - The Servant of Lord Voldemort
+    status: complete
+    output_file: sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+  - number: 20
+    title: Chapter Twenty - The Dementor's Kiss
+    status: complete
+    output_file: sources/book-03/chapter-20-the-dementors-kiss.yaml
+  - number: 21
+    title: Chapter Twenty-One - Hermione's Secret
+    status: complete
+    output_file: sources/book-03/chapter-21-hermiones-secret.yaml
+  - number: 22
+    title: Chapter Twenty-Two - Owl Post Again
+    status: complete
+    output_file: sources/book-03/chapter-22-owl-post-again.yaml
+- source_file: pdfs/harrypotter.pdf
+  book_group: book-04
+  book: Harry Potter and the Goblet of Fire
+  chapters:
+  - number: 1
+    title: Chapter One - The Riddle House
+    status: complete
+    output_file: sources/book-04/chapter-01-the-riddle-house.yaml
+  - number: 2
+    title: Chapter Two - The Scar
+    status: complete
+    output_file: sources/book-04/chapter-02-the-scar.yaml
+  - number: 3
+    title: Chapter Three - The Invitation
+    status: complete
+    output_file: sources/book-04/chapter-03-the-invitation.yaml
+  - number: 4
+    title: Chapter Four - Back to the Burrow
+    status: complete
+    output_file: sources/book-04/chapter-04-back-to-the-burrow.yaml
+  - number: 5
+    title: Chapter Five - Weasleys’ Wizard Wheezes
+    status: complete
+    output_file: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  - number: 6
+    title: Chapter Six - The Portkey
+    status: complete
+    output_file: sources/book-04/chapter-06-the-portkey.yaml
+  - number: 7
+    title: Chapter Seven - Bagman and Crouch
+    status: complete
+    output_file: sources/book-04/chapter-07-bagman-and-crouch.yaml
+  - number: 8
+    title: Chapter Eight - The Quidditch World Cup
+    status: complete
+    output_file: sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+  - number: 9
+    title: Chapter Nine - The Dark Mark
+    status: complete
+    output_file: sources/book-04/chapter-09-the-dark-mark.yaml
+  - number: 10
+    title: Chapter Ten - Mayhem at the Ministry
+    status: complete
+    output_file: sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+  - number: 11
+    title: Chapter Eleven - Aboard the Hogwarts Express
+    status: complete
+    output_file: sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+  - number: 12
+    title: Chapter Twelve - The Triwizard Tournament
+    status: complete
+    output_file: sources/book-04/chapter-12-the-triwizard-tournament.yaml
+  - number: 13
+    title: Chapter Thirteen - Mad-Eye Moody
+    status: complete
+    output_file: sources/book-04/chapter-13-mad-eye-moody.yaml
+  - number: 14
+    title: Chapter Fourteen - The Unforgivable Curses
+    status: complete
+    output_file: sources/book-04/chapter-14-the-unforgivable-curses.yaml
+  - number: 15
+    title: Chapter Fifteen - Beauxbatons and Durmstrang
+    status: complete
+    output_file: sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
+  - number: 16
+    title: Chapter Sixteen - The Goblet of Fire
+    status: complete
+    output_file: sources/book-04/chapter-16-the-goblet-of-fire.yaml
+  - number: 17
+    title: Chapter Seventeen - The Four Champions
+    status: complete
+    output_file: sources/book-04/chapter-17-the-four-champions.yaml
+  - number: 18
+    title: Chapter Eighteen - The Weighing of the Wands
+    status: complete
+    output_file: sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  - number: 19
+    title: Chapter Nineteen - The Hungarian Horntail
+    status: complete
+    output_file: sources/book-04/chapter-19-the-hungarian-horntail.yaml
+  - number: 20
+    title: Chapter Twenty - The First Task
+    status: complete
+    output_file: sources/book-04/chapter-20-the-first-task.yaml
+  - number: 21
+    title: Chapter Twenty-One - The House-Elf Liberation Front
+    status: complete
+    output_file: sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
+  - number: 22
+    title: Chapter Twenty-Two - The Unexpected Task
+    status: complete
+    output_file: sources/book-04/chapter-22-the-unexpected-task.yaml
+  - number: 23
+    title: Chapter Twenty-Three - The Yule Ball
+    status: complete
+    output_file: sources/book-04/chapter-23-the-yule-ball.yaml
+  - number: 24
+    title: Chapter Twenty-Four - Rita Skeeter’s Scoop
+    status: complete
+    output_file: sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+  - number: 25
+    title: Chapter Twenty-Five - The Egg and the Eye
+    status: complete
+    output_file: sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+  - number: 26
+    title: Chapter Twenty-Six - The Second Task
+    status: complete
+    output_file: sources/book-04/chapter-26-the-second-task.yaml
+  - number: 27
+    title: Chapter Twenty-Seven - Padfoot Returns
+    status: complete
+    output_file: sources/book-04/chapter-27-padfoot-returns.yaml
+  - number: 28
+    title: Chapter Twenty-Eight - The Madness of Mr. Crouch
+    status: complete
+    output_file: sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  - number: 29
+    title: Chapter Twenty-Nine - The Dream
+    status: complete
+    output_file: sources/book-04/chapter-29-the-dream.yaml
+  - number: 30
+    title: Chapter Thirty - The Pensieve
+    status: complete
+    output_file: sources/book-04/chapter-30-the-pensieve.yaml
+  - number: 31
+    title: Chapter Thirty-One - The Third Task
+    status: complete
+    output_file: sources/book-04/chapter-31-the-third-task.yaml
+  - number: 32
+    title: Chapter Thirty-Two - Flesh, Blood, and Bone
+    status: complete
+    output_file: sources/book-04/chapter-32-flesh-blood-and-bone.yaml
+  - number: 33
+    title: Chapter Thirty-Three - The Death Eaters
+    status: complete
+    output_file: sources/book-04/chapter-33-the-death-eaters.yaml
+  - number: 34
+    title: Chapter Thirty-Four - Priori Incantatem
+    status: complete
+    output_file: sources/book-04/chapter-34-priori-incantatem.yaml
+  - number: 35
+    title: Chapter Thirty-Five - Veritaserum
+    status: complete
+    output_file: sources/book-04/chapter-35-veritaserum.yaml
+  - number: 36
+    title: Chapter Thirty-Six - The Parting of the Ways
+    status: complete
+    output_file: sources/book-04/chapter-36-the-parting-of-the-ways.yaml
+  - number: 37
+    title: Chapter Thirty-Seven - The Beginning
+    status: complete
+    output_file: sources/book-04/chapter-37-the-beginning.yaml
+- source_file: pdfs/harrypotter.pdf
+  book_group: book-05
+  book: Harry Potter and the Order of the Phoenix
+  chapters:
+  - number: 1
+    title: Chapter One - Dudley Demented
+    status: complete
+    output_file: sources/book-05/chapter-01-dudley-demented.yaml
+  - number: 2
+    title: Chapter Two - A Peck of Owls
+    status: complete
+    output_file: sources/book-05/chapter-02-a-peck-of-owls.yaml
+  - number: 3
+    title: Chapter Three - The Advance Guard
+    status: complete
+    output_file: sources/book-05/chapter-03-the-advance-guard.yaml
+  - number: 4
+    title: Chapter Four - Number Twelve, Grimmauld Place
+    status: complete
+    output_file: sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
+  - number: 5
+    title: Chapter Five - The Order of the Phoenix
+    status: complete
+    output_file: sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+  - number: 6
+    title: Chapter Six - The Noble and Most Ancient House of Black
+    status: complete
+    output_file: sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  - number: 7
+    title: Chapter Seven - The Ministry of Magic
+    status: complete
+    output_file: sources/book-05/chapter-07-the-ministry-of-magic.yaml
+  - number: 8
+    title: Chapter Eight - The Hearing
+    status: complete
+    output_file: sources/book-05/chapter-08-the-hearing.yaml
+  - number: 9
+    title: Chapter Nine - The Woes of Mrs. Weasley
+    status: complete
+    output_file: sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml
+  - number: 10
+    title: Chapter Ten - Luna Lovegood
+    status: complete
+    output_file: sources/book-05/chapter-10-luna-lovegood.yaml
+  - number: 11
+    title: Chapter Eleven - The Sorting Hat's New Song
+    status: complete
+    output_file: sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+  - number: 12
+    title: Chapter Twelve - Professor Umbridge
+    status: complete
+    output_file: sources/book-05/chapter-12-professor-umbridge.yaml
+  - number: 13
+    title: Chapter Thirteen - Detention with Dolores
+    status: complete
+    output_file: sources/book-05/chapter-13-detention-with-dolores.yaml
+  - number: 14
+    title: Chapter Fourteen - Percy and Padfoot
+    status: complete
+    output_file: sources/book-05/chapter-14-percy-and-padfoot.yaml
+  - number: 15
+    title: Chapter Fifteen - The Hogwarts High Inquisitor
+    status: complete
+    output_file: sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+  - number: 16
+    title: Chapter Sixteen - In the Hog's Head
+    status: complete
+    output_file: sources/book-05/chapter-16-in-the-hog-s-head.yaml
+  - number: 17
+    title: Chapter Seventeen - Educational Decree Number Twenty-Four
+    status: complete
+    output_file: sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
+  - number: 18
+    title: Chapter Eighteen - Dumbledore's Army
+    status: complete
+    output_file: sources/book-05/chapter-18-dumbledore-s-army.yaml
+  - number: 19
+    title: Chapter Nineteen - The Lion and the Serpent
+    status: complete
+    output_file: sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
+  - number: 20
+    title: Chapter Twenty - Hagrid's Tale
+    status: complete
+    output_file: sources/book-05/chapter-20-hagrid-s-tale.yaml
+  - number: 21
+    title: Chapter Twenty-One - The Eye of the Snake
+    status: complete
+    output_file: sources/book-05/chapter-21-the-eye-of-the-snake.yaml
+  - number: 22
+    title: Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries
+    status: complete
+    output_file: sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
+  - number: 23
+    title: Chapter Twenty-Three - Christmas on the Closed Ward
+    status: complete
+    output_file: sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
+  - number: 24
+    title: Chapter Twenty-Four - Occlumency
+    status: complete
+    output_file: sources/book-05/chapter-24-occlumency.yaml
+  - number: 25
+    title: Chapter Twenty-Five - The Beetle at Bay
+    status: complete
+    output_file: sources/book-05/chapter-25-the-beetle-at-bay.yaml
+  - number: 26
+    title: Chapter Twenty-Six - Seen and Unforeseen
+    status: complete
+    output_file: sources/book-05/chapter-26-seen-and-unforeseen.yaml
+  - number: 27
+    title: Chapter Twenty-Seven - The Centaur and the Sneak
+    status: complete
+    output_file: sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
+  - number: 28
+    title: Chapter Twenty-Eight - Snape's Worst Memory
+    status: complete
+    output_file: sources/book-05/chapter-28-snape-s-worst-memory.yaml
+  - number: 29
+    title: Chapter Twenty-Nine - Career Advice
+    status: complete
+    output_file: sources/book-05/chapter-29-career-advice.yaml
+  - number: 30
+    title: Chapter Thirty - Grawp
+    status: complete
+    output_file: sources/book-05/chapter-30-grawp.yaml
+  - number: 31
+    title: Chapter Thirty-One - O.W.L.s
+    status: complete
+    output_file: sources/book-05/chapter-31-o-w-l-s.yaml
+  - number: 32
+    title: Chapter Thirty-Two - Out of the Fire
+    status: complete
+    output_file: sources/book-05/chapter-32-out-of-the-fire.yaml
+  - number: 33
+    title: Chapter Thirty-Three - Fight and Flight
+    status: complete
+    output_file: sources/book-05/chapter-33-fight-and-flight.yaml
+  - number: 34
+    title: Chapter Thirty-Four - The Department of Mysteries
+    status: complete
+    output_file: sources/book-05/chapter-34-the-department-of-mysteries.yaml
+  - number: 35
+    title: Chapter Thirty-Five - Beyond the Veil
+    status: complete
+    output_file: sources/book-05/chapter-35-beyond-the-veil.yaml
+  - number: 36
+    title: Chapter Thirty-Six - The Only One He Ever Feared
+    status: complete
+    output_file: sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
+  - number: 37
+    title: Chapter Thirty-Seven - The Lost Prophecy
+    status: complete
+    output_file: sources/book-05/chapter-37-the-lost-prophecy.yaml
+  - number: 38
+    title: Chapter Thirty-Eight - The Second War Begins
+    status: complete
+    output_file: sources/book-05/chapter-38-the-second-war-begins.yaml
+- source_file: pdfs/harrypotter.pdf
+  book_group: book-06
+  book: Harry Potter and the Half-Blood Prince
+  chapters:
+  - number: 1
+    title: Chapter One - The Other Minister
+    status: complete
+    output_file: sources/book-06/chapter-01-the-other-minister.yaml
+  - number: 2
+    title: Chapter Two - Spinner's End
+    status: complete
+    output_file: sources/book-06/chapter-02-spinner-s-end.yaml
+  - number: 3
+    title: Chapter Three - Will and Won't
+    status: complete
+    output_file: sources/book-06/chapter-03-will-and-won-t.yaml
+  - number: 4
+    title: Chapter Four - Horace Slughorn
+    status: complete
+    output_file: sources/book-06/chapter-04-horace-slughorn.yaml
+  - number: 5
+    title: Chapter Five - An Excess of Phlegm
+    status: complete
+    output_file: sources/book-06/chapter-05-an-excess-of-phlegm.yaml
+  - number: 6
+    title: Chapter Six - Draco's Detour
+    status: complete
+    output_file: sources/book-06/chapter-06-draco-s-detour.yaml
+  - number: 7
+    title: Chapter Seven - The Slug Club
+    status: complete
+    output_file: sources/book-06/chapter-07-the-slug-club.yaml
+  - number: 8
+    title: Chapter Eight - Snape Victorious
+    status: complete
+    output_file: sources/book-06/chapter-08-snape-victorious.yaml
+  - number: 9
+    title: Chapter Nine - The Half-Blood Prince
+    status: complete
+    output_file: sources/book-06/chapter-09-the-half-blood-prince.yaml
+  - number: 10
+    title: Chapter Ten - The House of Gaunt
+    status: complete
+    output_file: sources/book-06/chapter-10-the-house-of-gaunt.yaml
+  - number: 11
+    title: Chapter Eleven - Hermione's Helping Hand
+    status: complete
+    output_file: sources/book-06/chapter-11-hermione-s-helping-hand.yaml
+  - number: 12
+    title: Chapter Twelve - Silver and Opals
+    status: complete
+    output_file: sources/book-06/chapter-12-silver-and-opals.yaml
+  - number: 13
+    title: Chapter Thirteen - The Secret Riddle
+    status: complete
+    output_file: sources/book-06/chapter-13-the-secret-riddle.yaml
+  - number: 14
+    title: Chapter Fourteen - Felix Felicis
+    status: complete
+    output_file: sources/book-06/chapter-14-felix-felicis.yaml
+  - number: 15
+    title: Chapter Fifteen - The Unbreakable Vow
+    status: complete
+    output_file: sources/book-06/chapter-15-the-unbreakable-vow.yaml
+  - number: 16
+    title: Chapter Sixteen - A Very Frosty Christmas
+    status: complete
+    output_file: sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+  - number: 17
+    title: Chapter Seventeen - A Sluggish Memory
+    status: complete
+    output_file: sources/book-06/chapter-17-a-sluggish-memory.yaml
+  - number: 18
+    title: Chapter Eighteen - Birthday Surprises
+    status: complete
+    output_file: sources/book-06/chapter-18-birthday-surprises.yaml
+  - number: 19
+    title: Chapter Nineteen - Elf Tails
+    status: complete
+    output_file: sources/book-06/chapter-19-elf-tails.yaml
+  - number: 20
+    title: Chapter Twenty - Lord Voldemort's Request
+    status: complete
+    output_file: sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+  - number: 21
+    title: Chapter Twenty-One - The Unknowable Room
+    status: complete
+    output_file: sources/book-06/chapter-21-the-unknowable-room.yaml
+  - number: 22
+    title: Chapter Twenty-Two - After the Burial
+    status: complete
+    output_file: sources/book-06/chapter-22-after-the-burial.yaml
+  - number: 23
+    title: Chapter Twenty-Three - Horcruxes
+    status: complete
+    output_file: sources/book-06/chapter-23-horcruxes.yaml
+  - number: 24
+    title: Chapter Twenty-Four - Sectumsempra
+    status: complete
+    output_file: sources/book-06/chapter-24-sectumsempra.yaml
+  - number: 25
+    title: Chapter Twenty-Five - The Seer Overheard
+    status: complete
+    output_file: sources/book-06/chapter-25-the-seer-overheard.yaml
+  - number: 26
+    title: Chapter Twenty-Six - The Cave
+    status: complete
+    output_file: sources/book-06/chapter-26-the-cave.yaml
+  - number: 27
+    title: Chapter Twenty-Seven - The Lightning-Struck Tower
+    status: complete
+    output_file: sources/book-06/chapter-27-the-lightning-struck-tower.yaml
+  - number: 28
+    title: Chapter Twenty-Eight - Flight of the Prince
+    status: complete
+    output_file: sources/book-06/chapter-28-flight-of-the-prince.yaml
+  - number: 29
+    title: Chapter Twenty-Nine - The Phoenix Lament
+    status: complete
+    output_file: sources/book-06/chapter-29-the-phoenix-lament.yaml
+  - number: 30
+    title: Chapter Thirty - The White Tomb
+    status: complete
+    output_file: sources/book-06/chapter-30-the-white-tomb.yaml
+- source_file: pdfs/harrypotter.pdf
+  book_group: book-07
+  book: Harry Potter and the Deathly Hallows
+  chapters:
+  - number: 1
+    title: Chapter One - The Dark Lord Ascending
+    status: complete
+    output_file: sources/book-07/chapter-01-the-dark-lord-ascending.yaml
+  - number: 2
+    title: Chapter Two - In Memoriam
+    status: complete
+    output_file: sources/book-07/chapter-02-in-memoriam.yaml
+  - number: 3
+    title: Chapter Three - The Dursleys Departing
+    status: complete
+    output_file: sources/book-07/chapter-03-the-dursleys-departing.yaml
+  - number: 4
+    title: Chapter Four - The Seven Potters
+    status: complete
+    output_file: sources/book-07/chapter-04-the-seven-potters.yaml
+  - number: 5
+    title: Chapter Five - Fallen Warrior
+    status: complete
+    output_file: sources/book-07/chapter-05-fallen-warrior.yaml
+  - number: 6
+    title: Chapter Six - The Ghoul in Pajamas
+    status: complete
+    output_file: sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
+  - number: 7
+    title: Chapter Seven - The Will of Albus Dumbledore
+    status: complete
+    output_file: sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
+  - number: 8
+    title: Chapter Eight - The Wedding
+    status: complete
+    output_file: sources/book-07/chapter-08-the-wedding.yaml
+  - number: 9
+    title: Chapter Nine - A Place to Hide
+    status: complete
+    output_file: sources/book-07/chapter-09-a-place-to-hide.yaml
+  - number: 10
+    title: Chapter Ten - Kreacher's Tale
+    status: complete
+    output_file: sources/book-07/chapter-10-kreacher-s-tale.yaml
+  - number: 11
+    title: Chapter Eleven - The Bribe
+    status: complete
+    output_file: sources/book-07/chapter-11-the-bribe.yaml
+  - number: 12
+    title: Chapter Twelve - Magic Is Might
+    status: complete
+    output_file: sources/book-07/chapter-12-magic-is-might.yaml
+  - number: 13
+    title: Chapter Thirteen - The Muggle-born Registration Commission
+    status: complete
+    output_file: sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
+  - number: 14
+    title: Chapter Fourteen - The Thief
+    status: complete
+    output_file: sources/book-07/chapter-14-the-thief.yaml
+  - number: 15
+    title: Chapter Fifteen - The Goblin's Revenge
+    status: complete
+    output_file: sources/book-07/chapter-15-the-goblin-s-revenge.yaml
+  - number: 16
+    title: Chapter Sixteen - Godric's Hollow
+    status: complete
+    output_file: sources/book-07/chapter-16-godric-s-hollow.yaml
+  - number: 17
+    title: Chapter Seventeen - Bathilda's Secret
+    status: complete
+    output_file: sources/book-07/chapter-17-bathilda-s-secret.yaml
+  - number: 18
+    title: Chapter Eighteen - The Life and Lies of Albus Dumbledore
+    status: complete
+    output_file: sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+  - number: 19
+    title: Chapter Nineteen - The Silver Doe
+    status: complete
+    output_file: sources/book-07/chapter-19-the-silver-doe.yaml
+  - number: 20
+    title: Chapter Twenty - Xenophilius Lovegood
+    status: complete
+    output_file: sources/book-07/chapter-20-xenophilius-lovegood.yaml
+  - number: 21
+    title: Chapter Twenty-One - The Tale of the Three Brothers
+    status: complete
+    output_file: sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
+  - number: 22
+    title: Chapter Twenty-Two - The Deathly Hallows
+    status: complete
+    output_file: sources/book-07/chapter-22-the-deathly-hallows.yaml
+  - number: 23
+    title: Chapter Twenty-Three - Malfoy Manor
+    status: complete
+    output_file: sources/book-07/chapter-23-malfoy-manor.yaml
+  - number: 24
+    title: Chapter Twenty-Four - The Wandmaker
+    status: complete
+    output_file: sources/book-07/chapter-24-the-wandmaker.yaml
+  - number: 25
+    title: Chapter Twenty-Five - Shell Cottage
+    status: complete
+    output_file: sources/book-07/chapter-25-shell-cottage.yaml
+  - number: 26
+    title: Chapter Twenty-Six - Gringotts
+    status: complete
+    output_file: sources/book-07/chapter-26-gringotts.yaml
+  - number: 27
+    title: Chapter Twenty-Seven - The Final Hiding Place
+    status: complete
+    output_file: sources/book-07/chapter-27-the-final-hiding-place.yaml
+  - number: 28
+    title: Chapter Twenty-Eight - The Missing Mirror
+    status: complete
+    output_file: sources/book-07/chapter-28-the-missing-mirror.yaml
+  - number: 29
+    title: Chapter Twenty-Nine - The Lost Diadem
+    status: complete
+    output_file: sources/book-07/chapter-29-the-lost-diadem.yaml
+  - number: 30
+    title: Chapter Thirty - The Sacking of Severus Snape
+    status: complete
+    output_file: sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+  - number: 31
+    title: Chapter Thirty-One - The Battle of Hogwarts
+    status: complete
+    output_file: sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+  - number: 32
+    title: Chapter Thirty-Two - The Elder Wand
+    status: complete
+    output_file: sources/book-07/chapter-32-the-elder-wand.yaml
+  - number: 33
+    title: Chapter Thirty-Three - The Prince's Tale
+    status: complete
+    output_file: sources/book-07/chapter-33-the-prince-s-tale.yaml
+  - number: 34
+    title: Chapter Thirty-Four - The Forest Again
+    status: complete
+    output_file: sources/book-07/chapter-34-the-forest-again.yaml
+  - number: 35
+    title: Chapter Thirty-Five - King's Cross
+    status: complete
+    output_file: sources/book-07/chapter-35-king-s-cross.yaml
+  - number: 36
+    title: Chapter Thirty-Six - The Flaw in the Plan
+    status: complete
+    output_file: sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+- source_file: pdfs/quidditch-through-the-ages.pdf
+  book_group: book-qtta
+  book: Quidditch Through the Ages
+  chapters:
+  - number: 0
+    title: Front Matter and Foreword
+    status: complete
+    output_file: sources/book-qtta/chapter-00-front-matter.yaml
+  - number: 1
+    title: Chapter One - The Evolution of the Flying Broomstick
+    status: complete
+    output_file: sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml
+  - number: 2
+    title: Chapter Two - Ancient Broom Games
+    status: complete
+    output_file: sources/book-qtta/chapter-02-ancient-broom-games.yaml
+  - number: 3
+    title: Chapter Three - The Game From Queerditch Marsh
+    status: complete
+    output_file: sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml
+  - number: 4
+    title: Chapter Four - The Arrival of the Golden Snitch
+    status: complete
+    output_file: sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
+  - number: 5
+    title: Chapter Five - Anti-Muggle Precautions
+    status: complete
+    output_file: sources/book-qtta/chapter-05-anti-muggle-precautions.yaml
+  - number: 6
+    title: Chapter Six - Changes in Quidditch Since the Fourteenth Century
+    status: complete
+    output_file: sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
+  - number: 7
+    title: Chapter Seven - Quidditch Teams of Britain and Ireland
+    status: complete
+    output_file: sources/book-qtta/chapter-07-quidditch-teams-of-britain-and-ireland.yaml
+  - number: 8
+    title: Chapter Eight - The Spread of Quidditch Worldwide
+    status: complete
+    output_file: sources/book-qtta/chapter-08-the-spread-of-quidditch-worldwide.yaml
+  - number: 9
+    title: Chapter Nine - The Development of the Racing Broom
+    status: complete
+    output_file: sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
+  - number: 10
+    title: Chapter Ten - Quidditch Today
+    status: complete
+    output_file: sources/book-qtta/chapter-10-quidditch-today.yaml
+  - number: 11
+    title: Back Cover
+    status: complete
+    output_file: sources/book-qtta/chapter-11-back-cover.yaml
+- source_file: pdfs/Beedle The Bard_text.pdf
+  book_group: book-beedle
+  book: The Tales of Beedle the Bard
+  chapters:
+  - number: 0
+    title: Front Matter and Introduction
+    status: complete
+    output_file: sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+  - number: 1
+    title: The Wizard and the Hopping Pot and Commentary
+    status: complete
+    output_file: sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
+  - number: 2
+    title: The Fountain of Fair Fortune and Commentary
+    status: complete
+    output_file: sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  - number: 3
+    title: The Warlock's Hairy Heart and Commentary
+    status: complete
+    output_file: sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml
+  - number: 4
+    title: Babbitty Rabbitty and Her Cackling Stump and Commentary
+    status: complete
+    output_file: sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  - number: 5
+    title: The Tale of the Three Brothers and Commentary
+    status: complete
+    output_file: sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
+  - number: 6
+    title: Back Matter
+    status: complete
+    output_file: sources/book-beedle/chapter-06-back-matter.yaml
+external_sources:
+  schema_version: 1
+  generated_from: resources/manifests/external-sources.yaml
+  max_in_progress: 4
+  update_profiles:
+    canonical_external_evidence:
+      rebuild_indexes: true
+      regenerate_book_seed: true
+      regenerate_appendices: true
+      update_next_run: true
+  units:
+  - id: A01
+    title: Chamber of Secrets
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a01-chamber-of-secrets.md
+    manifest_id: external-A01
+    output_file: sources/external/official-rowling/a01-chamber-of-secrets.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T09:43:33Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T09:32:52Z'
+      agent: a01-trial-agent
+    - event: completed
+      at: '2026-08-15T09:43:33Z'
+    staging_file: work/external-staging/a01.yaml
+  - id: A02
+    title: The Sorting Hat
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a02-the-sorting-hat.md
+    manifest_id: external-A02
+    output_file: sources/external/official-rowling/a02-the-sorting-hat.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T14:05:49Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T13:45:05Z'
+      agent: test-agent-a02
+    - event: completed
+      at: '2026-08-15T14:05:49Z'
+    staging_file: work/external-staging/a02.yaml
+  - id: A03
+    title: The Quill of Acceptance and The Book of Admittance
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a03-quill-of-acceptance-and-book-of-admittance.md
+    manifest_id: external-A03
+    output_file: sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T14:16:50Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T14:09:53Z'
+      agent: source-agent-a03
+    - event: completed
+      at: '2026-08-15T14:16:50Z'
+    staging_file: work/external-staging/a03.yaml
+  - id: A04
+    title: The Hogwarts Express
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a04-the-hogwarts-express.md
+    manifest_id: external-A04
+    output_file: sources/external/official-rowling/a04-the-hogwarts-express.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T14:17:42Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T14:09:53Z'
+      agent: source-agent-a04
+    - event: completed
+      at: '2026-08-15T14:17:42Z'
+    staging_file: work/external-staging/a04.yaml
+  - id: A05
+    title: Hogwarts Portraits
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a05-hogwarts-portraits.md
+    manifest_id: external-A05
+    output_file: sources/external/official-rowling/a05-hogwarts-portraits.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T14:18:33Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T14:09:53Z'
+      agent: source-agent-a05
+    - event: completed
+      at: '2026-08-15T14:18:33Z'
+    staging_file: work/external-staging/a05.yaml
+  - id: A06
+    title: Hogwarts Ghosts
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a06-hogwarts-ghosts.md
+    manifest_id: external-A06
+    output_file: sources/external/official-rowling/a06-hogwarts-ghosts.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T14:25:39Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T14:19:19Z'
+      agent: source-agent-a06
+    - event: completed
+      at: '2026-08-15T14:25:39Z'
+    staging_file: work/external-staging/a06.yaml
+  - id: A07
+    title: Hufflepuff Common Room
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a07-hufflepuff-common-room.md
+    manifest_id: external-A07
+    output_file: sources/external/official-rowling/a07-hufflepuff-common-room.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T14:29:24Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T14:19:20Z'
+      agent: source-agent-a07
+    - event: completed
+      at: '2026-08-15T14:29:24Z'
+    staging_file: work/external-staging/a07.yaml
+  - id: A08
+    title: The Sword of Gryffindor
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a08-the-sword-of-gryffindor.md
+    manifest_id: external-A08
+    output_file: sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T14:30:39Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T14:19:20Z'
+      agent: source-agent-a08
+    - event: completed
+      at: '2026-08-15T14:30:39Z'
+    staging_file: work/external-staging/a08.yaml
+  - id: A09
+    title: The Great Lake
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a09-the-great-lake.md
+    manifest_id: external-A09
+    output_file: sources/external/official-rowling/a09-the-great-lake.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T14:38:41Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T14:31:38Z'
+      agent: source-agent-a09
+    - event: completed
+      at: '2026-08-15T14:38:41Z'
+    staging_file: work/external-staging/a09.yaml
+  - id: A10
+    title: Remus Lupin
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a10-remus-lupin.md
+    manifest_id: external-A10
+    output_file: sources/external/official-rowling/a10-remus-lupin.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T14:39:47Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T14:31:39Z'
+      agent: source-agent-a10
+    - event: completed
+      at: '2026-08-15T14:39:47Z'
+    staging_file: work/external-staging/a10.yaml
+  - id: A11
+    title: The Marauder’s Map
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a11-the-marauder-s-map.md
+    manifest_id: external-A11
+    output_file: sources/external/official-rowling/a11-the-marauder-s-map.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T14:40:54Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T14:31:39Z'
+      agent: source-agent-a11
+    - event: completed
+      at: '2026-08-15T14:40:54Z'
+    staging_file: work/external-staging/a11.yaml
+  - id: A12
+    title: Professor McGonagall
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a12-professor-mcgonagall.md
+    manifest_id: external-A12
+    output_file: sources/external/official-rowling/a12-professor-mcgonagall.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T14:49:15Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T14:41:54Z'
+      agent: source-agent-a12
+    - event: completed
+      at: '2026-08-15T14:49:15Z'
+    staging_file: work/external-staging/a12.yaml
+  - id: A13
+    title: Professor Kettleburn
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a13-professor-kettleburn.md
+    manifest_id: external-A13
+    output_file: sources/external/official-rowling/a13-professor-kettleburn.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T14:50:50Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T14:41:54Z'
+      agent: source-agent-a13
+    - event: completed
+      at: '2026-08-15T14:50:50Z'
+    staging_file: work/external-staging/a13.yaml
+  - id: A14
+    title: 'The Mirror of Erised  '
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a14-the-mirror-of-erised.md
+    manifest_id: external-A14
+    output_file: sources/external/official-rowling/a14-the-mirror-of-erised.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T14:52:50Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T14:41:54Z'
+      agent: source-agent-a14
+    - event: completed
+      at: '2026-08-15T14:52:50Z'
+    staging_file: work/external-staging/a14.yaml
+  - id: A15
+    title: The Original Forty
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a15-the-original-forty.md
+    manifest_id: external-A15
+    output_file: sources/external/official-rowling/a15-the-original-forty.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T15:01:26Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T14:55:20Z'
+      agent: source-agent-a15
+    - event: completed
+      at: '2026-08-15T15:01:26Z'
+    staging_file: work/external-staging/a15.yaml
+  - id: A16
+    title: Peeves
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a16-peeves.md
+    manifest_id: external-A16
+    output_file: sources/external/official-rowling/a16-peeves.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T15:03:14Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T14:55:22Z'
+      agent: source-agent-a16
+    - event: completed
+      at: '2026-08-15T15:03:14Z'
+    staging_file: work/external-staging/a16.yaml
+  - id: A17
+    title: Pensieve
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a17-pensieve.md
+    manifest_id: external-A17
+    output_file: sources/external/official-rowling/a17-pensieve.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T15:05:18Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T14:55:24Z'
+      agent: source-agent-a17
+    - event: completed
+      at: '2026-08-15T15:05:18Z'
+    staging_file: work/external-staging/a17.yaml
+  - id: A18
+    title: Hogwarts School Subjects
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a18-hogwarts-school-subjects.md
+    manifest_id: external-A18
+    output_file: sources/external/official-rowling/a18-hogwarts-school-subjects.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T15:13:34Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T15:07:50Z'
+      agent: source-agent-a18
+    - event: completed
+      at: '2026-08-15T15:13:34Z'
+    staging_file: work/external-staging/a18.yaml
+  - id: A19
+    title: King’s Cross Station
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a19-king-s-cross-station.md
+    manifest_id: external-A19
+    output_file: sources/external/official-rowling/a19-king-s-cross-station.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T15:15:36Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T15:07:52Z'
+      agent: source-agent-a19
+    - event: completed
+      at: '2026-08-15T15:15:36Z'
+    staging_file: work/external-staging/a19.yaml
+  - id: A20
+    title: Hatstall
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a20-hatstall.md
+    manifest_id: external-A20
+    output_file: sources/external/official-rowling/a20-hatstall.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T15:17:30Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T15:07:53Z'
+      agent: source-agent-a20
+    - event: completed
+      at: '2026-08-15T15:17:30Z'
+    staging_file: work/external-staging/a20.yaml
+  - id: A21
+    title: Toads
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a21-toads.md
+    manifest_id: external-A21
+    output_file: sources/external/official-rowling/a21-toads.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T15:24:33Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T15:18:33Z'
+      agent: source-agent-a21
+    - event: completed
+      at: '2026-08-15T15:24:33Z'
+    staging_file: work/external-staging/a21.yaml
+  - id: A22
+    title: Familiars
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a22-familiars.md
+    manifest_id: external-A22
+    output_file: sources/external/official-rowling/a22-familiars.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T15:27:00Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T15:18:33Z'
+      agent: source-agent-a22
+    - event: completed
+      at: '2026-08-15T15:27:00Z'
+    staging_file: work/external-staging/a22.yaml
+  - id: A23
+    title: Owls
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a23-owls.md
+    manifest_id: external-A23
+    output_file: sources/external/official-rowling/a23-owls.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T15:31:13Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T15:18:34Z'
+      agent: source-agent-a23
+    - event: completed
+      at: '2026-08-15T15:31:13Z'
+    staging_file: work/external-staging/a23.yaml
+  - id: A24
+    title: The Floo Network
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a24-the-floo-network.md
+    manifest_id: external-A24
+    output_file: sources/external/official-rowling/a24-the-floo-network.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T15:41:12Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T15:32:24Z'
+      agent: source-agent-a24
+    - event: completed
+      at: '2026-08-15T15:41:12Z'
+    staging_file: work/external-staging/a24.yaml
+  - id: A25
+    title: Time-Turner
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a25-time-turner.md
+    manifest_id: external-A25
+    output_file: sources/external/official-rowling/a25-time-turner.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T15:43:50Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T15:32:24Z'
+      agent: source-agent-a25
+    - event: completed
+      at: '2026-08-15T15:43:50Z'
+    staging_file: work/external-staging/a25.yaml
+  - id: A26
+    title: Colours
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a26-colours.md
+    manifest_id: external-A26
+    output_file: sources/external/official-rowling/a26-colours.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T15:46:06Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T15:32:25Z'
+      agent: source-agent-a26
+    - event: completed
+      at: '2026-08-15T15:46:06Z'
+    staging_file: work/external-staging/a26.yaml
+  - id: A27
+    title: Werewolves
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a27-werewolves.md
+    manifest_id: external-A27
+    output_file: sources/external/official-rowling/a27-werewolves.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T15:54:12Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T15:47:22Z'
+      agent: source-agent-a27
+    - event: completed
+      at: '2026-08-15T15:54:12Z'
+    staging_file: work/external-staging/a27.yaml
+  - id: A28
+    title: Wizarding Schools
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a28-wizarding-schools.md
+    manifest_id: external-A28
+    output_file: sources/external/official-rowling/a28-wizarding-schools.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T15:57:09Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T15:47:22Z'
+      agent: source-agent-a28
+    - event: completed
+      at: '2026-08-15T15:57:09Z'
+    staging_file: work/external-staging/a28.yaml
+  - id: A29
+    title: Beauxbatons Academy of Magic
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a29-beauxbatons-academy-of-magic.md
+    manifest_id: external-A29
+    output_file: sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T15:59:54Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T15:47:23Z'
+      agent: source-agent-a29
+    - event: completed
+      at: '2026-08-15T15:59:54Z'
+    staging_file: work/external-staging/a29.yaml
+  - id: A30
+    title: Ilvermorny School of Witchcraft and Wizardry
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a30-ilvermorny-school-of-witchcraft-and-wizardry.md
+    manifest_id: external-A30
+    output_file: sources/external/official-rowling/a30-ilvermorny-school-of-witchcraft-and-wizardry.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T16:08:53Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T16:01:11Z'
+      agent: source-agent-a30
+    - event: completed
+      at: '2026-08-15T16:08:53Z'
+    staging_file: work/external-staging/a30.yaml
+  - id: A31
+    title: Professor Quirrell
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a31-professor-quirrell.md
+    manifest_id: external-A31
+    output_file: sources/external/official-rowling/a31-professor-quirrell.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T16:26:33Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T16:01:11Z'
+      agent: source-agent-a31
+    - event: completed
+      at: '2026-08-15T16:26:33Z'
+    staging_file: work/external-staging/a31.yaml
+  - id: A32
+    title: Gilderoy Lockhart
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a32-gilderoy-lockhart.md
+    manifest_id: external-A32
+    output_file: sources/external/official-rowling/a32-gilderoy-lockhart.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T16:28:32Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T16:01:11Z'
+      agent: source-agent-a32
+    - event: completed
+      at: '2026-08-15T16:28:32Z'
+    staging_file: work/external-staging/a32.yaml
+  - id: A33
+    title: Sybill Trelawney
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a33-sybill-trelawney.md
+    manifest_id: external-A33
+    output_file: sources/external/official-rowling/a33-sybill-trelawney.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T16:34:54Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T16:29:21Z'
+      agent: source-agent-a33
+    - event: completed
+      at: '2026-08-15T16:34:54Z'
+    staging_file: work/external-staging/a33.yaml
+  - id: A34
+    title: Dolores Umbridge
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a34-dolores-umbridge.md
+    manifest_id: external-A34
+    output_file: sources/external/official-rowling/a34-dolores-umbridge.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T16:36:56Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T16:29:21Z'
+      agent: source-agent-a34
+    - event: completed
+      at: '2026-08-15T16:36:56Z'
+    staging_file: work/external-staging/a34.yaml
+  - id: A35
+    title: Draco Malfoy
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a35-draco-malfoy.md
+    manifest_id: external-A35
+    output_file: sources/external/official-rowling/a35-draco-malfoy.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T16:38:53Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T16:29:22Z'
+      agent: source-agent-a35
+    - event: completed
+      at: '2026-08-15T16:38:53Z'
+    staging_file: work/external-staging/a35.yaml
+  - id: A36
+    title: Scottish Rugby
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a36-scottish-rugby.md
+    manifest_id: external-A36
+    output_file: sources/external/official-rowling/a36-scottish-rugby.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T16:46:34Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T16:40:05Z'
+      agent: source-agent-a36
+    - event: completed
+      at: '2026-08-15T16:46:34Z'
+    staging_file: work/external-staging/a36.yaml
+  - id: A37
+    title: Extension Charms
+    source_kind: external_markdown
+    source_class: official_rowling_original
+    authority: A
+    input_path: resources/external/official-rowling/harrypotter-com/a37-extension-charms.md
+    manifest_id: external-A37
+    output_file: sources/external/official-rowling/a37-extension-charms.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T16:48:54Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T16:40:06Z'
+      agent: source-agent-a37
+    - event: completed
+      at: '2026-08-15T16:48:54Z'
+    staging_file: work/external-staging/a37.yaml
+  - id: B01
+    title: Online chat transcript, Scholastic.com , 3 February 2000
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md
+    manifest_id: external-B01
+    output_file: sources/external/interviews/b01-scholastic-com-live-chat.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T16:51:24Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T16:40:17Z'
+      agent: source-agent-b01
+    - event: completed
+      at: '2026-08-15T16:51:24Z'
+    staging_file: work/external-staging/b01.yaml
+  - id: B02
+    title: '"About the Books: transcript of J.K. Rowling''s live interview on Scholastic.com,"
+      Scholastic.com , 16 October 2000'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b02-scholastic-live-chat.md
+    manifest_id: external-B02
+    output_file: sources/external/interviews/b02-scholastic-live-chat.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T16:59:26Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T16:52:32Z'
+      agent: source-agent-b02
+    - event: completed
+      at: '2026-08-15T16:59:26Z'
+    staging_file: work/external-staging/b02.yaml
+  - id: B03
+    title: America Online chat transcript, AOL.com , 19 October 2000
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b03-aol-live-chat.md
+    manifest_id: external-B03
+    output_file: sources/external/interviews/b03-aol-live-chat.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T17:02:02Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T16:52:32Z'
+      agent: source-agent-b03
+    - event: completed
+      at: '2026-08-15T17:02:02Z'
+    staging_file: work/external-staging/b03.yaml
+  - id: B04
+    title: JK Rowling's World Book Day Chat, March 4, 2004
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md
+    manifest_id: external-B04
+    output_file: sources/external/interviews/b04-world-book-day-live-chat.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T17:04:41Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T16:52:33Z'
+      agent: source-agent-b04
+    - event: completed
+      at: '2026-08-15T17:04:41Z'
+    staging_file: work/external-staging/b04.yaml
+  - id: B05
+    title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet
+      interview Joanne Kathleen Rowling: Part One," The Leaky Cauldron , 16 July 2005'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b05-mugglenet-the-leaky-cauldron-interview.md
+    manifest_id: external-B05
+    output_file: sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T17:12:32Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T17:05:58Z'
+      agent: source-agent-b05
+    - event: completed
+      at: '2026-08-15T17:12:32Z'
+    staging_file: work/external-staging/b05.yaml
+  - id: B06
+    title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet
+      interview Joanne Kathleen Rowling: Part Two," The Leaky Cauldron , 16 July 2005'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b06-mugglenet-the-leaky-cauldron-interview.md
+    manifest_id: external-B06
+    output_file: sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T17:15:23Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T17:05:58Z'
+      agent: source-agent-b06
+    - event: completed
+      at: '2026-08-15T17:15:23Z'
+    staging_file: work/external-staging/b06.yaml
+  - id: B07
+    title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and Mugglenet
+      interview Joanne Kathleen Rowling: Part Three," The Leaky Cauldron , 16 July
+      2005'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b07-mugglenet-the-leaky-cauldron-interview.md
+    manifest_id: external-B07
+    output_file: sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T17:18:17Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T17:05:58Z'
+      agent: source-agent-b07
+    - event: completed
+      at: '2026-08-15T17:18:17Z'
+    staging_file: work/external-staging/b07.yaml
+  - id: B08
+    title: Edinburgh "cub reporter" press conference, ITV , 16 July 2005
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md
+    manifest_id: external-B08
+    output_file: sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-15T17:27:08Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T17:19:39Z'
+      agent: source-agent-b08
+    - event: completed
+      at: '2026-08-15T17:27:08Z'
+    staging_file: work/external-staging/b08.yaml
+  - id: B09
+    title: J.K. Rowling and the Live Chat , Bloomsbury.com, July 30, 2007 (2.00-3.00pm
+      BST).
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b09-bloomsbury-post-deathly-hallows-web-chat.md
+    manifest_id: external-B09
+    output_file: sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T04:17:02Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T17:19:40Z'
+      agent: source-agent-b09
+    - event: completed
+      at: '2026-08-24T04:17:02Z'
+    staging_file: work/external-staging/b09.yaml
+  - id: B10
+    title: 'Anelli, Melissa, John Noe and Sue Upton. "PotterCast Interviews J.K. Rowling,
+      part one." PotterCast #130 , 17 December 2007.'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b10-pottercast-j-k-rowling-interview.md
+    manifest_id: external-B10
+    output_file: sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T04:18:35Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-15T17:19:40Z'
+      agent: source-agent-b10
+    - event: completed
+      at: '2026-08-24T04:18:35Z'
+    staging_file: work/external-staging/b10.yaml
+  - id: B11
+    title: Johnstone, Anne. "Happy ending, and that's for beginners." The Herald [Glasgow],
+      24 June 1997.
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b11-the-herald-interview.md
+    manifest_id: external-B11
+    output_file: sources/external/interviews/b11-the-herald-interview.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T04:24:17Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T04:19:38Z'
+      agent: source-agent-b11
+    - event: completed
+      at: '2026-08-24T04:24:17Z'
+    staging_file: work/external-staging/b11.yaml
+  - id: B12
+    title: Carey, Joanna. "Who hasn't met Harry?" Guardian Unlimited , February 16,
+      1999
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b12-guardian-unlimited-interview.md
+    manifest_id: external-B12
+    output_file: sources/external/interviews/b12-guardian-unlimited-interview.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T04:25:55Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T04:19:39Z'
+      agent: source-agent-b12
+    - event: completed
+      at: '2026-08-24T04:25:55Z'
+    staging_file: work/external-staging/b12.yaml
+  - id: B13
+    title: Weir, Margaret. "Of magic and single motherhood," Salon , 1999
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b13-salon-interview.md
+    manifest_id: external-B13
+    output_file: sources/external/interviews/b13-salon-interview.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T04:27:46Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T04:19:39Z'
+      agent: source-agent-b13
+    - event: completed
+      at: '2026-08-24T04:27:46Z'
+    staging_file: work/external-staging/b13.yaml
+  - id: B14
+    title: Barnes and Noble interview, March 19, 1999
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b14-barnes-noble-interview.md
+    manifest_id: external-B14
+    output_file: sources/external/interviews/b14-barnes-noble-interview.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T04:34:58Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T04:28:40Z'
+      agent: source-agent-b14
+    - event: completed
+      at: '2026-08-24T04:34:58Z'
+    staging_file: work/external-staging/b14.yaml
+  - id: B15
+    title: Barnes & Noble chat transcript, Barnes&Noble.com , September 8, 1999
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b15-barnes-noble-live-chat.md
+    manifest_id: external-B15
+    output_file: sources/external/interviews/b15-barnes-noble-live-chat.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T04:57:31Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T04:28:41Z'
+      agent: source-agent-b15
+    - event: completed
+      at: '2026-08-24T04:57:31Z'
+    staging_file: work/external-staging/b15.yaml
+  - id: B16
+    title: Loer, Stephanie. "All about Harry Potter from quidditch to the future of
+      the Sorting Hat," The Boston Globe , October 18, 1999
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b16-boston-globe-student-newsline-interview.md
+    manifest_id: external-B16
+    output_file: sources/external/interviews/b16-boston-globe-student-newsline-interview.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T04:59:27Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T04:28:41Z'
+      agent: source-agent-b16
+    - event: completed
+      at: '2026-08-24T04:59:27Z'
+    staging_file: work/external-staging/b16.yaml
+  - id: B17
+    title: Lydon, Christopher. J.K. Rowling interview transcript, The Connection (WBUR
+      Radio), 12 October, 1999
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b17-the-connection-wbur-radio.md
+    manifest_id: external-B17
+    output_file: sources/external/interviews/b17-the-connection-wbur-radio.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T05:06:14Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T05:00:21Z'
+      agent: source-agent-b17
+    - event: completed
+      at: '2026-08-24T05:06:14Z'
+    staging_file: work/external-staging/b17.yaml
+  - id: B18
+    title: J.K. Rowling on The Diane Rehm Show, WAMU Radio Washington, D.C. , October
+      20, 1999 (re-broadcast December 24, 1999)
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b18-the-diane-rehm-show-wamu.md
+    manifest_id: external-B18
+    output_file: sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T05:07:47Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T05:00:21Z'
+      agent: source-agent-b18
+    - event: completed
+      at: '2026-08-24T05:07:47Z'
+    staging_file: work/external-staging/b18.yaml
+  - id: B19
+    title: '"World Exclusive Interview with J K Rowling," South West News Service
+      , 8 July 2000'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b19-south-west-news-service-interview.md
+    manifest_id: external-B19
+    output_file: sources/external/interviews/b19-south-west-news-service-interview.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T05:09:13Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T05:00:21Z'
+      agent: source-agent-b19
+    - event: completed
+      at: '2026-08-24T05:09:13Z'
+    staging_file: work/external-staging/b19.yaml
+  - id: B20
+    title: Barnes and Noble & Yahoo! chat with J.K. Rowling, barnesandnoble.com ,
+      20 October, 2000
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md
+    manifest_id: external-B20
+    output_file: sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T05:15:43Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T05:10:04Z'
+      agent: source-agent-b20
+    - event: completed
+      at: '2026-08-24T05:15:43Z'
+    staging_file: work/external-staging/b20.yaml
+  - id: B21
+    title: Raincoast Books interview transcript, Raincoast Books (Canada), March 2001.
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b21-raincoast-books-interview.md
+    manifest_id: external-B21
+    output_file: sources/external/interviews/b21-raincoast-books-interview.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T05:17:20Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T05:10:05Z'
+      agent: source-agent-b21
+    - event: completed
+      at: '2026-08-24T05:17:20Z'
+    staging_file: work/external-staging/b21.yaml
+  - id: B22
+    title: Interview transcript (partial), Blue Peter (cBBC), 12 March, 2001
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b22-bbc-blue-peter-interview.md
+    manifest_id: external-B22
+    output_file: sources/external/interviews/b22-bbc-blue-peter-interview.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T05:18:54Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T05:10:05Z'
+      agent: source-agent-b22
+    - event: completed
+      at: '2026-08-24T05:18:54Z'
+    staging_file: work/external-staging/b22.yaml
+  - id: B23
+    title: Red Nose Day Chat, BBC Online , March 12, 2001
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b23-bbc-red-nose-day-chat.md
+    manifest_id: external-B23
+    output_file: sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T05:25:22Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T05:19:46Z'
+      agent: source-agent-b23
+    - event: completed
+      at: '2026-08-24T05:25:22Z'
+    staging_file: work/external-staging/b23.yaml
+  - id: B24
+    title: '"Harry Potter and Me" (BBC Christmas Special, British version), BBC ,
+      28 December 2001'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b24-bbc-harry-potter-and-me.md
+    manifest_id: external-B24
+    output_file: sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T05:27:02Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T05:19:47Z'
+      agent: source-agent-b24
+    - event: completed
+      at: '2026-08-24T05:27:02Z'
+    staging_file: work/external-staging/b24.yaml
+  - id: B25
+    title: '"Living with Harry Potter"'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b25-bbc-radio-4-living-with-harry-potter.md
+    manifest_id: external-B25
+    output_file: sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T05:28:32Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T05:19:47Z'
+      agent: source-agent-b25
+    - event: completed
+      at: '2026-08-24T05:28:32Z'
+    staging_file: work/external-staging/b25.yaml
+  - id: B26
+    title: 'An Evening with Harry, Carrie and Garp : Readings and questions #2, August
+      2, 2006'
+    source_kind: external_markdown
+    source_class: preservation_transcription
+    authority: D
+    input_path: resources/external/interviews/accio-quote/b26-radio-city-music-hall-reading-and-q-a-part-2.md
+    manifest_id: external-B26
+    output_file: sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml
+    status: done
+    claimed_by: null
+    claim_token: null
+    claimed_at: null
+    completed_at: '2026-08-24T05:34:12Z'
+    attempts: 1
+    validation_status: passed
+    blocked_reason: null
+    update_profile: canonical_external_evidence
+    history:
+    - event: claimed
+      at: '2026-08-24T05:29:22Z'
+      agent: source-agent-b26
+    - event: completed
+      at: '2026-08-24T05:34:12Z'
+    staging_file: work/external-staging/b26.yaml

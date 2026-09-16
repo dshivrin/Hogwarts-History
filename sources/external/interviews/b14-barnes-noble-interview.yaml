@@ -1,0 +1,153 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B14
+  source_file: resources/external/interviews/accio-quote/b14-barnes-noble-interview.md
+  title: Barnes and Noble interview, March 19, 1999
+  author: J.K. Rowling
+  source_site: Accio Quote
+  source_class: preservation_transcription
+  authority: D
+  publication_date: '19 March 1999'
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/1999/0399-barnesandnoble.html
+  capture_completeness: complete
+  content_sha256: aa58e4acbced017eb31ff304fa901ad02f9c2c6d60d65d5d5d847a9d1127827a
+  processed_date: '2026-08-24'
+  processor_notes: Complete preservation-transcript snapshot read; claims retained only as authority-D author-commentary evidence.
+
+entries:
+  - id: ext-b14-001
+    source_file: resources/external/interviews/accio-quote/b14-barnes-noble-interview.md
+    source_id: B14
+    source_url: https://www.accio-quote.org/articles/1999/0399-barnesandnoble.html
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Nobody knows where magic comes from.
+      end_phrase: others are the only ones in their family who have the ability.
+      local_occurrence_note: Answer to the question about how a Muggle-born such as Hermione develops magical abilities.
+    nearby_context: Rowling answers a reader asking how a Muggle-born witch develops magical ability.
+    match_terms:
+      - magical inheritance
+      - Muggle-born
+      - magical ability
+    quote_excerpt_short: Sometimes it seems to be inherited, but others are the only ones in their family who have the ability.
+    source_note: The interview attributes magical ability to an unknown origin, says it can be inherited, and says some magical people are the only such person in their family.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - magical-ability
+      - magical-inheritance
+      - muggle-born
+      - family-background
+      - admissions-context
+    candidate_part: 'Part II: School Life and Governance'
+    candidate_chapter: Admissions and First-Year Preparation
+    candidate_section: Magical inheritance and Muggle-born occurrence
+    reason_for_placement: Familial patterns in magical ability inform how prospective pupils and Muggle-born families are understood before admission.
+    relevance_to_hogwarts_a_history: A cautious contextual note for admissions history, not a dated institutional finding.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed entries address related inheritance and Muggle-born admissions context, but neither states this preservation-transcript claim.
+      audit:
+        query_tags:
+          - magical-inheritance
+          - muggle-born
+        candidates:
+          - id: beedle-ch04-004
+            disposition: corroborating
+          - id: dh-ch33-003
+            disposition: corroborating
+    confidence: medium
+    limitations: Authority-D preservation transcription rather than a primary Barnes and Noble record; the statement is undated author commentary and does not establish a historical period or Hogwarts policy.
+
+  - id: ext-b14-002
+    source_file: resources/external/interviews/accio-quote/b14-barnes-noble-interview.md
+    source_id: B14
+    source_url: https://www.accio-quote.org/articles/1999/0399-barnesandnoble.html
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: In my books, magic almost always shows itself in a person before age 11;
+      end_phrase: that is very rare in the world I am writing about.
+      local_occurrence_note: Answer to the question about people whose magic appears only in adulthood.
+    nearby_context: Rowling describes the usual age by which magic manifests and characterizes delayed manifestation as exceptional.
+    match_terms:
+      - magic development
+      - age eleven
+      - late magic
+    quote_excerpt_short: In my books, magic almost always shows itself in a person before age 11.
+    source_note: Rowling says magic usually manifests before age eleven; exceptional late-life magic can occur only rarely in the world she describes.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - magic-development
+      - age-eleven
+      - late-blooming
+      - magical-ability
+      - admissions-context
+    candidate_part: 'Part II: School Life and Governance'
+    candidate_chapter: Admissions and First-Year Preparation
+    candidate_section: Age of magical manifestation
+    reason_for_placement: Typical timing of magical manifestation supplies context for first-year identification and admission.
+    relevance_to_hogwarts_a_history: A cautiously framed author-commentary note relevant to the pre-admission life of Hogwarts pupils.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed candidate was returned for the exact manifestation-age query.
+      audit:
+        query_tags:
+          - age-eleven
+          - magic-development
+        candidates: []
+    confidence: medium
+    limitations: Authority-D preservation transcription rather than a primary Barnes and Noble record; this undated author commentary does not establish an institutionally documented admission rule.
+
+  - id: ext-b14-003
+    source_file: resources/external/interviews/accio-quote/b14-barnes-noble-interview.md
+    source_id: B14
+    source_url: https://www.accio-quote.org/articles/1999/0399-barnesandnoble.html
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: I spent a lot of time inventing the rules for the magical world
+      end_phrase: but most of it is my invention.
+      local_occurrence_note: Answer explaining the invention of magical practices such as owl post, Floo powder, and uses of unicorn blood.
+    nearby_context: Rowling explains her creative process for defining the limits and methods of magic in the series.
+    match_terms:
+      - magical world
+      - rules of magic
+      - limits of magic
+    quote_excerpt_short: I spent a lot of time inventing the rules for the magical world so that I knew the limits of magic.
+    source_note: Rowling says she designed rules and limits for magic before inventing the methods wizards use; she characterizes most of that magic as her invention.
+    reference_type: weak_context_only
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - magical-world
+      - rules-of-magic
+      - limits-of-magic
+      - author-commentary
+      - worldbuilding
+    candidate_part: 'Part I: Foundations of the Magical World'
+    candidate_chapter: Rules, Limits, and Magical Practice
+    candidate_section: Authorial construction of magical rules
+    reason_for_placement: It supplies an editorial caveat about the source basis of magical customs rather than an in-universe historical fact.
+    relevance_to_hogwarts_a_history: Useful only as a limited editorial note on authorial worldbuilding; it should not be presented as documentary Hogwarts history.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed candidate was returned for the exact magical-rules query.
+      audit:
+        query_tags:
+          - magical-world
+          - rules-of-magic
+        candidates: []
+    confidence: medium
+    limitations: Authority-D preservation transcription rather than a primary Barnes and Noble record; it is extradiegetic author-process commentary, not independent evidence of magical-world history.

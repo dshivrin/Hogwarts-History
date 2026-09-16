@@ -1,0 +1,298 @@
+source_unit:
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter: R-Z Bestiary Entries
+  chapter_start_pdf_page: 57
+  chapter_end_pdf_page: 64
+  boundary_confidence: high
+  boundary_notes: Rendered and visually inspected only the assigned inclusive PDF pages 57-64, covering the end of Quintaped through Yeti.
+  processed_date: '2026-09-13'
+  processor_notes: 'Scanned carrier processed from rendered page images; no explicit Hogwarts: A History references found.'
+
+entries:
+  - id: fb-ch08-001
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: R-Z Bestiary Entries
+    chapter_start_pdf_page: 57
+    chapter_end_pdf_page: 64
+    pdf_page: 57
+    printed_page: 35
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The Quintaped is found only upon the Isle of Drear
+      end_phrase: to capture a specimen and try to Untransfigure it
+      local_occurrence_note: Page 57 continues the Quintaped entry from the prior page and gives the Isle of Drear legend.
+    nearby_context: Quintaped entry describes the Isle of Drear, the McClivert/MacBoon legend, failed reversal of Transfiguration, and Department difficulty capturing a specimen.
+    match_terms:
+      - quintaped
+      - isle of drear
+      - department for the regulation and control of magical creatures
+    quote_excerpt_short: Drear has been made unplottable for this reason.
+    source_note: The entry frames Drear as an Unplottable Scottish island and preserves a wizard-family legend about irreversible Transfiguration into Quintapeds, later resistant to Department capture.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - quintaped
+      - isle-drear
+      - unplottable
+      - transfiguration
+      - department-regulation-control
+    candidate_part: Magical Creatures and Wizarding Society
+    candidate_chapter: Beast Classification and Creature Governance
+    candidate_section: Dangerous Creature Habitats and Ministry Control
+    reason_for_placement: The evidence combines magical geography, creature governance, and wizarding-family legend rather than only a creature description.
+    relevance_to_hogwarts_a_history: Useful background for creature regulation, hidden magical locations, and historical accounts that might be known through school texts.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Compact query `quintaped isle-drear` returned no matches.
+    confidence: high
+    limitations: The assigned range begins mid-entry, so the opening Quintaped description and classification are outside this unit.
+
+  - id: fb-ch08-002
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: R-Z Bestiary Entries
+    chapter_start_pdf_page: 57
+    chapter_end_pdf_page: 64
+    pdf_page: 58
+    printed_page: 36
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The Ramora is a silver fish found in the Indian Ocean.
+      end_phrase: protect the Ramora from wizard poachers.
+      local_occurrence_note: Ramora entry appears near the top of printed page 36.
+    nearby_context: The page places the Ramora before the Red Cap entry and emphasizes its magical value to seafarers.
+    match_terms:
+      - ramora
+      - international confederation of wizards
+      - wizard poachers
+    quote_excerpt_short: laws in place to protect the Ramora
+    source_note: The International Confederation of Wizards values the Ramora highly enough to establish protective laws against wizard poaching.
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - ramora
+      - international-confederation
+      - protection-laws
+      - wizard-poachers
+      - magical-creature-conservation
+    candidate_part: Magical Creatures and Wizarding Society
+    candidate_chapter: Beast Classification and Creature Governance
+    candidate_section: International Creature Protection
+    reason_for_placement: The evidence points to international legal protection for a magical species.
+    relevance_to_hogwarts_a_history: Supports broader discussion of wizarding institutions governing magical creatures beyond Britain.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Compact query `ramora protection-laws` returned no matches.
+    confidence: high
+    limitations: The entry names protective laws but does not specify their dates, enforcement mechanism, or treaty text.
+
+  - id: fb-ch08-003
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: R-Z Bestiary Entries
+    chapter_start_pdf_page: 57
+    chapter_end_pdf_page: 64
+    pdf_page: 59
+    printed_page: 37
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: the Ministry of Magic in Burkina Faso has designated certain forests
+      end_phrase: because of its striking and intimidating appearance
+      local_occurrence_note: Runespoor entry continues from printed page 36 and fills most of printed page 37.
+    nearby_context: The entry describes a three-headed serpent, protected Unplottable forests in Burkina Faso, Dark wizard ownership, and Parselmouth records.
+    match_terms:
+      - runespoor
+      - dark wizards
+      - parselmouths
+    quote_excerpt_short: favourite pet of Dark wizards
+    source_note: The Runespoor entry links a magical creature to national Ministry habitat control, Dark wizard taste, and historical knowledge preserved through Parselmouth records.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - runespoor
+      - dark-wizards
+      - parselmouths
+      - burkina-faso
+      - unplottable
+      - ministry-of-magic
+    candidate_part: Magical Creatures and Wizarding Society
+    candidate_chapter: Dark Magic, Parseltongue, and Creature Lore
+    candidate_section: Serpentine Creatures and Dark Wizard Associations
+    reason_for_placement: The evidence connects creature lore with Dark wizard culture and specialist Parselmouth testimony.
+    relevance_to_hogwarts_a_history: Provides historical-cultural context for Parseltongue and Dark wizard associations that may illuminate later Hogwarts anxieties around serpentine magic.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Compact query `runespoor dark-wizards` returned ext-a28-004 and gof-ch11-001 as broad Dark-wizard context only, not Runespoor evidence.
+    confidence: high
+    limitations: The text does not identify named Parselmouth records or particular Dark wizard owners.
+
+  - id: fb-ch08-004
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: R-Z Bestiary Entries
+    chapter_start_pdf_page: 57
+    chapter_end_pdf_page: 64
+    pdf_page: 61
+    printed_page: 39
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The Golden Snidget is an extremely rare, protected species of bird.
+      end_phrase: Snidget sanctuaries exist worldwide.
+      local_occurrence_note: Snidget entry occupies the middle of printed page 39 with two footnotes below.
+    nearby_context: The entry notes wizard hunting pressure, legal protection, the Golden Snitch substitution, worldwide sanctuaries, penalties for capture or injury, and a Quidditch Through the Ages reference.
+    match_terms:
+      - golden snidget
+      - golden snitch
+      - quidditch through the ages
+    quote_excerpt_short: substitution of the Golden Snitch for the Snidget
+    source_note: Fantastic Beasts confirms the Snidget as a rare protected species whose endangerment helped replace the living bird with the Golden Snitch in Quidditch.
+    reference_type: cross_reference_candidate
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - golden-snidget
+      - golden-snitch
+      - quidditch
+      - protected-species
+      - conservation
+      - quidditch-through-the-ages
+    candidate_part: Student Life and House Identity
+    candidate_chapter: Quidditch, School Sport, and Magical Equipment
+    candidate_section: Historical Origins of the Snitch
+    reason_for_placement: The entry bridges magical creature conservation and the historical development of Quidditch equipment.
+    relevance_to_hogwarts_a_history: Relevant as background for Hogwarts Quidditch culture and as a companion-text cross-reference to Quidditch Through the Ages.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - qtta-ch04-002
+      notes: Compact query `golden-snidget golden-snitch` returned qtta-ch04-002 as the closest duplicate/corroborating account of Snidget conservation ending live Snidget use in Quidditch; qtta-ch04-001 and qtta-ch04-003 provide adjacent Snitch history.
+    confidence: high
+    limitations: Fantastic Beasts summarizes the substitution but does not give the detailed 1269-1362 chronology found in Quidditch Through the Ages.
+
+  - id: fb-ch08-005
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: R-Z Bestiary Entries
+    chapter_start_pdf_page: 57
+    chapter_end_pdf_page: 64
+    pdf_page: 61
+    printed_page: 39
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The Egyptian sphinx has a human head on a lion's body.
+      end_phrase: usually dangerous only when what it is guarding is threatened.
+      local_occurrence_note: Sphinx entry appears below the Snidget entry on printed page 39.
+    nearby_context: The page describes the sphinx as intelligent, puzzle-loving, and historically used as a guardian by witches and wizards.
+    match_terms:
+      - sphinx
+      - guardian
+      - puzzles
+    quote_excerpt_short: used by witches and wizards to guard valuables
+    source_note: The Sphinx entry presents a millennium-long wizarding custom of using intelligent riddle-setting sphinxes as guardians of valuables and secret hideaways.
+    reference_type: security_or_protection
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - sphinx
+      - guardian
+      - riddles
+      - secret-hideaways
+      - magical-security
+    candidate_part: Magical Architecture and Enchantments
+    candidate_chapter: Protective Magic and Guarded Places
+    candidate_section: Creature Guardians and Riddle Barriers
+    reason_for_placement: The entry describes a long-running magical security practice rather than a single beast sighting.
+    relevance_to_hogwarts_a_history: Useful for comparing creature-guardian traditions with guarded school spaces, tests, and obstacles.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Compact query `sphinx guardian` returned gof-ch31-006, a Hogwarts-era Triwizard example; this entry is broader background and is distinct.
+    confidence: high
+    limitations: The text does not identify specific sites or dates for the thousand-year guardian tradition.
+
+  - id: fb-ch08-006
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: R-Z Bestiary Entries
+    chapter_start_pdf_page: 57
+    chapter_end_pdf_page: 64
+    pdf_page: 64
+    printed_page: 42
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: the worst symptoms. Once a month, at the full moon,
+      end_phrase: seeks humans in preference to any other kind of prey.
+      local_occurrence_note: Page 64 contains the continuation and close of the Werewolf entry from printed page 41.
+    nearby_context: The preceding page gives the XXXXX transformed-state classification, notes no known cure, and includes Harry-copy marginalia saying werewolves are not all bad.
+    match_terms:
+      - werewolf
+      - full moon
+      - wolfsbane
+    quote_excerpt_short: transforms into a murderous beast
+    source_note: The Werewolf entry distinguishes afflicted humans from the transformed-state beast, notes monthly full-moon danger, and follows a reference to potion-making alleviating symptoms.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - werewolf
+      - lycanthropy
+      - full-moon
+      - wolfsbane
+      - magical-creature-classification
+      - harry-copy-marginalia
+    candidate_part: Staff and Teaching
+    candidate_chapter: Defence Against the Dark Arts Appointments
+    candidate_section: Werewolf Risk, Accommodation, and Stigma
+    reason_for_placement: The evidence supplies general werewolf classification and treatment context behind later Hogwarts staff accommodation issues.
+    relevance_to_hogwarts_a_history: Useful as textbook background for Lupin's Hogwarts accommodations, Wolfsbane references, and student-facing attitudes toward werewolves.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ext-a10-003
+        - poa-ch20-002
+      notes: Compact queries `werewolf wolfsbane` and `werewolf classification` returned ext-a10-003 and poa-ch20-002 as closest duplicate/corroborating Hogwarts accommodation evidence; this entry adds the textbook framing and Harry-copy marginal note.
+    confidence: high
+    limitations: The visible potion reference spans the page break from printed pages 41-42; this entry anchors the page-64 continuation and summarizes the preceding visible context.
+
+  - id: fb-ch08-007
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: R-Z Bestiary Entries
+    chapter_start_pdf_page: 57
+    chapter_end_pdf_page: 64
+    pdf_page: 64
+    printed_page: 42
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Winged horses exist worldwide.
+      end_phrase: required to perform a Disillusionment Charm upon it at regular intervals
+      local_occurrence_note: Winged Horse entry appears in the middle of printed page 42 after the Werewolf close.
+    nearby_context: The entry lists Abraxan, Aethonan, Granian, and Thestral breeds, then states owners must regularly Disillusion winged horses as with Hippogriffs.
+    match_terms:
+      - winged horse
+      - thestral
+      - disillusionment charm
+    quote_excerpt_short: required to perform a Disillusionment Charm
+    source_note: Fantastic Beasts treats winged horses, including Thestrals, as worldwide breeds whose owners have recurring concealment duties comparable to Hippogriff ownership.
+    reference_type: school_rule_or_policy
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - winged-horse
+      - thestral
+      - disillusionment-charm
+      - concealment
+      - hippogriff
+      - creature-ownership
+    candidate_part: Magical Creatures and Wizarding Society
+    candidate_chapter: Creature Ownership and Secrecy Duties
+    candidate_section: Concealment Duties for Large Flying Beasts
+    reason_for_placement: The evidence gives a recurring owner obligation under creature-secrecy practice.
+    relevance_to_hogwarts_a_history: Supports later Thestral and Hippogriff evidence by showing the broader legal/customary duty to hide large flying beasts from Muggles.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Compact query `winged-horse thestral` returned no matches; `winged-horse disillusionment-charm` returned general Disillusionment Charm entries but no winged-horse concealment duplicate.
+    confidence: high
+    limitations: The entry points back to the book's Introduction for the full concealment rule; this unit records only the R-Z cross-reference.

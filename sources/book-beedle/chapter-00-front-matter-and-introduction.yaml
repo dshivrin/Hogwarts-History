@@ -1,0 +1,218 @@
+source_unit:
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: Front Matter and Introduction
+  chapter_start_pdf_page: 1
+  chapter_end_pdf_page: 8
+  boundary_confidence: high
+  boundary_notes: The cover, title and contents pages, introduction, and note on footnotes occupy PDF pages 1-8; the first tale begins on PDF page 9.
+  processed_date: '2026-08-15'
+  processor_notes: All eight pages were rendered and visually checked against the embedded text layer; page 8 ends the introduction and begins the collection title leaf.
+entries:
+- id: beedle-fm-001
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: Front Matter and Introduction
+  chapter_start_pdf_page: 1
+  chapter_end_pdf_page: 8
+  pdf_page: 2
+  printed_page: null
+  extracted_text_lines: PDF text lines 4-17
+  text_anchor:
+    start_phrase: Translated from the Ancient Runes by
+    end_phrase: Commentary by Albus Dumbledore
+    local_occurrence_note: Title page credits above the in-universe title.
+  nearby_context: The title page identifies Hermione Granger as translator from Ancient Runes and Albus Dumbledore as commentator.
+  match_terms:
+  - Hermione Granger
+  - Ancient Runes
+  - Albus Dumbledore
+  - commentary
+  quote_excerpt_short: Translated from the Ancient Runes by Hermione Granger
+  source_note: This edition presents Hermione Granger's Ancient Runes translation together with Albus Dumbledore's commentary, establishing the textual layers of the named source.
+  reference_type: explicit_in_universe_source
+  era_classification: post_1984_excluded_from_original
+  topic_tags:
+  - tales-of-beedle-the-bard
+  - ancient-runes
+  - hermione-granger
+  - albus-dumbledore
+  - source-provenance
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: The Tales of Beedle the Bard
+  reason_for_placement: The credits identify the translation and commentary that make up this in-universe source edition.
+  relevance_to_hogwarts_a_history: A later editorial layer can distinguish Beedle's tales from Hermione's translation and Dumbledore's historical commentary.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: dh-ch07-007
+    notes: The novel records Dumbledore's runic Beedle bequest to Hermione; this title page confirms the resulting translation and commentary edition.
+  confidence: high
+  limitations: The title page does not date Hermione's translation or explain its preparation.
+- id: beedle-fm-002
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: Front Matter and Introduction
+  chapter_start_pdf_page: 1
+  chapter_end_pdf_page: 8
+  pdf_page: 4
+  printed_page: vii
+  extracted_text_lines: PDF text lines 72-84
+  text_anchor:
+    start_phrase: a collection of stories written for young
+    end_phrase: are to Muggle children
+    local_occurrence_note: Opening paragraph of the introduction.
+  nearby_context: The introduction compares Beedle's long-standing place in wizarding childhood with familiar Muggle fairy tales.
+  match_terms:
+  - bedtime reading
+  - centuries
+  - Hogwarts students
+  - Hopping Pot
+  - Fountain of Fair Fortune
+  quote_excerpt_short: familiar to many of the students at Hogwarts
+  source_note: Beedle's tales have served as wizarding bedtime reading for centuries, and at least two tales are familiar to many Hogwarts students.
+  reference_type: institutional_custom
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - tales-of-beedle-the-bard
+  - hogwarts-students
+  - wizarding-childhood
+  - bedtime-stories
+  - cultural-memory
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: The Tales of Beedle the Bard
+  reason_for_placement: The passage establishes the collection's long cultural transmission and its familiarity within Hogwarts.
+  relevance_to_hogwarts_a_history: It documents a body of shared childhood literature that students brought into school culture.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: dh-ch07-007
+    notes: The novel identifies Beedle as traditional wizarding children's literature; this introduction adds centuries of transmission and explicit Hogwarts familiarity.
+  confidence: high
+  limitations: The passage names no course, library copy, or exact proportion of students who knew the tales.
+- id: beedle-fm-003
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: Front Matter and Introduction
+  chapter_start_pdf_page: 1
+  chapter_end_pdf_page: 8
+  pdf_page: 5
+  printed_page: ix
+  extracted_text_lines: PDF text lines 118-157
+  text_anchor:
+    start_phrase: Beedle the Bard lived in the fifteenth century
+    end_phrase: kindness, common sense, and ingenuity
+    local_occurrence_note: Biographical paragraphs near the middle of the introduction.
+  nearby_context: The introduction infers Beedle's outlook from the surviving tales while acknowledging that much of his life is unknown.
+  match_terms:
+  - Beedle the Bard
+  - fifteenth century
+  - Yorkshire
+  - Muggles
+  - Dark Magic
+  quote_excerpt_short: Beedle the Bard lived in the fifteenth century
+  source_note: Beedle is placed in fifteenth-century Yorkshire; his tales suggest sympathy for Muggles, distrust of Dark Magic, and criticism of cruelty and arrogant magical power.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - beedle-the-bard
+  - fifteenth-century
+  - yorkshire
+  - muggle-relations
+  - dark-magic
+  - wizarding-literature
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: The Tales of Beedle the Bard
+  reason_for_placement: This is the collection's compact author biography and interpretive context.
+  relevance_to_hogwarts_a_history: It supplies pre-Hogwarts-era cultural context for a text familiar to generations of pupils.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing Beedle entries identify the book and bequest but do not give the author's century, birthplace, or inferred outlook.
+  confidence: high
+  limitations: The author acknowledges that Beedle's life is obscure and derives much of the characterization from his stories.
+- id: beedle-fm-004
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: Front Matter and Introduction
+  chapter_start_pdf_page: 1
+  chapter_end_pdf_page: 8
+  pdf_page: 6
+  printed_page: xi
+  extracted_text_lines: PDF text lines 145-169
+  text_anchor:
+    start_phrase: a set of notes on The Tales of Beedle the Bard
+    end_phrase: observations on Wizarding history
+    local_occurrence_note: Introduction discussion of the posthumously discovered commentary.
+  nearby_context: The introduction describes where the notes were found and the institutional permission for publication.
+  match_terms:
+  - Dumbledore
+  - Hogwarts Archives
+  - Minerva McGonagall
+  - Headmistress
+  - Hermione Granger
+  quote_excerpt_short: papers that Dumbledore left in his will to the Hogwarts Archives
+  source_note: Former Headmaster Dumbledore's Beedle notes were found among papers left to the Hogwarts Archives; Headmistress McGonagall later authorized publication beside Hermione's translation.
+  reference_type: explicit_in_universe_source
+  era_classification: post_1984_excluded_from_original
+  topic_tags:
+  - tales-of-beedle-the-bard
+  - hogwarts-archives
+  - albus-dumbledore
+  - minerva-mcgonagall
+  - institutional-memory
+  - source-provenance
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: The Tales of Beedle the Bard
+  reason_for_placement: The passage gives direct institutional provenance for Dumbledore's commentary and the later edition.
+  relevance_to_hogwarts_a_history: It identifies the Hogwarts Archives as custodian of a headmaster's scholarly papers and records later editorial authorization.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch07-003
+    - dh-ch07-007
+    notes: The novel says Dumbledore left most effects to Hogwarts and bequeathed the runic Beedle volume to Hermione; this source identifies the archived commentary and later permission.
+  confidence: high
+  limitations: The introduction does not say whether the commentary was intended for publication.
+- id: beedle-fm-005
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: Front Matter and Introduction
+  chapter_start_pdf_page: 1
+  chapter_end_pdf_page: 8
+  pdf_page: 7
+  printed_page: xii
+  extracted_text_lines: PDF text lines 190-210
+  text_anchor:
+    start_phrase: the notes were completed around eighteen months before
+    end_phrase: top of Hogwarts's Astronomy Tower
+    local_occurrence_note: Closing provenance note before Rowling's signature.
+  nearby_context: The editor dates the commentary relative to Dumbledore's death and warns that the final essay may withhold information.
+  match_terms:
+  - eighteen months
+  - Astronomy Tower
+  - Dumbledore
+  - notes
+  quote_excerpt_short: completed around eighteen months before the tragic events
+  source_note: The surviving commentary appears to have been completed roughly eighteen months before Dumbledore's death at the top of Hogwarts's Astronomy Tower.
+  reference_type: historical_claim
+  era_classification: post_1984_excluded_from_original
+  topic_tags:
+  - albus-dumbledore
+  - astronomy-tower
+  - source-dating
+  - hogwarts-archives
+  - dumbledore-death
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: The Tales of Beedle the Bard
+  reason_for_placement: The date belongs with the provenance of Dumbledore's archived commentary while remaining excluded from the pre-1984 core.
+  relevance_to_hogwarts_a_history: A later edition can date the headmaster's reflections without importing them into the pre-1984 core.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: hbp-ch30-005
+    notes: The novel records Dumbledore's death and school memorial; this source independently dates the commentary relative to that event.
+  confidence: high
+  limitations: The phrase 'as far as we can tell' makes the completion date approximate rather than documentary.

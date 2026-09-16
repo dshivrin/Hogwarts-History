@@ -1,0 +1,146 @@
+source_unit:
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Four - The Arrival of the Golden Snitch
+  chapter_start_pdf_page: 18
+  chapter_end_pdf_page: 23
+  boundary_confidence: high
+  boundary_notes: Chapter Four begins on PDF page 18 and ends on PDF page 23, where Chapter Five begins on the same
+    page.
+  processed_date: '2026-08-15'
+  processor_notes: All six image-only pages were rendered and OCRed; the 1269 account, protection decision, Snitch
+    specifications, and shared Chapter Four/Five page were checked closely.
+entries:
+- id: qtta-ch04-001
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Four - The Arrival of the Golden Snitch
+  chapter_start_pdf_page: 18
+  chapter_end_pdf_page: 23
+  pdf_page: 20
+  printed_page: 12
+  extracted_text_lines: OCR lines 495-550
+  text_anchor:
+    start_phrase: Snidget-hunting finally crossed paths with Quidditch in 1269
+    end_phrase: awarded an extra one hundred and fifty points
+    local_occurrence_note: Bragge's 1269 match and the custom that followed it.
+  nearby_context: An eyewitness letter says the Chief of the Wizards' Council released a Snidget and offered 150
+    Galleons, after which teams adopted a dedicated Hunter and a 150-point award.
+  match_terms:
+  - 1269
+  - Barberus Bragge
+  - Golden Snidget
+  - Hunter
+  - 150 points
+  quote_excerpt_short: awarded an extra one hundred and fifty points
+  source_note: The 150-point Snitch convention derives from a 1269 match where Barberus Bragge offered 150 Galleons
+    for catching a released Golden Snidget.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - golden-snitch
+  - golden-snidget
+  - quidditch-history
+  - scoring
+  - seeker
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: The Golden Snitch
+  reason_for_placement: This explains the origin of the Seeker's 150-point scoring value used in Hogwarts matches.
+  relevance_to_hogwarts_a_history: It supplies historical context for a central Hogwarts Quidditch rule.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch07-001
+    notes: The novel entry states the Hogwarts rule; this companion entry supplies its historical origin.
+  confidence: high
+  limitations: The explanation relies on a preserved eyewitness letter interpreted by Whisp.
+- id: qtta-ch04-002
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Four - The Arrival of the Golden Snitch
+  chapter_start_pdf_page: 18
+  chapter_end_pdf_page: 23
+  pdf_page: 22
+  printed_page: 14
+  extracted_text_lines: OCR lines 551-604
+  text_anchor:
+    start_phrase: Golden Snidget numbers had fallen so low
+    end_phrase: substitute for the bird was frantically sought
+    local_occurrence_note: Elfrida Clagg's protection order and creation of the Snidget reservation.
+  nearby_context: The Wizards' Council outlawed killing or using the bird in Quidditch and founded a protected reservation.
+  match_terms:
+  - Elfrida Clagg
+  - protected species
+  - outlawing
+  - Modesty Rabnott Snidget Reservation
+  quote_excerpt_short: made the Golden Snidget a protected species
+  source_note: 'Conservation concerns ended the use of living Snidgets: Elfrida Clagg protected the species, outlawed
+    its killing and use in Quidditch, and prompted a mechanical substitute.'
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - golden-snidget
+  - magical-creatures
+  - quidditch-history
+  - conservation
+  - school-sport-safety
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: The Golden Snitch
+  reason_for_placement: The protection order explains why modern school Quidditch uses an enchanted ball rather
+    than a creature.
+  relevance_to_hogwarts_a_history: It connects Hogwarts equipment to an earlier ethical and legal change in wizarding
+    sport.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing entries name the Snitch but do not record the conservation decision behind its invention.
+  confidence: high
+  limitations: The precise date of Clagg's order is described only as the middle of the following century.
+- id: qtta-ch04-003
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Four - The Arrival of the Golden Snitch
+  chapter_start_pdf_page: 18
+  chapter_end_pdf_page: 23
+  pdf_page: 23
+  printed_page: 15
+  extracted_text_lines: OCR lines 580-633
+  text_anchor:
+    start_phrase: invention of the Golden Snitch is credited
+    end_phrase: remain within the boundaries of the field
+    local_occurrence_note: Closing account of Bowman Wright's invention.
+  nearby_context: Whisp cites Wright's surviving order records and compares the enchanted ball's size, weight, wings,
+    agility, and pitch behavior to the Snidget.
+  match_terms:
+  - Bowman Wright
+  - Godric's Hollow
+  - Golden Snitch
+  - field boundaries
+  quote_excerpt_short: walnut-sized ball exactly the weight of a Snidget
+  source_note: Bowman Wright of Godric's Hollow created the Golden Snitch as a walnut-sized, Snidget-weight ball
+    with agile wings and an enchantment keeping it inside the field.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - bowman-wright
+  - godrics-hollow
+  - golden-snitch
+  - enchanted-equipment
+  - quidditch-history
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: The Golden Snitch
+  reason_for_placement: The passage gives the inventor, place, design rationale, and core behavior of a Hogwarts
+    match ball.
+  relevance_to_hogwarts_a_history: It explains the provenance and enchantment of equipment used in Hogwarts House
+    Quidditch.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - dh-ch16-003
+    - cos-ch07-001
+    notes: Bagshot independently places Wright and Snitch-making at Godric's Hollow; the Hogwarts match explanation
+      corroborates the ball's role.
+  confidence: high
+  limitations: The text credits Wright but does not provide a precise invention year.

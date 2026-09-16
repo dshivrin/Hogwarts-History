@@ -1,0 +1,336 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Twenty - Xenophilius Lovegood
+  chapter_start_pdf_page: 3306
+  chapter_end_pdf_page: 3320
+  boundary_confidence: high
+  boundary_notes: >-
+    Extracted the bounded current source-unit range from processing-state.yaml,
+    PDF pages 3306-3320, without scanning from the start of the full PDF.
+  processed_date: '2026-08-06'
+  processor_notes: >-
+    Captured seven canon-evidence entries from the post-Silver-Doe campsite
+    discussion and the first half of the Lovegood visit. No explicit Hogwarts:
+    A History references appear in this chapter segment.
+
+entries:
+  - id: dh-ch20-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty - Xenophilius Lovegood
+    chapter_start_pdf_page: 3306
+    chapter_end_pdf_page: 3320
+    pdf_page: 3307
+    printed_page: null
+    extracted_text_lines: "33-56"
+    text_anchor:
+      start_phrase: "how did you find out about the Taboo?"
+      end_phrase: "They nearly got Kingsley"
+      local_occurrence_note: "Ron explains the formal mechanism behind the earlier warning not to speak Voldemort's name."
+    nearby_context: "Ron has been reporting what he learned about the wider wartime wizarding world while away from Harry and Hermione."
+    match_terms:
+      - Taboo
+      - Voldemort's name
+      - protective enchantments
+      - trackable
+      - Order members
+      - Kingsley
+    quote_excerpt_short: "the name's been jinxed"
+    source_note: "The chapter confirms that Voldemort's name has been placed under a Taboo that breaks protective enchantments, creates a magical disturbance, and makes speakers trackable."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - taboo
+      - voldemort-name
+      - speech-magic
+      - protective-enchantments
+      - tracking
+      - order-of-the-phoenix
+      - wartime-security
+    candidate_part: Wars, Crises, and School Memory
+    candidate_chapter: Wartime Security and Communication
+    candidate_section: Taboo on Voldemort's name and speech-based tracking
+    reason_for_placement: "The passage turns earlier cultural fear of Voldemort's name into a concrete wartime magical surveillance mechanism."
+    relevance_to_hogwarts_a_history: "A later edition can cite this as a Second War example of public speech becoming a security risk for Order members and Hogwarts-connected fugitives."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch14-005
+      notes: "dh-ch14-005 foreshadows the Taboo through Ron's fear that the name feels jinxed; this entry supplies the formal mechanism, including broken protections and trackability."
+    confidence: high
+    limitations: "The explanation is secondhand from Ron's wider-war reports rather than Ministry or Death Eater technical documentation."
+
+  - id: dh-ch20-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty - Xenophilius Lovegood
+    chapter_start_pdf_page: 3306
+    chapter_end_pdf_page: 3320
+    pdf_page: 3309
+    printed_page: null
+    extracted_text_lines: "105-127; 134-151"
+    text_anchor:
+      start_phrase: "Hermione had since condescended to examine"
+      end_phrase: "Harry continued to practice with the blackthorn wand"
+      local_occurrence_note: "Harry tests Ron's replacement blackthorn wand and finds simple spells weak and clumsy."
+    nearby_context: "Harry is using Ron's spare wand after Hermione accidentally broke his holly-and-phoenix wand in Godric's Hollow."
+    match_terms:
+      - blackthorn wand
+      - Engorgio
+      - Reducio
+      - levitate
+      - clumsy
+      - unfamiliar
+    quote_excerpt_short: "less powerful than it had done before"
+    source_note: "Borrowed or replacement wands can perform ordinary spells less effectively for a wizard, with Harry's blackthorn wand producing weak enlargement, failed reduction, and clumsy levitation."
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - wandlore
+      - blackthorn
+      - wand-compatibility
+      - borrowed-wands
+      - spellwork
+      - engorgement-charm
+      - reduction-charm
+    candidate_part: Magical Objects and Artifacts
+    candidate_chapter: Wand Ownership and Compatibility
+    candidate_section: Replacement wands and weakened spellwork
+    reason_for_placement: "The scene gives observed evidence that wand-user fit affects even minor practical spellcasting."
+    relevance_to_hogwarts_a_history: "Useful for later notes on student equipment, wand replacement, and the limits of treating wands as interchangeable school tools."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Targeted duplicate queries found general wand/material entries but no existing entry for blackthorn wand compatibility or weakened borrowed-wand spellwork."
+    confidence: medium
+    limitations: "Harry has little practice with this wand, so the passage does not isolate wand allegiance, wood, damage, and confidence as separate causes."
+
+  - id: dh-ch20-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty - Xenophilius Lovegood
+    chapter_start_pdf_page: 3306
+    chapter_end_pdf_page: 3320
+    pdf_page: 3310
+    printed_page: null
+    extracted_text_lines: "140-145"
+    text_anchor:
+      start_phrase: "There's this one program"
+      end_phrase: "you need a password to tune in"
+      local_occurrence_note: "Ron describes the resistance wireless program he heard while separated from the trio."
+    nearby_context: "Ron tries to tune a small wooden wireless in the tent while Harry practices with the blackthorn wand."
+    match_terms:
+      - wireless
+      - news
+      - Ministry line
+      - changing locations
+      - raided
+      - password
+    quote_excerpt_short: "you need a password to tune in"
+    source_note: "A wartime wireless news program avoids Ministry control by changing broadcast locations, using passwords, and countering official or pro-Voldemort news."
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - wireless
+      - resistance-media
+      - passwords
+      - ministry-propaganda
+      - second-war
+      - operational-security
+      - wizarding-news
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Second War and Hogwarts Information Climate
+    candidate_section: Password-protected resistance broadcasts
+    reason_for_placement: "The passage records underground wizarding communication practices during Ministry capture."
+    relevance_to_hogwarts_a_history: "A later edition can use this as background for how Hogwarts-connected families and fugitives sought reliable news during the Snape-Carrow year."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate queries for radio, resistance, and password terms returned passworded Hogwarts entrances and Quibbler entries, but no existing wireless resistance-broadcast entry."
+    confidence: high
+    limitations: "The program is not yet named in this chapter, and the passage gives no broadcast transcript."
+
+  - id: dh-ch20-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty - Xenophilius Lovegood
+    chapter_start_pdf_page: 3306
+    chapter_end_pdf_page: 3320
+    pdf_page: 3311
+    printed_page: null
+    extracted_text_lines: "171-198; 205-229"
+    text_anchor:
+      start_phrase: "It's that mark, the mark in Beedle the Bard"
+      end_phrase: "links Dumbledore, Grindelwald, and Godric's Hollow"
+      local_occurrence_note: "Hermione compares the symbol from Beedle, Dumbledore's letter, the Godric's Hollow grave, and Xenophilius's wedding pendant."
+    nearby_context: "Hermione has been reading The Life and Lies of Albus Dumbledore and uses a reproduced Dumbledore letter as physical evidence."
+    match_terms:
+      - Beedle the Bard
+      - The Life and Lies of Albus Dumbledore
+      - Grindelwald
+      - Godric's Hollow
+      - Dumbledore
+      - symbol
+    quote_excerpt_short: "links Dumbledore, Grindelwald, and Godric's Hollow"
+    source_note: "The triangular mark is traced across Beedle's book, Dumbledore's signed letter to Grindelwald, an old Godric's Hollow grave, and Xenophilius Lovegood's pendant."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - deathly-hallows
+      - symbols
+      - beedle-the-bard
+      - dumbledore-biography
+      - grindelwald
+      - godrics-hollow
+      - archival-evidence
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: Dumbledore, Grindelwald, and the Deathly Hallows
+    candidate_section: Symbol evidence before Xenophilius's explanation
+    reason_for_placement: "The passage gathers a multi-source evidence trail for an old symbol before its meaning is explained."
+    relevance_to_hogwarts_a_history: "A future history can use this as source-critical evidence linking school-adjacent books, Dumbledore documents, and pre-Harry magical history."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch08-002
+      notes: "dh-ch08-002 records Krum's claim that the symbol was Grindelwald's sign at Durmstrang; this entry adds the Beedle, Dumbledore-letter, and Godric's Hollow evidence that complicates that interpretation."
+    confidence: high
+    limitations: "The chapter has not yet supplied Xenophilius's explanation, so the symbol's full meaning remains pending."
+
+  - id: dh-ch20-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty - Xenophilius Lovegood
+    chapter_start_pdf_page: 3306
+    chapter_end_pdf_page: 3320
+    pdf_page: 3312
+    printed_page: null
+    extracted_text_lines: "216-220; 353-373; 407-412"
+    text_anchor:
+      start_phrase: "The Quibbler's been for you all along"
+      end_phrase: "I have expressed that view"
+      local_occurrence_note: "Ron cites The Quibbler's pro-Harry stance, and the visit reveals Xenophilius's hidden home printing press."
+    nearby_context: "The trio seek Xenophilius because he wore the triangular symbol at Bill and Fleur's wedding."
+    match_terms:
+      - The Quibbler
+      - editor
+      - printing press
+      - Harry Potter
+      - first duty
+      - help
+    quote_excerpt_short: "The Quibbler's been for you all along"
+    source_note: "The Quibbler has publicly urged support for Harry, and Xenophilius operates a private magical printing press from his family home."
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - quibbler
+      - xenophilius-lovegood
+      - wizarding-press
+      - resistance-media
+      - printing-press
+      - harry-potter
+      - second-war
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Second War and Hogwarts Information Climate
+    candidate_section: The Quibbler as pro-Harry resistance press
+    reason_for_placement: "The passage shows an alternative press outlet shifting from eccentric publication to explicit wartime advocacy."
+    relevance_to_hogwarts_a_history: "A later edition can use this to document public information channels that reached or affected Hogwarts families during the Snape-Carrow year."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch10-005
+        - ootp-ch25-007
+        - ootp-ch26-001
+      notes: "ootp-ch10-005 identifies The Quibbler as Luna's family periodical, ootp-ch25-007 records its use against Ministry censorship, and ootp-ch26-001 records circulation at Hogwarts; this entry adds its home press and explicit pro-Harry wartime advocacy."
+    confidence: high
+    limitations: "Xenophilius's current fear and later motives complicate how consistently this advocacy should be described."
+
+  - id: dh-ch20-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty - Xenophilius Lovegood
+    chapter_start_pdf_page: 3306
+    chapter_end_pdf_page: 3320
+    pdf_page: 3317
+    printed_page: null
+    extracted_text_lines: "375-399"
+    text_anchor:
+      start_phrase: "what's that?"
+      end_phrase: "A Christmas surprise for my Luna"
+      local_occurrence_note: "Hermione identifies the mounted horn as an Erumpent horn and cites Fantastic Beasts and Where to Find Them."
+    nearby_context: "The trio are in Xenophilius's cluttered upstairs workroom, where the horn is mounted on the wall."
+    match_terms:
+      - Erumpent horn
+      - Fantastic Beasts and Where to Find Them
+      - Class B Tradeable Material
+      - explode
+      - Crumple-Horned Snorkack
+      - Hermione
+    quote_excerpt_short: "it's a Class B Tradeable Material"
+    source_note: "Hermione uses Fantastic Beasts and Where to Find Them to identify the horn as an Erumpent horn, a dangerous Class B Tradeable Material that can explode at a touch."
+    reference_type: explicit_in_universe_source
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - fantastic-beasts
+      - erumpent
+      - magical-creatures
+      - tradeable-material
+      - dangerous-objects
+      - in-universe-source
+      - hermione-granger
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Care of Magical Creatures and Creature Scholarship
+    candidate_section: Fantastic Beasts as practical reference source
+    reason_for_placement: "The passage shows a standard magical creature text being used for real-world hazard identification outside class."
+    relevance_to_hogwarts_a_history: "Useful as evidence that Hogwarts course texts can function as practical reference works in adult wizarding life."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Targeted duplicate queries for Erumpent, horn, Fantastic Beasts, and tradeable-material terms returned no matches."
+    confidence: high
+    limitations: "Xenophilius disputes the identification, but Hermione's textbook-based signs and the later danger context support her reading."
+
+  - id: dh-ch20-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Twenty - Xenophilius Lovegood
+    chapter_start_pdf_page: 3306
+    chapter_end_pdf_page: 3320
+    pdf_page: 3319
+    printed_page: null
+    extracted_text_lines: "442-466"
+    text_anchor:
+      start_phrase: "a stone bust of a beautiful but austere-looking witch"
+      end_phrase: "accept the extraordinary"
+      local_occurrence_note: "Xenophilius identifies the bust as modeled on Rowena Ravenclaw and quotes the Ravenclaw motto."
+    nearby_context: "The bust is part of Xenophilius's eccentric invention using Wrackspurt siphons, a billywig propeller, and a Dirigible Plum."
+    match_terms:
+      - Rowena Ravenclaw
+      - Wit beyond measure
+      - Wrackspurt siphons
+      - billywig
+      - Dirigible Plum
+      - invention
+    quote_excerpt_short: "Wit beyond measure is man's greatest treasure"
+    source_note: "Xenophilius models an invention on Rowena Ravenclaw's head and quotes the Ravenclaw motto, connecting Ravenclaw identity with wit and intellectual receptivity."
+    reference_type: house_system
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - rowena-ravenclaw
+      - ravenclaw
+      - house-motto
+      - wit
+      - wizarding-inventions
+      - billywig
+      - dirigible-plum
+    candidate_part: The Four Houses
+    candidate_chapter: Ravenclaw House
+    candidate_section: Rowena Ravenclaw, wit, and house identity
+    reason_for_placement: "The passage preserves a compact statement of Ravenclaw-associated values outside a Sorting ceremony."
+    relevance_to_hogwarts_a_history: "A house-history chapter can cite this as later cultural evidence for how Rowena Ravenclaw's reputation and motto circulate beyond the school."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Targeted duplicate queries for Rowena Ravenclaw, the motto, and wit-beyond-measure terms returned no matches."
+    confidence: medium
+    limitations: "The source is Xenophilius's eccentric device, so the invention details should be separated from the simpler Ravenclaw motto evidence."

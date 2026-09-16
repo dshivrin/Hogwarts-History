@@ -1,0 +1,320 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Four - Sectumsempra
+  chapter_start_pdf_page: 2847
+  chapter_end_pdf_page: 2865
+  boundary_confidence: high
+  boundary_notes: Bounded by processing-state anchors for Chapter Twenty-Four; extracted only PDF pages 2847-2865.
+  processed_date: '2026-07-28'
+  processor_notes: 'Created from bounded pypdf extraction. No explicit Hogwarts: A History title citation appears in this chapter.'
+entries:
+- id: hbp-ch24-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Four - Sectumsempra
+  chapter_start_pdf_page: 2847
+  chapter_end_pdf_page: 2865
+  pdf_page: 2850
+  printed_page:
+  extracted_text_lines: 87-119
+  text_anchor:
+    start_phrase: They let me out of St. Mungo's
+    end_phrase: some of it got stolen
+    local_occurrence_note: Katie Bell returns to Gryffindor common room after the cursed-necklace attack and reports her memory gap.
+  nearby_context: Katie has returned from St. Mungo's and answers Harry's question about the Three Broomsticks bathroom before the trio considers Polyjuice disguise.
+  match_terms:
+  - Katie Bell
+  - St. Mungo's
+  - Three Broomsticks
+  - Imperiused
+  - Polyjuice Potion
+  - cursed necklace
+  quote_excerpt_short: "my memory's a blank"
+  source_note: Katie's recovery narrows the cursed-necklace attack to the Three Broomsticks ladies' bathroom and leaves Imperius or Polyjuice-disguised delivery as plausible school-security explanations.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - katie-bell
+  - cursed-necklace
+  - imperius-curse
+  - polyjuice-potion
+  - three-broomsticks
+  - wartime-security
+  candidate_part: Hogwarts in Times of Crisis
+  candidate_chapter: Security and Restricted Objects
+  candidate_section: Cursed-object attack follow-up and disguise risk
+  reason_for_placement: Adds post-attack testimony and a specific suspected delivery point to the record of wartime object smuggling threats against Hogwarts.
+  relevance_to_hogwarts_a_history: Useful for a later-editorial account of how Hogsmeade access, coercive magic, and identity disguise undermined Hogwarts security.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - hbp-ch12-006
+    - hbp-ch21-005
+    notes: hbp-ch12-006 records the original necklace attack on the Hogsmeade return route, while hbp-ch21-005 records stolen Polyjuice used in Malfoy's hidden-room operation. This entry adds Katie's recovery testimony, the bathroom location, and the explicit link between stolen classroom Polyjuice and the possible attacker.
+  confidence: high
+  limitations: Katie cannot identify the attacker, and the Polyjuice explanation remains Harry's inference rather than confirmed testimony.
+- id: hbp-ch24-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Four - Sectumsempra
+  chapter_start_pdf_page: 2847
+  chapter_end_pdf_page: 2865
+  pdf_page: 2851
+  printed_page:
+  extracted_text_lines: 121-140
+  text_anchor:
+    start_phrase: Luck can only get you so far
+    end_phrase: You've got to let it stew
+    local_occurrence_note: Hermione and Ron discuss whether more Felix Felicis could be made after Harry considers using it on the Room of Requirement.
+  nearby_context: The conversation uses Harry's copy of Advanced Potion-Making to check Felix Felicis constraints.
+  match_terms:
+  - Felix Felicis
+  - Advanced Potion-Making
+  - ingredients
+  - six months
+  - powerful enchantment
+  quote_excerpt_short: "it takes six months"
+  source_note: Felix Felicis is described as limited by circumstance rather than able to bypass powerful enchantments, and its textbook recipe is seriously complicated with a six-month brewing time.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - felix-felicis
+  - advanced-potion-making
+  - potions
+  - brewing-time
+  - magical-limits
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Potions, Ingredients, and Brewing
+  candidate_section: Felix Felicis constraints and recipe difficulty
+  reason_for_placement: Provides practical limits for a named advanced potion and shows students using a N.E.W.T. textbook as a technical reference.
+  relevance_to_hogwarts_a_history: Supports a curriculum section on advanced potions by connecting classroom prizes, textbook recipes, brewing time, and limits on magical luck.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of:
+    notes: Duplicate lookup for Felix Felicis, Advanced Potion-Making, brewing, and six months returned no matches.
+  confidence: high
+  limitations: The full ingredient list is not preserved in the extracted passage.
+- id: hbp-ch24-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Four - Sectumsempra
+  chapter_start_pdf_page: 2847
+  chapter_end_pdf_page: 2865
+  pdf_page: 2854
+  printed_page:
+  extracted_text_lines: 233-249; 461-465
+  text_anchor:
+    start_phrase: accompanied, not by Crabbe or Goyle
+    end_phrase: pop up in every bathroom in the castle
+    local_occurrence_note: The Marauder's Map reveals Draco with Moaning Myrtle, and later the bathroom ghost spreads news of the duel.
+  nearby_context: Myrtle tries to comfort Draco before the duel and later reports the bathroom incident widely through the castle plumbing network.
+  match_terms:
+  - Moaning Myrtle
+  - boys' bathroom
+  - ghost
+  - Draco Malfoy
+  - bathrooms
+  quote_excerpt_short: "I can help you"
+  source_note: Moaning Myrtle functions as a resident bathroom ghost who can privately interact with distressed students and later broadcast news by appearing in bathrooms across the castle.
+  reference_type: portrait_or_ghost_lore
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - moaning-myrtle
+  - ghosts
+  - bathrooms
+  - castle-plumbing
+  - student-privacy
+  candidate_part: Peoples, Beings, and Magical Society
+  candidate_chapter: Ghosts, Portraits, and Castle Memory
+  candidate_section: Moaning Myrtle as witness and bathroom informant
+  reason_for_placement: Adds a later observation of ghost movement, privacy limits, and informal information spread inside Hogwarts.
+  relevance_to_hogwarts_a_history: Useful for explaining how ghosts preserve and circulate school memory beyond formal staff channels.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of:
+    notes: Related Myrtle entries identify her death, bathroom, plumbing, and lake movement, but this evidence adds her confidential interaction with Draco and castle-wide bathroom news-spreading after the duel.
+  confidence: medium
+  limitations: Myrtle's motives and reliability are informal and personal rather than institutional.
+- id: hbp-ch24-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Four - Sectumsempra
+  chapter_start_pdf_page: 2847
+  chapter_end_pdf_page: 2865
+  pdf_page: 2855
+  printed_page:
+  extracted_text_lines: 268-335
+  text_anchor:
+    start_phrase: SECTUMSEMPRA!
+    end_phrase: Who taught you that spell?
+    local_occurrence_note: Harry uses the Prince's spell against Malfoy, then Snape heals the wounds and interrogates Harry.
+  nearby_context: Malfoy begins an Unforgivable Curse, Harry uses an unknown marginal spell, and Snape applies a sung countercurse before sending Malfoy to the hospital wing for dittany.
+  match_terms:
+  - Sectumsempra
+  - Dark Magic
+  - countercurse
+  - dittany
+  - hospital wing
+  - Unforgivable Curse
+  quote_excerpt_short: "Who taught you that spell?"
+  source_note: Sectumsempra is demonstrated as severe cutting magic requiring Snape's specialized countercurse, immediate hospital-wing care, and dittany to limit scarring.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - sectumsempra
+  - dark-magic
+  - countercurse
+  - dittany
+  - hospital-wing
+  - half-blood-prince
+  candidate_part: Learning, Books, and Forbidden Knowledge
+  candidate_chapter: Restricted and Dangerous Spellcraft
+  candidate_section: Sectumsempra, countercurse, and student injury
+  reason_for_placement: Converts the earlier marginal spell note into observed effects, healing method, and staff disciplinary concern.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence for risks created when dangerous unofficial spellcraft circulates in school materials.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - hbp-ch21-002
+    notes: hbp-ch21-002 records the Prince book's Sectumsempra marginal note before its effect is known. This entry adds the spell's observed injury, Snape's countercurse, hospital-wing treatment, and Dark Magic framing.
+  confidence: high
+  limitations: The countercurse incantation is not transcribed, and the spell's origin is still not disclosed in this chapter.
+- id: hbp-ch24-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Four - Sectumsempra
+  chapter_start_pdf_page: 2847
+  chapter_end_pdf_page: 2865
+  pdf_page: 2858
+  printed_page:
+  extracted_text_lines: 366-406
+  text_anchor:
+    start_phrase: I need a place to hide my book
+    end_phrase: it turned at once back into stone
+    local_occurrence_note: Harry finally accesses the Room of Requirement by asking for a hiding place and marks the Prince's book location with a bust, wig, and tiara.
+  nearby_context: The room appears in its storage configuration after Harry fails to enter Malfoy's configuration and needs to conceal the Prince's book from Snape.
+  match_terms:
+  - Room of Requirement
+  - hidden by generations
+  - banned books
+  - Vanishing Cabinet
+  - tarnished tiara
+  - hidden junk
+  quote_excerpt_short: "objects hidden by generations"
+  source_note: The Room of Requirement can become a vast hidden-storage room containing generations of contraband, damaged furniture, banned or stolen books, dangerous objects, the broken Vanishing Cabinet, and a tarnished tiara used as a marker.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - room-of-requirement
+  - hidden-objects
+  - magical-architecture
+  - vanishing-cabinet
+  - ravenclaw-diadem
+  - banned-books
+  candidate_part: The Castle and Its Protections
+  candidate_chapter: Maps, Hidden Rooms, and Concealed Routes
+  candidate_section: Room of Hidden Things and accumulated contraband
+  reason_for_placement: Gives the strongest physical description so far of the Room's hidden-storage configuration and its long-term accumulation by Hogwarts inhabitants.
+  relevance_to_hogwarts_a_history: Central evidence for a castle-history chapter on responsive architecture, hidden student deposits, lost objects, and institutional memory.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of:
+    notes: Related Room of Requirement entries cover access rules and map blind spots, but duplicate lookup for hidden objects, generations, Vanishing Cabinet, and the storage configuration returned no same-fact match.
+  confidence: high
+  limitations: Harry identifies some objects by inference, and the tiara's later importance is not explained within this chapter.
+- id: hbp-ch24-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Four - Sectumsempra
+  chapter_start_pdf_page: 2847
+  chapter_end_pdf_page: 2865
+  pdf_page: 2860
+  printed_page:
+  extracted_text_lines: 441-469; 532-577
+  text_anchor:
+    start_phrase: detention with me every Saturday
+    end_phrase: You will continue at ten o'clock next Saturday
+    local_occurrence_note: Snape assigns detentions after the bathroom duel, McGonagall supports the penalty, and Harry copies old discipline records by hand.
+  nearby_context: The punishment bars Harry from the Quidditch final and sends him to Snape's old dungeon office to restore Filch's files without magic.
+  match_terms:
+  - detention
+  - expelled
+  - Filch
+  - records
+  - punishments
+  - no magic
+  - James Potter
+  - Sirius Black
+  quote_excerpt_short: "records of other Hogwarts wrongdoers"
+  source_note: Hogwarts discipline includes staff-backed repeated Saturday detention, possible expulsion for dangerous spell use, and old records of student crimes and punishments that can be copied by hand without magic.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - student-discipline
+  - detention
+  - expulsion
+  - discipline-records
+  - filch
+  - snape
+  - mcgonagall
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Discipline and Expulsion
+  candidate_section: Detention, expulsion risk, and historical punishment files
+  reason_for_placement: Links disciplinary authority, nonmagical punitive labor, and archival punishment records across multiple student generations.
+  relevance_to_hogwarts_a_history: Useful for documenting both living punishment practice and the school's retained records of student wrongdoing.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch08-002
+    - cos-ch05-005
+    notes: cos-ch08-002 records Filch's punishment filing cabinets, while cos-ch05-005 records expulsion warnings and staff punishment authority. This entry adds Snape and McGonagall's response to dangerous spell use, repeated Saturday detention, no-magic copying labor, numbered boxes, and Marauders-era cards.
+  confidence: high
+  limitations: Snape's detention method may reflect personal malice and access to Filch's files rather than a standard schoolwide penalty.
+- id: hbp-ch24-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Four - Sectumsempra
+  chapter_start_pdf_page: 2847
+  chapter_end_pdf_page: 2865
+  pdf_page: 2864
+  printed_page:
+  extracted_text_lines: 198-217; 473-479; 520-531; 583-618
+  text_anchor:
+    start_phrase: the match would decide the Championship
+    end_phrase: Four hundred and fifty to a hundred and forty
+    local_occurrence_note: The chapter frames the Gryffindor-Ravenclaw final, Harry's detention-driven absence, Ginny's temporary Seeker role, and Gryffindor's Cup-winning score.
+  nearby_context: Quidditch standings determine schoolwide attention, and the post-match common-room celebration follows Harry's detention.
+  match_terms:
+  - Quidditch Championship
+  - Gryffindor
+  - Ravenclaw
+  - Ginny Weasley
+  - Seeker
+  - Chaser
+  - silver Cup
+  quote_excerpt_short: "the match would decide the Championship"
+  source_note: House Quidditch standings are calculated by scoring margins, temporary player replacements follow Harry's detention, and Gryffindor beats Ravenclaw 450-140 to win the silver Cup.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch
+  - quidditch-cup
+  - gryffindor
+  - ravenclaw
+  - team-replacements
+  - ginny-weasley
+  - house-competition
+  candidate_part: Student Life and School Customs
+  candidate_chapter: House Teams and Training
+  candidate_section: Championship standings, replacements, and Cup celebration
+  reason_for_placement: Supplies concrete season-ending competition mechanics, roster substitutions, match outcome, and House common-room celebration after a decisive final.
+  relevance_to_hogwarts_a_history: Supports coverage of House sport as a schoolwide social institution with formal standings, substitutes, trophies, and residential celebrations.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch21-005
+    - poa-ch12-004
+    notes: ootp-ch21-005 records Ginny replacing Harry as Seeker after a Quidditch ban, and poa-ch12-004 records standings shaping practice. This entry adds a detention-driven replacement, Dean's Chaser return, the exact Cup-winning score, and common-room celebration.
+  confidence: high
+  limitations: The match itself is not observed directly, so tactical details and officiating are unavailable.

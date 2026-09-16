@@ -1,0 +1,340 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Sixteen - A Very Frosty Christmas
+  chapter_start_pdf_page: 2688
+  chapter_end_pdf_page: 2708
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used the control-file page range. PDF page 2688 begins with "CHAPTER SIXTEEN A VERY FROSTY CHRISTMAS"; PDF page 2708 ends with Harry turning away from Scrimgeour and returning to the house.
+  processed_date: '2026-07-25'
+  processor_notes: "Extracted only PDF pages 2688-2708 with pypdf via scripts/extract_pages.py; no explicit Hogwarts: A History title reference found."
+
+entries:
+  - id: hbp-ch16-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Sixteen - A Very Frosty Christmas
+    chapter_start_pdf_page: 2688
+    chapter_end_pdf_page: 2708
+    pdf_page: 2688
+    printed_page: null
+    extracted_text_lines: 14-30
+    text_anchor:
+      start_phrase: "he'd made an Unbreakable Oath"
+      end_phrase: "You die"
+      local_occurrence_note: Ron corrects Harry's term to Unbreakable Vow, explains that it cannot be broken, and recalls the twins' childhood attempt to make him swear one.
+    nearby_context: Harry and Ron are discussing what Harry overheard between Snape and Draco after Slughorn's Christmas party.
+    match_terms:
+      - Unbreakable Vow
+      - magical oath
+      - Fred Weasley
+      - George Weasley
+      - Arthur Weasley
+      - death
+    quote_excerpt_short: "you can't break an Unbreakable Vow"
+    source_note: Ron supplies household-level magical knowledge that an Unbreakable Vow is lethal if broken and serious enough that Arthur reacted furiously when Fred and George nearly induced Ron to make one as a child.
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - unbreakable-vow
+      - magical-oaths
+      - magical-contracts
+      - wizarding-households
+      - fred-and-george
+      - arthur-weasley
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Magical Oaths and Wartime Obligations
+    candidate_section: Consequences of the Unbreakable Vow
+    reason_for_placement: The passage adds the known consequence of breaking the oath and shows that the danger was recognized in wizarding families outside formal school instruction.
+    relevance_to_hogwarts_a_history: A later edition can use this as context for Draco Malfoy's sixth-year mission and for magical obligations that lie beyond ordinary school discipline.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch02-006
+      notes: hbp-ch02-006 records the Unbreakable Vow procedure and Bonder role; this entry adds Ron's explicit statement that breaking the Vow causes death and a childhood misuse example.
+    confidence: high
+    limitations: Ron is explaining from family knowledge rather than citing legal text or formal instruction.
+
+  - id: hbp-ch16-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Sixteen - A Very Frosty Christmas
+    chapter_start_pdf_page: 2688
+    chapter_end_pdf_page: 2708
+    pdf_page: 2691
+    printed_page: null
+    extracted_text_lines: 91-100
+    text_anchor:
+      start_phrase: "I promised Dumbledore I wouldn't wander off"
+      end_phrase: "Dumbledore's top of the list"
+      local_occurrence_note: Harry declines to go to the village because of Dumbledore's restriction, then names Dumbledore as the first person he will report Draco and Snape to.
+    nearby_context: Fred and George leave for the village during the Christmas holiday while Harry and Ron remain at the Burrow.
+    match_terms:
+      - Dumbledore
+      - Burrow
+      - restricted movement
+      - Draco Malfoy
+      - Snape
+      - reporting
+    quote_excerpt_short: "I promised Dumbledore I wouldn't wander off"
+    source_note: Harry treats Dumbledore's off-campus instruction as binding during his Burrow stay and identifies Dumbledore as the primary authority for acting on the Snape-Malfoy information.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - dumbledore-protection
+      - burrow-security
+      - restricted-movement
+      - harry-potter
+      - snape
+      - draco-malfoy
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Second War and Student Protection
+    candidate_section: Off-campus protection under Dumbledore's direction
+    reason_for_placement: The passage shows wartime student protection extending beyond the castle and Dumbledore functioning as the trusted decision-maker for threats connected to Hogwarts students and staff.
+    relevance_to_hogwarts_a_history: A later edition can use this as evidence that Hogwarts-centered protection for Harry continued during holiday stays away from school.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found no prior entry for Dumbledore restricting Harry's Burrow movement or serving as the first reporting authority for this Snape-Malfoy evidence.
+    confidence: medium
+    limitations: The passage does not state the precise protective arrangement or whether it was coordinated with the Ministry, the Order, or the Weasley household.
+
+  - id: hbp-ch16-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Sixteen - A Very Frosty Christmas
+    chapter_start_pdf_page: 2688
+    chapter_end_pdf_page: 2708
+    pdf_page: 2694
+    printed_page: null
+    extracted_text_lines: 216-237
+    text_anchor:
+      start_phrase: "during the year I taught at Hogwarts"
+      end_phrase: "Severus questioned Draco"
+      local_occurrence_note: Lupin explains why he remains grateful to Snape despite Snape exposing his werewolf status and tells Harry to report the Draco matter to Dumbledore.
+    nearby_context: Harry challenges Lupin's trust in Snape after recounting what he overheard between Snape and Draco.
+    match_terms:
+      - Hogwarts
+      - Severus Snape
+      - Wolfsbane Potion
+      - Remus Lupin
+      - werewolf
+      - Dumbledore
+      - Draco Malfoy
+    quote_excerpt_short: "Severus made the Wolfsbane Potion for me every month"
+    source_note: Lupin retrospectively confirms that Snape brewed Wolfsbane perfectly every month during Lupin's Hogwarts teaching year, while also acknowledging that Snape later revealed Lupin's werewolf status.
+    reference_type: school_rule_or_policy
+    era_classification: later_editorial_note
+    topic_tags:
+      - wolfsbane-potion
+      - remus-lupin
+      - professor-snape
+      - werewolf-professor
+      - staff-accommodation
+      - dumbledore-judgment
+      - draco-malfoy
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Staff Appointments and School Safety
+    candidate_section: Wolfsbane Potion and werewolf accommodation
+    reason_for_placement: The passage adds later testimony from the accommodated teacher about the reliability and limits of the Wolfsbane arrangement.
+    relevance_to_hogwarts_a_history: A later edition can cite this as reflective evidence on the staff accommodation that allowed Lupin to teach at Hogwarts in Harry's third year.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - poa-ch18-002
+        - poa-ch20-002
+      notes: poa-ch18-002 explains Wolfsbane Potion as Lupin's Harry-era safety measure, and poa-ch20-002 shows the failure mode when he misses it; this entry adds Lupin's later confirmation that Snape brewed it perfectly every month and that Snape's disclosure still ended Lupin's post.
+    confidence: high
+    limitations: Lupin is speaking informally at Christmas and does not describe a written Hogwarts policy for werewolf staff appointments.
+
+  - id: hbp-ch16-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Sixteen - A Very Frosty Christmas
+    chapter_start_pdf_page: 2688
+    chapter_end_pdf_page: 2708
+    pdf_page: 2696
+    printed_page: null
+    extracted_text_lines: 249-291
+    text_anchor:
+      start_phrase: "I've been living among my fellows"
+      end_phrase: "revenge ourselves on normal people"
+      local_occurrence_note: Lupin describes Dumbledore sending him to spy among werewolves, then explains Greyback's recruitment and targeting of children.
+    nearby_context: Harry asks Lupin what he has been doing lately after Lupin comments on Snape, Dumbledore, and the Order's trust.
+    match_terms:
+      - werewolves
+      - Dumbledore
+      - spy
+      - Fenrir Greyback
+      - Voldemort
+      - children
+      - Second War
+    quote_excerpt_short: "Dumbledore wanted a spy and here I was"
+    source_note: Lupin reports that Dumbledore assigned him to live among werewolves as an Order spy and identifies Fenrir Greyback as Voldemort's child-targeting werewolf recruiter.
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - werewolf-spy
+      - fenrir-greyback
+      - dumbledore
+      - order-of-the-phoenix
+      - voldemort
+      - second-war
+      - child-safety
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Second War and Magical Beings
+    candidate_section: Werewolf recruitment and Order intelligence
+    reason_for_placement: The passage links Dumbledore's wartime intelligence network to werewolf marginalization and to a threat specifically aimed at children.
+    relevance_to_hogwarts_a_history: A later edition can use this to explain the Second War danger surrounding Hogwarts-age children and the broader context of Lupin's post-Hogwarts work.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch02-002
+      notes: hbp-ch02-002 records Snape's claimed Hogwarts intelligence role for Voldemort and the Order; this entry adds Dumbledore's separate use of Lupin as a werewolf-community spy and identifies Greyback's child-focused recruitment threat.
+    confidence: high
+    limitations: The evidence comes from Lupin's personal report and does not document the full Order mission or Greyback's later actions at Hogwarts.
+
+  - id: hbp-ch16-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Sixteen - A Very Frosty Christmas
+    chapter_start_pdf_page: 2688
+    chapter_end_pdf_page: 2708
+    pdf_page: 2697
+    printed_page: null
+    extracted_text_lines: 301-328
+    text_anchor:
+      start_phrase: "The Half-Blood Prince is someone who used to go to Hogwarts"
+      end_phrase: "he never asked us to call him 'Prince'"
+      local_occurrence_note: Harry asks Lupin about the Prince and Levicorpus; Lupin remembers the jinx being fashionable in his fifth year and rules out James, Sirius, and himself as the Prince.
+    nearby_context: Harry has connected the Prince's marginal spells to James's Pensieve use of Levicorpus on Snape.
+    match_terms:
+      - Half-Blood Prince
+      - Hogwarts
+      - Potions book
+      - Levicorpus
+      - Lupin
+      - James Potter
+      - school jinxes
+    quote_excerpt_short: "a great vogue during my time at Hogwarts"
+    source_note: Lupin confirms that Levicorpus was widely fashionable during his fifth year at Hogwarts and frames jinxes as student spells that come and go in popularity.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - levicorpus
+      - school-jinxes
+      - marauders-era
+      - half-blood-prince
+      - student-spellcraft
+      - remus-lupin
+      - james-potter
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Textbooks, Marginalia, and Informal Knowledge
+    candidate_section: Student jinx fashions before 1984
+    reason_for_placement: The passage dates Levicorpus as a popular school jinx during the Marauders' fifth year and distinguishes classroom spell fashion from formal curriculum.
+    relevance_to_hogwarts_a_history: A later edition can use this as pre-1984 evidence for informal spell circulation among students.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch12-003
+        - ootp-ch28-007
+      notes: hbp-ch12-003 records Levicorpus as a Prince marginal spell, and ootp-ch28-007 records Marauders-era hexing culture; this entry adds Lupin's direct dating of Levicorpus as a months-long fifth-year Hogwarts fashion.
+    confidence: high
+    limitations: Lupin cannot confirm whether the Prince invented Levicorpus or whether the spell was ever formally taught.
+
+  - id: hbp-ch16-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Sixteen - A Very Frosty Christmas
+    chapter_start_pdf_page: 2688
+    chapter_end_pdf_page: 2708
+    pdf_page: 2698
+    printed_page: null
+    extracted_text_lines: 331-348
+    text_anchor:
+      start_phrase: "How old is this book, Harry?"
+      end_phrase: "had been at Hogwarts fifty years ago"
+      local_occurrence_note: Lupin suggests checking the publication date; Harry later finds that Advanced Potion-Making is nearly fifty years old.
+    nearby_context: Harry is trying to determine whether the Prince could be one of the Marauders after asking Lupin about Levicorpus.
+    match_terms:
+      - Advanced Potion-Making
+      - publication date
+      - Half-Blood Prince
+      - fifty years
+      - Hogwarts
+      - Potions
+      - school textbooks
+    quote_excerpt_short: "It was nearly fifty years old"
+    source_note: Harry checks the publication date of his Advanced Potion-Making copy and determines that the textbook predates the Marauders' Hogwarts years by decades.
+    reference_type: explicit_in_universe_source
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - advanced-potion-making
+      - half-blood-prince
+      - old-textbook
+      - potions
+      - school-textbooks
+      - marauders-era
+      - publication-date
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Textbooks, Marginalia, and Informal Knowledge
+    candidate_section: Dating the Half-Blood Prince's annotated book
+    reason_for_placement: The passage gives a concrete dating clue for the annotated classroom book and narrows the possible era of the Prince's Hogwarts attendance.
+    relevance_to_hogwarts_a_history: A later editorial note can use this to anchor inherited textbook evidence and informal marginalia to a pre-Marauders Hogwarts generation.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch09-007
+        - hbp-ch10-001
+        - hbp-ch12-003
+      notes: hbp-ch09-007 records the initial discovery of the annotated book, hbp-ch10-001 records continued use, and hbp-ch12-003 records named marginal spells; this entry adds the publication-date clue that places the book nearly fifty years before Harry's sixth year.
+    confidence: high
+    limitations: The publication date dates the printed book, not necessarily the exact year when the Prince wrote the annotations.
+
+  - id: hbp-ch16-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Sixteen - A Very Frosty Christmas
+    chapter_start_pdf_page: 2688
+    chapter_end_pdf_page: 2708
+    pdf_page: 2703
+    printed_page: null
+    extracted_text_lines: 516-660
+    text_anchor:
+      start_phrase: "Dumbledore has been very protective of you"
+      end_phrase: "Dumbledore's man through and through"
+      local_occurrence_note: Scrimgeour privately pressures Harry to appear Ministry-aligned, offers Auror access, asks about Dumbledore's absences, and is rebuffed with a warning about interference at Hogwarts.
+    nearby_context: Scrimgeour uses Percy's Christmas visit as cover to speak to Harry alone at the Burrow.
+    match_terms:
+      - Scrimgeour
+      - Ministry of Magic
+      - Chosen One
+      - Auror Office
+      - Dumbledore
+      - Hogwarts
+      - Dolores Umbridge
+    quote_excerpt_short: "Dumbledore has been very protective of you"
+    source_note: Scrimgeour says Dumbledore blocked Ministry access to Harry, tries to use Harry's Chosen One reputation for public morale, offers Auror access, and asks about Dumbledore's absences from Hogwarts.
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - scrimgeour
+      - ministry-publicity
+      - chosen-one
+      - auror-office
+      - dumbledore
+      - hogwarts-headmaster
+      - ministry-interference
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Second War and Hogwarts Governance
+    candidate_section: Ministry pressure, Harry's public role, and Dumbledore's independence
+    reason_for_placement: The passage shows the Ministry attempting to recruit a Hogwarts student as a morale symbol while probing Dumbledore's activities and meeting resistance rooted in prior Ministry interference at Hogwarts.
+    relevance_to_hogwarts_a_history: A later edition can use this as evidence for wartime tension between the Ministry and Hogwarts leadership after Umbridge's failed intervention.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch03-001
+        - hbp-ch07-003
+      notes: hbp-ch03-001 records public Chosen One rumors, and hbp-ch07-003 records their effect on student and teacher attention; this entry adds Scrimgeour's direct attempt to turn that reputation into Ministry propaganda and a probe into Dumbledore's Hogwarts absences.
+    confidence: high
+    limitations: The exchange occurs off campus at the Burrow and presents Ministry motives through a private political approach rather than a formal decree.

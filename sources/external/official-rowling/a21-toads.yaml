@@ -1,0 +1,146 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A21
+  source_file: resources/external/official-rowling/harrypotter-com/a21-toads.md
+  title: Toads
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/toads
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/toads
+  capture_completeness: complete
+  content_sha256: ee28221765aa951dac9ea33a8fbecda1be1dee74a2956764255ccfaeaece5076
+  processed_date: '2026-08-15'
+  processor_notes: Complete A21 snapshot read and grounded Hogwarts evidence extracted.
+
+entries:
+  - id: ext-a21-001
+    source_file: resources/external/official-rowling/harrypotter-com/a21-toads.md
+    source_id: A21
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/toads
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Of the three approved animals
+      end_phrase: least popular.
+      local_occurrence_note: Opening paragraph, first sentence.
+    nearby_context: The article contrasts the continuing pet allowance with the toad's longstanding lack of popularity.
+    match_terms:
+      - approved pets
+      - student toads
+      - hogwarts pet policy
+    quote_excerpt_short: the three approved animals permitted to students as pets at Hogwarts
+    source_note: Hogwarts permits three approved types of student pet; the toad has long been the least popular of them.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - toads
+      - student-pets
+      - pet-policy
+      - hogwarts
+    candidate_part: School Life and Administration
+    candidate_chapter: Admissions and Student Provisioning
+    candidate_section: Approved Student Pets
+    reason_for_placement: Defines a standing student-pet allowance and the toad's place within it.
+    relevance_to_hogwarts_a_history: Use as a Harry-era confirmation of the school's pet policy, not as a date for its origin.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed student-pet entries provide broader context but no same three-animal allowance or toad-popularity claim.
+      audit:
+        query_tags:
+          - pet-policy
+          - toads
+        candidates: []
+    confidence: high
+    limitations: The article does not name the other two permitted animals or date the policy's introduction.
+
+  - id: ext-a21-002
+    source_file: resources/external/official-rowling/harrypotter-com/a21-toads.md
+    source_id: A21
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/toads
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Centuries ago, in blood-thirstier times
+      end_phrase: other charms.
+      local_occurrence_note: Opening paragraph, historical account before the Ministry legislation sentence.
+    nearby_context: The retrospective account describes pupils bringing live toads to Hogwarts in an earlier, more violent period.
+    match_terms:
+      - toad potion ingredients
+      - charms materials
+      - historical student practice
+    quote_excerpt_short: they routinely brought boxes of toads to school for use in potions and in other charms
+    source_note: Centuries ago, Hogwarts pupils routinely brought boxes of toads for potion work and other charms.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - toads
+      - potions
+      - historical-practice
+      - hogwarts
+    candidate_part: Curriculum and Material Culture
+    candidate_chapter: Potions Instruction and Materials
+    candidate_section: Animal-Derived Materials
+    reason_for_placement: Documents a past Hogwarts practice involving living animals in practical magic.
+    relevance_to_hogwarts_a_history: Supports a historically qualified account of older Potion and charms material practices before later welfare reform.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed entry matches the historical use of student-supplied toads in Potions and charms.
+      audit:
+        query_tags:
+          - historical-practice
+          - toads
+        candidates: []
+    confidence: high
+    limitations: The retrospective phrase “centuries ago” supplies no precise dates, and the account does not identify particular recipes or charms.
+
+  - id: ext-a21-003
+    source_file: resources/external/official-rowling/harrypotter-com/a21-toads.md
+    source_id: A21
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/toads
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Over time, as the Ministry
+      end_phrase: wild in the grounds.
+      local_occurrence_note: Opening paragraph, legal-reform passage following the historical account.
+    nearby_context: The account attributes a change in Hogwarts animal use to Ministry animal-cruelty legislation and notes the resulting rarity of live toads at school.
+    match_terms:
+      - ministry animal cruelty legislation
+      - toad welfare reform
+      - hogwarts animal use
+    quote_excerpt_short: such practices were gradually outlawed
+    source_note: Ministry animal-cruelty legislation gradually prohibited the older use of toads, after which live toads became much rarer at Hogwarts except as wild animals on the grounds.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - toads
+      - animal-welfare
+      - ministry-legislation
+      - hogwarts
+    candidate_part: School Life and Administration
+    candidate_chapter: Ministry Regulation and School Practice
+    candidate_section: Animal Welfare Reform
+    reason_for_placement: Connects Ministry legislation to a long-term change in a Hogwarts practice.
+    relevance_to_hogwarts_a_history: Provides a historically qualified example of Ministry regulation reshaping school material culture and animal treatment.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed entry matches this Ministry animal-welfare reform or its stated effect on Hogwarts toad use.
+      audit:
+        query_tags:
+          - animal-welfare
+          - toads
+        candidates: []
+    confidence: high
+    limitations: The article gives legislation subsection numbers but no statute title or dates, and it does not establish the pace or scope of enforcement.

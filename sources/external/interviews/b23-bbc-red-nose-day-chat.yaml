@@ -1,0 +1,143 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B23
+  source_file: resources/external/interviews/accio-quote/b23-bbc-red-nose-day-chat.md
+  title: Red Nose Day Chat, BBC Online , March 12, 2001
+  author: J.K. Rowling
+  source_site: Accio Quote
+  source_class: preservation_transcription
+  authority: D
+  publication_date: '12 March 2001'
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/2001/0301-bbc-rednose.htm
+  capture_completeness: complete
+  content_sha256: a52d919fb36c4069efb8e4de05df65b03592e3b97dcf15ee2a89910c30bb2c14
+  processed_date: '2026-08-24'
+  processor_notes: Complete snapshot read; extracted one pre-1984 historical-context item and one explicitly later-era cross-reference.
+
+entries:
+  - id: ext-b23-001
+    source_file: resources/external/interviews/accio-quote/b23-bbc-red-nose-day-chat.md
+    source_id: B23
+    source_url: https://www.accio-quote.org/articles/2001/0301-bbc-rednose.htm
+    source_section: Dumbledore and Snape ages
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: How old is Prof. Dumbledore and Prof. Snape?
+      end_phrase: Snape's 35 or 36
+      local_occurrence_note: Early question-and-answer exchange, following the discussion of Goblet of Fire's working title.
+    nearby_context: Rowling answers a reader asking for Dumbledore's and Snape's ages.
+    match_terms:
+      - dumbledore
+      - wizard-longevity
+      - hogwarts-staff
+    quote_excerpt_short: Dumbledore's about 150 years old... Wizards have a longer life expectancy than us Muggles.
+    source_note: Rowling places Dumbledore at roughly 150 in 2001 and attributes the age to wizards' longer life expectancy than Muggles.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - dumbledore
+      - hogwarts-staff
+      - wizard-longevity
+    candidate_part: 'Part II: People and Governance'
+    candidate_chapter: Headmasters and School Leadership
+    candidate_section: 'Albus Dumbledore: longevity and tenure context'
+    reason_for_placement: Provides a narrow biographical context for a long-serving Hogwarts headmaster.
+    relevance_to_hogwarts_a_history: Supports a pre-1984 note on Dumbledore's lifespan and historical tenure context; it is an approximate claim from a later authority-D preservation transcript.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed Dumbledore and staff entries address other facts, not Dumbledore's approximate age or wizard longevity.
+      audit:
+        query_tags:
+          - dumbledore
+          - hogwarts-staff
+          - wizard-longevity
+        candidates:
+          - id: dh-ch11-005
+            disposition: distinct
+          - id: ext-a33-001
+            disposition: distinct
+          - id: beedle-ch02-002
+            disposition: distinct
+          - id: beedle-ch02-003
+            disposition: distinct
+          - id: cos-ch02-003
+            disposition: distinct
+          - id: cos-ch04-001
+            disposition: distinct
+          - id: cos-ch07-004
+            disposition: distinct
+          - id: cos-ch10-006
+            disposition: distinct
+          - id: cos-ch12-003
+            disposition: distinct
+          - id: cos-ch12-006
+            disposition: distinct
+    confidence: medium
+    limitations: The age is explicitly approximate, and the preservation transcript has authority D rather than primary official status.
+
+  - id: ext-b23-002
+    source_file: resources/external/interviews/accio-quote/b23-bbc-red-nose-day-chat.md
+    source_id: B23
+    source_url: https://www.accio-quote.org/articles/2001/0301-bbc-rednose.htm
+    source_section: Other wizarding schools
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: You have mentioned that there are wizard schools all over the world.
+      end_phrase: I'm loyal to Hogwarts!
+      local_occurrence_note: Middle question-and-answer exchange about whether Rowling would write a series about other wizarding schools.
+    nearby_context: Rowling responds to a reader about schools outside Hogwarts and possible future stories about them.
+    match_terms:
+      - wizarding-schools
+      - international-magical-education
+      - hogwarts
+    quote_excerpt_short: I've already written about a couple of them, but a whole series, no... I'm loyal to Hogwarts!
+    source_note: Rowling says that Goblet of Fire had already depicted two other wizarding schools, while declining to plan a separate series about them.
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hogwarts
+      - international-magical-education
+      - wizarding-schools
+    candidate_part: 'Part I: The School in Context'
+    candidate_chapter: Hogwarts and the International Magical World
+    candidate_section: Other wizarding schools
+    reason_for_placement: Provides an authorial cross-reference to Hogwarts' place among other magical schools.
+    relevance_to_hogwarts_a_history: 'Later Harry-era confirmation only: retain as a contextual cross-reference, not as a pre-1984 historical assertion about the founding or operation of other schools.'
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The leading indexed entry independently supports the wider school network; this transcript adds later authorial confirmation but makes no same claim about particular schools.
+      audit:
+        query_tags:
+          - hogwarts
+          - international-magical-education
+          - wizarding-schools
+        candidates:
+          - id: gof-ch07-003
+            disposition: corroborating
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch10-006
+            disposition: distinct
+          - id: dh-ch15-002
+            disposition: distinct
+          - id: dh-ch15-007
+            disposition: distinct
+          - id: dh-ch16-002
+            disposition: distinct
+          - id: dh-ch22-007
+            disposition: distinct
+          - id: dh-ch24-001
+            disposition: distinct
+          - id: dh-ch24-007
+            disposition: distinct
+          - id: dh-ch27-004
+            disposition: distinct
+    confidence: medium
+    limitations: The response identifies neither school and concerns authorial plans; it does not date, describe, or independently establish the schools' histories.

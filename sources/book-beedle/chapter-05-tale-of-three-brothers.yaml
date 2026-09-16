@@ -1,0 +1,180 @@
+source_unit:
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Tale of the Three Brothers and Commentary
+  chapter_start_pdf_page: 52
+  chapter_end_pdf_page: 62
+  boundary_confidence: high
+  boundary_notes: The tale begins on the right side of shared PDF page 52 and continues through page 55; Dumbledore's commentary occupies pages 56-62, ending on printed page 107.
+  processed_date: '2026-08-15'
+  processor_notes: All pages were rendered and checked against the embedded text; the tale's plot was treated as folklore, while Dumbledore's source criticism and documented wand history were retained.
+entries:
+- id: beedle-ch05-001
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Tale of the Three Brothers and Commentary
+  chapter_start_pdf_page: 52
+  chapter_end_pdf_page: 62
+  pdf_page: 56
+  printed_page: 94
+  extracted_text_lines: PDF text lines 2188-2215
+  text_anchor:
+    start_phrase: This story made a profound impression on me as a boy
+    end_phrase: Grumble the Grubby Goat
+    local_occurrence_note: Opening autobiographical paragraph of Dumbledore's commentary.
+  nearby_context: Dumbledore explains that his mother told him the tale and that he repeatedly chose it over Aberforth's favorite.
+  match_terms:
+  - Dumbledore
+  - mother
+  - bedtime
+  - Aberforth
+  - childhood
+  quote_excerpt_short: the tale I requested more often than any other at bedtime
+  source_note: Dumbledore first heard the Three Brothers from his mother and chose it most often at bedtime, while Aberforth preferred Grumble the Grubby Goat.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - albus-dumbledore
+  - aberforth-dumbledore
+  - wizarding-childhood
+  - oral-tradition
+  - tales-of-beedle-the-bard
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: The Tales of Beedle the Bard
+  reason_for_placement: The future headmaster's recollection provides direct evidence of family transmission and individual story preferences.
+  relevance_to_hogwarts_a_history: It adds childhood cultural context to Dumbledore's later scholarship and his Beedle bequest.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: dh-ch07-007
+    notes: The novel records Dumbledore's Beedle bequest and wizarding childhood tradition; this commentary gives his personal first encounter and favorite tale.
+  confidence: high
+  limitations: Dumbledore supplies no age or date for the bedtime recollection.
+- id: beedle-ch05-002
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Tale of the Three Brothers and Commentary
+  chapter_start_pdf_page: 52
+  chapter_end_pdf_page: 62
+  pdf_page: 56
+  printed_page: 95-96
+  extracted_text_lines: PDF text lines 2217-2258
+  text_anchor:
+    start_phrase: a curious legend has grown up around this story
+    end_phrase: persists in believing that Beedle was sending them a coded message
+    local_occurrence_note: Dumbledore's account of the Deathly Hallows interpretation.
+  nearby_context: Dumbledore contrasts the tale's warning about death with belief that the three gifts are real and confer mastery over death.
+  match_terms:
+  - Elder Wand
+  - Resurrection Stone
+  - Invisibility Cloak
+  - master of Death
+  - coded message
+  quote_excerpt_short: a curious legend has grown up around this story
+  source_note: A minority tradition reads Beedle's three gifts as real Hallows whose combined ownership makes a person 'master of Death,' contrary to the tale's moral.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - deathly-hallows
+  - elder-wand
+  - resurrection-stone
+  - invisibility-cloak
+  - master-of-death
+  - wizarding-folklore
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: The Tales of Beedle the Bard
+  reason_for_placement: The commentary distinguishes the source text from a later interpretive tradition around it.
+  relevance_to_hogwarts_a_history: It supports careful source criticism for the Beedle bequest and Dumbledore's relationship to Hallows lore.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: dh-ch21-003
+    notes: The novel names the three Hallows and master-of-Death claim; Dumbledore's commentary identifies it as a minority legend contradicting the tale's moral.
+  confidence: high
+  limitations: The passage does not identify the legend's origin, adherents, or date of formation.
+- id: beedle-ch05-003
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Tale of the Three Brothers and Commentary
+  chapter_start_pdf_page: 52
+  chapter_end_pdf_page: 62
+  pdf_page: 59
+  printed_page: 100-101
+  extracted_text_lines: PDF text lines 2314-2365
+  text_anchor:
+    start_phrase: wizards down the ages have claimed to possess
+    end_phrase: died as he had lived, in a ferocious duel with a wizard known as Egbert
+    local_occurrence_note: Dumbledore begins tracing documented claims about an unusually powerful elder wand.
+  nearby_context: He lists alternate names, wand superstitions, and the earliest well-documented owner claim.
+  match_terms:
+  - Elder Wand
+  - Wand of Destiny
+  - Deathstick
+  - Emeric the Evil
+  - Egbert
+  quote_excerpt_short: first well-documented mention of a wand made of elder
+  source_note: Dumbledore identifies Emeric the Evil as the first well-documented owner of a dangerous elder wand and records Egbert killing him in a duel.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - elder-wand
+  - emeric-the-evil
+  - egbert
+  - wand-of-destiny
+  - deathstick
+  - wandlore
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: The Tales of Beedle the Bard
+  reason_for_placement: Dumbledore separates well-documented wand history from the supernatural origin claimed by the tale.
+  relevance_to_hogwarts_a_history: It adds source-critical background for an artifact later tied directly to Dumbledore and Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: dh-ch21-005
+    notes: The novel supplies the larger claimed ownership chain; this commentary marks Emeric as the first well-documented case and distinguishes evidence from legend.
+  confidence: high
+  limitations: The passage cannot prove that Emeric's wand was the unique Elder Wand rather than another unusually powerful elder wand.
+- id: beedle-ch05-004
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Tale of the Three Brothers and Commentary
+  chapter_start_pdf_page: 52
+  chapter_end_pdf_page: 62
+  pdf_page: 60
+  printed_page: 103-105
+  extracted_text_lines: PDF text lines 2367-2417
+  text_anchor:
+    start_phrase: wands do indeed absorb the expertise of those who use them
+    end_phrase: the equally notorious Loxias, who took the wand
+    local_occurrence_note: The entry is anchored on PDF page 60 and continues onto PDF page 61 in Dumbledore's historical and technical discussion of wand succession.
+  nearby_context: Across PDF pages 60-61, the commentary discusses wand-user compatibility, funeral customs, Godelot's studies, Hereward, Barnabas Deverill, and Loxias.
+  match_terms:
+  - wand expertise
+  - second-hand wand
+  - burying or burning
+  - Godelot
+  - Hereward
+  - Loxias
+  quote_excerpt_short: wands do indeed absorb the expertise of those who use them
+  source_note: Wands can learn from their users; second-hand incompatibility and burial or burning with the dead limited succession, while the claimed Elder Wand passed violently through named owners.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - wandlore
+  - wand-compatibility
+  - funeral-customs
+  - godelot
+  - hereward
+  - barnabas-deverill
+  - loxias
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: The Tales of Beedle the Bard
+  reason_for_placement: The passage shows Dumbledore testing Beedle-linked legend against technical wandlore and documented succession.
+  relevance_to_hogwarts_a_history: It supplies context for wand allegiance and inheritance relevant to Dumbledore's later ownership while preserving evidentiary caution.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: dh-ch21-005
+    notes: The novel names much of the chain; this commentary adds general wand-learning and burial customs and Dumbledore's evidentiary caution.
+  confidence: high
+  limitations: The evidence spans PDF pages 60-61; several ownership transitions are inferred, and Dumbledore says later history becomes difficult to trace.

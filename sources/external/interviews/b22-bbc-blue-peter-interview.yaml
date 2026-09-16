@@ -1,0 +1,210 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B22
+  source_file: resources/external/interviews/accio-quote/b22-bbc-blue-peter-interview.md
+  manifest_id: external-B22
+  logical_id: B22
+  title: "Interview transcript (partial), Blue Peter (cBBC), 12 March, 2001"
+  author: "J.K. Rowling"
+  source_site: "Accio Quote"
+  original_publisher: "BBC Blue Peter"
+  source_class: "preservation_transcription"
+  authority: "D"
+  publication_date: "March 2001"
+  original_url: null
+  retrieval_url: "https://www.accio-quote.org/articles/2001/0301-bluepeter.htm"
+  retrieved_at: "2026-08-15"
+  archive_url: null
+  carrier_type: "preservation_transcript"
+  is_primary: false
+  is_official: false
+  capture_completeness: "complete"
+  sha256: "771908986278f8a415e7fb98edfc1331cf3ae24f69fa09be91be464174a5044a"
+  content_sha256: "771908986278f8a415e7fb98edfc1331cf3ae24f69fa09be91be464174a5044a"
+  local_path: "resources/external/interviews/accio-quote/b22-bbc-blue-peter-interview.md"
+  relevance:
+    - "hogwarts"
+    - "rowling_interview"
+    - "author_commentary"
+  notes: "Accio Quote preservation carrier; original outlet: BBC Blue Peter."
+  processed_date: "2026-08-24"
+  processor_notes: "Complete preservation-transcription snapshot read; one qualified pre-1984 historical candidate and two explicitly excluded post-1984 confirmations extracted."
+
+entries:
+  - id: ext-b22-001
+    source_file: resources/external/interviews/accio-quote/b22-bbc-blue-peter-interview.md
+    source_id: B22
+    source_url: https://www.accio-quote.org/articles/2001/0301-bluepeter.htm
+    source_section: Answer to the child question on whether Quidditch is based on a Muggle game.
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Completely new.
+      end_phrase: because I've been watching this inside my head for so long.
+      local_occurrence_note: Rowling's full answer to the child question about Quidditch's origin and design.
+    nearby_context: Rowling answers whether Quidditch was based on a Muggle game, describing it as an invented game designed around simultaneous play by more than one ball.
+    match_terms:
+      - quidditch
+      - invented game
+      - multiple balls
+      - school sport
+    quote_excerpt_short: "Completely new. ... I just made it up."
+    source_note: Rowling calls Quidditch wholly invented and says she wanted a game with more than one ball in play, a qualified authorial rationale for its distinctive structure.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - quidditch
+      - rules
+      - sport
+    candidate_part: "Part III: Student Life"
+    candidate_chapter: "Student Life and House Identity"
+    candidate_section: "Quidditch and School Culture"
+    reason_for_placement: The comment contextualizes Quidditch's unusual game structure within Hogwarts student life, while making no claim about a Harry-era event.
+    relevance_to_hogwarts_a_history: May be used only as qualified authorial commentary on the long-standing school sport; it supplies no in-universe date or documentary history.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries independently cover Quidditch's school culture, rules, and authorial premise, but none gives this same multiple-ball design rationale.
+      audit:
+        query_tags:
+          - quidditch
+          - rules
+          - sport
+        candidates:
+          - id: ext-b16-001
+            disposition: corroborating
+          - id: cos-ch01-001
+            disposition: corroborating
+          - id: cos-ch07-001
+            disposition: corroborating
+          - id: cos-ch14-003
+            disposition: distinct
+          - id: dh-ch07-005
+            disposition: distinct
+          - id: dh-ch10-004
+            disposition: distinct
+          - id: ext-b02-003
+            disposition: corroborating
+          - id: ext-b11-002
+            disposition: corroborating
+          - id: ext-b18-002
+            disposition: corroborating
+          - id: gof-ch05-005
+            disposition: distinct
+    confidence: low
+    limitations: Authority-D preservation transcription rather than the original broadcast; this is retrospective author commentary with no precise in-universe date and cannot independently establish Quidditch history.
+
+  - id: ext-b22-002
+    source_file: resources/external/interviews/accio-quote/b22-bbc-blue-peter-interview.md
+    source_id: B22
+    source_url: https://www.accio-quote.org/articles/2001/0301-bluepeter.htm
+    source_section: Answer to the child question about Fluffy and Arabella Figg.
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: anything that's dangerous ends up in the forest
+      end_phrase: so he's roaming round in the forest
+      local_occurrence_note: Rowling's response explaining Fluffy's release after the first book's events.
+    nearby_context: Asked what became of Fluffy, Rowling says dangerous Hogwarts-associated creatures end up in the forest and identifies Fluffy as roaming there.
+    match_terms:
+      - fluffy
+      - forbidden forest
+      - dangerous creatures
+      - hogwarts grounds
+    quote_excerpt_short: "anything that's dangerous ends up in the forest"
+    source_note: Rowling says Fluffy was released into the forest under a generalizing comment about dangerous things at Hogwarts, but the stated disposition follows the 1991–92 story.
+    reference_type: security_or_protection
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - fluffy
+      - forbidden-forest
+      - security
+    candidate_part: "The Castle and Its Grounds"
+    candidate_chapter: "The Grounds and Edge of the Forest"
+    candidate_section: "Dangerous Creatures and Forest Placement"
+    reason_for_placement: The comment concerns how a dangerous creature was placed on the Hogwarts grounds, but it is retained only as excluded post-1984 context.
+    relevance_to_hogwarts_a_history: Do not use in the original pre-1984 history; at most, it is later editorial context about a creature disposition during Harry's first year.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed sources establish forest geography, residents, and later security uses, but none records Fluffy's release or this authorial generalization.
+      audit:
+        query_tags:
+          - fluffy
+          - forbidden-forest
+          - security
+        candidates:
+          - id: cos-ch01-001
+            disposition: corroborating
+          - id: cos-ch15-003
+            disposition: corroborating
+          - id: cos-ch15-004
+            disposition: corroborating
+          - id: cos-ch15-005
+            disposition: corroborating
+          - id: cos-ch15-006
+            disposition: corroborating
+          - id: dh-ch23-004
+            disposition: distinct
+          - id: dh-ch32-001
+            disposition: distinct
+          - id: dh-ch34-005
+            disposition: distinct
+          - id: dh-ch34-006
+            disposition: distinct
+          - id: dh-ch34-007
+            disposition: distinct
+    confidence: low
+    limitations: Authority-D preservation transcription; the interview gives no formal policy or date, and the expressly referenced Fluffy event belongs after the pre-1984 scope.
+
+  - id: ext-b22-003
+    source_file: resources/external/interviews/accio-quote/b22-bbc-blue-peter-interview.md
+    source_id: B22
+    source_url: https://www.accio-quote.org/articles/2001/0301-bluepeter.htm
+    source_section: Answer to the child question about Fluffy and Arabella Figg.
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: yes, Arabella Figg is Mrs Figg
+      end_phrase: where she fits into things
+      local_occurrence_note: Rowling confirms the Book One Mrs Figg reference and defers fuller explanation to Book Five.
+    nearby_context: In the same answer, Rowling confirms that Arabella Figg is the Mrs Figg mentioned in the first book and says her role would be clarified in Book Five.
+    match_terms:
+      - arabella figg
+      - mrs figg
+      - book five
+      - cross reference
+    quote_excerpt_short: "Arabella Figg is Mrs Figg"
+    source_note: Rowling confirms that Arabella Figg and the first book's Mrs Figg are the same person, while deferring her role to the later fifth-book narrative.
+    reference_type: cross_reference_candidate
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - arabella-figg
+      - book-five
+      - mrs-figg
+    candidate_part: "Protective Magic and Security"
+    candidate_chapter: "Off-Campus Protection of Students"
+    candidate_section: "Mrs Figg's Identity and Later Role"
+    reason_for_placement: The cross-reference clarifies a later Harry-era character connection and is recorded solely as excluded editorial context.
+    relevance_to_hogwarts_a_history: Exclude from the original pre-1984 history; the confirmation concerns a character introduced in Harry's childhood and developed in Book Five.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed Book Five entries independently establish Figg's later off-campus role, but none duplicates this retrospective Book One identity confirmation.
+      audit:
+        query_tags:
+          - arabella-figg
+          - book-five
+          - mrs-figg
+        candidates:
+          - id: ootp-ch01-002
+            disposition: corroborating
+          - id: ootp-ch02-001
+            disposition: corroborating
+          - id: ootp-ch08-005
+            disposition: corroborating
+    confidence: low
+    limitations: Authority-D preservation transcription; the remark is retrospective author commentary and explicitly points to post-1984, Book Five material rather than pre-1984 institutional history.

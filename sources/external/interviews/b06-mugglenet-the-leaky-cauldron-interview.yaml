@@ -1,0 +1,253 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B06
+  source_file: resources/external/interviews/accio-quote/b06-mugglenet-the-leaky-cauldron-interview.md
+  title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet interview Joanne Kathleen Rowling: Part Two," The Leaky Cauldron , 16 July 2005'
+  author: J.K. Rowling
+  source_site: Accio Quote
+  source_class: preservation_transcription
+  authority: D
+  publication_date: 'July 2005, Part 2'
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-2.htm
+  capture_completeness: complete
+  content_sha256: b73f95379572716ed7da40dc5f87be2b67cd4cf0263a5db1f5f844b3b24c90b5
+  processed_date: '2026-08-15'
+  processor_notes: Complete preservation transcription read; extracted bounded Hogwarts and wizarding-history claims with carrier limitations retained.
+
+entries:
+  - id: ext-b06-001
+    source_file: resources/external/interviews/accio-quote/b06-mugglenet-the-leaky-cauldron-interview.md
+    source_id: B06
+    source_url: https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-2.htm
+    source_section: Peeves and the castle
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Why does Dumbledore allow Peeves to stay in the castle?
+      end_phrase: Then it’s going to start leaking again.
+      local_occurrence_note: Early interview exchange on Dumbledore's inability to remove or permanently control Peeves.
+    nearby_context: Rowling compares Peeves to dry rot or a persistent plumbing problem in an old building and calls his obedience to Dumbledore only alleged.
+    match_terms:
+      - peeves
+      - castle residency
+      - dumbledore authority
+    quote_excerpt_short: It comes with the building. You’re stuck.
+    source_note: Rowling says Peeves cannot be removed from Hogwarts and is bound up with the building; Dumbledore can only improve his behaviour temporarily.
+    reference_type: magical_architecture
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hogwarts
+      - magical-architecture
+      - peeves
+    candidate_part: Hogwarts inhabitants and daily life
+    candidate_chapter: Resident ghosts and poltergeists
+    candidate_section: Peeves and the castle's intractable residency
+    reason_for_placement: The claim describes a permanent castle inhabitant and the practical limit on headmasterial control over him.
+    relevance_to_hogwarts_a_history: Useful as qualified background on Peeves' long-standing residence and the castle's unusually persistent magical conditions.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The official Peeves account corroborates that he is difficult to expel, but this interview adds the building-bound formulation and Dumbledore's limited control.
+      audit:
+        query_tags:
+          - hogwarts
+          - magical-architecture
+          - peeves
+        candidates:
+          - id: dh-ch27-005
+            disposition: distinct
+          - id: dh-ch28-007
+            disposition: distinct
+          - id: ext-a14-003
+            disposition: distinct
+          - id: ext-a16-001
+            disposition: corroborating
+          - id: ext-a16-002
+            disposition: distinct
+          - id: cos-ch08-005
+            disposition: distinct
+          - id: cos-ch11-006
+            disposition: distinct
+          - id: cos-ch11-007
+            disposition: distinct
+          - id: cos-ch17-001
+            disposition: distinct
+          - id: dh-ch01-001
+            disposition: distinct
+    confidence: medium
+    limitations: This is a 2005 interview preserved by a third-party transcription; it supplies no date or mechanism for Peeves' attachment to the castle.
+
+  - id: ext-b06-002
+    source_file: resources/external/interviews/accio-quote/b06-mugglenet-the-leaky-cauldron-interview.md
+    source_id: B06
+    source_url: https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-2.htm
+    source_section: Sorting Hat accuracy
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Has the sorting hat ever been wrong?
+      end_phrase: No. [laugh] Sorry.
+      local_occurrence_note: Mid-interview question-and-answer immediately before discussion of the founders' role in the Hat's voice.
+    nearby_context: Rowling twice answers no when asked whether the Sorting Hat has ever made a wrong decision.
+    match_terms:
+      - sorting hat
+      - sorting decisions
+      - sorting errors
+    quote_excerpt_short: Has the sorting hat ever been wrong? No.
+    source_note: In this interview, Rowling states that the Sorting Hat has never made an incorrect Sorting decision.
+    reference_type: house_system
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hogwarts
+      - house-system
+      - sorting-hat
+    candidate_part: Ceremonies and School Traditions
+    candidate_chapter: The Sorting Ceremony
+    candidate_section: Claims about the Sorting Hat's accuracy
+    reason_for_placement: The assertion bears directly on the reliability claimed for Hogwarts' recurring House-assignment institution.
+    relevance_to_hogwarts_a_history: It can be presented as a 2005 authorial statement on the Hat's judgment, alongside later source qualification of its error rate.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: ext-a02-003 independently addresses Sorting errors and supports general reliability, but its later wording is less absolute than this interview answer.
+      audit:
+        query_tags:
+          - hogwarts
+          - house-system
+          - sorting-hat
+        candidates:
+          - id: dh-ch33-005
+            disposition: distinct
+          - id: dh-ch36-002
+            disposition: distinct
+          - id: ext-a02-001
+            disposition: distinct
+          - id: ext-a02-003
+            disposition: corroborating
+          - id: ext-a20-001
+            disposition: distinct
+          - id: gof-ch12-002
+            disposition: distinct
+          - id: gof-ch12-003
+            disposition: distinct
+          - id: ootp-ch11-003
+            disposition: distinct
+          - id: ootp-ch19-002
+            disposition: distinct
+          - id: cos-ch05-004
+            disposition: distinct
+    confidence: medium
+    limitations: The source is a third-party preservation transcription of a brief interview answer; a later official essay describes remarkably few, rather than no, errors.
+
+  - id: ext-b06-003
+    source_file: resources/external/interviews/accio-quote/b06-mugglenet-the-leaky-cauldron-interview.md
+    source_id: B06
+    source_url: https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-2.htm
+    source_section: Hogwarts student numbers
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Well, Hogwarts. All right. Here is the thing with Hogwarts.
+      end_phrase: Then people started working it out and saying, "Where are the other kids sleeping?"
+      local_occurrence_note: Later interview discussion of Hogwarts numbers, before Rowling qualifies the proposed overall population.
+    nearby_context: Rowling describes creating forty fleshed-out pupils in Harry's year, including their Houses, parentage, and some personal details, while acknowledging a later school-size dilemma.
+    match_terms:
+      - original forty
+      - student roster
+      - house allocation
+    quote_excerpt_short: I created 40 kids who enter Harry's year.
+    source_note: Rowling says her early planning created forty pupils entering Harry's year, with House allocations, parentage, and basic personal details.
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - house-allocation
+      - original-forty
+      - student-roster
+    candidate_part: Editorial Appendix
+    candidate_chapter: Authorial Development of Hogwarts
+    candidate_section: The Original Forty in the 2005 interview
+    reason_for_placement: This is authorial-development evidence about the construction of Harry's cohort, not an in-universe register or population count.
+    relevance_to_hogwarts_a_history: It supports a source-critical editorial note on the original forty and must not be presented as a complete in-universe Hogwarts roll.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: ext-a15-001
+      notes: ext-a15-001 gives the same core original-forty roster claim from Rowling's later official retrospective; this earlier interview is an additional lower-authority carrier.
+      audit:
+        query_tags:
+          - house-allocation
+          - original-forty
+          - student-roster
+        candidates:
+          - id: ext-a15-001
+            disposition: duplicate
+          - id: ext-a15-003
+            disposition: distinct
+    confidence: medium
+    limitations: This preservation transcription records a 2005 authorial explanation, and Rowling expressly says the forty were not necessarily the entire in-universe year or a reliable school-population figure.
+
+  - id: ext-b06-004
+    source_file: resources/external/interviews/accio-quote/b06-mugglenet-the-leaky-cauldron-interview.md
+    source_id: B06
+    source_url: https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-2.htm
+    source_section: Voldemort's name avoidance
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: What prompted people to start referring to Voldemort as You-Know-Who and He-Who-Must-Not-Be-Named?
+      end_phrase: During that time his name was never used except by Dumbledore and people who were above the superstition.
+      local_occurrence_note: Interview exchange explaining the gradual avoidance of Voldemort's name and locating it by the time of his teaching-post request.
+    nearby_context: Rowling connects name avoidance to Voldemort's killings and Dark Arts progress, saying that widespread fear developed gradually rather than after one discrete event.
+    match_terms:
+      - voldemort
+      - name taboo
+      - dumbledore
+    quote_excerpt_short: With Voldemort? It was gradual. He was killing and doing some pretty evil things.
+    source_note: Rowling says fear of Voldemort's name developed gradually as his violence and Dark Arts activity increased; by his Hogwarts teaching-post request, most people avoided it.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - dumbledore
+      - name-taboo
+      - voldemort
+    candidate_part: Wars and political history
+    candidate_chapter: Voldemort's rise and the First Wizarding War
+    candidate_section: Fear, naming, and social coercion
+    reason_for_placement: The account links a public naming taboo to Voldemort's rise and to the period when he sought a Hogwarts teaching post.
+    relevance_to_hogwarts_a_history: It provides cautiously dated social context for Voldemort's pre-war rise and Dumbledore's exceptional public stance.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed Dumbledore and Voldemort entries provide institutional and wartime context, but none makes this specific gradual name-avoidance claim.
+      audit:
+        query_tags:
+          - dumbledore
+          - name-taboo
+          - voldemort
+        candidates:
+          - id: cos-ch02-003
+            disposition: corroborating
+          - id: cos-ch18-001
+            disposition: corroborating
+          - id: dh-ch23-007
+            disposition: distinct
+          - id: dh-ch24-007
+            disposition: distinct
+          - id: gof-ch30-007
+            disposition: distinct
+          - id: gof-ch37-004
+            disposition: distinct
+          - id: hbp-ch02-005
+            disposition: distinct
+          - id: hbp-ch16-004
+            disposition: distinct
+          - id: hbp-ch25-005
+            disposition: distinct
+          - id: ootp-ch05-005
+            disposition: distinct
+    confidence: medium
+    limitations: The preserved interview provides no date for the teaching-post request or quantitative measure of name avoidance, and it predates the later published account of the Second Wizarding War Taboo.

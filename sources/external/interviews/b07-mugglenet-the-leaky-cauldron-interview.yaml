@@ -1,0 +1,354 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B07
+  source_file: resources/external/interviews/accio-quote/b07-mugglenet-the-leaky-cauldron-interview.md
+  title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and Mugglenet interview Joanne Kathleen Rowling: Part Three," The Leaky Cauldron , 16 July 2005'
+  author: J.K. Rowling
+  source_site: Accio Quote
+  original_publisher: MuggleNet / The Leaky Cauldron
+  source_class: preservation_transcription
+  authority: D
+  publication_date: July 2005, Part 3
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm
+  retrieved_at: '2026-08-15'
+  archive_url: null
+  carrier_type: preservation_transcript
+  is_primary: false
+  is_official: false
+  capture_completeness: complete
+  sha256: 99c5136db6d00a3d0eecdded83e3fcf9e280bd1eeec6d5f89b37c0465512b828
+  content_sha256: 99c5136db6d00a3d0eecdded83e3fcf9e280bd1eeec6d5f89b37c0465512b828
+  relevance:
+    - hogwarts
+    - rowling_interview
+    - author_commentary
+  notes: "Accio Quote preservation carrier; original outlet: MuggleNet / The Leaky Cauldron."
+  processed_date: '2026-08-15'
+  processor_notes: Complete preservation-transcript snapshot read; bounded Hogwarts-history evidence extracted with carrier limitations retained.
+
+entries:
+  - id: ext-b07-001
+    source_file: resources/external/interviews/accio-quote/b07-mugglenet-the-leaky-cauldron-interview.md
+    source_id: B07
+    source_url: https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm
+    source_section: MuggleNet and The Leaky Cauldron interview, Part Three
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: It is the tradition to have four houses
+      end_phrase: But they remain fragmented, as we know.
+      local_occurrence_note: Rowling's answer to the discussion of retaining Slytherin House.
+    nearby_context: Rowling explains the four-House arrangement as an elemental design intended to express harmony and balance.
+    match_terms:
+      - four-elements
+      - hogwarts-house-colours
+      - house-system
+    quote_excerpt_short: Gryffindor is fire, Ravenclaw is air, Hufflepuff is earth, and Slytherin is water.
+    source_note: Rowling assigns the four Hogwarts Houses to fire, air, earth, and water respectively.
+    reference_type: house_system
+    era_classification: original_book_core_candidate
+    topic_tags:
+      - four-elements
+      - hogwarts-house-colours
+      - house-system
+    candidate_part: "Part II: The School"
+    candidate_chapter: Houses, Sorting, and Student Identity
+    candidate_section: Elemental House Associations
+    reason_for_placement: Records the elemental associations used to explain the four-House system.
+    relevance_to_hogwarts_a_history: Preserved interview-era author commentary on an enduring feature of Hogwarts's House system; the same elemental mapping is already represented by a higher-authority official source.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ext-a26-003
+      notes: The official Rowling colours article records the same four elemental House associations; the other ranked records concern different House-system evidence.
+      audit:
+        query_tags:
+          - four-elements
+          - hogwarts-house-colours
+          - house-system
+        candidates:
+          - id: ext-a26-003
+            disposition: duplicate
+          - id: cos-ch09-004
+            disposition: distinct
+          - id: dh-ch23-001
+            disposition: distinct
+          - id: dh-ch33-005
+            disposition: distinct
+          - id: dh-ch36-002
+            disposition: distinct
+          - id: ext-a02-001
+            disposition: distinct
+          - id: ext-a02-003
+            disposition: distinct
+          - id: ext-a30-001
+            disposition: distinct
+          - id: ext-b06-002
+            disposition: distinct
+          - id: gof-ch12-002
+            disposition: distinct
+    confidence: medium
+    limitations: Authority D preservation transcription of an informal author explanation; it supplies no in-universe date, origin, or formal institutional rationale.
+
+  - id: ext-b07-002
+    source_file: resources/external/interviews/accio-quote/b07-mugglenet-the-leaky-cauldron-interview.md
+    source_id: B07
+    source_url: https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm
+    source_section: MuggleNet and The Leaky Cauldron interview, Part Three
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: So Gryffindor is fire, Ravenclaw is air
+      end_phrase: hence the fact that their common room is under the lake.
+      local_occurrence_note: The elemental-House explanation immediately follows the discussion of Slytherin pupils.
+    nearby_context: Rowling links Slytherin's water association to the location of its common room.
+    match_terms:
+      - house-system
+      - slytherin-common-room
+      - under-lake
+    quote_excerpt_short: their common room is under the lake
+    source_note: Rowling locates the Slytherin common room under the lake.
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - house-system
+      - slytherin-common-room
+      - under-lake
+    candidate_part: "Part I: The Castle and Its Grounds"
+    candidate_chapter: House Common Rooms and Dormitories
+    candidate_section: Slytherin Common Room Location
+    reason_for_placement: Supplies a direct location statement for the Slytherin common room.
+    relevance_to_hogwarts_a_history: A Harry-era confirmation of a House common-room location, without architectural detail or a date for its placement.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The Chamber of Secrets entry corroborates the room's subterranean school location but does not use the under-the-lake wording; the remaining results are distinct.
+      audit:
+        query_tags:
+          - house-system
+          - slytherin-common-room
+          - under-lake
+        candidates:
+          - id: cos-ch09-004
+            disposition: distinct
+          - id: cos-ch12-005
+            disposition: corroborating
+          - id: dh-ch23-001
+            disposition: distinct
+          - id: dh-ch33-005
+            disposition: distinct
+          - id: dh-ch36-002
+            disposition: distinct
+          - id: ext-a02-001
+            disposition: distinct
+          - id: ext-a02-003
+            disposition: distinct
+          - id: ext-a26-003
+            disposition: distinct
+          - id: ext-a30-001
+            disposition: distinct
+          - id: ext-b06-002
+            disposition: distinct
+    confidence: medium
+    limitations: Authority D preservation transcription; the brief answer does not describe the room's entrance, dimensions, or whether under the lake means literally beneath lake water.
+
+  - id: ext-b07-003
+    source_file: resources/external/interviews/accio-quote/b07-mugglenet-the-leaky-cauldron-interview.md
+    source_id: B07
+    source_url: https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm
+    source_section: MuggleNet and The Leaky Cauldron interview, Part Three
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Hagrid’s Keeper of the Keys title
+      end_phrase: people shouldn’t get too excited about.
+      local_occurrence_note: Near the close of the interview, before the question about Hogwarts, a History.
+    nearby_context: Asked what Hagrid's Keeper of the Keys title means, Rowling gives its practical access function and limits its significance.
+    match_terms:
+      - hagrid
+      - hogwarts-access
+      - keeper-of-keys
+    quote_excerpt_short: he will let you in and out of Hogwarts
+    source_note: Rowling says Hagrid's Keeper of the Keys role includes letting people into and out of Hogwarts.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hagrid
+      - hogwarts-access
+      - keeper-of-keys
+    candidate_part: "Part II: The School"
+    candidate_chapter: Staff, Offices, and Daily Operations
+    candidate_section: Keeper of Keys Access Function
+    reason_for_placement: Clarifies the practical access function attached to Hagrid's formal title.
+    relevance_to_hogwarts_a_history: A narrow Harry-era staff-role confirmation, not evidence for the office's origin, authority, or full duties.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The first-book entry establishes Hagrid's formal title but does not state this access function; the other ranked records are distinct.
+      audit:
+        query_tags:
+          - hagrid
+          - hogwarts-access
+          - keeper-of-keys
+        candidates:
+          - id: ps-ch04-001
+            disposition: corroborating
+          - id: cos-ch02-004
+            disposition: distinct
+          - id: cos-ch07-005
+            disposition: distinct
+          - id: cos-ch13-005
+            disposition: distinct
+          - id: cos-ch14-005
+            disposition: distinct
+          - id: cos-ch15-004
+            disposition: distinct
+          - id: cos-ch15-005
+            disposition: distinct
+          - id: cos-ch15-006
+            disposition: distinct
+          - id: dh-ch05-003
+            disposition: distinct
+          - id: dh-ch22-007
+            disposition: distinct
+    confidence: medium
+    limitations: Authority D preservation transcription of an informal answer; Rowling explicitly says the title has only slightly more significance than the access function stated here.
+
+  - id: ext-b07-004
+    source_file: resources/external/interviews/accio-quote/b07-mugglenet-the-leaky-cauldron-interview.md
+    source_id: B07
+    source_url: https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm
+    source_section: MuggleNet and The Leaky Cauldron interview, Part Three
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Will Harry and Ron ever read “Hogwarts, a History”?
+      end_phrase: I could never let them read it.
+      local_occurrence_note: Near the close of the interview, immediately after the Keeper of the Keys explanation.
+    nearby_context: Rowling answers whether Harry and Ron will read Hogwarts, a History by explaining its narrative exposition role.
+    match_terms:
+      - books
+      - exposition
+      - harry
+      - hogwarts-a-history
+      - ron
+    quote_excerpt_short: Never. It’s a gift to me, because all my exposition can be dressed up
+    source_note: Rowling says Harry and Ron will never read Hogwarts, a History because Hermione uses it to convey exposition to the reader.
+    reference_type: explicit_hogwarts_a_history
+    era_classification: later_editorial_note
+    topic_tags:
+      - books
+      - exposition
+      - harry
+      - hogwarts-a-history
+      - ron
+    candidate_part: "Part IV: Hogwarts, a History as a Source"
+    candidate_chapter: The Book's Narrative Role
+    candidate_section: Hermione as Expository Reader
+    reason_for_placement: Directly identifies the author's stated narrative use of the in-universe book.
+    relevance_to_hogwarts_a_history: Retain as a later editorial note about the series' use of Hogwarts, a History, not as in-universe evidence about the book's contents or circulation.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The ranked records cite or carry Hogwarts, a History in-universe; none states this authorial explanation of why Harry and Ron do not read it.
+      audit:
+        query_tags:
+          - books
+          - exposition
+          - harry
+          - hogwarts-a-history
+          - ron
+        candidates:
+          - id: cos-ch09-001
+            disposition: distinct
+          - id: dh-ch06-004
+            disposition: distinct
+          - id: gof-ch11-005
+            disposition: distinct
+          - id: gof-ch15-003
+            disposition: distinct
+          - id: gof-ch28-003
+            disposition: distinct
+          - id: ootp-ch17-002
+            disposition: distinct
+          - id: ootp-ch23-001
+            disposition: distinct
+          - id: poa-ch09-001
+            disposition: distinct
+    confidence: medium
+    limitations: Authority D preservation transcription; this is authorial commentary about narrative construction, not an in-universe statement by Harry, Ron, or Hermione.
+
+  - id: ext-b07-005
+    source_file: resources/external/interviews/accio-quote/b07-mugglenet-the-leaky-cauldron-interview.md
+    source_id: B07
+    source_url: https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm
+    source_section: MuggleNet and The Leaky Cauldron interview, Part Three
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Why don’t witches and wizards Disapparate when they’re in danger?
+      end_phrase: There has to be an equal and opposite action.
+      local_occurrence_note: Penultimate substantive question, after the discussion of Snape and before Godric's Hollow.
+    nearby_context: Rowling explains that a setting can prevent Disapparition and names Hogwarts as an example.
+    match_terms:
+      - anti-apparition
+      - apparition
+      - disapparation
+      - hogwarts
+      - security
+    quote_excerpt_short: within a place that you can’t Disapparate from, like Hogwarts
+    source_note: Rowling cites Hogwarts as a place from which people cannot Disapparate, making it unavailable as an escape option at school.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - anti-apparition
+      - apparition
+      - disapparation
+      - hogwarts
+      - security
+    candidate_part: "Part I: The Castle and Its Grounds"
+    candidate_chapter: Wards, Boundaries, and Controlled Movement
+    candidate_section: Anti-Disapparition Protection
+    reason_for_placement: Confirms the castle's restriction on magical departure during danger.
+    relevance_to_hogwarts_a_history: A Harry-era confirmation of Hogwarts's anti-Apparition protection, already directly documented in the books.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch23-001
+      notes: The Order of the Phoenix entry states the same Hogwarts ban on Apparition and Disapparition; related school-protection entries corroborate its operation or exceptions.
+      audit:
+        query_tags:
+          - anti-apparition
+          - apparition
+          - disapparation
+          - hogwarts
+          - security
+        candidates:
+          - id: dh-ch10-006
+            disposition: corroborating
+          - id: gof-ch15-006
+            disposition: corroborating
+          - id: hbp-ch04-001
+            disposition: corroborating
+          - id: hbp-ch17-002
+            disposition: corroborating
+          - id: hbp-ch18-003
+            disposition: corroborating
+          - id: ootp-ch23-001
+            disposition: duplicate
+          - id: dh-ch01-004
+            disposition: distinct
+          - id: dh-ch04-001
+            disposition: distinct
+          - id: dh-ch10-001
+            disposition: distinct
+          - id: dh-ch12-003
+            disposition: distinct
+    confidence: medium
+    limitations: Authority D preservation transcription; the answer names Hogwarts as an example but does not define the full ward boundary, spell mechanism, or stated exceptions.

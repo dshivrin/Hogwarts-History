@@ -1,0 +1,326 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Eight - The Wedding
+  chapter_start_pdf_page: 3090
+  chapter_end_pdf_page: 3109
+  boundary_confidence: high
+  boundary_notes: "Bounded extraction used the control-file page range, immediately after completed Chapter Seven and before queued Chapter Nine."
+  processed_date: '2026-08-02'
+  processor_notes: "Extracted pages 3090-3109 only with pypdf. No explicit Hogwarts: A History reference appears in this source unit."
+
+entries:
+  - id: dh-ch08-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Eight - The Wedding
+    chapter_start_pdf_page: 3090
+    chapter_end_pdf_page: 3109
+    pdf_page: 3096
+    printed_page: null
+    extracted_text_lines: "204-264"
+    text_anchor:
+      start_phrase: "A sense of jittery anticipation"
+      end_phrase: "tottering piles of tarts and sandwiches"
+      local_occurrence_note: "The wedding proceeds from formal aisle seating through the magical ceremony and into a transformed reception space."
+    nearby_context: "Fleur's veela radiance, a wizarding officiant also seen at Dumbledore's funeral, silver-star bonding magic, bursting enchanted balloons, floating chairs, a conjured dance floor, and waiter service define the ceremony."
+    match_terms:
+      - wizarding wedding
+      - bonded for life
+      - silver stars
+      - enchanted marquee
+      - floating chairs
+      - dance floor
+    quote_excerpt_short: "I declare you bonded for life."
+    source_note: "The chapter gives a direct observed example of a wizarding wedding ceremony and reception, including wand-performed bonding magic and rapid magical reconfiguration of the marquee."
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - wizarding-weddings
+      - institutional-custom
+      - magical-celebrations
+      - magical-architecture
+      - veela
+      - wand-magic
+      - reception-customs
+    candidate_part: Magical Communities and Families
+    candidate_chapter: Wizarding Family Customs
+    candidate_section: Marriage Ceremonies and Enchanted Receptions
+    reason_for_placement: "The passage documents a formal family rite outside Hogwarts that would help a future history explain wizarding social customs encountered by Hogwarts families."
+    relevance_to_hogwarts_a_history: "Useful as cultural background for families, alumni, staff associates, and post-school social life connected to the Hogwarts community."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate queries for wedding, ceremony, and marquee terms found no existing entry for wizarding marriage rites or enchanted reception staging."
+    confidence: high
+    limitations: "The evidence is one Weasley-Delacour wedding and should not be treated as a complete legal account of wizarding marriage."
+
+  - id: dh-ch08-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Eight - The Wedding
+    chapter_start_pdf_page: 3090
+    chapter_end_pdf_page: 3109
+    pdf_page: 3099
+    printed_page: null
+    extracted_text_lines: "306-334"
+    text_anchor:
+      start_phrase: "You, Barny - you know this man Lovegood vell?"
+      end_phrase: "I know it vell."
+      local_occurrence_note: "Krum recognizes Xenophilius Lovegood's necklace symbol and identifies it as Grindelwald's sign from Durmstrang."
+    nearby_context: "Krum links the symbol to Grindelwald's killings, his own grandfather's death, Grindelwald's fear of Dumbledore in Britain, and student copying of the sign at Durmstrang."
+    match_terms:
+      - Grindelwald's sign
+      - Durmstrang
+      - Dumbledore
+      - triangular eye
+      - Dark Arts
+      - symbol
+    quote_excerpt_short: "That is Grindelvald's sign."
+    source_note: "Krum supplies hostile witness evidence that the triangular sign was associated with Grindelwald at Durmstrang and copied by students seeking shock value."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - grindelwald
+      - durmstrang
+      - dark-arts
+      - symbols
+      - albus-dumbledore
+      - international-magical-history
+      - viktor-krum
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: Dumbledore and the First Wizarding War
+    candidate_section: Grindelwald's Symbol and Durmstrang Memory
+    reason_for_placement: "The passage extends Grindelwald history from a public duel summary into surviving European symbolic memory and school-linked Dark Arts culture."
+    relevance_to_hogwarts_a_history: "A later edition can cross-reference this with Dumbledore's 1945 victory and with comparative discussion of Durmstrang's historical relationship to Dark Arts reputation."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: null
+      notes: "Possible existing duplicates dh-ch02-005 and gof-ch11-004 cover Dumbledore's defeat of Grindelwald and Durmstrang's Dark Arts reputation; this entry adds Krum's family-witness testimony about the sign carved at Durmstrang and copied by students."
+    confidence: medium
+    limitations: "Krum is certain, but the symbol's wider meaning is not resolved in this chapter and Xenophilius's understanding is unknown here."
+
+  - id: dh-ch08-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Eight - The Wedding
+    chapter_start_pdf_page: 3090
+    chapter_end_pdf_page: 3109
+    pdf_page: 3101
+    printed_page: null
+    extracted_text_lines: "351-378"
+    text_anchor:
+      start_phrase: "Gregorovitch!"
+      end_phrase: "did he know secrets of wands that Ollivander did not?"
+      local_occurrence_note: "Harry recalls the Triwizard wand inspection and questions Krum about Gregorovitch's current status."
+    nearby_context: "Krum says Gregorovitch retired several years earlier, claims to be one of his last purchasers, and contrasts his reputation with British reliance on Ollivander."
+    match_terms:
+      - Gregorovitch
+      - wandmaker
+      - Ollivander
+      - retired
+      - holly and phoenix feather
+      - wand anomaly
+    quote_excerpt_short: "He retired several years ago."
+    source_note: "Krum confirms Gregorovitch as a celebrated retired wandmaker and frames a non-British reputation for wand quality alongside British reliance on Ollivander."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - wand-lore
+      - gregorovitch
+      - ollivander
+      - viktor-krum
+      - magical-crafts
+      - wandmakers
+      - international-magical-culture
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Wands, Equipment, and Magical Materials
+    candidate_section: Gregorovitch, Ollivander, and International Wandmaking
+    reason_for_placement: "The passage adds post-Triwizard context for wandmakers and connects school-era wand inspection evidence to the Deathly Hallows wand plot."
+    relevance_to_hogwarts_a_history: "Useful for a later editorial note on student equipment, international magical crafts, and why wand provenance mattered during Harry's final year away from Hogwarts."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: null
+      notes: "Possible existing duplicates gof-ch18-007 and dh-ch05-007 cover Krum's Gregorovitch wand and the later wand anomaly; this entry adds Gregorovitch's retirement, Krum's comparative maker judgment, and Harry's explicit link between the anomaly and Voldemort's search."
+    confidence: high
+    limitations: "Krum's claim that Gregorovitch wands are best is personal opinion; Harry's inference about Voldemort's motive is not independently confirmed in this passage."
+
+  - id: dh-ch08-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Eight - The Wedding
+    chapter_start_pdf_page: 3090
+    chapter_end_pdf_page: 3109
+    pdf_page: 3103
+    printed_page: null
+    extracted_text_lines: "429-478"
+    text_anchor:
+      start_phrase: "I saw the obituary you wrote"
+      end_phrase: "place an order at Flourish and Blotts"
+      local_occurrence_note: "Harry questions Doge about the Daily Prophet obituary and Skeeter interview before Muriel adds that Skeeter has written a Dumbledore biography."
+    nearby_context: "Doge claims unusually long acquaintance with Dumbledore, rejects Skeeter's Dark Arts insinuations, and Muriel points to omitted difficulties in Doge's obituary."
+    match_terms:
+      - Elphias Doge
+      - Daily Prophet
+      - obituary
+      - Rita Skeeter
+      - Dumbledore biography
+      - Flourish and Blotts
+    quote_excerpt_short: "she's written a biography of Dumbledore"
+    source_note: "The scene contrasts Doge's admiring obituary with Skeeter's hostile biography and records both as competing public sources about Dumbledore's past."
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - albus-dumbledore
+      - elphias-doge
+      - rita-skeeter
+      - daily-prophet
+      - biography
+      - flourish-and-blotts
+      - source-history
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Sources for Dumbledore's Life
+    candidate_section: Obituary, Biography, and Public Memory
+    reason_for_placement: "The passage is about evidence quality, source bias, and wizarding publication channels rather than a single settled fact."
+    relevance_to_hogwarts_a_history: "A future edition can use this to flag why Dumbledore-related school history depends on contested biographies, obituaries, and eyewitness testimony."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate queries for Doge, obituary, Skeeter, Dumbledore biography, and Rita Skeeter did not surface an existing entry covering this source-history contrast."
+    confidence: high
+    limitations: "The chapter reports rival claims and reactions; it does not adjudicate Skeeter's allegations."
+
+  - id: dh-ch08-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Eight - The Wedding
+    chapter_start_pdf_page: 3090
+    chapter_end_pdf_page: 3109
+    pdf_page: 3106
+    printed_page: null
+    extracted_text_lines: "498-556"
+    text_anchor:
+      start_phrase: "Who said his sister was a Squib?"
+      end_phrase: "to prove himself brilliant and talented?"
+      local_occurrence_note: "Muriel relays rumors that Ariana Dumbledore was a hidden Squib while Doge repeatedly denies them."
+    nearby_context: "The dispute names Ariana, Kendra, Hogwarts nonattendance, possible confinement, Muggle-school placement for Squibs, and the absence of St. Mungo's records."
+    match_terms:
+      - Ariana Dumbledore
+      - Squib
+      - never attended Hogwarts
+      - Muggle schools
+      - St. Mungo's
+      - Kendra Dumbledore
+    quote_excerpt_short: "why she never attended Hogwarts"
+    source_note: "Muriel's contested account provides evidence of old social practices around Squibs and of Ariana Dumbledore's unexplained absence from Hogwarts, while Doge challenges the Squib claim."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - ariana-dumbledore
+      - squibs
+      - hogwarts-attendance
+      - kendra-dumbledore
+      - st-mungos
+      - muggle-schools
+      - family-secrecy
+    candidate_part: Magical Communities and Families
+    candidate_chapter: Squibs and Family Status
+    candidate_section: Historical Stigma, Muggle Schooling, and Hogwarts Nonattendance
+    reason_for_placement: "The passage links family reputation, nonattendance at Hogwarts, medical records, and social options for Squibs in an older generation."
+    relevance_to_hogwarts_a_history: "Useful as a cautious historical note on who did not attend Hogwarts and how magical families may have handled non-magical children."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate queries surfaced ootp-ch02-001 and ootp-ch08-005 about Mrs. Figg as a modern Squib witness, but those entries do not cover historical Squib stigma, Muggle-school integration, or Ariana's disputed Hogwarts nonattendance."
+    confidence: medium
+    limitations: "Muriel's claims are hearsay and explicitly disputed by Doge; the entry should preserve the uncertainty rather than present Ariana as a confirmed Squib."
+
+  - id: dh-ch08-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Eight - The Wedding
+    chapter_start_pdf_page: 3090
+    chapter_end_pdf_page: 3109
+    pdf_page: 3108
+    printed_page: null
+    extracted_text_lines: "594-625"
+    text_anchor:
+      start_phrase: "I think Bathilda has spilled the beans"
+      end_phrase: "they had both lived and lost loved ones in Godric's Hollow"
+      local_occurrence_note: "Muriel and Doge discuss Bathilda Bagshot as a possible source before Muriel identifies the Dumbledores' Godric's Hollow residence."
+    nearby_context: "Harry recognizes Bathilda as the author of A History of Magic; Doge calls her a gifted magical historian and old friend of Dumbledore; Muriel says the Dumbledores moved near her after Percival's imprisonment."
+    match_terms:
+      - Bathilda Bagshot
+      - A History of Magic
+      - magical historian
+      - Godric's Hollow
+      - Percival Dumbledore
+      - old photographs
+    quote_excerpt_short: "A most gifted magical historian"
+    source_note: "The passage identifies Bathilda Bagshot as both textbook author and Dumbledore-family neighbor, making her a plausible archival source for Dumbledore and Godric's Hollow history."
+    reference_type: explicit_in_universe_source
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - bathilda-bagshot
+      - a-history-of-magic
+      - magical-historians
+      - godrics-hollow
+      - albus-dumbledore
+      - percival-dumbledore
+      - source-history
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: Godric's Hollow and the Dumbledore Family
+    candidate_section: Bathilda Bagshot as Neighbor and Historical Source
+    reason_for_placement: "The passage connects an established magical-history author to primary proximity to the Dumbledore family after Percival's imprisonment."
+    relevance_to_hogwarts_a_history: "A later history can cite this when explaining where textbook history, private papers, photographs, and local witness memory overlap."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate queries for Bathilda, Bagshot, historian, textbook, and Godric's Hollow surfaced Potter-family Godric's Hollow entries but no existing entry for Bathilda as Dumbledore-family neighbor and magical-history source."
+    confidence: high
+    limitations: "Muriel's claims about what Bathilda told Skeeter are speculative; Doge also questions reliability if Bathilda's memory is failing."
+
+  - id: dh-ch08-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Eight - The Wedding
+    chapter_start_pdf_page: 3090
+    chapter_end_pdf_page: 3109
+    pdf_page: 3109
+    printed_page: null
+    extracted_text_lines: "641-647"
+    text_anchor:
+      start_phrase: "something large and silver came falling"
+      end_phrase: "They are coming."
+      local_occurrence_note: "Kingsley's lynx Patronus interrupts the wedding with a wartime emergency message."
+    nearby_context: "The alert arrives immediately after Harry learns new Dumbledore-family history and before the party can react to the Ministry takeover."
+    match_terms:
+      - Kingsley Shacklebolt
+      - Patronus
+      - Ministry has fallen
+      - Scrimgeour is dead
+      - wartime alert
+      - Death Eaters
+    quote_excerpt_short: "The Ministry has fallen."
+    source_note: "Kingsley uses a speaking corporeal Patronus to announce the Ministry's fall, Scrimgeour's death, and the imminent arrival of hostile forces."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - ministry-of-magic
+      - scrimgeour
+      - kingsley-shacklebolt
+      - patronus
+      - second-war
+      - wartime-communications
+      - death-eaters
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Second War and Hogwarts Governance
+    candidate_section: Ministry Fall and Emergency Patronus Warnings
+    reason_for_placement: "The fall of the Ministry is a major Harry-era political break that directly frames the wartime conditions around Hogwarts and its students."
+    relevance_to_hogwarts_a_history: "A later edition can use this as the transition point from post-Dumbledore uncertainty to open Ministry capture and the Deathly Hallows school year."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate queries surfaced Scrimgeour and Patronus entries, including hbp-ch30-006 and earlier Patronus instruction entries, but none records the Ministry's fall, Scrimgeour's death, or Kingsley's emergency wedding warning."
+    confidence: high
+    limitations: "The warning gives only the immediate report; this chapter does not yet describe the takeover's administrative consequences for Hogwarts."

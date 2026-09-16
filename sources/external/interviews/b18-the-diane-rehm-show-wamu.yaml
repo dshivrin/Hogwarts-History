@@ -1,0 +1,208 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B18
+  source_file: resources/external/interviews/accio-quote/b18-the-diane-rehm-show-wamu.md
+  title: "J.K. Rowling on The Diane Rehm Show, WAMU Radio Washington, D.C. , October 20, 1999 (re-broadcast December 24, 1999)"
+  author: J.K. Rowling
+  source_site: Accio Quote
+  original_publisher: WAMU
+  source_class: preservation_transcription
+  authority: D
+  publication_date: 'December 1999'
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/1999/1299-wamu-rehm.htm
+  retrieved_at: '2026-08-15'
+  archive_url: null
+  carrier_type: preservation_transcript
+  is_primary: false
+  is_official: false
+  capture_completeness: complete
+  content_sha256: ef112a52d01828b4845b87616a0c09b9b2a49f8d18e3a4a08cae378fd2487625
+  local_path: resources/external/interviews/accio-quote/b18-the-diane-rehm-show-wamu.md
+  relevance:
+    - hogwarts
+    - rowling_interview
+    - author_commentary
+  notes: "Accio Quote preservation carrier; original outlet: WAMU."
+  processed_date: '2026-08-24'
+  processor_notes: Complete preservation-transcript snapshot read; bounded author-attributed Harry-era claims extracted with transcription limitations retained.
+
+entries:
+  - id: ext-b18-001
+    source_file: resources/external/interviews/accio-quote/b18-the-diane-rehm-show-wamu.md
+    source_id: B18
+    source_url: https://www.accio-quote.org/articles/1999/1299-wamu-rehm.htm
+    source_section: "Call from Ginger: seven-book plan, Hogwarts duration, and wizarding adulthood"
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "I always planned that we would see Harry from starting at Hogwarts"
+      end_phrase: "So it will be 7 years in his life."
+      local_occurrence_note: Mid-interview caller exchange after discussion of the planned seven-book series.
+    nearby_context: Rowling explains the planned seven-book arc as Harry's full Hogwarts course, says wizards come of age at seventeen, and links that threshold to permission to use magic outside school.
+    match_terms:
+      - Hogwarts course duration
+      - wizarding adulthood
+      - magic outside school
+    quote_excerpt_short: "In my world wizards come of age at 17."
+    source_note: Rowling describes Harry's Hogwarts attendance as a seven-year course and says wizarding adulthood at seventeen permits magic outside school.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - age-of-majority
+      - hogwarts-duration
+      - magic-outside-school
+      - wizarding-adulthood
+    candidate_part: "Rules, Discipline, and Governance"
+    candidate_chapter: "Holiday Conduct and Underage Magic"
+    candidate_section: "Age of Majority and Magic Outside School"
+    reason_for_placement: The authorial statement connects the end of the standard Hogwarts course to the legal threshold for magic outside school.
+    relevance_to_hogwarts_a_history: Harry-era confirmation of a general student-age rule; it is not evidence for the pre-1984 origin or earlier history of the policy.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed passages establish the underage restriction; this carrier adds the stated age-of-majority threshold and course-end connection.
+      audit:
+        query_tags:
+          - age-of-majority
+          - hogwarts-duration
+          - magic-outside-school
+          - wizarding-adulthood
+        candidates:
+          - id: cos-ch01-005
+            disposition: corroborating
+          - id: gof-ch02-003
+            disposition: corroborating
+    confidence: medium
+    limitations: Preserved Accio Quote transcription with authority D; a 1999 author interview confirms Harry-era policy but provides no historical date, legal source, or pre-1984 evidence.
+
+  - id: ext-b18-002
+    source_file: resources/external/interviews/accio-quote/b18-the-diane-rehm-show-wamu.md
+    source_id: B18
+    source_url: https://www.accio-quote.org/articles/1999/1299-wamu-rehm.htm
+    source_section: "Call from Celeste: Quidditch scoring question"
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "It's possible, Celeste, for the team to win, even if they don't catch the snitch"
+      end_phrase: "normally if you catch the snitch, as you'll know, you win"
+      local_occurrence_note: Mid-interview caller exchange answering a technical question about a Ravenclaw-Hufflepuff match.
+    nearby_context: Rowling explains that a team can win without catching the Snitch if it leads by more than 150 points, while saying school Quidditch normally ends in a Snitch-catching win.
+    match_terms:
+      - Quidditch scoring
+      - Snitch
+      - school Quidditch
+    quote_excerpt_short: "they have to be more than 150 points up on goals"
+    source_note: Rowling says a team can win without catching the Snitch only when it leads by more than 150 points; school matches normally end with a Snitch catch.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - quidditch
+      - school-quidditch
+      - scoring
+      - snitch
+    candidate_part: "Part II: The School and Its Community"
+    candidate_chapter: "Student Life and House Identity"
+    candidate_section: "Quidditch Rules and Scoring"
+    reason_for_placement: The exchange supplies a concise statement of a Quidditch scoring exception and its ordinary school-match outcome.
+    relevance_to_hogwarts_a_history: Harry-era authorial confirmation of school-sport rules, not evidence for Quidditch's pre-1984 development or origins.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed Quidditch material overlaps on the sport and Snitch mechanics; this response specifically explains the more-than-150-point exception.
+      audit:
+        query_tags:
+          - quidditch
+          - school-quidditch
+          - scoring
+          - snitch
+        candidates:
+          - id: cos-ch07-001
+            disposition: corroborating
+          - id: cos-ch01-001
+            disposition: distinct
+          - id: cos-ch14-003
+            disposition: distinct
+          - id: dh-ch07-005
+            disposition: distinct
+          - id: dh-ch10-004
+            disposition: distinct
+          - id: ext-b02-003
+            disposition: distinct
+          - id: ext-b11-002
+            disposition: distinct
+          - id: ext-b16-001
+            disposition: distinct
+          - id: gof-ch05-005
+            disposition: distinct
+          - id: gof-ch06-004
+            disposition: distinct
+    confidence: medium
+    limitations: Preserved Accio Quote transcription with authority D; the answer is a concise authorial explanation and does not supply a formal Quidditch rulebook or historical date.
+
+  - id: ext-b18-003
+    source_file: resources/external/interviews/accio-quote/b18-the-diane-rehm-show-wamu.md
+    source_id: B18
+    source_url: https://www.accio-quote.org/articles/1999/1299-wamu-rehm.htm
+    source_section: "Opening interview: Harry's Hogwarts acceptance and departure"
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "letters start arriving mysteriously for him, which he's not allowed to read"
+      end_phrase: "on September 1st and board the train"
+      local_occurrence_note: Opening summary of Harry's discovery of his Hogwarts place before the interview moves to his school life.
+    nearby_context: Rowling recounts that Hogwarts letters tell Harry he has a place and direct him to platform nine and three-quarters at King's Cross on 1 September to board the train.
+    match_terms:
+      - Hogwarts acceptance letters
+      - platform nine and three-quarters
+      - Hogwarts Express
+    quote_excerpt_short: "telling him he's got a place"
+    source_note: Rowling's Harry-era summary links Hogwarts acceptance letters to a 1 September departure from platform nine and three-quarters by train.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hogwarts-admissions
+      - hogwarts-express
+      - hogwarts-letters
+      - platform-nine-and-three-quarters
+    candidate_part: "Part II: The School and Its Community"
+    candidate_chapter: "Admissions and First-Year Preparation"
+    candidate_section: "Acceptance Letters and Departure Instructions"
+    reason_for_placement: The summary joins an acceptance-place notice to the standard first-year departure route.
+    relevance_to_hogwarts_a_history: Harry-era confirmation of admissions and travel custom; it does not establish the pre-1984 history or origin of either practice.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing book and official-source entries document the platform and correspondence in greater detail; this preserved interview is a later summary rather than a separate historical account.
+      audit:
+        query_tags:
+          - hogwarts-admissions
+          - hogwarts-express
+          - hogwarts-letters
+          - platform-nine-and-three-quarters
+        candidates:
+          - id: cos-ch05-001
+            disposition: corroborating
+          - id: dh-ch33-004
+            disposition: corroborating
+          - id: ext-a19-002
+            disposition: distinct
+          - id: gof-ch11-002
+            disposition: corroborating
+          - id: hbp-ch07-001
+            disposition: distinct
+          - id: poa-ch01-005
+            disposition: corroborating
+          - id: poa-ch05-001
+            disposition: corroborating
+          - id: ps-ch06-001
+            disposition: corroborating
+          - id: ps-ch17-006
+            disposition: distinct
+          - id: cos-ch01-004
+            disposition: corroborating
+    confidence: medium
+    limitations: Preserved Accio Quote transcription with authority D; this is a Harry-era plot summary, not a pre-1984 admissions record or evidence for the platform's historical creation.

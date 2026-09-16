@@ -1,0 +1,109 @@
+source_unit:
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Ten - Quidditch Today
+  chapter_start_pdf_page: 59
+  chapter_end_pdf_page: 64
+  boundary_confidence: high
+  boundary_notes: Chapter Ten begins on PDF page 59 and concludes on PDF page 64; PDF page 65 is the back cover.
+  processed_date: '2026-08-15'
+  processor_notes: All six image-only pages were read. The illustrated move catalogue was grouped by tactical function
+    rather than copied move-by-move; undated modern material is classified as later editorial context.
+entries:
+- id: qtta-ch10-001
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Ten - Quidditch Today
+  chapter_start_pdf_page: 59
+  chapter_end_pdf_page: 64
+  pdf_page: 60
+  printed_page: 52
+  extracted_text_lines: OCR lines 1644-1695
+  text_anchor:
+    start_phrase: Bludger Backbeat
+    end_phrase: throws the Quaffle downwards to a fellow Chaser
+    local_occurrence_note: First half of the tactical move catalogue.
+  nearby_context: The catalogue defines two Beater plays, a Keeper loop, and coordinated Chaser formations and passing
+    tactics.
+  match_terms:
+  - Bludger Backbeat
+  - Dopplebeater Defence
+  - Double Eight Loop
+  - Hawkshead
+  - Parkin's Pincer
+  - Porskoff Ploy
+  quote_excerpt_short: Chasers form an arrowhead pattern and fly together towards the goalposts
+  source_note: Named tactics formalize coordinated Beater strikes, high-speed Keeper defense, and multi-Chaser formations,
+    traps, and passes, showing that advanced Quidditch depends on position-specific team training.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - quidditch-tactics
+  - beaters
+  - keeper
+  - chasers
+  - team-practice
+  - formations
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Tactical Plays
+  reason_for_placement: These moves give a compact technical vocabulary for captain-led practice and match strategy.
+  relevance_to_hogwarts_a_history: They help interpret the tactical diagrams and position drills used by Hogwarts
+    House teams.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch07-002
+    - hbp-ch14-004
+    notes: The novels show captain-led tactical preparation and role-specific practice; this source names representative
+      advanced plays.
+  confidence: high
+  limitations: Most moves are undated, so their availability before the 1984 planning cutoff is not established.
+- id: qtta-ch10-002
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Ten - Quidditch Today
+  chapter_start_pdf_page: 59
+  chapter_end_pdf_page: 64
+  pdf_page: 61
+  printed_page: 53
+  extracted_text_lines: OCR lines 1670-1725
+  text_anchor:
+    start_phrase: Plumpton Pass
+    end_phrase: Named after the Polish Seeker Josef Wronski
+    local_occurrence_note: Second half of the tactical move catalogue.
+  nearby_context: The entries cover Snitch capture, reverse passing, evasive riding, deceptive tackling, zigzag
+    flight, and a dangerous Seeker feint.
+  match_terms:
+  - Plumpton Pass
+  - Reverse Pass
+  - Sloth Grip Roll
+  - Wronski Feint
+  - Seeker
+  quote_excerpt_short: Seeker hurtles towards the ground pretending to have seen the Snitch
+  source_note: The later catalogue records specialized passing, evasive, defensive, and Seeker deception techniques,
+    including Plumpton's 1921 Snitch catch and the Wronski Feint.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - quidditch-tactics
+  - seeker
+  - chasers
+  - evasive-flying
+  - snitch-capture
+  - player-safety
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Tactical Plays
+  reason_for_placement: It supplies advanced techniques relevant to player skill, training, and risk.
+  relevance_to_hogwarts_a_history: It offers technical context for Seeker and Chaser training in school Quidditch.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch08-004
+    - hbp-ch14-004
+    notes: Existing entries show tactical literacy and risky practice; this source identifies named techniques and
+      their intended effects.
+  confidence: high
+  limitations: Except for the Plumpton Pass, the passage does not date the moves or establish which were taught
+    at Hogwarts.

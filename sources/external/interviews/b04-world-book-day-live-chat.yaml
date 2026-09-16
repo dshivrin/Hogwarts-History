@@ -1,0 +1,308 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B04
+  source_file: resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md
+  title: "JK Rowling's World Book Day Chat, March 4, 2004"
+  author: J.K. Rowling
+  source_site: Accio Quote
+  original_publisher: World Book Day
+  source_class: preservation_transcription
+  authority: D
+  publication_date: 4 March 2004
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/2004/0304-wbd.htm
+  retrieved_at: '2026-08-15'
+  archive_url: null
+  carrier_type: preservation_transcript
+  is_primary: false
+  is_official: false
+  capture_completeness: complete
+  sha256: 004e1052722091e1468daf3eb80a50c15cfc6ef04b590eb2b99ca23b8200dc69
+  content_sha256: 004e1052722091e1468daf3eb80a50c15cfc6ef04b590eb2b99ca23b8200dc69
+  relevance:
+    - hogwarts
+    - rowling_interview
+    - author_commentary
+  notes: "Accio Quote preservation carrier; original outlet: World Book Day."
+  processed_date: '2026-08-15'
+  processor_notes: Complete preservation-transcript snapshot read; bounded Hogwarts-history evidence extracted with carrier limitations retained.
+
+entries:
+  - id: ext-b04-001
+    source_file: resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md
+    source_id: B04
+    source_url: https://www.accio-quote.org/articles/2004/0304-wbd.htm
+    source_section: World Book Day live chat
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Where do wizarding children go to school before Hogwarts?
+      end_phrase: The Weasleys were taught by Mrs. Weasley.
+      local_occurrence_note: Kai's mid-chat question about education before Hogwarts.
+    nearby_context: Rowling answers a question about where magical children are educated before beginning at Hogwarts.
+    match_terms:
+      - pre-Hogwarts education
+      - Muggle primary school
+      - home education
+    quote_excerpt_short: "They can either go to a Muggle primary school or they are educated at home."
+    source_note: Rowling states that wizarding children may attend Muggle primary school or be taught at home before Hogwarts, naming the Weasleys as a home-educated example.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - home-education
+      - magical-children
+      - muggle-primary-school
+      - pre-hogwarts-education
+      - weasley-home-schooling
+    candidate_part: "Part II: The School"
+    candidate_chapter: Admissions, Attendance, and Student Life
+    candidate_section: Pre-Hogwarts Preparation
+    reason_for_placement: Identifies education routes available before Hogwarts enrolment.
+    relevance_to_hogwarts_a_history: Useful Harry-era confirmation of the educational background from which Hogwarts receives pupils, not evidence for a particular historical period.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The returned wartime-attendance entry mentions home education but makes a different claim.
+      audit:
+        query_tags:
+          - home-education
+          - magical-children
+          - muggle-primary-school
+          - pre-hogwarts-education
+          - weasley-home-schooling
+        candidates:
+          - id: dh-ch11-004
+            disposition: distinct
+    confidence: medium
+    limitations: Authority D preservation transcription of a brief live-chat answer; it confirms options but gives no dates, eligibility rules, or curriculum.
+
+  - id: ext-b04-002
+    source_file: resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md
+    source_id: B04
+    source_url: https://www.accio-quote.org/articles/2004/0304-wbd.htm
+    source_section: World Book Day live chat
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: If a muggle looks at Hogwarts what will they see?
+      end_phrase: "keep out, dangerous building.'"
+      local_occurrence_note: Persia's mid-chat question about the school as perceived by Muggles.
+    nearby_context: Asked what a Muggle sees when looking at Hogwarts, Rowling describes an apparent ruined and signed-off castle.
+    match_terms:
+      - Muggle perception
+      - ruined castle
+      - Hogwarts concealment
+    quote_excerpt_short: "They will see nothing but a ruined castle with large signs on it saying 'keep out, dangerous building.'"
+    source_note: Rowling says Muggles perceive Hogwarts as a ruined castle marked with warnings to keep out, describing its public-facing concealment.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - enchanted-signage
+      - hogwarts-concealment
+      - muggle-perception
+      - ruined-castle
+      - school-concealment
+    candidate_part: "Part I: The Castle and Its Grounds"
+    candidate_chapter: Site, Wards, and Public Concealment
+    candidate_section: Muggle-Facing Appearance
+    reason_for_placement: Directly describes how protective concealment changes the school's visible appearance to Muggles.
+    relevance_to_hogwarts_a_history: Useful Harry-era evidence for explaining Hogwarts's public concealment, while not dating or detailing the spellwork.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed candidate was returned for the specific concealment terms.
+      audit:
+        query_tags:
+          - enchanted-signage
+          - hogwarts-concealment
+          - muggle-perception
+          - ruined-castle
+          - school-concealment
+        candidates: []
+    confidence: medium
+    limitations: Authority D preservation transcription of a concise answer; it records the stated appearance but not the mechanism, duration, or legal basis of the concealment.
+
+  - id: ext-b04-003
+    source_file: resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md
+    source_id: B04
+    source_url: https://www.accio-quote.org/articles/2004/0304-wbd.htm
+    source_section: World Book Day live chat
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: How are muggle parents convinced to let their kids go to Hogwarts
+      end_phrase: complete bolt from the blue.
+      local_occurrence_note: HPFreak7's question about explaining Hogwarts to Muggle parents.
+    nearby_context: Rowling answers how parents who do not know the magical world are informed about a child's Hogwarts admission.
+    match_terms:
+      - Muggle parents
+      - special messengers
+      - Hogwarts admissions
+    quote_excerpt_short: "special messengers are sent to explain everything to them"
+    source_note: Rowling says special messengers explain Hogwarts and magic to Muggle parents, who have already observed unusual signs in their child.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - admissions-process
+      - hogwarts-admissions
+      - magical-child-notification
+      - muggle-parents
+      - special-messengers
+    candidate_part: "Part II: The School"
+    candidate_chapter: Admissions, Attendance, and Student Life
+    candidate_section: Muggle-Family Contact
+    reason_for_placement: Records an admissions communication practice for families outside the magical world.
+    relevance_to_hogwarts_a_history: Useful Harry-era confirmation of guardian-facing Hogwarts admissions practice, with no evidence here for its origin or normal messenger identity.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The orphanage-admissions entry independently supports guardian-facing arrangements but does not state the messenger practice.
+      audit:
+        query_tags:
+          - admissions-process
+          - hogwarts-admissions
+          - magical-child-notification
+          - muggle-parents
+          - special-messengers
+        candidates:
+          - id: hbp-ch13-003
+            disposition: corroborating
+    confidence: medium
+    limitations: Authority D preservation transcription; the compact answer does not identify the messengers, formal procedure, or exceptions.
+
+  - id: ext-b04-004
+    source_file: resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md
+    source_id: B04
+    source_url: https://www.accio-quote.org/articles/2004/0304-wbd.htm
+    source_section: World Book Day live chat
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Is 12 the maximum possible number of OWLs one can achieve?
+      end_phrase: off the top of my head.
+      local_occurrence_note: Faye109's short question about the maximum O.W.L. total.
+    nearby_context: Rowling responds from memory to a question about the largest possible number of O.W.L.s.
+    match_terms:
+      - O.W.L.s
+      - examinations
+      - academic standards
+    quote_excerpt_short: "Yes, I think it is off the top of my head."
+    source_note: Rowling tentatively says twelve is the maximum number of O.W.L.s a student can achieve.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - academic-standards
+      - examinations
+      - hogwarts-assessment
+      - maximum-owls
+      - owls
+    candidate_part: "Part II: The School"
+    candidate_chapter: Curriculum, Examinations, and Achievement
+    candidate_section: O.W.L. Assessment
+    reason_for_placement: Supplies a proposed upper bound for the school's ordinary examination credentials.
+    relevance_to_hogwarts_a_history: A qualified Harry-era detail for an examinations section; retain the speaker's explicit uncertainty rather than treat it as a settled rule.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Returned records corroborate the existence and operation of O.W.L.s but not this asserted maximum.
+      audit:
+        query_tags:
+          - academic-standards
+          - examinations
+          - hogwarts-assessment
+          - maximum-owls
+          - owls
+        candidates:
+          - id: cos-ch04-003
+            disposition: corroborating
+          - id: ext-a32-004
+            disposition: distinct
+          - id: gof-ch05-002
+            disposition: corroborating
+          - id: gof-ch06-003
+            disposition: corroborating
+          - id: hbp-ch05-006
+            disposition: corroborating
+          - id: hbp-ch07-007
+            disposition: distinct
+          - id: hbp-ch09-006
+            disposition: distinct
+          - id: hbp-ch22-001
+            disposition: distinct
+          - id: ootp-ch16-004
+            disposition: corroborating
+          - id: poa-ch04-005
+            disposition: distinct
+    confidence: low
+    limitations: Authority D preservation transcription; Rowling explicitly qualifies the answer as from memory, and the transcript supplies no subject list or documentary confirmation.
+
+  - id: ext-b04-005
+    source_file: resources/external/interviews/accio-quote/b04-world-book-day-live-chat.md
+    source_id: B04
+    source_url: https://www.accio-quote.org/articles/2004/0304-wbd.htm
+    source_section: World Book Day live chat
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: What houses were Sirius Black, Remus Lupin, James Potter
+      end_phrase: they were indeed in Gryffindor!
+      local_occurrence_note: One of the final three questions asks Rowling to confirm the Marauders' Hogwarts House.
+    nearby_context: The question asks about Sirius Black, Remus Lupin, and James Potter; Rowling explicitly confirms the asserted Gryffindor placement.
+    match_terms:
+      - Gryffindor
+      - Marauders era
+      - Hogwarts alumni
+    quote_excerpt_short: "This is JK herself saying that they were indeed in Gryffindor!"
+    source_note: Rowling explicitly confirms that Sirius Black, Remus Lupin, and James Potter were in Gryffindor.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - gryffindor
+      - hogwarts-alumni
+      - james-potter
+      - remus-lupin
+      - sirius-black
+    candidate_part: "Part III: People, Houses, and Institutional Memory"
+    candidate_chapter: Hogwarts Alumni and the Marauders Era
+    candidate_section: House Membership
+    reason_for_placement: Confirms House affiliation for named pre-1984 Hogwarts alumni.
+    relevance_to_hogwarts_a_history: Directly useful for a pre-1984 alumni record, though it is preserved in a later live-chat transcription rather than contemporaneous school evidence.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Returned records independently support parts of the Marauders' school history and Sirius's Gryffindor identity, but none repeats this three-person confirmation.
+      audit:
+        query_tags:
+          - gryffindor
+          - hogwarts-alumni
+          - james-potter
+          - remus-lupin
+          - sirius-black
+        candidates:
+          - id: ootp-ch29-006
+            disposition: corroborating
+          - id: poa-ch10-006
+            disposition: corroborating
+          - id: dh-ch10-002
+            disposition: corroborating
+          - id: dh-ch33-005
+            disposition: corroborating
+          - id: ext-a10-002
+            disposition: corroborating
+          - id: hbp-ch04-005
+            disposition: corroborating
+          - id: hbp-ch16-005
+            disposition: corroborating
+          - id: ootp-ch35-007
+            disposition: distinct
+          - id: ootp-ch38-005
+            disposition: corroborating
+          - id: poa-ch18-005
+            disposition: corroborating
+    confidence: medium
+    limitations: Authority D preservation transcription of a late-series live chat; the reply confirms House membership but gives no dates, school years, or supporting records.

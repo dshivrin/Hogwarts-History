@@ -1,0 +1,346 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-One - O.W.L.s
+  chapter_start_pdf_page: 2245
+  chapter_end_pdf_page: 2268
+  boundary_confidence: high
+  boundary_notes: Processing state supplied pages 2245-2268; a bounded one-page forward anchor extraction confirmed Chapter Thirty-Two starts on PDF page 2269.
+  processed_date: '2026-07-13'
+  processor_notes: 'Extracted only the bounded chapter range with pypdf; no explicit Hogwarts: A History reference appears in the chapter.'
+
+entries:
+- id: ootp-ch31-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-One - O.W.L.s
+  chapter_start_pdf_page: 2245
+  chapter_end_pdf_page: 2268
+  pdf_page: 2248
+  printed_page: null
+  extracted_text_lines: 99-176
+  text_anchor:
+    start_phrase: June had arrived
+    end_phrase: This information took the edge off Harry and Ron's desire for brain stimulants.
+    local_occurrence_note: Opening O.W.L. preparation passage after Ron hears about Grawp and before McGonagall gives the official exam procedure.
+  nearby_context: Teachers stop assigning homework and devote lessons to likely exam topics, students compare study hours, Malfoy invokes examination contacts, and a black-market trade in brain stimulants appears among fifth- and seventh-years.
+  match_terms:
+  - O.W.L.s
+  - June
+  - review lessons
+  - study habits
+  - Baruffio's Brain Elixir
+  - powdered dragon claw
+  quote_excerpt_short: "Their O.W.L.s were upon them at last."
+  source_note: Final O.W.L. preparation changes normal teaching into review sessions, intensifies peer anxiety, and produces illicit exam-aid trading among examination-year students.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - ordinary-wizarding-levels
+  - exam-preparation
+  - fifth-year
+  - seventh-year
+  - review-lessons
+  - student-workload
+  - black-market-study-aids
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Examinations and Academic Progression
+  candidate_section: Final O.W.L. revision culture and exam-year pressure
+  reason_for_placement: The passage shows how the approach of public examinations reshapes classroom practice, student routines, and informal student markets.
+  relevance_to_hogwarts_a_history: This supports a curriculum chapter on the lived final weeks before O.W.L.s, beyond the official timetable and grading scale.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch29-001
+    - ootp-ch12-002
+    notes: ootp-ch29-001 records Easter revision schedules and library study, while ootp-ch12-002 explains fifth-year O.W.L. importance; this entry adds final June review lessons and illicit study-aid trading.
+  confidence: high
+  limitations: The student black-market examples are observed in one examination year and may reflect Umbridge-era stress rather than a formal school custom.
+
+- id: ootp-ch31-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-One - O.W.L.s
+  chapter_start_pdf_page: 2245
+  chapter_end_pdf_page: 2268
+  pdf_page: 2252
+  printed_page: null
+  extracted_text_lines: 237-267
+  text_anchor:
+    start_phrase: Is that the examiners?
+    end_phrase: Did things with a wand I'd never seen before
+    local_occurrence_note: The trio observes the external examiners arriving in the entrance hall on the evening before exams.
+  nearby_context: Umbridge receives the ancient examiners nervously, Professor Marchbanks asks after Dumbledore, and she recalls personally examining him in Transfiguration and Charms for his N.E.W.T.s.
+  match_terms:
+  - examiners
+  - Griselda Marchbanks
+  - Wizarding Examinations Authority
+  - N.E.W.T.s
+  - Transfiguration
+  - Charms
+  quote_excerpt_short: "Examined him personally in Transfiguration and Charms"
+  source_note: External O.W.L. examiners arrive at Hogwarts, with Griselda Marchbanks linked to the Wizarding Examinations Authority and to Dumbledore's earlier N.E.W.T. examinations.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - wizarding-examinations-authority
+  - griselda-marchbanks
+  - external-examiners
+  - ordinary-wizarding-levels
+  - newts
+  - dumbledore
+  - entrance-hall
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Examinations and Academic Progression
+  candidate_section: Wizarding Examinations Authority examiners at Hogwarts
+  reason_for_placement: The scene identifies external examiners, their institutional authority, and their recurring relationship with Hogwarts examinations.
+  relevance_to_hogwarts_a_history: This can anchor an explanation of how Hogwarts public examinations are administered by outside wizarding authorities rather than solely by school staff.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup for Wizarding Examinations Authority, Marchbanks, and external examiner terms found no likely prior entry.
+  confidence: high
+  limitations: Malfoy's earlier claim about his father knowing Marchbanks is student gossip and should not be treated as verified influence.
+
+- id: ootp-ch31-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-One - O.W.L.s
+  chapter_start_pdf_page: 2245
+  chapter_end_pdf_page: 2268
+  pdf_page: 2250
+  printed_page: null
+  extracted_text_lines: 178-211
+  text_anchor:
+    start_phrase: They received their examination schedules
+    end_phrase: he would be sure of one bit of post next summer
+    local_occurrence_note: McGonagall explains the O.W.L. timetable and rules in Transfiguration before the examiners arrive.
+  nearby_context: McGonagall says O.W.L.s run over two successive weeks, theory exams occur in the mornings, practical exams in the afternoons, Astronomy practical at night, anti-cheating charms protect papers, and results arrive by owl in July.
+  match_terms:
+  - examination schedules
+  - theory exams
+  - practical exams
+  - Anti-Cheating Charms
+  - Wizarding Examinations Authority
+  - July results
+  quote_excerpt_short: "the most stringent Anti-Cheating Charms"
+  source_note: McGonagall gives the official O.W.L. procedure, including two-week scheduling, morning theory papers, afternoon practicals, a night Astronomy practical, banned cheating aids, and July owl-post results.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - ordinary-wizarding-levels
+  - exam-procedure
+  - anti-cheating-charms
+  - wizarding-examinations-authority
+  - practical-exams
+  - theory-exams
+  - owl-post-results
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Examinations and Academic Progression
+  candidate_section: O.W.L. timetable, anti-cheating rules, and result delivery
+  reason_for_placement: The passage is direct procedural evidence for how O.W.L.s are scheduled, secured, and reported to students.
+  relevance_to_hogwarts_a_history: This supplies a compact institutional account of public-exam administration suitable for a Hogwarts academic-life chapter.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch12-002
+    - ootp-ch15-002
+    - poa-ch22-005
+    notes: ootp-ch12-002 explains why O.W.L.s matter, ootp-ch15-002 records the grade scale, and poa-ch22-005 records result timing at term end; this entry adds the official two-week procedure, anti-cheating controls, and July owl delivery.
+  confidence: high
+  limitations: The rules are conveyed to Gryffindor by its Head of House, though they are explicitly attributed to the Wizarding Examinations Authority and schoolwide exam procedure.
+
+- id: ootp-ch31-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-One - O.W.L.s
+  chapter_start_pdf_page: 2245
+  chapter_end_pdf_page: 2268
+  pdf_page: 2253
+  printed_page: null
+  extracted_text_lines: 284-350; 361-387
+  text_anchor:
+    start_phrase: Once breakfast was over
+    end_phrase: he had just achieved an Outstanding O.W.L.
+    local_occurrence_note: The first written exam and later practical examinations show Great Hall arrangements and individual examiner tests.
+  nearby_context: Fifth- and seventh-years enter a Great Hall converted from House tables to individual desks, McGonagall uses an hourglass, students wait beside the hall for practicals, and Tofty examines Harry in Charms and Defense.
+  match_terms:
+  - Great Hall
+  - House tables
+  - hourglass
+  - practical examination
+  - Professor Tofty
+  - Patronus
+  - Outstanding
+  quote_excerpt_short: "many tables for one"
+  source_note: O.W.L. written papers transform the Great Hall into an individual-desk examination hall, while practicals are conducted by examiners testing named spells and, in Harry's case, awarding a bonus Patronus opportunity.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - great-hall
+  - examination-hall
+  - individual-desks
+  - practical-exams
+  - professor-tofty
+  - defense-against-the-dark-arts
+  - patronus
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Examinations and Academic Progression
+  candidate_section: Great Hall examination layout and practical testing
+  reason_for_placement: The entry records the physical setup and examiner-led testing mechanics of Hogwarts public examinations.
+  relevance_to_hogwarts_a_history: This can support a detailed account of how ordinary school spaces are repurposed for formal magical assessment.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - poa-ch16-001
+    - poa-ch22-005
+    - ootp-ch16-004
+    notes: poa-ch16-001 and poa-ch22-005 record exam credentials and timing, while ootp-ch16-004 records student-led practical Defense preparation; this entry adds the observed Great Hall exam layout and examiner-administered practical tests.
+  confidence: high
+  limitations: The passage gives examples from Harry's observed subjects rather than a complete list of practical tasks for every O.W.L. subject.
+
+- id: ootp-ch31-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-One - O.W.L.s
+  chapter_start_pdf_page: 2245
+  chapter_end_pdf_page: 2268
+  pdf_page: 2258
+  printed_page: null
+  extracted_text_lines: 453-466
+  text_anchor:
+    start_phrase: Harry was determined to perform well
+    end_phrase: heading back up to the castle
+    local_occurrence_note: The Tuesday Care of Magical Creatures practical occurs on the lawn at the edge of the Forbidden Forest.
+  nearby_context: The exam requires identifying a knarl among hedgehogs, handling a bowtruckle, feeding and cleaning a fire-crab safely, and choosing a diet for a sick unicorn while Hagrid watches from his cabin.
+  match_terms:
+  - Care of Magical Creatures
+  - practical examination
+  - knarl
+  - bowtruckle
+  - fire-crab
+  - sick unicorn
+  - Forbidden Forest
+  quote_excerpt_short: "correctly identify the knarl"
+  source_note: The Care of Magical Creatures O.W.L. practical tests creature identification, safe handling, feeding and cleaning, and treatment knowledge on the lawn by the Forbidden Forest.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - care-of-magical-creatures
+  - practical-exam
+  - knarls
+  - bowtruckles
+  - fire-crabs
+  - unicorns
+  - forbidden-forest-edge
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Care of Magical Creatures and Grounds-Based Teaching
+  candidate_section: O.W.L. practical assessment at the forest edge
+  reason_for_placement: The scene gives a rare concrete list of practical assessment tasks for a magical-creature subject.
+  relevance_to_hogwarts_a_history: This supports a subject-specific curriculum section by showing the skills considered examinable in Care of Magical Creatures.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch24-001
+    - gof-ch22-005
+    notes: gof-ch24-001 records unicorn handling in ordinary Care of Magical Creatures teaching and gof-ch22-005 records curriculum snapshots; this entry adds the O.W.L. practical task list and assessment setting.
+  confidence: high
+  limitations: The passage reports only Harry's observed exam station sequence and does not identify the examiner by name.
+
+- id: ootp-ch31-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-One - O.W.L.s
+  chapter_start_pdf_page: 2245
+  chapter_end_pdf_page: 2268
+  pdf_page: 2259
+  printed_page: null
+  extracted_text_lines: 499-656
+  text_anchor:
+    start_phrase: When they reached the top of the Astronomy Tower
+    end_phrase: Four Stunners straight in the chest
+    local_occurrence_note: During the nighttime Astronomy practical, students observe Umbridge and Ministry assistants attempt to seize Hagrid, attack McGonagall, and fail to stop Hagrid's escape.
+  nearby_context: Marchbanks and Tofty supervise the Astronomy exam, students use telescopes on the tower, Umbridge's group crosses the lawn to Hagrid's cabin after midnight, Stunners bounce off Hagrid, McGonagall is hit without warning, and Hagrid flees toward the gates with Fang.
+  match_terms:
+  - Astronomy Tower
+  - practical Astronomy
+  - Hagrid
+  - Umbridge
+  - Dawlish
+  - Professor McGonagall
+  - Stunners
+  quote_excerpt_short: "This is an examination!"
+  source_note: A formal Astronomy O.W.L. practical is interrupted by an armed Ministry-backed staff seizure attempt, exposing students to Umbridge's nighttime removal tactics, Hagrid's resistance, and McGonagall's injury.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - astronomy-tower
+  - astronomy-exam
+  - high-inquisitor
+  - hagrid-dismissal
+  - professor-mcgonagall
+  - ministry-intervention
+  - stunning-spells
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Intervention and Staff Vulnerability
+  candidate_section: Hagrid's attempted removal during the Astronomy O.W.L.
+  reason_for_placement: The passage records a direct conflict between formal school examination order and coercive Ministry intervention on Hogwarts grounds.
+  relevance_to_hogwarts_a_history: A later edition could use this as a key example of how the Umbridge regime disrupted academic life and staff safety inside Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch30-005
+    - ootp-ch26-006
+    - ootp-ch30-004
+    notes: ootp-ch30-005 records Hagrid expecting dismissal, ootp-ch26-006 records Trelawney's dismissal and castle-residence dispute, and ootp-ch30-004 records covert Hagrid movement under Umbridge pressure; this entry adds the actual nighttime seizure attempt and McGonagall's injury.
+  confidence: high
+  limitations: Student witnesses observe from the Astronomy Tower at a distance, though the spellfire, dialogue, and aftermath are directly visible or audible.
+
+- id: ootp-ch31-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Thirty-One - O.W.L.s
+  chapter_start_pdf_page: 2245
+  chapter_end_pdf_page: 2268
+  pdf_page: 2266
+  printed_page: null
+  extracted_text_lines: 697-773
+  text_anchor:
+    start_phrase: Their final exam, History of Magic
+    end_phrase: And nobody from Liechtenstein had wanted to come
+    local_occurrence_note: Harry attempts the final History of Magic O.W.L. before the Department of Mysteries vision interrupts him.
+  nearby_context: The exam paper asks about eighteenth-century goblin riots and wand legislation, a 1749 Statute of Secrecy breach, and the International Confederation of Wizards, including Pierre Bonaccord, Liechtenstein, troll rights, and goblin exclusion.
+  match_terms:
+  - History of Magic
+  - wand legislation
+  - goblin riots
+  - Statute of Secrecy
+  - International Confederation of Wizards
+  - Pierre Bonaccord
+  - Liechtenstein
+  quote_excerpt_short: "Formation of the International Confederation of Wizards"
+  source_note: 'The History of Magic O.W.L. confirms advanced Hogwarts historical curriculum topics: goblin riots and wand law, a 1749 Statute of Secrecy breach, and the formation politics of the International Confederation of Wizards.'
+  reference_type: curriculum_or_subject
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - history-of-magic
+  - goblin-riots
+  - wand-legislation
+  - statute-of-secrecy
+  - international-confederation
+  - pierre-bonaccord
+  - liechtenstein
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: History of Magic Curriculum
+  candidate_section: O.W.L. historical topics and wizarding institutions
+  reason_for_placement: The examination questions expose which wizarding historical events are considered examinable by Hogwarts and the external authority.
+  relevance_to_hogwarts_a_history: This can seed an academic-history subsection tying Hogwarts curriculum to broader wizarding legal and international institutions.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch22-005
+    - cos-ch02-005
+    - ootp-ch05-007
+    notes: gof-ch22-005 records History of Magic coverage of goblin rebellions, cos-ch02-005 records the Statute of Secrecy in a Ministry notice, and ootp-ch05-007 records Dumbledore's International Confederation role; this entry adds the O.W.L. question set and specific historical topics.
+  confidence: high
+  limitations: Some details are filtered through Harry's exam memory and incomplete answer, so the entry should distinguish official question topics from Harry's uncertain recall.

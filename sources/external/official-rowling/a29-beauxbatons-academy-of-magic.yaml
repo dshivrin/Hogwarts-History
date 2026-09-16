@@ -1,0 +1,360 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A29
+  source_file: resources/external/official-rowling/harrypotter-com/a29-beauxbatons-academy-of-magic.md
+  title: Beauxbatons Academy of Magic
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/beauxbatons-academy-of-magic
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/beauxbatons-academy-of-magic
+  capture_completeness: complete
+  content_sha256: ccdd682cbe741813fc42bf60aa6e69b1fd8f7ea9e7c08be4776b98a9fdd2e05f
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and evidence extracted.
+
+entries:
+  - id: ext-a29-001
+    source_file: resources/external/official-rowling/harrypotter-com/a29-beauxbatons-academy-of-magic.md
+    source_id: A29
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/beauxbatons-academy-of-magic
+    source_section: Beauxbatons [Bo - batton]
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Thought to be situated somewhere in the Pyrenees
+      end_phrase: also attend in large numbers
+      local_occurrence_note: Opening paragraph, before the parenthetical comparison of student populations.
+    nearby_context: The opening description gives a tentative Pyrenees location, a magically shaped chateau, and the national composition of the school body.
+    match_terms:
+      - beauxbatons
+      - pyrenees
+      - french students
+      - european magical education
+    quote_excerpt_short: Beauxbatons Academy has a preponderance of French students.
+    source_note: Rowling places Beauxbatons only tentatively in the Pyrenees and describes a mainly French intake alongside substantial Spanish, Portuguese, Dutch, Luxembourgish, and Belgian attendance.
+    reference_type: historical_claim
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - beauxbatons
+      - hogwarts-comparison
+      - international-schools
+      - school-geography
+      - student-population
+    candidate_part: 'Part VI: Hogwarts in the Wider Wizarding World'
+    candidate_chapter: International Schools and the Triwizard Tradition
+    candidate_section: 'Beauxbatons: Geography and Student Catchment'
+    reason_for_placement: Establishes comparative European school geography and recruitment context for Hogwarts's international peers.
+    relevance_to_hogwarts_a_history: Useful as a qualified comparison point for Hogwarts's geographic reach and the regional character of other European magical schools.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed results share broad school, population, or Triwizard context but do not state this proposed location and multinational intake.
+      audit:
+        query_tags:
+          - beauxbatons
+          - hogwarts-comparison
+          - international-schools
+          - school-geography
+          - student-population
+        candidates:
+          - id: cos-ch05-002
+            disposition: distinct
+          - id: ext-a15-002
+            disposition: distinct
+          - id: gof-ch09-002
+            disposition: distinct
+          - id: gof-ch11-004
+            disposition: distinct
+          - id: gof-ch12-007
+            disposition: distinct
+          - id: gof-ch15-005
+            disposition: distinct
+          - id: gof-ch15-007
+            disposition: distinct
+          - id: gof-ch16-001
+            disposition: distinct
+          - id: gof-ch16-005
+            disposition: distinct
+          - id: gof-ch17-002
+            disposition: distinct
+    confidence: high
+    limitations: The location is expressly reported as thought rather than confirmed, and the present-tense description supplies no dates for the student catchment.
+
+  - id: ext-a29-002
+    source_file: resources/external/official-rowling/harrypotter-com/a29-beauxbatons-academy-of-magic.md
+    source_id: A29
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/beauxbatons-academy-of-magic
+    source_section: Beauxbatons [Bo - batton]
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: though Spanish, Portuguese, Dutch, Luxembourgians and Belgians also attend
+      end_phrase: larger studentship than Hogwarts
+      local_occurrence_note: Opening paragraph's parenthetical comparison after the list of national student groups.
+    nearby_context: The source contrasts the sizes of Beauxbatons and Durmstrang with Hogwarts immediately after describing Beauxbatons's multinational intake.
+    match_terms:
+      - beauxbatons
+      - student population
+      - hogwarts comparison
+      - durmstrang
+    quote_excerpt_short: Beauxbatons and Durmstrang have a larger studentship than Hogwarts.
+    source_note: Rowling explicitly states that both Beauxbatons and Durmstrang have larger student bodies than Hogwarts.
+    reference_type: historical_claim
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - beauxbatons
+      - hogwarts-comparison
+      - international-schools
+      - school-geography
+      - student-population
+    candidate_part: 'Part VI: Hogwarts in the Wider Wizarding World'
+    candidate_chapter: International Schools and the Triwizard Tradition
+    candidate_section: Comparative School Populations
+    reason_for_placement: Supplies a direct comparative statement about Hogwarts's scale among European magical schools.
+    relevance_to_hogwarts_a_history: Provides an authoritative qualification against treating Hogwarts as the largest regional school; it is a Harry-era comparative fact rather than an enrolment count.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The Hogwarts-scale note in A15 concerns Rowling's planning for Hogwarts and does not duplicate this comparative claim about Beauxbatons and Durmstrang.
+      audit:
+        query_tags:
+          - beauxbatons
+          - hogwarts-comparison
+          - international-schools
+          - school-geography
+          - student-population
+        candidates:
+          - id: cos-ch05-002
+            disposition: distinct
+          - id: ext-a15-002
+            disposition: distinct
+          - id: gof-ch09-002
+            disposition: distinct
+          - id: gof-ch11-004
+            disposition: distinct
+          - id: gof-ch12-007
+            disposition: distinct
+          - id: gof-ch15-005
+            disposition: distinct
+          - id: gof-ch15-007
+            disposition: distinct
+          - id: gof-ch16-001
+            disposition: distinct
+          - id: gof-ch16-005
+            disposition: distinct
+          - id: gof-ch17-002
+            disposition: distinct
+    confidence: high
+    limitations: The source gives only a relative comparison, with no enrolment figures, measurement date, or stated definition of studentship.
+
+  - id: ext-a29-003
+    source_file: resources/external/official-rowling/harrypotter-com/a29-beauxbatons-academy-of-magic.md
+    source_id: A29
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/beauxbatons-academy-of-magic
+    source_section: Beauxbatons [Bo - batton]
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: It is said that the stunning castle and grounds
+      end_phrase: is named for them
+      local_occurrence_note: Opening paragraph's account of Nicolas and Perenelle Flamel and the fountain in the school park.
+    nearby_context: The source connects the school's chateau and grounds to Flamel alchemical wealth, then describes a fountain named for the pair.
+    match_terms:
+      - beauxbatons
+      - nicolas flamel
+      - perenelle flamel
+      - fountain
+      - alchemist gold
+    quote_excerpt_short: Nicolas and Perenelle Flamel met at Beauxbatons in their youth.
+    source_note: The source says the Flamels met at Beauxbatons when young, that alchemist gold partly funded its castle and grounds, and that its park fountain bears their name and is believed healing and beautifying.
+    reference_type: magical_architecture
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - alchemist-gold
+      - beauxbatons
+      - healing-magic
+      - magical-architecture
+      - nicolas-flamel
+    candidate_part: 'Part VI: Hogwarts in the Wider Wizarding World'
+    candidate_chapter: International Schools and the Triwizard Tradition
+    candidate_section: Beauxbatons, the Flamels, and School Grounds
+    reason_for_placement: Adds a dated-as-historical comparative example of magical-school patronage and named landscape features.
+    relevance_to_hogwarts_a_history: Supports comparative discussion of how magical schools can acquire distinctive grounds, funding traditions, and healing-associated monuments.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The Nicolas Flamel index result concerns Dumbledore's scholarly network; the architecture results concern other locations and do not duplicate this Beauxbatons account.
+      audit:
+        query_tags:
+          - alchemist-gold
+          - beauxbatons
+          - healing-magic
+          - magical-architecture
+          - nicolas-flamel
+        candidates:
+          - id: cos-ch11-007
+            disposition: distinct
+          - id: cos-ch17-001
+            disposition: distinct
+          - id: dh-ch01-001
+            disposition: distinct
+          - id: dh-ch02-002
+            disposition: distinct
+          - id: dh-ch08-001
+            disposition: distinct
+          - id: dh-ch12-006
+            disposition: distinct
+          - id: dh-ch23-002
+            disposition: distinct
+          - id: dh-ch27-005
+            disposition: distinct
+          - id: dh-ch28-007
+            disposition: distinct
+          - id: dh-ch29-004
+            disposition: distinct
+    confidence: high
+    limitations: The passage gives no dates for the Flamels' youth or the funding, and labels the funding, fountain properties, and location with reported rather than confirmed language.
+
+  - id: ext-a29-004
+    source_file: resources/external/official-rowling/harrypotter-com/a29-beauxbatons-academy-of-magic.md
+    source_id: A29
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/beauxbatons-academy-of-magic
+    source_section: Beauxbatons [Bo - batton]
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Beauxbatons has always enjoyed a cordial relationship with Hogwarts
+      end_phrase: Hogwarts’ sixty-three
+      local_occurrence_note: Second paragraph, which contrasts cordial school relations with tournament rivalry.
+    nearby_context: The source describes the schools as cordial outside international competition and records their respective Triwizard win totals.
+    match_terms:
+      - beauxbatons
+      - hogwarts relations
+      - triwizard tournament
+      - school rivalry
+      - sixty-three wins
+    quote_excerpt_short: Beauxbatons has sixty-two wins to Hogwarts' sixty-three.
+    source_note: Rowling characterizes Beauxbatons and Hogwarts as historically cordial while retaining a competitive Triwizard rivalry, with sixty-two Beauxbatons wins to sixty-three Hogwarts wins.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - beauxbatons
+      - hogwarts-relations
+      - international-competition
+      - school-rivalry
+      - triwizard-tournament
+    candidate_part: 'Part VI: Hogwarts in the Wider Wizarding World'
+    candidate_chapter: International Schools and the Triwizard Tradition
+    candidate_section: 'Beauxbatons and Hogwarts: Cordial Rivalry'
+    reason_for_placement: Documents a long-running institutional relationship and a concrete comparative tournament record.
+    relevance_to_hogwarts_a_history: Gives a concise historical framing for Hogwarts's relationship with Beauxbatons, while separating inter-school cooperation from competition.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed Triwizard entries independently document the competition and school contacts but do not give this historical relationship formulation or win totals.
+      audit:
+        query_tags:
+          - beauxbatons
+          - hogwarts-relations
+          - international-competition
+          - school-rivalry
+          - triwizard-tournament
+        candidates:
+          - id: gof-ch23-005
+            disposition: corroborating
+          - id: gof-ch12-007
+            disposition: corroborating
+          - id: gof-ch15-005
+            disposition: corroborating
+          - id: gof-ch15-007
+            disposition: corroborating
+          - id: gof-ch16-005
+            disposition: corroborating
+          - id: gof-ch17-002
+            disposition: corroborating
+          - id: gof-ch31-004
+            disposition: corroborating
+          - id: gof-ch37-005
+            disposition: corroborating
+          - id: ext-a09-005
+            disposition: distinct
+          - id: gof-ch07-007
+            disposition: distinct
+    confidence: high
+    limitations: The source does not date the relationship or its cumulative win totals, so it cannot establish the record at a particular historical moment.
+
+  - id: ext-a29-005
+    source_file: resources/external/official-rowling/harrypotter-com/a29-beauxbatons-academy-of-magic.md
+    source_id: A29
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/beauxbatons-academy-of-magic
+    source_section: Beauxbatons [Bo - batton]
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Apart from the Flamels, famous ex-students of Beauxbatons include
+      end_phrase: French and British Ministries of Magic
+      local_occurrence_note: Final paragraph's list of notable Beauxbatons alumni, ending with Fleur Delacour's Battle of Hogwarts service.
+    nearby_context: After naming other former pupils, the source connects Fleur Delacour's Beauxbatons education to the Battle of Hogwarts and awards from both ministries.
+    match_terms:
+      - fleur delacour
+      - beauxbatons alumni
+      - battle of hogwarts
+      - medals of bravery
+      - ministries of magic
+    quote_excerpt_short: Fleur Delacour fought in the world-famous Battle of Hogwarts.
+    source_note: Rowling identifies Fleur Delacour as a Beauxbatons former student who fought at the Battle of Hogwarts and received bravery medals from both the French and British Ministries of Magic.
+    reference_type: cross_reference_candidate
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - alumni
+      - battle-of-hogwarts
+      - beauxbatons
+      - fleur-delacour
+      - french-ministry
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Battle of Hogwarts and Its International Participants
+    candidate_section: Fleur Delacour as a Beauxbatons Alumna
+    reason_for_placement: Records a later historical connection between a foreign school's alumna and Hogwarts's 1998 battle.
+    relevance_to_hogwarts_a_history: Useful for a clearly marked later editorial note on international participation and commemoration; excluded from an original pre-1984 history.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Battle entries corroborate the setting and events but do not identify Fleur as a Beauxbatons alumna or record her bilateral medals.
+      audit:
+        query_tags:
+          - alumni
+          - battle-of-hogwarts
+          - beauxbatons
+          - fleur-delacour
+          - french-ministry
+        candidates:
+          - id: cos-ch04-003
+            disposition: distinct
+          - id: dh-ch30-006
+            disposition: corroborating
+          - id: dh-ch31-001
+            disposition: corroborating
+          - id: dh-ch31-004
+            disposition: corroborating
+          - id: dh-ch32-001
+            disposition: corroborating
+          - id: dh-ch32-002
+            disposition: corroborating
+          - id: dh-ch32-003
+            disposition: corroborating
+          - id: dh-ch32-004
+            disposition: corroborating
+          - id: dh-ch33-001
+            disposition: corroborating
+          - id: dh-ch34-001
+            disposition: corroborating
+    confidence: high
+    limitations: This is a post-1984 outcome and the source does not provide dates, the nature of the medals, or independent evidence for the battle participation.

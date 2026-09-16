@@ -1,0 +1,353 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A25
+  source_file: resources/external/official-rowling/harrypotter-com/a25-time-turner.md
+  title: Time-Turner
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/time-turner
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/time-turner
+  capture_completeness: complete
+  content_sha256: 878860dd5c1068a649aa40fb1bcaadb28fd1f7442868e739488d44091154d7fb
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read; extracted time-magic limits, historical accident, Ministry regulation, and Hogwarts-specific confirmation.
+
+entries:
+  - id: ext-a25-001
+    source_file: resources/external/official-rowling/harrypotter-com/a25-time-turner.md
+    source_id: A25
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/time-turner
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: the longest period that may be relived
+      end_phrase: number of hours the user wishes to relive
+      local_occurrence_note: Saul Croaker quotation in the opening discussion of time-magic.
+    nearby_context: Croaker describes the Department of Mysteries' current conclusions about safe use of contained Hour-Reversal Charms.
+    match_terms:
+      - time-magic
+      - hour-reversal-charm
+      - five-hours
+    quote_excerpt_short: the longest period that may be relived without the possibility of serious harm to the traveller or to time itself is around five hours.
+    source_note: Department of Mysteries research places the maximum safely relivable interval at approximately five hours and describes contained Hour-Reversal Charms in wearable enchanted hour-glasses.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - time-turner
+      - time-magic
+      - hour-reversal-charm
+      - department-of-mysteries
+      - magical-limits
+    candidate_part: 'Part II: The School Through Time'
+    candidate_chapter: Magical Knowledge and Its Limits
+    candidate_section: Ministry research into hazardous time magic
+    reason_for_placement: Establishes the regulated magical context for the rare device later permitted at Hogwarts.
+    relevance_to_hogwarts_a_history: Useful contextual evidence for any account of exceptional Time-Turner access, while the source does not date the research conclusion.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed entries matched the distinctive time-magic and Hour-Reversal Charm query.
+      audit:
+        query_tags:
+          - hour-reversal-charm
+          - time-magic
+        candidates: []
+    confidence: high
+    limitations: Official authorial source presents Saul Croaker's account but does not date the research conclusion or identify underlying Ministry records.
+
+  - id: ext-a25-002
+    source_file: resources/external/official-rowling/harrypotter-com/a25-time-turner.md
+    source_id: A25
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/time-turner
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: All attempts to travel back further
+      end_phrase: All such experiments have been abandoned since 1899
+      local_occurrence_note: Second paragraph of the Saul Croaker quotation.
+    nearby_context: Croaker explains the consequences of attempts to travel substantially farther than the safe interval.
+    match_terms:
+      - time-travel
+      - 1899
+      - magical-accidents
+    quote_excerpt_short: All attempts to travel back further than a few hours have resulted in catastrophic harm to the witch or wizard involved.
+    source_note: Long-distance time-travel experiments were abandoned in 1899 after repeated lethal or catastrophic outcomes for travellers.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - time-turner
+      - time-travel
+      - 1899
+      - ministry-experiments
+      - magical-accidents
+    candidate_part: 'Part II: The School Through Time'
+    candidate_chapter: Magical Knowledge and Its Limits
+    candidate_section: The abandonment of long-distance time travel
+    reason_for_placement: Supplies a dated institutional turning point in the history of hazardous magic.
+    relevance_to_hogwarts_a_history: Provides pre-Harry-era Ministry context for why exceptional time travel at Hogwarts was tightly constrained.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed entries matched the named historical accident and time-travel query.
+      audit:
+        query_tags:
+          - eloise-mintumble
+          - time-travel
+        candidates: []
+    confidence: high
+    limitations: The 1899 policy date is reported through Croaker in an official authorial source rather than a reproduced Ministry decree.
+
+  - id: ext-a25-003
+    source_file: resources/external/official-rowling/harrypotter-com/a25-time-turner.md
+    source_id: A25
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/time-turner
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: when Eloise Mintumble became trapped
+      end_phrase: twenty-five of their descendants vanished in the present
+      local_occurrence_note: Middle of the Saul Croaker quotation describing the 1899 incident.
+    nearby_context: Croaker identifies Eloise Mintumble's five-day stay in 1402 as the incident that demonstrated damage to the lives of people in the past and their descendants.
+    match_terms:
+      - eloise-mintumble
+      - 1402
+      - time-disturbance
+    quote_excerpt_short: her five days in the distant past caused great disturbance to the life paths of all those she met
+    source_note: Mintumble's 1402 displacement is said to have changed the lives of people she encountered so profoundly that twenty-five descendants disappeared from the present.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - eloise-mintumble
+      - 1402
+      - time-travel
+      - time-disturbance
+      - magical-accidents
+    candidate_part: 'Part II: The School Through Time'
+    candidate_chapter: Magical Knowledge and Its Limits
+    candidate_section: Eloise Mintumble and temporal disruption
+    reason_for_placement: Preserves a named historical case explaining the severe social consequences ascribed to time travel.
+    relevance_to_hogwarts_a_history: Supports a historical explanation of the risk framework behind later school-related Time-Turner restrictions.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed entries matched the temporal-disturbance and time-travel query.
+      audit:
+        query_tags:
+          - time-disturbance
+          - time-travel
+        candidates: []
+    confidence: high
+    limitations: The causal account is an in-universe research report and its extraordinary effects are not independently documented in the snapshot.
+
+  - id: ext-a25-004
+    source_file: resources/external/official-rowling/harrypotter-com/a25-time-turner.md
+    source_id: A25
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/time-turner
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Tuesday following her reappearance lasted
+      end_phrase: most stringent laws and penalties have been placed
+      local_occurrence_note: Closing paragraph of the Saul Croaker quotation.
+    nearby_context: Croaker describes temporal irregularities after Mintumble's return and the Ministry's subsequent response.
+    match_terms:
+      - time-disturbance
+      - magical-law
+      - ministry-cover-up
+    quote_excerpt_short: Tuesday following her reappearance lasted two and a half full days
+    source_note: Following Mintumble's recovery, abnormal day lengths reportedly appeared; the Ministry concealed the episode and imposed stringent laws and penalties on time-travel study.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - time-turner
+      - time-disturbance
+      - time-travel
+      - magical-law
+      - ministry-cover-up
+    candidate_part: 'Part II: The School Through Time'
+    candidate_chapter: Magical Knowledge and Its Limits
+    candidate_section: Legal controls after temporal disruption
+    reason_for_placement: Connects a dated historical crisis to Ministry secrecy and regulatory controls.
+    relevance_to_hogwarts_a_history: Explains the legal background against which any Hogwarts use of time magic had to be authorized.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed entries matched the temporal-disturbance and time-travel query.
+      audit:
+        query_tags:
+          - time-disturbance
+          - time-travel
+        candidates: []
+    confidence: high
+    limitations: The snapshot does not supply the text, dates, or scope of the resulting laws and penalties.
+
+  - id: ext-a25-005
+    source_file: resources/external/official-rowling/harrypotter-com/a25-time-turner.md
+    source_id: A25
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/time-turner
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Even the use of the very limited amount
+      end_phrase: presume to tamper with its laws
+      local_occurrence_note: Paragraph immediately after the Saul Croaker quotation.
+    nearby_context: The article describes how the Ministry controls its rare Time-Turners even for short intervals.
+    match_terms:
+      - ministry-regulation
+      - temporal-law
+      - time-management
+    quote_excerpt_short: Time-Turners are generally only used to solve the most trivial problems of time management
+    source_note: The Ministry surrounds its limited Time-Turner stock with extensive legal controls and normally permits the objects only for minor time-management needs.
+    reference_type: school_rule_or_policy
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - time-turner
+      - ministry-regulation
+      - temporal-law
+      - time-management
+      - magical-safety
+    candidate_part: 'Part II: The School Through Time'
+    candidate_chapter: Ministry and Hogwarts
+    candidate_section: Exceptional Ministry authorization for time devices
+    reason_for_placement: Gives the institutional policy context for the unusually authorized student use at Hogwarts.
+    relevance_to_hogwarts_a_history: Clarifies that routine institutional treatment of Time-Turners was restrictive, making school access exceptional.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The returned entry concerns Ministry-regulated wartime transport, not Time-Turner regulation.
+      audit:
+        query_tags:
+          - ministry-regulation
+          - temporal-law
+        candidates:
+          - id: dh-ch01-004
+            disposition: distinct
+    confidence: high
+    limitations: The source describes general Ministry practice without identifying a specific authorization procedure or period.
+
+  - id: ext-a25-006
+    source_file: resources/external/official-rowling/harrypotter-com/a25-time-turner.md
+    source_id: A25
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/time-turner
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The Ministry’s entire stock of Time-Turners was destroyed
+      end_phrase: granted permission to use one at Hogwarts
+      local_occurrence_note: Standalone paragraph preceding the author’s note.
+    nearby_context: The article dates the destruction of the Ministry stock relative to Hermione Granger's authorized Hogwarts use.
+    match_terms:
+      - department-of-mysteries
+      - time-turner
+      - ministry-stock
+    quote_excerpt_short: The Ministry’s entire stock of Time-Turners was destroyed during a fight in the Department of Mysteries
+    source_note: The Ministry's complete Time-Turner stock was destroyed in a Department of Mysteries fight roughly three years after Hermione received permission to use one at Hogwarts.
+    reference_type: historical_claim
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - time-turner
+      - department-of-mysteries
+      - ministry-stock
+      - hermione-granger
+      - magical-artifacts
+    candidate_part: 'Part IV: Recent Hogwarts History'
+    candidate_chapter: The Second Wizarding War
+    candidate_section: The loss of Ministry Time-Turners
+    reason_for_placement: Records a later event that closes the institutional history of Time-Turner availability.
+    relevance_to_hogwarts_a_history: Useful as a later editorial note linking the Hogwarts accommodation to the disappearance of the Ministry's stock; excluded from a pre-1984 core.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Returned Department of Mysteries entries concern unrelated research, administration, or wartime events rather than destruction of the Time-Turner stock.
+      audit:
+        query_tags:
+          - department-of-mysteries
+          - time-turner
+        candidates:
+          - id: beedle-ch04-004
+            disposition: distinct
+          - id: dh-ch11-003
+            disposition: distinct
+          - id: gof-ch07-004
+            disposition: distinct
+          - id: gof-ch30-004
+            disposition: distinct
+          - id: hbp-ch07-003
+            disposition: distinct
+          - id: ootp-ch07-007
+            disposition: distinct
+          - id: ootp-ch25-002
+            disposition: distinct
+          - id: ootp-ch34-003
+            disposition: distinct
+          - id: ootp-ch34-004
+            disposition: distinct
+          - id: ootp-ch34-005
+            disposition: distinct
+    confidence: high
+    limitations: The relative dating is approximate and the source supplies no detailed account of the fight or inventory.
+
+  - id: ext-a25-007
+    source_file: resources/external/official-rowling/harrypotter-com/a25-time-turner.md
+    source_id: A25
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/time-turner
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Secondly, I had Hermione give back
+      end_phrase: only Time-Turner ever to enter Hogwarts
+      local_occurrence_note: Second stage in the author’s note on removing Time-Turners from later plots.
+    nearby_context: Rowling retrospectively explains how she limited future time travel in the narrative after the third novel.
+    match_terms:
+      - hogwarts
+      - time-turner
+      - hermione-granger
+    quote_excerpt_short: I had Hermione give back the only Time-Turner ever to enter Hogwarts.
+    source_note: In the author's retrospective account, Hermione returned the sole Time-Turner ever to enter Hogwarts after her exceptional school use.
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hogwarts
+      - time-turner
+      - hermione-granger
+      - educational-accommodation
+      - elective-study
+    candidate_part: 'Part IV: Recent Hogwarts History'
+    candidate_chapter: Student Life and Exceptional Arrangements
+    candidate_section: Hermione Granger’s Time-Turner accommodation
+    reason_for_placement: Confirms the singular status and conclusion of a rare Hogwarts accommodation.
+    relevance_to_hogwarts_a_history: Supports an editorial cross-reference to the third-year arrangement and should be framed as a retrospective authorial confirmation.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The two relevant returned entries corroborate the authorization and return of Hermione's device; the remaining entry addresses a different safety rule.
+      audit:
+        query_tags:
+          - time-travel
+          - time-turner
+        candidates:
+          - id: poa-ch21-002
+            disposition: corroborating
+          - id: poa-ch21-003
+            disposition: distinct
+          - id: poa-ch22-006
+            disposition: corroborating
+    confidence: high
+    limitations: This is an authorial retrospective statement rather than an in-universe institutional record, and it does not describe the return procedure.

@@ -1,0 +1,350 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Eight - Snape Victorious
+  chapter_start_pdf_page: 2545
+  chapter_end_pdf_page: 2558
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used the current processing-state range, pages 2545-2558. Prior anchors placed Chapter Seven complete at PDF page 2544 and Chapter Nine pending at PDF page 2559, so no full-PDF scan was needed.
+  processed_date: '2026-07-21'
+  processor_notes: "Extracted with pypdf via scripts/extract_pages.py using only the bounded page range. No explicit Hogwarts: A History reference was found. Seven strongest Hogwarts institutional or grounds-history entries were retained."
+
+entries:
+  - id: hbp-ch08-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eight - Snape Victorious
+    chapter_start_pdf_page: 2545
+    chapter_end_pdf_page: 2558
+    pdf_page: 2547
+    printed_page: null
+    extracted_text_lines: 76-91; 94-99
+    text_anchor:
+      start_phrase: You'd better put that Cloak back on
+      end_phrase: to give the school extra protection
+      local_occurrence_note: Tonks sends a Patronus to the castle, then explains that Aurors are stationed in Hogsmeade for school protection.
+    nearby_context: Tonks has found Harry on the departing train and is walking him from Hogsmeade Station toward the school under the Invisibility Cloak.
+    match_terms:
+      - Tonks
+      - Patronus
+      - castle
+      - Hogsmeade
+      - Aurors
+      - school protection
+      - Proudfoot
+      - Savage
+      - Dawlish
+    quote_excerpt_short: "to give the school extra protection"
+    source_note: Tonks confirms a wartime Auror station in Hogsmeade and uses a Patronus message to notify the castle that Harry has been recovered.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - wartime-security
+      - aurors
+      - hogsmeade
+      - patronus-messaging
+      - school-protection
+      - castle-communications
+      - student-arrival
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Wartime Security Around Hogwarts
+    candidate_section: Hogsmeade Auror station and Patronus notice to the castle
+    reason_for_placement: The passage documents external security support around Hogwarts during the second war and shows Patronus messaging used for immediate castle coordination.
+    relevance_to_hogwarts_a_history: A later edition can use this as wartime evidence for how the school perimeter extended operationally into Hogsmeade and the station approach.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found general security and Hogsmeade entries, but no prior seed records Aurors stationed in Hogsmeade with Patronus notification to the castle.
+    confidence: high
+    limitations: The passage does not state who ordered the Auror deployment or whether the station covered all Hogsmeade routes.
+
+  - id: hbp-ch08-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eight - Snape Victorious
+    chapter_start_pdf_page: 2545
+    chapter_end_pdf_page: 2558
+    pdf_page: 2548
+    printed_page: null
+    extracted_text_lines: 110-124; 137-151
+    text_anchor:
+      start_phrase: the tall pillars on either side of the gates
+      end_phrase: back into place
+      local_occurrence_note: Harry reaches the winged-boar gates, fails to unlock them with Alohomora, hears that Dumbledore bewitched them and the walls, and later watches Snape open and resecure the chains.
+    nearby_context: Harry and Tonks have walked from Hogsmeade Station along the carriage tracks and find the gates chained shut before Snape comes down from the castle.
+    match_terms:
+      - winged boar gates
+      - Alohomora
+      - Dumbledore
+      - anti-intruder jinxes
+      - security tightened
+      - chains
+      - padlock
+    quote_excerpt_short: "Anti-intruder jinxes on all of them"
+    source_note: The school gates are chained and personally bewitched by Dumbledore, while all walls carry anti-intruder jinxes after a major summer security tightening.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - winged-boar-gates
+      - anti-intruder-jinxes
+      - castle-protections
+      - school-protection
+      - alohomora
+      - dumbledore
+      - wartime-security
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Wartime Security Around Hogwarts
+    candidate_section: Bewitched gates, chained boundaries, and anti-intruder walls
+    reason_for_placement: The scene gives unusually concrete evidence for active boundary protections, including failed unlocking magic and staff-controlled gate access.
+    relevance_to_hogwarts_a_history: This can extend a protective-enchantments chapter with wartime changes at the physical boundary of the grounds.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - poa-ch09-001
+        - ootp-ch23-001
+        - hbp-ch04-001
+      notes: poa-ch09-001 and ootp-ch23-001 record castle-wide protections and anti-Apparition, while hbp-ch04-001 confirms Hogwarts boundary movement limits; this entry adds wartime gate chains, Dumbledore's gate enchantment, anti-intruder wall jinxes, and Alohomora failure.
+    confidence: high
+    limitations: The passage does not specify the spells used on the gates or whether the anti-intruder jinxes were newly cast or strengthened.
+
+  - id: hbp-ch08-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eight - Snape Victorious
+    chapter_start_pdf_page: 2545
+    chapter_end_pdf_page: 2558
+    pdf_page: 2551
+    printed_page: null
+    extracted_text_lines: 199-201; 233-239; 274-285
+    text_anchor:
+      start_phrase: The Great Hall, with its four long House tables
+      end_phrase: Dumbledore got to his feet at the staff table
+      local_occurrence_note: Harry enters after the Sorting, hears the Hat's unity advice summarized, and the Hall falls silent when Dumbledore rises.
+    nearby_context: The start-of-term feast is underway in the Great Hall with House tables, staff table, floating candles, food transitions, ghosts, and student gossip.
+    match_terms:
+      - Great Hall
+      - House tables
+      - staff table
+      - floating candles
+      - Sorting
+      - Sorting Hat
+      - ghosts
+      - start-of-term feast
+    quote_excerpt_short: "four long House tables"
+    source_note: The chapter corroborates the Great Hall start-of-term feast structure, the annual Sorting's public aftermath, the Hat's unity warning, and ghosts' participation in Hall life.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - great-hall
+      - house-tables
+      - staff-table
+      - start-of-term-feast
+      - sorting-ceremony
+      - sorting-hat
+      - ghosts
+    candidate_part: Ceremonies and School Traditions
+    candidate_chapter: The Sorting Ceremony
+    candidate_section: Feast setting, House tables, staff table, and unity warnings
+    reason_for_placement: The passage gives another observed start-of-term ceremony setting and adds the recurring wartime theme of the Hat urging unity.
+    relevance_to_hogwarts_a_history: This supports a traditions chapter by tying Great Hall layout, ghost presence, and the headmaster's speech rhythm to the opening feast.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch05-004
+        - gof-ch12-003
+      notes: cos-ch05-004 and gof-ch12-003 already cover annual Sorting practice in the Great Hall; this entry adds the 1996 unity-message summary, ghost gossip at House tables, and Dumbledore's post-feast speech transition.
+    confidence: high
+    limitations: Harry arrives after the Sorting itself, so the Hat's song is summarized by Hermione rather than quoted directly.
+
+  - id: hbp-ch08-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eight - Snape Victorious
+    chapter_start_pdf_page: 2545
+    chapter_end_pdf_page: 2558
+    pdf_page: 2554
+    printed_page: null
+    extracted_text_lines: 306-310
+    text_anchor:
+      start_phrase: Mr. Filch, our caretaker, has asked me to say
+      end_phrase: who should do likewise
+      local_occurrence_note: Dumbledore delivers routine start-of-term notices about banned products and House Quidditch team or commentator signups.
+    nearby_context: The notices come during Dumbledore's start-of-term address, just before he announces Slughorn and Snape's posts.
+    match_terms:
+      - Filch
+      - caretaker
+      - blanket ban
+      - joke items
+      - Weasleys' Wizard Wheezes
+      - House Quidditch teams
+      - Heads of House
+      - commentators
+    quote_excerpt_short: "blanket ban on any joke items"
+    source_note: Dumbledore announces a schoolwide ban on Weasleys' Wizard Wheezes products and directs Quidditch players and commentator candidates to register with Heads of House.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - school-rules
+      - forbidden-objects
+      - filch
+      - weasleys-wizard-wheezes
+      - quidditch
+      - heads-of-house
+      - commentators
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Start-of-Term Notices
+    candidate_section: Forbidden joke items and House Quidditch signups
+    reason_for_placement: The passage shows ordinary rule and activity administration being announced publicly through the headmaster's feast speech.
+    relevance_to_hogwarts_a_history: This can support a governance section on how caretaker restrictions and extracurricular participation are communicated at the start of term.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: gof-ch12-005
+      notes: gof-ch12-005 records earlier start-of-term notices on forbidden objects, restricted places, and Quidditch exceptions; this entry adds a targeted Weasleys' Wizard Wheezes ban and commentator recruitment through Heads of House.
+    confidence: high
+    limitations: The passage gives no enforcement details for the joke-item ban or the selection criteria for commentators.
+
+  - id: hbp-ch08-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eight - Snape Victorious
+    chapter_start_pdf_page: 2545
+    chapter_end_pdf_page: 2558
+    pdf_page: 2554
+    printed_page: null
+    extracted_text_lines: 311-323; 327-355
+    text_anchor:
+      start_phrase: We are pleased to welcome a new member of staff this year
+      end_phrase: the silence was absolute before continuing
+      local_occurrence_note: Dumbledore announces Slughorn as Potions master and Snape as Defense Against the Dark Arts teacher; Harry and the Hall react to the long-awaited appointment.
+    nearby_context: Slughorn stands at the staff table, Snape acknowledges Slytherin applause, and Harry recalls the widespread belief that Dumbledore had not trusted Snape with the Defense post.
+    match_terms:
+      - Professor Slughorn
+      - Potions master
+      - Professor Snape
+      - Defense Against the Dark Arts
+      - jinxed post
+      - staff appointments
+      - Slytherin table
+    quote_excerpt_short: "Defense Against the Dark Arts teacher"
+    source_note: Dumbledore formally appoints Slughorn to resume Potions and Snape to Defense Against the Dark Arts, triggering schoolwide recognition of Snape's long pursuit of the post and its rumored one-year pattern.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - staff-appointments
+      - potions
+      - defense-against-the-dark-arts
+      - slughorn
+      - snape
+      - jinxed-post
+      - teacher-appointments
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Staff Appointments and Subject Posts
+    candidate_section: Slughorn returns to Potions and Snape takes Defense Against the Dark Arts
+    reason_for_placement: The announcement records a major subject reassignment and directly continues the long-running Defense Against the Dark Arts staffing pattern.
+    relevance_to_hogwarts_a_history: This is later editorial evidence for teacher tenure, subject continuity, and the special instability of the Defense Against the Dark Arts post.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch02-003
+        - ootp-ch17-005
+        - cos-ch07-004
+      notes: hbp-ch02-003 records Snape's claim that Dumbledore withheld the Defense post, ootp-ch17-005 records his repeated applications, and cos-ch07-004 records the rumored jinx; this entry adds the public appointment of Snape to Defense and Slughorn's return to Potions.
+    confidence: high
+    limitations: The D.A.D.A. jinx is still student commentary here, not an official explanation from Dumbledore.
+
+  - id: hbp-ch08-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eight - Snape Victorious
+    chapter_start_pdf_page: 2545
+    chapter_end_pdf_page: 2558
+    pdf_page: 2556
+    printed_page: null
+    extracted_text_lines: 356-357; 364-375
+    text_anchor:
+      start_phrase: Lord Voldemort and his followers are once more at large
+      end_phrase: with the utmost regard for your own and others' safety
+      local_occurrence_note: Dumbledore gives the school a wartime safety address after staff announcements.
+    nearby_context: Dumbledore tells the full Hall that the situation is dangerous, says Hogwarts has new and stronger protections, and orders compliance with security restrictions.
+    match_terms:
+      - Voldemort
+      - Hogwarts
+      - magical fortifications
+      - protected
+      - security restrictions
+      - out of bed after hours
+      - suspicious
+      - member of staff
+    quote_excerpt_short: "magical fortifications have been strengthened"
+    source_note: Dumbledore publicly states that Hogwarts' magical fortifications have been strengthened and instructs students and staff to follow restrictions, stay in bed after hours, and report suspicious activity.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - wartime-security
+      - magical-fortifications
+      - school-protection
+      - after-hours-rule
+      - staff-reporting
+      - student-safety
+      - voldemort-return
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Wartime Security Around Hogwarts
+    candidate_section: Strengthened fortifications and schoolwide reporting rules
+    reason_for_placement: The address gives official headmaster-level framing for strengthened protections and student conduct during wartime.
+    relevance_to_hogwarts_a_history: A later edition can quote this as the clearest institutional statement of Hogwarts' second-war security regime and its behavioral expectations.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: hbp-ch08-002
+      notes: hbp-ch08-002 records concrete boundary protections at the gates and walls; this entry records Dumbledore's broader official address about strengthened fortifications, after-hours restrictions, and reporting suspicious activity.
+    confidence: high
+    limitations: The speech does not enumerate the new protections or distinguish permanent enchantments from temporary wartime measures.
+
+  - id: hbp-ch08-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Eight - Snape Victorious
+    chapter_start_pdf_page: 2545
+    chapter_end_pdf_page: 2558
+    pdf_page: 2557
+    printed_page: null
+    extracted_text_lines: 412-424; 431-437
+    text_anchor:
+      start_phrase: I was with Grawp
+      end_phrase: had given up his subject
+      local_occurrence_note: Hagrid explains his late arrival by saying Grawp has a new mountain cave and mentions the next Care of Magical Creatures lesson and Witherwings.
+    nearby_context: After the feast, Hagrid speaks with Harry and Ron near the oak front doors before heading into the darkness.
+    match_terms:
+      - Grawp
+      - mountains
+      - Dumbledore
+      - cave
+      - assistant
+      - Care of Magical Creatures
+      - Witherwings
+      - Hagrid
+    quote_excerpt_short: "new home up in the mountains"
+    source_note: Hagrid says Dumbledore has moved Grawp from the Forest to a mountain cave, considers training him as an assistant, and still keeps Witherwings near his Care of Magical Creatures work.
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - grawp
+      - giants
+      - hagrid
+      - mountains
+      - care-of-magical-creatures
+      - witherwings
+      - magical-residents
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Magical Residents of the Grounds
+    candidate_section: Grawp relocated from the Forest to a mountain cave
+    reason_for_placement: The passage updates the status of a dangerous concealed resident and links Hagrid's creature care to the post-Umbridge school year.
+    relevance_to_hogwarts_a_history: A later edition can use this as an afterword on Grawp's relocation, Dumbledore's intervention, and Hagrid's continued management of nonstandard creatures.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch30-006
+        - ootp-ch33-006
+        - hbp-ch03-006
+      notes: ootp-ch30-006 introduces Grawp's concealed Forest residence, ootp-ch33-006 records his clash with centaurs, and hbp-ch03-006 records Witherwings in Hagrid's care; this entry adds Grawp's relocation to a mountain cave and Hagrid's assistant idea.
+    confidence: high
+    limitations: Hagrid's assistant plan is aspirational, and the cave's exact location relative to Hogwarts grounds is not specified.

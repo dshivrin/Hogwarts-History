@@ -1,0 +1,331 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-One - The Third Task
+  chapter_start_pdf_page: 1454
+  chapter_end_pdf_page: 1478
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml and project-control/next-run.md; extracted only PDF pages 1454-1478 with pypdf via scripts/extract_pages.py, without scanning the PDF from page 1.
+  processed_date: '2026-07-01'
+  processor_notes: "Processed only Book 4, Chapter Thirty-One. Text was extracted into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History title reference was found. Quote excerpts were kept under 25 words per entry."
+entries:
+- id: gof-ch31-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-One - The Third Task
+  chapter_start_pdf_page: 1454
+  chapter_end_pdf_page: 1478
+  pdf_page: 1463
+  printed_page: null
+  extracted_text_lines: 315-355
+  text_anchor:
+    start_phrase: It's great being back here
+    end_phrase: a man called Ogg
+    local_occurrence_note: Bill and Mrs. Weasley revisit Hogwarts before the final task and remember older castle residents, staff, and grounds changes.
+  nearby_context: Bill asks after Sir Cadogan and the Fat Lady, Mrs. Weasley says the Fat Lady was present in her school days, recalls caretaker Apollyon Pringle, and later notes the Whomping Willow was planted after she left while remembering gamekeeper Ogg.
+  match_terms:
+  - Bill Weasley
+  - Mrs. Weasley
+  - Fat Lady
+  - Apollyon Pringle
+  - Ogg
+  - Whomping Willow
+  quote_excerpt_short: Apollyon Pringle - he was the caretaker
+  source_note: Alumni recollections provide school-history evidence for the Fat Lady's long tenure, an earlier caretaker named Apollyon Pringle, pre-Hagrid gamekeeper Ogg, and the Whomping Willow's post-Molly planting.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - alumni-memory
+  - fat-lady
+  - apollyon-pringle
+  - caretaker
+  - ogg
+  - whomping-willow
+  - hogwarts-grounds
+  - portraits
+  candidate_part: Founders, Staff, and Institutional Memory
+  candidate_chapter: Older Staff, Residents, and Alumni Memory
+  candidate_section: Weasley Family Recollections of Pringle, Ogg, and the Fat Lady
+  reason_for_placement: The passage preserves alumni testimony about earlier school staff, portrait continuity, and a grounds change that predates Harry's attendance.
+  relevance_to_hogwarts_a_history: A later edition can use these recollections to anchor late-twentieth-century staff succession and continuity among castle residents and grounds features.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch05-003
+    - gof-ch17-007
+    - gof-ch22-007
+    notes: Prior entries cover the Whomping Willow and Fat Lady portrait access; this entry adds alumni chronology, Apollyon Pringle, and gamekeeper Ogg.
+  confidence: medium
+  limitations: The dating is relative to Molly Weasley's and Bill Weasley's school years, and the passage does not give exact appointment or planting dates.
+- id: gof-ch31-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-One - The Third Task
+  chapter_start_pdf_page: 1454
+  chapter_end_pdf_page: 1478
+  pdf_page: 1466
+  printed_page: null
+  extracted_text_lines: 405-424
+  text_anchor:
+    start_phrase: make your way down to the Quidditch field
+    end_phrase: hundreds of students filed into their seats
+    local_occurrence_note: Dumbledore dismisses the school to the Quidditch field and the champions arrive at the completed maze.
+  nearby_context: The final task occurs at the Quidditch field, now encircled by a twenty-foot hedge with a gap marking the entrance; the stands fill with students as spectators.
+  match_terms:
+  - Quidditch field
+  - Triwizard Tournament
+  - third task
+  - maze
+  - students
+  - stands
+  quote_excerpt_short: Quidditch field, which was now completely unrecognizable
+  source_note: The final task transforms the Quidditch field into a twenty-foot-hedged maze while retaining the stadium stands for the school audience.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - third-task
+  - maze
+  - quidditch-field
+  - student-spectators
+  - school-grounds
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Final Task Venue and Spectator Use of the Quidditch Field
+  reason_for_placement: The passage gives observed confirmation that tournament infrastructure temporarily repurposed a central school sports venue for a public inter-school event.
+  relevance_to_hogwarts_a_history: This supports a later account of how the revived Triwizard Tournament altered ordinary school space and made the student body spectators to a dangerous ceremonial task.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch28-004
+    notes: gof-ch28-004 records the pre-task briefing; this entry adds the completed venue, hedge height, and spectator use at the actual event.
+  confidence: high
+  limitations: The passage does not explain the full construction magic or how long the Quidditch field remained unusable afterward.
+- id: gof-ch31-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-One - The Third Task
+  chapter_start_pdf_page: 1454
+  chapter_end_pdf_page: 1478
+  pdf_page: 1466
+  printed_page: null
+  extracted_text_lines: 425-438
+  text_anchor:
+    start_phrase: We are going to be patrolling
+    end_phrase: station themselves around the maze
+    local_occurrence_note: McGonagall briefs the champions on the rescue signal and the four patrollers leave their stations.
+  nearby_context: Hagrid, Moody, McGonagall, and Flitwick wear red luminous stars, patrol the maze perimeter, and instruct champions to send red sparks if they need rescue.
+  match_terms:
+  - red sparks
+  - patrolling
+  - McGonagall
+  - Hagrid
+  - Moody
+  - Flitwick
+  quote_excerpt_short: send red sparks into the air
+  source_note: The final task uses a staff-and-gamekeeper perimeter patrol with luminous identifiers and a red-sparks distress signal for champion rescue.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - third-task
+  - staff-patrol
+  - red-sparks
+  - rescue-signal
+  - student-safety
+  - maze
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Final Task Rescue Signals and Staff Patrols
+  reason_for_placement: The passage documents the safety protocol used around an officially sanctioned dangerous event on school grounds.
+  relevance_to_hogwarts_a_history: A later edition can cite this as evidence that Hogwarts used visible staff patrols and emergency signals during the Triwizard final task, even though the system did not prevent later sabotage.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Query results for red sparks, maze patrol, rescue signal, patrollers, and luminous stars found no likely prior duplicate.
+  confidence: high
+  limitations: The passage describes intended rescue procedure but not response times, medical backup, or whether patrollers could see inside the maze.
+- id: gof-ch31-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-One - The Third Task
+  chapter_start_pdf_page: 1454
+  chapter_end_pdf_page: 1478
+  pdf_page: 1467
+  printed_page: null
+  extracted_text_lines: 443-457
+  text_anchor:
+    start_phrase: Let me remind you how the points currently stand
+    end_phrase: Harry and Cedric hurried forward into the maze
+    local_occurrence_note: Bagman announces current standings and starts the champions according to point order.
+  nearby_context: Harry and Cedric lead with eighty-five points each, Krum has eighty, Fleur is third, and the first two champions enter on Bagman's whistle before the others.
+  match_terms:
+  - points
+  - Cedric Diggory
+  - Harry Potter
+  - Viktor Krum
+  - Fleur Delacour
+  - whistle
+  quote_excerpt_short: Tied in first place, with eighty-five points each
+  source_note: The final task publicly confirms point standings and staggered maze entry, with the tied Hogwarts champions starting first before Durmstrang and Beauxbatons.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - champion-points
+  - staggered-entry
+  - hogwarts-champions
+  - durmstrang
+  - beauxbatons
+  - tournament-rules
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Point Standings and Final Task Entry Order
+  reason_for_placement: The passage gives public procedural evidence for how accumulated scores shaped the final task's competitive order.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain the revived tournament's scoring logic and why Hogwarts entered the maze with two simultaneous leaders.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch28-004
+    notes: gof-ch28-004 records Bagman's earlier explanation of point-based entry; this entry gives the actual final standings and entry sequence at the event.
+  confidence: high
+  limitations: The source does not show the complete scoring calculation for the prior two tasks.
+- id: gof-ch31-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-One - The Third Task
+  chapter_start_pdf_page: 1454
+  chapter_end_pdf_page: 1478
+  pdf_page: 1467
+  printed_page: null
+  extracted_text_lines: 458-559
+  text_anchor:
+    start_phrase: The towering hedges cast black shadows
+    end_phrase: twinkled innocently at him in the moonlight
+    local_occurrence_note: Harry enters the maze, navigates by the Four-Point Spell, identifies a boggart, and passes through an enchanted mist.
+  nearby_context: The hedges silence the crowd, the maze darkens, the Four-Point Spell orients Harry, a boggart imitates a dementor, and golden mist reverses ground and sky until he escapes.
+  match_terms:
+  - enchanted maze
+  - towering hedges
+  - Four-Point Spell
+  - boggart
+  - golden mist
+  - Reductor Curse
+  quote_excerpt_short: sound of the surrounding crowd was silenced
+  source_note: The maze behaves as more than a physical hedge layout, suppressing outside sound and containing orientation, boggart, and gravity-reversal enchantment challenges.
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - enchanted-maze
+  - magical-architecture
+  - boggart
+  - golden-mist
+  - four-point-spell
+  - school-grounds
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Temporary Tournament Enchantments
+  candidate_section: Maze Silencing, Navigation, and Spell Obstacles
+  reason_for_placement: The passage shows temporary enchantments imposed on Hogwarts grounds for a formal tournament task.
+  relevance_to_hogwarts_a_history: A later edition can use this to distinguish the final task maze from ordinary grounds architecture and to note how temporary magic can alter perception, sound, and orientation at Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch28-004
+    notes: gof-ch28-004 anticipates spell obstacles in the maze; this entry adds observed effects including crowd-silencing hedges, boggart deployment, and golden mist.
+  confidence: high
+  limitations: The passage does not identify who cast each enchantment or whether the silencing effect comes from hedge thickness, explicit enchantment, or both.
+- id: gof-ch31-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-One - The Third Task
+  chapter_start_pdf_page: 1454
+  chapter_end_pdf_page: 1478
+  pdf_page: 1470
+  printed_page: null
+  extracted_text_lines: 572-765
+  text_anchor:
+    start_phrase: found himself facing a Blast-Ended Skrewt
+    end_phrase: flattening a nearby hedge
+    local_occurrence_note: Harry encounters a Skrewt, a riddle-guarding sphinx, and a giant spider before the Cup.
+  nearby_context: The Skrewt is armored and vulnerable underneath, the sphinx blocks the quickest path unless Harry answers a riddle, and the spider requires combined Stunning Spells from Harry and Cedric.
+  match_terms:
+  - Blast-Ended Skrewt
+  - sphinx
+  - riddle
+  - spider
+  - Stupefy
+  - tournament obstacles
+  quote_excerpt_short: Not unless you can answer my riddle
+  source_note: The final maze uses dangerous creatures and an intelligent riddle guardian as obstacles, including a mature Blast-Ended Skrewt, a sphinx, and a giant spider near the Cup.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - tournament-obstacles
+  - blast-ended-skrewts
+  - sphinx
+  - spider
+  - magical-creatures
+  - student-safety
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Creature Obstacles in the Final Task Maze
+  reason_for_placement: The passage records the actual creature inventory and risk level of the final task, extending the earlier briefing.
+  relevance_to_hogwarts_a_history: A later edition can use this to evaluate the revived tournament's safety practices and the movement of hazardous creatures into a temporary school-grounds challenge.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch13-003
+    - gof-ch18-003
+    - gof-ch21-004
+    - gof-ch22-004
+    - gof-ch24-003
+    - gof-ch28-004
+    notes: Earlier entries cover Skrewt rearing and the final-task briefing; this entry adds mature Skrewt use as an obstacle plus the sphinx and spider encounters.
+  confidence: high
+  limitations: The passage does not state whether the spider is an Acromantula, how the creatures were contained, or who selected each obstacle.
+- id: gof-ch31-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-One - The Third Task
+  chapter_start_pdf_page: 1454
+  chapter_end_pdf_page: 1478
+  pdf_page: 1476
+  printed_page: null
+  extracted_text_lines: 773-839
+  text_anchor:
+    start_phrase: Cedric was standing feet from the Triwizard Cup
+    end_phrase: Cedric at his side
+    local_occurrence_note: Harry and Cedric negotiate who should win, agree to tie for Hogwarts, and touch the Cup together.
+  nearby_context: Harry says the first person to reach the Cup gets the points, Cedric invokes Harry's earlier help and second-task fairness, they agree to a shared Hogwarts victory, and the Cup instantly transports them.
+  match_terms:
+  - Triwizard Cup
+  - points
+  - Hogwarts victory
+  - Cedric Diggory
+  - Portkey
+  - tie
+  quote_excerpt_short: It's still a Hogwarts victory
+  source_note: The chapter records the final-task endpoint, the champions' understanding that reaching the Cup earns points, Harry and Cedric's voluntary tie, and the Cup's sudden Portkey-like activation.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - triwizard-cup
+  - portkey
+  - hogwarts-victory
+  - cedric-diggory
+  - tournament-security
+  - champion-points
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Triwizard Cup Endpoint and Portkey Breach
+  reason_for_placement: The passage captures the moment the tournament object becomes the vehicle for a security failure, while also documenting the champions' tie decision.
+  relevance_to_hogwarts_a_history: A later edition can use this as the immediate evidentiary bridge from official school tournament procedure to the catastrophic breach that followed.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Query results found prior Cup and point-order briefing evidence, but no prior entry for the Cup's observed transport activation at the end of the maze.
+  confidence: high
+  limitations: This chapter shows the transport effect but does not yet reveal who altered the Cup, where it sends them, or how the breach bypassed tournament protections.

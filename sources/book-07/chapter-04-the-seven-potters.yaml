@@ -1,0 +1,289 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Four - The Seven Potters
+  chapter_start_pdf_page: 3010
+  chapter_end_pdf_page: 3026
+  boundary_confidence: high
+  boundary_notes: Chapter Four page range was taken from project-control/processing-state.yaml after Book 7 Chapter Three. Only PDF pages 3010-3026 were extracted and searched.
+  processed_date: '2026-07-31'
+  processor_notes: "Processed only Book 7, Chapter Four. Text was extracted locally with pypdf into .tmp/current-chapter.txt and .tmp/chapter-07-04-pages. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+  - id: dh-ch04-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Four - The Seven Potters
+    chapter_start_pdf_page: 3010
+    chapter_end_pdf_page: 3026
+    pdf_page: 3013
+    printed_page: null
+    extracted_text_lines: "95-118"
+    text_anchor:
+      start_phrase: "As Dedalus probably told you"
+      end_phrase: "brooms, thestrals, and Hagrid's motorbike"
+      local_occurrence_note: "Moody explains why Floo, Portkey, Apparition, and spell-assisted removal from Privet Drive are unusable."
+    nearby_context: "The Order has gathered in the Dursley kitchen, and Moody briefs Harry on Thicknesse's legal restrictions and the Trace."
+    match_terms:
+      - pius thicknesse
+      - floo network
+      - portkey
+      - apparate
+      - trace
+      - underage magic
+    quote_excerpt_short: "The charm that detects magical activity around under-seventeens"
+    source_note: "Moody says Pius Thicknesse has criminalized connecting Privet Drive to the Floo Network, placing a Portkey there, or Apparating in or out, while Harry's Trace would reveal any spell cast to remove him."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - trace
+      - underage-magic
+      - pius-thicknesse
+      - floo-network
+      - portkey
+      - apparition
+      - privet-drive
+      - magical-transport
+    candidate_part: Protective Magic and Security
+    candidate_chapter: "Student Protection and Exceptional Safeguards"
+    candidate_section: "Trace Limits and Blocked Magical Transport"
+    reason_for_placement: "The passage combines Ministry legal pressure, the Trace, and transport constraints that shape Harry's final protected removal."
+    relevance_to_hogwarts_a_history: "A later edition can connect Hogwarts-age underage-magic monitoring with off-campus protection logistics when official authority has been compromised."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch03-004
+        - hbp-ch17-007
+      notes: "dh-ch03-004 already records the evacuation's underage-magic constraint and hbp-ch17-007 records Trace limits; this entry adds Thicknesse's specific bans on Floo, Portkey, and Apparition at Privet Drive."
+    confidence: high
+    limitations: "The passage reports Moody's operational briefing, not the full text of Thicknesse's legal order."
+
+  - id: dh-ch04-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Four - The Seven Potters
+    chapter_start_pdf_page: 3010
+    chapter_end_pdf_page: 3026
+    pdf_page: 3014
+    printed_page: null
+    extracted_text_lines: "121-146"
+    text_anchor:
+      start_phrase: "your mother's charm will only break"
+      end_phrase: "use a Portkey to the Burrow"
+      local_occurrence_note: "Moody explains the break conditions, the false trail, the protected houses, and the Tonks-house Portkey stage."
+    nearby_context: "Moody chooses to break the Privet Drive protection early because waiting until Harry turns seventeen would expose him at a known date."
+    match_terms:
+      - mother's charm
+      - come of age
+      - safe houses
+      - protective enchantments
+      - false trail
+      - portkey
+    quote_excerpt_short: "the charm will break the moment you get outside its range"
+    source_note: "Moody states that Lily's protection ends when Harry comes of age or stops calling Privet Drive home; the Order therefore uses false scheduling, twelve protected connected houses, and a Portkey from Tonks's parents' house to the Burrow."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - blood-protection
+      - privet-drive
+      - protective-enchantments
+      - safe-house
+      - portkey
+      - order-of-the-phoenix
+      - burrow
+      - second-war
+    candidate_part: Protective Magic and Security
+    candidate_chapter: "Student Protection and Exceptional Safeguards"
+    candidate_section: "Early Break of Privet Drive Protection"
+    reason_for_placement: "The passage confirms the final break condition and records the Order's protected-house decoy network."
+    relevance_to_hogwarts_a_history: "This is later-editorial evidence for the end of Harry's exceptional childhood protection and the Order's emergency transport architecture."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch03-001
+        - hbp-ch03-007
+      notes: "dh-ch03-001 and hbp-ch03-007 already cover the age-seventeen and Privet Drive residence limits; this entry adds the deliberate early break, decoy safe houses, and Portkey staging."
+    confidence: high
+    limitations: "The exact protective enchantments on each decoy house are not named."
+
+  - id: dh-ch04-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Four - The Seven Potters
+    chapter_start_pdf_page: 3010
+    chapter_end_pdf_page: 3026
+    pdf_page: 3014
+    printed_page: null
+    extracted_text_lines: "151-224"
+    text_anchor:
+      start_phrase: "There will be seven Harry Potters"
+      end_phrase: "pouring a little Polyjuice Potion into each one"
+      local_occurrence_note: "Moody reveals the decoy plan, collects Harry's hair, and distributes Polyjuice Potion."
+    nearby_context: "Harry resists allowing six friends and allies to impersonate him, but Moody argues that decoys are the only way to divide Death Eater attention."
+    match_terms:
+      - seven potters
+      - polyjuice potion
+      - decoys
+      - protectors
+      - death eaters
+      - harry's hair
+    quote_excerpt_short: "There will be seven Harry Potters moving through the skies"
+    source_note: "The Order creates six Polyjuice decoys of Harry, each paired with a protector, because Death Eaters are expected to try to capture Harry while killing escorts."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - polyjuice-potion
+      - decoys
+      - order-of-the-phoenix
+      - death-eaters
+      - harry-potter
+      - operational-security
+      - second-war
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Polyjuice Decoys and Escort Risk"
+    reason_for_placement: "The scene shows wartime defensive use of an advanced potion and records risk assumptions about Voldemort's orders."
+    relevance_to_hogwarts_a_history: "A later edition can cross-reference Polyjuice knowledge from earlier school incidents with its adult wartime deployment by Hogwarts-connected allies."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Queries surfaced earlier Polyjuice recipe and misuse entries, plus Order-operation entries, but none records the seven-Potters decoy operation or its capture-versus-kill risk model."
+    confidence: high
+    limitations: "The passage does not identify who brewed the Polyjuice Potion or where the potion was prepared."
+
+  - id: dh-ch04-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Four - The Seven Potters
+    chapter_start_pdf_page: 3010
+    chapter_end_pdf_page: 3026
+    pdf_page: 3019
+    printed_page: null
+    extracted_text_lines: "260-329"
+    text_anchor:
+      start_phrase: "The pairs will be as follows"
+      end_phrase: "THREE"
+      local_occurrence_note: "Moody assigns each Harry decoy to a transport partner, then launches the groups simultaneously."
+    nearby_context: "The group uses brooms, thestrals, and Sirius's motorbike; Hagrid says brooms and thestrals cannot carry his weight, and Arthur has modified the bike."
+    match_terms:
+      - broom
+      - thestral
+      - flying motorbike
+      - sirius's bike
+      - arthur weasley
+      - simultaneous departure
+    quote_excerpt_short: "brooms an' thestrals can't take me weight"
+    source_note: "The Order assigns paired decoy routes using brooms, thestrals, and Sirius Black's flying motorbike, with simultaneous departure preserving the diversion and Arthur Weasley's emergency modifications on the bike."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - broomsticks
+      - thestrals
+      - flying-motorbike
+      - magical-transport
+      - arthur-weasley
+      - sirius-black
+      - order-of-the-phoenix
+      - decoys
+    candidate_part: Magical Transportation
+    candidate_chapter: "Brooms, Beasts, Portkeys, and Improvised Vehicles"
+    candidate_section: "Seven-Potters Transport Assignments"
+    reason_for_placement: "The scene records the practical mix of transport modes available when monitored spells and regulated networks cannot be used."
+    relevance_to_hogwarts_a_history: "The passage can support a later cross-reference on off-campus travel by Hogwarts-linked students and allies under wartime constraints."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Queries found earlier broom, thestral, and Floo transport entries, but this evidence is distinct for a simultaneous decoy route plan and Sirius's modified motorbike."
+    confidence: high
+    limitations: "The route destinations for every pair are not listed in this chapter."
+
+  - id: dh-ch04-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Four - The Seven Potters
+    chapter_start_pdf_page: 3010
+    chapter_end_pdf_page: 3026
+    pdf_page: 3020
+    printed_page: null
+    extracted_text_lines: "339-463"
+    text_anchor:
+      start_phrase: "they were surrounded"
+      end_phrase: "Expelliarmus"
+      local_occurrence_note: "The departing Order group is ambushed, and Harry's defensive spell exposes him as the real Harry."
+    nearby_context: "At least thirty hooded figures encircle the group; the chase includes Killing Curses, Stunners, the motorbike's defensive wall/net/dragon-fire features, and Muggles below."
+    match_terms:
+      - death eater ambush
+      - killing curse
+      - stunning spell
+      - muggles below
+      - dragon fire
+      - expelliarmus
+    quote_excerpt_short: "Harry thought wildly of fireworks, and the Muggles below"
+    source_note: "The ambush shows Death Eaters waiting in force over a Muggle area, Order transport under lethal attack, Arthur's modified motorbike deploying emergency defenses, and Harry's signature Disarming Charm revealing the real target."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - death-eaters
+      - muggle-visibility
+      - magical-combat
+      - expelliarmus
+      - flying-motorbike
+      - order-of-the-phoenix
+      - second-war
+      - public-danger
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Ambush Over Muggle Britain"
+    reason_for_placement: "The scene records a major off-campus battle involving Hogwarts-connected protectors, magical transport, and possible Muggle exposure."
+    relevance_to_hogwarts_a_history: "A later edition can use this as evidence for how the Second War moved school-linked conflicts into public airspace around Harry's final summer."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "dh-ch03-003 records Muggle-visible wartime danger in general, but this entry is distinct for the actual Seven Potters ambush, motorbike defenses, and recognition of Harry's Disarming Charm."
+    confidence: medium
+    limitations: "Harry's viewpoint cannot identify every combatant or confirm what Muggle witnesses saw."
+
+  - id: dh-ch04-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Four - The Seven Potters
+    chapter_start_pdf_page: 3010
+    chapter_end_pdf_page: 3026
+    pdf_page: 3025
+    printed_page: null
+    extracted_text_lines: "494-542"
+    text_anchor:
+      start_phrase: "Voldemort was flying like smoke"
+      end_phrase: "he smashed into a muddy pond"
+      local_occurrence_note: "Voldemort personally joins the chase, Harry's wand acts independently, and the motorbike crashes near the destination."
+    nearby_context: "Voldemort pursues without visible support, demands Selwyn's wand after Harry's wand responds, and vanishes before Harry crashes near Hagrid."
+    match_terms:
+      - voldemort
+      - unsupported flight
+      - wand acted
+      - golden fire
+      - selwyn
+      - motorbike crash
+    quote_excerpt_short: "his wand acted of its own accord"
+    source_note: "The chase records Voldemort's unsupported flight, a rare independent reaction from Harry's wand producing golden fire, Voldemort's demand for another wand, and the crash landing at the protected destination."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - voldemort
+      - unsupported-flight
+      - wand-magic
+      - harry-potter
+      - magical-combat
+      - second-war
+      - flying-motorbike
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Voldemort's Pursuit and Wand Anomaly"
+    reason_for_placement: "The evidence marks the battle's escalation from Death Eater ambush to Voldemort's direct pursuit and an unusual wand event."
+    relevance_to_hogwarts_a_history: "This is likely a later editorial cross-reference rather than original core school history, useful where a revised edition explains Harry-era wand lore and wartime transport."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate queries surfaced general Voldemort and Death Eater entries, but no likely match for unsupported flight, Selwyn's wand, and Harry's wand acting independently in this chase."
+    confidence: medium
+    limitations: "The chapter presents the wand event from Harry's immediate perception and leaves its mechanism unexplained here."

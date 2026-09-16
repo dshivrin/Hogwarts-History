@@ -166,11 +166,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 - How reliable are Chocolate Frog cards and other magical ephemera as historical sources? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
 - Are *Modern Magical History*, *The Rise and Fall of the Dark Arts*, and *Great Wizarding Events of the Twentieth Century* Hogwarts library holdings, student-owned books, or general wizarding publications? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
-- Was Hermione's copy of *Quidditch Through the Ages* borrowed from the Hogwarts library or brought from another source? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
 - What library policies govern student access to practical sports and spellcraft books? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
 - Should named in-universe books used by students be indexed separately from explicit *Hogwarts: A History* references? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
 - Is Snape's statement about not taking library books outside the school a formal library rule, an ad hoc penalty, or a misused authority? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
-- Should *Quidditch Through the Ages* be cross-indexed as both a library/source entry and a Quidditch-history source? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
 - What is the publication status and reliability of *Which Broomstick*, and is it a book, periodical, catalogue, or specialist magazine? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
 - Was *Home Life and Social Habits of British Muggles* a required Muggle Studies text, a library book, or Hermione's personal copy? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
 - What are the formal access rules and safety measures for the Restricted Section? (tags: `library-and-named-sources`, `library-named`, `named-sources`, `library`, `named`, `sources`)
@@ -316,6 +314,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - What is the true origin of the Shrieking Shack's haunted reputation, and when did Hogwarts ghosts begin avoiding it? (tags: `feasts-and-school-traditions`, `feasts-school`, `school-traditions`, `feasts`, `school`, `traditions`)
 - How did the Shrieking Shack's physical damage and boarded windows become interpreted as ghost activity, and who maintained that public story? (tags: `feasts-and-school-traditions`, `feasts-school`, `school-traditions`, `feasts`, `school`, `traditions`)
 - When did the older-student stagecoach route from Hogsmeade station begin, and what later source identifies the invisible pullers? (tags: `feasts-and-school-traditions`, `feasts-school`, `school-traditions`, `feasts`, `school`, `traditions`)
+- In which school year did Herbert Beery stage The Fountain of Fair Fortune pantomime, allowing the event to be placed precisely within the Dippet headmastership and Dumbledore's Transfiguration teaching career? (tags: `feasts-and-school-traditions`, `school-traditions`, `christmas-pantomime`, `herbert-beery`, `armando-dippet`, `albus-dumbledore`; related: `beedle-ch02-001`, `beedle-ch02-002`, `beedle-ch02-005`)
 
 ## Protective Magic and Security
 
@@ -437,3 +436,69 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Source Processing
 
 - Are PDF page numbers stable enough for internal use, or should future runs add a separate extracted-page checksum or text-anchor field? (tags: `source-processing`, `source`, `processing`)
+
+## Protective Magic and Security
+
+- Which later source explains Dumbledore's "Remember my last" Howler to Petunia and how should that explanation be cross-referenced with Harry's Privet Drive protection? (tags: `protective-magic-and-security`, `protective-magic`, `magic-security`, `privet-drive`, `howler`, `blood-protection`, `petunia-dursley`; related: `ootp-ch02-006`)
+- Which later passage names and explains the concealment protecting number twelve, Grimmauld Place, and how should Dumbledore's note be cross-referenced with the headquarters arrival? (tags: `protective-magic-and-security`, `protective-magic`, `magic-security`, `grimmauld-place`, `order-of-the-phoenix`, `secret-headquarters`, `dumbledore`; related: `ootp-ch03-006`, `ootp-ch04-001`)
+- Which later passage identifies who ordered the Dementors into Little Whinging, and how should that explanation be cross-referenced with the Ministry control arguments at Harry's hearing? (tags: `protective-magic-and-security`, `protective-magic`, `magic-security`, `dementors`, `little-whinging`, `ministry-control`, `dolores-umbridge`; related: `ootp-ch08-006`, `ootp-ch01-004`)
+
+## Generated From Low-Confidence Entries
+
+- `dh-ch22-004` (Chapter Twenty-Two - The Deathly Hallows): The Snitch does not open in this chapter, so the Stone placement remains a character inference here.
+- `ext-b01-005` (None): Preservation transcription (authority D), not an official first-party page; the answer is deliberately incomplete in 2000 and points readers to a then-unpublished Book VII explanation.
+- `ext-b01-006` (None): Preservation transcription (authority D), not an official first-party page; this is a concise 2000 planning-era answer, not a published in-universe institutional source.
+- `ext-b04-004` (None): Authority D preservation transcription; Rowling explicitly qualifies the answer as from memory, and the transcript supplies no subject list or documentary confirmation.
+- `ext-b10-002` (None): Rowling expressly presents the identification as a feeling; the preservation transcription supplies no date, independent corroboration, or direct Hogwarts connection.
+- `ext-b10-003` (None): Retrospective authorial speculation about an unwritten scene after the Harry-era timeline; it explicitly does not establish an enacted Hogwarts tradition.
+- `ext-b11-003` (None): Authority-D preservation transcription; this is a journalist's thematic characterization, not a direct Rowling quote or independently verified account of a specific incident.
+- `ext-b12-001` (None): Accio Quote is a non-primary preservation transcription of a Guardian Unlimited interview; wording and attribution cannot be checked against the original outlet here.
+- `ext-b12-002` (None): Accio Quote is a non-primary preservation transcription of a Guardian Unlimited interview; this is a broad authorial interpretation, not an operational account of school security.
+- `ext-b12-003` (None): Accio Quote is a non-primary preservation transcription of a Guardian Unlimited interview; the statement is general and does not identify any rule or its historical period.
+- `ext-b14-001` (None): Authority-D preservation transcription rather than a primary Barnes and Noble record; the statement is undated author commentary and does not establish a historical period or Hogwarts policy.
+- `ext-b14-002` (None): Authority-D preservation transcription rather than a primary Barnes and Noble record; this undated author commentary does not establish an institutionally documented admission rule.
+- `ext-b14-003` (None): Authority-D preservation transcription rather than a primary Barnes and Noble record; it is extradiegetic author-process commentary, not independent evidence of magical-world history.
+- `ext-b16-001` (None): Authority-D preservation transcription rather than the original outlet; the answer is retrospective authorial design commentary, has no precise in-universe date, and does not independently establish Hogwarts history or continuity.
+- `ext-b17-001` (None): Authority-D preservation transcription rather than the original WBUR carrier; retrospective author commentary has no in-universe date and repeats a stronger in-universe account.
+- `ext-b17-002` (None): Authority-D preservation transcription rather than the original WBUR carrier; the statement is an undated authorial design assertion, does not identify the staff roster, and concerns post-1984 Harry-era material.
+- `ext-b19-001` (None): Authority-D preservation transcription rather than the original outlet; the 2000 answer confirms a Harry-era setting detail but gives neither the policy’s origin nor pre-1984 evidence.
+- `ext-b19-002` (None): Authority-D preservation transcription rather than the original outlet; the 2000 answer retrospectively explains a Harry-era depiction and does not establish when the enchantment was created or its full mechanism.
+- `ext-b22-001` (None): Authority-D preservation transcription rather than the original broadcast; this is retrospective author commentary with no precise in-universe date and cannot independently establish Quidditch history.
+- `ext-b22-002` (None): Authority-D preservation transcription; the interview gives no formal policy or date, and the expressly referenced Fluffy event belongs after the pre-1984 scope.
+- `ext-b22-003` (None): Authority-D preservation transcription; the remark is retrospective author commentary and explicitly points to post-1984, Book Five material rather than pre-1984 institutional history.
+- `ext-b25-001` (None): Accio Quote is a non-primary preservation transcription; this is retrospective authorial explanation, not an independent in-universe record or a dated institutional rule.
+- `ext-b25-002` (None): Accio Quote is a non-primary preservation transcription; the statement is authorial characterization made during an audiobook discussion and supplies no in-universe date or biographical detail.
+- `ext-b25-003` (None): Accio Quote is a non-primary preservation transcription; this is publication-era commentary about planned fiction, not an in-universe historical record.
+- `ext-b26-001` (None): Accio Quote is a non-primary preservation transcription. The speaker describes a published flashback rather than an independent institutional record, does not name the pupil, and does not establish a general procedure.
+- `ext-b26-002` (None): Accio Quote is a non-primary preservation transcription; this is authorial event-era commentary about the later novels, not an in-universe historical record and is outside the pre-1984 scope.
+- `ext-f01-001` (None): The source is a later official editorial, not Rowling Original Writing, and uses “it can be presumed” and “perhaps”; it cannot date the alphabet or prove Bronze/Iron Age use.
+- `ext-f01-002` (None): This is a secondary editorial summary published after the 1984 scope; it offers no dated evidence, source citation, or basis for the claimed historical relationship.
+- `ext-a06-003` (None): The account gives no date or independent historical record for the Fat Friar's life, execution, or House connection.
+- `ext-a06-005` (None): The snapshot does not date Myrtle's death, her return, or the later period described as decades.
+- `ext-a17-004` (None): This is a general wizarding custom rather than a dated Hogwarts event; its relevance rests on the article's explicit contrast with the school Pensieve.
+- `ext-a24-002` (None): The article describes general Ministry practice without dating the regulation or identifying a particular Hogwarts fireplace.
+- `ext-a24-003` (None): The statement is general and undated; it does not identify which Hogwarts fireplaces were tampered with or when.
+- `ext-a24-005` (None): The approximate nationwide count has no stated date and does not specify its method or all connected location types.
+- `ext-a25-001` (None): Official authorial source presents Saul Croaker's account but does not date the research conclusion or identify underlying Ministry records.
+- `ext-a25-005` (None): The source describes general Ministry practice without identifying a specific authorization procedure or period.
+- `ext-a26-001` (None): This authorial note gives no date, frequency, or evidence that Hogwarts formally adopted the wider social signal.
+- `ext-a26-002` (None): The source states symbolic associations, not a rule that every purple-and-green use conveys this meaning or a date for the associations.
+- `ext-a26-004` (None): The article describes associations and deliberately does not establish an intrinsic moral quality for Slytherin or its members.
+- `ext-a27-003` (None): The phrase second half of the twentieth century spans both sides of 1984, and this source provides no invention date or inventor.
+- `ext-a27-004` (None): The account does not date the release, identify the litter, or establish which Forest stories arose from it; its statement that some survive is contemporary to the source narration.
+- `ext-a28-001` (None): A 2016 official overview states a broad generalisation, without country-specific data or a date for the described education patterns.
+- `ext-a28-002` (None): The article gives an undated high-level institutional count and registration status, not a list of schools, governing rules, or historical establishment dates.
+- `ext-a28-003` (None): This is an undated overview claim about the listed schools' long histories; it neither identifies affected schools nor specifies the relevant wars, hostile communities, or Ministry actions.
+- `ext-a28-004` (None): A general rule in a 2016 overview, explicitly subject to exceptions; it gives no school-specific locations or construction history.
+- `ext-a36-002` (None): The retrospective confirms annual conferral but provides neither the Cup's founding date nor eligibility, selection process, or evidence that it belongs in a pre-1984 edition.
+- `ext-a37-001` (None): The source does not date the adoption of standard capacity-enhanced trunks or identify the approving Ministry department; the passage also describes a broader Ministry rule rather than a Hogwarts-authored policy.
+- `ext-a39-001` (None): This is an undated general proposition and cannot establish when potion-making began or where early practitioners learned it.
+- `ext-a39-002` (None): The statement is undated and identifies only two examples of effects said to be unavailable by other means.
+- `ext-a39-003` (None): The article describes an undated social stereotype and technical generality, not the historical formation of the field.
+- `ext-a40-001` (None): The relative words “once” and “in time” do not locate this history before Hogwarts or within any particular century.
+- `ext-a40-002` (None): This undated technical statement cannot show when cauldrons or naked-flame potion-making began.
+- `ext-a40-003` (None): “All cauldrons” and “modern inventions” are broad statements with no effective date or adoption chronology.
+- `ext-a42-001` (None): The statement describes Ollivander's practice without dating the discovery, transmission, or use of these selection methods.
+- `ext-a42-004` (None): The three examples have different evidentiary status and no transmission dates; this entry records Ollivander's method, not the truth of the rejected lore.
+- `ext-a45-003` (None): The source supplies no introduction date, licensing rule, station name, broadcast archive, or measure of how frequently Muggles heard the programmes.
+- `ext-a45-004` (None): The article gives neither the fleet's acquisition year nor its size, charms, procurement record, or relationship to Hogwarts transport.

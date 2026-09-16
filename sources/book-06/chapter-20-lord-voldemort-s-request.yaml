@@ -1,0 +1,343 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty - Lord Voldemort's Request
+  chapter_start_pdf_page: 2770
+  chapter_end_pdf_page: 2790
+  boundary_confidence: high
+  boundary_notes: Extracted from the bounded page range recorded in processing-state.yaml; no full-PDF scan was performed.
+  processed_date: '2026-07-27'
+  processor_notes: "One-unit automation run focused on canon evidence for a future Hogwarts: A History seed; no final prose drafted."
+
+entries:
+  - id: hbp-ch20-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty - Lord Voldemort's Request
+    chapter_start_pdf_page: 2770
+    chapter_end_pdf_page: 2790
+    pdf_page: 2773
+    printed_page: null
+    extracted_text_lines: 110-114; 127-154; 173-190
+    text_anchor:
+      start_phrase: Please close the door and sit down
+      end_phrase: reasonably firm sources of fact
+      local_occurrence_note: Harry enters another scheduled office lesson and Dumbledore connects the Pensieve memories to Slughorn's withheld Horcrux memory and source standards.
+    nearby_context: Professor Trelawney leaves Dumbledore's office just before Harry sees the Pensieve and two memory bottles set out for the lesson.
+    match_terms:
+      - Dumbledore's office
+      - Pensieve
+      - Slughorn memory
+      - Horcruxes
+      - firm sources
+      - private lesson
+    quote_excerpt_short: "two more tiny crystal bottles full of swirling memory"
+    source_note: Dumbledore continues the private Pensieve lessons and explicitly treats Slughorn's altered Horcrux memory as the crucial missing source for the historical reconstruction.
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - dumbledore-office
+      - pensieve
+      - memory-magic
+      - private-lessons
+      - slughorn-memory
+      - historical-method
+      - horcruxes
+    candidate_part: Sources and Methods
+    candidate_chapter: Memory Evidence and Historical Reconstruction
+    candidate_section: Slughorn's missing memory as a source gap
+    reason_for_placement: The passage sharpens the seed's source-method thread by making one missing witness memory the condition for continuing the lessons.
+    relevance_to_hogwarts_a_history: A later editor can use this as evidence that Dumbledore distinguished firm remembered evidence, speculation, and missing testimony when reconstructing Voldemort's Hogwarts-linked history.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch17-003
+        - hbp-ch10-004
+        - hbp-ch13-001
+      notes: Earlier HBP entries already record Pensieve private lessons and memory evidence. This entry adds the explicit source gap created by Slughorn's withheld Horcrux memory and Dumbledore's requirement that the lessons cannot proceed without it.
+    confidence: high
+    limitations: The scene concerns exceptional headmaster-led instruction for Harry, not ordinary school curriculum or general Pensieve access.
+
+  - id: hbp-ch20-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty - Lord Voldemort's Request
+    chapter_start_pdf_page: 2770
+    chapter_end_pdf_page: 2790
+    pdf_page: 2773
+    printed_page: null
+    extracted_text_lines: 115-123
+    text_anchor:
+      start_phrase: Professor Trelawney still isn't happy Firenze is teaching
+      end_phrase: she made the prophecy about you and Voldemort
+      local_occurrence_note: Dumbledore explains privately why neither Firenze nor Trelawney can be removed from Hogwarts.
+    nearby_context: Trelawney has just complained about Firenze's continued Divination post while leaving the headmaster's office.
+    match_terms:
+      - Divination
+      - Professor Trelawney
+      - Firenze
+      - castle
+      - prophecy
+      - staffing problems
+    quote_excerpt_short: "danger she would be in outside the castle"
+    source_note: "Dumbledore frames the dual Divination arrangement as a protective staffing necessity: Firenze cannot return to the forest and Trelawney is safer inside the castle because of her prophecy."
+    reference_type: curriculum_or_subject
+    era_classification: later_editorial_note
+    topic_tags:
+      - divination
+      - firenze
+      - sybill-trelawney
+      - teacher-appointments
+      - castle-safety
+      - prophecy
+      - centaurs
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Divination, Prophecy, and School Testimony
+    candidate_section: Protective reasons for dual Divination staffing
+    reason_for_placement: The passage explains why an unusual staff arrangement continued after Umbridge's removal and ties curriculum staffing to wartime protection.
+    relevance_to_hogwarts_a_history: This can help a later edition distinguish ordinary subject staffing from a crisis-era accommodation made for a centaur outcast and a vulnerable Seer.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch15-005
+        - ootp-ch38-003
+        - ootp-ch26-007
+      notes: Prior entries establish Firenze's appointment and shared Divination classes with Trelawney. This entry adds Dumbledore's private explanation that both teachers remain because removing either would create a safety or exile problem.
+    confidence: high
+    limitations: The evidence gives Dumbledore's private reasoning, not a public timetable or formal appointment record.
+
+  - id: hbp-ch20-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty - Lord Voldemort's Request
+    chapter_start_pdf_page: 2770
+    chapter_end_pdf_page: 2790
+    pdf_page: 2776
+    printed_page: null
+    extracted_text_lines: 207-219; 223-228; 248-263
+    text_anchor:
+      start_phrase: He reached the seventh year of his schooling
+      end_phrase: Galatea Merrythought, who had been at Hogwarts
+      local_occurrence_note: Before entering Hokey's memory, Dumbledore summarizes Riddle's graduation prospects, staff expectations, and first rejected application to teach Defense Against the Dark Arts.
+    nearby_context: Dumbledore says Voldemort left Hogwarts with top grades while classmates were choosing careers, then explains his short Borgin and Burkes employment.
+    match_terms:
+      - Tom Riddle
+      - Head Boy
+      - Award for Special Services
+      - Professor Dippet
+      - Galatea Merrythought
+      - Defense Against the Dark Arts
+      - Ministry of Magic
+    quote_excerpt_short: "winner of the Award for Special Services to the School"
+    source_note: Riddle left Hogwarts with top grades, prefect and Head Boy honors, an award for special services, teacher career guidance, and a rejected first request to teach Defense Against the Dark Arts under Headmaster Dippet.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - tom-riddle
+      - head-boy
+      - school-awards
+      - career-guidance
+      - professor-dippet
+      - galatea-merrythought
+      - defense-against-the-dark-arts
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: Tom Riddle's Hogwarts Career
+    candidate_section: Honors, career advice, and first teaching request
+    reason_for_placement: The passage links Riddle's school honors to staff expectations and to his earliest known attempt to remain at Hogwarts as a teacher.
+    relevance_to_hogwarts_a_history: This is useful for a pre-Harry institutional history of notable students, staff mentorship, and the Defense post before its later instability.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch13-002
+        - cos-ch18-001
+        - hbp-ch17-004
+      notes: Earlier entries identify Riddle's Head Boy and award records and Dumbledore's memory of him as a student. This entry adds top grades, staff career support, the first Dippet-era teaching request, and Galatea Merrythought's long Defense tenure.
+    confidence: high
+    limitations: Dumbledore summarizes events many years later, and Riddle's private motives for the first application remain partly interpretive.
+
+  - id: hbp-ch20-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty - Lord Voldemort's Request
+    chapter_start_pdf_page: 2770
+    chapter_end_pdf_page: 2790
+    pdf_page: 2777
+    printed_page: null
+    extracted_text_lines: 230-247
+    text_anchor:
+      start_phrase: Firstly, and very importantly
+      end_phrase: begin to build himself an army
+      local_occurrence_note: Dumbledore interprets why Voldemort wanted to return to Hogwarts after graduation.
+    nearby_context: Harry has asked why Voldemort would want to stay at Hogwarts, and Dumbledore explains several likely motives before identifying the desired post.
+    match_terms:
+      - Hogwarts
+      - ancient magic
+      - castle secrets
+      - teacher influence
+      - recruiting ground
+      - army
+    quote_excerpt_short: "the castle is a stronghold of ancient magic"
+    source_note: Dumbledore describes Hogwarts as Voldemort's only home, a stronghold of ancient magic with secrets still to uncover, and a potential recruiting ground through teacher influence.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hogwarts
+      - ancient-magic
+      - castle-secrets
+      - teacher-influence
+      - recruiting-ground
+      - voldemort-history
+      - school-attachment
+    candidate_part: The Castle and Its Magic
+    candidate_chapter: Hogwarts as a Magical Stronghold
+    candidate_section: Ancient magic, hidden stores, and institutional pull
+    reason_for_placement: The passage gives one of the clearest in-universe claims that the castle contains old magic and unrevealed secrets beyond ordinary student knowledge.
+    relevance_to_hogwarts_a_history: This can support a castle-history section on ancient protections, hidden magic, and the school's power as an institution that attracts ambitious wizards.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate queries for ancient-magic, stronghold, and recruiting-ground returned only broad Hogwarts or ancient-magic matches, not the same claim about Hogwarts as Voldemort's home, magical stronghold, and recruiting ground.
+    confidence: high
+    limitations: Dumbledore presents Voldemort's motives as reasoned interpretation rather than direct confession from Riddle.
+
+  - id: hbp-ch20-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty - Lord Voldemort's Request
+    chapter_start_pdf_page: 2770
+    chapter_end_pdf_page: 2790
+    pdf_page: 2781
+    printed_page: null
+    extracted_text_lines: 362-389; 394-405; 475-479
+    text_anchor:
+      start_phrase: saw what looked like a small golden cup
+      end_phrase: object so steeped in Hogwarts history
+      local_occurrence_note: Hepzibah Smith shows Riddle Hufflepuff's cup and Slytherin's locket, and Dumbledore later explains the pull of founder artifacts.
+    nearby_context: Hokey's memory shows Hepzibah using the treasures to impress Riddle, then Dumbledore draws attention to Voldemort's motive for taking both objects.
+    match_terms:
+      - Helga Hufflepuff
+      - Hufflepuff's cup
+      - Slytherin's mark
+      - Slytherin's locket
+      - Hogwarts founders
+      - Hogwarts history
+    quote_excerpt_short: "Helga Hufflepuff's, as you very well know"
+    source_note: Hepzibah identifies a small golden cup as Helga Hufflepuff's family heirloom and displays Slytherin's locket, while Dumbledore later links the cup's appeal to its founder provenance and Hogwarts history.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - helga-hufflepuff
+      - hufflepuff-cup
+      - salazar-slytherin
+      - slytherin-locket
+      - founder-relics
+      - hogwarts-history
+      - wizarding-heirlooms
+    candidate_part: The Four Houses
+    candidate_chapter: Founders' Relics and Legacies
+    candidate_section: Hufflepuff's cup and Slytherin's locket
+    reason_for_placement: The passage gives tangible founder artifacts, claimed family provenance, and a direct statement that such objects are steeped in Hogwarts history.
+    relevance_to_hogwarts_a_history: This is central seed material for founder legacy, House symbolism, and the survival of founder-linked objects outside the castle.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch10-006
+        - hbp-ch13-002
+      notes: hbp-ch10-006 and hbp-ch13-002 already track Slytherin's locket through the Gaunts and Burke. This entry adds Hepzibah's possession of the locket and introduces Hufflepuff's cup as another founder relic tied explicitly to Hogwarts history.
+    confidence: high
+    limitations: Hepzibah is proud and possessive, so the cup's powers and family descent claim need separate corroboration; the passage does not describe the cup's magic in detail.
+
+  - id: hbp-ch20-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty - Lord Voldemort's Request
+    chapter_start_pdf_page: 2770
+    chapter_end_pdf_page: 2790
+    pdf_page: 2783
+    printed_page: null
+    extracted_text_lines: 424-458
+    text_anchor:
+      start_phrase: Hepzibah Smith died two days after
+      end_phrase: last that was seen or heard of Tom Riddle
+      local_occurrence_note: Dumbledore explains Hokey's conviction, the memory-modification pattern, Ministry assumptions about a house-elf, and Riddle's disappearance after the cup and locket vanished.
+    nearby_context: Harry immediately compares Hokey's confession to Morfin's altered memory, and Dumbledore identifies the limits of Hokey's recovered memory as evidence.
+    match_terms:
+      - Hokey
+      - house-elf
+      - Ministry
+      - memory modification
+      - Morfin
+      - Hepzibah Smith
+      - cup and locket
+    quote_excerpt_short: "nobody at the Ministry bothered to inquire further"
+    source_note: Dumbledore concludes that Voldemort modified Hokey's memory, notes Ministry bias in accepting a house-elf confession, and limits the recovered memory's proof to Voldemort's knowledge of the cup and locket.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hokey
+      - house-elves
+      - ministry-of-magic
+      - memory-modification
+      - legal-process
+      - historical-method
+      - borgin-and-burkes
+    candidate_part: Sources and Methods
+    candidate_chapter: Memory Evidence and Historical Reconstruction
+    candidate_section: Hokey's conviction and evidentiary limits
+    reason_for_placement: The passage combines legal outcome, social prejudice, and explicit source limits for a memory used in Dumbledore's reconstruction.
+    relevance_to_hogwarts_a_history: This supports an editorial source-method note on when recovered memory evidence can show knowledge and circumstances without proving every inferred event.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate queries for Hokey, house-elf, Ministry, and memory-modification returned only general Ministry memory-modification entries, not this house-elf conviction or evidentiary-limit claim.
+    confidence: high
+    limitations: The murder conclusion remains Dumbledore's inference; the recovered memory proves knowledge of the relics, not the act itself.
+
+  - id: hbp-ch20-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty - Lord Voldemort's Request
+    chapter_start_pdf_page: 2770
+    chapter_end_pdf_page: 2790
+    pdf_page: 2790
+    printed_page: null
+    extracted_text_lines: 555-620; 643-659
+    text_anchor:
+      start_phrase: I have returned
+      end_phrase: since I refused the post to Lord Voldemort
+      local_occurrence_note: In Dumbledore's own memory, Voldemort asks the new headmaster for a teaching post while Death Eaters wait at the Hog's Head; Dumbledore later names the Defense post and its aftermath.
+    nearby_context: Voldemort claims he wants to share unique knowledge with students, but Dumbledore challenges the purpose of his visit and refuses the appointment.
+    match_terms:
+      - Defense Against the Dark Arts
+      - Lord Voldemort
+      - Dumbledore
+      - Death Eaters
+      - Hog's Head
+      - teaching post
+      - jinxed post
+    quote_excerpt_short: "longer than a year since I refused the post"
+    source_note: Dumbledore's memory records Voldemort's second request for a Hogwarts teaching post, his Death Eater entourage nearby, and Dumbledore's later claim that the Defense Against the Dark Arts post has had one-year turnover since the refusal.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - defense-against-the-dark-arts
+      - jinxed-post
+      - teacher-appointments
+      - voldemort
+      - death-eaters
+      - hogs-head
+      - dumbledore-headmastership
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Defense Against the Dark Arts Staffing
+    candidate_section: Voldemort's refusal and the one-year pattern
+    reason_for_placement: The passage supplies Dumbledore's direct causal explanation for the famous Defense post instability and connects it to Voldemort's attempt to regain access to Hogwarts.
+    relevance_to_hogwarts_a_history: This is key later-editorial evidence for the Defense Against the Dark Arts post, the hazards of staff appointment decisions, and the school as a target for Voldemort's influence.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch07-004
+        - hbp-ch08-005
+        - hbp-ch02-003
+      notes: Earlier entries record the rumored Defense jinx, Snape's restricted access to the subject, and Snape's eventual appointment. This entry adds Dumbledore's direct account that the one-year pattern began after he refused Voldemort's request.
+    confidence: high
+    limitations: Dumbledore says the aftermath proved Voldemort wanted the Defense post, but the mechanics of the curse or jinx are not described.

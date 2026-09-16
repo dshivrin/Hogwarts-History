@@ -1,0 +1,325 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter One - The Other Minister
+  chapter_start_pdf_page: 2415
+  chapter_end_pdf_page: 2430
+  boundary_confidence: high
+  boundary_notes: Bounded pypdf extraction starts with the Chapter One heading on PDF page 2415 and ends with the two Ministers leaving by green fire on PDF page 2430, immediately before the next chapter anchor supplied in processing-state.yaml.
+  processed_date: '2026-07-16'
+  processor_notes: "Extracted only the bounded current range from processing-state anchors; no full-PDF scan was used. No explicit Hogwarts: A History reference appears in this source unit."
+
+entries:
+- id: hbp-ch01-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter One - The Other Minister
+  chapter_start_pdf_page: 2415
+  chapter_end_pdf_page: 2430
+  pdf_page: 2417
+  printed_page: null
+  extracted_text_lines: 60-84; 117-156; 170-186
+  text_anchor:
+    start_phrase: To the Prime Minister of Muggles
+    end_phrase: best way to maintain secrecy
+    local_occurrence_note: The Prime Minister recalls the portrait-announced first contact with Fudge and the continuing impossible-to-remove magical portrait in his office.
+  nearby_context: The portrait arranges the meeting, Fudge enters by green Floo fire, and the Prime Minister remembers prior efforts to remove the portrait from the wall.
+  match_terms:
+  - Prime Minister of Muggles
+  - Minister of Magic
+  - portrait
+  - Floo
+  - secrecy
+  - Muggle government
+  quote_excerpt_short: "best way to maintain secrecy"
+  source_note: The chapter establishes a standing secret contact protocol between the Minister of Magic and the Muggle Prime Minister, using an office portrait and Floo arrival while limiting disclosure to the current Muggle head of government.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - muggle-government
+  - minister-of-magic
+  - magical-portraits
+  - floo
+  - statute-of-secrecy
+  - intergovernmental-protocol
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Relations With the Muggle Government
+  candidate_section: Prime Minister notification and portrait contact
+  reason_for_placement: The passage gives concrete procedure for how wizarding authority informs Muggle government leaders when magical events threaten the non-magical population.
+  relevance_to_hogwarts_a_history: A later edition can use this context when explaining why Hogwarts crises, Ministry decisions, and wizarding secrecy sometimes require hidden coordination with Muggle officials.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found general Minister, portrait, Floo, and secrecy entries, but no prior entry for the Muggle Prime Minister contact portrait or Minister-of-Magic disclosure protocol.
+  confidence: high
+  limitations: The scene gives the practice as Fudge explains and recalls it, not the legal instrument that created the portrait or disclosure rule.
+
+- id: hbp-ch01-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter One - The Other Minister
+  chapter_start_pdf_page: 2415
+  chapter_end_pdf_page: 2430
+  pdf_page: 2419
+  printed_page: null
+  extracted_text_lines: 126-135
+  text_anchor:
+    start_phrase: there were witches and wizards still living in secret
+    end_phrase: keeping the dragon population under control
+    local_occurrence_note: Fudge's first briefing explains the Ministry's broad responsibility for concealed wizarding society.
+  nearby_context: The Prime Minister is newly in office and initially thinks the magical contact may be a hallucination or political hoax.
+  match_terms:
+  - witches and wizards
+  - Ministry of Magic
+  - Wizarding community
+  - broomsticks
+  - dragon population
+  - secrecy
+  quote_excerpt_short: "prevented the non-magical population from getting wind"
+  source_note: Fudge defines the Ministry's remit as governing the hidden wizarding community and preserving secrecy, with examples ranging from responsible broomstick use to dragon-population control.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - ministry-of-magic
+  - statute-of-secrecy
+  - broomsticks
+  - dragons
+  - magical-creatures
+  - magical-law
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Ministry Authority Beyond Hogwarts
+  candidate_section: Secrecy, broomstick rules, and creature control
+  reason_for_placement: The passage gives a compact official statement of the Ministry functions that underlie student conduct rules, travel restrictions, and creature law encountered throughout the Hogwarts years.
+  relevance_to_hogwarts_a_history: A later edition can use this as broad Ministry framing for why Hogwarts students and staff operate under external laws about secrecy, transport, and magical creatures.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found specific underage-magic, dragon, and Ministry entries, but no prior entry capturing this general Ministerial remit as stated to the Muggle Prime Minister.
+  confidence: high
+  limitations: The examples are illustrative rather than a complete departmental map or statute list.
+
+- id: hbp-ch01-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter One - The Other Minister
+  chapter_start_pdf_page: 2415
+  chapter_end_pdf_page: 2430
+  pdf_page: 2421
+  printed_page: null
+  extracted_text_lines: 195-239; 245-253
+  text_anchor:
+    start_phrase: I've just come from Azkaban
+    end_phrase: bringing highly dangerous creatures into the country
+    local_occurrence_note: The Prime Minister recalls earlier Fudge visits about Sirius Black, the Quidditch World Cup, Triwizard creatures, and the Azkaban mass breakout.
+  nearby_context: The memories explain why the Prime Minister increasingly associates Fudge's appearances with grave wizarding news affecting Muggles.
+  match_terms:
+  - Azkaban
+  - Sirius Black
+  - Quidditch World Cup
+  - Muggle Liaison Office
+  - Triwizard Tournament
+  - dangerous creatures
+  quote_excerpt_short: "we have to notify you"
+  source_note: Fudge's prior briefings show that the Minister informs the Muggle Prime Minister about magical events that may affect Muggles, including Azkaban escapes, World Cup memory work, and importation of dragons and a sphinx for the Triwizard Tournament.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - muggle-liaison
+  - azkaban
+  - quidditch-world-cup
+  - triwizard-tournament
+  - dangerous-creatures
+  - memory-modification
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Relations With the Muggle Government
+  candidate_section: Mandatory briefings about magical incidents
+  reason_for_placement: The passage records recurring intergovernmental notification practice and ties multiple earlier Hogwarts-era crises to Muggle-facing secrecy management.
+  relevance_to_hogwarts_a_history: A later edition can cross-reference this when explaining how the Triwizard year, Azkaban security, and public wizarding events generated hidden Muggle-government records.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found Triwizard and Azkaban entries, but no prior entry for Muggle Prime Minister notification duties or the dangerous-creature import rule.
+  confidence: high
+  limitations: The rule-book requirement is reported secondhand by Fudge and is only exemplified by the Triwizard dragons and sphinx.
+
+- id: hbp-ch01-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter One - The Other Minister
+  chapter_start_pdf_page: 2415
+  chapter_end_pdf_page: 2430
+  pdf_page: 2424
+  printed_page: null
+  extracted_text_lines: 318-344; 347-366
+  text_anchor:
+    start_phrase: The point is, we're at war
+    end_phrase: we can't find the giant
+    local_occurrence_note: Fudge identifies Voldemort's open attacks, the Brockdale Bridge deaths, and Death Eater or giant activity in the West Country.
+  nearby_context: The Prime Minister demands an explanation for recent public disasters while Fudge defends the Ministry's Auror efforts.
+  match_terms:
+  - war
+  - Brockdale Bridge
+  - Aurors
+  - Death Eaters
+  - giants
+  - Office of Misinformation
+  - Obliviators
+  quote_excerpt_short: "That was no hurricane"
+  source_note: The chapter reframes Muggle public disasters as Second War attacks, naming Voldemort's blackmail over the Brockdale Bridge, Ministry-wide Auror pursuit, suspected giant involvement, the Office of Misinformation, Obliviators, and Magical Creatures staff in Somerset.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - second-war
+  - muggle-disasters
+  - death-eaters
+  - giants
+  - aurors
+  - obliviators
+  - office-of-misinformation
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Second War and Muggle-Facing Secrecy
+  candidate_section: Public disasters, Auror response, and memory repair
+  reason_for_placement: The passage gives the Muggle-facing consequences of Voldemort's return and shows the Ministry agencies mobilized to conceal or manage those consequences.
+  relevance_to_hogwarts_a_history: A later edition can use this as the wider wartime context surrounding Hogwarts in 1996, especially for how hidden conflict affected both wizarding and Muggle Britain.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found earlier entries for Voldemort's recruitment and giant diplomacy, but no prior entry for the Brockdale Bridge, the West Country cover operation, or the Office of Misinformation.
+  confidence: high
+  limitations: The account is a Ministerial briefing and does not identify the giant or provide casualty and repair records beyond Fudge's summary.
+
+- id: hbp-ch01-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter One - The Other Minister
+  chapter_start_pdf_page: 2415
+  chapter_end_pdf_page: 2430
+  pdf_page: 2425
+  printed_page: null
+  extracted_text_lines: 368-389
+  text_anchor:
+    start_phrase: losing Amelia Bones
+    end_phrase: not that that gets us any further toward catching him
+    local_occurrence_note: Fudge names Amelia Bones's office and explains why Muggle police cannot solve her locked-room murder.
+  nearby_context: The briefing follows the West Country disaster and precedes Fudge's mention of Emmeline Vance's murder near the Prime Minister's office.
+  match_terms:
+  - Amelia Bones
+  - Department of Magical Law Enforcement
+  - Voldemort
+  - locked room
+  - police
+  - murder
+  quote_excerpt_short: "Head of the Department of Magical Law Enforcement"
+  source_note: Fudge reports that Amelia Bones, head of Magical Law Enforcement, was likely murdered by Voldemort personally after putting up a strong fight, while Muggle authorities see only a baffling locked-room killing.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - amelia-bones
+  - magical-law-enforcement
+  - voldemort
+  - second-war
+  - locked-room
+  - muggle-police
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Second War and Ministry Casualties
+  candidate_section: Amelia Bones's murder and Muggle ignorance
+  reason_for_placement: The passage connects Ministry leadership losses to the hidden war and shows how magical violence can appear insoluble to Muggle institutions.
+  relevance_to_hogwarts_a_history: A later edition can use this context for the wartime weakening of Ministry legal authority during Harry's sixth year and for the fate of a prior Hogwarts-hearing official.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found earlier Amelia Bones hearing and Patronus entries, but no prior entry for her murder, locked-room evidence, or the loss of the Law Enforcement head.
+  confidence: high
+  limitations: Fudge says the Ministry thinks Voldemort killed her personally; the scene does not provide a formal investigative report.
+
+- id: hbp-ch01-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter One - The Other Minister
+  chapter_start_pdf_page: 2415
+  chapter_end_pdf_page: 2430
+  pdf_page: 2426
+  printed_page: null
+  extracted_text_lines: 393-407
+  text_anchor:
+    start_phrase: we've got dementors swarming all over the place
+    end_phrase: spreading despair and hopelessness in his voters
+    local_occurrence_note: Fudge explains that dementors have left Azkaban for Voldemort and are breeding, producing the unnatural July mist.
+  nearby_context: The Prime Minister recognizes dementors from earlier briefings and presses Fudge to act as Minister of Magic.
+  match_terms:
+  - dementors
+  - Azkaban
+  - He-Who-Must-Not-Be-Named
+  - breeding
+  - mist
+  - despair
+  quote_excerpt_short: "They've deserted the prison"
+  source_note: Fudge confirms that the dementors no longer guard Azkaban, have joined Voldemort, are breeding, and are causing the unnatural mist and widespread despair in Muggle Britain.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - dementors
+  - azkaban
+  - second-war
+  - voldemort
+  - mist
+  - muggle-effects
+  - magical-creatures
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Second War and Muggle-Facing Secrecy
+  candidate_section: Dementor revolt, breeding, and public despair
+  reason_for_placement: The passage adds operational detail to the wartime collapse of Azkaban's guard system and shows its direct environmental and emotional effects outside the wizarding world.
+  relevance_to_hogwarts_a_history: A later edition can cite this as evidence that Hogwarts-era dementor policy failed on a national scale after Voldemort's return.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch38-001
+    notes: ootp-ch38-001 records the Ministry's public report that Azkaban's dementors revolted; this entry adds Fudge's private briefing that they joined Voldemort, are breeding, and are causing the July mist.
+  confidence: high
+  limitations: The source does not quantify dementor numbers or explain the mechanics of breeding and mist production.
+
+- id: hbp-ch01-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter One - The Other Minister
+  chapter_start_pdf_page: 2415
+  chapter_end_pdf_page: 2430
+  pdf_page: 2427
+  printed_page: null
+  extracted_text_lines: 410-476; 487-503
+  text_anchor:
+    start_phrase: I was sacked three days ago
+    end_phrase: He has consented to stay on in an advisory capacity
+    local_occurrence_note: Fudge introduces Scrimgeour as his successor; Scrimgeour discusses Prime Minister security, Kingsley's protective assignment, and Chorley's Imperius-related hospitalization.
+  nearby_context: The portrait announces Scrimgeour's arrival while Fudge explains that the wizarding public demanded his resignation.
+  match_terms:
+  - Rufus Scrimgeour
+  - Cornelius Fudge
+  - Kingsley Shacklebolt
+  - Auror
+  - Imperius Curse
+  - St. Mungo's
+  quote_excerpt_short: "assigned to you for your protection"
+  source_note: The chapter dates Fudge's dismissal and Scrimgeour's accession, shows Kingsley Shacklebolt embedded as an Auror protecting the Muggle Prime Minister, and records St. Mungo's Healers handling an Imperius-damaged Junior Minister.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - rufus-scrimgeour
+  - cornelius-fudge
+  - kingsley-shacklebolt
+  - aurors
+  - imperius-curse
+  - st-mungos
+  - muggle-government
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ministry Relations With the Muggle Government
+  candidate_section: Scrimgeour succession and Prime Minister protection
+  reason_for_placement: The passage records wartime executive transition and the protective infiltration of Muggle government offices by a trained Auror.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain the political and security environment around Hogwarts during Scrimgeour's ministry and Kingsley's Order-linked public role.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch07-005
+    notes: ootp-ch07-005 records Kingsley as an Auror with a covert Order role inside the Sirius investigation; this entry adds his later protective placement in the Muggle Prime Minister's office under Scrimgeour.
+  confidence: high
+  limitations: The passage does not state when Kingsley was assigned or whether the Prime Minister's staff appointment involved memory modification or Muggle paperwork.

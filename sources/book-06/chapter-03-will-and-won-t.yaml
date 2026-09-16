@@ -1,0 +1,345 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Three - Will and Won't
+  chapter_start_pdf_page: 2447
+  chapter_end_pdf_page: 2461
+  boundary_confidence: high
+  boundary_notes: Processing state supplied the inclusive page range; bounded extraction confirmed the chapter heading on page 2447 and the next unit begins after page 2461.
+  processed_date: '2026-07-17'
+  processor_notes: "Extracted only PDF pages 2447-2461 with pypdf via scripts/extract_pages.py; no explicit Hogwarts: A History title reference found."
+
+entries:
+  - id: hbp-ch03-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Three - Will and Won't
+    chapter_start_pdf_page: 2447
+    chapter_end_pdf_page: 2461
+    pdf_page: 2448
+    printed_page: null
+    extracted_text_lines: 17-41
+    text_anchor:
+      start_phrase: "HARRY POTTER: THE CHOSEN ONE?"
+      end_phrase: the prophecy names him
+      local_occurrence_note: Harry's newspaper clipping reports public speculation after the Department of Mysteries battle.
+    nearby_context: The article describes Ministry silence, confirms the fabled Hall of Prophecy to the public, and links Death Eater arrests to attempted prophecy theft.
+    match_terms:
+      - Daily Prophet
+      - Chosen One
+      - Hall of Prophecy
+      - Death Eaters
+      - Azkaban
+      - Ministry of Magic
+      - prophecy
+    quote_excerpt_short: "the fabled Hall of Prophecy"
+    source_note: A Daily Prophet report brings the secret Department of Mysteries conflict into public circulation, framing Harry as the possible subject of a prophecy and naming Death Eaters sentenced for trespass and attempted theft.
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - daily-prophet
+      - hall-of-prophecy
+      - chosen-one
+      - ministry-secrecy
+      - death-eaters
+      - azkaban
+      - second-war
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Second War and Hogwarts Information Climate
+    candidate_section: Public prophecy rumors after the Department of Mysteries
+    reason_for_placement: The passage is in-universe press evidence for how Voldemort's return and the prophecy conflict became public knowledge before the school year.
+    relevance_to_hogwarts_a_history: A later edition can use this as context for the wartime information climate students carried back to Hogwarts.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate query returned broader Daily Prophet and Azkaban-war entries, but none centered on the public Hall of Prophecy rumor or Harry as the Chosen One.
+    confidence: medium
+    limitations: The article is speculative and does not disclose the prophecy text or confirm official Ministry details beyond the arrests and public rumors.
+
+  - id: hbp-ch03-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Three - Will and Won't
+    chapter_start_pdf_page: 2447
+    chapter_end_pdf_page: 2461
+    pdf_page: 2449
+    printed_page: null
+    extracted_text_lines: 64-79
+    text_anchor:
+      start_phrase: MINISTRY GUARANTEES STUDENTS' SAFETY
+      end_phrase: protection of Hogwarts School
+      local_occurrence_note: A visible Daily Prophet article reports Scrimgeour's school-safety assurances.
+    nearby_context: The article appears among Harry's newspaper clippings in his Privet Drive bedroom just before Dumbledore arrives.
+    match_terms:
+      - Ministry guarantees students' safety
+      - Rufus Scrimgeour
+      - Hogwarts School
+      - defensive spells
+      - countercurses
+      - Aurors
+      - student safety
+    quote_excerpt_short: "defensive spells and charms"
+    source_note: Scrimgeour's Ministry publicly claims new wartime Hogwarts protections, including defensive spells, countercurses, and a small Auror task force assigned only to the school.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - hogwarts-security
+      - auror-task-force
+      - defensive-spells
+      - countercurses
+      - rufus-scrimgeour
+      - ministry-of-magic
+      - student-safety
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Wartime School Protection
+    candidate_section: Ministry security measures for Hogwarts in the Second War
+    reason_for_placement: The article directly names wartime protective measures applied to Hogwarts by the Ministry.
+    relevance_to_hogwarts_a_history: A later edition can contrast official Ministry security claims with the school's actual wartime vulnerabilities.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Query results were general Hogwarts-security precedents and did not duplicate Scrimgeour's reported Auror task force and defensive countermeasure package.
+    confidence: high
+    limitations: The Ministry refuses operational detail, so the exact spells, countercurses, and Auror deployment are not enumerated.
+
+  - id: hbp-ch03-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Three - Will and Won't
+    chapter_start_pdf_page: 2447
+    chapter_end_pdf_page: 2461
+    pdf_page: 2450
+    printed_page: null
+    extracted_text_lines: 91-125
+    text_anchor:
+      start_phrase: PROTECTING YOUR HOME AND FAMILY AGAINST DARK FORCES
+      end_phrase: reported to the Ministry IMMEDIATELY
+      local_occurrence_note: A purple Ministry leaflet lies on Harry's floor and lists wartime household precautions.
+    nearby_context: The leaflet is beside Harry's school trunk and newspaper clippings while he waits for Dumbledore's escort to the Burrow.
+    match_terms:
+      - Ministry leaflet
+      - Shield Charms
+      - Disillusionment Charms
+      - Side-Along-Apparition
+      - Polyjuice Potion
+      - Imperius Curse
+      - Inferi
+    quote_excerpt_short: "Shield and Disillusionment Charms"
+    source_note: A Ministry household-security leaflet recommends emergency measures against Death Eaters, including Shield and Disillusionment Charms, Side-Along Apparition for underage family members, identity questions, and reporting Imperius, Dark Mark, or Inferius signs.
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - ministry-public-guidance
+      - dark-forces
+      - shield-charm
+      - disillusionment-charm
+      - side-along-apparition
+      - polyjuice-potion
+      - imperius-curse
+      - inferi
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Wartime Household Precautions
+    candidate_section: Ministry public guidance against Dark forces
+    reason_for_placement: The leaflet supplies a compact official list of protective practices and threat categories circulating during the Second War.
+    relevance_to_hogwarts_a_history: Though off-campus, it explains the protective vocabulary and emergency norms known to wizarding families sending children back to Hogwarts.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate query found individual Shield Charm examples but no matching Ministry public-guidance leaflet or combined household-defense list.
+    confidence: high
+    limitations: The leaflet is summarized through visible excerpts; page-two details and the full guidance text are not present in this chapter.
+
+  - id: hbp-ch03-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Three - Will and Won't
+    chapter_start_pdf_page: 2447
+    chapter_end_pdf_page: 2461
+    pdf_page: 2456
+    printed_page: null
+    extracted_text_lines: 287-337
+    text_anchor:
+      start_phrase: Sirius also left you number twelve, Grimmauld Place
+      end_phrase: until such time as we have clarified the position
+      local_occurrence_note: Dumbledore explains the inheritance problem after Sirius's will leaves Harry Grimmauld Place.
+    nearby_context: The Order has temporarily vacated its headquarters because ownership and protections may have changed after Sirius's death.
+    match_terms:
+      - Sirius's will
+      - Grimmauld Place
+      - Black family tradition
+      - pureblood
+      - Bellatrix Lestrange
+      - Unplottable
+      - Order headquarters
+    quote_excerpt_short: "cannot be owned by anyone other than a pureblood"
+    source_note: Dumbledore says Black family inheritance traditions or enchantments may force Grimmauld Place down the pure-blood Black line, and that the Order cannot assume its Unplottable protections still hold after ownership transfers.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - grimmauld-place
+      - inheritance
+      - pureblood-enchantment
+      - unplottable
+      - order-headquarters
+      - black-family
+      - bellatrix-lestrange
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Headquarters, Safe Houses, and Secret-Keeping
+    candidate_section: Inheritance risk and protection continuity at Grimmauld Place
+    reason_for_placement: The passage adds legal and magical-continuity complications to an existing safe-house entry.
+    relevance_to_hogwarts_a_history: A later edition can use this to explain how old pure-blood household magic and ownership rules could affect wartime headquarters security.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch06-007
+        - ootp-ch05-001
+      notes: ootp-ch06-007 identifies Grimmauld Place as Unplottable and Secret-Keeper protected, while ootp-ch05-001 confirms the inherited headquarters; this entry adds the post-Sirius inheritance test and uncertainty about protection continuity.
+    confidence: high
+    limitations: Dumbledore frames the pure-blood restriction as possible rather than confirmed, and the exact enchantment is not named.
+
+  - id: hbp-ch03-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Three - Will and Won't
+    chapter_start_pdf_page: 2447
+    chapter_end_pdf_page: 2461
+    pdf_page: 2458
+    printed_page: null
+    extracted_text_lines: 353-410
+    text_anchor:
+      start_phrase: if you have indeed inherited the house
+      end_phrase: with the other house-elves
+      local_occurrence_note: Kreacher's obedience to Harry proves Harry has inherited both Grimmauld Place and the house-elf.
+    nearby_context: Dumbledore warns that Kreacher knows Order headquarters information and cannot be allowed to pass to Bellatrix Lestrange.
+    match_terms:
+      - Kreacher
+      - house-elf
+      - ownership
+      - direct order
+      - Bellatrix Lestrange
+      - Order headquarters
+      - Hogwarts kitchens
+    quote_excerpt_short: "work in the kitchens there"
+    source_note: Kreacher's forced obedience confirms Harry's ownership of him, and Dumbledore suggests sending him to Hogwarts kitchens so the other house-elves can supervise a politically dangerous servant.
+    reference_type: institutional_custom
+    era_classification: later_editorial_note
+    topic_tags:
+      - kreacher
+      - house-elves
+      - house-elf-ownership
+      - obedience
+      - hogwarts-kitchens
+      - order-of-the-phoenix
+      - operational-secrecy
+      - bellatrix-lestrange
+    candidate_part: Peoples, Beings, and Magical Society
+    candidate_chapter: House-Elves, Service, and Wizarding Households
+    candidate_section: Ownership transfer and reassignment to Hogwarts kitchens
+    reason_for_placement: The scene links house-elf ownership law, obedience testing, operational secrecy, and Hogwarts kitchen labor in one practical case.
+    relevance_to_hogwarts_a_history: A later edition can note that Hogwarts kitchens could absorb and monitor a privately owned house-elf transferred under wartime security pressure.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch06-002
+        - gof-ch12-004
+        - gof-ch21-006
+      notes: ootp-ch06-002 already covers Kreacher's obedience and Order secrecy problem, while gof-ch12-004 and gof-ch21-006 cover the existing Hogwarts kitchen workforce; this entry joins both by showing Kreacher's reassignment there after inheritance.
+    confidence: high
+    limitations: The chapter does not show Kreacher arriving at Hogwarts or describe how the kitchen elves supervise him afterward.
+
+  - id: hbp-ch03-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Three - Will and Won't
+    chapter_start_pdf_page: 2447
+    chapter_end_pdf_page: 2461
+    pdf_page: 2459
+    printed_page: null
+    extracted_text_lines: 414-422
+    text_anchor:
+      start_phrase: There is also the matter of the hippogriff
+      end_phrase: the hippogriff they once sentenced to death
+      local_occurrence_note: Dumbledore asks whether Harry wants different arrangements for Buckbeak after inheriting him from Sirius.
+    nearby_context: Harry keeps Buckbeak with Hagrid, and Dumbledore says the hippogriff has been renamed for safety.
+    match_terms:
+      - Buckbeak
+      - Witherwings
+      - hippogriff
+      - Hagrid
+      - Sirius
+      - Ministry
+      - sentenced to death
+    quote_excerpt_short: "rechristen him 'Witherwings'"
+    source_note: Buckbeak passes to Harry with Sirius's estate, remains in Hagrid's care, and receives the temporary alias Witherwings to protect him from Ministry recognition after the earlier execution sentence.
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - buckbeak
+      - witherwings
+      - hippogriff
+      - hagrid
+      - ministry-law
+      - dangerous-creatures
+      - creature-alias
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Creatures, Liability, and External Committees
+    candidate_section: Buckbeak custody and wartime concealment alias
+    reason_for_placement: The passage follows the long-running Buckbeak legal thread into post-Sirius custody and concealment.
+    relevance_to_hogwarts_a_history: A later edition can treat this as an afterword to Hogwarts-linked creature liability and Hagrid's care of dangerous magical creatures.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - poa-ch15-001
+        - poa-ch21-004
+        - poa-ch06-006
+      notes: poa-ch15-001 and poa-ch21-004 cover the Committee verdict and execution procedure, while poa-ch06-006 covers Buckbeak as a class hippogriff; this entry adds later custody and the Witherwings concealment alias.
+    confidence: high
+    limitations: The chapter states the alias decision but does not describe where Buckbeak/Witherwings is housed at this moment.
+
+  - id: hbp-ch03-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Three - Will and Won't
+    chapter_start_pdf_page: 2447
+    chapter_end_pdf_page: 2461
+    pdf_page: 2461
+    printed_page: null
+    extracted_text_lines: 440-479
+    text_anchor:
+      start_phrase: Harry comes of age in a year's time
+      end_phrase: the protection continues until that time
+      local_occurrence_note: Dumbledore tells the Dursleys the wizarding age of majority and explains why Harry must return once more before seventeen.
+    nearby_context: The statement comes immediately before Dumbledore removes Harry and his school trunk from Privet Drive.
+    match_terms:
+      - coming of age
+      - seventeen
+      - Privet Drive
+      - blood protection
+      - houseroom
+      - home
+      - seventeenth birthday
+    quote_excerpt_short: "call this house 'home'"
+    source_note: Dumbledore says wizards come of age at seventeen and that his fifteen-year-old protective magic around Harry lasts only while Privet Drive can still be called home, ending when Harry turns seventeen unless he returns once more.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - blood-protection
+      - privet-drive
+      - coming-of-age
+      - seventeenth-birthday
+      - protective-magic
+      - petunia-dursley
+      - dumbledore
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Student Protection and Exceptional Safeguards
+    candidate_section: Privet Drive protection and wizarding age of majority
+    reason_for_placement: The passage states the operating limit of the off-campus protection and ties it to wizarding legal adulthood at seventeen.
+    relevance_to_hogwarts_a_history: A later edition can use this to explain why Harry's school-year protection depended on a recurring Muggle-home residence until his final underage year.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch37-005
+        - ootp-ch02-006
+      notes: ootp-ch37-005 explains the blood protection and yearly return requirement, and ootp-ch02-006 shows the requirement enforced by Dumbledore's Howler; this entry adds the explicit age-seventeen cutoff and final-return condition.
+    confidence: high
+    limitations: The passage does not name the protective charm or explain whether a brief return is sufficient beyond Dumbledore's stated request.

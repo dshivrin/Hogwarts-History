@@ -1,0 +1,200 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A13
+  source_file: resources/external/official-rowling/harrypotter-com/a13-professor-kettleburn.md
+  title: Professor Kettleburn
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-kettleburn
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-kettleburn
+  capture_completeness: complete
+  content_sha256: b246f2ba8a725a257261afec12cdc1af4fd95d26b3eb3be5d74e1c171b58f8a2
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and three atomic claims extracted.
+
+entries:
+  - id: ext-a13-001
+    source_file: resources/external/official-rowling/harrypotter-com/a13-professor-kettleburn.md
+    source_id: A13
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-kettleburn
+    source_section: Professor Kettleburn
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Silvanus Kettleburn was the Care of Magical Creatures teacher
+      end_phrase: when he was replaced by Rubeus Hagrid.
+      local_occurrence_note: Opening paragraph, first sentence.
+    nearby_context: The profile introduces Kettleburn's Hogwarts post and dates its end relative to Harry's third year.
+    match_terms:
+      - silvanus kettleburn
+      - care of magical creatures
+      - rubeus hagrid
+    quote_excerpt_short: was the Care of Magical Creatures teacher at Hogwarts until Harry’s third year, when he was replaced by Rubeus Hagrid.
+    source_note: Kettleburn taught Care of Magical Creatures at Hogwarts through Harry's third year; Hagrid succeeded him.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - care-of-magical-creatures
+      - hogwarts-staff
+      - kettleburn
+      - hagrid
+      - staff-succession
+    candidate_part: Hogwarts Staff and Governance
+    candidate_chapter: Teaching Staff and School Subjects
+    candidate_section: Care of Magical Creatures Professorship
+    reason_for_placement: Identifies the subject's teacher and documented succession during Harry's time at Hogwarts.
+    relevance_to_hogwarts_a_history: Supports a concise staff-and-curriculum timeline, while dating the replacement only by Harry's school years.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Hagrid's later teaching is corroborating context, not the same succession claim.
+      audit:
+        query_tags:
+          - care-of-magical-creatures
+          - hagrid
+          - kettleburn
+        candidates:
+          - id: gof-ch13-003
+            disposition: distinct
+          - id: gof-ch18-003
+            disposition: distinct
+          - id: gof-ch21-004
+            disposition: distinct
+          - id: gof-ch22-004
+            disposition: distinct
+          - id: gof-ch24-001
+            disposition: distinct
+          - id: gof-ch24-002
+            disposition: corroborating
+          - id: gof-ch24-003
+            disposition: distinct
+          - id: gof-ch26-003
+            disposition: distinct
+          - id: gof-ch28-002
+            disposition: distinct
+          - id: hbp-ch08-007
+            disposition: distinct
+    confidence: high
+    limitations: This official retrospective profile gives no calendar year for Kettleburn's appointment or retirement.
+
+  - id: ext-a13-002
+    source_file: resources/external/official-rowling/harrypotter-com/a13-professor-kettleburn.md
+    source_id: A13
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-kettleburn
+    source_section: Professor Kettleburn
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: This fact led to no fewer than sixty-two periods of probation
+      end_phrase: a record that still stands).
+      local_occurrence_note: Second paragraph, sentence on the consequences of Kettleburn's hazardous creature work.
+    nearby_context: The profile attributes repeated probation to injuries caused by Kettleburn's enthusiasm for dangerous creatures.
+    match_terms:
+      - sixty-two periods of probation
+      - kettleburn
+      - school employment
+    quote_excerpt_short: This fact led to no fewer than sixty-two periods of probation during his time of employment at the school.
+    source_note: Hazardous creature work led Kettleburn to receive at least sixty-two probation periods while employed at Hogwarts, a standing record.
+    reference_type: historical_claim
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - kettleburn
+      - probation
+      - staff-discipline
+      - school-employment
+      - hazardous-creatures
+    candidate_part: Hogwarts Staff and Governance
+    candidate_chapter: Teaching Staff and School Subjects
+    candidate_section: Staff Discipline and Retention
+    reason_for_placement: Documents an exceptional employment and discipline record involving a Hogwarts professor.
+    relevance_to_hogwarts_a_history: Illustrates the school's long tolerance of a valued but dangerous instructor; the record's timing is only relatively dated.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - beedle-ch02-006
+      notes: The indexed Beedle entry states the same sixty-two-probation fact; this is official independent carrier support.
+      audit:
+        query_tags:
+          - employment
+          - kettleburn
+          - probation
+        candidates:
+          - id: beedle-ch02-006
+            disposition: duplicate
+          - id: ootp-ch17-006
+            disposition: distinct
+          - id: ootp-ch25-004
+            disposition: distinct
+    confidence: high
+    limitations: The profile reports the total but does not enumerate the individual probation decisions or their dates.
+
+  - id: ext-a13-003
+    source_file: resources/external/official-rowling/harrypotter-com/a13-professor-kettleburn.md
+    source_id: A13
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/professor-kettleburn
+    source_section: Professor Kettleburn
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: once famously caused the Great Hall to catch fire
+      end_phrase: The Fountain of Fair Fortune’.
+      local_occurrence_note: Second paragraph, sentence listing Kettleburn's creature-related mishaps.
+    nearby_context: Kettleburn's risky handling of magical creatures includes a Great Hall fire during a staging of The Fountain of Fair Fortune.
+    match_terms:
+      - great hall fire
+      - ashwinder
+      - fountain of fair fortune
+    quote_excerpt_short: caused the Great Hall to catch fire after enchanting an Ashwinder to play the Worm in a play of ‘The Fountain of Fair Fortune’.
+    source_note: Kettleburn caused a Great Hall fire by enchanting an Ashwinder to perform as the Worm in a school staging of The Fountain of Fair Fortune.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - great-hall
+      - stage-fire
+      - ashwinder
+      - kettleburn
+      - fountain-of-fair-fortune
+      - school-event
+    candidate_part: Hogwarts Life and Traditions
+    candidate_chapter: School Gatherings and Performances
+    candidate_section: The Fountain of Fair Fortune Pantomime
+    reason_for_placement: Locates a notable school performance disaster in the Great Hall and identifies its immediate cause.
+    relevance_to_hogwarts_a_history: Adds causal detail to an institutional anecdote, but the profile provides no precise date beyond its historical framing.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The Beedle entries corroborate the same pantomime disaster but do not duplicate this Ashwinder-and-Kettleburn causal detail.
+      audit:
+        query_tags:
+          - fire
+          - great-hall
+          - hogwarts
+        candidates:
+          - id: beedle-ch02-004
+            disposition: corroborating
+          - id: beedle-ch02-005
+            disposition: corroborating
+          - id: cos-ch01-001
+            disposition: distinct
+          - id: cos-ch05-004
+            disposition: distinct
+          - id: cos-ch06-001
+            disposition: distinct
+          - id: cos-ch08-004
+            disposition: distinct
+          - id: cos-ch11-003
+            disposition: distinct
+          - id: cos-ch12-003
+            disposition: distinct
+          - id: cos-ch13-003
+            disposition: distinct
+          - id: dh-ch10-001
+            disposition: distinct
+    confidence: high
+    limitations: This is a retrospective official account; it does not independently date the performance or quantify its damage.

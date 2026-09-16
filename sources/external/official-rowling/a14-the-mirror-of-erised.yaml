@@ -1,0 +1,294 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A14
+  source_file: resources/external/official-rowling/harrypotter-com/a14-the-mirror-of-erised.md
+  title: "The Mirror of Erised  "
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/the-mirror-of-erised
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/the-mirror-of-erised
+  capture_completeness: complete
+  content_sha256: 9c01fe7916833093e806e0b41db1117daf51161de9627a5565a493c6d4093c36
+  processed_date: '2026-08-15'
+  processor_notes: Complete A14 snapshot read; title whitespace and carrier provenance retained.
+
+entries:
+  - id: ext-a14-001
+    source_file: resources/external/official-rowling/harrypotter-com/a14-the-mirror-of-erised.md
+    source_id: A14
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-mirror-of-erised
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The Mirror of Erised is a very old device.
+      end_phrase: how it came to be at Hogwarts School.
+      local_occurrence_note: Opening paragraph, first two sentences.
+    nearby_context: The article introduces the mirror's age before explaining that its arrival at the school is undocumented.
+    match_terms:
+      - mirror of erised
+      - unknown origin
+      - hogwarts artefact
+    quote_excerpt_short: Nobody knows who created it, or how it came to be at Hogwarts School.
+    source_note: The mirror is ancient, but this official account does not identify either its maker or the route by which it reached Hogwarts.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - mirror-of-erised
+      - magical-artefacts
+      - hogwarts
+      - origins
+    candidate_part: 'Hogwarts: A History'
+    candidate_chapter: The Castle
+    candidate_section: Ancient artefacts and uncertain origins
+    reason_for_placement: Documents an institutional artefact whose pre-school history remains unknown.
+    relevance_to_hogwarts_a_history: Useful as a qualified account of an old Hogwarts-held object, explicitly preserving the uncertainty of its provenance.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing Mirror entries address its observed function and Stone protection, not its unknown provenance.
+      audit:
+        query_tags:
+          - magical-artefacts
+          - mirror-of-erised
+          - origins
+        candidates:
+          - id: ps-ch12-006
+            disposition: distinct
+          - id: ps-ch17-002
+            disposition: distinct
+          - id: ps-ch17-003
+            disposition: distinct
+    confidence: high
+    limitations: The article states uncertainty rather than supplying a date, maker, or acquisition record.
+
+  - id: ext-a14-002
+    source_file: resources/external/official-rowling/harrypotter-com/a14-the-mirror-of-erised.md
+    source_id: A14
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-mirror-of-erised
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: A succession of teachers have brought back interesting artefacts
+      end_phrase: wished to ask their colleagues’ opinions.
+      local_occurrence_note: Opening paragraph, speculative explanation of possible acquisition.
+    nearby_context: The article suggests a longstanding staff practice of returning from travel with notable objects, while presenting this as only one possible route for the mirror.
+    match_terms:
+      - teachers
+      - travel artefacts
+      - staff acquisition
+    quote_excerpt_short: A succession of teachers have brought back interesting artefacts from their travels
+    source_note: Teachers have repeatedly brought artefacts back from their travels; the article offers this as a possible, not confirmed, explanation for the mirror's arrival.
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - teachers
+      - magical-artefacts
+      - travel
+      - institutional-history
+      - hogwarts
+    candidate_part: 'Hogwarts: A History'
+    candidate_chapter: School Staff and Traditions
+    candidate_section: Staff travel and acquired artefacts
+    reason_for_placement: Records a recurring staff-associated practice that can explain how unusual objects entered school custody.
+    relevance_to_hogwarts_a_history: Supports institutional context while clearly distinguishing the general practice from the unproven acquisition history of the Mirror.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The returned teacher-related entry concerns holiday residence rather than staff travel or collecting artefacts.
+      audit:
+        query_tags:
+          - magical-artefacts
+          - teachers
+          - travel
+        candidates:
+          - id: cos-ch12-002
+            disposition: distinct
+    confidence: medium
+    limitations: The passage treats the mirror-specific acquisition explanation as conjecture and gives no teachers, dates, or inventory evidence.
+
+  - id: ext-a14-003
+    source_file: resources/external/official-rowling/harrypotter-com/a14-the-mirror-of-erised.md
+    source_id: A14
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-mirror-of-erised
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: which has been languishing in the Room of Requirement
+      end_phrase: before he brings it out and puts it to work
+      local_occurrence_note: Second paragraph, parenthetical description of the mirror before Dumbledore uses it.
+    nearby_context: The article says the Mirror was left in the Room of Requirement for approximately a century before Dumbledore retrieved it.
+    match_terms:
+      - room of requirement
+      - mirror storage
+      - hidden rooms
+    quote_excerpt_short: has been languishing in the Room of Requirement for a century or so
+    source_note: Before Dumbledore retrieved it, the Mirror had remained in the Room of Requirement for roughly a century.
+    reference_type: magical_architecture
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - room-of-requirement
+      - mirror-of-erised
+      - hidden-rooms
+      - magical-architecture
+      - hogwarts
+    candidate_part: 'Hogwarts: A History'
+    candidate_chapter: The Castle
+    candidate_section: The Room of Requirement and long-term concealment
+    reason_for_placement: Adds a dated use of a concealed castle space as long-term storage for a magical artefact.
+    relevance_to_hogwarts_a_history: Establishes a pre-Harry-era link between the Room of Requirement and the preservation of hidden school-held objects.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Room of Requirement records corroborate its hidden-room role but do not duplicate this Mirror storage history.
+      audit:
+        query_tags:
+          - hidden-rooms
+          - mirror-of-erised
+          - room-of-requirement
+        candidates:
+          - id: dh-ch27-005
+            disposition: distinct
+          - id: dh-ch29-004
+            disposition: corroborating
+          - id: dh-ch29-005
+            disposition: corroborating
+          - id: dh-ch30-007
+            disposition: distinct
+          - id: dh-ch31-006
+            disposition: corroborating
+          - id: dh-ch31-007
+            disposition: distinct
+          - id: gof-ch23-004
+            disposition: corroborating
+          - id: hbp-ch18-004
+            disposition: distinct
+          - id: hbp-ch19-006
+            disposition: distinct
+          - id: hbp-ch21-003
+            disposition: corroborating
+    confidence: high
+    limitations: The duration is approximate and the article does not identify the room's form or custodians during that period.
+
+  - id: ext-a14-004
+    source_file: resources/external/official-rowling/harrypotter-com/a14-the-mirror-of-erised.md
+    source_id: A14
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-mirror-of-erised
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Only after Professor Dumbledore makes key modifications to the mirror
+      end_phrase: the final test for the impure of heart.
+      local_occurrence_note: Second paragraph, sentence describing Dumbledore's altered use of the Mirror.
+    nearby_context: The article distinguishes the Mirror's original character from the security function created by Dumbledore's modifications.
+    match_terms:
+      - dumbledore
+      - mirror protection
+      - philosopher's stone
+    quote_excerpt_short: does it become a superb hiding place, and the final test for the impure of heart.
+    source_note: Dumbledore's alterations made the Mirror both a hiding place and a final moral test.
+    reference_type: security_or_protection
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - dumbledore
+      - mirror-of-erised
+      - security-or-protection
+      - desire-based-magic
+    candidate_part: 'Hogwarts: A History'
+    candidate_chapter: School Security and Safeguards
+    candidate_section: Dumbledore's Mirror safeguards
+    reason_for_placement: Identifies Dumbledore's deliberate conversion of an existing artefact into a final protective control.
+    relevance_to_hogwarts_a_history: Explains the institutional use and adaptation of an old castle-held object for a major security operation, while excluding its later date from an original-era edition.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Stone-protection entries independently corroborate the final Mirror safeguard; this article adds its modification and storage context.
+      audit:
+        query_tags:
+          - dumbledore
+          - mirror-of-erised
+          - philosopher-stone-protections
+        candidates:
+          - id: ps-ch17-003
+            disposition: corroborating
+          - id: ps-ch12-006
+            disposition: corroborating
+          - id: ps-ch14-003
+            disposition: corroborating
+          - id: ps-ch15-003
+            disposition: corroborating
+          - id: ps-ch17-002
+            disposition: corroborating
+          - id: cos-ch02-003
+            disposition: distinct
+          - id: cos-ch04-001
+            disposition: distinct
+          - id: cos-ch07-004
+            disposition: distinct
+          - id: cos-ch10-006
+            disposition: distinct
+          - id: cos-ch12-003
+            disposition: distinct
+    confidence: high
+    limitations: The account identifies the result of Dumbledore's modifications but not their mechanics or precise date.
+
+  - id: ext-a14-005
+    source_file: resources/external/official-rowling/harrypotter-com/a14-the-mirror-of-erised.md
+    source_id: A14
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-mirror-of-erised
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: because while it is much more revealing than a normal mirror
+      end_phrase: it is interesting rather than useful.
+      local_occurrence_note: Second paragraph, assessment of the Mirror before its modification.
+    nearby_context: The article characterises the unmodified Mirror as a playful, unusually revealing artefact rather than a practical tool.
+    match_terms:
+      - revealing magic
+      - mirror of erised
+      - magical artefact
+    quote_excerpt_short: much more revealing than a normal mirror, it is interesting rather than useful.
+    source_note: Before Dumbledore's intervention, the Mirror was more revealing than an ordinary mirror but was framed as intriguing rather than practically useful.
+    reference_type: cross_reference_candidate
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - mirror-of-erised
+      - revealing-magic
+      - desire-based-magic
+      - magical-artefacts
+      - hogwarts
+    candidate_part: 'Hogwarts: A History'
+    candidate_chapter: The Castle
+    candidate_section: Enchanted objects and their uses
+    reason_for_placement: Provides a pre-modification characterisation of a significant Hogwarts artefact.
+    relevance_to_hogwarts_a_history: Offers contextual interpretation of the Mirror's ordinary function, to be read alongside the direct narrative evidence of its desire-revealing effects.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries corroborate the Mirror's desire-based function and protective use, but not this assessment of its original utility.
+      audit:
+        query_tags:
+          - desire-based-magic
+          - mirror-of-erised
+          - revealing-magic
+        candidates:
+          - id: ps-ch17-003
+            disposition: corroborating
+          - id: ps-ch12-006
+            disposition: corroborating
+          - id: ps-ch17-002
+            disposition: corroborating
+    confidence: high
+    limitations: The evaluation of usefulness is Rowling's retrospective framing rather than an in-universe institutional assessment.

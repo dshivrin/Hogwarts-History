@@ -4,33 +4,18 @@ project:
   schema_reference: docs/instructions/schema-reference.md
   background_guide: docs/instructions/background-guide.md
 last_completed_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-04
-  book: Harry Potter and the Goblet of Fire
-  chapter_number: 18
-  chapter_title: Chapter Eighteen - The Weighing of the Wands
-  page_start: 1188
-  page_end: 1209
-  output_yaml: sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
-current_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-04
-  book: Harry Potter and the Goblet of Fire
-  chapter_number: 19
-  chapter_title: Chapter Nineteen - The Hungarian Horntail
-  page_start: 1210
-  page_end: 1229
-  output_yaml: sources/book-04/chapter-19-the-hungarian-horntail.yaml
-  extracted_text_path: .tmp/current-chapter.txt
-next_source_unit:
-  source_file: pdfs/harrypotter.pdf
-  book_group: book-04
-  book: Harry Potter and the Goblet of Fire
-  chapter_number: 20
-  chapter_title: Chapter Twenty - The First Task
-  page_start: 1230
-  page_end: 1251
-  output_yaml: sources/book-04/chapter-20-the-first-task.yaml
+  unit_id: FB09
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book_group: book-fb
+  book: Fantastic Beasts and Where to Find Them
+  chapter_number: 9
+  chapter_title: Back Matter
+  page_start: 65
+  page_end: 65
+  output_yaml: sources/book-fb/chapter-09-back-matter.yaml
+  extraction_mode: rendered_page_images
+current_source_unit: null
+next_source_unit: null
 indexes:
   duplicate_index: project-control/duplicate-index.yaml
   entry_index: project-control/entry-index.yaml
@@ -51,6 +36,12 @@ automation_rules:
   update_next_run_file: true
   advance_to_next_chapter: true
   stop_on_schema_error: true
+  max_external_units_in_progress: 4
+  index_first_duplicate_lookup: true
+  workers_write_assigned_yaml_only: true
+  completion_updates_generated_outputs: true
+  scanned_pdf_requires_rendered_page_review: true
+  stop_after_advancing_one_unit: true
 cleanup_runs:
 - date: '2026-06-20'
   type: appendix_consolidation
@@ -58,3 +49,35 @@ cleanup_runs:
     into cumulative Emerging Parts sections without processing a new source unit.
   source_units_newly_processed: 0
   next_pending_preserved: true
+external_processing:
+  phase: external-source-extraction
+  manifest: resources/manifests/external-sources.yaml
+  max_in_progress: 4
+  total_units: 72
+  counts:
+    pending: 0
+    in_progress: 0
+    done: 72
+    blocked: 0
+  active_units: []
+  next_pending_unit: null
+  last_completed_unit:
+    id: F01
+    title: The Hogwarts classes that you might have forgotten about
+    status: done
+    input_path: resources/external/official-editorial/harrypotter-com/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.md
+    output_file: sources/external/official-editorial/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.yaml
+    staging_file: work/external-staging/f01.yaml
+    manifest_id: external-F01
+    claimed_by: null
+    claimed_at: null
+last_completed_external_source_unit:
+  id: F01
+  title: The Hogwarts classes that you might have forgotten about
+  status: done
+  input_path: resources/external/official-editorial/harrypotter-com/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.md
+  output_file: sources/external/official-editorial/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.yaml
+  staging_file: work/external-staging/f01.yaml
+  manifest_id: external-F01
+  claimed_by: null
+  claimed_at: null

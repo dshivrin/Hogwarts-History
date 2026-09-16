@@ -1,0 +1,326 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Ten - Kreacher's Tale
+  chapter_start_pdf_page: 3123
+  chapter_end_pdf_page: 3143
+  boundary_confidence: high
+  boundary_notes: "Processing-state anchors identify this chapter as PDF pages 3123-3143; bounded extraction begins at the Chapter Ten heading and ends with Kreacher Disapparating."
+  processed_date: '2026-08-02'
+  processor_notes: "Extracted only the bounded source-unit range with pypdf via scripts/extract_pages.py; no explicit Hogwarts: A History reference appears in this chapter."
+
+entries:
+  - id: dh-ch10-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Ten - Kreacher's Tale
+    chapter_start_pdf_page: 3123
+    chapter_end_pdf_page: 3143
+    pdf_page: 3124
+    printed_page: null
+    extracted_text_lines: "48-52"
+    text_anchor:
+      start_phrase: "Harry's gaze wandered to the portrait"
+      end_phrase: "the headmaster's study at Hogwarts"
+      local_occurrence_note: "Early morning search of the upper floors before Harry enters Sirius's bedroom."
+    nearby_context: "Phineas Nigellus Black's portrait frame at Grimmauld Place is empty because he is evidently at Hogwarts."
+    match_terms:
+      - Phineas Nigellus Black
+      - headmaster's study
+      - portrait
+      - Hogwarts
+    quote_excerpt_short: "spending the night in the headmaster's study at Hogwarts"
+    source_note: "Phineas Nigellus Black's portrait can be absent from Grimmauld Place because the former headmaster is present in the Hogwarts headmaster's study, corroborating portrait movement between linked frames."
+    reference_type: portrait_or_ghost_lore
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - phineas-nigellus-black
+      - portraits
+      - headmaster-office
+      - hogwarts
+      - grimmauld-place
+      - institutional-memory
+    candidate_part: Hogwarts Buildings and Enchantments
+    candidate_chapter: Headmaster's Office and Portrait Network
+    candidate_section: Former headmasters as mobile portrait witnesses
+    reason_for_placement: "The passage supports a history section on the headmaster's office as a portrait-linked institutional archive."
+    relevance_to_hogwarts_a_history: "A future edition could use this as practical evidence that former headmasters' portraits connect Hogwarts to other family or institutional frames."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch23-002
+      notes: "Likely duplicate or corroboration of ootp-ch23-002, which records Phineas using his Grimmauld Place portrait to relay Dumbledore's orders; this entry adds the reverse observation that he may be at Hogwarts instead."
+    confidence: high
+    limitations: "The text infers Phineas's location from the empty frame rather than showing him moving."
+
+  - id: dh-ch10-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Ten - Kreacher's Tale
+    chapter_start_pdf_page: 3123
+    chapter_end_pdf_page: 3143
+    pdf_page: 3125
+    printed_page: null
+    extracted_text_lines: "68-81"
+    text_anchor:
+      start_phrase: "The teenage Sirius had plastered the walls"
+      end_phrase: "four Hogwarts students standing arm in arm"
+      local_occurrence_note: "Description of Sirius Black's bedroom immediately after Harry enters it."
+    nearby_context: "Sirius's bedroom contrasts Gryffindor banners and Muggle images against the Slytherin identity of the wider Black family."
+    match_terms:
+      - Sirius Black
+      - Gryffindor banners
+      - Slytherin family
+      - Hogwarts students
+    quote_excerpt_short: "several large Gryffindor banners"
+    source_note: "Sirius Black's preserved bedroom material culture displays Gryffindor banners, Muggle images, and a Hogwarts student photograph as deliberate rejection of his Slytherin pure-blood family identity."
+    reference_type: house_system
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - sirius-black
+      - gryffindor
+      - slytherin
+      - black-family
+      - house-identity
+      - muggle-culture
+      - magical-photographs
+    candidate_part: Student Life and Houses
+    candidate_chapter: House Identity, Family Expectation, and Rebellion
+    candidate_section: Black family House identity and Sirius's exception
+    reason_for_placement: "The room gives physical evidence of House affiliation as social and family identity, not only school placement."
+    relevance_to_hogwarts_a_history: "This supports a history passage about House identity persisting beyond school and shaping family politics."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch04-005
+      notes: "Likely corroborates hbp-ch04-005, where Slughorn says Sirius was the Gryffindor exception in a Slytherin Black-family pattern; this entry adds material evidence from Sirius's room."
+    confidence: high
+    limitations: "The evidence is filtered through Harry's interpretation of Sirius's teenage decorations."
+
+  - id: dh-ch10-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Ten - Kreacher's Tale
+    chapter_start_pdf_page: 3123
+    chapter_end_pdf_page: 3143
+    pdf_page: 3126
+    printed_page: null
+    extracted_text_lines: "103-129"
+    text_anchor:
+      start_phrase: "part of an old edition of A History of Magic"
+      end_phrase: "amazing stories about Dumbledore"
+      local_occurrence_note: "Harry handles torn papers and Lily's first letter sheet in Sirius's ransacked bedroom."
+    nearby_context: "Lily's letter also identifies Bathilda Bagshot as a familiar visitor to the Potters in Godric's Hollow."
+    match_terms:
+      - A History of Magic
+      - Bathilda Bagshot
+      - Lily Potter
+      - Dumbledore
+    quote_excerpt_short: "old edition of A History of Magic"
+    source_note: "A torn copy of Bathilda Bagshot's A History of Magic is present among Sirius's school-era books, while Lily's letter treats Bathilda as a local source of Dumbledore stories."
+    reference_type: explicit_in_universe_source
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - bathilda-bagshot
+      - history-of-magic
+      - in-universe-source
+      - dumbledore
+      - godrics-hollow
+      - sirius-black
+      - magical-historian
+    candidate_part: Sources, Historiography, and Editions
+    candidate_chapter: Named Wizarding Historians and School Texts
+    candidate_section: Bathilda Bagshot as textbook author and living informant
+    reason_for_placement: "The passage directly names a wizarding history text and links its author to oral history about Dumbledore."
+    relevance_to_hogwarts_a_history: "A future edition can distinguish Bagshot's general magical history from Hogwarts-specific histories while noting her role as a source for Dumbledore-era background."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - poa-ch01-001
+        - dh-ch02-003
+        - dh-ch08-006
+      notes: "Likely corroborates prior Bathilda/A History of Magic and Bathilda-as-source entries; this chapter adds the book as Sirius-room material evidence and Lily's private testimony."
+    confidence: high
+    limitations: "The torn page does not quote the book's contents, and Lily's letter breaks off before the Dumbledore story."
+
+  - id: dh-ch10-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Ten - Kreacher's Tale
+    chapter_start_pdf_page: 3123
+    chapter_end_pdf_page: 3143
+    pdf_page: 3132
+    printed_page: null
+    extracted_text_lines: "313-345"
+    text_anchor:
+      start_phrase: "Regulus's bedroom was slightly smaller"
+      end_phrase: "a recently smashed ink bottle"
+      local_occurrence_note: "The trio searches Regulus's room after identifying R.A.B."
+    nearby_context: "The room contains Slytherin colors, the Black family motto, Voldemort press clippings, a Slytherin Quidditch team photograph, and old textbooks."
+    match_terms:
+      - Regulus Black
+      - Slytherin colors
+      - Hogwarts Quidditch team
+      - Toujours Pur
+    quote_excerpt_short: "The Slytherin colors of emerald and silver were everywhere"
+    source_note: "Regulus Black's bedroom preserves concentrated Slytherin and pure-blood symbols alongside a Hogwarts Slytherin Quidditch team photograph identifying him as Seeker."
+    reference_type: house_system
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - regulus-black
+      - slytherin
+      - quidditch
+      - black-family
+      - pure-blood-ideology
+      - house-identity
+      - family-crests
+    candidate_part: Student Life and Houses
+    candidate_chapter: House Identity, Family Expectation, and Rebellion
+    candidate_section: Regulus Black and Slytherin family conformity
+    reason_for_placement: "The scene supplies room-level material culture connecting family ideology, Slytherin identity, and school sport."
+    relevance_to_hogwarts_a_history: "This gives concrete evidence for how House affiliation could reinforce elite pure-blood family identity outside Hogwarts."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch04-005
+        - ootp-ch06-004
+      notes: "Likely corroborates hbp-ch04-005 on Regulus as the Slytherin Black-family counterpart to Sirius, and ootp-ch06-004 on Regulus's Death Eater alignment; this adds preserved room evidence."
+    confidence: high
+    limitations: "The Quidditch photograph confirms position visually through Harry's interpretation, not through a roster."
+
+  - id: dh-ch10-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Ten - Kreacher's Tale
+    chapter_start_pdf_page: 3123
+    chapter_end_pdf_page: 3143
+    pdf_page: 3134
+    printed_page: null
+    extracted_text_lines: "380-405"
+    text_anchor:
+      start_phrase: "There was a locket"
+      end_phrase: "Nature's Nobility: A Wizarding Genealogy"
+      local_occurrence_note: "The trio remembers the drawing-room locket and checks Kreacher's cupboard."
+    nearby_context: "The locket had been discarded with other dangerous household objects during Order cleaning and then recovered by Kreacher."
+    match_terms:
+      - locket
+      - Kreacher's cupboard
+      - Nature's Nobility
+      - wizarding genealogy
+    quote_excerpt_short: "Nature's Nobility: A Wizarding Genealogy"
+    source_note: "The lost locket trail reconnects earlier Grimmauld Place cleaning to Kreacher's preserved Black-family hoard, where only Nature's Nobility: A Wizarding Genealogy remains."
+    reference_type: explicit_in_universe_source
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - natures-nobility
+      - wizarding-genealogy
+      - black-family
+      - grimmauld-place
+      - kreacher
+      - family-artifacts
+      - slytherin-locket
+    candidate_part: Sources, Historiography, and Editions
+    candidate_chapter: Genealogies, Family Archives, and Pure-Blood Records
+    candidate_section: Black family artifacts and published genealogies
+    reason_for_placement: "The passage names a wizarding genealogy source and ties it to the Black family's domestic archive."
+    relevance_to_hogwarts_a_history: "A history of Hogwarts-connected families could cite the survival of genealogical books and artifacts as sources for family influence around the school."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch06-001
+      notes: "Likely duplicate or continuation of ootp-ch06-001, which already records Nature's Nobility and Black-family artifacts; this entry adds the later locket-search context and remaining cupboard source."
+    confidence: high
+    limitations: "The title is named, but the chapter does not quote or summarize the genealogy's contents."
+
+  - id: dh-ch10-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Ten - Kreacher's Tale
+    chapter_start_pdf_page: 3123
+    chapter_end_pdf_page: 3143
+    pdf_page: 3138
+    printed_page: null
+    extracted_text_lines: "533-560"
+    text_anchor:
+      start_phrase: "Kreacher needed water"
+      end_phrase: "so Kreacher came home"
+      local_occurrence_note: "Kreacher explains how he escaped the Horcrux cave after Voldemort left him to die."
+    nearby_context: "Ron explicitly compares house-elf Apparition with elves' ability to Apparate and Disapparate in and out of Hogwarts."
+    match_terms:
+      - house-elf magic
+      - Apparate
+      - Disapparate
+      - Hogwarts
+      - master's bidding
+    quote_excerpt_short: "Apparate and Disapparate in and out of Hogwarts"
+    source_note: "Kreacher's escape from Voldemort's cave confirms that house-elf magic can bypass wizard anti-Apparition assumptions, with Ron citing Hogwarts as the familiar example."
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - house-elf-magic
+      - apparition
+      - disapparition
+      - hogwarts
+      - cave-defenses
+      - voldemort-defenses
+      - magical-transport
+    candidate_part: Hogwarts Buildings and Enchantments
+    candidate_chapter: Boundaries, Wards, and Exceptional Magic
+    candidate_section: House-elf exceptions to anti-Apparition protections
+    reason_for_placement: "The chapter explicitly compares nonwizard elf travel to Hogwarts's usual Apparition prohibition."
+    relevance_to_hogwarts_a_history: "This can qualify any Hogwarts anti-Apparition section by noting that house-elf magic operates under different rules."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch23-001
+        - hbp-ch19-007
+      notes: "Likely duplicate/corroboration of ootp-ch23-001's explicit Hogwarts: A History anti-Apparition citation and hbp-ch19-007's house-elf summoning evidence; this entry adds the cave escape analogy."
+    confidence: high
+    limitations: "The Hogwarts comparison is Ron's explanation, though later events in the same passage support it."
+
+  - id: dh-ch10-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Ten - Kreacher's Tale
+    chapter_start_pdf_page: 3123
+    chapter_end_pdf_page: 3143
+    pdf_page: 3140
+    printed_page: null
+    extracted_text_lines: "581-621"
+    text_anchor:
+      start_phrase: "Master Regulus took from his pocket"
+      end_phrase: "what happened in the c-cave"
+      local_occurrence_note: "Kreacher recounts Regulus's return to the cave and the locket exchange."
+    nearby_context: "Regulus orders Kreacher to switch lockets, leave without him, keep the family ignorant, and destroy the real locket."
+    match_terms:
+      - Regulus Black
+      - Horcrux
+      - locket
+      - cave
+      - Inferi
+    quote_excerpt_short: "Kreacher swapped the lockets"
+    source_note: "Kreacher's testimony reveals that Regulus Black knowingly replaced Voldemort's locket Horcrux, sacrificed himself in the cave, and ordered Kreacher to destroy the original."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - regulus-black
+      - horcrux
+      - slytherin-locket
+      - kreacher
+      - inferi
+      - voldemort-defenses
+      - first-wizarding-war
+    candidate_part: The Second War and Hidden Histories
+    candidate_chapter: Regulus Black and the Secret Locket
+    candidate_section: First-war resistance hidden inside a pure-blood household
+    reason_for_placement: "The passage is the direct source for Regulus's hidden anti-Voldemort action and the locket's post-cave history."
+    relevance_to_hogwarts_a_history: "Although not a school event, Regulus is a Hogwarts-connected Slytherin alumnus whose concealed first-war act reframes Black-family and Slytherin wartime history."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch26-004
+        - hbp-ch26-006
+        - hbp-ch26-007
+      notes: "Likely corroborates the HBP cave entries on the boat, basin potion, and Inferi defenses; this entry adds Regulus and Kreacher's historical explanation of how the locket was removed."
+    confidence: high
+    limitations: "The account is retrospective testimony from Kreacher, not an independently witnessed scene."

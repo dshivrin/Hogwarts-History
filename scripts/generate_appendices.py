@@ -8,6 +8,11 @@ from pathlib import Path
 
 import yaml
 
+try:
+    from scripts.source_files import discover_source_yaml
+except ModuleNotFoundError:  # Direct script execution.
+    from source_files import discover_source_yaml
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_DIR = ROOT / "sources"
@@ -36,7 +41,7 @@ def load_yaml(path: Path) -> dict:
 
 
 def source_yaml_files() -> list[Path]:
-    return sorted(SOURCES_DIR.glob("book-*/*.yaml"))
+    return discover_source_yaml(ROOT)
 
 
 def load_entries() -> list[dict]:
@@ -51,6 +56,7 @@ def load_entries() -> list[dict]:
             row["_output_yaml"] = path.relative_to(ROOT).as_posix()
             row["_chapter"] = source_unit.get("chapter")
             row["_book"] = source_unit.get("book")
+            row["_source_title"] = source_unit.get("title")
             rows.append(row)
     return rows
 
@@ -115,9 +121,16 @@ def generate_explicit_references(entries: list[dict]) -> str:
             )
             if destination:
                 lines.append(f"  - Destination: {destination}")
-            lines.append(
-                f"  - Source: PDF p. {entry.get('pdf_page')}, `{entry.get('_output_yaml')}`"
-            )
+            if entry.get("source_url"):
+                lines.append(
+                    f"  - Source: {entry.get('source_id')}, {entry.get('source_url')}, "
+                    f"`{entry.get('_output_yaml')}`"
+                )
+            else:
+                lines.append(
+                    f"  - Source: PDF p. {entry.get('pdf_page')}, "
+                    f"`{entry.get('_output_yaml')}`"
+                )
             lines.append(
                 "  - "
                 f"Classification: {entry.get('era_classification')} | "
@@ -187,20 +200,41 @@ def generate_source_index() -> str:
     source_index = load_yaml(SOURCE_INDEX_PATH)
     lines = ["# Source Index", ""]
     for unit in source_index.get("processed_units") or []:
-        lines.append(
-            "- "
-            f"`{unit.get('source_unit_id')}`: {unit.get('book')}, "
-            f"{unit.get('chapter_title')}, pages "
-            f"{unit.get('page_start')}-{unit.get('page_end')}, "
-            f"{unit.get('candidate_entry_count')} entries, "
-            f"{unit.get('explicit_reference_count')} explicit references."
-        )
+        if unit.get("source_kind") == "external_markdown":
+            lines.append(
+                "- "
+                f"`{unit.get('source_unit_id')}`: {unit.get('source_site')}, "
+                f"{unit.get('source_url')}, {unit.get('candidate_entry_count')} entries, "
+                f"{unit.get('explicit_reference_count')} explicit references."
+            )
+        else:
+            lines.append(
+                "- "
+                f"`{unit.get('source_unit_id')}`: {unit.get('book')}, "
+                f"{unit.get('chapter_title')}, pages "
+                f"{unit.get('page_start')}-{unit.get('page_end')}, "
+                f"{unit.get('candidate_entry_count')} entries, "
+                f"{unit.get('explicit_reference_count')} explicit references."
+            )
     return "\n".join(lines)
 
 
+def external_source_label(entry: dict) -> str | None:
+    source_id = entry.get("source_id")
+    if not source_id:
+        return None
+    title = entry.get("_source_title") or "Untitled external source"
+    return f"{source_id} — {title}"
+
+
 def entry_label(entry: dict) -> str:
+    external_label = external_source_label(entry)
+    if external_label:
+        location = external_label.replace(" — ", ", ", 1)
+    else:
+        location = f"{entry.get('_book')}, {entry.get('_chapter')}"
     return (
-        f"`{entry.get('id')}` ({entry.get('_book')}, {entry.get('_chapter')}): "
+        f"`{entry.get('id')}` ({location}): "
         f"{entry.get('source_note') or entry.get('limitations') or 'No note recorded.'}"
     )
 
@@ -303,6 +337,11 @@ def counter_lines(counter: Counter) -> list[str]:
 def unit_summary(unit: dict) -> str:
     if not unit:
         return "Not recorded."
+    if unit.get("id"):
+        return (
+            f"`{unit.get('id')}` — {unit.get('title')}, "
+            f"input `{unit.get('input_path')}`, output `{unit.get('output_file')}`"
+        )
     return (
         f"{unit.get('book')}, {unit.get('chapter_title')}, "
         f"pages {unit.get('page_start')}-{unit.get('page_end')}, "
@@ -314,7 +353,10 @@ def generate_project_stats(entries: list[dict]) -> str:
     source_index = load_yaml(SOURCE_INDEX_PATH)
     state = load_processing_state()
     processed_units = source_index.get("processed_units") or []
-    by_book = Counter(str(entry.get("_book") or "Unknown") for entry in entries)
+    by_book = Counter(
+        external_source_label(entry) or str(entry.get("_book") or "Unknown")
+        for entry in entries
+    )
     by_era = Counter(str(entry.get("era_classification") or "unknown") for entry in entries)
     by_reference = Counter(str(entry.get("reference_type") or "unknown") for entry in entries)
     explicit_count = by_reference.get("explicit_hogwarts_a_history", 0)
@@ -327,20 +369,23 @@ def generate_project_stats(entries: list[dict]) -> str:
 
     lines = ["# Project Stats", ""]
     lines.extend(["## Processed Source Units", "", f"- Total: {len(processed_units)}", ""])
-    lines.extend(["## Entries by Book", "", *counter_lines(by_book), ""])
+    lines.extend(["## Entries by Book or External Source", "", *counter_lines(by_book), ""])
     lines.extend(["## Entries by Era Classification", "", *counter_lines(by_era), ""])
     lines.extend(["## Entries by Reference Type", "", *counter_lines(by_reference), ""])
     lines.extend(["## Explicit `Hogwarts: A History` References", "", f"- Total: {explicit_count}", ""])
     lines.extend(["## Possible Duplicates", "", f"- Total: {duplicate_count}", ""])
+    external = state.get("external_processing") or {}
+    latest_external = external.get("last_completed_unit") if isinstance(external, dict) else None
+    next_external = external.get("next_pending_unit") if isinstance(external, dict) else None
     lines.extend(
         [
             "## Latest Processed Unit",
             "",
-            f"- {unit_summary(state.get('last_completed_source_unit') or {})}",
+            f"- {unit_summary(latest_external or state.get('last_completed_source_unit') or {})}",
             "",
             "## Next Pending Unit",
             "",
-            f"- {unit_summary(state.get('current_source_unit') or {})}",
+            f"- {unit_summary(next_external or state.get('current_source_unit') or {})}",
         ]
     )
     return "\n".join(lines)

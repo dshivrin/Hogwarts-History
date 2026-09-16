@@ -1,0 +1,351 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Thirty-Six - The Flaw in the Plan
+  chapter_start_pdf_page: 3594
+  chapter_end_pdf_page: 3615
+  boundary_confidence: high
+  boundary_notes: "Processing-state supplied the inclusive page range; bounded extraction begins with the Chapter Thirty-Six heading on PDF page 3594 and runs through the final page of the source volume on PDF page 3615."
+  processed_date: '2026-08-13'
+  processor_notes: "Extracted only PDF pages 3594-3615 with pypdf via scripts/extract_pages.py; no full-PDF scan was performed. No explicit Hogwarts: A History title citation appears in this source unit."
+
+entries:
+  - id: dh-ch36-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Six - The Flaw in the Plan
+    chapter_start_pdf_page: 3594
+    chapter_end_pdf_page: 3615
+    pdf_page: 3606
+    printed_page: null
+    extracted_text_lines: "397-409"
+    text_anchor:
+      start_phrase: "You won't be killing anyone else tonight"
+      end_phrase: "You can't touch them"
+      local_occurrence_note: "During the final confrontation in the Great Hall, Harry explains that his willing surrender has given the defenders protection against Voldemort's magic."
+    nearby_context: "Voldemort and Harry circle each other before the gathered survivors after Harry reveals himself alive."
+    match_terms:
+      - Harry Potter
+      - Voldemort
+      - sacrificial protection
+      - Battle of Hogwarts
+      - Great Hall
+      - defenders
+    quote_excerpt_short: "They're protected from you."
+    source_note: "Harry states that his intended self-sacrifice has replicated Lily Potter's protective magic for the people fighting at Hogwarts, weakening Voldemort's ability to bind, torture, or harm them."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - harry-potter
+      - voldemort
+      - sacrificial-protection
+      - battle-of-hogwarts
+      - protective-magic
+      - great-hall
+      - defenders
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Battle of Hogwarts and Its Aftermath
+    candidate_section: Harry's sacrificial protection over the defenders
+    reason_for_placement: "The passage supplies the final-battle explanation for why Voldemort's magic stops binding the Hogwarts defenders after Harry's surrender."
+    relevance_to_hogwarts_a_history: "A later edition can use this as a capstone case study for rare protective magic operating across the school community during the battle."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch35-001
+        - dh-ch03-001
+        - ootp-ch37-005
+      notes: "dh-ch35-001 records Dumbledore's explanation of Harry's survival and Lily's blood protection; dh-ch03-001 and ootp-ch37-005 record earlier blood-ward evidence. This entry adds Harry's explicit claim that his own intended sacrifice protects the Hogwarts defenders."
+    confidence: high
+    limitations: "The protection is explained by Harry in the duel rather than tested in a controlled magical setting, though he cites observed failures in Voldemort's spells."
+
+  - id: dh-ch36-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Six - The Flaw in the Plan
+    chapter_start_pdf_page: 3594
+    chapter_end_pdf_page: 3615
+    pdf_page: 3600
+    printed_page: null
+    extracted_text_lines: "204-239"
+    text_anchor:
+      start_phrase: "It is Neville Longbottom, my Lord"
+      end_phrase: "he caused the Sorting Hat to burst into flames"
+      local_occurrence_note: "Voldemort singles out Neville, summons the Sorting Hat from the castle, and announces the abolition of Sorting and Houses in favor of Slytherin symbolism."
+    nearby_context: "Harry is feigning death while Voldemort displays him before the castle steps and tries to force the surviving defenders to submit."
+    match_terms:
+      - Neville Longbottom
+      - Sorting Hat
+      - Sorting
+      - Hogwarts School
+      - Houses
+      - Salazar Slytherin
+    quote_excerpt_short: "There will be no more Sorting at Hogwarts School"
+    source_note: "Voldemort attempts to abolish the Sorting and the four-House system, declaring that Slytherin's emblem, shield, and colors will replace them for everyone."
+    reference_type: house_system
+    era_classification: later_editorial_note
+    topic_tags:
+      - sorting-hat
+      - sorting
+      - house-system
+      - slytherin
+      - salazar-slytherin
+      - neville-longbottom
+      - battle-of-hogwarts
+    candidate_part: The Four Houses
+    candidate_chapter: Sorting, House Identity, and Founder Memory
+    candidate_section: Wartime attempt to abolish Sorting and Houses
+    reason_for_placement: "The scene directly defines Sorting and the House system as core Hogwarts institutions by showing Voldemort's attempted replacement of them."
+    relevance_to_hogwarts_a_history: "A later edition can cite this as a symbolic attack on Hogwarts identity and on the school's multi-House tradition."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch05-004
+        - hbp-ch08-003
+        - dh-ch33-005
+      notes: "cos-ch05-004 and hbp-ch08-003 establish ordinary Sorting and House-feast structure, while dh-ch33-005 records pre-1984 House expectations. This entry adds Voldemort's explicit wartime attempt to abolish the system."
+    confidence: high
+    limitations: "The declaration is made by an enemy combatant during a failed occupation and never becomes a durable school policy."
+
+  - id: dh-ch36-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Six - The Flaw in the Plan
+    chapter_start_pdf_page: 3594
+    chapter_end_pdf_page: 3615
+    pdf_page: 3601
+    printed_page: null
+    extracted_text_lines: "241-263"
+    text_anchor:
+      start_phrase: "And then many things happened at the same moment"
+      end_phrase: "Neville and Voldemort before the latter could raise his wand"
+      local_occurrence_note: "As reinforcements arrive, Neville breaks free, the flaming Hat falls away, and he draws the Sword of Gryffindor before killing Nagini."
+    nearby_context: "The Death Eaters' line breaks when reinforcements, Grawp, and centaurs attack at the castle boundary and front steps."
+    match_terms:
+      - Neville Longbottom
+      - Sorting Hat
+      - Sword of Gryffindor
+      - Nagini
+      - Horcrux
+      - Body-Bind Curse
+    quote_excerpt_short: "he drew from its depths something silver"
+    source_note: "Neville draws the Sword of Gryffindor from the Sorting Hat under battle conditions and uses it to kill Nagini, completing the destruction of Voldemort's last external Horcrux."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - sword-of-gryffindor
+      - sorting-hat
+      - neville-longbottom
+      - nagini
+      - horcrux
+      - founder-relic
+      - battle-of-hogwarts
+    candidate_part: Magical Objects and Artifacts
+    candidate_chapter: Founder Relics, Horcruxes, and Dumbledore's Final Plan
+    candidate_section: Neville, the Sorting Hat, and Nagini's destruction
+    reason_for_placement: "The passage closes the sequence of Sword-of-Gryffindor evidence by showing a second worthy Gryffindor receiving the sword from the Hat in a decisive school battle."
+    relevance_to_hogwarts_a_history: "A later edition can connect this scene to founder relic behavior, House identity, and the final destruction of a Horcrux at Hogwarts."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch34-002
+        - cos-ch17-005
+        - dh-ch07-006
+      notes: "dh-ch34-002 records Harry's transfer of the Nagini mission to Neville; cos-ch17-005 and dh-ch07-006 record the sword's earlier appearance from the Hat and the worthy-Gryffindor tradition. This entry adds Neville's execution of that mission."
+    confidence: high
+    limitations: "The passage shows the sword's appearance and result, but does not directly restate the magical rule by which the Hat produces it."
+
+  - id: dh-ch36-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Six - The Flaw in the Plan
+    chapter_start_pdf_page: 3594
+    chapter_end_pdf_page: 3615
+    pdf_page: 3602
+    printed_page: null
+    extracted_text_lines: "268-304"
+    text_anchor:
+      start_phrase: "Chaos reigned. The charging centaurs"
+      end_phrase: "swallowed by the oncoming horde"
+      local_occurrence_note: "The final renewed battle includes centaurs, Grawp, thestrals, Buckbeak, student families, Hogsmeade residents, and Hogwarts house-elves entering from the kitchens."
+    nearby_context: "After Neville kills Nagini, the Death Eater formation breaks and both sides are forced back toward the entrance hall and Great Hall."
+    match_terms:
+      - centaurs
+      - Grawp
+      - thestrals
+      - Buckbeak
+      - Hogsmeade
+      - Hogwarts house-elves
+      - Kreacher
+    quote_excerpt_short: "The house-elves of Hogwarts swarmed into the entrance hall"
+    source_note: "The final counterattack draws in Hogwarts defenders, families, Hogsmeade residents, centaurs, Grawp, thestrals, Buckbeak, and Hogwarts house-elves from the kitchens, with Kreacher leading the elves into combat."
+    reference_type: direct_observed_setting
+    era_classification: later_editorial_note
+    topic_tags:
+      - battle-of-hogwarts
+      - centaurs
+      - grawp
+      - thestrals
+      - hogsmeade
+      - house-elves
+      - kreacher
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Battle of Hogwarts and Its Aftermath
+    candidate_section: Reinforcements and magical residents in the final counterattack
+    reason_for_placement: "The passage widens the battle record from school defenders to the broader Hogwarts and Hogsmeade community, including non-human residents."
+    relevance_to_hogwarts_a_history: "A later edition can cite this as evidence that the final defense of Hogwarts involved the castle, village, grounds residents, and kitchen staff as one community."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch32-003
+        - gof-ch21-006
+        - hbp-ch03-005
+      notes: "dh-ch32-003 records Grawp and giants near the castle, gof-ch21-006 records the kitchens and their house-elves, and hbp-ch03-005 records Kreacher's reassignment to Hogwarts kitchens. This entry adds their collective participation in the final counterattack."
+    confidence: high
+    limitations: "The passage names many groups at once and does not enumerate every individual who entered the final battle."
+
+  - id: dh-ch36-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Six - The Flaw in the Plan
+    chapter_start_pdf_page: 3594
+    chapter_end_pdf_page: 3615
+    pdf_page: 3611
+    printed_page: null
+    extracted_text_lines: "584-602"
+    text_anchor:
+      start_phrase: "The sun rose steadily over Hogwarts"
+      end_phrase: "Harry found himself sitting on a bench beside Luna"
+      local_occurrence_note: "After Voldemort's death, the Great Hall becomes a mixed space of celebration, mourning, reunions, and news while House tables are restored but not used by House."
+    nearby_context: "The crowd has just surged around Harry after the final duel and the dead have been separated from Voldemort's body."
+    match_terms:
+      - Great Hall
+      - House tables
+      - teachers
+      - pupils
+      - ghosts
+      - centaurs
+      - house-elves
+    quote_excerpt_short: "nobody was sitting according to House anymore"
+    source_note: "McGonagall restores the House tables after the battle, but the Great Hall fills with a mixed postwar community of teachers, pupils, ghosts, parents, centaurs, house-elves, Firenze, and Grawp."
+    reference_type: institutional_custom
+    era_classification: later_editorial_note
+    topic_tags:
+      - great-hall
+      - house-tables
+      - post-battle
+      - battle-of-hogwarts
+      - ghosts
+      - centaurs
+      - house-elves
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Battle of Hogwarts and Its Aftermath
+    candidate_section: Great Hall reunions and suspension of House seating
+    reason_for_placement: "The passage records the Great Hall's immediate post-battle civic role and a symbolic temporary departure from ordinary House seating."
+    relevance_to_hogwarts_a_history: "A later edition can use this as the closing institutional image of Hogwarts surviving the battle as a mixed school community."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch33-001
+        - dh-ch34-001
+        - gof-ch21-006
+      notes: "dh-ch33-001 and dh-ch34-001 record Great Hall triage and mourning before the final duel, while gof-ch21-006 records ordinary House-table alignment with the kitchens. This entry adds the post-victory restoration of tables without House-based seating."
+    confidence: high
+    limitations: "The scene captures the immediate aftermath and does not establish a lasting change to House seating customs."
+
+  - id: dh-ch36-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Six - The Flaw in the Plan
+    chapter_start_pdf_page: 3594
+    chapter_end_pdf_page: 3615
+    pdf_page: 3613
+    printed_page: null
+    extracted_text_lines: "643-667"
+    text_anchor:
+      start_phrase: "Since he had last seen it, the gargoyle"
+      end_phrase: "the portraits fell respectfully silent"
+      local_occurrence_note: "Harry, Ron, and Hermione reach the damaged headmaster's office, where former heads applaud from their frames and Phineas Nigellus insists Slytherin's contribution be remembered."
+    nearby_context: "After leaving the Great Hall under the Cloak, the trio climbs through damaged corridors to seek Dumbledore's portrait."
+    match_terms:
+      - headmaster's study
+      - gargoyle
+      - spiral stone staircase
+      - Pensieve
+      - headmaster portraits
+      - Phineas Nigellus
+      - Slytherin House
+    quote_excerpt_short: "the headmasters and headmistresses of Hogwarts"
+    source_note: "The damaged headmaster's office remains accessible by gargoyle and moving staircase, and the portraits of former heads react collectively to the battle's end, including Phineas Nigellus preserving Slytherin's role."
+    reference_type: portrait_or_ghost_lore
+    era_classification: later_editorial_note
+    topic_tags:
+      - headmaster-office
+      - headmaster-portraits
+      - phineas-nigellus-black
+      - dumbledore-portrait
+      - slytherin-house
+      - institutional-memory
+      - battle-of-hogwarts
+    candidate_part: Ghosts, Portraits, and Magical Residents
+    candidate_chapter: Headmasters, Headmistresses, and Institutional Memory
+    candidate_section: Former-head portraits after the Battle of Hogwarts
+    reason_for_placement: "The passage extends headmaster portrait lore by showing collective response, institutional memory, and House reputation claims after a major school crisis."
+    relevance_to_hogwarts_a_history: "A later edition can cite the portrait scene as evidence that former heads function as active witnesses and commentators on Hogwarts history."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch29-005
+        - cos-ch12-001
+        - dh-ch15-007
+      notes: "hbp-ch29-005 records Dumbledore's portrait joining the office tradition, cos-ch12-001 records the office portrait setting, and dh-ch15-007 records linked portrait communication limits. This entry adds the post-battle collective ovation and Phineas's Slytherin claim."
+    confidence: high
+    limitations: "The scene shows portrait behavior after the battle but does not explain the deeper mechanics of portrait memory or authority."
+
+  - id: dh-ch36-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Six - The Flaw in the Plan
+    chapter_start_pdf_page: 3594
+    chapter_end_pdf_page: 3615
+    pdf_page: 3614
+    printed_page: null
+    extracted_text_lines: "681-710"
+    text_anchor:
+      start_phrase: "I'm going to keep Ignotus's present"
+      end_phrase: "That'll be the end of it"
+      local_occurrence_note: "In the headmaster's office, Harry consults Dumbledore's portrait about the Hallows, repairs his holly wand with the Elder Wand, and states his plan to return the Elder Wand to its source."
+    nearby_context: "The trio has come to the headmaster's office after the battle so Harry can settle the fate of the Hallows and his broken wand."
+    match_terms:
+      - Ignotus
+      - Invisibility Cloak
+      - Elder Wand
+      - Reparo
+      - holly and phoenix wand
+      - Dumbledore portrait
+      - wand mastery
+    quote_excerpt_short: "I'm putting the Elder Wand back where it came from."
+    source_note: "Harry keeps the inherited Cloak, uses the Elder Wand to repair his holly-and-phoenix wand, and plans to return the Elder Wand so its power can die with an undefeated natural death."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - elder-wand
+      - invisibility-cloak
+      - deathly-hallows
+      - harry-wand
+      - wand-repair
+      - dumbledore-portrait
+      - wand-allegiance
+    candidate_part: Magical Objects and Artifacts
+    candidate_chapter: The Deathly Hallows
+    candidate_section: Harry's disposition of the Hallows and wand repair
+    reason_for_placement: "The passage gives the final disposition of the two Hallows Harry retains or controls and shows the Elder Wand exceeding ordinary wand-repair limits."
+    relevance_to_hogwarts_a_history: "A later edition can use this as the final Hogwarts-based evidence for Hallows custody, wand allegiance, and Harry's rejection of permanent Elder Wand mastery."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch24-005
+        - dh-ch24-007
+        - dh-ch32-007
+      notes: "dh-ch24-005 records Ollivander's ordinary repair-limit and allegiance testimony, dh-ch24-007 records the theft from Dumbledore's tomb, and dh-ch32-007 records Voldemort's mistaken mastery theory. This entry adds the successful repair and Harry's plan to return the wand."
+    confidence: high
+    limitations: "The chapter states Harry's intention to return the Elder Wand, but the source unit itself does not narrate the return to Dumbledore's tomb."

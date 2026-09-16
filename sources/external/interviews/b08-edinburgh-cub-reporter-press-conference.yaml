@@ -1,0 +1,240 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B08
+  source_file: resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md
+  title: 'Edinburgh "cub reporter" press conference, ITV , 16 July 2005'
+  author: J.K. Rowling
+  source_site: Accio Quote
+  original_publisher: ITV / Edinburgh press conference
+  source_class: preservation_transcription
+  authority: D
+  publication_date: July 2005
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/2005/0705-edinburgh-ITVcubreporters.htm
+  retrieved_at: '2026-08-15'
+  archive_url: null
+  carrier_type: preservation_transcript
+  is_primary: false
+  is_official: false
+  capture_completeness: complete
+  sha256: bee13759c07e929b3b285146ceef5707ef91e8863c96b41e5bc2e29f37828101
+  content_sha256: bee13759c07e929b3b285146ceef5707ef91e8863c96b41e5bc2e29f37828101
+  relevance:
+    - hogwarts
+    - rowling_interview
+    - author_commentary
+  notes: 'Accio Quote preservation carrier; original outlet: ITV / Edinburgh press conference.'
+  processed_date: '2026-08-15'
+  processor_notes: Complete preservation-transcript snapshot read; bounded Hogwarts-history evidence extracted with carrier limitations retained.
+
+entries:
+  - id: ext-b08-001
+    source_file: resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md
+    source_id: B08
+    source_url: https://www.accio-quote.org/articles/2005/0705-edinburgh-ITVcubreporters.htm
+    source_section: Basilisk gaze and eyewear question
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: In the second book, if you see a basilisk
+      end_phrase: that is how I explained it to my self at the time.
+      local_occurrence_note: Rowling's answer near the opening of the press conference to the question about glasses and a basilisk gaze.
+    nearby_context: Asked whether ordinary glasses would protect a pupil from a basilisk's lethal gaze, Rowling distinguishes them from Justin Finch-Fletchley's camera-mediated view.
+    match_terms:
+      - basilisk-gaze
+      - basilisk-glasses
+      - hogwarts-student-safety
+    quote_excerpt_short: glasses alone wouldn't protect you
+    source_note: Rowling says ordinary glasses do not prevent a basilisk's gaze from harming a viewer; she explains Justin's protection as viewing through several camera lenses rather than directly.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - basilisk-gaze
+      - basilisk-glasses
+      - hogwarts-student-safety
+    candidate_part: 'Part I: The Castle and Its Grounds'
+    candidate_chapter: Castle Dangers and Protective Limits
+    candidate_section: Basilisk Gaze and Indirect Viewing
+    reason_for_placement: Clarifies a protective limitation relevant to the Chamber of Secrets crisis at Hogwarts.
+    relevance_to_hogwarts_a_history: A Harry-era author explanation of the basilisk incident's magical mechanics, not evidence for the Chamber's origin or for a formal school safety rule.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No current indexed candidate was returned for this precise combination of basilisk-gaze and eyewear tags.
+      audit:
+        query_tags:
+          - basilisk-gaze
+          - basilisk-glasses
+          - hogwarts-student-safety
+        candidates: []
+    confidence: medium
+    limitations: Authority D preservation transcription of retrospective author commentary; the explanation is informal and does not fully define the magical distinction between ordinary lenses and camera lenses.
+
+  - id: ext-b08-002
+    source_file: resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md
+    source_id: B08
+    source_url: https://www.accio-quote.org/articles/2005/0705-edinburgh-ITVcubreporters.htm
+    source_section: Defence Against the Dark Arts staffing question
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Every year since Harry has been to Hogwarts
+      end_phrase: There must obviously be a new one.
+      local_occurrence_note: Rowling's brief answer after the reporter recounts the repeated departure or death of Harry's Defence Against the Dark Arts teachers.
+    nearby_context: Asked whether Snape would leave the post in Book Seven after the established pattern of annual turnover, Rowling confirms that something will stop him and says there must be a new teacher.
+    match_terms:
+      - defense-against-the-dark-arts
+      - jinxed-post
+      - staffing
+    quote_excerpt_short: There must obviously be a new one.
+    source_note: Rowling confirms that Snape will not remain Defence Against the Dark Arts teacher into the next book and that the post will again need a new teacher.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - defense-against-the-dark-arts
+      - jinxed-post
+      - staffing
+    candidate_part: 'Part II: The School'
+    candidate_chapter: Curriculum and Teaching Staff
+    candidate_section: Defence Against the Dark Arts Turnover
+    reason_for_placement: Supplies interview-era confirmation of the short-tenure pattern for this Hogwarts teaching post.
+    relevance_to_hogwarts_a_history: Retain only as a Harry-era confirmation of recurring staff turnover; it does not independently establish the cause, beginning date, or complete staffing history.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch20-007
+      notes: The later textual account gives the same one-year turnover claim and its cause; the other ranked records provide related staffing evidence or distinct appointments.
+      audit:
+        query_tags:
+          - defense-against-the-dark-arts
+          - jinxed-post
+          - staffing
+        candidates:
+          - id: cos-ch07-004
+            disposition: corroborating
+          - id: poa-ch05-003
+            disposition: corroborating
+          - id: hbp-ch02-003
+            disposition: distinct
+          - id: hbp-ch05-004
+            disposition: corroborating
+          - id: hbp-ch08-005
+            disposition: corroborating
+          - id: hbp-ch20-007
+            disposition: duplicate
+          - id: ootp-ch11-005
+            disposition: distinct
+          - id: cos-ch04-006
+            disposition: distinct
+          - id: cos-ch06-006
+            disposition: distinct
+          - id: cos-ch06-007
+            disposition: distinct
+    confidence: medium
+    limitations: Authority D preservation transcription of a spoiler-limited answer; it confirms only an imminent vacancy, while the reason and full history are better supported by the published text.
+
+  - id: ext-b08-003
+    source_file: resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md
+    source_id: B08
+    source_url: https://www.accio-quote.org/articles/2005/0705-edinburgh-ITVcubreporters.htm
+    source_section: Fawkes ownership question
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Who did Fawkes previously belong to
+      end_phrase: Fawkes is Dumbledore's possession, not a Hogwarts possession.
+      local_occurrence_note: Rowling's answer in the latter half of the press conference to the question about Fawkes's former owner and future role.
+    nearby_context: Rowling contrasts Fawkes's consistent association with Dumbledore against earlier views of the headmaster's study under Armando Dippet.
+    match_terms:
+      - dumbledore-possession
+      - fawkes
+      - hogwarts-property
+    quote_excerpt_short: Fawkes is Dumbledore's possession, not a Hogwarts possession.
+    source_note: Rowling says Fawkes belongs to Dumbledore personally rather than to Hogwarts, and was absent from Dippet's study.
+    reference_type: historical_claim
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - dumbledore-possession
+      - fawkes
+      - hogwarts-property
+    candidate_part: 'Part II: The School'
+    candidate_chapter: Headmasters and School Authority
+    candidate_section: The Headmaster's Phoenix
+    reason_for_placement: Distinguishes a headmaster's personal magical companion from property belonging to the school.
+    relevance_to_hogwarts_a_history: A narrow Harry-era clarification about the headmaster's office and Fawkes; it supplies no general rule governing Hogwarts property or successors' companions.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed passages place Fawkes with Dumbledore or at Hogwarts; only the post-death departure independently supports the personal association rather than school ownership.
+      audit:
+        query_tags:
+          - dumbledore-possession
+          - fawkes
+          - hogwarts-property
+        candidates:
+          - id: cos-ch17-005
+            disposition: distinct
+          - id: cos-ch17-007
+            disposition: distinct
+          - id: gof-ch36-003
+            disposition: distinct
+          - id: hbp-ch10-003
+            disposition: distinct
+          - id: hbp-ch29-002
+            disposition: corroborating
+          - id: hbp-ch29-005
+            disposition: distinct
+          - id: ootp-ch22-003
+            disposition: distinct
+          - id: ootp-ch27-007
+            disposition: distinct
+          - id: ootp-ch36-005
+            disposition: distinct
+    confidence: medium
+    limitations: Authority D preservation transcription of an informal answer; the claim addresses Fawkes only and cannot establish a broader Hogwarts ownership practice.
+
+  - id: ext-b08-004
+    source_file: resources/external/interviews/accio-quote/b08-edinburgh-cub-reporter-press-conference.md
+    source_id: B08
+    source_url: https://www.accio-quote.org/articles/2005/0705-edinburgh-ITVcubreporters.htm
+    source_section: Hogwarts school motto question
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: How did you think up the motto
+      end_phrase: that was how that was dreamt up.
+      local_occurrence_note: Rowling's answer late in the press conference about the motto beneath the Hogwarts crest and its Latin rendering.
+    nearby_context: Rowling describes treating the motto as practical advice rather than a conventional virtue slogan, then having a classics professor translate the Latin.
+    match_terms:
+      - crest
+      - hogwarts-motto
+      - latin
+    quote_excerpt_short: entirely practical piece of advice for the Hogwarts school motto
+    source_note: Rowling says she designed Hogwarts's motto as practical advice and sought a correct Latin translation from a classics professor rather than using mock Latin.
+    reference_type: institutional_custom
+    era_classification: later_editorial_note
+    topic_tags:
+      - crest
+      - hogwarts-motto
+      - latin
+    candidate_part: 'Part IV: Hogwarts, a History as a Source'
+    candidate_chapter: Editorial Notes on School Symbols
+    candidate_section: Motto Design and Latin Rendering
+    reason_for_placement: Records the author's real-world design explanation for a visible Hogwarts institutional symbol.
+    relevance_to_hogwarts_a_history: Retain as a later editorial note about the motto's authorial construction, not as in-universe evidence of the crest's historical adoption or linguistic origin.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No current indexed candidate was returned for the Hogwarts-motto, Latin, and crest tag combination.
+      audit:
+        query_tags:
+          - crest
+          - hogwarts-motto
+          - latin
+        candidates: []
+    confidence: medium
+    limitations: Authority D preservation transcription of retrospective author commentary; it describes composition choices rather than an in-universe institutional history.

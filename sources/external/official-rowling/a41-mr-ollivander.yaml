@@ -1,0 +1,163 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A41
+  source_file: resources/external/official-rowling/harrypotter-com/a41-mr-ollivander.md
+  title: Mr Ollivander
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/mr-ollivander
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/mr-ollivander
+  capture_completeness: complete
+  content_sha256: 37128b974140fecf44f40a1cb2838a17a9e54d0cb315769c448a663ca03c0797
+  processed_date: '2026-09-15'
+  processor_notes: Complete snapshot read; reported family belief, older wand practice, and Garrick Ollivander's innovation are kept distinct.
+
+entries:
+  - id: ext-a41-001
+    source_file: resources/external/official-rowling/harrypotter-com/a41-mr-ollivander.md
+    source_id: A41
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/mr-ollivander
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Mr Ollivander himself believes that his earliest forebears in this country arrived with the Romans
+      end_phrase: whose wands were of crude construction and unreliable in performance.
+      local_occurrence_note: Opening paragraph after the proposed etymology of the family name.
+    nearby_context: The article presents the Roman-arrival account as Ollivander family belief rather than an independently established chronology.
+    match_terms:
+      - ollivander-family
+      - roman-britain
+      - ancient-british-wizards
+      - early-wands
+    quote_excerpt_short: His earliest forebears in this country arrived with the Romans.
+    source_note: Ollivander believes his family reached Britain with the Romans and sold crafted wands to ancient British wizards whose own wands were crude and unreliable.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - wandmaking
+      - romans
+      - ancient-britain
+      - ollivander-family
+      - magical-craft
+    candidate_part: Before Hogwarts
+    candidate_chapter: Magic in Ancient Britain
+    candidate_section: Early Wandcraft
+    reason_for_placement: Supplies qualified evidence for commercial wandcraft in Roman-era Britain and for less standardized local predecessors.
+    relevance_to_hogwarts_a_history: Potentially extends British wandcraft before Hogwarts, but only as the present Ollivander's belief about his lineage.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed entry addresses Roman-era British wandmaking or this claimed Ollivander chronology.
+      audit:
+        query_tags:
+          - wandmaking
+          - romans
+          - ancient-britain
+        candidates: []
+    confidence: medium
+    limitations: The source says Ollivander “believes” this account, while the name's proposed origin merely “suggests” Mediterranean ancestry; neither is independently dated proof.
+
+  - id: ext-a41-002
+    source_file: resources/external/official-rowling/harrypotter-com/a41-mr-ollivander.md
+    source_id: A41
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/mr-ollivander
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Prior to Mr Ollivander’s proprietorship of the family business
+      end_phrase: or by which their family swore
+      local_occurrence_note: Third paragraph, before examples of personalized core materials.
+    nearby_context: Customers once supplied wandmakers with personally significant, inherited, or family-endorsed magical substances for use as cores.
+    match_terms:
+      - customer-supplied-cores
+      - inherited-materials
+      - family-tradition
+      - wandmaking
+    quote_excerpt_short: A customer would often present the wandmaker with a magical substance.
+    source_note: Before Garrick Ollivander's proprietorship, customers often supplied personally meaningful, inherited, or family-endorsed magical substances as wand cores.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - wand-cores
+      - inheritance
+      - family-tradition
+      - wandmaking
+      - material-culture
+    candidate_part: Magical Crafts and Material Culture
+    candidate_chapter: Wandcraft
+    candidate_section: Customer-Supplied Cores
+    reason_for_placement: Documents a customary, family-mediated production practice that Garrick Ollivander later displaced.
+    relevance_to_hogwarts_a_history: Adds historical depth to wand supply and family craft traditions, although the practice is much later than Hogwarts's foundation.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing candidates identify wand cores or inheritance separately; none records customers supplying inherited core materials to wandmakers.
+      audit:
+        query_tags:
+          - wand-cores
+          - inheritance
+          - family-tradition
+        candidates:
+          - id: gof-ch18-007
+            disposition: corroborating
+          - id: hbp-ch03-004
+            disposition: distinct
+          - id: hbp-ch12-005
+            disposition: distinct
+          - id: ps-ch05-007
+            disposition: corroborating
+    confidence: high
+    limitations: “Prior to” provides relative sequence but no starting date, prevalence outside Ollivander's clientele, or exact end date.
+
+  - id: ext-a41-003
+    source_file: resources/external/official-rowling/harrypotter-com/a41-mr-ollivander.md
+    source_id: A41
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/mr-ollivander
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Mr Ollivander, however, was a purist who insisted
+      end_phrase: were coveted by rival wandmakers.
+      local_occurrence_note: Final paragraph, contrasting Garrick Ollivander's method with the older customer-supplied-core practice.
+    nearby_context: Garrick systematized strong cores, complementary woods, and owner matching; despite initial resistance, the resulting wands proved superior.
+    match_terms:
+      - garrick-ollivander
+      - complementary-wandwoods
+      - owner-matching
+      - craft-innovation
+    quote_excerpt_short: There was initially substantial resistance to this revolutionary way of crafting wands.
+    source_note: Garrick Ollivander combined powerful cores with selected complementary woods and owner matching; after initial resistance, the method's superior results transformed his craft.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - wandmaking
+      - innovation
+      - craftsmanship
+      - ollivander
+      - trade-secrets
+    candidate_part: Magical Crafts and Material Culture
+    candidate_chapter: Wandcraft
+    candidate_section: Standardization and Innovation
+    reason_for_placement: Records a defined craft innovation, resistance to it, and its subsequent commercial and technical acceptance.
+    relevance_to_hogwarts_a_history: Clarifies that familiar modern wand construction reflects a later specialist reform rather than an unchanged ancient norm.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed entry records this shift in production method or the resistance that accompanied it.
+      audit:
+        query_tags:
+          - wandmaking
+          - innovation
+          - craftsmanship
+        candidates: []
+    confidence: high
+    limitations: The article gives no year for Garrick Ollivander's proprietorship, the period of resistance, or how broadly rival makers adopted comparable methods.

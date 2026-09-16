@@ -1,0 +1,337 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Five - Fallen Warrior
+  chapter_start_pdf_page: 3027
+  chapter_end_pdf_page: 3046
+  boundary_confidence: high
+  boundary_notes: Chapter Five page range was taken from project-control/processing-state.yaml after Book 7 Chapter Four. Only PDF pages 3027-3046 were extracted and searched.
+  processed_date: '2026-08-01'
+  processor_notes: "Processed only Book 7, Chapter Five. Text was extracted locally with pypdf into .tmp/current-chapter.txt and .tmp/chapter-07-05-pages. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+  - id: dh-ch05-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Five - Fallen Warrior
+    chapter_start_pdf_page: 3027
+    chapter_end_pdf_page: 3046
+    pdf_page: 3028
+    printed_page: null
+    extracted_text_lines: "39-52"
+    text_anchor:
+      start_phrase: "Death Eaters, loads of them"
+      end_phrase: "a great transparent bubble"
+      local_occurrence_note: "Ted Tonks explains the range of the safe-house protections after Harry and Hagrid crash through the barrier."
+    nearby_context: "Harry wakes in Ted and Andromeda Tonks's sitting room after the motorbike crash and realizes Voldemort vanished at the protected boundary."
+    match_terms:
+      - protective charms
+      - hundred yards
+      - order charms
+      - Tonks safe house
+      - Voldemort
+      - barrier
+    quote_excerpt_short: "within a hundred yards of the place"
+    source_note: "Ted Tonks states that the safe-house protective charms should keep attackers at least a hundred yards away, and Harry connects Voldemort's disappearance to crossing that barrier."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - safe-house
+      - protective-charms
+      - order-of-the-phoenix
+      - ted-tonks
+      - voldemort
+      - second-war
+      - boundary-magic
+    candidate_part: Protective Magic and Security
+    candidate_chapter: "Student Protection and Exceptional Safeguards"
+    candidate_section: "Safe-house barrier around Tonks household"
+    reason_for_placement: "The passage adds an observed operating radius for an Order safe-house barrier at the end of Harry's final evacuation from Privet Drive."
+    relevance_to_hogwarts_a_history: "A later edition can use this as off-campus evidence for wartime protective enchantments surrounding Hogwarts-connected students and allies."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch04-002
+        - dh-ch03-004
+      notes: "dh-ch04-002 records the planned network of protected connected houses, and dh-ch03-004 records safe-location evacuation timing; this entry adds the Tonks house barrier's hundred-yard operating range and Voldemort's forced disappearance at it."
+    confidence: high
+    limitations: "The charm names and casting details are not given, and the range is reported by Ted Tonks rather than formally measured."
+
+  - id: dh-ch05-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Five - Fallen Warrior
+    chapter_start_pdf_page: 3027
+    chapter_end_pdf_page: 3046
+    pdf_page: 3030
+    printed_page: null
+    extracted_text_lines: "82-117; 141-146"
+    text_anchor:
+      start_phrase: "The Portkey"
+      end_phrase: "ought to be back in about a minute"
+      local_occurrence_note: "Harry and Hagrid take the hairbrush Portkey, then Ginny identifies the scheduled return objects and order."
+    nearby_context: "The Tonks household contains a timed hairbrush Portkey to the Burrow, while the Burrow yard has returning Portkeys for multiple escort pairs."
+    match_terms:
+      - Portkey
+      - hairbrush
+      - Burrow
+      - rusty oil can
+      - ancient sneaker
+      - scheduled returns
+    quote_excerpt_short: "It's supposed to leave in three minutes"
+    source_note: "The evacuation relay uses timed ordinary-object Portkeys from protected houses to the Burrow, with staggered return objects and expected arrival order for each pair."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - portkey
+      - burrow
+      - safe-house
+      - magical-transport
+      - order-of-the-phoenix
+      - timed-transport
+      - second-war
+    candidate_part: Magical Transportation
+    candidate_chapter: "Brooms, Beasts, Portkeys, and Improvised Vehicles"
+    candidate_section: "Staggered Portkey relay to the Burrow"
+    reason_for_placement: "The scene confirms the destination-stage mechanics of the Seven Potters plan after the earlier briefing."
+    relevance_to_hogwarts_a_history: "Useful as later-context evidence for emergency off-campus transport routes used around a Hogwarts-age student's wartime protection."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch04-002
+        - dh-ch04-001
+      notes: "dh-ch04-002 records that Tonks's parents' house would have a Portkey to the Burrow, and dh-ch04-001 records Portkey restrictions at Privet Drive; this entry adds the actual hairbrush Portkey, return objects, and staggered arrival schedule."
+    confidence: high
+    limitations: "The chapter does not list every connected safe house or the exact Portkey authorization method."
+
+  - id: dh-ch05-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Five - Fallen Warrior
+    chapter_start_pdf_page: 3027
+    chapter_end_pdf_page: 3046
+    pdf_page: 3032
+    printed_page: null
+    extracted_text_lines: "161-178; 231-245"
+    text_anchor:
+      start_phrase: "What creature sat in the corner"
+      end_phrase: "there would be seven Harrys"
+      local_occurrence_note: "Lupin and Kingsley use private knowledge challenges after the ambush, while Lupin explains why Hagrid is exempt from Polyjuice suspicion."
+    nearby_context: "George has just arrived injured, and the surviving Order members suspect betrayal because Voldemort knew the transfer date."
+    match_terms:
+      - identity check
+      - grindylow
+      - Dumbledore
+      - Polyjuice Potion
+      - half-giant
+      - impostor
+    quote_excerpt_short: "You might have been an impostor"
+    source_note: "After the ambush, Order members verify identities with private questions, and Lupin notes that Polyjuice Potion is designed only for human use, making Hagrid a different kind of risk case."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - identity-verification
+      - polyjuice-potion
+      - impersonation
+      - order-of-the-phoenix
+      - hagrid
+      - half-giants
+      - second-war
+    candidate_part: Protective Magic and Security
+    candidate_chapter: "Wartime Household Precautions"
+    candidate_section: "Post-ambush identity challenges"
+    reason_for_placement: "The passage shows anti-impersonation procedure under live combat conditions and adds a practical Polyjuice limitation."
+    relevance_to_hogwarts_a_history: "A later edition can connect school-known Polyjuice risks with adult wartime procedures used by Hogwarts staff, alumni, and families."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch05-003
+        - dh-ch04-003
+      notes: "hbp-ch05-003 records Ministry-style household challenge questions, and dh-ch04-003 records the Seven Potters Polyjuice decoys; this entry adds immediate post-ambush challenges and the human-use limitation for Polyjuice."
+    confidence: high
+    limitations: "The procedure is improvised by Order members and not presented as a universal Ministry rule in this scene."
+
+  - id: dh-ch05-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Five - Fallen Warrior
+    chapter_start_pdf_page: 3027
+    chapter_end_pdf_page: 3046
+    pdf_page: 3033
+    printed_page: null
+    extracted_text_lines: "188-215"
+    text_anchor:
+      start_phrase: "They recognized you"
+      end_phrase: "your signature move"
+      local_occurrence_note: "Harry explains disarming Stan Shunpike, and Lupin warns that Death Eaters can recognize Expelliarmus as Harry's pattern."
+    nearby_context: "Lupin asks how Voldemort switched to the real Harry, and Harry defends using Expelliarmus rather than lethal or stunning force."
+    match_terms:
+      - Expelliarmus
+      - Stan Shunpike
+      - Imperiused
+      - Death Eaters
+      - signature move
+      - Dumbledore's Army
+    quote_excerpt_short: "the Death Eaters seem to think it is your signature move"
+    source_note: "Lupin identifies Harry's repeated use of Expelliarmus under lethal threat as a recognizable combat pattern, while Harry defends not stunning an Imperiused man hundreds of feet in the air."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - expelliarmus
+      - harry-potter
+      - death-eaters
+      - stan-shunpike
+      - imperius-curse
+      - dumbledores-army
+      - magical-combat
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Expelliarmus as Harry's wartime signature"
+    reason_for_placement: "The passage explains why Harry's school-taught defensive preference affected an adult wartime operation."
+    relevance_to_hogwarts_a_history: "This can support a later editorial cross-reference on Dumbledore's Army, defensive spell instruction, and Harry-era combat reputation."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch04-005
+      notes: "dh-ch04-005 records the ambush and Harry's Disarming Charm revealing the real target; this entry adds Lupin's explicit interpretation that Death Eaters treat Expelliarmus as Harry's signature move."
+    confidence: high
+    limitations: "Lupin's assessment is strong but inferential; the Death Eaters themselves do not state the recognition rule."
+
+  - id: dh-ch05-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Five - Fallen Warrior
+    chapter_start_pdf_page: 3027
+    chapter_end_pdf_page: 3046
+    pdf_page: 3035
+    printed_page: null
+    extracted_text_lines: "258-287"
+    text_anchor:
+      start_phrase: "there's obviously been a mass breakout"
+      end_phrase: "when it's been removed by Dark Magic"
+      local_occurrence_note: "Kingsley identifies missing prisoners, Lupin attributes George's injury to Snape's Sectumsempra, and Molly explains the healing limit."
+    nearby_context: "The Order compares battle reports while waiting for missing pairs to return to the Burrow."
+    match_terms:
+      - mass breakout
+      - Ministry hushed up
+      - Travers
+      - Sectumsempra
+      - Snape
+      - Dark Magic
+    quote_excerpt_short: "when it's been removed by Dark Magic"
+    source_note: "Kingsley infers a hushed-up Azkaban breakout from Stan and Travers, while George's cursed-off ear confirms Sectumsempra's permanent injury risk and Dark Magic healing limits."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - azkaban
+      - ministry-censorship
+      - stan-shunpike
+      - travers
+      - sectumsempra
+      - dark-magic
+      - magical-healing
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Hidden prisoner breakouts and Dark Magic wounds"
+    reason_for_placement: "The scene links public-information suppression during the Second War with a concrete battlefield injury caused by forbidden spellcraft."
+    relevance_to_hogwarts_a_history: "A revised edition can use this as post-Hogwarts evidence for the wartime spread of Dark Magic and the collapse of reliable Ministry reporting."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch24-004
+        - hbp-ch28-007
+        - ootp-ch25-001
+      notes: "hbp-ch24-004 records Sectumsempra's cutting effect and treatment, hbp-ch28-007 records Snape's authorship, and ootp-ch25-001 records an earlier public Azkaban breakout report; this entry adds permanent ear loss, Dark Magic non-regrowth, and a suspected censored breakout."
+    confidence: high
+    limitations: "The mass-breakout claim is Kingsley's inference from combat sightings, not a Ministry publication."
+
+  - id: dh-ch05-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Five - Fallen Warrior
+    chapter_start_pdf_page: 3027
+    chapter_end_pdf_page: 3046
+    pdf_page: 3040
+    printed_page: null
+    extracted_text_lines: "412-470; 500-505"
+    text_anchor:
+      start_phrase: "Mad-Eye's dead"
+      end_phrase: "the Death Eaters took it"
+      local_occurrence_note: "Bill reports Moody's death, the group reconstructs Voldemort's target assumptions, and Lupin and Bill leave to recover the body."
+    nearby_context: "All surviving pairs have returned except Mundungus; the Burrow household receives the casualty report and then debates betrayal versus panic."
+    match_terms:
+      - Mad-Eye
+      - Mundungus
+      - Voldemort
+      - seven Harrys
+      - strongest Aurors
+      - recover body
+    quote_excerpt_short: "Mad-Eye's dead"
+    source_note: "Bill reports that Voldemort killed Moody after Mundungus Disapparated, and the Order debrief concludes that the enemy knew the date but not the full seven-Harry decoy plan."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - mad-eye-moody
+      - mundungus-fletcher
+      - order-of-the-phoenix
+      - death-eaters
+      - voldemort
+      - operational-security
+      - second-war
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Moody's death and Seven Potters debrief"
+    reason_for_placement: "The passage preserves the immediate internal account of the operation's fatal outcome and its partial-security failure."
+    relevance_to_hogwarts_a_history: "A later editorial chapter on the war around Hogwarts can use this as evidence for Order losses, Auror targeting assumptions, and compromised transfer secrecy."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate lookup for Moody, Order casualty, and Seven Potters debrief returned no same-fact match; related Seven Potters entries cover the plan and ambush but not Moody's death and body-recovery decision."
+    confidence: high
+    limitations: "The body-recovery outcome is not shown within this chapter."
+
+  - id: dh-ch05-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Five - Fallen Warrior
+    chapter_start_pdf_page: 3027
+    chapter_end_pdf_page: 3046
+    pdf_page: 3044
+    printed_page: null
+    extracted_text_lines: "549-596; 617-622"
+    text_anchor:
+      start_phrase: "It was my wand"
+      end_phrase: "half the Wizarding world"
+      local_occurrence_note: "Harry describes the independent wand response, then sees Voldemort torture Ollivander over the failed use of Lucius Malfoy's wand."
+    nearby_context: "Harry wants to leave the Burrow to protect everyone else, but the argument turns to his unexplained escape from Voldemort."
+    match_terms:
+      - wand acted
+      - gold flames
+      - Ollivander
+      - Lucius's wand
+      - twin wands
+      - scar connection
+    quote_excerpt_short: "My wand acted of its own accord"
+    source_note: "Harry reports that his wand independently produced unknown golden fire, and a scar vision shows Voldemort torturing Ollivander because Lucius Malfoy's wand failed against Harry's wand connection."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - wand-lore
+      - ollivander
+      - lucius-malfoy
+      - voldemort
+      - harry-potter
+      - scar-connection
+      - magical-combat
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Wand anomaly and Ollivander interrogation"
+    reason_for_placement: "The passage gives the follow-up interpretation and antagonist-side consequence of the wand anomaly seen during the chase."
+    relevance_to_hogwarts_a_history: "A later edition can cross-reference this with wand-weighing, twin-core lore, and Dumbledore's explanations when summarizing Harry-era magical anomalies."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch04-006
+      notes: "dh-ch04-006 records the in-flight wand anomaly and Voldemort's demand for Selwyn's wand; this entry adds Harry's later report, the Lucius-wand failure, Ollivander's explanation, and Hermione's warning about the scar connection."
+    confidence: medium
+    limitations: "The scene still leaves the exact wand mechanism unresolved and includes information perceived through Harry's scar connection."

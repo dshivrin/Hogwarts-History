@@ -1,0 +1,228 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B20
+  source_file: resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md
+  title: "Barnes and Noble & Yahoo! chat with J.K. Rowling, barnesandnoble.com , 20 October, 2000"
+  author: "J.K. Rowling"
+  source_site: "Accio Quote"
+  original_publisher: "Barnes & Noble / Yahoo!"
+  source_class: "preservation_transcription"
+  authority: "D"
+  publication_date: "20 October 2000"
+  original_url: null
+  retrieval_url: "https://www.accio-quote.org/articles/2000/1000-livechat-barnesnoble.html"
+  retrieved_at: "2026-08-15"
+  archive_url: null
+  carrier_type: "preservation_transcript"
+  is_primary: false
+  is_official: false
+  capture_completeness: "complete"
+  content_sha256: "f6e3716390218bc072278d78173da5ba8552629dcc7a29e74e4d35b7993dc69d"
+  local_path: resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md
+  relevance:
+    - "hogwarts"
+    - "rowling_interview"
+    - "author_commentary"
+  notes: "Accio Quote preservation carrier; original outlet: Barnes & Noble / Yahoo!."
+  processed_date: "2026-08-24"
+  processor_notes: "Complete snapshot read; two pre-1984 historical candidates extracted and one Harry-era staffing statement explicitly excluded from the original-era scope."
+
+entries:
+  - id: ext-b20-001
+    source_file: resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md
+    source_id: B20
+    source_url: "https://www.accio-quote.org/articles/2000/1000-livechat-barnesnoble.html"
+    source_section: "Barnes and Noble & Yahoo! chat transcript"
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "Yahooligan_seachellie4 asks: What house was Hagrid in?"
+      end_phrase: "jkrowling_bn: Hagrid was in Gryffindor, naturally!"
+      local_occurrence_note: "Question-and-answer exchange in the later middle of the chat transcript."
+    nearby_context: "A participant asks directly about Hagrid's Hogwarts House, and Rowling supplies the affiliation without qualification."
+    match_terms:
+      - hagrid
+      - gryffindor
+      - hogwarts-house
+    quote_excerpt_short: "Hagrid was in Gryffindor, naturally!"
+    source_note: "Rowling identifies Hagrid as a former Gryffindor, adding a concise historical House affiliation for his earlier Hogwarts education."
+    reference_type: house_system
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hagrid
+      - gryffindor
+      - house-system
+      - pre-harry-history
+    candidate_part: "Hogwarts People and Institutions"
+    candidate_chapter: "Students, Staff, and House Histories"
+    candidate_section: "Rubeus Hagrid's Gryffindor Education"
+    reason_for_placement: "Hagrid's earlier House affiliation belongs with institutional biographies and House history."
+    relevance_to_hogwarts_a_history: "Usable as a pre-1984 historical candidate because the answer concerns Hagrid's completed Hogwarts schooling, not the later school year."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "The indexed results discuss Hagrid or House history but do not state his Gryffindor affiliation."
+      audit:
+        query_tags:
+          - gryffindor
+          - hagrid
+          - house-system
+          - pre-harry-history
+        candidates:
+          - id: cos-ch15-006
+            disposition: distinct
+          - id: dh-ch33-005
+            disposition: distinct
+          - id: gof-ch15-004
+            disposition: distinct
+          - id: gof-ch18-002
+            disposition: distinct
+          - id: hbp-ch04-005
+            disposition: distinct
+          - id: ootp-ch19-002
+            disposition: distinct
+          - id: ps-ch06-005
+            disposition: distinct
+          - id: cos-ch02-004
+            disposition: distinct
+          - id: cos-ch06-005
+            disposition: distinct
+          - id: cos-ch07-002
+            disposition: distinct
+    confidence: medium
+    limitations: "A preservation transcript records author commentary; it gives no date or corroborating account of Hagrid's enrollment."
+
+  - id: ext-b20-002
+    source_file: resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md
+    source_id: B20
+    source_url: "https://www.accio-quote.org/articles/2000/1000-livechat-barnesnoble.html"
+    source_section: "Barnes and Noble & Yahoo! chat transcript"
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "blaise_42 asks: In Chamber of Secrets, Hagrid is supposed to have raised werewolf cubs under his bed."
+      end_phrase: "jkrowling_bn: no... Riddle was telling lies about Hagrid, just slandering him"
+      local_occurrence_note: "Question-and-answer exchange shortly after the discussion of the final three books."
+    nearby_context: "Asked whether Riddle's allegation about Hagrid was true, Rowling rejects it and characterizes the allegation as slander."
+    match_terms:
+      - hagrid
+      - tom-riddle
+      - chamber-of-secrets
+    quote_excerpt_short: "Riddle was telling lies about Hagrid, just slandering him"
+    source_note: "Rowling confirms that Riddle's accusation against Hagrid in the earlier Chamber incident was false rather than evidence that Hagrid raised werewolves."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - hagrid
+      - tom-riddle
+      - chamber-of-secrets
+      - false-accusation
+      - school-history
+    candidate_part: "Hogwarts Crises and Institutional Memory"
+    candidate_chapter: "The First Known Chamber Opening"
+    candidate_section: "Riddle's False Accusation of Hagrid"
+    reason_for_placement: "The confirmation qualifies the historical record of the earlier Chamber opening and Hagrid's alleged culpability."
+    relevance_to_hogwarts_a_history: "Usable for the pre-1984 episode because it addresses Riddle's earlier allegation against Hagrid, while its preservation-transcript authority requires clear attribution."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch15-006
+        - hbp-ch17-005
+      notes: "Two indexed entries state the same false-culprit conclusion; the other results provide related episode context or aftermath."
+      audit:
+        query_tags:
+          - chamber-of-secrets
+          - false-accusation
+          - hagrid
+          - school-history
+          - tom-riddle
+        candidates:
+          - id: cos-ch13-005
+            disposition: corroborating
+          - id: cos-ch12-007
+            disposition: corroborating
+          - id: cos-ch15-006
+            disposition: duplicate
+          - id: cos-ch18-001
+            disposition: corroborating
+          - id: hbp-ch17-005
+            disposition: duplicate
+          - id: cos-ch02-002
+            disposition: distinct
+          - id: cos-ch02-004
+            disposition: distinct
+          - id: cos-ch07-005
+            disposition: corroborating
+          - id: cos-ch07-006
+            disposition: distinct
+          - id: cos-ch08-006
+            disposition: distinct
+    confidence: medium
+    limitations: "The statement is retrospective author commentary preserved by Accio Quote; it does not independently document the full earlier incident."
+
+  - id: ext-b20-003
+    source_file: resources/external/interviews/accio-quote/b20-barnes-noble-yahoo-chat.md
+    source_id: B20
+    source_url: "https://www.accio-quote.org/articles/2000/1000-livechat-barnesnoble.html"
+    source_section: "Barnes and Noble & Yahoo! chat transcript"
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "faheem90 asks: Who is the head of Ravenclaw? Professor Sinistra perhaps?"
+      end_phrase: "jkrowling_bn: No, the head of Ravenclaw is good old Professor Flitwick!"
+      local_occurrence_note: "Question-and-answer exchange in the later middle of the chat transcript."
+    nearby_context: "A participant asks for the current Ravenclaw Head of House and Rowling answers that it is Professor Flitwick."
+    match_terms:
+      - flitwick
+      - ravenclaw
+      - head-of-house
+    quote_excerpt_short: "the head of Ravenclaw is good old Professor Flitwick!"
+    source_note: "Rowling identifies Professor Flitwick as Ravenclaw's Head of House in a statement framed as current school staffing."
+    reference_type: house_system
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - flitwick
+      - ravenclaw
+      - head-of-house
+      - hogwarts-staff
+    candidate_part: "Hogwarts People and Institutions"
+    candidate_chapter: "House Governance and Staff"
+    candidate_section: "Ravenclaw Head of House"
+    reason_for_placement: "The fact concerns House administration, but its stated present-tense staffing context is outside the original pre-1984 scope."
+    relevance_to_hogwarts_a_history: "Explicitly excluded from the original-era narrative: the transcript supplies no appointment date that would establish the role before 1984."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "The indexed staff and Ravenclaw entries do not identify Flitwick as Head of Ravenclaw."
+      audit:
+        query_tags:
+          - flitwick
+          - head-of-house
+          - hogwarts-staff
+          - ravenclaw
+        candidates:
+          - id: beedle-ch02-002
+            disposition: distinct
+          - id: beedle-ch02-003
+            disposition: distinct
+          - id: dh-ch01-006
+            disposition: distinct
+          - id: dh-ch06-003
+            disposition: distinct
+          - id: dh-ch11-005
+            disposition: distinct
+          - id: dh-ch20-007
+            disposition: distinct
+          - id: dh-ch25-006
+            disposition: distinct
+          - id: dh-ch29-006
+            disposition: distinct
+          - id: dh-ch29-007
+            disposition: distinct
+          - id: dh-ch30-001
+            disposition: distinct
+    confidence: medium
+    limitations: "A preservation transcript supplies a present-tense staffing statement but no appointment chronology; it is retained only as post-1984 excluded context."

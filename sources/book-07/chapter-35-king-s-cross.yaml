@@ -1,0 +1,353 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Thirty-Five - King's Cross
+  chapter_start_pdf_page: 3578
+  chapter_end_pdf_page: 3593
+  boundary_confidence: high
+  boundary_notes: "Processing-state supplied the inclusive page range; bounded extraction begins with the Chapter Thirty-Five heading on PDF page 3578 and ends before Chapter Thirty-Six on PDF page 3594."
+  processed_date: '2026-08-12'
+  processor_notes: "Extracted only PDF pages 3578-3593 with pypdf via scripts/extract_pages.py; no full-PDF scan was performed. No explicit Hogwarts: A History title citation appears in this source unit."
+
+entries:
+  - id: dh-ch35-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Five - King's Cross
+    chapter_start_pdf_page: 3578
+    chapter_end_pdf_page: 3593
+    pdf_page: 3581
+    printed_page: null
+    extracted_text_lines: "91-140"
+    text_anchor:
+      start_phrase: "So the part of his soul that was in me"
+      end_phrase: "so do you and so does Voldemort's one last hope"
+      local_occurrence_note: "In the King's Cross-like place, Dumbledore confirms Harry's soul is whole and explains how Voldemort's use of Harry's blood preserved Lily's protection inside both bodies."
+    nearby_context: "Harry has voluntarily accepted Voldemort's Killing Curse in the Forest and is trying to understand why he can still return."
+    match_terms:
+      - Harry Potter
+      - Voldemort
+      - Horcrux
+      - Lily Potter
+      - blood protection
+      - sacrificial magic
+      - King's Cross
+    quote_excerpt_short: "He tethered you to life"
+    source_note: "Dumbledore explains that Harry was the accidental Horcrux and that Voldemort's use of Harry's blood kept Lily Potter's sacrificial protection active in both of them."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - harry-potter
+      - voldemort
+      - accidental-horcrux
+      - lily-potter
+      - blood-protection
+      - sacrificial-protection
+      - protective-magic
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Harry Potter, Horcruxes, and Protective Magic
+    candidate_section: Accidental Horcrux and blood-tether protection
+    reason_for_placement: "The passage gives Dumbledore's clearest explanation of why Harry survived the Forest surrender and how Lily's protection continued after Voldemort's rebirth."
+    relevance_to_hogwarts_a_history: "A later edition can cite this as the interpretive key for protective magic that shaped Harry's Hogwarts-era survival and the final battle's outcome."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch37-005
+        - dh-ch03-001
+      notes: "ootp-ch37-005 records Dumbledore's earlier explanation of Lily's blood wards, and dh-ch03-001 records the Privet Drive protection ending at seventeen. This entry adds the accidental-Horcrux explanation and Voldemort's blood-borne tether."
+    confidence: high
+    limitations: "The explanation comes in a metaphysical encounter rather than an ordinary classroom or legal source, though Dumbledore presents it as his long-held inference."
+
+  - id: dh-ch35-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Five - King's Cross
+    chapter_start_pdf_page: 3578
+    chapter_end_pdf_page: 3593
+    pdf_page: 3582
+    printed_page: null
+    extracted_text_lines: "146-187"
+    text_anchor:
+      start_phrase: "Why did my wand break the wand he borrowed?"
+      end_phrase: "it was a wand like any other"
+      local_occurrence_note: "Dumbledore theorizes about the Little Hangleton wand anomaly and the later seven Potters chase, distinguishing Harry's wand's Voldemort-specific power from ordinary wand strength."
+    nearby_context: "Harry has moved from survival questions to wandlore anomalies that Voldemort misunderstood during the war."
+    match_terms:
+      - Harry's wand
+      - Voldemort's wand
+      - twin cores
+      - Lucius Malfoy's wand
+      - Priori Incantatem
+      - wandlore
+      - Little Hangleton
+    quote_excerpt_short: "realms of magic hitherto unknown"
+    source_note: "Dumbledore proposes that Voldemort doubled his bond with Harry through soul fragment and blood, causing Harry's twin-core wand to absorb and later return Voldemort's own magic against him."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - wandlore
+      - twin-cores
+      - harry-wand
+      - voldemort
+      - priori-incantatem
+      - little-hangleton
+      - wand-anomaly
+    candidate_part: Magical Objects and Artifacts
+    candidate_chapter: Wands, Equipment, and Magical Materials
+    candidate_section: Twin-core aftermath and Voldemort-specific wand anomaly
+    reason_for_placement: "The passage interprets two major wand events as one unprecedented magical consequence of Voldemort's failed attempt to overcome Harry."
+    relevance_to_hogwarts_a_history: "A later edition can cross-reference this with wand-selection, student equipment, and wartime wandlore to explain why Harry's original wand mattered beyond school use."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - gof-ch34-003
+        - dh-ch18-001
+        - dh-ch24-005
+      notes: "gof-ch34-003 records the original Priori Incantatem evidence, dh-ch18-001 records Harry's fear after the wand breaks, and dh-ch24-005 records Ollivander's repair and allegiance testimony. This entry adds Dumbledore's theory connecting the blood/soul bond to the seven Potters wand anomaly."
+    confidence: medium
+    limitations: "Dumbledore explicitly calls this a guess and says no wandmaker could have predicted the effect."
+
+  - id: dh-ch35-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Five - King's Cross
+    chapter_start_pdf_page: 3578
+    chapter_end_pdf_page: 3593
+    pdf_page: 3585
+    printed_page: null
+    extracted_text_lines: "216-253"
+    text_anchor:
+      start_phrase: "The Deathly Hallows"
+      end_phrase: "Dumbledore closed his eyes for a moment and nodded"
+      local_occurrence_note: "Harry asks directly about the Hallows, and Dumbledore admits they were real, dangerous, and his own attempt to conquer death."
+    nearby_context: "The conversation has turned from Harry's survival to Dumbledore's withheld knowledge and his fear that Harry might repeat his mistakes."
+    match_terms:
+      - Deathly Hallows
+      - Horcruxes
+      - master of death
+      - Dumbledore
+      - Voldemort
+      - Grindelwald
+      - conquer death
+    quote_excerpt_short: "Real, and dangerous"
+    source_note: "Dumbledore confirms the Hallows as real but dangerous, contrasts Hallows with Horcruxes as a different attempt to conquer death, and admits Grindelwald sought them too."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - deathly-hallows
+      - horcruxes
+      - dumbledore
+      - grindelwald
+      - master-of-death
+      - magical-artifacts
+      - magical-history
+    candidate_part: Magical Objects and Artifacts
+    candidate_chapter: The Deathly Hallows
+    candidate_section: Dumbledore's testimony on Hallows temptation
+    reason_for_placement: "The passage moves the Hallows from believer lore and Harry's inference into direct Dumbledore testimony about their reality and moral danger."
+    relevance_to_hogwarts_a_history: "A later edition can use this as a cautionary interpretive note for Dumbledore's legacy and the old artifact tradition that affected Hogwarts's final year of war."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch21-003
+        - dh-ch22-001
+      notes: "dh-ch21-003 defines the Hallows triad and master-of-Death claim, while dh-ch22-001 records Harry's Hallows-versus-Horcruxes interpretation. This entry adds Dumbledore's direct confirmation and confession."
+    confidence: high
+    limitations: "The passage confirms the broad reality and danger of the Hallows but does not restate the full artifact taxonomy in this scene."
+
+  - id: dh-ch35-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Five - King's Cross
+    chapter_start_pdf_page: 3578
+    chapter_end_pdf_page: 3593
+    pdf_page: 3586
+    printed_page: null
+    extracted_text_lines: "256-279"
+    text_anchor:
+      start_phrase: "It was the thing, above all, that drew us together"
+      end_phrase: "I had two Hallows at last, all to myself"
+      local_occurrence_note: "Dumbledore identifies Ignotus Peverell, treats the brothers as the likely creators of the Hallows, and explains why he borrowed James Potter's Cloak shortly before the Potters died."
+    nearby_context: "Harry has asked whether the Peverell brothers were the three brothers of the tale and whether the Cloak's lineage leads to him."
+    match_terms:
+      - Ignotus Peverell
+      - Peverell brothers
+      - Godric's Hollow
+      - Invisibility Cloak
+      - James Potter
+      - school wrongdoing
+      - Dumbledore
+    quote_excerpt_short: "father to son, mother to daughter"
+    source_note: "Dumbledore says the Peverell brothers were likely gifted wizards who created the Hallows, traces the Cloak to Harry through Godric's Hollow, and says James's use of it explained undetected school wrongdoing."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - peverell-family
+      - ignotus-peverell
+      - invisibility-cloak
+      - potter-family
+      - godrics-hollow
+      - dumbledore
+      - school-misconduct
+    candidate_part: Magical Objects and Artifacts
+    candidate_chapter: The Deathly Hallows
+    candidate_section: Peverell creators, Cloak lineage, and Hogwarts misuse
+    reason_for_placement: "The passage ties ancient artifact history to a Hogwarts student's use of the Cloak and to Dumbledore's late-1981 decision to examine it."
+    relevance_to_hogwarts_a_history: "A later edition can use this to connect school-era concealment, Potter family inheritance, and Dumbledore's private artifact scholarship."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch21-006
+        - dh-ch22-003
+        - dh-ch34-004
+      notes: "dh-ch21-006 records the Peverell-origin claim, dh-ch22-003 records Harry's inference about the Potter Cloak, and dh-ch34-004 confirms the Snitch/Stone bequest. This entry adds Dumbledore's direct Peverell-creator view and James's Hogwarts misuse evidence."
+    confidence: high
+    limitations: "Dumbledore frames the Death-on-the-road detail as legend and the Peverell creation theory as his judgment, not a surviving primary document."
+
+  - id: dh-ch35-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Five - King's Cross
+    chapter_start_pdf_page: 3578
+    chapter_end_pdf_page: 3593
+    pdf_page: 3587
+    printed_page: null
+    extracted_text_lines: "293-351"
+    text_anchor:
+      start_phrase: "You know the secret of my sister's ill health"
+      end_phrase: "the price of my shame"
+      local_occurrence_note: "Dumbledore recounts his resentment after Kendra's death, Grindelwald's ideology, their Hallows-centered plans, Aberforth's intervention, Ariana's death, and Grindelwald's flight."
+    nearby_context: "This is Dumbledore's first-person correction and expansion of the Skeeter and Aberforth accounts of his youth."
+    match_terms:
+      - Ariana Dumbledore
+      - Aberforth Dumbledore
+      - Gellert Grindelwald
+      - For the Greater Good
+      - Deathly Hallows
+      - Inferi
+      - Muggle subservience
+    quote_excerpt_short: "at the heart of our schemes"
+    source_note: "Dumbledore admits that Grindelwald's ideology caught him, that the Hallows sat at the center of their plans, and that Ariana died after Aberforth challenged their neglect."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - albus-dumbledore
+      - grindelwald
+      - ariana-dumbledore
+      - aberforth-dumbledore
+      - deathly-hallows
+      - greater-good
+      - magical-history
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: Dumbledore and the First Wizarding War
+    candidate_section: Hallows ideology, Ariana's death, and Grindelwald's flight
+    reason_for_placement: "The passage supplies direct first-person testimony on the private origins of Dumbledore's link to Grindelwald and the Hallows."
+    relevance_to_hogwarts_a_history: "A later edition can cite this as a key corrective source when explaining Dumbledore's pre-Hogwarts-leadership past and its later impact on the school."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch18-005
+        - dh-ch18-006
+        - dh-ch18-007
+      notes: "dh-ch18-005 through dh-ch18-007 record Skeeter and Hermione evidence for Grindelwald's arrival, the Greater Good letter, and Nurmengard context. This entry adds Dumbledore's first-person admission of motive, Hallows aims, and culpability around Ariana's death."
+    confidence: high
+    limitations: "Dumbledore still does not identify who cast the curse that killed Ariana."
+
+  - id: dh-ch35-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Five - King's Cross
+    chapter_start_pdf_page: 3578
+    chapter_end_pdf_page: 3593
+    pdf_page: 3589
+    printed_page: null
+    extracted_text_lines: "354-382"
+    text_anchor:
+      start_phrase: "Years passed. There were rumors about him"
+      end_phrase: "I won the duel. I won the wand."
+      local_occurrence_note: "Dumbledore says he repeatedly refused the Ministry, considered himself safer at Hogwarts as a teacher, delayed confronting Grindelwald, and eventually won the duel and the wand."
+    nearby_context: "Dumbledore is tracing how his youthful temptation shaped his later choices around public power and Grindelwald."
+    match_terms:
+      - Minister of Magic
+      - Hogwarts teacher
+      - young wizards
+      - Grindelwald
+      - duel
+      - Elder Wand
+      - Dumbledore
+    quote_excerpt_short: "I was safer at Hogwarts"
+    source_note: "Dumbledore presents Hogwarts teaching as a safer alternative to political power after his youthful failure, while acknowledging his delayed confrontation with Grindelwald and eventual winning of the wand."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - albus-dumbledore
+      - hogwarts-teacher
+      - minister-of-magic
+      - grindelwald
+      - elder-wand
+      - wizarding-politics
+      - leadership
+    candidate_part: Governance, Headmasters, and Public Authority
+    candidate_chapter: Dumbledore's Career and Refused Power
+    candidate_section: Hogwarts teaching as refuge from political temptation
+    reason_for_placement: "The passage directly connects Dumbledore's career at Hogwarts to his refusal of public office and to the moral aftermath of the Grindelwald conflict."
+    relevance_to_hogwarts_a_history: "A later edition can use this as Dumbledore's own explanation for why Hogwarts, rather than the Ministry, became the center of his public service."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch05-006
+        - dh-ch24-007
+        - dh-ch23-007
+      notes: "ootp-ch05-006 records Dumbledore's possible Ministerial career, dh-ch24-007 records Harry's Elder Wand ownership inference, and dh-ch23-007 records Grindelwald's later refusal to Voldemort. This entry adds Dumbledore's own explanation of choosing Hogwarts and delaying the duel."
+    confidence: high
+    limitations: "The exact dates of Ministry offers and the 1945 duel are not supplied in this chapter."
+
+  - id: dh-ch35-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Five - King's Cross
+    chapter_start_pdf_page: 3578
+    chapter_end_pdf_page: 3593
+    pdf_page: 3591
+    printed_page: null
+    extracted_text_lines: "402-464"
+    text_anchor:
+      start_phrase: "You tried to use the Resurrection Stone"
+      end_phrase: "That bit didn't work out."
+      local_occurrence_note: "Dumbledore explains his failure with the cursed Gaunt ring, his intent for Hermione to slow Harry's Hallows pursuit, Voldemort's ignorance of the Hallows, and the failed plan for Snape to receive the Elder Wand."
+    nearby_context: "The exchange follows Harry's report that Grindelwald lied to Voldemort and precedes Harry's choice whether to return from King's Cross."
+    match_terms:
+      - Resurrection Stone
+      - Gaunt ring
+      - Horcrux
+      - Hermione Granger
+      - Elder Wand
+      - Ollivander
+      - Severus Snape
+    quote_excerpt_short: "I counted on Miss Granger"
+    source_note: "Dumbledore says he mishandled the Stone because the Gaunt ring was cursed, designed Hermione's Beedle clue to slow Harry, expected Voldemort to seek only the Elder Wand, and intended Snape to inherit that wand's mastery."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - resurrection-stone
+      - gaunt-ring
+      - deathly-hallows
+      - hermione-granger
+      - elder-wand
+      - severus-snape
+      - dumbledore-plan
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Dumbledore's Final Plan and the Deathly Hallows
+    candidate_section: Stone failure, Hermione's delay, and Snape's intended wand succession
+    reason_for_placement: "The passage consolidates Dumbledore's final artifact strategy and clarifies which parts of the Hallows plan were deliberate, resisted, or failed."
+    relevance_to_hogwarts_a_history: "A later edition can cite this as direct testimony for the logic behind Dumbledore's Beedle bequest, the Gaunt ring disaster, and the Elder Wand succession mistake."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch21-003
+        - dh-ch22-004
+        - dh-ch24-006
+        - dh-ch32-007
+      notes: "dh-ch21-003 defines the Hallows, dh-ch22-004 records Harry's Snitch/Stone inference, dh-ch24-006 records Ollivander's Elder Wand testimony, and dh-ch32-007 records Voldemort's mistaken Snape theory. This entry adds Dumbledore's account of Hermione's delaying role and his intended Snape succession plan."
+    confidence: high
+    limitations: "Chapter Thirty-Six is still needed for the final Elder Wand allegiance resolution."

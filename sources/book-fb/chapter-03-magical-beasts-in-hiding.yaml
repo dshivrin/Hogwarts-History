@@ -1,0 +1,321 @@
+source_unit:
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter: Magical Beasts in Hiding
+  chapter_start_pdf_page: 16
+  chapter_end_pdf_page: 20
+  boundary_confidence: medium
+  boundary_notes: "Assigned scanned-PDF unit FB03; rendered and visually inspected only PDF pages 16-20. Page 16 begins with carryover Clause 73 text before the chapter heading, and page 20 ends with the opening of the next chapter."
+  processed_date: '2026-09-11'
+  processor_notes: "Scanned image-only source; entries are drawn from visible rendered pages 16-20. No explicit Hogwarts: A History reference appears in this range."
+
+entries:
+  - id: fb-ch03-001
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Magical Beasts in Hiding
+    chapter_start_pdf_page: 16
+    chapter_end_pdf_page: 20
+    pdf_page: 16
+    printed_page: xvi
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "In 1750, Clause 73 was inserted"
+      end_phrase: "International Confederation of Wizards"
+      local_occurrence_note: "Carryover text at the top of printed page xvi, immediately before the Magical Beasts in Hiding heading."
+    nearby_context: "The preceding unit introduced the 1692 agreement to hide magical species; this page gives the later clause governing responsibility and discipline."
+    match_terms:
+      - Clause 73
+      - International Statute of Wizarding Secrecy
+      - International Confederation of Wizards
+      - concealment
+      - magical beasts
+    quote_excerpt_short: "Clause 73 was inserted"
+    source_note: "Clause 73, added in 1750, makes each wizarding governing body responsible for concealing, caring for, and controlling magical beasts, beings, and spirits within its borders."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - clause-73
+      - statute-of-secrecy
+      - magical-creature-concealment
+      - international-confederation
+      - wizarding-governance
+      - magical-law
+    candidate_part: "Part I: Hidden Magical Britain"
+    candidate_chapter: "International Secrecy and Creature Concealment"
+    candidate_section: "Clause 73 and national responsibility"
+    reason_for_placement: "Documents the legal rule that turns creature concealment into a national obligation under international wizarding discipline."
+    relevance_to_hogwarts_a_history: "Provides legal background for the secrecy framework around creatures that are later regulated, studied, or sheltered near Hogwarts."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Queries clause-73/concealment and statute-of-secrecy/magical-creature-concealment returned broad secrecy entries and FB02's 1692 agreement, but no existing entry for the 1750 Clause 73 text."
+    confidence: high
+    limitations: "The clause is quoted without explaining its drafting history or national implementation in Britain."
+
+  - id: fb-ch03-002
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Magical Beasts in Hiding
+    chapter_start_pdf_page: 16
+    chapter_end_pdf_page: 20
+    pdf_page: 16
+    printed_page: xvi
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "British readers will remember the Ilfracombe Incident of 1932"
+      end_phrase: "thus narrowly averting catastrophe"
+      local_occurrence_note: "Opening section under the Magical Beasts in Hiding heading on printed page xvi."
+    nearby_context: "Newt introduces breaches of Clause 73 and gives a named British example involving a rogue Welsh Green dragon."
+    match_terms:
+      - Ilfracombe Incident
+      - Welsh Green dragon
+      - Memory Charms
+      - Orders of Merlin
+      - Clause 73 breach
+    quote_excerpt_short: "Ilfracombe Incident of 1932"
+    source_note: "A rogue Welsh Green dragon attacked a Muggle beach at Ilfracombe in 1932; a holidaying wizarding family prevented deaths and used mass Memory Charms."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - ilfracombe
+      - dragons
+      - memory-charms
+      - order-of-merlin
+      - clause-73
+      - muggle-secrecy
+    candidate_part: "Part I: Hidden Magical Britain"
+    candidate_chapter: "International Secrecy and Creature Concealment"
+    candidate_section: "Public breaches and emergency memory repair"
+    reason_for_placement: "Supplies a dated public creature incident that shows how secrecy breaches could be contained in modern Britain."
+    relevance_to_hogwarts_a_history: "Useful context for how British magical families and institutions operate under secrecy obligations outside the school grounds."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query ilfracombe/dragon returned Gringotts dragon entries only; no existing Ilfracombe or Welsh Green beach incident entry was found."
+    confidence: high
+    limitations: "The account summarizes the event and awards but does not name the wizarding family."
+
+  - id: fb-ch03-003
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Magical Beasts in Hiding
+    chapter_start_pdf_page: 16
+    chapter_end_pdf_page: 20
+    pdf_page: 17
+    printed_page: xvii
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "The International Confederation of Wizards has had to fine"
+      end_phrase: "developed a positive thirst for publicity"
+      local_occurrence_note: "Top half of printed page xvii, before the discussion of Muggle disbelief."
+    nearby_context: "The chapter moves from the Ilfracombe example to repeated international failures to comply with Clause 73."
+    match_terms:
+      - International Confederation of Wizards
+      - Tibet
+      - Scotland
+      - yeti sightings
+      - Loch Ness kelpie
+    quote_excerpt_short: "Tibet and Scotland are two of the most persistent offenders"
+    source_note: "The International Confederation fines nations for Clause 73 violations; Tibet and Scotland are named, with yeti sightings prompting a task force and the Loch Ness kelpie evading capture."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - clause-73
+      - international-confederation
+      - yeti
+      - loch-ness
+      - kelpie
+      - magical-creature-concealment
+      - wizarding-governance
+    candidate_part: "Part I: Hidden Magical Britain"
+    candidate_chapter: "International Secrecy and Creature Concealment"
+    candidate_section: "International enforcement and persistent offenders"
+    reason_for_placement: "Shows the international enforcement machinery behind creature secrecy and identifies persistent regional failures."
+    relevance_to_hogwarts_a_history: "Frames British creature concealment as part of a wider international system that can discipline national wizarding authorities."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query yeti/loch-ness returned no matches; clause-73/concealment returned unrelated concealment entries."
+    confidence: high
+    limitations: "The passage does not date the fines, identify the task force, or specify whether Scotland is treated separately from wider British authority."
+
+  - id: fb-ch03-004
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Magical Beasts in Hiding
+    chapter_start_pdf_page: 16
+    chapter_end_pdf_page: 20
+    pdf_page: 17
+    printed_page: xvii
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "the overwhelming majority of present-day Muggles refuse"
+      end_phrase: "highly effective means of camouflage"
+      local_occurrence_note: "Lower half of printed page xvii, continuing onto the first line of printed page xviii."
+    nearby_context: "After describing persistent breaches, Newt explains why creature secrecy still succeeds in most Muggle encounters."
+    match_terms:
+      - Muggle disbelief
+      - Porlock droppings
+      - Streeler trails
+      - Hippogriff
+      - Tebo
+      - Demiguise
+      - Bowtruckle
+    quote_excerpt_short: "present-day Muggles refuse to believe"
+    source_note: "Modern Muggle disbelief helps preserve secrecy, and some creatures avoid notice through camouflage, shyness, inaccessible habitats, or resemblance to mundane animals."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - muggle-disbelief
+      - magical-creature-concealment
+      - muggle-awareness
+      - demiguise
+      - bowtruckle
+      - hippogriffs
+      - camouflage
+    candidate_part: "Part I: Hidden Magical Britain"
+    candidate_chapter: "International Secrecy and Creature Concealment"
+    candidate_section: "Natural concealment and Muggle disbelief"
+    reason_for_placement: "Explains why secrecy can function socially as well as magically, even when physical traces remain."
+    relevance_to_hogwarts_a_history: "Helps explain why creature encounters around a magical school can remain invisible or implausible to nearby non-magical communities."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query magical-creature-concealment/muggles returned FB02's pre-secrecy agreement and broad Muggle entries; this present-day disbelief and natural-concealment taxonomy is distinct."
+    confidence: high
+    limitations: "The claim is generalized and uses examples rather than a complete classification of all hidden species."
+
+  - id: fb-ch03-005
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Magical Beasts in Hiding
+    chapter_start_pdf_page: 16
+    chapter_end_pdf_page: 20
+    pdf_page: 18
+    printed_page: xviii
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "Perhaps the most important step in the concealment"
+      end_phrase: "the beast's own powers will cancel them"
+      local_occurrence_note: "Safe Habitats section beginning near the bottom of printed page xviii and continuing onto printed page xix."
+    nearby_context: "The chapter turns from natural concealment to managed protected areas and the limits of charm-based exclusion."
+    match_terms:
+      - safe habitats
+      - Muggle-repelling charms
+      - centaurs
+      - unicorns
+      - merpeople
+      - dragon reservations
+      - unplottable
+    quote_excerpt_short: "the creation of safe habitats"
+    source_note: "Creature concealment relies on safe habitats protected by Muggle-repelling charms, unplottable areas, and supervised reservations, though some creatures can cancel such charms."
+    reference_type: security_or_protection
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - safe-habitats
+      - muggle-repelling-charms
+      - unplottable
+      - dragon-reservations
+      - centaurs
+      - merpeople
+      - magical-creature-concealment
+    candidate_part: "Part I: Hidden Magical Britain"
+    candidate_chapter: "Creature Habitats and Protective Enchantments"
+    candidate_section: "Safe habitats and charm limits"
+    reason_for_placement: "Connects creature secrecy to protected territory, reservation supervision, and the limits of ordinary Muggle-repelling enchantments."
+    relevance_to_hogwarts_a_history: "Offers context for Hogwarts grounds, forests, and lake habitats as places where magical creatures can remain hidden near a school."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query safe-habitats/muggle-repelling-charms returned Quidditch pitch and World Cup secrecy entries; those are sports venues, not creature habitat protections."
+    confidence: high
+    limitations: "The passage names habitat tools and examples but does not identify a specific British reservation or Hogwarts enchantment."
+
+  - id: fb-ch03-006
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Magical Beasts in Hiding
+    chapter_start_pdf_page: 16
+    chapter_end_pdf_page: 20
+    pdf_page: 19
+    printed_page: xix
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "The possibility of a Muggle being alarmed"
+      end_phrase: "their effects are apt to wear off"
+      local_occurrence_note: "Controls on Selling and Breeding and Disillusionment Charms sections on printed page xix, including Harry's handwritten Hagrid note."
+    nearby_context: "After safe habitats, Newt describes legal limits on breeding and sale, then owner duties to conceal individual Hippogriffs."
+    match_terms:
+      - Controls on Selling and Breeding
+      - Ban on Experimental Breeding
+      - Disillusionment Charms
+      - Hippogriff
+      - Hagrid
+    quote_excerpt_short: "The 1965 Ban on Experimental Breeding"
+    source_note: "The Department for the Regulation and Control of Magical Creatures monitors beast trade, the 1965 breeding ban outlaws new species, and Hippogriff owners must maintain daily Disillusionment Charms; Harry annotates the ban with a later Hagrid aside."
+    reference_type: school_rule_or_policy
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - experimental-breeding
+      - magical-creature-regulation
+      - disillusionment-charms
+      - hippogriffs
+      - hagrid
+      - beast-trade
+      - ministry-of-magic
+    candidate_part: "Part I: Hidden Magical Britain"
+    candidate_chapter: "Creature Regulation and Wizarding Public Safety"
+    candidate_section: "Breeding, sale, and owner concealment duties"
+    reason_for_placement: "Links official Ministry creature controls to individual legal duties and a later Hogwarts-adjacent marginal note."
+    relevance_to_hogwarts_a_history: "Useful for explaining Hagrid-era creature incidents and the wider legal setting for Hippogriffs and experimental breeding."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query experimental-breeding/disillusionment-charms returned fb-ch00-002, which names Scamander's role in the 1965 ban; this passage adds enforcement, trade monitoring, Hippogriff concealment duties, and Harry's marginal Hagrid link."
+    confidence: high
+    limitations: "The handwritten Hagrid note is a later reader annotation, and the passage does not identify the legal penalties in detail."
+
+  - id: fb-ch03-007
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Magical Beasts in Hiding
+    chapter_start_pdf_page: 16
+    chapter_end_pdf_page: 20
+    pdf_page: 20
+    printed_page: xx
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "When the worst happens and a Muggle sees"
+      end_phrase: "looked exceedingly dangerous"
+      local_occurrence_note: "Memory Charms and The Office of Misinformation sections on printed page xx, above the next chapter heading."
+    nearby_context: "The chapter closes by describing repair mechanisms for serious Muggle exposure after ordinary concealment fails."
+    match_terms:
+      - Memory Charms
+      - Obliviators
+      - Office of Misinformation
+      - Muggle prime minister
+      - Loch Ness kelpie
+    quote_excerpt_short: "a team of trained Obliviators"
+    source_note: "Memory Charms are the standard repair tool after Muggle exposure, while severe magical-Muggle collisions can involve Obliviators and the Office of Misinformation liaising with the Muggle prime minister."
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - memory-charms
+      - obliviators
+      - office-of-misinformation
+      - muggle-government
+      - loch-ness
+      - magical-creature-concealment
+      - ministry-of-magic
+    candidate_part: "Part I: Hidden Magical Britain"
+    candidate_chapter: "Ministry Relations With the Muggle Government"
+    candidate_section: "Memory repair and misinformation"
+    reason_for_placement: "Shows the institutional escalation path when creature secrecy cannot be maintained through ordinary habitat or owner controls."
+    relevance_to_hogwarts_a_history: "Provides later-edition context for Ministry responses to public magical exposure that might involve Hogwarts people or creatures."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query memory-charms/office-of-misinformation returned several Memory Charm entries and hbp-ch01-004 for Second War public-disaster response; this entry is distinct because it explains creature-exposure repair tools and routine Office of Misinformation duties."
+    confidence: high
+    limitations: "The bottom of the page begins the next chapter, so this entry is limited to the completed concealment sections above that heading."

@@ -1,0 +1,341 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Four - Number Twelve, Grimmauld Place
+  chapter_start_pdf_page: 1626
+  chapter_end_pdf_page: 1644
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml and project-control/next-run.md after the completed Chapter Three anchor; extracted only PDF pages 1626-1644 with pypdf via scripts/extract_pages.py, without scanning the PDF from page 1. Page 1645 was checked only as the adjacent next-chapter anchor and begins Chapter Five.
+  processed_date: '2026-07-02'
+  processor_notes: >-
+    Processed only Book 5, Chapter Four. Text was extracted into
+    .tmp/current-chapter.txt and searched for explicit Hogwarts history references
+    and institutional evidence. No explicit Hogwarts: A History title reference was
+    found. Entries focus on the visible manifestation and access controls of number
+    twelve, Grimmauld Place; Order headquarters governance and operations; domestic
+    pure-blood house evidence; magical eavesdropping and counter-eavesdropping; and
+    Ministry or press pressure around Dumbledore and Harry. Quote excerpts were kept
+    under 25 words per entry.
+
+entries:
+- id: ootp-ch04-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Four - Number Twelve, Grimmauld Place
+  chapter_start_pdf_page: 1626
+  chapter_end_pdf_page: 1644
+  pdf_page: 1626
+  printed_page: null
+  extracted_text_lines: 8-24
+  text_anchor:
+    start_phrase: He pulled the piece of parchment out of Harry's hand
+    end_phrase: There was no keyhole or letterbox
+    local_occurrence_note: After Harry memorizes the written headquarters address, number twelve appears between numbers eleven and thirteen without Muggle reaction.
+  nearby_context: Moody burns the parchment, Lupin tells Harry to think about what he memorized, and the hidden house emerges into the London terrace with serpent-marked door hardware.
+  match_terms:
+  - parchment
+  - memorized
+  - number twelve
+  - Grimmauld Place
+  - Muggles
+  - no keyhole
+  quote_excerpt_short: "a battered door emerged out of nowhere"
+  source_note: The chapter demonstrates the concealed headquarters becoming visible only after controlled disclosure of the address, while nearby Muggles do not perceive the change.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - grimmauld-place
+  - secret-headquarters
+  - concealment
+  - muggle-concealment
+  - order-of-the-phoenix
+  - protective-magic
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Headquarters, Safe Houses, and Secret-Keeping
+  candidate_section: Number Twelve Revealed After Memorized Disclosure
+  reason_for_placement: The scene gives direct observed evidence for secret headquarters magic and the controlled reveal of a hidden urban building.
+  relevance_to_hogwarts_a_history: A later edition can use this as Harry-era evidence for Order-linked safe-house protection affecting Hogwarts-connected witnesses outside the school.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch03-006
+    notes: ootp-ch03-006 introduces Dumbledore's note and the headquarters address; this entry adds the visible manifestation of the hidden building after Harry memorizes it.
+  confidence: high
+  limitations: The chapter still does not name the charm or fully explain the secret-keeping mechanics.
+
+- id: ootp-ch04-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Four - Number Twelve, Grimmauld Place
+  chapter_start_pdf_page: 1626
+  chapter_end_pdf_page: 1644
+  pdf_page: 1627
+  printed_page: null
+  extracted_text_lines: 27-45; 590-592
+  text_anchor:
+    start_phrase: Lupin pulled out his wand and tapped the door once
+    end_phrase: magically sealing its many locks and bolts
+    local_occurrence_note: The front door opens by wand tap and many locks, and later Lupin, Mrs. Weasley, and Tonks magically reseal it after Order members leave.
+  nearby_context: Moody restores the streetlamp light stolen by the Put-Outer, closes the door behind the guard, lifts Harry's Disillusionment Charm, and lights the dark hall.
+  match_terms:
+  - tapped the door
+  - metallic clicks
+  - chain
+  - Put-Outer
+  - Disillusionment Charm
+  - locks and bolts
+  quote_excerpt_short: "many loud, metallic clicks"
+  source_note: The headquarters uses layered physical and magical access controls, with wand-operated entry, resealed locks, light management, and post-flight concealment cleanup.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - grimmauld-place
+  - access-control
+  - protective-magic
+  - locks
+  - disillusionment-charm
+  - put-outer
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Headquarters, Safe Houses, and Secret-Keeping
+  candidate_section: Layered Entry Controls at Grimmauld Place
+  reason_for_placement: The passage records practical safe-house procedure at the threshold, including both concealment and controlled entry.
+  relevance_to_hogwarts_a_history: A later edition can cite this as Second War evidence for how Dumbledore's allies protected a headquarters used by Hogwarts-linked adults and students.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch03-005
+    - ootp-ch03-006
+    notes: ootp-ch03-005 covers the Disillusionment Charm during travel and ootp-ch03-006 covers the Put-Outer and address; this entry adds the door procedure and magical resealing inside the headquarters.
+  confidence: high
+  limitations: The passage does not specify which protections are permanent enchantments and which are ordinary locking spells.
+
+- id: ootp-ch04-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Four - Number Twelve, Grimmauld Place
+  chapter_start_pdf_page: 1626
+  chapter_end_pdf_page: 1644
+  pdf_page: 1627
+  printed_page: null
+  extracted_text_lines: 47-55; 80-89; 549-565; 603-638
+  text_anchor:
+    start_phrase: The others' hushed voices were giving Harry
+    end_phrase: I see you've met my mother
+    local_occurrence_note: Harry observes serpent fixtures, house-elf heads, a troll-leg umbrella stand, Kreacher, and an abusive portrait before Sirius identifies the portrait as his mother.
+  nearby_context: Mrs. Weasley warns Harry not to wake anything in the hall, the household is being decontaminated after long disuse, and Dumbledore has advised kindness toward Kreacher.
+  match_terms:
+  - serpents
+  - house-elves
+  - Kreacher
+  - troll's leg
+  - portrait
+  - Sirius
+  quote_excerpt_short: "the heads belonged to house-elves"
+  source_note: The chapter presents Grimmauld Place as an old dark wizarding household, preserving family artifacts, house-elf servitude evidence, hostile portraits, and Black-family material culture.
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  topic_tags:
+  - grimmauld-place
+  - black-family
+  - house-elves
+  - kreacher
+  - portraits
+  - pure-blood-households
+  - magical-architecture
+  candidate_part: Castle, Grounds, and Magical Architecture
+  candidate_chapter: Wizarding Households Connected to Hogwarts
+  candidate_section: Grimmauld Place and Black Family Domestic Evidence
+  reason_for_placement: The headquarters setting supplies concrete evidence for the domestic spaces and inherited customs of a prominent pure-blood family tied to Hogwarts history.
+  relevance_to_hogwarts_a_history: A later edition can use this evidence when contextualizing old wizarding families, house-elf service traditions, and portrait magic beyond the school itself.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch02-001
+    - cos-ch03-002
+    - gof-ch14-007
+    notes: Earlier entries establish house-elf bondage, old-family association, and Hermione's activism; this entry adds Black-family household evidence, preserved elf-head trophies, and Kreacher at Grimmauld Place.
+  confidence: high
+  limitations: Later chapters explain the Black family and Kreacher more fully; this chapter gives first observations rather than a complete household history.
+
+- id: ootp-ch04-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Four - Number Twelve, Grimmauld Place
+  chapter_start_pdf_page: 1626
+  chapter_end_pdf_page: 1644
+  pdf_page: 1628
+  printed_page: null
+  extracted_text_lines: 66-78; 244-254
+  text_anchor:
+    start_phrase: He's just arrived, the meeting's started
+    end_phrase: but we think there are more
+    local_occurrence_note: Mrs. Weasley excludes Harry from an Order meeting, and Ron and Hermione explain the Order's name, secrecy, leadership, founding, and last-war purpose.
+  nearby_context: Harry is sent upstairs while adults attend the meeting, and minors are kept away from Order proceedings even while living at headquarters.
+  match_terms:
+  - meeting
+  - members of the Order
+  - Headquarters
+  - secret society
+  - Dumbledore
+  - founded it
+  quote_excerpt_short: "It's a secret society"
+  source_note: The chapter defines the Order of the Phoenix as Dumbledore's secret society from the previous war and shows membership-controlled meetings at headquarters.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - order-of-the-phoenix
+  - secret-society
+  - dumbledore
+  - headquarters
+  - membership
+  - second-war
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Second War and Hogwarts-Connected Organizations
+  candidate_section: Order Leadership, Membership, and Headquarters Meetings
+  reason_for_placement: The scene gives basic institutional facts about the Order and its exclusion of nonmembers from wartime meetings.
+  relevance_to_hogwarts_a_history: A later edition can treat this as core context for Dumbledore's extra-school wartime organization and its overlap with Hogwarts staff, students, and families.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch03-002
+    notes: ootp-ch03-002 records an active guard operation and headquarters destination; this entry adds the Order's definition, founding, membership limits, and last-war purpose.
+  confidence: high
+  limitations: Ron and Hermione are not members and admit they do not know all details or the full membership.
+
+- id: ootp-ch04-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Four - Number Twelve, Grimmauld Place
+  chapter_start_pdf_page: 1626
+  chapter_end_pdf_page: 1644
+  pdf_page: 1634
+  printed_page: null
+  extracted_text_lines: 265-281; 343-355; 571-587
+  text_anchor:
+    start_phrase: We've told you, the Order don't let us in
+    end_phrase: Snape never eats here
+    local_occurrence_note: The children infer Order operations from overheard meetings, including Death Eater surveillance, recruiting, guard duty, Bill's desk job, Charlie's foreign contacts, and Snape's report.
+  nearby_context: Fred and George try to listen with Extendable Ears, Ginny says the kitchen door is protected, and Harry later sees Snape among the departing Order members.
+  match_terms:
+  - known Death Eaters
+  - recruiting
+  - guard duty
+  - Bill
+  - Charlie
+  - Snape
+  quote_excerpt_short: "following known Death Eaters"
+  source_note: The chapter sketches Order operations as surveillance, recruitment, guard work, foreign outreach, and intelligence reports involving Hogwarts-linked adults.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - order-of-the-phoenix
+  - death-eaters
+  - guard-duty
+  - recruitment
+  - foreign-wizards
+  - snape
+  - intelligence
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Second War and Hogwarts-Connected Organizations
+  candidate_section: Order Operations and Intelligence Work
+  reason_for_placement: The passage turns the Order from a named headquarters group into a working wartime network with multiple operational roles.
+  relevance_to_hogwarts_a_history: A later edition can cite this to explain the off-campus network around Hogwarts personnel and families during the summer after Voldemort's return.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch03-002
+    notes: ootp-ch03-002 identifies the guard operation; this entry adds broader operational categories and names Bill, Charlie, and Snape in Order work.
+  confidence: medium
+  limitations: Much of the operational detail is secondhand, inferred by minors from overheard fragments and not confirmed by meeting records.
+
+- id: ootp-ch04-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Four - Number Twelve, Grimmauld Place
+  chapter_start_pdf_page: 1626
+  chapter_end_pdf_page: 1644
+  pdf_page: 1635
+  printed_page: null
+  extracted_text_lines: 270-275; 305-328; 580-585
+  text_anchor:
+    start_phrase: Fred and George have invented Extendable Ears
+    end_phrase: Fred whisper, as he hoisted the Extendable Ear back up again
+    local_occurrence_note: The twins use Extendable Ears to monitor adult meetings until Mrs. Weasley counters them with an Imperturbable Charm on the kitchen door.
+  nearby_context: Ginny tests the door by throwing Dungbombs, which cannot make contact, and Fred and George later lower an Extendable Ear toward departing Order members.
+  match_terms:
+  - Extendable Ears
+  - reception
+  - Imperturbable Charm
+  - kitchen door
+  - Dungbombs
+  - eavesdropping
+  quote_excerpt_short: "put an Imperturbable Charm on the kitchen door"
+  source_note: The chapter gives practical evidence for magical eavesdropping devices and a counter-charm that blocks physical contact and prevents listening under a door.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - extendable-ears
+  - imperturbable-charm
+  - eavesdropping
+  - counter-surveillance
+  - fred-and-george
+  - order-of-the-phoenix
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Information Security and Eavesdropping
+  candidate_section: Extendable Ears and Imperturbable Charm
+  reason_for_placement: The scene documents both an informal magical surveillance invention and household-level countermeasures during confidential wartime meetings.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence for student-age magical innovation and the security problems it created around Hogwarts-connected organizations.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate lookup found no prior entry for Extendable Ears, Imperturbable Charm, or this eavesdropping countermeasure.
+  confidence: high
+  limitations: The passage demonstrates function but does not explain the charm's formal theory or whether students learn it at Hogwarts.
+
+- id: ootp-ch04-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Four - Number Twelve, Grimmauld Place
+  chapter_start_pdf_page: 1626
+  chapter_end_pdf_page: 1644
+  pdf_page: 1638
+  printed_page: null
+  extracted_text_lines: 393-410; 440-518
+  text_anchor:
+    start_phrase: he'd been offered a position in Fudge's own office
+    end_phrase: there's no case against you
+    local_occurrence_note: The Weasleys describe Fudge pressuring Dumbledore allies and using Percy, while Hermione explains the Daily Prophet's smear campaign and suppressed Dementor coverage.
+  nearby_context: Percy leaves his family over Ministry loyalty, Harry's word about Voldemort is discounted, and the press is said to make him seem unbelievable before his expulsion hearing.
+  match_terms:
+  - Fudge
+  - Dumbledore
+  - spy
+  - Daily Prophet
+  - Rita
+  - International Statute of Secrecy
+  quote_excerpt_short: "turn you into someone nobody will believe"
+  source_note: The chapter links Ministry pressure against Dumbledore's allies with a Daily Prophet campaign that undermines Harry's credibility and suppresses the Dementor attack story.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - ministry-of-magic
+  - daily-prophet
+  - dumbledore
+  - harry-potter
+  - public-opinion
+  - political-pressure
+  - second-war
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Ministry Pressure and Public Records
+  candidate_section: Fudge, the Prophet, and Dumbledore's Allies
+  reason_for_placement: The passage records how Ministry employment pressure and press framing shaped public understanding of events affecting Hogwarts students and staff.
+  relevance_to_hogwarts_a_history: A later edition can cite this as context for why official and public records around the second war were unreliable or politically filtered.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ootp-ch01-001
+    - gof-ch18-005
+    - gof-ch37-006
+    notes: ootp-ch01-001 records Harry's reliance on press and censored letters, while GoF entries record Rita Skeeter's distorted reporting and surveillance; this entry adds the coordinated post-return smear and Ministry pressure on Dumbledore allies.
+  confidence: medium
+  limitations: Hermione infers Fudge's role in the smear campaign, and the account is not a direct Ministry or Prophet document.

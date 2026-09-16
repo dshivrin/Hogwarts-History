@@ -1,0 +1,260 @@
+source_unit:
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: Babbitty Rabbitty and Her Cackling Stump and Commentary
+  chapter_start_pdf_page: 39
+  chapter_end_pdf_page: 52
+  boundary_confidence: high
+  boundary_notes: The tale begins on the right side of shared PDF page 39 and continues through page 47; Dumbledore's commentary runs from page 48 through the left side of page 52, where The Tale of the Three Brothers begins on the right.
+  processed_date: '2026-08-15'
+  processor_notes: All pages were rendered and checked against the embedded text; fairy-tale plot was excluded except where Dumbledore identifies educational, legal, or historical significance.
+entries:
+- id: beedle-ch04-001
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: Babbitty Rabbitty and Her Cackling Stump and Commentary
+  chapter_start_pdf_page: 39
+  chapter_end_pdf_page: 52
+  pdf_page: 48
+  printed_page: 78-79
+  extracted_text_lines: PDF text lines 1868-1908
+  text_anchor:
+    start_phrase: It was through this story that many of us first discovered
+    end_phrase: reuniting body and soul once death has occurred
+    local_occurrence_note: Opening of Dumbledore's commentary.
+  nearby_context: Dumbledore presents the tale as a childhood vehicle for teaching a basic limit of magic.
+  match_terms:
+  - magic could not bring back the dead
+  - young children
+  - body and soul
+  - magical laws
+  quote_excerpt_short: magic could not bring back the dead
+  source_note: Dumbledore says many wizarding children first learned through this tale that magic cannot restore the dead or reunite body and soul.
+  reference_type: institutional_custom
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - magical-limits
+  - death
+  - wizarding-childhood
+  - informal-education
+  - tales-of-beedle-the-bard
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: The Tales of Beedle the Bard
+  reason_for_placement: The commentary identifies a concrete educational function of the named children's source.
+  relevance_to_hogwarts_a_history: It records knowledge many pupils were expected to possess before or alongside formal schooling.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: dh-ch21-003
+    notes: The novel records the Hallows claim about a Resurrection Stone; this commentary states the wider magical limit against true resurrection.
+  confidence: high
+  limitations: Dumbledore generalizes from his generation and does not say how uniformly families used the tale.
+- id: beedle-ch04-002
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: Babbitty Rabbitty and Her Cackling Stump and Commentary
+  chapter_start_pdf_page: 39
+  chapter_end_pdf_page: 52
+  pdf_page: 49
+  printed_page: 80-81
+  extracted_text_lines: PDF text lines 1915-1940
+  text_anchor:
+    start_phrase: one of the earliest literary mentions of an Animagus
+    end_phrase: Ministry of Magic has insisted upon a register of Animagi
+    local_occurrence_note: Commentary after the discussion of magical death.
+  nearby_context: Dumbledore explains that voluntary animal transformation is rare, difficult, and useful for concealment.
+  match_terms:
+  - earliest literary mentions
+  - Animagus
+  - study and practice
+  - register of Animagi
+  - Ministry of Magic
+  quote_excerpt_short: one of the earliest literary mentions of an Animagus
+  source_note: Dumbledore calls Babbitty an early literary Animagus reference and says the rare transformation requires extensive practice and is subject to Ministry registration.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - animagus
+  - magical-literature
+  - transfiguration
+  - ministry-register
+  - concealment
+  - magical-study
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Animagus Study and Self-Transfiguration
+  reason_for_placement: The passage connects literary history with the advanced study and regulation of a Transfiguration ability.
+  relevance_to_hogwarts_a_history: It supplies background for advanced Transfiguration knowledge and the legal context surrounding known Animagi.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch37-006
+    notes: The novel confirms the legal significance of an unregistered Animagus; this commentary adds rarity, training, and early literary history.
+  confidence: high
+  limitations: The source does not give the registration procedure or curriculum level at which Animagus theory is taught.
+- id: beedle-ch04-003
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: Babbitty Rabbitty and Her Cackling Stump and Commentary
+  chapter_start_pdf_page: 39
+  chapter_end_pdf_page: 52
+  pdf_page: 49
+  printed_page: 81
+  extracted_text_lines: PDF text lines 1932-1937
+  text_anchor:
+    start_phrase: Professor McGonagall, Headmistress of Hogwarts
+    end_phrase: secrecy and concealment were imperative
+    local_occurrence_note: Editorial footnote attached to Dumbledore's Animagus discussion.
+  nearby_context: The editor reports McGonagall's requested clarification about her own transformation history.
+  match_terms:
+  - Professor McGonagall
+  - Headmistress of Hogwarts
+  - Animagus
+  - Transfiguration research
+  - Order of the Phoenix
+  quote_excerpt_short: extensive researches into all fields of Transfiguration
+  source_note: Headmistress McGonagall states that her Animagus ability resulted from extensive Transfiguration research and was not used covertly outside legitimate Order business.
+  reference_type: historical_claim
+  era_classification: post_1984_excluded_from_original
+  topic_tags:
+  - minerva-mcgonagall
+  - animagus
+  - transfiguration-research
+  - hogwarts-headmistress
+  - order-of-the-phoenix
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Animagus Study and Self-Transfiguration
+  reason_for_placement: The footnote gives a later headmistress's first-person clarification about advanced Transfiguration study.
+  relevance_to_hogwarts_a_history: A later edition can distinguish McGonagall's scholarly route to Animagus status from covert or criminal uses.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing Animagus entries document others' transformations but not McGonagall's explanation of her training.
+  confidence: high
+  limitations: This is a later editorial footnote and does not specify dates, teachers, or research methods.
+- id: beedle-ch04-004
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: Babbitty Rabbitty and Her Cackling Stump and Commentary
+  chapter_start_pdf_page: 39
+  chapter_end_pdf_page: 52
+  pdf_page: 50
+  printed_page: 83
+  extracted_text_lines: PDF text lines 1967-1992
+  text_anchor:
+    start_phrase: intensive studies in the Department of Mysteries demonstrated
+    end_phrase: Muggles cannot perform magic
+    local_occurrence_note: Editorial footnote on the Muggle king's attempt to learn magic.
+  nearby_context: The note distinguishes genuine magical inheritance from rare uncontrolled effects involving a magical wand.
+  match_terms:
+  - 1672
+  - Department of Mysteries
+  - born, not created
+  - Muggles
+  - magical descent
+  quote_excerpt_short: wizards and witches are born, not created
+  source_note: Department of Mysteries studies dating to 1672 concluded that magical ability is innate rather than teachable to Muggles, though later research allowed hidden ancestry.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - magical-ability
+  - department-of-mysteries
+  - 1672
+  - muggles
+  - magical-inheritance
+  - admissions-context
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Admissions and First-Year Preparation
+  candidate_section: Locating Prospective Students
+  reason_for_placement: The claim supplies historical theory behind the distinction between magical pupils and non-magical people.
+  relevance_to_hogwarts_a_history: It contextualizes the magical ability Hogwarts identifies in prospective students without endorsing blood-purity ideology.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing admissions entries describe school identification and registration, not the 1672 research claim.
+  confidence: high
+  limitations: The editorial footnote summarizes research without naming investigators, methods, or the later studies it mentions.
+- id: beedle-ch04-005
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: Babbitty Rabbitty and Her Cackling Stump and Commentary
+  chapter_start_pdf_page: 39
+  chapter_end_pdf_page: 52
+  pdf_page: 51
+  printed_page: 84-85
+  extracted_text_lines: PDF text lines 2000-2032
+  text_anchor:
+    start_phrase: Animagi do not retain the power of human speech
+    end_phrase: need somebody else to Transfigure one back
+    local_occurrence_note: Dumbledore's correction of Beedle's talking-rabbit device.
+  nearby_context: Dumbledore says this distinction is familiar to every schoolchild and explains the cognitive consequences of ordinary animal Transfiguration.
+  match_terms:
+  - every schoolchild
+  - Animagi
+  - human speech
+  - human thinking
+  - Transfiguring oneself
+  quote_excerpt_short: the fundamental difference between being an Animagus and Transfiguring oneself
+  source_note: Dumbledore says schoolchildren know that Animagi retain human thought but not speech, whereas ordinary self-Transfiguration produces an animal mind requiring outside reversal.
+  reference_type: curriculum_or_subject
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - animagus
+  - self-transfiguration
+  - transfiguration-theory
+  - schoolchild-knowledge
+  - magical-limits
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Course Structure and Academic Progression
+  candidate_section: Animagus Study and Self-Transfiguration
+  reason_for_placement: The passage identifies a specific theoretical distinction treated as normal school-age knowledge.
+  relevance_to_hogwarts_a_history: It provides a concise seed for how Hogwarts may distinguish advanced voluntary transformation from ordinary Transfiguration.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing Transfiguration entries show classroom exercises but not this Animagus distinction.
+  confidence: high
+  limitations: "'Every schoolchild' is rhetorical and does not identify a Hogwarts year, textbook, or lesson."
+- id: beedle-ch04-006
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: Babbitty Rabbitty and Her Cackling Stump and Commentary
+  chapter_start_pdf_page: 39
+  chapter_end_pdf_page: 52
+  pdf_page: 52
+  printed_page: 86
+  extracted_text_lines: PDF text lines 2042-2056
+  text_anchor:
+    start_phrase: In Beedle's time, the Cruciatus Curse had not yet been made illegal
+    end_phrase: first classified as Unforgivable in 1717
+    local_occurrence_note: Closing commentary and footnote before the next tale begins.
+  nearby_context: Dumbledore suggests the threat in the tale may reflect a real curse available in Beedle's period.
+  match_terms:
+  - Cruciatus Curse
+  - 1717
+  - Unforgivable
+  - Ministry of Magic
+  - Imperius
+  - Avada Kedavra
+  quote_excerpt_short: first classified as Unforgivable in 1717
+  source_note: The commentary says Cruciatus was legal in Beedle's era and dates the first Unforgivable classification of Cruciatus, Imperius, and Avada Kedavra to 1717.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - unforgivable-curses
+  - cruciatus-curse
+  - imperius-curse
+  - avada-kedavra
+  - 1717
+  - wizarding-law
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: First-Year Curriculum
+  candidate_section: Defense Against the Dark Arts Staff and Materials
+  reason_for_placement: The date provides legal history for a Dark Arts category later taught at Hogwarts.
+  relevance_to_hogwarts_a_history: It supplies pre-school-history context for the legal boundary students learn around the three curses.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch14-005
+    notes: The novel's lesson names the curses and modern penalty; this commentary adds the 1717 classification date and earlier legality.
+  confidence: high
+  limitations: The date appears in an editorial footnote rather than a reproduced Ministry statute.

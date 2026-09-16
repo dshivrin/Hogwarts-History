@@ -1,0 +1,469 @@
+source_unit:
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Six - Changes in Quidditch Since the Fourteenth Century
+  chapter_start_pdf_page: 25
+  chapter_end_pdf_page: 39
+  boundary_confidence: high
+  boundary_notes: Chapter Six begins on PDF page 25 and ends on PDF page 39, where Chapter Seven begins on the same
+    page.
+  processed_date: '2026-08-15'
+  processor_notes: All fifteen image-only pages were rendered and OCRed. Pitch diagrams, ball specifications, positions,
+    numbered rules, foul table, and the shared chapter-transition page were visually checked.
+entries:
+- id: qtta-ch06-001
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Six - Changes in Quidditch Since the Fourteenth Century
+  chapter_start_pdf_page: 25
+  chapter_end_pdf_page: 39
+  pdf_page: 25
+  printed_page: 17
+  extracted_text_lines: OCR lines 634-763
+  text_anchor:
+    start_phrase: oval-shaped, five hundred feet long
+    end_phrase: pitch has not altered since that time
+    local_occurrence_note: Pitch subsection, including Mumps's description, Umfraville's diagram, and the 1883 goal-hoop
+      reform.
+  nearby_context: The section traces the pitch from baskets and a central release circle through scoring areas to
+    standardized hoops.
+  match_terms:
+  - oval pitch
+  - five hundred feet
+  - scoring areas
+  - goalposts
+  - 1883
+  quote_excerpt_short: oval-shaped, five hundred feet long, and a hundred and eighty feet wide
+  source_note: The standard pitch developed from a 500-by-180-foot oval with a central release circle and basket
+    goals; scoring areas appeared by 1620 and fixed hoops replaced baskets in 1883.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - quidditch-pitch
+  - goalposts
+  - scoring-areas
+  - quidditch-history
+  - pitch-dimensions
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Pitch and Equipment
+  reason_for_placement: It supplies the historical form and standardized dimensions underlying the Hogwarts pitch.
+  relevance_to_hogwarts_a_history: It explains the inherited physical layout used for school matches.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch07-001
+    - ps-ch11-004
+    notes: The novels show Hogwarts goal hoops and pitch facilities; this entry provides the historical standardized
+      design.
+  confidence: high
+  limitations: The chapter does not explicitly state that Hogwarts's pitch measures exactly these dimensions.
+- id: qtta-ch06-002
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Six - Changes in Quidditch Since the Fourteenth Century
+  chapter_start_pdf_page: 25
+  chapter_end_pdf_page: 39
+  pdf_page: 28
+  printed_page: 20
+  extracted_text_lines: OCR lines 728-786
+  text_anchor:
+    start_phrase: Quaffle was from earliest times made of leather
+    end_phrase: The Pennifold Quaffle is still used today
+    local_occurrence_note: Quaffle subsection following the 1883 goal-hoop report.
+  nearby_context: Whisp describes the transition from straps and finger holes to Gripping Charms, scarlet coloring,
+    and slow-fall enchantment.
+  match_terms:
+  - Quaffle
+  - leather
+  - Gripping Charms
+  - scarlet
+  - Daisy Pennifold
+  quote_excerpt_short: modern Quaffle is twelve inches in diameter and seamless
+  source_note: The modern Quaffle is a seamless twelve-inch scarlet leather ball with a Gripping Charm and Daisy
+    Pennifold's slow-fall enchantment.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - quaffle
+  - quidditch-equipment
+  - gripping-charm
+  - daisy-pennifold
+  - enchanted-balls
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Pitch and Equipment
+  reason_for_placement: It gives the materials, dimensions, visibility feature, and handling enchantments of a Hogwarts
+    match ball.
+  relevance_to_hogwarts_a_history: It expands the novel's school-level identification of the Quaffle into technical
+    equipment history.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch07-001
+    notes: Harry identifies the Quaffle and its scoring role; this companion adds specifications and enchantment
+      history.
+  confidence: high
+  limitations: The source does not identify the manufacturer or storage practices for Hogwarts Quaffles.
+- id: qtta-ch06-003
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Six - Changes in Quidditch Since the Fourteenth Century
+  chapter_start_pdf_page: 25
+  chapter_end_pdf_page: 39
+  pdf_page: 29
+  printed_page: 21
+  extracted_text_lines: OCR lines 764-840
+  text_anchor:
+    start_phrase: first Bludgers were flying rocks
+    end_phrase: attack the player closest to them
+    local_occurrence_note: Bludger subsection from early stone forms through modern iron balls.
+  nearby_context: The section explains why reinforced bats made stone and lead unsuitable and describes the modern
+    Bludger's size and targeting behavior.
+  match_terms:
+  - Bludgers
+  - flying rocks
+  - iron
+  - ten inches
+  - chase players
+  quote_excerpt_short: Nowadays all Bludgers are made of iron
+  source_note: Bludgers evolved from bewitched rocks through unsuccessful lead balls to ten-inch iron balls that
+    chase the nearest player unless redirected by Beaters.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - bludgers
+  - quidditch-equipment
+  - enchanted-balls
+  - beaters
+  - equipment-safety
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Pitch and Equipment
+  reason_for_placement: It gives the material, size, enchantment, and Beater-related function of dangerous school
+    equipment.
+  relevance_to_hogwarts_a_history: It clarifies the behavior and safety risk of the Bludgers used in Hogwarts matches
+    and practices.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch07-001
+    - cos-ch10-004
+    notes: The novels identify Bludgers and show one dangerously tampered with; this entry supplies normal specifications
+      and behavior.
+  confidence: high
+  limitations: The account does not describe Hogwarts inspection or storage procedures for Bludgers.
+- id: qtta-ch06-004
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Six - Changes in Quidditch Since the Fourteenth Century
+  chapter_start_pdf_page: 25
+  chapter_end_pdf_page: 39
+  pdf_page: 31
+  printed_page: 23
+  extracted_text_lines: OCR lines 814-840
+  text_anchor:
+    start_phrase: Golden Snitch is walnut-sized
+    end_phrase: evaded capture for six months
+    local_occurrence_note: Golden Snitch subsection immediately before player positions.
+  nearby_context: The text compares the ball with the Snidget and states that it is enchanted to avoid capture.
+  match_terms:
+  - Golden Snitch
+  - walnut-sized
+  - evade capture
+  quote_excerpt_short: bewitched to evade capture as long as possible
+  source_note: The Golden Snitch is walnut-sized and deliberately enchanted to evade capture, making Seeker skill
+    rather than passive retrieval central to the game.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - golden-snitch
+  - quidditch-equipment
+  - enchanted-balls
+  - seeker
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Pitch and Equipment
+  reason_for_placement: The passage states the normal physical and magical behavior of a Hogwarts match ball.
+  relevance_to_hogwarts_a_history: It explains why the Snitch is difficult to catch in school competition.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - qtta-ch04-003
+    - cos-ch07-001
+    notes: The invention entry supplies provenance and the novel supplies match function; this section restates
+      the modern specification.
+  confidence: high
+  limitations: The chapter does not explain maintenance, replacement, or release procedures at Hogwarts.
+- id: qtta-ch06-005
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Six - Changes in Quidditch Since the Fourteenth Century
+  chapter_start_pdf_page: 25
+  chapter_end_pdf_page: 39
+  pdf_page: 31
+  printed_page: 23
+  extracted_text_lines: OCR lines 814-894
+  text_anchor:
+    start_phrase: position of Keeper has certainly existed since the thirteenth century
+    end_phrase: take both hands from their brooms
+    local_occurrence_note: Keeper and Beater subsections.
+  nearby_context: Whisp contrasts the mobile medieval Keeper with the later scoring-area role and describes Beaters'
+    protection duties, bats, strength, and balance.
+  match_terms:
+  - Keeper
+  - scoring area
+  - Beaters
+  - Bludgers
+  - bats
+  quote_excerpt_short: Their first duty is to guard their team members from the Bludgers
+  source_note: Keepers evolved from all-pitch scorers into goal defenders, while two Beaters protect teammates by
+    redirecting Bludgers with bats and need strength and exceptional balance.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - keeper
+  - beaters
+  - player-positions
+  - bludgers
+  - quidditch-rules
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Player Positions
+  reason_for_placement: It defines two of the four roles and explains how one changed historically.
+  relevance_to_hogwarts_a_history: It deepens the compact position descriptions observed in Hogwarts House matches.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch07-001
+    - ps-ch11-005
+    notes: These novel entries establish the roles in school play; the companion adds historical development and
+      skill requirements.
+  confidence: high
+  limitations: The gender observation about Beaters describes a tendency, not a rule or Hogwarts selection policy.
+- id: qtta-ch06-006
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Six - Changes in Quidditch Since the Fourteenth Century
+  chapter_start_pdf_page: 25
+  chapter_end_pdf_page: 39
+  pdf_page: 33
+  printed_page: 25
+  extracted_text_lines: OCR lines 867-960
+  text_anchor:
+    start_phrase: Chaser is the oldest position in Quidditch
+    end_phrase: first rule in Brutus Scrimgeour's The Beaters' Bible
+    local_occurrence_note: Chaser and Seeker subsections, including the 1884 anti-stooging reform.
+  nearby_context: The section describes passing and ten-point goals, limits scoring-area entry to the ball carrier,
+    and characterizes Seekers as fast, agile, and frequent foul targets.
+  match_terms:
+  - Chasers
+  - ten points
+  - stooging
+  - Seeker
+  - injuries
+  quote_excerpt_short: score ten points for every time they get it through one of the goal hoops
+  source_note: Three Chasers pass and score ten-point goals; only the ball carrier may enter the scoring area. The
+    Seeker is normally the fastest flier and a frequent target because catching the Snitch can decide the match.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - chasers
+  - seeker
+  - player-positions
+  - scoring
+  - stooging
+  - quidditch-rules
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Player Positions
+  reason_for_placement: It defines the remaining roles, scoring, a position-specific restriction, and associated
+    risks.
+  relevance_to_hogwarts_a_history: It provides authoritative detail for positions and scoring used in Hogwarts House
+    Quidditch.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch07-001
+    - ps-ch11-005
+    notes: The novels corroborate Chaser scoring and Seeker importance during Hogwarts matches.
+  confidence: high
+  limitations: The source describes general Quidditch; Hogwarts-specific recruitment and captaincy remain documented
+    by the novels.
+- id: qtta-ch06-007
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Six - Changes in Quidditch Since the Fourteenth Century
+  chapter_start_pdf_page: 25
+  chapter_end_pdf_page: 39
+  pdf_page: 35
+  printed_page: 27
+  extracted_text_lines: OCR lines 933-989
+  text_anchor:
+    start_phrase: following rules were set down
+    end_phrase: opposing Keeper must keep well back
+    local_occurrence_note: First three numbered rules issued by the Department in 1750.
+  nearby_context: The rules govern pitch boundaries, captain-called timeouts, disqualification after extended absence,
+    and penalty-taking procedure.
+  match_terms:
+  - 1750 rules
+  - boundary lines
+  - time out
+  - captain
+  - penalty
+  quote_excerpt_short: The Captain of a team may call for time out
+  source_note: Department rules require players to stay inside pitch boundaries, give captains sole authority to
+    call timeouts, and isolate a penalty-taking Chaser against the opposing Keeper.
+  reference_type: school_rule_or_policy
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - quidditch-rules
+  - team-captains
+  - pitch-boundaries
+  - timeouts
+  - penalties
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Rules, Fouls, and Officiating
+  reason_for_placement: These standardized rules govern ordinary play and captain authority.
+  relevance_to_hogwarts_a_history: They explain procedures visible but not fully stated during Hogwarts matches.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch11-005
+    notes: The Hogwarts match entry shows a penalty and captain-led play; this source provides the formal procedure.
+  confidence: high
+  limitations: The text states national rules and does not discuss any school-level modifications.
+- id: qtta-ch06-008
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Six - Changes in Quidditch Since the Fourteenth Century
+  chapter_start_pdf_page: 25
+  chapter_end_pdf_page: 39
+  pdf_page: 36
+  printed_page: 28
+  extracted_text_lines: OCR lines 961-1030
+  text_anchor:
+    start_phrase: In the case of injury, no substitution
+    end_phrase: by mutual consent of the two team Captains
+    local_occurrence_note: Final numbered rules followed by the opening of the fouls subsection.
+  nearby_context: The rules prohibit injury substitutions and wand use against participants, equipment, officials,
+    or spectators, and define how a match ends.
+  match_terms:
+  - injury
+  - no substitution
+  - wands
+  - Golden Snitch
+  - mutual consent
+  quote_excerpt_short: no substitution of players will take place
+  source_note: Injured players cannot be replaced; carried wands cannot be used against players, brooms, officials,
+    balls, or spectators; play ends with a Snitch catch or both captains' consent.
+  reference_type: school_rule_or_policy
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - quidditch-rules
+  - player-injuries
+  - substitutions
+  - wand-use
+  - match-ending
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Rules, Fouls, and Officiating
+  reason_for_placement: These rules define safety constraints, team attrition, and match termination.
+  relevance_to_hogwarts_a_history: They clarify the formal rule system applied to school Quidditch.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch07-001
+    - ps-ch11-005
+    notes: The novels show Snitch-ended school play and foul enforcement but not the full restrictions stated here.
+  confidence: high
+  limitations: The book does not state whether Hogwarts can suspend a match for school emergencies outside these
+    sporting rules.
+- id: qtta-ch06-009
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Six - Changes in Quidditch Since the Fourteenth Century
+  chapter_start_pdf_page: 25
+  chapter_end_pdf_page: 39
+  pdf_page: 37
+  printed_page: 29
+  extracted_text_lines: OCR lines 990-1072
+  text_anchor:
+    start_phrase: Ten common fouls are listed below
+    end_phrase: More than one Chaser entering the scoring area
+    local_occurrence_note: Foul table spanning PDF pages 37-38.
+  nearby_context: The table names and defines ten recurring fouls and specifies which positions can commit them.
+  match_terms:
+  - Blagging
+  - Blatching
+  - Bumphing
+  - Snitchnip
+  - Stooging
+  quote_excerpt_short: Ten common fouls are listed below
+  source_note: Ten named common fouls regulate collision, broom interference, Bludger use, elbows, goal defense,
+    Quaffle handling or tampering, Snitch contact, and scoring-area entry.
+  reference_type: school_rule_or_policy
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - quidditch-fouls
+  - quidditch-rules
+  - player-safety
+  - scoring
+  - enchanted-equipment
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Rules, Fouls, and Officiating
+  reason_for_placement: The foul table provides the clearest compact source for prohibited conduct in matches.
+  relevance_to_hogwarts_a_history: It expands Hogwarts match evidence beyond the isolated fouls observed in the
+    novels.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - ps-ch11-002
+    - ps-ch11-005
+    notes: Harry reads the book's foul count and a Hogwarts match applies a penalty; this entry supplies the common-foul
+      taxonomy.
+  confidence: high
+  limitations: The Department withholds the complete list of seven hundred recorded fouls.
+- id: qtta-ch06-010
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Six - Changes in Quidditch Since the Fourteenth Century
+  chapter_start_pdf_page: 25
+  chapter_end_pdf_page: 39
+  pdf_page: 38
+  printed_page: 30
+  extracted_text_lines: OCR lines 1031-1088
+  text_anchor:
+    start_phrase: Refereeing a Quidditch match was once a task
+    end_phrase: even under severe pressure
+    local_occurrence_note: Referees subsection ending immediately before Chapter Seven.
+  nearby_context: Whisp describes referee danger, broom security, boundary officials, and British selection tests.
+  match_terms:
+  - referees
+  - broom security
+  - fourteen players
+  - flying tests
+  - written examination
+  quote_excerpt_short: watch the antics of fourteen players at once
+  source_note: Referees monitor fourteen players, use boundary officials at professional matches, and in Britain
+    must pass flying, written-rule, and temperament tests; security guidelines protect their brooms.
+  reference_type: institutional_custom
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - quidditch-referees
+  - officiating
+  - quidditch-rules
+  - broom-safety
+  - department-of-magical-games-and-sports
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Rules, Fouls, and Officiating
+  reason_for_placement: The passage defines the competence, assistance, and safety controls expected of officials.
+  relevance_to_hogwarts_a_history: It contextualizes Madam Hooch's school-match role within wider refereeing standards.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch11-005
+    notes: The novel confirms Hooch refereeing at Hogwarts; this entry provides general official duties and qualifications.
+  confidence: high
+  limitations: Professional boundary officials and Department selection cannot automatically be assumed for school
+    referees.

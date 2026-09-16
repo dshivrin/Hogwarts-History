@@ -1,0 +1,321 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty - The Pensieve
+  chapter_start_pdf_page: 1434
+  chapter_end_pdf_page: 1453
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml; extracted only PDF pages 1434-1453 with pypdf via scripts/extract_pages.py.
+  processed_date: '2026-06-30'
+  processor_notes: "Processed only Book 4, Chapter Thirty. Text was extracted into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History title reference was found. Quote excerpts were kept under 25 words per entry."
+entries:
+- id: gof-ch30-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty - The Pensieve
+  chapter_start_pdf_page: 1434
+  chapter_end_pdf_page: 1453
+  pdf_page: 1434
+  printed_page: null
+  extracted_text_lines: 8-11, 42-48
+  text_anchor:
+    start_phrase: Harry walked inside
+    end_phrase: founder of Harry's House
+    local_occurrence_note: Harry waits in Dumbledore's office while Fudge, Moody, and Dumbledore inspect the grounds.
+  nearby_context: The office is circular, lined with sleeping portraits of former Hogwarts heads, and contains the Sorting Hat beside Godric Gryffindor's sword in a glass case.
+  match_terms:
+  - Dumbledore's office
+  - headmaster portraits
+  - Sorting Hat
+  - Godric Gryffindor
+  - Gryffindor sword
+  quote_excerpt_short: previous headmasters and headmistresses of Hogwarts
+  source_note: The chapter corroborates the headmaster's office interior and adds that Godric Gryffindor's sword is displayed near the Sorting Hat in a glass case.
+  reference_type: direct_observed_setting
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - dumbledore-office
+  - headmaster-office
+  - headmaster-portraits
+  - sorting-hat
+  - gryffindor-sword
+  - godric-gryffindor
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Headmaster's Office and Protected Entrances
+  candidate_section: Office artifacts and founder-linked objects
+  reason_for_placement: The passage extends office-interior evidence to the founder-linked sword and its storage beside the Sorting Hat.
+  relevance_to_hogwarts_a_history: Useful for describing the headmaster's office as an administrative space that preserves school memory through portraits and founder artifacts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch12-001
+    - cos-ch18-004
+    - gof-ch29-006
+    notes: Corroborates Dumbledore's office interior and Godric Gryffindor sword evidence; adds the sword's office display location during the Triwizard year.
+  confidence: high
+  limitations: The source does not explain who controls access to the sword or how long it normally remains in the office.
+- id: gof-ch30-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty - The Pensieve
+  chapter_start_pdf_page: 1434
+  chapter_end_pdf_page: 1453
+  pdf_page: 1436
+  printed_page: null
+  extracted_text_lines: 57-64, 435-443, 449-468
+  text_anchor:
+    start_phrase: A shallow stone basin lay there
+    end_phrase: it would have attracted your attention
+    local_occurrence_note: Harry discovers the basin in a partly open cabinet, enters a memory, and later receives Dumbledore's explanation.
+  nearby_context: The Pensieve appears as a rune-carved stone basin with silvery contents; Dumbledore says thoughts can be siphoned into it and examined for patterns and links.
+  match_terms:
+  - Pensieve
+  - memory
+  - thoughts
+  - stone basin
+  - Dumbledore
+  quote_excerpt_short: It is called a Pensieve
+  source_note: Dumbledore identifies the Pensieve and explains its use for externalizing excess thoughts, examining memories, and seeing patterns more clearly.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - pensieve
+  - memory-magic
+  - dumbledore-office
+  - magical-artifact
+  - thoughts
+  - pattern-analysis
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Headmaster's Office and Protected Entrances
+  candidate_section: The Pensieve and stored memories
+  reason_for_placement: The Pensieve is a named magical artifact housed in the headmaster's office and used by Dumbledore for memory review.
+  relevance_to_hogwarts_a_history: A later edition can use this as concrete evidence for an extraordinary memory-review tool available in the headmaster's office.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Query results found headmaster-office overlaps but no prior entry for the Pensieve's mechanism or use.
+  confidence: high
+  limitations: The passage explains Dumbledore's use of the Pensieve but not whether the artifact belongs to Hogwarts institutionally or personally to him.
+- id: gof-ch30-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty - The Pensieve
+  chapter_start_pdf_page: 1434
+  chapter_end_pdf_page: 1453
+  pdf_page: 1436
+  printed_page: null
+  extracted_text_lines: 74-84, 135-151
+  text_anchor:
+    start_phrase: enormous room below the surface
+    end_phrase: The door swung shut behind them
+    local_occurrence_note: Harry first views and then enters Dumbledore's memory of a Ministry courtroom.
+  nearby_context: The underground courtroom has tiered benches, a central chained chair, adult wizard spectators, torches, and dementors escorting prisoners to the chair.
+  match_terms:
+  - Council of Magical Law
+  - courtroom
+  - chained chair
+  - dementors
+  - Ministry
+  quote_excerpt_short: chair with the chains on its arms
+  source_note: The memory records a Ministry legal chamber with tiered benches, a restraint chair, and dementor prisoner escorts during postwar trials.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - council-of-magical-law
+  - ministry-of-magic
+  - courtroom
+  - dementors
+  - azkaban
+  - wizarding-law
+  candidate_part: Wars, Crises, and School Memory
+  candidate_chapter: First Wizarding War Legal Aftermath
+  candidate_section: Council of Magical Law courtroom procedure
+  reason_for_placement: The trial memory gives concrete institutional details for wizarding legal procedure after Voldemort's first fall.
+  relevance_to_hogwarts_a_history: Useful as background for staff and student connections to wartime justice, especially through Dumbledore's preserved memories.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Query results found general Azkaban and dementor entries but no close match for the Council courtroom and chained-chair procedure.
+  confidence: high
+  limitations: The courtroom is seen through Dumbledore's memory rather than a present-day location; its exact date is not stated in the passage.
+- id: gof-ch30-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty - The Pensieve
+  chapter_start_pdf_page: 1434
+  chapter_end_pdf_page: 1453
+  pdf_page: 1439
+  printed_page: null
+  extracted_text_lines: 162-166, 181-184, 193-201, 237-249, 257-266
+  text_anchor:
+    start_phrase: Igor Karkaroff
+    end_phrase: no more a Death Eater than I am
+    local_occurrence_note: Karkaroff gives evidence to the Ministry and names Snape before Dumbledore defends him.
+  nearby_context: Crouch questions Karkaroff, Moody says a deal may release him, Karkaroff names Death Eaters and Rookwood's Ministry spy network, and Dumbledore testifies that Snape turned spy.
+  match_terms:
+  - Karkaroff
+  - Snape
+  - Death Eaters
+  - Rookwood
+  - Dumbledore
+  quote_excerpt_short: Severus Snape is a Death Eater
+  source_note: Karkaroff's testimony preserves postwar Death Eater naming, Rookwood's Department of Mysteries leak, and Dumbledore's claim that Snape became a spy before Voldemort's downfall.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - karkaroff
+  - snape
+  - death-eaters
+  - rookwood
+  - department-of-mysteries
+  - dumbledore
+  - first-wizarding-war
+  candidate_part: Wars, Crises, and School Memory
+  candidate_chapter: First Wizarding War Legal Aftermath
+  candidate_section: Karkaroff testimony and Snape's wartime role
+  reason_for_placement: The scene joins Ministry trial evidence to Hogwarts staff history and later school-security concerns.
+  relevance_to_hogwarts_a_history: A later edition can use this as major background for Snape's continued appointment and unresolved wartime mistrust at Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch27-005
+    - gof-ch19-006
+    - gof-ch09-007
+    notes: Corroborates Karkaroff/Snape/Death Eater context and Dark Mark history; adds the courtroom testimony, Rookwood information network, and Dumbledore's direct defense of Snape.
+  confidence: high
+  limitations: Karkaroff is bargaining for leniency, so his motives are compromised even when some named information proves useful.
+- id: gof-ch30-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty - The Pensieve
+  chapter_start_pdf_page: 1434
+  chapter_end_pdf_page: 1453
+  pdf_page: 1442
+  printed_page: null
+  extracted_text_lines: 295-299, 311-324, 327-341
+  text_anchor:
+    start_phrase: Ludo Bagman, you have been brought here
+    end_phrase: sad day indeed for the Ministry
+    local_occurrence_note: A separate Pensieve memory shows Bagman's trial and acquittal by a sympathetic jury.
+  nearby_context: Crouch says Bagman passed information to Voldemort's supporters, Bagman claims Rookwood misled him with promises of Ministry work, and the jury votes against imprisonment while applauding his Quidditch fame.
+  match_terms:
+  - Ludo Bagman
+  - Rookwood
+  - Ministry
+  - Quidditch
+  - trial
+  quote_excerpt_short: caught passing information to Lord Voldemort's supporters
+  source_note: Bagman's trial shows that popularity and Quidditch celebrity affected wartime legal judgment despite evidence that he passed information to Rookwood.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - ludo-bagman
+  - rookwood
+  - ministry-of-magic
+  - quidditch
+  - council-of-magical-law
+  - first-wizarding-war
+  candidate_part: Wars, Crises, and School Memory
+  candidate_chapter: First Wizarding War Legal Aftermath
+  candidate_section: Bagman's Rookwood-linked acquittal
+  reason_for_placement: The passage adds a public figure's wartime legal history and shows inconsistency in postwar Ministry judgment.
+  relevance_to_hogwarts_a_history: Useful background for Bagman's later tournament role and for a later note on how public reputation shaped Ministry responses around Hogwarts.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Query found no likely prior Bagman/Rookwood Ministry-trial duplicate.
+  confidence: high
+  limitations: The memory shows the verdict scene but does not include all evidence presented before Harry entered it.
+- id: gof-ch30-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty - The Pensieve
+  chapter_start_pdf_page: 1434
+  chapter_end_pdf_page: 1453
+  pdf_page: 1445
+  printed_page: null
+  extracted_text_lines: 366-380, 388-410, 584-600
+  text_anchor:
+    start_phrase: You have been brought here before the Council of Magical Law
+    end_phrase: none too reliable
+    local_occurrence_note: The Pensieve shows Barty Crouch Jr.'s sentencing, and Dumbledore later explains the Longbottom aftermath.
+  nearby_context: Four defendants are accused of torturing Frank and Alice Longbottom for information about Voldemort; the jury votes for life in Azkaban and Dumbledore later says the Longbottoms are alive but permanently damaged.
+  match_terms:
+  - Barty Crouch Jr.
+  - Longbottoms
+  - Cruciatus Curse
+  - Azkaban
+  - Council of Magical Law
+  quote_excerpt_short: life sentence in Azkaban
+  source_note: The memory and Dumbledore's explanation document the Longbottom torture case, public fury after Voldemort's fall, and the Ministry pressure that shaped Crouch Jr.'s sentencing.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - longbottoms
+  - barty-crouch-jr
+  - cruciatus-curse
+  - azkaban
+  - council-of-magical-law
+  - first-wizarding-war
+  - ministry-of-magic
+  candidate_part: Wars, Crises, and School Memory
+  candidate_chapter: First Wizarding War Legal Aftermath
+  candidate_section: Longbottom torture trial and Crouch family scandal
+  reason_for_placement: The scene supplies direct legal-history evidence for a case that later shapes Hogwarts students, staff, and wartime memory.
+  relevance_to_hogwarts_a_history: A later edition can connect Neville's family history, Moody's Auror context, and Crouch's tournament-year collapse to postwar Ministry justice.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch27-007
+    - gof-ch14-005
+    - gof-ch09-007
+    notes: Corroborates Crouch's harsh law-enforcement record, Unforgivable Curse sentencing, and postwar Death Eater history; adds the trial scene and Dumbledore's Longbottom explanation.
+  confidence: high
+  limitations: Dumbledore explicitly says he does not know whether Crouch's son was involved, so the entry should preserve that uncertainty.
+- id: gof-ch30-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty - The Pensieve
+  chapter_start_pdf_page: 1434
+  chapter_end_pdf_page: 1453
+  pdf_page: 1451
+  printed_page: null
+  extracted_text_lines: 554-566
+  text_anchor:
+    start_phrase: The years of Voldemort's ascent to power
+    end_phrase: as you may have heard, while waiting outside my office
+    local_occurrence_note: Dumbledore analyzes Harry's dream and the recent disappearances after returning from the Pensieve.
+  nearby_context: Dumbledore compares Bertha Jorkins, Crouch, and Frank Bryce, notes that he reads Muggle newspapers, and says the Ministry disagrees that the disappearances are linked.
+  match_terms:
+  - Dumbledore
+  - Bertha Jorkins
+  - Barty Crouch
+  - Frank Bryce
+  - Ministry
+  - disappearances
+  quote_excerpt_short: These disappearances seem to me to be linked
+  source_note: Dumbledore connects Bertha Jorkins, Barty Crouch, and Frank Bryce as linked disappearances while noting Ministry resistance and his own use of Muggle newspapers.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - dumbledore
+  - bertha-jorkins
+  - barty-crouch
+  - frank-bryce
+  - ministry-of-magic
+  - muggle-newspapers
+  - voldemort
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Tournament Revival
+  candidate_section: Linked disappearances and Ministry disagreement
+  reason_for_placement: The passage captures Dumbledore's active interpretation of tournament-year evidence that the Ministry resists connecting.
+  relevance_to_hogwarts_a_history: Useful for a later editorial note on the warning signs surrounding the Triwizard revival and the limits of Ministry investigation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch29-007
+    - gof-ch28-005
+    - gof-ch07-005
+    notes: Corroborates the Crouch/Bertha investigation and earlier Bertha search concerns; adds Frank Bryce, Muggle newspapers, and Dumbledore's explicit linkage theory.
+  confidence: high
+  limitations: Dumbledore calls his view a theory, and the Ministry's contrary position is summarized rather than quoted in full here.

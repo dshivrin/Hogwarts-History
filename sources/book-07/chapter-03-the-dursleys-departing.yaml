@@ -1,0 +1,194 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Three - The Dursleys Departing
+  chapter_start_pdf_page: 2998
+  chapter_end_pdf_page: 3009
+  boundary_confidence: high
+  boundary_notes: Chapter Three page range was taken from project-control/processing-state.yaml after Book 7 Chapter Two. Only PDF pages 2998-3009 were extracted and searched.
+  processed_date: '2026-07-31'
+  processor_notes: "Processed only Book 7, Chapter Three. Text was extracted locally with pypdf into .tmp/current-chapter.txt and .tmp/chapter-07-03-pages. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+  - id: dh-ch03-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Three - The Dursleys Departing
+    chapter_start_pdf_page: 2998
+    chapter_end_pdf_page: 3009
+    pdf_page: 3000
+    printed_page: null
+    extracted_text_lines: "73-95"
+    text_anchor:
+      start_phrase: "You claim"
+      end_phrase: "the best there is"
+      local_occurrence_note: "Harry repeats the protection explanation previously delivered to the Dursleys by Dumbledore, Kingsley, and Mr. Weasley."
+    nearby_context: "Vernon doubts the Order's warning, and Harry explains that the charm protecting him and his relatives will fail when he turns seventeen."
+    match_terms:
+      - protective charm
+      - seventeen
+      - privet drive
+      - dursley family
+      - order protection
+      - voldemort
+    quote_excerpt_short: "the protective charm that keeps me safe will break"
+    source_note: "Harry states that the protective charm tied to his underage status will break when he turns seventeen, exposing both Harry and the Dursleys to Voldemort's targeting."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - blood-protection
+      - privet-drive
+      - protective-magic
+      - seventeenth-birthday
+      - dursley-family
+      - order-of-the-phoenix
+      - voldemort
+    candidate_part: Protective Magic and Security
+    candidate_chapter: "Student Protection and Exceptional Safeguards"
+    candidate_section: "Privet Drive Protection Breaks at Seventeen"
+    reason_for_placement: "The passage confirms the final operating limit of Harry's exceptional off-campus protection and the collateral risk to his Muggle relatives."
+    relevance_to_hogwarts_a_history: "A later edition can cross-reference this with earlier Privet Drive blood-protection evidence to explain why Harry's final summer required coordinated evacuation."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch03-007
+        - ootp-ch37-005
+        - ootp-ch02-006
+      notes: "Existing entries hbp-ch03-007, ootp-ch37-005, and ootp-ch02-006 already cover the Privet Drive blood protection and age-seventeen limit; this entry adds the final evacuation risk to the Dursleys and Order threat assessment."
+    confidence: high
+    limitations: "Harry paraphrases earlier explanations rather than naming the charm or giving its full mechanics in this scene."
+
+  - id: dh-ch03-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Three - The Dursleys Departing
+    chapter_start_pdf_page: 2998
+    chapter_end_pdf_page: 3009
+    pdf_page: 3001
+    printed_page: null
+    extracted_text_lines: "99-129"
+    text_anchor:
+      start_phrase: "I thought there was a Ministry of Magic"
+      end_phrase: "more than up to the job"
+      local_occurrence_note: "Vernon asks why the Ministry cannot protect them, and Harry explains the Ministry infiltration concern and Kingsley's assignment."
+    nearby_context: "The Dursleys prefer Kingsley after seeing him near the Muggle Prime Minister on television, but Harry says he is unavailable."
+    match_terms:
+      - ministry of magic
+      - ministry infiltration
+      - kingsley shacklebolt
+      - muggle prime minister
+      - hestia jones
+      - dedalus diggle
+    quote_excerpt_short: "We think the Ministry has been infiltrated"
+    source_note: "The Order treats the Ministry as unreliable for Dursley protection because of suspected infiltration, while Kingsley is already assigned to protect the Muggle Prime Minister."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - ministry-infiltration
+      - order-of-the-phoenix
+      - kingsley-shacklebolt
+      - muggle-prime-minister
+      - hestia-jones
+      - dedalus-diggle
+      - second-war
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Ministry Reliability and Civilian Protection"
+    reason_for_placement: "The passage explains why wartime protection moved from official Ministry channels to Order escorts and safe locations."
+    relevance_to_hogwarts_a_history: "Useful as later-context evidence for how Voldemort's war affected Hogwarts-connected protectors and the wider magical government's trustworthiness."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "dh-ch01-003 records Ministry infiltration around Pius Thicknesse and protective enchantments, but this entry is distinct for civilian protection, Kingsley's Muggle Prime Minister assignment, and Dursley evacuation planning."
+    confidence: high
+    limitations: "The evidence reflects the Order's assessment as relayed by Harry, not an official Ministry record."
+
+  - id: dh-ch03-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Three - The Dursleys Departing
+    chapter_start_pdf_page: 2998
+    chapter_end_pdf_page: 3009
+    pdf_page: 3002
+    printed_page: null
+    extracted_text_lines: "133-151"
+    text_anchor:
+      start_phrase: "These accidents aren't accidents"
+      end_phrase: "I think you'll agree you need help"
+      local_occurrence_note: "Harry uses news reports and remembered attacks to convince Vernon that the Dursleys need magical protection."
+    nearby_context: "Harry links crashes, explosions, derailments, disappearances, deaths, fogs, dementors, Death Eaters, and possible Inferi to Voldemort's return."
+    match_terms:
+      - voldemort
+      - death eaters
+      - dementors
+      - inferi
+      - muggle attacks
+      - public danger
+    quote_excerpt_short: "These accidents aren't accidents"
+    source_note: "Harry describes wartime Muggle-visible disasters as Voldemort-driven attacks and identifies dementor-created fogs, Death Eaters, and possible Inferi as threats to exposed Muggles."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - death-eaters
+      - dementors
+      - inferi
+      - muggle-casualties
+      - public-danger
+      - voldemort
+      - second-war
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Muggle-Visible Violence and Dark Creatures"
+    reason_for_placement: "The scene connects Voldemort's second rise to public disasters and non-school threats that reshape the context around Harry's final school-age summer."
+    relevance_to_hogwarts_a_history: "A later editorial note can use this evidence to explain why Hogwarts-connected security measures were part of a broader wartime emergency."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Queries surfaced related HBP entries on Ministry public guidance, Defense curriculum, and Inferi behavior, but none records Harry's wartime explanation tying Muggle disasters, dementor fog, and Dursley exposure together."
+    confidence: medium
+    limitations: "Harry's summary is persuasive scene dialogue and does not independently verify each reported disaster."
+
+  - id: dh-ch03-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Three - The Dursleys Departing
+    chapter_start_pdf_page: 2998
+    chapter_end_pdf_page: 3009
+    pdf_page: 3004
+    printed_page: null
+    extracted_text_lines: "196-229"
+    text_anchor:
+      start_phrase: "The plan, as Harry has told you"
+      end_phrase: "the charm breaks at the moment you all head for safety"
+      local_occurrence_note: "Dedalus explains the Dursleys' evacuation route, the underage-magic concern, and the timed departure."
+    nearby_context: "Hestia says Mad-Eye cannot retrieve Harry by Side-Along Apparition, and Dedalus's pocket watch presses the schedule."
+    match_terms:
+      - underage magic
+      - ministry excuse
+      - disapparating
+      - safe location
+      - side-along apparition
+      - timed departure
+    quote_excerpt_short: "driving, say, ten miles or so"
+    source_note: "Dedalus plans to avoid magic in Harry's underage household, drive the Dursleys away first, then Disapparate them to a safe location timed with Harry's own departure and the charm's failure."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - underage-magic
+      - disapparition
+      - side-along-apparition
+      - safe-house
+      - order-of-the-phoenix
+      - operational-security
+      - protective-magic
+    candidate_part: Protective Magic and Security
+    candidate_chapter: "Student Protection and Exceptional Safeguards"
+    candidate_section: "Evacuation Timing and Underage-Magic Constraints"
+    reason_for_placement: "The passage records practical constraints on moving an underage wizard's household without triggering Ministry grounds for action."
+    relevance_to_hogwarts_a_history: "Useful for a later edition's discussion of underage-magic law, wartime transport, and protection logistics around Harry's final transition out of school-age status."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Related entries cover Hogwarts anti-Apparition protections, Apparition licensing, and Ministry transport monitoring; this evidence is distinct for a Muggle-household evacuation route and timed charm failure."
+    confidence: high
+    limitations: "The scene does not explain why Mad-Eye's original Side-Along-Apparition plan cannot proceed."

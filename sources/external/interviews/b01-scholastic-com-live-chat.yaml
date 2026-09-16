@@ -1,0 +1,301 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B01
+  source_file: resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md
+  title: Online chat transcript, Scholastic.com , 3 February 2000
+  author: J.K. Rowling
+  source_site: Accio Quote
+  source_class: preservation_transcription
+  authority: D
+  publication_date: '3 February 2000'
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm
+  capture_completeness: complete
+  content_sha256: 7e9bd4f9eb5cd78cbfda7763b6bbc054ec14a28deb04c0f98928016bb9fa5cbe
+  processed_date: '2026-08-15'
+  processor_notes: Complete preserved transcript read; extracts retain the carrier's preservation-transcription authority and interview-era limitations.
+
+entries:
+  - id: ext-b01-001
+    source_file: resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md
+    source_id: B01
+    source_url: https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm
+    source_section: Live chat transcript
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: How do students at Hogwarts get educated in Muggle subjects?
+      end_phrase: that's where they learn about Muggles in school.
+      local_occurrence_note: Question and answer following the explanation of Marcus Flint repeating a year.
+    nearby_context: Rowling answers a question about whether Hogwarts pupils learn non-magical subjects and cites Hermione's third-year Muggle Studies class.
+    match_terms:
+      - muggle-studies
+      - elective-subject
+      - hermione-granger
+    quote_excerpt_short: They can choose to study Muggle subjects.
+    source_note: The transcript describes Muggle Studies as an elective option at Hogwarts and identifies it as the class where pupils learn about Muggles.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hermione-granger
+      - muggle-studies
+      - optional-subject
+    candidate_part: Part II — The School
+    candidate_chapter: Education and Student Life
+    candidate_section: Curriculum and elective study
+    reason_for_placement: Records an elective subject and its stated educational purpose within the Hogwarts curriculum.
+    relevance_to_hogwarts_a_history: Useful as interview-era author commentary corroborating the school’s elective curriculum; it should be paired with published-book evidence for the precise course structure.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - poa-ch04-004
+        - cos-ch14-002
+      notes: The two duplicate-marked entries cover the same elective Muggle Studies claim; later-war references to the subject are corroborating or distinct context.
+      audit:
+        query_tags:
+          - hermione-granger
+          - muggle-studies
+          - optional-subject
+        candidates:
+          - id: poa-ch04-004
+            disposition: duplicate
+          - id: beedle-fm-001
+            disposition: distinct
+          - id: cos-ch04-004
+            disposition: distinct
+          - id: cos-ch07-003
+            disposition: distinct
+          - id: cos-ch14-002
+            disposition: duplicate
+          - id: dh-ch01-006
+            disposition: corroborating
+          - id: dh-ch06-003
+            disposition: corroborating
+          - id: dh-ch07-007
+            disposition: distinct
+          - id: dh-ch12-001
+            disposition: corroborating
+          - id: dh-ch19-001
+            disposition: distinct
+    confidence: medium
+    limitations: Preservation transcription (authority D), not an official first-party page; the concise 2000 live-chat answer is author commentary and does not independently establish the complete curriculum.
+
+  - id: ext-b01-002
+    source_file: resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md
+    source_id: B01
+    source_url: https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm
+    source_section: Live chat transcript
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The Ministry of Magic doesn't find out which children are magic.
+      end_phrase: sends owls to the people who are turning 11.
+      local_occurrence_note: Answer to the question about magical children born to two Muggles and how they are identified.
+    nearby_context: Rowling distinguishes Ministry discovery from a Hogwarts magical quill and parchment register, then describes McGonagall’s annual check and owl invitations.
+    match_terms:
+      - magical-quill
+      - admissions-register
+      - admissions-age
+    quote_excerpt_short: a magical quill which detects the birth of a magical child
+    source_note: The transcript says a Hogwarts quill enters each magical child's name in a parchment book at birth; McGonagall checks it annually and sends owls to children approaching eleven.
+    reference_type: school_rule_or_policy
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - admissions-register
+      - eleven-years-old
+      - magical-quill
+    candidate_part: Part II — The School
+    candidate_chapter: Admissions and First-Year Preparation
+    candidate_section: Locating and inviting prospective pupils
+    reason_for_placement: Describes an institutional admissions mechanism that operates before an incoming pupil reaches school age.
+    relevance_to_hogwarts_a_history: A useful historical-institutional candidate for Hogwarts admissions, while retaining the transcript’s secondary preservation status and author-interview context.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - admissions-register
+          - eleven-years-old
+          - magical-quill
+        candidates: []
+    confidence: medium
+    limitations: Preservation transcription (authority D), not an official first-party page; the answer is a short 2000 author statement and should be corroborated by published canon where available.
+
+  - id: ext-b01-003
+    source_file: resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md
+    source_id: B01
+    source_url: https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm
+    source_section: Live chat transcript
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Do you have an actual floorplan for Hogwarts?
+      end_phrase: vivid mental image of what it looks like.
+      local_occurrence_note: Question and answer after the confirmation that the series is planned as seven books.
+    nearby_context: "Rowling explains why she has not drawn a floorplan: Hogwarts staircases and rooms move, though she has a vivid mental image of the castle."
+    match_terms:
+      - moving-staircase
+      - moving-rooms
+      - castle-layout
+    quote_excerpt_short: the staircases and the rooms keep moving
+    source_note: The transcript attributes the absence of a fixed Hogwarts floorplan to mobile staircases and rooms.
+    reference_type: magical_architecture
+    era_classification: original_book_core_candidate
+    topic_tags:
+      - castle-floorplan
+      - moving-rooms
+      - moving-staircase
+    candidate_part: Part I — Hogwarts Castle
+    candidate_chapter: The Castle and Its Enchantments
+    candidate_section: Changeable internal architecture
+    reason_for_placement: Identifies moving interior features as a reason Hogwarts cannot be represented as a fixed conventional plan.
+    relevance_to_hogwarts_a_history: Supports a short account of Hogwarts’s mobile architecture, with the transcript serving as interview-era commentary alongside direct textual descriptions.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed entries corroborate moving staircases but do not make the same wider claim about moving rooms and the impossibility of a fixed floorplan.
+      audit:
+        query_tags:
+          - castle-floorplan
+          - moving-rooms
+          - moving-staircase
+        candidates:
+          - id: cos-ch11-007
+            disposition: corroborating
+          - id: cos-ch13-006
+            disposition: corroborating
+          - id: hbp-ch10-002
+            disposition: corroborating
+          - id: hbp-ch29-005
+            disposition: corroborating
+    confidence: medium
+    limitations: Preservation transcription (authority D), not an official first-party page; this is a concise 2000 author visualization rather than a technical architectural specification.
+
+  - id: ext-b01-004
+    source_file: resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md
+    source_id: B01
+    source_url: https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm
+    source_section: Live chat transcript
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: How do you visualize Hogwarts in its entirety?
+      end_phrase: because it is supported by magic.
+      local_occurrence_note: Answer near the later portion of the transcript, after the question about a Harry Potter computer game.
+    nearby_context: Rowling characterizes Hogwarts as a huge, rambling, scary-looking castle of towers and battlements and contrasts it with buildings Muggles could construct.
+    match_terms:
+      - magical-architecture
+      - castle-construction
+      - muggle-construction
+    quote_excerpt_short: it is supported by magic
+    source_note: The transcript says Hogwarts’s castle form depends on magic and therefore could not be built by Muggles.
+    reference_type: magical_architecture
+    era_classification: original_book_core_candidate
+    topic_tags:
+      - magic-supported-castle
+      - muggle-construction
+      - rambling-castle
+    candidate_part: Part I — Hogwarts Castle
+    candidate_chapter: The Castle and Its Enchantments
+    candidate_section: Magical construction and structural support
+    reason_for_placement: Supplies an authorial explanation for why the castle’s architecture exceeds non-magical construction.
+    relevance_to_hogwarts_a_history: Useful contextual commentary for the castle’s magical architecture, to be presented as an interview statement rather than direct narrative description.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - magic-supported-castle
+          - muggle-construction
+          - rambling-castle
+        candidates: []
+    confidence: medium
+    limitations: Preservation transcription (authority D), not an official first-party page; the informal 2000 description is author commentary and does not enumerate the castle’s magic or construction history.
+
+  - id: ext-b01-005
+    source_file: resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md
+    source_id: B01
+    source_url: https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm
+    source_section: Live chat transcript
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: What makes some witches/wizards become ghosts after they die and some not?
+      end_phrase: As you might guess, Moaning Myrtle!
+      local_occurrence_note: Early question and answer following the discussion of monsters and folklore.
+    nearby_context: Rowling postpones a full explanation to Book VII but states that the happiest people do not become ghosts, using Moaning Myrtle as an example.
+    match_terms:
+      - ghosts
+      - afterlife
+      - moaning-myrtle
+    quote_excerpt_short: the happiest people do not become ghosts
+    source_note: The transcript links ghosthood after death to unhappiness, while explicitly withholding the fuller explanation for a later book.
+    reference_type: portrait_or_ghost_lore
+    era_classification: later_editorial_note
+    topic_tags:
+      - ghost-formation
+      - happiness-after-death
+      - posthumous-choice
+    candidate_part: Part I — Hogwarts Castle
+    candidate_chapter: Resident Ghosts and Castle Memory
+    candidate_section: Ghosthood and posthumous presence
+    reason_for_placement: Offers a limited authorial explanation of why some witches and wizards become ghosts, relevant to Hogwarts’s resident ghosts.
+    relevance_to_hogwarts_a_history: Use only as a later editorial note because the transcript forecasts a Book VII explanation and is a preserved interview carrier.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - ghost-formation
+          - happiness-after-death
+          - posthumous-choice
+        candidates: []
+    confidence: low
+    limitations: Preservation transcription (authority D), not an official first-party page; the answer is deliberately incomplete in 2000 and points readers to a then-unpublished Book VII explanation.
+
+  - id: ext-b01-006
+    source_file: resources/external/interviews/accio-quote/b01-scholastic-com-live-chat.md
+    source_id: B01
+    source_url: https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm
+    source_section: Live chat transcript
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Do you think that you will write about Harry after he graduates from Hogwarts?
+      end_phrase: I have no plans to write an eighth book.
+      local_occurrence_note: Answer after the explanation of Squibs and Muggle-born magical children.
+    nearby_context: Asked about Harry after graduation and a wizarding university, Rowling says there is no University for Wizards and then describes her seven-book plan as provisional.
+    match_terms:
+      - wizarding-university
+      - higher-education
+      - post-hogwarts
+    quote_excerpt_short: there's no University for Wizards
+    source_note: The transcript states that there is no university for wizards, in response to a question about education after Hogwarts.
+    reference_type: school_rule_or_policy
+    era_classification: later_editorial_note
+    topic_tags:
+      - higher-education
+      - post-hogwarts-education
+      - wizarding-university
+    candidate_part: Part II — The School
+    candidate_chapter: Education and Student Life
+    candidate_section: Education after graduation
+    reason_for_placement: Addresses the stated endpoint of formal wizarding education in relation to Hogwarts graduation.
+    relevance_to_hogwarts_a_history: A narrow interview-era authorial clarification about post-Hogwarts education; it should be separated from directly evidenced school policy.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      audit:
+        query_tags:
+          - higher-education
+          - post-hogwarts-education
+          - wizarding-university
+        candidates: []
+    confidence: low
+    limitations: Preservation transcription (authority D), not an official first-party page; this is a concise 2000 planning-era answer, not a published in-universe institutional source.

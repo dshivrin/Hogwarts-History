@@ -1,0 +1,270 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter One - The Dark Lord Ascending
+  chapter_start_pdf_page: 2976
+  chapter_end_pdf_page: 2985
+  boundary_confidence: high
+  boundary_notes: "Used indexed page range from processing-state.yaml after the completed Book 6 Chapter 30 unit; extracted only pages 2976-2985 and did not scan the full PDF."
+  processed_date: '2026-07-30'
+  processor_notes: "Off-campus Death Eater council chapter. Hogwarts-relevant evidence is mainly later-editorial Second War context, with the strongest direct school evidence around Charity Burbage, Muggle Studies, and anti-Muggle curriculum politics."
+
+entries:
+  - id: dh-ch01-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter One - The Dark Lord Ascending
+    chapter_start_pdf_page: 2976
+    chapter_end_pdf_page: 2985
+    pdf_page: 2977
+    printed_page: null
+    extracted_text_lines: "24-58"
+    text_anchor:
+      start_phrase: "in a kind of salute and passed straight through"
+      end_phrase: "The eyes of the pale-faced portraits on the walls followed Snape and Yaxley"
+      local_occurrence_note: "Malfoy Manor approach and hallway description immediately before the Death Eater meeting."
+    nearby_context: "Snape and Yaxley enter Lucius Malfoy's property through wrought-iron gates, pass magical domestic features, and reach a portrait-lined hall before the council."
+    match_terms:
+      - malfoy-manor
+      - magical-architecture
+      - portraits
+      - warded-gates
+      - pure-blood-households
+    quote_excerpt_short: "passed straight through, as though the dark metal were smoke"
+    source_note: "Malfoy Manor uses enchanted entry gates, unattended doors, and watching portraits, preserving evidence for elite wizarding household architecture adjacent to Hogwarts-connected pure-blood families."
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - malfoy-manor
+      - magical-architecture
+      - portraits
+      - warded-gates
+      - pure-blood-households
+      - lucius-malfoy
+    candidate_part: Magical Architecture and Enchantments
+    candidate_chapter: "Pure-Blood Families and School Influence"
+    candidate_section: "Elite Household Architecture and Portrait Culture"
+    reason_for_placement: "The Malfoys are a Hogwarts-connected governing and student family, and their home supplies comparative evidence for the wider pure-blood culture surrounding the school."
+    relevance_to_hogwarts_a_history: "Useful as a later-editorial comparison point for portrait culture, magical access control, and the domestic power base of a family repeatedly involved in Hogwarts affairs."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Related context appears in ootp-ch04-003 for Grimmauld Place and in several Hogwarts portrait entries, but this entry records different Malfoy Manor household evidence."
+    confidence: medium
+    limitations: "The scene is off campus and does not state whether the manor portraits share Hogwarts portrait-network behavior."
+
+  - id: dh-ch01-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter One - The Dark Lord Ascending
+    chapter_start_pdf_page: 2976
+    chapter_end_pdf_page: 2985
+    pdf_page: 2978
+    printed_page: null
+    extracted_text_lines: "67-90"
+    text_anchor:
+      start_phrase: "My Lord, the Order of the Phoenix intends to move Harry Potter"
+      end_phrase: "the night before the boy turns seventeen"
+      local_occurrence_note: "Opening intelligence exchange between Snape, Yaxley, and Voldemort."
+    nearby_context: "Snape gives Voldemort the genuine date for Harry's removal while Yaxley reports Dawlish's false date."
+    match_terms:
+      - order-of-the-phoenix
+      - intelligence
+      - dawlish
+      - auror-office
+      - harry-potter
+    quote_excerpt_short: "intends to move Harry Potter from his current place of safety"
+    source_note: "The Death Eater council treats Harry's protective removal as a planned Order operation and contrasts Snape's source with Dawlish's false Auror leak."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - order-of-the-phoenix
+      - intelligence
+      - dawlish
+      - auror-office
+      - second-war
+      - harry-potter
+    candidate_part: Protective Magic and Security
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Order Intelligence and Student Protection"
+    reason_for_placement: "The event is outside Hogwarts but directly concerns the wartime protection of the school's most famous student after Dumbledore's death."
+    relevance_to_hogwarts_a_history: "Supports a later editorial note on how Hogwarts-linked Order networks managed student safety when formal Ministry protection was compromised."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Related to hbp-ch02-002 and gof-ch33-004, but this entry records a distinct post-Hogwarts removal plan and false-trail intelligence."
+    confidence: medium
+    limitations: "The source is a hostile council report; it gives operational claims rather than direct observation of the Order's plan."
+
+  - id: dh-ch01-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter One - The Dark Lord Ascending
+    chapter_start_pdf_page: 2976
+    chapter_end_pdf_page: 2985
+    pdf_page: 2979
+    printed_page: null
+    extracted_text_lines: "111-125"
+    text_anchor:
+      start_phrase: "At the home of one of the Order"
+      end_phrase: "placing an Imperius Curse upon Pius Thicknesse"
+      local_occurrence_note: "Snape explains the protected destination before Yaxley reports control of Thicknesse."
+    nearby_context: "Voldemort asks whether the Ministry will fall before the transfer and Yaxley claims to have Imperiused a senior official."
+    match_terms:
+      - protective-enchantments
+      - ministry-infiltration
+      - imperius
+      - pius-thicknesse
+      - second-war
+    quote_excerpt_short: "given every protection that the Order and Ministry together could provide"
+    source_note: "The safe house is described as protected by both Order and Ministry enchantments, but its security depends on whether a fallen Ministry can help reveal and undo them."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - protective-enchantments
+      - ministry-infiltration
+      - imperius
+      - pius-thicknesse
+      - order-of-the-phoenix
+      - second-war
+    candidate_part: Protective Magic and Security
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Ministry Collapse and Protective Magic"
+    reason_for_placement: "Hogwarts-era safety depended on outside protective institutions; this scene shows those institutions being compromised immediately after Dumbledore's death."
+    relevance_to_hogwarts_a_history: "Provides later-editorial evidence for the weakening of protective networks around Hogwarts families and Order members during the 1997 Ministry infiltration."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Related to prior entries on Harry's layered protection and Ministry crisis, but no existing entry records Thicknesse's Imperius control or the safe-house vulnerability."
+    confidence: medium
+    limitations: "The protected location is unnamed in this chapter and is not a Hogwarts site."
+
+  - id: dh-ch01-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter One - The Dark Lord Ascending
+    chapter_start_pdf_page: 2976
+    chapter_end_pdf_page: 2985
+    pdf_page: 2980
+    printed_page: null
+    extracted_text_lines: "130-149"
+    text_anchor:
+      start_phrase: "But Thicknesse is only one man"
+      end_phrase: "they mistrust everything to do with the place"
+      local_occurrence_note: "Yaxley explains Department of Magical Transport access and Snape explains why the Order avoids regulated transport."
+    nearby_context: "After discussing the Ministry takeover timeline, the council weighs travel methods for Harry's transfer."
+    match_terms:
+      - department-of-magical-transport
+      - floo-network
+      - apparition
+      - ministry-regulation
+      - wartime-travel
+    quote_excerpt_short: "If Potter Apparates or uses the Floo Network, we shall know immediately"
+    source_note: "Death Eater agents inside the Department of Magical Transport can monitor Apparition and Floo use, making Ministry-regulated transport unsafe for the Order."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - department-of-magical-transport
+      - floo-network
+      - apparition
+      - ministry-regulation
+      - wartime-travel
+      - second-war
+    candidate_part: Protective Magic and Security
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Regulated Transport Under Enemy Control"
+    reason_for_placement: "The school repeatedly depends on regulated magical transport; this later wartime evidence shows how those systems became surveillance risks."
+    relevance_to_hogwarts_a_history: "Adds a post-Dumbledore editorial note explaining why Order members avoided ordinary magical transport channels during movements involving Hogwarts students and allies."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Related to gof-ch04-004, gof-ch06-001, hbp-ch17-002, and hbp-ch18-003 for transport regulation, but this entry is about wartime infiltration and surveillance."
+    confidence: high
+    limitations: "The chapter does not specify the technical detection method used by the Department of Magical Transport."
+
+  - id: dh-ch01-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter One - The Dark Lord Ascending
+    chapter_start_pdf_page: 2976
+    chapter_end_pdf_page: 2985
+    pdf_page: 2984
+    printed_page: null
+    extracted_text_lines: "251-281"
+    text_anchor:
+      start_phrase: "She has just married the werewolf, Remus Lupin"
+      end_phrase: "until only those of the true blood remain"
+      local_occurrence_note: "Voldemort and Bellatrix discuss Tonks, Lupin, blood status, and purging family lines."
+    nearby_context: "The council laughs at Tonks's marriage to Lupin before Voldemort extends family-tree language into a broader blood-purity program."
+    match_terms:
+      - blood-status
+      - pure-blood-ideology
+      - family-trees
+      - werewolves
+      - muggle-borns
+    quote_excerpt_short: "until only those of the true blood remain"
+    source_note: "Voldemort frames old family trees, Muggle-born connections, and werewolf marriage as contamination to be pruned from both family and society."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - blood-status
+      - pure-blood-ideology
+      - family-trees
+      - werewolves
+      - muggle-borns
+      - second-war
+    candidate_part: Peoples, Beings, and Magical Society
+    candidate_chapter: "Blood Status and School Society"
+    candidate_section: "Pure-Blood Ideology in Wartime"
+    reason_for_placement: "Hogwarts blood-status conflicts have roots in wider family ideology; this council states the wartime version explicitly."
+    relevance_to_hogwarts_a_history: "Useful as a later editorial bridge between earlier school-level prejudice, werewolf employment controversies, and the ideological climate that reaches Hogwarts in the final war."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Related to cos-ch07-003, cos-ch09-004, gof-ch08-003, and poa-ch17-003, but this is a distinct wartime statement by Voldemort's inner circle."
+    confidence: high
+    limitations: "The claim reflects Death Eater ideology, not an objective policy document."
+
+  - id: dh-ch01-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter One - The Dark Lord Ascending
+    chapter_start_pdf_page: 2976
+    chapter_end_pdf_page: 2985
+    pdf_page: 2985
+    printed_page: null
+    extracted_text_lines: "296-324"
+    text_anchor:
+      start_phrase: "Charity Burbage who, until recently, taught at Hogwarts"
+      end_phrase: "Dinner, Nagini"
+      local_occurrence_note: "Voldemort identifies the captive as the former Hogwarts Muggle Studies professor before killing her."
+    nearby_context: "Voldemort explains Burbage's teaching and Daily Prophet argument before executing her in front of the Death Eaters."
+    match_terms:
+      - charity-burbage
+      - muggle-studies
+      - hogwarts-staff
+      - daily-prophet
+      - curriculum-politics
+    quote_excerpt_short: "until recently, taught at Hogwarts School of Witchcraft and Wizardry"
+    source_note: "Charity Burbage is identified as the recent Hogwarts Muggle Studies professor; Voldemort condemns both her class framing of Muggles and her Daily Prophet defense of Muggle-borns."
+    reference_type: curriculum_or_subject
+    era_classification: later_editorial_note
+    topic_tags:
+      - charity-burbage
+      - muggle-studies
+      - hogwarts-staff
+      - daily-prophet
+      - curriculum-politics
+      - muggle-borns
+      - second-war
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: "Muggle Studies and the Non-Magical World"
+    candidate_section: "Charity Burbage and Wartime Curriculum Politics"
+    reason_for_placement: "This is the chapter's strongest direct Hogwarts evidence: a named Muggle Studies professor, the subject's content, public debate, and lethal wartime backlash."
+    relevance_to_hogwarts_a_history: "Essential later-editorial evidence for Muggle Studies staffing, curriculum purpose, and the ideological purge that preceded the Death Eater-controlled school year."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Earlier entries identify Muggle Studies as an elective, but no queried entry records Charity Burbage, her Daily Prophet article, or her murder."
+    confidence: high
+    limitations: "Voldemort is a hostile speaker, so the wording of Burbage's teaching and article is filtered through his accusation."

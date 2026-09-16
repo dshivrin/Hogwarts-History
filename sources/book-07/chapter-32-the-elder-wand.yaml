@@ -1,0 +1,344 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Thirty-Two - The Elder Wand
+  chapter_start_pdf_page: 3521
+  chapter_end_pdf_page: 3537
+  boundary_confidence: high
+  boundary_notes: "Processing-state anchors identify this chapter as PDF pages 3521-3537; bounded extraction begins at the Chapter Thirty-Two heading and ends with Snape's death in the Shrieking Shack."
+  processed_date: '2026-08-11'
+  processor_notes: "Extracted only the bounded source-unit range with pypdf via scripts/extract_pages.py; no explicit Hogwarts: A History reference appears in this chapter."
+
+entries:
+  - id: dh-ch32-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Two - The Elder Wand
+    chapter_start_pdf_page: 3521
+    chapter_end_pdf_page: 3537
+    pdf_page: 3522
+    printed_page: null
+    extracted_text_lines: "1-60"
+    text_anchor:
+      start_phrase: "More giant spiders were climbing the side of the building"
+      end_phrase: "they hauled Fred out of the way"
+      local_occurrence_note: "After Fred's death, Death Eater curses and liberated giant spiders breach the damaged castle wall while students and family members move his body to cover."
+    nearby_context: "The corridor has already been blasted open during the Battle of Hogwarts, exposing the defenders to attacks from the grounds."
+    match_terms:
+      - giant spiders
+      - castle wall
+      - Forbidden Forest
+      - Death Eaters
+      - battle damage
+      - Fred Weasley
+    quote_excerpt_short: "More giant spiders were climbing the side of the building"
+    source_note: "The battle reaches breached upper corridors: acromantulas from the Forbidden Forest climb the school walls while Death Eater curses enter through broken masonry."
+    reference_type: direct_observed_setting
+    era_classification: later_editorial_note
+    topic_tags:
+      - battle-of-hogwarts
+      - acromantulas
+      - forbidden-forest
+      - castle-damage
+      - death-eaters
+      - upper-corridors
+    candidate_part: The Grounds and Edge of the Forest
+    candidate_chapter: Magical Residents in Wartime
+    candidate_section: Acromantulas breaching the castle walls
+    reason_for_placement: "The scene extends Forest-resident evidence into the castle battle, showing non-human creatures entering the school as combat pressure breaks normal boundaries."
+    relevance_to_hogwarts_a_history: "A later edition can use this as observed evidence that the Battle of Hogwarts pulled Forest creatures directly into the castle's defensive perimeter."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch15-005
+      notes: "cos-ch15-005 establishes Aragog's Forbidden Forest colony; this entry records that colony's descendants entering the final battle and physically breaching the castle."
+    confidence: high
+    limitations: "The passage identifies the spiders as Aragog's descendants but does not describe command structure or whether Death Eaters controlled them."
+
+  - id: dh-ch32-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Two - The Elder Wand
+    chapter_start_pdf_page: 3521
+    chapter_end_pdf_page: 3537
+    pdf_page: 3526
+    printed_page: null
+    extracted_text_lines: "145-229"
+    text_anchor:
+      start_phrase: "The stairs beneath their feet flattened into a chute"
+      end_phrase: "More for any who want them!"
+      local_occurrence_note: "Hermione weaponizes a staircase and tapestry, McGonagall drives enchanted desks, portraits advise duelers, Peeves drops Snargaluff pods, Neville carries Tentacula, and Trelawney attacks with crystal balls."
+    nearby_context: "Harry, Ron, and Hermione cross the fighting corridors and entrance hall under the Invisibility Cloak while trying to reach Nagini."
+    match_terms:
+      - Glisseo
+      - Duro
+      - enchanted desks
+      - portraits
+      - Peeves
+      - Snargaluff pods
+      - Venomous Tentacula
+      - Trelawney
+    quote_excerpt_short: "The portraits on either side of the fighters were crammed with figures"
+    source_note: "The castle's defenders turn Hogwarts features and school materials into battle assets: stairs, tapestries, desks, portraits, poltergeist attacks, magical plants, and Divination equipment all enter the fight."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - battle-of-hogwarts
+      - castle-defenses
+      - portraits
+      - peeves
+      - herbology-defenses
+      - transfiguration
+      - divination
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Castle Defenses and Siege Magic
+    candidate_section: Improvised defensive use of castle features and school materials
+    reason_for_placement: "This is the chapter's clearest cross-disciplinary evidence for Hogwarts itself functioning as an active defensive environment during the siege."
+    relevance_to_hogwarts_a_history: "A later edition can cite this as a vivid case study in how school architecture, resident portraits, Peeves, and curricular materials became defensive resources."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch31-004
+        - poa-ch08-007
+      notes: "dh-ch31-004 already records battle use of plants, portraits, and passages; poa-ch08-007 covers Peeves and portrait crisis behavior. This entry adds the corridor-level combined use of stairs, tapestries, desks, Snargaluff pods, Tentacula, and crystal balls."
+    confidence: high
+    limitations: "The passage shows improvised wartime use rather than a formally documented defense curriculum or standing emergency protocol."
+
+  - id: dh-ch32-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Two - The Elder Wand
+    chapter_start_pdf_page: 3521
+    chapter_end_pdf_page: 3537
+    pdf_page: 3529
+    printed_page: null
+    extracted_text_lines: "230-294"
+    text_anchor:
+      start_phrase: "the heavy wooden front doors burst open"
+      end_phrase: "they launched themselves at each other"
+      local_occurrence_note: "Acromantulas force the front doors, carry Hagrid toward the grounds, and Grawp confronts a larger attacking giant outside the castle."
+    nearby_context: "The defenders scatter in the entrance hall as spiders, Hagrid, and giants push the battle from interior corridors to the front steps and grounds."
+    match_terms:
+      - front doors
+      - gigantic spiders
+      - Hagrid
+      - giant
+      - Grawp
+      - castle steps
+    quote_excerpt_short: "Grawp came lurching around the corner of the castle"
+    source_note: "The entrance hall and front steps become a collision point for acromantulas, Hagrid, Grawp, and hostile giants, confirming that the battle includes Hogwarts's non-human neighbors and grounds residents."
+    reference_type: direct_observed_setting
+    era_classification: later_editorial_note
+    topic_tags:
+      - battle-of-hogwarts
+      - hagrid
+      - grawp
+      - giants
+      - acromantulas
+      - entrance-hall
+      - grounds
+    candidate_part: The Grounds and Edge of the Forest
+    candidate_chapter: Magical Residents in Wartime
+    candidate_section: Grawp and giants at the castle entrance
+    reason_for_placement: "The evidence belongs with magical residents and grounds history because the battle makes Grawp and other giants visible at the castle threshold."
+    relevance_to_hogwarts_a_history: "A later edition can use this scene to explain how creatures and beings long associated with the Forest and grounds affected the final siege."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch30-006
+        - hbp-ch08-007
+      notes: "ootp-ch30-006 establishes Grawp's concealed Forest residence, and hbp-ch08-007 records his later relocation; this entry records Grawp's direct participation near the castle during the final battle."
+    confidence: high
+    limitations: "The passage does not state Grawp's intent beyond his reaction to Hagrid, nor does it identify the hostile giant by name."
+
+  - id: dh-ch32-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Two - The Elder Wand
+    chapter_start_pdf_page: 3521
+    chapter_end_pdf_page: 3537
+    pdf_page: 3530
+    printed_page: null
+    extracted_text_lines: "295-327"
+    text_anchor:
+      start_phrase: "A hundred dementors were advancing"
+      end_phrase: "you just saved"
+      local_occurrence_note: "Harry, Ron, and Hermione nearly fail to cast Patronuses under battle despair until Luna, Ernie, and Seamus arrive with corporeal Patronuses and help Harry produce his stag."
+    nearby_context: "The trio has crossed the grounds amid giants, Forest movement, and battle spellfire while trying to reach Voldemort and Nagini."
+    match_terms:
+      - dementors
+      - Patronuses
+      - Luna
+      - Ernie
+      - Seamus
+      - Room of Requirement
+      - D.A.
+    quote_excerpt_short: "A hundred dementors were advancing"
+    source_note: "The battle includes a mass Dementor advance across the grounds, repelled by corporeal Patronuses cast by D.A.-trained students and allies."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - battle-of-hogwarts
+      - dementors
+      - patronus
+      - dumbledores-army
+      - grounds
+      - defensive-magic
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Defensive Magic in School Crises
+    candidate_section: Patronus defense against Dementors on the grounds
+    reason_for_placement: "The scene connects defensive spell training to an observed school-ground emergency during the siege."
+    relevance_to_hogwarts_a_history: "A later edition can cite this as evidence that student defensive training, especially D.A. practice, had institutional consequences during the final battle."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch02-005
+        - ootp-ch08-003
+        - dh-ch13-006
+      notes: "ootp-ch02-005 and ootp-ch08-003 establish Patronus defense against Dementors and Harry's Hogwarts training; dh-ch13-006 shows Dementors used coercively in wartime. This entry adds a mass battlefield use by students and allies on Hogwarts grounds."
+    confidence: high
+    limitations: "The passage evokes D.A. practice through Luna's comparison but does not explicitly list all participants' training histories."
+
+  - id: dh-ch32-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Two - The Elder Wand
+    chapter_start_pdf_page: 3521
+    chapter_end_pdf_page: 3537
+    pdf_page: 3531
+    printed_page: null
+    extracted_text_lines: "328-397"
+    text_anchor:
+      start_phrase: "The Whomping Willow, said Harry, go!"
+      end_phrase: "the opening at the end of the tunnel had been blocked up"
+      local_occurrence_note: "Harry identifies the Whomping Willow route, Ron levitates a twig to press the stopping knot, and the trio crawls through the root passage into the Shrieking Shack."
+    nearby_context: "The trio uses the route because Voldemort and Nagini are in the Shrieking Shack and the battle makes ordinary ground movement dangerous."
+    match_terms:
+      - Whomping Willow
+      - stopping knot
+      - secret tunnel
+      - Shrieking Shack
+      - Wingardium Leviosa
+      - Invisibility Cloak
+    quote_excerpt_short: "the Willow that protected the secret at its roots"
+    source_note: "The Whomping Willow still guards the hidden passage to the Shrieking Shack; pressing the knot still paralyzes the tree, and the low tunnel remains passable from the Hogwarts grounds."
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - whomping-willow
+      - secret-passages
+      - shrieking-shack
+      - castle-grounds
+      - stopping-knot
+      - magical-architecture
+    candidate_part: Hidden Rooms, Passages, and Portrait Routes
+    candidate_chapter: Concealed Routes Beyond the Castle
+    candidate_section: Whomping Willow tunnel to the Shrieking Shack during the battle
+    reason_for_placement: "The passage gives a late confirmation of the concealed route's mechanism, physical constraints, and continued usability."
+    relevance_to_hogwarts_a_history: "A later edition can use this as the last observed confirmation that the Willow passage remained part of Hogwarts's hidden route network."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - poa-ch17-001
+        - poa-ch18-003
+        - poa-ch20-001
+        - poa-ch21-005
+      notes: "The PoA entries establish the Whomping Willow tunnel, its Lupin-era purpose, return route, and stopping knot. This entry confirms its continued operation during the Battle of Hogwarts."
+    confidence: high
+    limitations: "The chapter does not add new origin history for the passage beyond confirming its wartime use."
+
+  - id: dh-ch32-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Two - The Elder Wand
+    chapter_start_pdf_page: 3521
+    chapter_end_pdf_page: 3537
+    pdf_page: 3533
+    printed_page: null
+    extracted_text_lines: "122-140; 398-414; 514-530"
+    text_anchor:
+      start_phrase: "safe in her enchanted, starry sphere"
+      end_phrase: "floated after him in its huge protective sphere"
+      local_occurrence_note: "Voldemort keeps Nagini in a transparent enchanted sphere at the Shrieking Shack, and Harry cannot identify a spell that might penetrate the protection."
+    nearby_context: "Harry seeks the final Horcrux while Voldemort waits outside the castle and keeps Nagini beside him under magical protection."
+    match_terms:
+      - Nagini
+      - enchanted sphere
+      - protected space
+      - Horcrux
+      - Parseltongue
+      - Shrieking Shack
+    quote_excerpt_short: "safe in her enchanted, starry sphere"
+    source_note: "Voldemort protects Nagini in a floating enchanted sphere or cage, strong enough that Harry cannot think of any safe spell to penetrate it."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - nagini
+      - horcrux
+      - protective-magic
+      - enchanted-cage
+      - parseltongue
+      - voldemort
+      - shrieking-shack
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Horcrux Defenses and Dark Protections
+    candidate_section: Nagini's floating protective sphere
+    reason_for_placement: "The evidence records Voldemort's final protective measure for a living Horcrux during the battle."
+    relevance_to_hogwarts_a_history: "A later edition can cite this as late-war evidence for protective magic adjacent to Hogwarts, especially around Horcrux defense and the Shrieking Shack."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch17-005
+        - dh-ch27-004
+      notes: "dh-ch17-005 records Nagini as a concealed Dark trap, and dh-ch27-004 records Voldemort's late audit naming Nagini as a Horcrux needing protection. This entry adds the specific floating sphere protection used during the battle."
+    confidence: high
+    limitations: "The chapter describes the protection visually but does not name the spell or explain its limits."
+
+  - id: dh-ch32-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Two - The Elder Wand
+    chapter_start_pdf_page: 3521
+    chapter_end_pdf_page: 3537
+    pdf_page: 3536
+    printed_page: null
+    extracted_text_lines: "420-556"
+    text_anchor:
+      start_phrase: "Why doesn't it work for me, Severus?"
+      end_phrase: "Snape moved no more"
+      local_occurrence_note: "Voldemort says the Elder Wand has not revealed its promised power, reasons that Snape must be its master because Snape killed Dumbledore, and has Nagini kill him before Harry collects Snape's memories."
+    nearby_context: "The conversation occurs inside the Shrieking Shack while the Battle of Hogwarts continues around the castle and Voldemort waits for Harry."
+    match_terms:
+      - Elder Wand
+      - Wand of Destiny
+      - Deathstick
+      - Dumbledore's grave
+      - true master
+      - Snape
+      - memories
+    quote_excerpt_short: "The Elder Wand cannot serve me properly"
+    source_note: "Voldemort links the Elder Wand to Dumbledore's grave, names its alternate titles, states his theory of wand mastery through killing the last owner, and kills Snape on that mistaken premise."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - elder-wand
+      - wandlore
+      - dumbledore-tomb
+      - severus-snape
+      - nagini
+      - voldemort
+      - memories
+    candidate_part: Wands, Equipment, and Magical Materials
+    candidate_chapter: Elder Wand Ownership and Allegiance
+    candidate_section: Voldemort's mistaken mastery theory and Snape's death
+    reason_for_placement: "The passage is central late-war evidence for the Elder Wand's provenance, names, ownership theory, and the fatal consequences of Voldemort's misunderstanding."
+    relevance_to_hogwarts_a_history: "A later edition can use this scene to connect Dumbledore's Hogwarts tomb, wandlore, Voldemort's interpretation of magical history, and the fall of Snape's headmastership."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch21-005
+        - dh-ch24-006
+        - dh-ch24-007
+      notes: "dh-ch21-005 and dh-ch24-006 establish Elder Wand names and tradition, while dh-ch24-007 records the theft from Dumbledore's tomb. This entry adds Voldemort's explicit mastery theory and his killing of Snape."
+    confidence: high
+    limitations: "Voldemort's explanation is authoritative evidence of his belief, but the chapter later shows his theory is incomplete and mistaken."

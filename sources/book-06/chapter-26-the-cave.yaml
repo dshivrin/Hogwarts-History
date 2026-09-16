@@ -1,0 +1,319 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Six - The Cave
+  chapter_start_pdf_page: 2884
+  chapter_end_pdf_page: 2904
+  boundary_confidence: high
+  boundary_notes: "Processing-state supplied a bounded page range, and extraction begins at the Chapter Twenty-Six heading and ends before the next chapter boundary."
+  processed_date: '2026-07-29'
+  processor_notes: "Extracted with pypdf from the bounded range only; no full-PDF scan was used. No explicit Hogwarts: A History title reference appears in this chapter."
+
+entries:
+  - id: hbp-ch26-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty-Six - The Cave
+    chapter_start_pdf_page: 2884
+    chapter_end_pdf_page: 2904
+    pdf_page: 2884
+    printed_page: null
+    extracted_text_lines: "16-28"
+    text_anchor:
+      start_phrase: "They brought the kids from the orphanage here?"
+      end_phrase: "magic would have served better than ropes"
+      local_occurrence_note: "Opening cliff scene, before Dumbledore and Harry descend toward the cave entrance."
+    nearby_context: "Dumbledore distinguishes the orphanage outing village from the inaccessible rock and infers that Tom Riddle used magic to bring two children to the site."
+    match_terms:
+      - Tom Riddle
+      - orphanage
+      - cave approach
+      - childhood victims
+      - underage magic
+      - coastal village
+    quote_excerpt_short: "only ever Tom Riddle and his youthful victims"
+    source_note: "Dumbledore reconstructs a pre-Hogwarts or early-youth episode in which Riddle reached an otherwise inaccessible coastal rock and terrorized two orphanage children, showing how later Hogwarts evidence connects to Riddle's hidden childhood geography."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - tom-riddle
+      - orphanage
+      - cave
+      - childhood-history
+      - underage-magic
+      - dumbledore-investigation
+    candidate_part: "Part II - Founders, Heirs, and Hidden Histories"
+    candidate_chapter: "Tom Riddle Before Hogwarts"
+    candidate_section: "Orphanage Evidence and Early Magical Cruelty"
+    reason_for_placement: "The episode predates Riddle's Hogwarts career but helps a future school history explain why Dumbledore treats Riddle's childhood evidence as institutionally relevant."
+    relevance_to_hogwarts_a_history: "A Hogwarts history could use this as contextual background for Riddle's admission, early Dark tendencies, and Dumbledore's later reconstruction of Voldemort's school-era trajectory."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Related to hbp-ch13-003 on orphaned Muggle-raised admissions and cos-ch17-003 on Riddle's Chamber-era concealment, but this entry records the cave outing and Riddle's childhood victims rather than Hogwarts admission or the Chamber confession."
+    confidence: high
+    limitations: "The evidence is Dumbledore's reconstruction, not a direct memory scene from the orphanage outing."
+
+  - id: hbp-ch26-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty-Six - The Cave
+    chapter_start_pdf_page: 2884
+    chapter_end_pdf_page: 2904
+    pdf_page: 2886
+    printed_page: null
+    extracted_text_lines: "68-93"
+    text_anchor:
+      start_phrase: "It has known magic"
+      end_phrase: "marks of ineptitude than expertise"
+      local_occurrence_note: "Dumbledore examines the cave walls and identifies the concealed inner entrance."
+    nearby_context: "Dumbledore senses prior enchantment, distinguishes natural obstacles from Voldemort's obstacles, and locates a concealed entrance by touch, inspection, and expertise."
+    match_terms:
+      - known magic
+      - concealed entrance
+      - magical traces
+      - Dumbledore expertise
+      - Voldemort obstacles
+      - cave wall
+    quote_excerpt_short: "It has known magic"
+    source_note: "The scene gives a rare direct example of expert magical detection: Dumbledore reads residual enchantment and locates hidden Dark magic through close examination rather than noisy spellwork."
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - magical-traces
+      - concealed-entrance
+      - dumbledore
+      - voldemort-defenses
+      - cave
+      - magical-expertise
+    candidate_part: "Part IV - Architecture, Concealment, and Protective Magic"
+    candidate_chapter: "Reading Magical Buildings and Hidden Places"
+    candidate_section: "Residual Magic and Expert Detection"
+    reason_for_placement: "The evidence explains a general magical principle that could illuminate Hogwarts' own hidden spaces, protections, and expert staff practices."
+    relevance_to_hogwarts_a_history: "Although outside Hogwarts, it supplies Dumbledore's method for interpreting concealed magical architecture, a useful comparison point for castle defenses and secret rooms."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query results surfaced concealed-entrance material for St. Mungo's and cave-location material for Sirius, but not this same magical-trace detection method."
+    confidence: high
+    limitations: "The passage demonstrates the method but does not name a formal spell or school-taught discipline."
+
+  - id: hbp-ch26-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty-Six - The Cave
+    chapter_start_pdf_page: 2884
+    chapter_end_pdf_page: 2904
+    pdf_page: 2887
+    printed_page: null
+    extracted_text_lines: "103-139"
+    text_anchor:
+      start_phrase: "we are required to make payment to pass"
+      end_phrase: "leaving an opening into what seemed total darkness"
+      local_occurrence_note: "After the concealed arch briefly appears, Dumbledore identifies the blood requirement and opens it."
+    nearby_context: "Dumbledore calls the protection crude because it weakens the intruder physically before entry; blood on the rock makes the archway open."
+    match_terms:
+      - blood magic
+      - cave archway
+      - Voldemort protection
+      - physical injury
+      - concealed door
+      - dark magic
+    quote_excerpt_short: "Blood, if I am not much mistaken"
+    source_note: "The cave entrance is protected by a blood-payment condition that forces entry-seekers to weaken themselves before passing through a concealed archway."
+    reference_type: security_or_protection
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - blood-magic
+      - security
+      - concealed-entrance
+      - voldemort-defenses
+      - cave
+      - dark-magic
+    candidate_part: "Part IV - Architecture, Concealment, and Protective Magic"
+    candidate_chapter: "Dark Protections and Entry Conditions"
+    candidate_section: "Blood Payment and Weakening Defenses"
+    reason_for_placement: "The entry records a concrete Dark protective mechanism that can be contrasted with Hogwarts' own defensive magic and access controls."
+    relevance_to_hogwarts_a_history: "A school history can use this as comparative evidence for how blood-based Dark protections differ from institutional Hogwarts wards and passwords."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Targeted duplicate query for blood-magic cave-entry protection returned no matches."
+    confidence: high
+    limitations: "The origin date of the enchantment is inferred from Voldemort's Horcrux concealment history rather than directly stated."
+
+  - id: hbp-ch26-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty-Six - The Cave
+    chapter_start_pdf_page: 2884
+    chapter_end_pdf_page: 2904
+    pdf_page: 2891
+    printed_page: null
+    extracted_text_lines: "217-260"
+    text_anchor:
+      start_phrase: "he was running his hand"
+      end_phrase: "We shall see whether he is right"
+      local_occurrence_note: "Dumbledore finds and raises the hidden boat by revealing its chain."
+    nearby_context: "An invisible chain and tiny boat surface from the lake; Dumbledore explains that magic leaves distinctive traces and that Voldemort made the boat for controlled access."
+    match_terms:
+      - hidden boat
+      - magical traces
+      - Tom Riddle's style
+      - lake crossing
+      - Horcrux access
+      - invisible chain
+    quote_excerpt_short: "Magic always leaves traces"
+    source_note: "The hidden boat and chain show Voldemort's access mechanism: only someone capable of finding its magical trace can cross the lake without immediately provoking the guardians."
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - enchanted-boat
+      - magical-traces
+      - horcrux
+      - lake
+      - voldemort-defenses
+      - dumbledore
+    candidate_part: "Part IV - Architecture, Concealment, and Protective Magic"
+    candidate_chapter: "Hidden Access Systems"
+    candidate_section: "Enchanted Transport and Residual Signatures"
+    reason_for_placement: "The boat is a concrete magical access system with concealment, detection, and defensive integration."
+    relevance_to_hogwarts_a_history: "The mechanics offer comparative evidence for magical transport and hidden access controls that may illuminate Hogwarts routes, chambers, and warded spaces."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Related hidden-entrance and cave entries were found, but none describe this hidden boat, chain, or Dumbledore's recognition of Riddle's magical style."
+    confidence: high
+    limitations: "The boat is outside Hogwarts and functions as comparative magical architecture rather than direct castle evidence."
+
+  - id: hbp-ch26-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty-Six - The Cave
+    chapter_start_pdf_page: 2884
+    chapter_end_pdf_page: 2904
+    pdf_page: 2892
+    printed_page: null
+    extracted_text_lines: "261-284"
+    text_anchor:
+      start_phrase: "Voldemort will not have cared about the weight"
+      end_phrase: "there were no waves"
+      local_occurrence_note: "Harry questions whether the tiny boat will carry both of them before the crossing begins."
+    nearby_context: "Dumbledore infers that the boat measures magical power rather than physical weight and that Harry's underage, unqualified magic will not register like Dumbledore's."
+    match_terms:
+      - magical power
+      - underage wizard
+      - enchanted boat
+      - qualification
+      - Voldemort mistake
+      - age
+    quote_excerpt_short: "the amount of magical power that crossed his lake"
+    source_note: "The boat's enchantment appears calibrated to the magical power of adult qualified wizards, allowing Dumbledore to exploit Voldemort's underestimation of a sixteen-year-old student."
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - magical-power
+      - underage-magic
+      - enchanted-boat
+      - student-age
+      - voldemort-defenses
+      - qualification
+    candidate_part: "Part III - Students, Status, and Magical Capacity"
+    candidate_chapter: "Age, Qualification, and Magical Recognition"
+    candidate_section: "Underage Wizards in Adult Enchantments"
+    reason_for_placement: "The entry gives rare evidence that some enchantments may distinguish magical capacity or qualification rather than ordinary physical properties."
+    relevance_to_hogwarts_a_history: "A Hogwarts history could connect this to school-age magical status, underage limitations, and institutional assumptions about student magical power."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Targeted duplicate query for enchanted boats, magical power, underage status, and qualification returned no matches."
+    confidence: medium
+    limitations: "Dumbledore presents the mechanism as an inference, not as a tested technical specification."
+
+  - id: hbp-ch26-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty-Six - The Cave
+    chapter_start_pdf_page: 2884
+    chapter_end_pdf_page: 2904
+    pdf_page: 2895
+    printed_page: null
+    extracted_text_lines: "357-409"
+    text_anchor:
+      start_phrase: "I cannot touch"
+      end_phrase: "You understand?"
+      local_occurrence_note: "At the central island basin, Dumbledore tests the emerald potion and determines how the Horcrux must be reached."
+    nearby_context: "The potion resists touch, Vanishing, parting, scooping, siphoning, Transfiguration, and charms; Dumbledore concludes it must be drunk and will incapacitate the drinker."
+    match_terms:
+      - emerald potion
+      - Horcrux basin
+      - invisible barrier
+      - Vanishing
+      - Transfiguration
+      - incapacitation
+    quote_excerpt_short: "this potion is supposed to be drunk"
+    source_note: "The basin defense combines an invisible barrier, resistance to several forms of magical removal or alteration, and a compulsion-like solution that incapacitates the intruder while requiring continued drinking."
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - horcrux
+      - potion
+      - basin
+      - magical-barrier
+      - voldemort-defenses
+      - transfiguration-limits
+    candidate_part: "Part IV - Architecture, Concealment, and Protective Magic"
+    candidate_chapter: "Layered Dark Protections"
+    candidate_section: "Potion Barriers and Forced Procedures"
+    reason_for_placement: "The protection is a detailed example of layered anti-access magic and the limits of common magical transformations against specialized defenses."
+    relevance_to_hogwarts_a_history: "This can anchor a comparative discussion of advanced protective magic, potion-based safeguards, and why school training in multiple disciplines matters."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Targeted duplicate query for Horcrux potion, basin barrier, and drinking defense returned no matches."
+    confidence: high
+    limitations: "The entry summarizes the technical barrier and intended effect; Dumbledore's later potion-induced visions are not independently explained here."
+
+  - id: hbp-ch26-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty-Six - The Cave
+    chapter_start_pdf_page: 2884
+    chapter_end_pdf_page: 2904
+    pdf_page: 2901
+    printed_page: null
+    extracted_text_lines: "560-625"
+    text_anchor:
+      start_phrase: "the only way left to get water"
+      end_phrase: "did not dare resurface"
+      local_occurrence_note: "After the potion is emptied, Harry takes lake water and the Inferi rise; Dumbledore drives them back with fire."
+    nearby_context: "Conjured water vanishes, forcing Harry to touch the lake; Inferi rise from the water, ignore binding and cutting spells, and retreat before Dumbledore's ring of fire."
+    match_terms:
+      - Aguamenti
+      - water trap
+      - Inferi
+      - protective fire
+      - Horcrux guardian
+      - lake
+    quote_excerpt_short: "an army of the dead rising"
+    source_note: "The final defense forces the intruder to seek lake water, activating Inferi guardians that resist ordinary disabling or cutting spells but recoil from sustained protective fire."
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - inferi
+      - protective-fire
+      - water-trap
+      - aguamenti
+      - horcrux
+      - dark-creatures
+    candidate_part: "Part V - Magical Creatures, Beings, and Dark Forces"
+    candidate_chapter: "Inferi and Dark Creature Defense"
+    candidate_section: "Fire, Cold, and Animated Corpses"
+    reason_for_placement: "The episode gives direct observed behavior of Inferi and a practical countermeasure that extends beyond classroom definitions."
+    relevance_to_hogwarts_a_history: "A Hogwarts history or later editorial apparatus could cross-reference this with Defense Against the Dark Arts curriculum on Inferi and emergency Dark-creature response."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Related entries hbp-ch04-002 and hbp-ch21-006 define or teach Inferi, but this entry records the cave water trap, spell resistance, and fire countermeasure as direct observed evidence."
+    confidence: high
+    limitations: "The account is combat observation under extreme conditions, not a controlled lesson or formal taxonomy."

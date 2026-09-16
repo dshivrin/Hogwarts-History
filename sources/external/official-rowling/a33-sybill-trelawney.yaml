@@ -1,0 +1,212 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A33
+  source_file: resources/external/official-rowling/harrypotter-com/a33-sybill-trelawney.md
+  title: Sybill Trelawney
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/sybill-trelawney
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/sybill-trelawney
+  capture_completeness: complete
+  content_sha256: defc732f3245462a26d0ad9ff9e76f65250b3c0c8306d00a92b7bfd08b19c2f1
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and institutional evidence extracted.
+
+entries:
+  - id: ext-a33-001
+    source_file: resources/external/official-rowling/harrypotter-com/a33-sybill-trelawney.md
+    source_id: A33
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/sybill-trelawney
+    source_section: Main text
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Nevertheless, Sybill does experience very rare flashes of genuine clairvoyance
+      end_phrase: he had to wait many years for the next
+      local_occurrence_note: Second paragraph of the main text, describing the interview and Dumbledore's rationale for keeping Trelawney at Hogwarts.
+    nearby_context: Trelawney's rare unconscious clairvoyance is contrasted with her largely fraudulent divinatory performance.
+    match_terms:
+      - dumbledore
+      - sanctuary
+      - trelawney
+    quote_excerpt_short: Dumbledore gave her sanctuary at the school, partly to protect her.
+    source_note: After Trelawney's interview revelation, Dumbledore kept her at Hogwarts as protective sanctuary while hoping for later genuine predictions.
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - dumbledore
+      - hogwarts-staff
+      - prophecy
+      - staff-protection
+      - trelawney
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: Staff Appointments and Protective Patronage
+    candidate_section: Trelawney's protected appointment
+    reason_for_placement: The source describes a pre-Harry-era decision to retain a Hogwarts teacher for protection and anticipated institutional benefit.
+    relevance_to_hogwarts_a_history: Supports a qualified account of Dumbledore's staff-retention practice before the original book's approximate cutoff.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing indexed prophecy material corroborates the interview context but does not state the sanctuary rationale.
+      audit:
+        query_tags:
+          - dumbledore
+          - hogwarts-staff
+          - prophecy
+          - staff-protection
+          - trelawney
+        candidates:
+          - id: dh-ch11-005
+            disposition: corroborating
+          - id: hbp-ch05-005
+            disposition: distinct
+          - id: hbp-ch10-004
+            disposition: distinct
+          - id: hbp-ch12-001
+            disposition: distinct
+          - id: hbp-ch25-005
+            disposition: corroborating
+          - id: ootp-ch37-006
+            disposition: corroborating
+          - id: beedle-ch02-002
+            disposition: distinct
+          - id: beedle-ch02-003
+            disposition: distinct
+          - id: cos-ch02-003
+            disposition: distinct
+          - id: cos-ch04-001
+            disposition: distinct
+    confidence: high
+    limitations: The exact appointment date is unstated; the pre-1984 placement follows the source's interview-backstory framing and must not be read as a general employment rule.
+
+  - id: ext-a33-002
+    source_file: resources/external/official-rowling/harrypotter-com/a33-sybill-trelawney.md
+    source_id: A33
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/sybill-trelawney
+    source_section: Main text
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Conscious of her low status on the staff
+      end_phrase: she has developed an over-reliance on alcohol
+      local_occurrence_note: Final paragraph of the main text, after the explanation of Trelawney's appointment.
+    nearby_context: The source explains Trelawney's perceived low standing and withdrawal from colleagues as ongoing conditions of her Hogwarts employment.
+    match_terms:
+      - tower-office
+      - staff-status
+      - trelawney
+    quote_excerpt_short: Sybill spends most of her time apart from her colleagues.
+    source_note: Trelawney is described as socially separate from the other teachers and based in a stuffy, overcrowded tower office.
+    reference_type: direct_observed_setting
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - hogwarts-staff
+      - staff-isolation
+      - staff-status
+      - tower-office
+      - trelawney
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Staff Culture and Accommodation
+    candidate_section: Trelawney's isolated tower office
+    reason_for_placement: The description is tied to Trelawney's Harry-era staff circumstances rather than a pre-1984 institutional condition.
+    relevance_to_hogwarts_a_history: Useful only as a later editorial note on staff space and interpersonal standing, not as original-book history.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed entry states Trelawney's staff isolation or tower-office accommodation.
+      audit:
+        query_tags:
+          - hogwarts-staff
+          - staff-isolation
+          - staff-status
+          - tower-office
+          - trelawney
+        candidates:
+          - id: beedle-ch02-002
+            disposition: distinct
+          - id: beedle-ch02-003
+            disposition: distinct
+          - id: dh-ch01-006
+            disposition: distinct
+          - id: dh-ch06-003
+            disposition: distinct
+          - id: dh-ch11-005
+            disposition: distinct
+          - id: ext-a13-001
+            disposition: distinct
+          - id: hbp-ch25-003
+            disposition: distinct
+          - id: ps-ch04-001
+            disposition: distinct
+    confidence: high
+    limitations: The source supplies no date and presents a character-focused account; it cannot establish a general Hogwarts rule about teacher housing or staff hierarchy.
+
+  - id: ext-a33-003
+    source_file: resources/external/official-rowling/harrypotter-com/a33-sybill-trelawney.md
+    source_id: A33
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/sybill-trelawney
+    source_section: Author's note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Professors Trelawney and McGonagall are polar opposites
+      end_phrase: rally to her defence
+      local_occurrence_note: Second paragraph of the Author's note, recounting Umbridge's attempted removal of Trelawney.
+    nearby_context: Rowling contrasts McGonagall's criticism of Trelawney with her defense when Umbridge tried to remove her from Hogwarts.
+    match_terms:
+      - umbridge
+      - staff-dismissal
+      - trelawney
+    quote_excerpt_short: Dolores Umbridge attempted to oust Sybill from the school.
+    source_note: Rowling states that Umbridge tried to remove Trelawney from Hogwarts and that McGonagall rallied to defend her despite prior criticism.
+    reference_type: cross_reference_candidate
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - staff-dismissal
+      - staff-governance
+      - trelawney
+      - umbridge
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Ministry Intervention in School Governance
+    candidate_section: Attempted removal of Trelawney
+    reason_for_placement: This is a Harry-era Ministry intervention in staffing and therefore falls after the original book's approximate cutoff.
+    relevance_to_hogwarts_a_history: Records a later editorial cross-reference about contested authority over a Hogwarts staff member.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The governance match is related but no indexed entry records Umbridge's attempted ouster of Trelawney.
+      audit:
+        query_tags:
+          - staff-dismissal
+          - staff-governance
+          - trelawney
+          - umbridge
+        candidates:
+          - id: dh-ch11-007
+            disposition: distinct
+          - id: dh-ch13-003
+            disposition: distinct
+          - id: gof-ch24-007
+            disposition: corroborating
+          - id: hbp-ch07-004
+            disposition: distinct
+          - id: hbp-ch25-003
+            disposition: distinct
+          - id: ootp-ch16-003
+            disposition: distinct
+          - id: ootp-ch16-004
+            disposition: distinct
+          - id: ootp-ch23-003
+            disposition: distinct
+          - id: ootp-ch24-001
+            disposition: distinct
+          - id: ootp-ch24-006
+            disposition: distinct
+    confidence: high
+    limitations: This authorial retrospective names the event but does not set out its formal legal or administrative mechanism.

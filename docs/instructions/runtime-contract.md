@@ -1,99 +1,113 @@
 # Runtime Contract
 
-Use this compact contract for routine extraction runs. Read full background or schema files only when this contract says to.
+Use this dispatcher for exactly one ready source unit per automation invocation. The completed external-only contract is preserved at `docs/instructions/archive/runtime-contract-external-source-extraction-completed-2026-09-11.md`.
+
+## Dispatch Rule
+
+Start with `just brief` and inspect `project-control/processing-state.yaml`.
+
+1. If `current_source_unit` is a mapping, process only that bounded PDF unit with the PDF procedure below.
+2. Otherwise, if `external_processing.next_pending_unit` is present, use the external claim procedure below.
+3. Otherwise, perform no extraction. Report that no ready unit remains and summarize blockers from `project-control/remaining-source-units.yaml`.
+
+Never let an exhausted external queue hide a populated `current_source_unit`.
 
 ## CLI Workflow
 
-Prefer short project recipes over repeated long shell commands.
+- Start with `just brief`, `just next`, and `just external-status`.
+- Use `just search "pattern"`, `just query-dupes <tag> <tag>`, and `just query-entries <tag>` for narrow lookup.
+- Use `just validate` for canonical evidence validation.
+- Finish a PDF unit with `just advance-current`; this validates, advances once, regenerates, tests, and restores control/generated artifacts if any completion gate fails.
+- Claim an external unit with `just claim-external <agent>` or `just claim-external <agent> <unit>`.
+- Recover an external claim with `just current-external` or `just current-external <unit>`.
+- Finish an external unit with `just complete-external <unit> <claim-token>`.
+- Abandon or block an external claim with `just release-external` or `just block-external` and the required token/reason.
 
-- Start orientation with `just brief`.
-- Use `just next` for the current next-run display.
-- Use `just search "pattern"` or direct `rg "pattern" path/` before reading broad files.
-- Use `just query-dupes <tag> <tag>` for duplicate lookup after candidate tags are known.
-- Use `just validate` after source YAML changes.
-- Use `just post` after a completed extraction or generator change.
+Do not require `yq`; use project commands for YAML state transitions.
 
-Do not require `yq`; use project Python scripts for YAML.
-Use `jq` only for JSON output.
+## Required Reads for a PDF Unit
 
-## Required Reads
+Read only:
 
-For a normal run, read only:
+1. `docs/instructions/runtime-contract.md`.
+2. `project-control/processing-state.yaml`.
+3. Every rendered page image for the inclusive current range.
+4. The current output YAML only if it already exists.
+5. Individual historical YAML files only when compact query results identify them as candidates.
 
-1. `docs/instructions/runtime-contract.md`
-2. `project-control/processing-state.yaml`
-3. `.tmp/current-chapter.txt` after extraction
-4. The current output YAML only if it already exists
+Read `docs/instructions/schema-reference.md` only for schema uncertainty or validation failure. Read `docs/instructions/background-guide.md` only for canon, era, or classification ambiguity.
 
-## Conditional Reads
+## Scanned PDF Procedure
 
-Read these only when needed:
+The current `Fantastic Beasts and Where to Find Them` carrier is image-only. Empty output from `scripts/extract_pages.py` is not evidence that its pages are empty.
 
-- `docs/instructions/schema-reference.md` for schema uncertainty or validation failure.
-- `docs/instructions/background-guide.md` for canon, era, or classification ambiguity.
-- `just query-dupes <tag> <tag>` for duplicate and context lookup after candidate tags are known.
-- `just query-entries <tag>` for compact entry lookup by tag.
-- Query script source files only when debugging the query tools themselves.
-- Historical YAML files only when a query recipe identifies a likely duplicate.
-- `appendix/generated/*.md` only for human-facing review, not routine extraction.
+1. Read `source_file`, `page_start`, and `page_end` from `current_source_unit`.
+2. Clear old disposable cache files with `just clean-cache`.
+3. Create `.tmp/current-source-images/`.
+4. Render only the inclusive current range as rendered page images:
 
-## Prohibited During Normal Runs
+   ```bash
+   pdftoppm -f PAGE_START -l PAGE_END -jpeg -r 180 SOURCE_PDF .tmp/current-source-images/page
+   ```
 
-Do not read:
+5. Visually inspect every rendered page image in that directory. Do not use OCR alone and do not render pages outside the current range.
+6. Extract every explicit *Hogwarts: A History* reference. For other material, keep the strongest three to seven relevant entries; `entries: []` is valid when the bounded unit has no relevant evidence.
+7. Write only the exact `output_yaml` path assigned by `current_source_unit`, using top-level `source_unit` and `entries` keys.
+8. Use entry IDs `fb-chNN-NNN`. Preserve the inclusive range in `source_unit`; locate each entry with its exact `pdf_page`, optional printed page, and a local `text_anchor` visible on that page.
+9. Keep each `quote_excerpt_short` under 25 words and paraphrase the evidence in `source_note`.
+10. Run the index-first duplicate procedure below.
+11. Run `just advance-current`. If it fails, correct the current output and retry; the current/next controls are restored automatically.
+12. Review and commit only files belonging to this completed unit.
+13. Stop the invocation after the completion report. Do not begin `next_source_unit`, even if it is now displayed as current.
 
-- `docs/instructions/archive/`
-- `project-control/archive/`
-- old `next-run N.md` prompts
-- full appendices or non-generated appendix drafts
-- all prior chapter YAML files
-- `chapters-index.md` when page boundaries are present in `processing-state.yaml`
+## Index-First Duplicate Procedure
 
-## Extraction Procedure
+1. Normalize three to eight topic tags for each candidate entry.
+2. Run `just query-dupes <tag> <tag>` with the strongest tags and placement terms.
+3. Run `just query-entries <tag>` only when wider indexed context is needed.
+4. Open only source YAML paths returned as likely matches.
+5. Record the comparison in `duplicate_check`; keep corroborating evidence when it independently supports or extends a claim.
+6. Do not open full compact index files during normal extraction.
 
-1. Read `processing-state.yaml`.
-2. Extract the inclusive current page range with `scripts/extract_pages.py`.
-3. Write combined text to `.tmp/current-chapter.txt`.
-4. Identify evidence that supports a future fan edition of `Hogwarts: A History`.
-5. Extract all explicit `Hogwarts: A History` references.
-6. For supporting material, keep only the strongest 3-7 entries unless instructed otherwise.
-7. Use short quotes only; keep `quote_excerpt_short` under 25 words.
+## External Claim Procedure
 
-## Duplicate Check Procedure
+Use this only when no PDF `current_source_unit` exists and the external queue has a pending unit.
 
-1. Normalize 3-8 topic tags for each candidate.
-2. Run `just query-dupes <tag> <tag>` with candidate tags and placement terms.
-3. If no likely match appears, mark `possible_duplicate: false`.
-4. If a likely match appears, open only the referenced YAML file and compare evidence.
-5. Do not open full index files during normal extraction.
-6. Record the result in the entry `duplicate_check` block.
+1. Claim one pending unit and retain its token.
+2. Read the complete assigned Markdown snapshot and write only its assigned staging YAML under `work/external-staging/`.
+3. Workers write only their assigned staged YAML path. Do not write the canonical output path.
+4. Preserve snapshot provenance, URLs, `capture_completeness`, source ID, and body hash.
+5. Use `ext-<logical-id-lower>-NNN` IDs and null PDF locators.
+6. Record `audit.query_tags` and every candidate from the exact ranked `just query-dupes` result, in returned order. Give each candidate one disposition: `duplicate`, `corroborating`, or `distinct`. Make `possible_duplicate` and `duplicate_of` agree exactly with candidates marked `duplicate`; free-text notes are optional context, not the audit.
+7. Complete, release, or block the single claim with the project command.
+8. Stop after one external unit.
 
-## Output Steps
+## Prohibited Broad Reads and Writes
 
-1. Write or update the current chapter YAML path in `processing-state.yaml`.
-2. Keep full chapter YAML self-contained and schema-compliant.
-3. Run `just post`.
-4. Keep `book-seed/hogwarts-a-history-seed.md` as the main human-readable result.
-5. Keep `appendix/generated/*.md` as generated support/reference files.
+Do not scan all canonical source YAML, all external snapshots, the full generated book seed, full appendices, archive directories, old prompts, or the full PDF. Use the assigned source range and compact query commands.
 
-## Validation Checklist
+For PDF units, do not manually edit `source-plan.yaml`, `processing-state.yaml`, `next-run.md`, indexes, appendices, or book seed. For external units, do not manually edit queue-owned or generated files.
 
-- YAML parses with PyYAML.
-- Required top-level keys exist: `source_unit`, `entries`.
-- Every entry has an `id`, source location, short quote, `source_note`, tags, classification, duplicate check, confidence, and limitations.
-- `reference_type` and `era_classification` use values from `schema-reference.md`.
-- Changed indexes parse as YAML.
-- Generated appendices start with the generated-file notice.
-- Run `just validate` after changing source YAML or generated helper files.
-- Run `just post` when appendices are regenerated or after each completed source unit.
+## Validation and Completion Rules
+
+- A PDF output must parse, contain `source_unit` and `entries`, use its assigned carrier/range, and pass the canonical validator before state advances.
+- `just advance-current` snapshots control and generated artifacts, rebuilds indexes, validates, advances exactly once, regenerates outputs, runs tests, and restores the snapshot after any failure.
+- The current PDF output remains available for correction if a completion gate fails.
+- External completion rebuilds the latest indexes, reruns the recorded ranked duplicate query, and rejects missing, invented, repeated, reordered, or inconsistent candidate reviews.
+- `pending` external units are claimable; `in_progress` external units are token-owned; `done` units passed all gates; `blocked` units require a precise reason.
+- Blocked acquisition rows in `project-control/remaining-source-units.yaml` are not readable extraction units and must never be auto-promoted.
+
+## Run Summary
+
+Report:
+
+- source unit ID and inclusive pages read;
+- source PDF/snapshot and canonical output path as links;
+- entries created and explicit *Hogwarts: A History* reference count;
+- duplicate candidates and open questions;
+- validation/test result and commit ID;
+- exactly one next current unit, or no ready unit plus blocked backlog count.
 
 ## Git Backup Rule
 
-After every successful extraction or refactor iteration:
-
-1. Stage only files that belong to the iteration.
-2. Do not stage `.DS_Store`, caches, virtual environments, or unrelated user changes.
-3. Run relevant validation.
-4. Review `git status --short`.
-5. Review the staged diff.
-6. Commit with a concise message.
-7. Push the current branch to `origin`.
+After every successful unit, stage only files belonging to that unit, review the staged diff, commit with a concise message, and push only when requested. Never stage `.DS_Store`, caches, virtual environments, rendered page images, or unrelated user changes.

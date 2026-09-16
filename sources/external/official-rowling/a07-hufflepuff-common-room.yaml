@@ -1,0 +1,352 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A07
+  source_file: resources/external/official-rowling/harrypotter-com/a07-hufflepuff-common-room.md
+  title: Hufflepuff Common Room
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/hufflepuff-common-room
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/hufflepuff-common-room
+  capture_completeness: complete
+  content_sha256: 6df650415e4cd5f07c44e311e61cd6f89cd01d12dad5ec16258517988c9fb695
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and evidence extracted.
+
+entries:
+  - id: ext-a07-001
+    source_file: resources/external/official-rowling/harrypotter-com/a07-hufflepuff-common-room.md
+    source_id: A07
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hufflepuff-common-room
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The Hufflepuff common room is entered from the same corridor as the Hogwarts kitchens.
+      end_phrase: a pile of large barrels is to be found stacked in a shadowy stone recess
+      local_occurrence_note: Opening paragraph of the snapshot.
+    nearby_context: The passage locates the room's concealed approach beside the kitchens and describes its barrel-based entrance.
+    match_terms:
+      - hufflepuff common room entrance
+      - hogwarts kitchens corridor
+      - barrel entrance
+    quote_excerpt_short: The Hufflepuff common room is entered from the same corridor as the Hogwarts kitchens.
+    source_note: The Hufflepuff common room is reached from the kitchens' corridor, where stacked barrels occupy a recessed space.
+    reference_type: magical_architecture
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - castle-navigation
+      - common-room
+      - entrance
+      - hufflepuff
+      - hogwarts-kitchens
+      - magical-architecture
+    candidate_part: Hogwarts Castle and Grounds
+    candidate_chapter: House Common Rooms and Dormitories
+    candidate_section: Hufflepuff Common Room Entrance
+    reason_for_placement: Documents a distinctive internal route and concealed architectural entrance within Hogwarts.
+    relevance_to_hogwarts_a_history: Useful as a source-grounded description of a House common room's location and castle navigation.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed matches cover other House common rooms or unrelated Hufflepuff contexts, not this entrance location.
+      audit:
+        query_tags:
+          - common-room
+          - entrance
+          - hufflepuff
+          - kitchens
+        candidates:
+          - id: cos-ch05-006
+            disposition: corroborating
+          - id: cos-ch06-002
+            disposition: distinct
+          - id: cos-ch08-003
+            disposition: distinct
+          - id: ext-a06-003
+            disposition: distinct
+          - id: gof-ch06-004
+            disposition: distinct
+          - id: gof-ch15-004
+            disposition: distinct
+          - id: gof-ch17-007
+            disposition: corroborating
+          - id: gof-ch18-002
+            disposition: distinct
+          - id: gof-ch19-007
+            disposition: corroborating
+          - id: gof-ch20-004
+            disposition: distinct
+    confidence: high
+    limitations: This is Rowling's retrospective setting description; it does not date the entrance's construction or establish when its arrangement began.
+
+  - id: ext-a07-002
+    source_file: resources/external/official-rowling/harrypotter-com/a07-hufflepuff-common-room.md
+    source_id: A07
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hufflepuff-common-room
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The barrel two from the bottom, middle of the second row, will open
+      end_phrase: if tapped in the rhythm of ‘Helga Hufflepuff’\*.
+      local_occurrence_note: Second paragraph of the snapshot.
+    nearby_context: After locating the barrel stack, the source gives the exact barrel and tapping rhythm used to open it.
+    match_terms:
+      - hufflepuff entrance rhythm
+      - helga hufflepuff tapping
+      - barrel access mechanism
+    quote_excerpt_short: The barrel two from the bottom, middle of the second row, will open if tapped in the rhythm of ‘Helga Hufflepuff’\*.
+    source_note: Access requires tapping a specified barrel in the rhythm of Helga Hufflepuff's name.
+    reference_type: magical_architecture
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - barrel
+      - common-room
+      - entrance
+      - hufflepuff
+      - rhythm
+      - security
+    candidate_part: Hogwarts Castle and Grounds
+    candidate_chapter: House Common Rooms and Dormitories
+    candidate_section: Hufflepuff Entrance Mechanism
+    reason_for_placement: Records the operating rule for a House entrance rather than a general House custom.
+    relevance_to_hogwarts_a_history: Provides precise evidence for the magical and ritualized access mechanism of the Hufflepuff common room.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The ranked entries address other security arrangements or unrelated Hufflepuff evidence, not this rhythmic barrel mechanism.
+      audit:
+        query_tags:
+          - barrel
+          - hufflepuff
+          - security
+          - vinegar
+        candidates:
+          - id: cos-ch06-002
+            disposition: distinct
+          - id: dh-ch23-004
+            disposition: distinct
+          - id: ext-a05-002
+            disposition: distinct
+          - id: ext-a06-003
+            disposition: distinct
+          - id: gof-ch06-004
+            disposition: distinct
+          - id: gof-ch15-004
+            disposition: distinct
+          - id: gof-ch15-006
+            disposition: distinct
+          - id: gof-ch18-002
+            disposition: distinct
+          - id: gof-ch36-002
+            disposition: distinct
+          - id: hbp-ch26-003
+            disposition: distinct
+    confidence: high
+    limitations: The source states the mechanism but does not explain its enchantment, administration, or historical origin.
+
+  - id: ext-a07-003
+    source_file: resources/external/official-rowling/harrypotter-com/a07-hufflepuff-common-room.md
+    source_id: A07
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hufflepuff-common-room
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: As a security device to repel non-Hufflepuffs
+      end_phrase: drenching the interloper in vinegar.
+      local_occurrence_note: Paragraph immediately following the comparative footnote on House entrances.
+    nearby_context: The source explicitly characterizes the consequence of an incorrect tapping attempt as a security device.
+    match_terms:
+      - hufflepuff entrance security
+      - vinegar deterrent
+      - wrong barrel tapping
+    quote_excerpt_short: tapping on the wrong barrel, or tapping the incorrect number of times, results in one of the other lids bursting off
+    source_note: Incorrect barrel selection or tapping count triggers a burst lid that drenches the would-be intruder in vinegar.
+    reference_type: security_or_protection
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - barrel
+      - common-room
+      - hufflepuff
+      - school-security
+      - security
+      - vinegar
+    candidate_part: Hogwarts Castle and Grounds
+    candidate_chapter: House Common Rooms and Dormitories
+    candidate_section: Hufflepuff Entrance Security
+    reason_for_placement: Describes a localized protective response integrated into a House entrance.
+    relevance_to_hogwarts_a_history: Supplies direct evidence of a non-lethal access-control enchantment within the castle.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed security claims concern other locations and protections; none duplicates the vinegar deterrent.
+      audit:
+        query_tags:
+          - barrel
+          - hufflepuff
+          - security
+          - vinegar
+        candidates:
+          - id: cos-ch06-002
+            disposition: distinct
+          - id: dh-ch23-004
+            disposition: distinct
+          - id: ext-a05-002
+            disposition: distinct
+          - id: ext-a06-003
+            disposition: distinct
+          - id: gof-ch06-004
+            disposition: distinct
+          - id: gof-ch15-004
+            disposition: distinct
+          - id: gof-ch15-006
+            disposition: distinct
+          - id: gof-ch18-002
+            disposition: distinct
+          - id: gof-ch36-002
+            disposition: distinct
+          - id: hbp-ch26-003
+            disposition: distinct
+    confidence: high
+    limitations: This source describes the stated deterrent outcome but does not show its effectiveness in an observed incident.
+
+  - id: ext-a07-004
+    source_file: resources/external/official-rowling/harrypotter-com/a07-hufflepuff-common-room.md
+    source_id: A07
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hufflepuff-common-room
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: A sloping, earthy passage inside the barrel travels upwards a little way
+      end_phrase: all covered in patchwork quilts).
+      local_occurrence_note: Paragraph describing the room immediately after the entrance-security paragraph.
+    nearby_context: The source describes the room reached through the barrel, including its shape, colors, materials, and dormitory doors.
+    match_terms:
+      - hufflepuff common room interior
+      - low-ceilinged room
+      - hufflepuff dormitories
+    quote_excerpt_short: A sloping, earthy passage inside the barrel travels upwards a little way
+    source_note: The entrance leads to a round, low-ceilinged, earth-toned common room with yellow-and-black decoration and round doors to gendered dormitories.
+    reference_type: direct_observed_setting
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - architecture
+      - common-room
+      - dormitories
+      - hufflepuff
+      - magical-architecture
+      - student-accommodation
+    candidate_part: Hogwarts Castle and Grounds
+    candidate_chapter: House Common Rooms and Dormitories
+    candidate_section: Hufflepuff Common Room Interior
+    reason_for_placement: Provides a compact architectural and residential description of an otherwise unvisited House space.
+    relevance_to_hogwarts_a_history: Adds direct setting evidence for the design and dormitory arrangement of the Hufflepuff common room.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Related entries describe Gryffindor spaces, general dormitory rules, kitchens, or House colors, but not this interior.
+      audit:
+        query_tags:
+          - architecture
+          - common-room
+          - dormitories
+          - hufflepuff
+        candidates:
+          - id: cos-ch05-006
+            disposition: corroborating
+          - id: ootp-ch17-002
+            disposition: corroborating
+          - id: cos-ch06-002
+            disposition: distinct
+          - id: cos-ch08-003
+            disposition: distinct
+          - id: ext-a06-003
+            disposition: distinct
+          - id: gof-ch06-004
+            disposition: distinct
+          - id: gof-ch12-004
+            disposition: distinct
+          - id: gof-ch15-004
+            disposition: corroborating
+          - id: gof-ch17-007
+            disposition: corroborating
+          - id: gof-ch18-002
+            disposition: distinct
+    confidence: high
+    limitations: The description is not an in-story visit and does not establish whether every furnishing persisted unchanged through Hogwarts history.
+
+  - id: ext-a07-005
+    source_file: resources/external/official-rowling/harrypotter-com/a07-hufflepuff-common-room.md
+    source_id: A07
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hufflepuff-common-room
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: A portrait over the wooden mantelpiece
+      end_phrase: toasting her students with a tiny, two-handled golden cup.
+      local_occurrence_note: Paragraph after the plant-and-flower description.
+    nearby_context: The room's mantelpiece portrait identifies Helga Hufflepuff and depicts her addressing her students.
+    match_terms:
+      - helga hufflepuff portrait
+      - hogwarts founder
+      - hufflepuff common room mantelpiece
+    quote_excerpt_short: shows Helga Hufflepuff, one of the four founders of Hogwarts School
+    source_note: A common-room portrait identifies Helga Hufflepuff as one of Hogwarts' four founders and depicts her toasting students with a small golden cup.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - founders
+      - golden-cup
+      - helga-hufflepuff
+      - hufflepuff
+      - portraits
+      - school-origins
+    candidate_part: Foundations and Founders
+    candidate_chapter: The Four Founders and Their Legacy
+    candidate_section: Helga Hufflepuff in House Memory
+    reason_for_placement: Connects the House room's material culture to the enduring commemoration of a school founder.
+    relevance_to_hogwarts_a_history: Offers direct Rowling-source support for Helga Hufflepuff's founder status and her memorial presence in the House space.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The ranked entries are Hufflepuff references without the specific Helga portrait or founder claim.
+      audit:
+        query_tags:
+          - founder
+          - helga
+          - hufflepuff
+          - portrait
+        candidates:
+          - id: cos-ch06-002
+            disposition: distinct
+          - id: ext-a06-003
+            disposition: distinct
+          - id: gof-ch06-004
+            disposition: distinct
+          - id: gof-ch15-004
+            disposition: distinct
+          - id: gof-ch18-002
+            disposition: distinct
+          - id: gof-ch36-002
+            disposition: distinct
+          - id: ootp-ch26-004
+            disposition: distinct
+          - id: poa-ch09-006
+            disposition: distinct
+          - id: ps-ch05-006
+            disposition: distinct
+          - id: ps-ch13-002
+            disposition: distinct
+    confidence: high
+    limitations: The source identifies the subject and founder status but does not establish when the portrait was installed or whether its depicted cup is a historical object.

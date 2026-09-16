@@ -1,0 +1,345 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Sixteen - Godric's Hollow
+  chapter_start_pdf_page: 3240
+  chapter_end_pdf_page: 3255
+  boundary_confidence: high
+  boundary_notes: "Processing-state anchors identify this chapter as PDF pages 3240-3255; bounded extraction begins at the Chapter Sixteen heading and ends with Harry and Hermione leaving the graveyard before the next chapter."
+  processed_date: '2026-08-05'
+  processor_notes: "Extracted only the bounded source-unit range with pypdf via scripts/extract_pages.py; no explicit Hogwarts: A History reference appears in this chapter."
+
+entries:
+  - id: dh-ch16-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Sixteen - Godric's Hollow
+    chapter_start_pdf_page: 3240
+    chapter_end_pdf_page: 3255
+    pdf_page: 3240
+    printed_page: null
+    extracted_text_lines: "14-23; 38-51"
+    text_anchor:
+      start_phrase: "He had to keep thinking it"
+      end_phrase: "ensure their protection"
+      local_occurrence_note: "After Ron leaves, Harry and Hermione delay departure, then Disapparate and Harry casts the usual campsite protections."
+    nearby_context: "The scene follows Ron's departure from the riverside tent and shows why a vacated protected camp cannot be rediscovered by him."
+    match_terms:
+      - protective enchantments
+      - campsite
+      - Disapparated
+      - Ron
+      - protection
+    quote_excerpt_short: "impossible, once they vacated this spot"
+    source_note: "The Horcrux-hunt camp protections also function as a location-severing measure: once the fugitives leave a protected site, Ron cannot find the new camp without being included."
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - protective-enchantments
+      - campsite
+      - horcrux-hunt
+      - apparition
+      - ron-weasley
+      - field-security
+      - wards
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Mobile Wards and Field Concealment
+    candidate_section: Protected campsite relocation and lost access
+    reason_for_placement: "The passage clarifies a practical consequence of portable protective magic: it protects secrecy but can also lock out an ally after relocation."
+    relevance_to_hogwarts_a_history: "A later edition can contrast Hogwarts's stable wards with mobile wartime protections that must be recast and shared only with current occupants."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch14-003
+        - dh-ch15-001
+      notes: "Likely continuation of the mobile campsite protection entries; this chapter adds the consequence that a departed ally cannot relocate the group after they vacate a protected site."
+    confidence: high
+    limitations: "The exact charm or combination of charms that prevents Ron from finding them is not named in this passage."
+
+  - id: dh-ch16-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Sixteen - Godric's Hollow
+    chapter_start_pdf_page: 3240
+    chapter_end_pdf_page: 3255
+    pdf_page: 3242
+    printed_page: null
+    extracted_text_lines: "84-119"
+    text_anchor:
+      start_phrase: "Hermione took to bringing out Phineas Nigellus's portrait"
+      end_phrase: "refused to reappear for several days"
+      local_occurrence_note: "Blindfolded Phineas periodically reports on Hogwarts while trying to extract Harry and Hermione's whereabouts."
+    nearby_context: "Harry and Hermione want Hogwarts news but must avoid criticizing Snape or revealing their location through the portrait."
+    match_terms:
+      - Phineas Nigellus
+      - portrait
+      - Snape
+      - Slytherin headmaster
+      - Hogsmeade
+      - decree
+      - Dumbledore's Army
+    quote_excerpt_short: "a constant, low level of mutiny"
+    source_note: "Phineas Nigellus acts as a blindfolded, linked portrait informant from Hogwarts, reporting Snape's Slytherin headmastership, student mutiny, Ginny's Hogsmeade ban, and the restored anti-gathering decree."
+    reference_type: portrait_or_ghost_lore
+    era_classification: later_editorial_note
+    topic_tags:
+      - phineas-nigellus-black
+      - portraits
+      - hogwarts
+      - severus-snape
+      - dumbledores-army
+      - wartime-hogwarts
+      - student-discipline
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Snape's Hogwarts Regime
+    candidate_section: Portrait reports of student resistance and restored decrees
+    reason_for_placement: "The passage combines portrait-network intelligence with concrete school-policy evidence from the 1997-1998 regime."
+    relevance_to_hogwarts_a_history: "A later edition can use this as outside-the-castle evidence for how former-headmaster portraits carried institutional news and how students resisted Snape's rule."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch10-001
+        - dh-ch12-001
+        - dh-ch12-002
+        - dh-ch15-007
+      notes: "Likely overlaps prior Phineas portrait-network and Snape-regime entries; this chapter adds blindfolded periodic reporting, student mutiny, Ginny's Hogsmeade ban, and Umbridge's old anti-gathering decree."
+    confidence: high
+    limitations: "The Hogwarts details are relayed through Phineas, who is biased toward Snape and leaves when questioned too directly."
+
+  - id: dh-ch16-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Sixteen - Godric's Hollow
+    chapter_start_pdf_page: 3240
+    chapter_end_pdf_page: 3255
+    pdf_page: 3246
+    printed_page: null
+    extracted_text_lines: "223-253"
+    text_anchor:
+      start_phrase: "There's a bit about the village in A History of Magic"
+      end_phrase: "make the connection?"
+      local_occurrence_note: "Hermione retrieves Bathilda Bagshot's textbook from her beaded bag and reads the Godric's Hollow entry."
+    nearby_context: "The excerpt is used to link Godric's Hollow, Godric Gryffindor, the Sword of Gryffindor, and the village's wizarding history."
+    match_terms:
+      - A History of Magic
+      - Bathilda Bagshot
+      - International Statute of Secrecy
+      - Godric's Hollow
+      - Godric Gryffindor
+      - Bowman Wright
+      - Golden Snitch
+    quote_excerpt_short: "Most celebrated of these half-magical dwelling places"
+    source_note: "Bathilda Bagshot's A History of Magic identifies post-Statute half-magical communities and singles out Godric's Hollow as Gryffindor's birthplace, Bowman Wright's Snitch-forging site, and a graveyard of ancient magical families."
+    reference_type: explicit_in_universe_source
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - a-history-of-magic
+      - bathilda-bagshot
+      - godrics-hollow
+      - statute-of-secrecy
+      - godric-gryffindor
+      - bowman-wright
+      - golden-snitch
+    candidate_part: Sources, Historiography, and Editions
+    candidate_chapter: Named Wizarding Historians and School Texts
+    candidate_section: A History of Magic on Godric's Hollow
+    reason_for_placement: "The passage is a direct in-universe historical source with place, founder, craft, and post-Statute community evidence."
+    relevance_to_hogwarts_a_history: "A future Hogwarts history can cite Bagshot's textbook as background for Gryffindor's birthplace, the sword hypothesis, and wizarding settlement patterns after the Statute of Secrecy."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - poa-ch01-001
+        - dh-ch08-006
+        - dh-ch10-003
+      notes: "Likely overlaps prior entries identifying Bathilda Bagshot and A History of Magic as sources; this chapter adds a quoted Godric's Hollow passage with Statute, Gryffindor, Bowman Wright, Snitch, graveyard, and haunting details."
+    confidence: high
+    limitations: "Hermione notes that Bagshot's textbook stops before the end of the nineteenth century, so it omits Harry's parents and the modern Potter history."
+
+  - id: dh-ch16-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Sixteen - Godric's Hollow
+    chapter_start_pdf_page: 3240
+    chapter_end_pdf_page: 3255
+    pdf_page: 3247
+    printed_page: null
+    extracted_text_lines: "255-285"
+    text_anchor:
+      start_phrase: "the person of Bathilda Bagshot"
+      end_phrase: "mentioned a friendship with Bathilda"
+      local_occurrence_note: "Harry recalls Muriel's claim that Bathilda still lives in Godric's Hollow, and Hermione speculates that Dumbledore may have entrusted the sword to her."
+    nearby_context: "Hermione sees Bathilda's name on A History of Magic immediately before making the sword-custody suggestion."
+    match_terms:
+      - Bathilda Bagshot
+      - Godric's Hollow
+      - A History of Magic
+      - sword of Gryffindor
+      - Dumbledore
+      - Muriel
+    quote_excerpt_short: "what if Bathilda's got the sword?"
+    source_note: "Bathilda Bagshot is treated as both a living Godric's Hollow informant and a possible custodian for Dumbledore's plan around the Sword of Gryffindor."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - bathilda-bagshot
+      - godrics-hollow
+      - sword-of-gryffindor
+      - albus-dumbledore
+      - a-history-of-magic
+      - source-history
+      - founder-relics
+    candidate_part: Sources, Historiography, and Editions
+    candidate_chapter: Sources for Dumbledore's Life
+    candidate_section: Bathilda Bagshot as living local source and possible relic custodian
+    reason_for_placement: "The scene shows how Harry and Hermione connect a named historian, local oral testimony, and a founder relic in their research logic."
+    relevance_to_hogwarts_a_history: "A later edition can use this as evidence for why Bagshot's testimony mattered to Dumbledore-related Hogwarts history, while clearly labeling the sword-custody theory as unproven in this chapter."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch08-006
+        - dh-ch10-003
+        - dh-ch15-006
+      notes: "Likely overlaps prior Bathilda-as-source and Sword of Gryffindor entries; this chapter adds the operational theory that Dumbledore might have hidden the sword with Bathilda."
+    confidence: medium
+    limitations: "The sword connection is Hermione's speculation and is not confirmed by the events of this chapter."
+
+  - id: dh-ch16-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Sixteen - Godric's Hollow
+    chapter_start_pdf_page: 3240
+    chapter_end_pdf_page: 3255
+    pdf_page: 3248
+    printed_page: null
+    extracted_text_lines: "291-334; 341-356"
+    text_anchor:
+      start_phrase: "we'll have to think it through carefully"
+      end_phrase: "what happened when the subjects of a Fidelius Charm died"
+      local_occurrence_note: "Hermione plans layered concealment for Godric's Hollow, and the actual visit uses Polyjuice, the Cloak, and trace awareness in snow."
+    nearby_context: "The pair assumes Voldemort may anticipate Harry's return and therefore prepares identities, transport practice, and concealment before entering the village."
+    match_terms:
+      - Disapparating
+      - Invisibility Cloak
+      - Disillusionment Charms
+      - Polyjuice Potion
+      - Muggle hair
+      - footprints
+      - Fidelius Charm
+    quote_excerpt_short: "the thicker our disguises the better"
+    source_note: "A high-risk visit can combine Side-Along Apparition practice under the Invisibility Cloak, possible Disillusionment, Polyjuice made with Muggle hair, concealed storage, and physical trace management."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - polyjuice-potion
+      - invisibility-cloak
+      - disillusionment
+      - apparition
+      - disguise
+      - fidelius
+      - wartime-security
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Disguise, Concealment, and Covert Movement
+    candidate_section: Layered disguises for Godric's Hollow
+    reason_for_placement: "The passage lays out a rare tactical stack of concealment methods used by Hogwarts-trained fugitives."
+    relevance_to_hogwarts_a_history: "A later edition can use this as wartime evidence for practical concealment techniques taught, owned, or improvised by former Hogwarts students."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate lookup found general Apparition, Polyjuice, Invisibility Cloak, and wartime-security entries, but no prior entry for this layered Godric's Hollow disguise operation."
+    confidence: high
+    limitations: "The Disillusionment option is discussed but not clearly used, and the passage leaves the post-mortem Fidelius question unresolved."
+
+  - id: dh-ch16-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Sixteen - Godric's Hollow
+    chapter_start_pdf_page: 3240
+    chapter_end_pdf_page: 3255
+    pdf_page: 3250
+    printed_page: null
+    extracted_text_lines: "360-394"
+    text_anchor:
+      start_phrase: "there was what looked like a war memorial"
+      end_phrase: "turned back into the war memorial"
+      local_occurrence_note: "The village square memorial transforms for Harry and Hermione into a statue of James, Lily, and baby Harry."
+    nearby_context: "The memorial stands in a mixed Muggle village square with shops, a pub, a church, and Christmas Eve villagers nearby."
+    match_terms:
+      - war memorial
+      - statue
+      - James Potter
+      - Lily Potter
+      - baby boy
+      - Godric's Hollow
+    quote_excerpt_short: "it had transformed"
+    source_note: "Godric's Hollow contains a concealed magical memorial: what appears as a war memorial becomes a Potter-family statue for Harry and Hermione, then reverts as they leave."
+    reference_type: magical_architecture
+    era_classification: later_editorial_note
+    topic_tags:
+      - godrics-hollow
+      - potter-family
+      - magical-memorial
+      - statue
+      - muggle-concealment
+      - voldemort-fall
+      - public-memory
+    candidate_part: Magical Communities and Families
+    candidate_chapter: Godric's Hollow and Wizarding Memory
+    candidate_section: Potter memorial hidden in a Muggle village square
+    reason_for_placement: "The scene gives physical evidence of magical public memory layered over an apparently ordinary Muggle civic object."
+    relevance_to_hogwarts_a_history: "A later edition can use the memorial to explain how the Potter family's sacrifice entered wizarding public memory while remaining concealed in a mixed community."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Duplicate lookup returned prior Godric's Hollow and Boy Who Lived entries, but no prior entry for the transforming Potter memorial statue."
+    confidence: high
+    limitations: "The chapter does not explain who created the memorial or what determines whether a visitor sees the magical version."
+
+  - id: dh-ch16-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Sixteen - Godric's Hollow
+    chapter_start_pdf_page: 3240
+    chapter_end_pdf_page: 3255
+    pdf_page: 3252
+    printed_page: null
+    extracted_text_lines: "406-465; 479-497; 514-546"
+    text_anchor:
+      start_phrase: "row upon row of snowy tombstones"
+      end_phrase: "Living after death"
+      local_occurrence_note: "Harry and Hermione find Dumbledore, Ignotus, wizarding-family, and Potter graves in the churchyard."
+    nearby_context: "The graveyard stands behind the village church and contains surnames Harry recognizes from Hogwarts as well as Dumbledore and Potter family graves."
+    match_terms:
+      - Kendra Dumbledore
+      - Ariana Dumbledore
+      - Ignotus
+      - triangular mark
+      - Potter
+      - graveyard
+      - wizarding family
+    quote_excerpt_short: "several generations of the same Wizarding family"
+    source_note: "The Godric's Hollow graveyard corroborates old wizarding settlement: Kendra and Ariana Dumbledore are buried near James and Lily Potter, an ancient Ignotus grave bears the triangular mark, and recognizable Hogwarts surnames recur across generations."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - godrics-hollow
+      - graveyard
+      - dumbledore-family
+      - potter-family
+      - ignotus-peverell
+      - wizarding-families
+      - deathly-hallows-symbol
+    candidate_part: Magical Communities and Families
+    candidate_chapter: Godric's Hollow and Wizarding Memory
+    candidate_section: Churchyard graves, old families, and Hallows evidence
+    reason_for_placement: "The graveyard physically verifies earlier contested family-history claims and expands Bagshot's textbook description of ancient magical families in the village."
+    relevance_to_hogwarts_a_history: "A later edition can use this as place-based evidence for Godric's Hollow's old magical families, Dumbledore-Potter proximity, and the later Hallows connection."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch08-006
+        - dh-ch11-006
+        - ps-ch01-003
+        - gof-ch02-004
+      notes: "Likely overlaps prior Godric's Hollow, Dumbledore-family, and Potter-attack entries; this chapter adds direct graveyard evidence, Potter and Dumbledore grave proximity, Ignotus's marked grave, and repeated wizarding-family surnames."
+    confidence: high
+    limitations: "Ignotus's surname is not legible in this chapter, and Hermione has not yet identified the triangular mark as the Deathly Hallows symbol."

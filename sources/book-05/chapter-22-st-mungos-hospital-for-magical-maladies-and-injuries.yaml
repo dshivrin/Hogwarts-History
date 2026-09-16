@@ -1,0 +1,342 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries
+  chapter_start_pdf_page: 2018
+  chapter_end_pdf_page: 2042
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used the current control range, pages 2018-2042. Chapter Twenty-Three was confirmed by a one-page forward anchor extraction at PDF page 2043, so no scan from page 1 was needed.
+  processed_date: '2026-07-09'
+  processor_notes: "Extracted with pypdf via scripts/extract_pages.py using only the bounded page range. No explicit Hogwarts: A History references appear in this chapter."
+
+entries:
+  - id: ootp-ch22-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries
+    chapter_start_pdf_page: 2018
+    chapter_end_pdf_page: 2042
+    pdf_page: 2018
+    printed_page: null
+    extracted_text_lines: 8-29; 38-43
+    text_anchor:
+      start_phrase: They followed Professor McGonagall
+      end_phrase: portraits of old headmasters and headmistresses
+      local_occurrence_note: McGonagall takes Harry and Ron from Gryffindor Tower to the headmaster's office after Harry's vision of Arthur Weasley.
+    nearby_context: The route passes through the portrait hole, Fat Lady's corridor, the passworded stone gargoyle, the moving spiral staircase, the griffin-knocker oak door, and the office interior.
+    match_terms:
+      - Gryffindor common room
+      - portrait hole
+      - Fat Lady
+      - stone gargoyle
+      - Fizzing Whizbee
+      - moving staircase
+      - headmaster portraits
+    quote_excerpt_short: "Fizzing Whizbee"
+    source_note: The emergency nighttime route reconfirms Gryffindor Tower egress and the headmaster-office entrance system, including the current password, moving stair, griffin knocker, portraits, silver instruments, and Fawkes.
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - dumbledore-office
+      - headmaster-office
+      - stone-gargoyle
+      - password
+      - gryffindor-tower
+      - fat-lady
+      - magical-architecture
+    candidate_part: Magical Architecture and Enchantments
+    candidate_chapter: Headmaster's Office and Protected Entrances
+    candidate_section: Emergency nighttime access from Gryffindor Tower
+    reason_for_placement: The passage ties House-residence routes to the headmaster's protected office architecture during an urgent staff-supervised movement.
+    relevance_to_hogwarts_a_history: This can corroborate coverage of administrative access points, portrait-hole circulation, and how staff move students through the castle in emergencies.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch11-007
+        - gof-ch29-006
+        - cos-ch12-001
+      notes: cos-ch11-007 and gof-ch29-006 already record the passworded gargoyle and moving stair, while cos-ch12-001 records office interior features; this entry adds the OotP password, nighttime route from Gryffindor Tower, and emergency context.
+    confidence: high
+    limitations: The route is observed from Gryffindor Tower only and does not map every path to the headmaster's office.
+
+  - id: ootp-ch22-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries
+    chapter_start_pdf_page: 2018
+    chapter_end_pdf_page: 2042
+    pdf_page: 2020
+    printed_page: null
+    extracted_text_lines: 90-114; 154-170; 217-229
+    text_anchor:
+      start_phrase: Everard
+      end_phrase: present headmaster of Hogwarts
+      local_occurrence_note: Dumbledore dispatches Everard and Dilys through their portraits, then later orders Phineas Nigellus to use his other portrait at Grimmauld Place.
+    nearby_context: The portraits leave their frames to raise the alarm, track Arthur Weasley's movement to St. Mungo's, and relay messages between Hogwarts, the hospital, the Ministry area, and Grimmauld Place.
+    match_terms:
+      - Everard
+      - Dilys
+      - Phineas Nigellus
+      - headmaster portraits
+      - Wizarding institutions
+      - Grimmauld Place
+      - honor-bound
+    quote_excerpt_short: "free to move between their own portraits"
+    source_note: Dumbledore explains that celebrated Hogwarts Heads with portraits in multiple important wizarding institutions can move between their own frames and report elsewhere; the portraits also describe service owed to the current Hogwarts headmaster.
+    reference_type: portrait_or_ghost_lore
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - headmaster-portraits
+      - portrait-network
+      - everard
+      - dilys-derwent
+      - phineas-nigellus
+      - wizarding-institutions
+      - headmaster-authority
+    candidate_part: Ghosts, Portraits, and Magical Residents
+    candidate_chapter: Headmaster Portraits and Institutional Memory
+    candidate_section: Multi-institution portrait travel and service to the headmaster
+    reason_for_placement: The passage gives the clearest operating rule so far for former Heads' portraits as an advisory and communication network.
+    relevance_to_hogwarts_a_history: This can seed a historical section on how Hogwarts preserves former headmasters and headmistresses as active institutional agents, not merely memorial images.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch12-001
+        - gof-ch17-007
+        - poa-ch11-006
+      notes: Earlier entries identify headmaster portraits and ordinary Hogwarts portrait movement; this entry adds named former Heads, travel between portraits in external institutions, and the duty to serve the current headmaster.
+    confidence: high
+    limitations: The evidence describes portraits that have multiple frames; it does not prove every Hogwarts portrait can travel beyond the castle.
+
+  - id: ootp-ch22-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries
+    chapter_start_pdf_page: 2018
+    chapter_end_pdf_page: 2042
+    pdf_page: 2023
+    printed_page: null
+    extracted_text_lines: 178-184; 191-263; 268-283
+    text_anchor:
+      start_phrase: that excellent clock of hers
+      end_phrase: You will be taking a Portkey
+      local_occurrence_note: Dumbledore coordinates warnings and transport after confirming Arthur Weasley has reached St. Mungo's.
+    nearby_context: Fawkes is sent to warn Dumbledore of approaching interference, Phineas contacts Sirius, the Floo Network is said to be watched, and Dumbledore turns a kettle into a Portkey.
+    match_terms:
+      - Fawkes
+      - Portus
+      - Portkey
+      - Floo Network
+      - Umbridge
+      - Phineas Nigellus
+      - Weasley clock
+    quote_excerpt_short: "Floo powder is not safe"
+    source_note: "Dumbledore's crisis response uses multiple communication and security channels: Fawkes for warnings and messages, Phineas for Grimmauld Place contact, a family danger clock, and a conjured Portkey because the Floo Network is watched."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - emergency-communications
+      - fawkes
+      - portkey
+      - floo-network
+      - phineas-nigellus
+      - umbridge-surveillance
+      - order-security
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Protective Magic and Security
+    candidate_section: Emergency communication and transport under surveillance
+    reason_for_placement: The scene shows how Hogwarts leadership adapts transport, messaging, and concealment during a wartime school-night emergency.
+    relevance_to_hogwarts_a_history: A later edition can use this to explain how Ministry surveillance changed emergency movement from Hogwarts during the High Inquisitor's tenure.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch17-003
+        - ootp-ch03-003
+        - gof-ch04-004
+      notes: ootp-ch17-003 records watched communications at Hogwarts, ootp-ch03-003 records earlier transport constraints under surveillance, and gof-ch04-004 records regulated Floo use; this entry adds Dumbledore's Portkey workaround, Fawkes warning, and Phineas relay.
+    confidence: high
+    limitations: The passage does not state who is watching the Floo Network or whether the Portkey is officially authorized.
+
+  - id: ootp-ch22-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries
+    chapter_start_pdf_page: 2018
+    chapter_end_pdf_page: 2042
+    pdf_page: 2033
+    printed_page: null
+    extracted_text_lines: 543-591
+    text_anchor:
+      start_phrase: where St. Mungo's was hidden
+      end_phrase: stepped forward through what felt like a sheet of cool water
+      local_occurrence_note: Moody explains the hospital location before Tonks leads the group through the disguised Purge and Dowse shopfront.
+    nearby_context: The hospital is hidden in a shabby Muggle department store on a busy London shopping street; visitors announce the patient to a mannequin, then pass through the glass.
+    match_terms:
+      - St. Mungo's
+      - Purge and Dowse Ltd.
+      - concealed entrance
+      - Diagon Alley
+      - Ministry
+      - mannequin
+      - London
+    quote_excerpt_short: "Purge and Dowse Ltd."
+    source_note: Moody explains that St. Mungo's was placed in Muggle London because Diagon Alley lacked space and an underground Ministry-style site was unhealthy; the entrance is concealed as a closed department store with a speaking-window protocol.
+    reference_type: magical_architecture
+    era_classification: later_editorial_note
+    topic_tags:
+      - st-mungos
+      - purge-and-dowse
+      - concealed-entrance
+      - magical-hospital
+      - muggle-secrecy
+      - london
+      - magical-architecture
+    candidate_part: Peoples, Beings, and Magical Society
+    candidate_chapter: Wizarding Institutions Beyond Hogwarts
+    candidate_section: St. Mungo's location and concealed entrance
+    reason_for_placement: The passage gives practical siting logic and secrecy mechanics for a major magical institution outside the school.
+    relevance_to_hogwarts_a_history: This is useful as later-edition context for Hogwarts alumni, staff, and families interacting with wider wizarding institutions during school crises.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate queries found only an earlier Ministry Atrium charity notice for St. Mungo's, not the hospital's location, entrance, or siting rationale.
+    confidence: high
+    limitations: The explanation is Moody's practical account, not an official founding history of the hospital.
+
+  - id: ootp-ch22-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries
+    chapter_start_pdf_page: 2018
+    chapter_end_pdf_page: 2042
+    pdf_page: 2035
+    printed_page: null
+    extracted_text_lines: 591-648; 685-694
+    text_anchor:
+      start_phrase: crowded reception area
+      end_phrase: first floor, second door on the right
+      local_occurrence_note: Harry observes St. Mungo's reception, healer uniforms, inquiry desk, public notices, and floor guide before Arthur's ward is identified.
+    nearby_context: Lime-green-robed Healers use a crossed wand-and-bone emblem, the Welcome Witch directs patients, and the floor guide divides care by accidents, creature injuries, magical bugs, poisonings, spell damage, and visitor services.
+    match_terms:
+      - Healers
+      - wand and bone
+      - Inquiries
+      - floor guide
+      - Creature-Induced Injuries
+      - Spell Damage
+      - Welcome Witch
+    quote_excerpt_short: "Nah, they're Healers"
+    source_note: St. Mungo's public organization distinguishes Healers from Muggle doctors and sorts patients through a visible floor guide covering artifact accidents, creature injuries, magical bugs, poisoning, spell damage, and visitor services.
+    reference_type: direct_observed_setting
+    era_classification: later_editorial_note
+    topic_tags:
+      - st-mungos
+      - healers
+      - hospital-wards
+      - magical-maladies
+      - artifact-accidents
+      - creature-induced-injuries
+      - spell-damage
+    candidate_part: Peoples, Beings, and Magical Society
+    candidate_chapter: Wizarding Institutions Beyond Hogwarts
+    candidate_section: St. Mungo's departments, Healers, and public triage
+    reason_for_placement: The passage provides a compact institutional map of magical medicine and patient-routing categories.
+    relevance_to_hogwarts_a_history: A later edition can use this to cross-reference school injuries, magical creature incidents, and the medical institutions that support the Hogwarts community.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate queries found no existing entry for St. Mungo's Healers, department floor guide, or public triage structure.
+    confidence: high
+    limitations: The scene captures the public-facing department guide, not the full hospital administration or specialist training system.
+
+  - id: ootp-ch22-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries
+    chapter_start_pdf_page: 2018
+    chapter_end_pdf_page: 2042
+    pdf_page: 2036
+    printed_page: null
+    extracted_text_lines: 629-635
+    text_anchor:
+      start_phrase: DILYS DERWENT
+      end_phrase: walked sideways out of her portrait
+      local_occurrence_note: Harry sees Dilys Derwent's St. Mungo's portrait in reception after Dumbledore had sent her to confirm Arthur's arrival.
+    nearby_context: The portrait label names her as St. Mungo's Healer, 1722-1741, and Headmistress of Hogwarts School of Witchcraft and Wizardry, 1741-1768.
+    match_terms:
+      - Dilys Derwent
+      - St. Mungo's Healer
+      - Headmistress
+      - Hogwarts
+      - portrait
+      - 1722-1741
+      - 1741-1768
+    quote_excerpt_short: "HEADMISTRESS OF HOGWARTS"
+    source_note: Dilys Derwent's labeled portrait gives a dated career sequence from St. Mungo's Healer to Hogwarts Headmistress, and the portrait's movement corroborates Dumbledore's earlier explanation of multi-institution portrait travel.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - dilys-derwent
+      - headmistress
+      - st-mungos
+      - healer
+      - hogwarts-heads
+      - portrait-network
+      - institutional-history
+    candidate_part: Founders, Headmasters, and Institutional Memory
+    candidate_chapter: Known Heads of Hogwarts
+    candidate_section: Dilys Derwent, Healer and Headmistress
+    reason_for_placement: The label provides dated historical evidence for a named Hogwarts Head whose reputation spans Hogwarts and another major wizarding institution.
+    relevance_to_hogwarts_a_history: This can seed a biographical entry on former Heads and their links to broader wizarding institutions.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate queries found no existing entry for Dilys Derwent's dated Healer and Headmistress offices.
+    confidence: high
+    limitations: The portrait label supplies offices and dates only; it does not describe her headmastership or medical achievements.
+
+  - id: ootp-ch22-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries
+    chapter_start_pdf_page: 2018
+    chapter_end_pdf_page: 2042
+    pdf_page: 2038
+    printed_page: null
+    extracted_text_lines: 694-720; 735-768; 811-831
+    text_anchor:
+      start_phrase: Creature-Induced Injuries
+      end_phrase: Imperturbable Charms on its ward doors
+      local_occurrence_note: Arthur Weasley is visited in the Dai Llewellyn ward after being moved to Creature-Induced Injuries for serious bites.
+    nearby_context: The door card names Hippocrates Smethwyck as Healer-in-Charge and Augustus Pye as Trainee Healer; Arthur describes snake poison, Blood-Replenishing Potion, a werewolf-bitten patient, and another illegal creature bite case.
+    match_terms:
+      - Dai Llewellyn ward
+      - Serious Bites
+      - Hippocrates Smethwyck
+      - Augustus Pye
+      - Blood-Replenishing Potion
+      - werewolf
+      - Imperturbable Charms
+    quote_excerpt_short: "Dai Llewellyn ward: Serious Bites"
+    source_note: The creature-injury ward shows magical medical handling of serious bites, including named Healers, snake venom that keeps wounds open, hourly Blood-Replenishing Potion, werewolf-bite limits, and ward-door privacy assumptions.
+    reference_type: direct_observed_setting
+    era_classification: later_editorial_note
+    topic_tags:
+      - creature-induced-injuries
+      - dai-llewellyn-ward
+      - serious-bites
+      - blood-replenishing-potion
+      - werewolf-bite
+      - healers
+      - imperturbable-charms
+    candidate_part: Peoples, Beings, and Magical Society
+    candidate_chapter: Magical Medicine and Creature Harm
+    candidate_section: Serious bites, venom treatment, and ward privacy
+    reason_for_placement: The passage gives direct evidence for the medical categories and practical treatment limits around creature-caused injuries.
+    relevance_to_hogwarts_a_history: A later edition can cross-reference Hogwarts creature lessons, dangerous-creature policy, and the hospital systems used when magical injuries exceed school care.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate queries found no existing entry for the Dai Llewellyn ward, Blood-Replenishing Potion treatment, or St. Mungo's handling of serious bites.
+    confidence: high
+    limitations: The scene is one hospital ward visit and should not be generalized into a complete account of all magical medicine.

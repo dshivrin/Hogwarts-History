@@ -1,0 +1,203 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A30
+  source_file: resources/external/official-rowling/harrypotter-com/a30-ilvermorny-school-of-witchcraft-and-wizardry.md
+  title: Ilvermorny School of Witchcraft and Wizardry
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2016-06-28'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny
+  capture_completeness: complete
+  content_sha256: b9784ecacd5b36ccc8584f277f74f39e6edb042df70a5b384cf228f855655646
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and comparative institutional evidence extracted.
+
+entries:
+  - id: ext-a30-001
+    source_file: resources/external/official-rowling/harrypotter-com/a30-ilvermorny-school-of-witchcraft-and-wizardry.md
+    source_id: A30
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny
+    source_section: Four Houses
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The boys’ ideas of what a magical school ought to be like
+      end_phrase: each chose their favourite magical beast
+      local_occurrence_note: Four Houses section, following the Boot boys' request for four houses.
+    nearby_context: Isolt's account of Hogwarts shaped the Boot boys' school plans; their chosen American magical creatures became Ilvermorny's four house emblems.
+    match_terms:
+      - ilvermorny
+      - hogwarts comparison
+      - house system
+      - school founders
+    quote_excerpt_short: The boys’ ideas of what a magical school ought to be like were based almost entirely on Hogwarts.
+    source_note: The proposed Ilvermorny house system deliberately followed the boys' second-hand model of Hogwarts, but assigned four locally meaningful magical creatures rather than Hogwarts founders.
+    reference_type: house_system
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - ilvermorny
+      - hogwarts-comparison
+      - house-system
+      - school-founders
+    candidate_part: 'Part VI: Hogwarts in the Wider Wizarding World'
+    candidate_chapter: International Schools and the Triwizard Tradition
+    candidate_section: Ilvermorny and the Adaptation of the House Model
+    reason_for_placement: Records an explicit historical transmission of Hogwarts's four-house model to another major magical school.
+    relevance_to_hogwarts_a_history: 'Useful comparative institutional history: the seventeenth-century Ilvermorny founders adapted a Hogwarts-derived house structure rather than reproducing its founders or symbols.'
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Hogwarts founding and Sorting evidence corroborates the model being adapted, but none states Ilvermorny's founders adopted it.
+      audit:
+        query_tags:
+          - ilvermorny
+          - hogwarts-comparison
+          - house-system
+          - school-founders
+        candidates:
+          - id: cos-ch09-004
+            disposition: distinct
+          - id: dh-ch23-001
+            disposition: distinct
+          - id: dh-ch33-005
+            disposition: distinct
+          - id: dh-ch36-002
+            disposition: distinct
+          - id: ext-a02-001
+            disposition: corroborating
+          - id: ext-a02-003
+            disposition: distinct
+          - id: ext-a26-003
+            disposition: distinct
+          - id: ext-a29-001
+            disposition: distinct
+          - id: ext-a29-002
+            disposition: distinct
+          - id: gof-ch12-002
+            disposition: corroborating
+    confidence: high
+    limitations: This is a retrospective Rowling-authored account, not a contemporaneous seventeenth-century record, and it gives no detailed comparison of the two schools' house governance.
+
+  - id: ext-a30-002
+    source_file: resources/external/official-rowling/harrypotter-com/a30-ilvermorny-school-of-witchcraft-and-wizardry.md
+    source_id: A30
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny
+    source_section: Growth of the School
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Ilvermorny’s reputation grew steadily throughout the following years
+      end_phrase: North American equivalent
+      local_occurrence_note: Growth of the School section, from the school's expansion through the founders' retrospective description.
+    nearby_context: The account traces Ilvermorny's expansion from granite house to castle, recruitment of teachers, North American boarding intake, and nineteenth-century international reputation.
+    match_terms:
+      - ilvermorny
+      - hogwarts comparison
+      - international schools
+      - institutional history
+    quote_excerpt_short: The girl who had dreamed of attending Hogwarts had helped found the North American equivalent.
+    source_note: The source presents Ilvermorny as a Hogwarts-derived North American counterpart that grew into a boarding school with teachers, dormitories, protective concealment, and an international reputation by the nineteenth century.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - ilvermorny
+      - hogwarts-comparison
+      - international-schools
+      - institutional-history
+    candidate_part: 'Part VI: Hogwarts in the Wider Wizarding World'
+    candidate_chapter: International Schools and the Triwizard Tradition
+    candidate_section: Ilvermorny as a North American Counterpart
+    reason_for_placement: Supplies a direct comparative institutional history of a major overseas school modeled in part on Hogwarts.
+    relevance_to_hogwarts_a_history: Supports a comparative discussion of Hogwarts's peer institutions while keeping Ilvermorny's school-growth chronology distinct from Hogwarts's own history.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The Beauxbatons evidence corroborates the broader international-school context but does not cover Ilvermorny's founding, growth, or North American role.
+      audit:
+        query_tags:
+          - ilvermorny
+          - hogwarts-comparison
+          - international-schools
+          - institutional-history
+        candidates:
+          - id: ext-a29-001
+            disposition: corroborating
+          - id: ext-a29-002
+            disposition: corroborating
+          - id: ext-a14-002
+            disposition: distinct
+          - id: ext-a19-001
+            disposition: distinct
+          - id: ext-a20-001
+            disposition: distinct
+          - id: hbp-ch29-006
+            disposition: distinct
+          - id: ootp-ch22-006
+            disposition: distinct
+    confidence: high
+    limitations: The source supplies broad stages rather than dates for the expansion, staff recruitment, boarding transition, and international reputation; its explicit North American-equivalent framing is retrospective.
+
+  - id: ext-a30-003
+    source_file: resources/external/official-rowling/harrypotter-com/a30-ilvermorny-school-of-witchcraft-and-wizardry.md
+    source_id: A30
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny
+    source_section: Ilvermorny Today
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: While the rest of the school watches from the circular balcony overhead
+      end_phrase: legally allowed to carry a wand outside school
+      local_occurrence_note: Ilvermorny Today section, covering the house-allocation ritual and historical wand restrictions.
+    nearby_context: New students receive responses from four enchanted house carvings and choose when more than one responds; the source then contrasts this with Hogwarts and describes former Ilvermorny wand restrictions.
+    match_terms:
+      - ilvermorny
+      - hogwarts comparison
+      - sorting ceremony
+      - wand regulation
+    quote_excerpt_short: The Sorting Ceremony is not the only major difference between Hogwarts and Ilvermorny.
+    source_note: Rowling contrasts Ilvermorny's carving-based, student-choice house allocation with Hogwarts, and says Rappaport's Law formerly withheld student wands until school arrival and restricted their use away from school until age seventeen.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - ilvermorny
+      - hogwarts-comparison
+      - sorting-ceremony
+      - wand-regulation
+    candidate_part: 'Part VI: Hogwarts in the Wider Wizarding World'
+    candidate_chapter: International Schools and the Triwizard Tradition
+    candidate_section: Ilvermorny Sorting and Wand Access
+    reason_for_placement: Gives a direct comparison between Hogwarts's Sorting tradition and a distinct major-school allocation and wand-access system.
+    relevance_to_hogwarts_a_history: Useful for comparative treatment of school-entry ceremonies and regulation, but the present-tense Ilvermorny procedure should not be assumed to document Hogwarts practice or an original-book-era condition.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Hogwarts Sorting entries corroborate the value of comparing entry ceremonies, but no indexed result gives the Ilvermorny carving procedure or Rappaport's-Law restrictions.
+      audit:
+        query_tags:
+          - ilvermorny
+          - hogwarts-comparison
+          - sorting-ceremony
+          - wand-regulation
+        candidates:
+          - id: cos-ch05-004
+            disposition: corroborating
+          - id: ext-a29-001
+            disposition: distinct
+          - id: ext-a29-002
+            disposition: distinct
+          - id: gof-ch12-003
+            disposition: corroborating
+          - id: hbp-ch08-003
+            disposition: corroborating
+          - id: ootp-ch19-002
+            disposition: corroborating
+          - id: ps-ch07-002
+            disposition: corroborating
+    confidence: high
+    limitations: The account supplies no date for the current carving procedure; its former wand rules ended in 1965 and therefore do not establish present practice.

@@ -1,0 +1,326 @@
+source_unit:
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter: I-Q Bestiary Entries
+  chapter_start_pdf_page: 44
+  chapter_end_pdf_page: 56
+  boundary_confidence: high
+  boundary_notes: "Rendered and visually inspected only PDF pages 44-56, covering bestiary entries from Imp through the opening of Quintaped."
+  processed_date: '2026-09-12'
+  processor_notes: "Scanned carrier processed from rendered page images; extracted strongest Hogwarts: A History-relevant creature, law, school-world, and marginalia evidence."
+
+entries:
+  - id: fb-ch07-001
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: I-Q Bestiary Entries
+    chapter_start_pdf_page: 44
+    chapter_end_pdf_page: 56
+    pdf_page: 46
+    printed_page: 24
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "The world's largest kelpie is found in Loch Ness, Scotland"
+      end_phrase: "transform back into a serpent when the coast was clear"
+      local_occurrence_note: "Top half of printed page 24, immediately before the Knarl entry."
+    nearby_context: "The prior page identifies the kelpie as a British and Irish water demon subdued by bridling it with a Placement Charm."
+    match_terms:
+      - kelpie
+      - Loch Ness
+      - International Confederation of Wizards
+      - Muggle investigators
+      - sea serpent
+      - otter
+    quote_excerpt_short: "The world's largest kelpie is found in Loch Ness, Scotland."
+    source_note: "The Loch Ness monster is identified as the world's largest kelpie; International Confederation observers recognized it when it changed from sea-serpent form to otter form around Muggle investigators."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - kelpie
+      - loch-ness
+      - international-confederation
+      - muggle-investigators
+      - creature-concealment
+      - placement-charm
+    candidate_part: "Part I: Hidden Magical Britain"
+    candidate_chapter: "International Secrecy and Creature Concealment"
+    candidate_section: "Loch Ness kelpie and Muggle investigation"
+    reason_for_placement: "Adds specific creature-lore detail behind a famous secrecy problem already important to magical British governance."
+    relevance_to_hogwarts_a_history: "Useful background for how British magical authorities interpret persistent Muggle sightings near Scottish magical sites and waterways."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - fb-ch03-003
+      notes: "Query kelpie/loch-ness returned fb-ch03-003 and fb-ch03-007. fb-ch03-003 already records the Loch Ness kelpie as a Clause 73 offender; this entry corroborates that and adds the observed sea-serpent/otter transformation."
+    confidence: high
+    limitations: "The passage does not date the observation or identify the International Confederation observers."
+
+  - id: fb-ch07-002
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: I-Q Bestiary Entries
+    chapter_start_pdf_page: 44
+    chapter_end_pdf_page: 56
+    pdf_page: 47
+    printed_page: 25
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "Licences are required for ownership"
+      end_phrase: "sufficiently unusual in appearance to attract Muggle interest"
+      local_occurrence_note: "Opening paragraph of printed page 25, completing the Kneazle entry before Leprechaun."
+    nearby_context: "The previous page describes Kneazles as intelligent pets that detect suspicious characters and guide lost owners home."
+    match_terms:
+      - Kneazle
+      - licences
+      - ownership
+      - interbreed with cats
+      - Muggle interest
+      - Crookshanks
+    quote_excerpt_short: "Licences are required for ownership"
+    source_note: "Kneazles can interbreed with cats, require ownership licenses, and attract Muggle interest because of their unusual appearance."
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - kneazle
+      - licensing
+      - student-pets
+      - creature-law
+      - muggle-interest
+      - crookshanks
+    candidate_part: "School Life and Material Culture"
+    candidate_chapter: "Pets, Familiars, and Creature Ownership"
+    candidate_section: "Licensed magical pet species"
+    reason_for_placement: "Connects ordinary pet ownership to Ministry licensing and to the creature traits later visible in Hogwarts-era pet incidents."
+    relevance_to_hogwarts_a_history: "Useful for contextualizing unusually capable student pets and the legal background of keeping magical or part-magical animals."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Queries kneazle/licensing and kneazle/crookshanks returned gof-ch06-001 and poa-ch19-005. The first concerns Apparition licensing; the second shows an intelligent pet breaching Gryffindor security, but neither records Kneazle licensing or interbreeding."
+    confidence: high
+    limitations: "The source does not explicitly name Crookshanks or state how licensing applies to part-Kneazle cats."
+
+  - id: fb-ch07-003
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: I-Q Bestiary Entries
+    chapter_start_pdf_page: 44
+    chapter_end_pdf_page: 56
+    pdf_page: 49
+    printed_page: 27
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "As Belby so dramatically reveals"
+      end_phrase: "leaving no trace of itself or its victim behind"
+      local_occurrence_note: "Middle of printed page 27, after the embedded Flavius Belby survival account."
+    nearby_context: "Belby's account begins on printed page 25 and describes a 1782 Lethifold attack in Papua New Guinea, failed Stunning and Impediment magic, and escape by Patronus."
+    match_terms:
+      - Lethifold
+      - Living Shroud
+      - Flavius Belby
+      - Patronus Charm
+      - Stupefying Charm
+      - Impediment Hex
+    quote_excerpt_short: "the Patronus is the only spell known to repel the Lethifold"
+    source_note: "A 1782 account by Flavius Belby establishes the Patronus as the only known spell for repelling a Lethifold after Stunning and Impediment magic failed."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - lethifold
+      - patronus
+      - defensive-magic
+      - flavius-belby
+      - dark-creatures
+      - spell-limits
+    candidate_part: "Curriculum and Defensive Magic"
+    candidate_chapter: "Defence Against Dark Creatures"
+    candidate_section: "Patronus uses beyond Dementors"
+    reason_for_placement: "Broadens Patronus evidence from Hogwarts-era Dementor defense into older creature-defense scholarship."
+    relevance_to_hogwarts_a_history: "Useful background for advanced defensive magic taught or discussed around Hogwarts, especially where a familiar charm has non-Dementor applications."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query lethifold/patronus returned Patronus communication, Dementor-defense, and Fawkes-adjacent entries, but no existing Lethifold or Flavius Belby evidence."
+    confidence: high
+    limitations: "The passage is a textbook-reported historical account rather than a Hogwarts scene, and it does not define the Patronus form used by Belby."
+
+  - id: fb-ch07-004
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: I-Q Bestiary Entries
+    chapter_start_pdf_page: 44
+    chapter_end_pdf_page: 56
+    pdf_page: 51
+    printed_page: 29
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "highly organised communities varying in size according to habitat"
+      end_phrase: "love of music which is common to all merpeople"
+      local_occurrence_note: "Top half of printed page 29, completing the Merpeople entry before Moke."
+    nearby_context: "The entry begins on printed page 28 by comparing merpeople habits and customs to centaurs and by noting that Mermish speakers report organized communities."
+    match_terms:
+      - merpeople
+      - Mermish
+      - being status
+      - beast classification
+      - sirens
+      - selkies
+      - merrows
+    quote_excerpt_short: "declined 'being' status in favour of a 'beast' classification"
+    source_note: "Merpeople are described as organized communities with dwellings, regional strains, Mermish language, music, and a self-chosen beast classification despite being status eligibility."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - merpeople
+      - mermish
+      - being-status
+      - beast-classification
+      - black-lake
+      - non-human-communities
+    candidate_part: "The Grounds and Lake"
+    candidate_chapter: "Lake Ecology, Merpeople, and Dangerous Water Creatures"
+    candidate_section: "Merpeople classification and community structure"
+    reason_for_placement: "Provides the general taxonomy and self-classification framework needed to interpret the Hogwarts lake merpeople community."
+    relevance_to_hogwarts_a_history: "Useful for explaining the status, language, and customs of non-human neighbors later observed within the Hogwarts grounds."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - fb-ch05-006
+        - gof-ch26-007
+      notes: "Query merpeople/being-status returned external Great Lake, fb-ch01-005, fb-ch05-006, gof-ch26-007, gof-ch27-001, and hbp-ch30-004 matches. fb-ch05-006 already states the self-classification principle; gof-ch26-007 gives observed Hogwarts lake community evidence. This entry is a general species corroboration with extra regional and language context."
+    confidence: high
+    limitations: "The passage does not identify the Hogwarts lake group specifically; applying it to Hogwarts relies on later lake evidence."
+
+  - id: fb-ch07-005
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: I-Q Bestiary Entries
+    chapter_start_pdf_page: 44
+    chapter_end_pdf_page: 56
+    pdf_page: 53
+    printed_page: 31
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "This east African beast is arguably the most dangerous in the world"
+      end_phrase: "a hundred skilled wizards working together"
+      local_occurrence_note: "Middle of printed page 31, between the Nogtail and Occamy entries."
+    nearby_context: "The entry is short and appears under a XXXXX Ministry classification."
+    match_terms:
+      - Nundu
+      - XXXXX
+      - dangerous beast
+      - disease breath
+      - hundred skilled wizards
+      - Ministry classification
+    quote_excerpt_short: "has never yet been subdued by fewer than a hundred skilled wizards"
+    source_note: "The Nundu is classified XXXXX and described as a disease-breathing East African beast so dangerous that fewer than a hundred skilled wizards have never subdued one."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - nundu
+      - dangerous-creatures
+      - xxxxx-classification
+      - magical-disease
+      - skilled-wizards
+      - ministry-classification
+    candidate_part: "Creature Regulation and Wizarding Public Safety"
+    candidate_chapter: "Dangerous Creature Classifications"
+    candidate_section: "Extreme XXXXX threat examples"
+    reason_for_placement: "Supplies a benchmark example for what the Ministry's highest danger class can mean in practice."
+    relevance_to_hogwarts_a_history: "Useful comparative evidence for Hogwarts creature-risk discussions, especially when evaluating curriculum choices and Hagrid-era dangerous-creature judgments."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query nundu/dangerous-creatures returned general dangerous-creature and XXXXX-classification context, but no existing Nundu-specific entry."
+    confidence: high
+    limitations: "The evidence is general taxonomy rather than a Britain- or Hogwarts-specific incident."
+
+  - id: fb-ch07-006
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: I-Q Bestiary Entries
+    chapter_start_pdf_page: 44
+    chapter_end_pdf_page: 56
+    pdf_page: 54
+    printed_page: 32
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "The phoenix is a magnificent, swan-sized, scarlet bird"
+      end_phrase: "Phoenix tears have powerful healing properties"
+      local_occurrence_note: "Upper half of printed page 32, immediately before the Pixie entry and its marginal note."
+    nearby_context: "The footnote below the entry says the phoenix receives a XXXX rating because very few wizards have domesticated it, not because it is aggressive."
+    match_terms:
+      - phoenix
+      - regenerate
+      - phoenix song
+      - healing tears
+      - domestication
+      - Fawkes
+    quote_excerpt_short: "Phoenix tears have powerful healing properties."
+    source_note: "Phoenixes are gentle, long-lived, flame-regenerating birds that can vanish and reappear, whose song affects courage and fear, and whose tears heal."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - phoenix
+      - fawkes
+      - healing-magic
+      - phoenix-song
+      - regeneration
+      - domestication
+    candidate_part: "Headmasters, Headmistresses, and Their Office"
+    candidate_chapter: "Phoenixes and Headmaster Associations"
+    candidate_section: "General phoenix properties behind Fawkes evidence"
+    reason_for_placement: "Gives species-level support for later Hogwarts scenes involving Fawkes, Dumbledore, healing, song, and rebirth."
+    relevance_to_hogwarts_a_history: "Useful background for Dumbledore's phoenix and for interpreting observed Fawkes scenes in the headmaster's office, Chamber, and wartime aftermath."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch17-005
+        - ootp-ch36-005
+        - hbp-ch29-002
+      notes: "Query phoenix/fawkes returned several Fawkes entries. Those entries document concrete Hogwarts-era phoenix interventions; this textbook entry duplicates/corroborates core properties behind them, especially rebirth, song, and Dumbledore-associated context."
+    confidence: high
+    limitations: "The entry does not name Fawkes and gives species-level claims rather than observed school events."
+
+  - id: fb-ch07-007
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: I-Q Bestiary Entries
+    chapter_start_pdf_page: 44
+    chapter_end_pdf_page: 56
+    pdf_page: 56
+    printed_page: 34
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "The Puffskein is found worldwide"
+      end_phrase: "it remains a highly popular wizarding pet"
+      local_occurrence_note: "Middle and lower printed page 34, with Harry-copy marginalia beside the circled Puffskein heading."
+    nearby_context: "The visible marginal note says the reader had one once, asks what happened to it, and answers that Fred used it for Bludger practice."
+    match_terms:
+      - Puffskein
+      - wizarding pet
+      - Fred Weasley
+      - Bludger practice
+      - marginalia
+      - wizarding children
+    quote_excerpt_short: "remains a highly popular wizarding pet"
+    source_note: "Puffskeins are docile, easy-care household creatures beloved by wizarding children; Harry's copy adds a marginal recollection that Fred used one for Bludger practice."
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - puffskein
+      - wizarding-pets
+      - wizarding-children
+      - marginalia
+      - fred-weasley
+      - bludger-practice
+    candidate_part: "School Life and Material Culture"
+    candidate_chapter: "Pets, Games, and Informal Student Culture"
+    candidate_section: "Puffskeins as children's pets"
+    reason_for_placement: "Links a common magical pet to childhood domestic culture and a Hogwarts-era Weasley marginal note involving Quidditch equipment."
+    relevance_to_hogwarts_a_history: "Useful later-editorial color for student and family pet culture feeding into Hogwarts life, especially where textbook marginalia preserves informal school-age memory."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Query puffskein/bludger returned no matches."
+    confidence: high
+    limitations: "The Fred/Bludger detail is handwritten marginalia from Harry's copy and should be treated as Harry-era annotation, not original textbook narration."

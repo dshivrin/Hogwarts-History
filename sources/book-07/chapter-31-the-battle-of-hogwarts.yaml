@@ -1,0 +1,353 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Thirty-One - The Battle of Hogwarts
+  chapter_start_pdf_page: 3495
+  chapter_end_pdf_page: 3520
+  boundary_confidence: high
+  boundary_notes: "Processing-state anchors identify this chapter as PDF pages 3495-3520; bounded extraction begins at the Chapter Thirty-One heading and ends with Fred Weasley's death in the blasted corridor."
+  processed_date: '2026-08-11'
+  processor_notes: "Extracted only the bounded source-unit range with pypdf via scripts/extract_pages.py; no explicit Hogwarts: A History reference appears in this chapter."
+
+entries:
+  - id: dh-ch31-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-One - The Battle of Hogwarts
+    chapter_start_pdf_page: 3495
+    chapter_end_pdf_page: 3520
+    pdf_page: 3495
+    printed_page: null
+    extracted_text_lines: "6-22; 36-104"
+    text_anchor:
+      start_phrase: "evacuation will be overseen by Mr. Filch and Madam Pomfrey"
+      end_phrase: "leaders up here and we'll divide up the troops"
+      local_occurrence_note: "McGonagall conducts a Great Hall evacuation, separates underage students from overage volunteers, and Kingsley announces tower, grounds, and passageway-defense assignments."
+    nearby_context: "The gathered school hears Voldemort's ultimatum and the Houses respond before the final defensive deployment."
+    match_terms:
+      - Great Hall
+      - evacuation
+      - of age
+      - House tables
+      - Ravenclaw Tower
+      - Astronomy Tower
+      - passageways
+    quote_excerpt_short: "If you are of age, you may stay"
+    source_note: "The defense of Hogwarts distinguishes underage evacuees from overage volunteers, while teachers and Order members assign fighters to high towers, grounds, and passageway entrances."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - battle-of-hogwarts
+      - hogwarts-evacuation
+      - great-hall
+      - underage-students
+      - student-fighters
+      - castle-defenses
+      - passageways
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Wartime Evacuation and Castle Defense
+    candidate_section: Great Hall evacuation and battle deployment
+    reason_for_placement: "The scene gives the clearest whole-school account of emergency evacuation, age-based permission to fight, and defensive allocation across castle architecture."
+    relevance_to_hogwarts_a_history: "A later edition can use this as the central observed case for how Hogwarts staff and allied adults organized the school under siege."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch30-006
+        - dh-ch30-007
+      notes: "dh-ch30-006 records staff-activated boundary and statuary defenses, and dh-ch30-007 records D.A./Order mobilization and underage evacuation; this entry adds the Great Hall order of evacuation and the explicit tower, grounds, and passageway defense plan."
+    confidence: high
+    limitations: "This is an emergency practice under siege, not evidence of a standing peacetime evacuation policy."
+
+  - id: dh-ch31-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-One - The Battle of Hogwarts
+    chapter_start_pdf_page: 3495
+    chapter_end_pdf_page: 3520
+    pdf_page: 3500
+    printed_page: null
+    extracted_text_lines: "163-188; 198-257"
+    text_anchor:
+      start_phrase: "Who's the ghost of Ravenclaw Tower?"
+      end_phrase: "he wears his chains as an act of penitence"
+      local_occurrence_note: "Nearly Headless Nick identifies the Gray Lady as Ravenclaw Tower's ghost; she reveals herself as Helena Ravenclaw and recounts the diadem theft, Rowena's concealment, and the Bloody Baron's murder-suicide."
+    nearby_context: "Harry seeks a witness outside living memory because the Ravenclaw diadem has eluded students and staff."
+    match_terms:
+      - Gray Lady
+      - Helena Ravenclaw
+      - Rowena Ravenclaw
+      - lost diadem
+      - Bloody Baron
+      - founders
+      - Ravenclaw Tower
+    quote_excerpt_short: "When I lived, I was Helena Ravenclaw"
+    source_note: "The Gray Lady is identified as Helena Ravenclaw, Rowena's daughter, and gives founder-era testimony that she stole the diadem, concealed Rowena's loss from the founders, and was killed by the Bloody Baron."
+    reference_type: portrait_or_ghost_lore
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - helena-ravenclaw
+      - gray-lady
+      - rowena-ravenclaw
+      - ravenclaw-diadem
+      - bloody-baron
+      - founders
+      - ghost-lore
+    candidate_part: Founders, Relics, and House Memory
+    candidate_chapter: Ravenclaw Relics and Lost Knowledge
+    candidate_section: Helena Ravenclaw and the hidden loss of the diadem
+    reason_for_placement: "The ghost's testimony supplies a rare first-person account of a founder's family, a lost founder relic, and the origins of two Hogwarts ghosts."
+    relevance_to_hogwarts_a_history: "This is core material for a later historical correction to any traditional account of Rowena Ravenclaw's diadem and the Bloody Baron's chains."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch29-006
+        - dh-ch30-003
+        - cos-ch08-005
+      notes: "dh-ch29-006 and dh-ch30-003 record modern tradition that the diadem was lost, and cos-ch08-005 records the Bloody Baron among Hogwarts ghosts; this entry adds Helena Ravenclaw's first-person account of the theft, Rowena's concealment, and the Baron's crime."
+    confidence: high
+    limitations: "The account comes from Helena's memory and does not include documentary corroboration from Rowena Ravenclaw or another founder."
+
+  - id: dh-ch31-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-One - The Battle of Hogwarts
+    chapter_start_pdf_page: 3495
+    chapter_end_pdf_page: 3520
+    pdf_page: 3503
+    printed_page: null
+    extracted_text_lines: "260-307; 353-369"
+    text_anchor:
+      start_phrase: "A forest in Albania"
+      end_phrase: "Dumbledore had never discovered"
+      local_occurrence_note: "Helena says the diadem was hidden in Albania and previously disclosed to Tom Riddle; Harry infers Riddle retrieved it, made it a Horcrux, and returned it to Hogwarts during his teaching-job visit."
+    nearby_context: "Harry links Helena's testimony with his memory of the Room of Hidden Things and the old tiara marker."
+    match_terms:
+      - Albania
+      - Tom Riddle
+      - diadem
+      - Horcrux
+      - Dumbledore's office
+      - teaching job
+      - deepest mysteries
+    quote_excerpt_short: "He hid the diadem in the castle"
+    source_note: "Helena's confession and Harry's inference connect the diadem's Albanian hiding place to Tom Riddle's recovery of the relic and its secret return to Hogwarts as a Horcrux."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - ravenclaw-diadem
+      - tom-riddle
+      - voldemort
+      - albania
+      - horcrux
+      - hogwarts-teaching-job
+      - castle-secrets
+    candidate_part: Founders, Relics, and House Memory
+    candidate_chapter: Ravenclaw Relics and Lost Knowledge
+    candidate_section: Riddle's recovery and return of the diadem
+    reason_for_placement: "The entry bridges founder-era loss, Riddle-era relic hunting, and the castle's hidden-storage architecture."
+    relevance_to_hogwarts_a_history: "A historical note can explain why a founder relic believed lost for centuries was actually hidden inside Hogwarts before the Battle of Hogwarts."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch15-002
+        - hbp-ch23-007
+        - dh-ch30-003
+      notes: "dh-ch15-002 frames Hogwarts as a plausible Horcrux hiding place, hbp-ch23-007 records Voldemort's founder-relic pattern, and dh-ch30-003 confirms the diadem's lost status; this entry identifies the Albanian hiding place, Helena's disclosure to Riddle, and the inferred teaching-job return to Hogwarts."
+    confidence: medium
+    limitations: "The recovery and exact hiding moment are Harry's reasoned inference from Helena's testimony and earlier memories rather than an observed Riddle scene."
+
+  - id: dh-ch31-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-One - The Battle of Hogwarts
+    chapter_start_pdf_page: 3495
+    chapter_end_pdf_page: 3520
+    pdf_page: 3505
+    printed_page: null
+    extracted_text_lines: "329-395"
+    text_anchor:
+      start_phrase: "Smashed our way through the boundary by the forest"
+      end_phrase: "whose statue had concealed a secret passageway"
+      local_occurrence_note: "Hagrid and Grawp breach the forest boundary; Sprout's group carries Mandrakes toward the walls; portraits relay battle news; Sir Cadogan moves between paintings; and students defend a statue-concealed passage."
+    nearby_context: "The battle has begun, and Harry runs through active castle corridors toward the Room of Requirement."
+    match_terms:
+      - Grawp
+      - boundary
+      - Mandrakes
+      - portraits
+      - Sir Cadogan
+      - secret passageway
+      - castle
+    quote_excerpt_short: "screaming news from other parts of the castle"
+    source_note: "During the battle, Hogwarts defenses and communications use both inhabitants and architecture: a giant breaches the boundary, Mandrakes are prepared as weapons, portraits relay news, and students guard a statue-concealed passage."
+    reference_type: magical_architecture
+    era_classification: later_editorial_note
+    topic_tags:
+      - battle-of-hogwarts
+      - castle-defenses
+      - herbology-defenses
+      - mandrakes
+      - portraits
+      - sir-cadogan
+      - secret-passageway
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Castle Defenses and Siege Magic
+    candidate_section: Battle use of plants, portraits, and concealed passages
+    reason_for_placement: "The passage shows the castle defense as a compound system of staff magic, magical creatures, Herbology assets, mobile portrait communication, and hidden-route control."
+    relevance_to_hogwarts_a_history: "A later siege chapter can use this to show how Hogwarts's ordinary features became tactical assets during the final battle."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch30-006
+        - poa-ch06-002
+        - dh-ch15-007
+      notes: "dh-ch30-006 records formal staff defensive enchantments, poa-ch06-002 records Sir Cadogan moving through frames to guide students, and dh-ch15-007 records portrait communication limits; this entry adds battle use of Mandrakes, portrait news relay, Grawp's boundary breach, and guarded statue passage."
+    confidence: high
+    limitations: "The chapter shows improvised battle behavior, not a complete inventory of every defensive object or route in the castle."
+
+  - id: dh-ch31-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-One - The Battle of Hogwarts
+    chapter_start_pdf_page: 3495
+    chapter_end_pdf_page: 3520
+    pdf_page: 3507
+    printed_page: null
+    extracted_text_lines: "420-453"
+    text_anchor:
+      start_phrase: "Chamber of Secrets"
+      end_phrase: "Hermione stabbed it"
+      local_occurrence_note: "Ron and Hermione return with basilisk fangs, explain Ron's Parseltongue imitation to open the Chamber, and reveal Hufflepuff's cup has been destroyed."
+    nearby_context: "Harry has identified the diadem target, while Ron and Hermione have solved the remaining problem of destroying Horcruxes without the sword."
+    match_terms:
+      - Chamber of Secrets
+      - basilisk
+      - fangs
+      - Parseltongue
+      - locket
+      - Hufflepuff's cup
+      - Horcrux
+    quote_excerpt_short: "great curved fangs, torn"
+    source_note: "The Chamber remains accessible through Parseltongue imitation, its dead basilisk still yields Horcrux-destroying fangs, and Hermione uses one to destroy Hufflepuff's cup."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - chamber-of-secrets
+      - basilisk-fangs
+      - parseltongue
+      - hufflepuff-cup
+      - horcrux-destruction
+      - ron-weasley
+      - hermione-granger
+    candidate_part: Protective Magic and Security
+    candidate_chapter: The Chamber of Secrets Crisis
+    candidate_section: Later use of the Chamber and basilisk remains
+    reason_for_placement: "The scene proves that the Chamber route can be reopened after the second-year crisis and that its basilisk remains retain major magical utility."
+    relevance_to_hogwarts_a_history: "A later editorial note can connect the Chamber's founder-era threat to the final Horcrux campaign and the destruction of a second founder relic."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch16-006
+        - cos-ch17-006
+        - dh-ch19-006
+      notes: "cos-ch16-006 and cos-ch17-006 record the Chamber's Parseltongue entrance and basilisk mechanism, and dh-ch19-006 records sword-based Horcrux destruction; this entry adds Ron's copied Parseltongue access, extraction of basilisk fangs, and Hermione's destruction of Hufflepuff's cup."
+    confidence: high
+    limitations: "The Chamber trip occurs off-page and is summarized by Ron and Hermione immediately afterward."
+
+  - id: dh-ch31-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-One - The Battle of Hogwarts
+    chapter_start_pdf_page: 3495
+    chapter_end_pdf_page: 3520
+    pdf_page: 3509
+    printed_page: null
+    extracted_text_lines: "473-503; 548-583; 609-631"
+    text_anchor:
+      start_phrase: "I need the place where everything is hidden"
+      end_phrase: "you might bury this diadem thing"
+      local_occurrence_note: "The Room of Requirement cannot transform while the Hog's Head passage is occupied; once clear, it becomes the Room of Hidden Things, resists Accio, and contains the Vanishing Cabinet and the diadem marker."
+    nearby_context: "Harry, Ron, and Hermione clear the prior refuge configuration so the room can become the hidden-storage configuration needed to find the diadem."
+    match_terms:
+      - Room of Requirement
+      - Hog's Head
+      - Room of Hidden Things
+      - Accio Diadem
+      - Vanishing Cabinet
+      - hidden objects
+      - diadem
+    quote_excerpt_short: "the place where everything is hidden"
+    source_note: "The Room of Requirement cannot change while users remain in the Hog's Head passage, then becomes the Room of Hidden Things, a vast hidden-object city that resists direct summoning and can conceal the diadem."
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - room-of-requirement
+      - room-of-hidden-things
+      - magical-architecture
+      - hidden-objects
+      - vanishing-cabinet
+      - ravenclaw-diadem
+      - hogs-head
+    candidate_part: The Castle and Its Grounds
+    candidate_chapter: Secret Rooms, Moving Routes, and Responsive Castle Spaces
+    candidate_section: Room of Hidden Things access and object resistance
+    reason_for_placement: "The entry adds operating constraints to the Room of Requirement's hidden-storage form: occupancy can block transformation, hidden objects resist summoning, and collapsing piles can bury important objects."
+    relevance_to_hogwarts_a_history: "A castle-architecture chapter can use this to refine earlier descriptions of the room's storage configuration and explain how a relic could remain hidden for years."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch24-005
+        - dh-ch29-004
+        - dh-ch29-005
+      notes: "hbp-ch24-005 records the storage configuration and tiara marker, while dh-ch29-004 and dh-ch29-005 record the refuge configuration and variable exits; this entry adds transformation blocked by remaining passage users, the precise 'place where everything is hidden' request, Accio failure, and battle-risk burial of the diadem."
+    confidence: high
+    limitations: "The chapter does not state whether the post-Fiendfyre room can still answer the same request later."
+
+  - id: dh-ch31-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-One - The Battle of Hogwarts
+    chapter_start_pdf_page: 3495
+    chapter_end_pdf_page: 3520
+    pdf_page: 3515
+    printed_page: null
+    extracted_text_lines: "688-808"
+    text_anchor:
+      start_phrase: "Flames of abnormal size were pursuing them"
+      end_phrase: "one of the substances that destroy Horcruxes"
+      local_occurrence_note: "Crabbe releases uncontrolled Fiendfyre in the Room of Requirement; Harry retrieves the diadem from the fire, reads its motto, and the damaged Horcrux breaks apart."
+    nearby_context: "Harry, Ron, and Hermione are fighting Malfoy, Crabbe, and Goyle inside the hidden-storage room while trying to recover Ravenclaw's diadem."
+    match_terms:
+      - Fiendfyre
+      - cursed fire
+      - Ravenclaw's diadem
+      - Horcrux
+      - wit beyond measure
+      - Carrows
+      - Room of Requirement
+    quote_excerpt_short: "one of the substances that destroy Horcruxes"
+    source_note: "Uncontrolled Fiendfyre consumes the Room of Hidden Things, kills Crabbe, and fatally damages Ravenclaw's diadem Horcrux, whose motto remains legible before it breaks apart."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - fiendfyre
+      - cursed-fire
+      - ravenclaw-diadem
+      - horcrux-destruction
+      - room-of-requirement
+      - carrows
+      - wit
+    candidate_part: Founders, Relics, and House Memory
+    candidate_chapter: Ravenclaw Relics and Lost Knowledge
+    candidate_section: Destruction of Ravenclaw's diadem Horcrux
+    reason_for_placement: "The passage completes the known chain of evidence for the diadem: relic, Horcrux, Ravenclaw motto object, and destroyed artifact."
+    relevance_to_hogwarts_a_history: "A later edition can close the diadem's historical record with the Battle of Hogwarts destruction event and the dangerous magic that ended it."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch14-006
+        - dh-ch19-006
+        - dh-ch29-006
+      notes: "dh-ch14-006 and dh-ch19-006 record earlier Horcrux behavior and destruction, and dh-ch29-006 records the diadem tradition; this entry adds Fiendfyre as a Horcrux-destroying substance and the observed destruction of Ravenclaw's diadem."
+    confidence: high
+    limitations: "Hermione identifies the magic as Fiendfyre after the event; the spell's full theory, counterspell, and origin are not explained."

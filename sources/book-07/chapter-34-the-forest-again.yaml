@@ -1,0 +1,352 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Thirty-Four - The Forest Again
+  chapter_start_pdf_page: 3566
+  chapter_end_pdf_page: 3577
+  boundary_confidence: high
+  boundary_notes: "Processing-state supplied the inclusive page range; bounded extraction begins with the Chapter Thirty-Four heading on PDF page 3566 and ends with Voldemort's Killing Curse before Chapter Thirty-Five on PDF page 3578."
+  processed_date: '2026-08-12'
+  processor_notes: "Extracted only PDF pages 3566-3577 with pypdf via scripts/extract_pages.py; no full-PDF scan was performed. No explicit Hogwarts: A History title citation appears in this source unit."
+
+entries:
+  - id: dh-ch34-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Four - The Forest Again
+    chapter_start_pdf_page: 3566
+    chapter_end_pdf_page: 3577
+    pdf_page: 3568
+    printed_page: null
+    extracted_text_lines: "85-108"
+    text_anchor:
+      start_phrase: "The castle was empty"
+      end_phrase: "kneeling beside the dead"
+      local_occurrence_note: "Harry leaves the headmaster's office under the Cloak, passes through the deserted castle, and sees Neville and Oliver Wood carrying Colin Creevey toward the Great Hall."
+    nearby_context: "The battle pause has concentrated the remaining living, injured, and dead in the Great Hall while bodies are still being recovered from the grounds."
+    match_terms:
+      - Battle of Hogwarts
+      - Great Hall
+      - Colin Creevey
+      - underage
+      - Neville Longbottom
+      - Oliver Wood
+      - casualties
+    quote_excerpt_short: "the dead and the mourners were crammed"
+    source_note: "During the cease-fire, the castle interior is deserted while the Great Hall remains the gathering place for mourners and casualties, including underage Colin Creevey after his illicit return to the battle."
+    reference_type: direct_observed_setting
+    era_classification: later_editorial_note
+    topic_tags:
+      - battle-of-hogwarts
+      - great-hall
+      - casualties
+      - underage-students
+      - colin-creevey
+      - castle-interior
+      - wartime-hogwarts
+    candidate_part: Later Editorial Notes
+    candidate_chapter: The Battle of Hogwarts and Its Aftermath
+    candidate_section: Great Hall mourning and underage casualties
+    reason_for_placement: "The passage extends the final-battle aftermath by showing the castle emptied around the Great Hall and by naming an underage student casualty who returned despite evacuation."
+    relevance_to_hogwarts_a_history: "A later edition can cite this as evidence for the Great Hall's crisis role and the limits of evacuation control during the battle."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch33-001
+        - dh-ch31-001
+        - dh-ch30-007
+      notes: "dh-ch33-001 already records Great Hall triage and mourning, while dh-ch31-001 and dh-ch30-007 record evacuation and underage-student rules. This entry adds the deserted-castle contrast and Colin Creevey's underage return and death."
+    confidence: high
+    limitations: "Harry infers that Colin sneaked back; the chapter does not show Colin's route or who, if anyone, permitted his return."
+
+  - id: dh-ch34-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Four - The Forest Again
+    chapter_start_pdf_page: 3566
+    chapter_end_pdf_page: 3577
+    pdf_page: 3569
+    printed_page: null
+    extracted_text_lines: "115-149"
+    text_anchor:
+      start_phrase: "You know Voldemort's snake, Neville?"
+      end_phrase: "walked away to look for more bodies"
+      local_occurrence_note: "Before walking into the Forest, Harry adds Neville to the small group who know Nagini must be killed."
+    nearby_context: "Harry expects that Ron and Hermione might be unable to continue the Horcrux mission and deliberately preserves the number of informed successors."
+    match_terms:
+      - Neville Longbottom
+      - Nagini
+      - Horcruxes
+      - backups
+      - Ron
+      - Hermione
+      - Dumbledore
+    quote_excerpt_short: "There would still be three in the secret."
+    source_note: "Harry makes Neville a contingency bearer of the final Horcrux instruction, preserving a small chain of informed fighters who know Nagini must be killed."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - nagini
+      - horcrux
+      - neville-longbottom
+      - battle-of-hogwarts
+      - dumbledore-plan
+      - resistance-continuity
+      - student-fighters
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Founder Relics, Horcruxes, and Dumbledore's Final Plan
+    candidate_section: Neville as contingency bearer of the Nagini mission
+    reason_for_placement: "The passage shows how Horcrux knowledge is deliberately handed off during the final battle so the mission can outlive Harry."
+    relevance_to_hogwarts_a_history: "A later edition can use this to explain Neville's later role in the final Horcrux destruction as part of a deliberate battlefield succession."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch33-007
+        - dh-ch32-006
+        - dh-ch27-004
+      notes: "dh-ch33-007 records Dumbledore's Nagini signal, dh-ch32-006 records Nagini's protection, and dh-ch27-004 records Voldemort's Horcrux audit. This entry adds Harry's explicit transfer of the Nagini instruction to Neville."
+    confidence: high
+    limitations: "Harry does not tell Neville that Nagini is a Horcrux, only that the snake must be killed."
+
+  - id: dh-ch34-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Four - The Forest Again
+    chapter_start_pdf_page: 3566
+    chapter_end_pdf_page: 3577
+    pdf_page: 3571
+    printed_page: null
+    extracted_text_lines: "164-180"
+    text_anchor:
+      start_phrase: "But he was home"
+      end_phrase: "Hermione helping him save Norbert"
+      local_occurrence_note: "Harry passes Ginny and an injured girl, then frames Hogwarts as home while remembering Voldemort, Snape, and Hagrid's hut."
+    nearby_context: "The thought comes as Harry walks invisibly from the castle toward the Forbidden Forest and resists the urge to be stopped."
+    match_terms:
+      - Hogwarts
+      - home
+      - Voldemort
+      - Snape
+      - Hagrid's hut
+      - abandoned boys
+      - Norbert
+    quote_excerpt_short: "Hogwarts was the first and best home"
+    source_note: "Harry's final walk frames Hogwarts as the formative home for himself, Voldemort, and Snape, while Hagrid's hut evokes ordinary school memories beside the grounds."
+    reference_type: cross_reference_candidate
+    era_classification: later_editorial_note
+    topic_tags:
+      - hogwarts
+      - school-identity
+      - hagrid-hut
+      - harry-potter
+      - voldemort
+      - severus-snape
+      - student-memory
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Hogwarts as Home and Historical Memory
+    candidate_section: Abandoned boys and the school as formative home
+    reason_for_placement: "The passage offers a rare explicit synthesis of Hogwarts's personal meaning for three central figures shaped by the school."
+    relevance_to_hogwarts_a_history: "A later edition can use this as reflective evidence for the school's social and emotional role beyond formal education."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Targeted lookup returned general Hogwarts/Voldemort/Snape entries, but no prior entry centered on Hogwarts as the shared home of Harry, Voldemort, and Snape."
+    confidence: medium
+    limitations: "This is Harry's subjective reflection during crisis, not an institutional statement or policy record."
+
+  - id: dh-ch34-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Four - The Forest Again
+    chapter_start_pdf_page: 3566
+    chapter_end_pdf_page: 3577
+    pdf_page: 3571
+    printed_page: null
+    extracted_text_lines: "181-220"
+    text_anchor:
+      start_phrase: "I open at the close"
+      end_phrase: "much more than ghosts"
+      local_occurrence_note: "At the edge of the Forbidden Forest, Harry opens Dumbledore's Snitch with a death-facing phrase and finds the cracked Resurrection Stone inside."
+    nearby_context: "Dementors are moving among the trees and Harry has no strength left for a Patronus when he understands the Snitch's inscription."
+    match_terms:
+      - Golden Snitch
+      - I open at the close
+      - Resurrection Stone
+      - Elder Wand
+      - Cloak
+      - Deathly Hallows
+      - Dumbledore
+    quote_excerpt_short: "The metal shell broke open."
+    source_note: "Dumbledore's Snitch bequest opens only when Harry declares that he is about to die, revealing the cracked Resurrection Stone with the Hallows symbol still discernible."
+    reference_type: magical_architecture
+    era_classification: later_editorial_note
+    topic_tags:
+      - golden-snitch
+      - resurrection-stone
+      - deathly-hallows
+      - dumbledore-bequest
+      - magical-seals
+      - elder-wand
+      - invisibility-cloak
+    candidate_part: Magical Objects and Artifacts
+    candidate_chapter: The Deathly Hallows
+    candidate_section: Snitch bequest opened at the close
+    reason_for_placement: "The passage confirms the mechanism and contents of Dumbledore's bequest, turning an earlier inference into observed artifact evidence."
+    relevance_to_hogwarts_a_history: "A later edition can cite this as the resolved evidence for how Dumbledore concealed and delivered the Resurrection Stone to Harry."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch22-004
+        - dh-ch21-003
+        - dh-ch22-003
+      notes: "dh-ch22-004 records Harry's earlier suspicion that the Stone is in the Snitch, dh-ch21-003 defines the Hallows, and dh-ch22-003 links Harry's Cloak to Hallow lore. This entry confirms the Snitch opening condition and the Stone's presence."
+    confidence: high
+    limitations: "The spellwork or enchantment that recognizes the opening phrase is not named."
+
+  - id: dh-ch34-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Four - The Forest Again
+    chapter_start_pdf_page: 3566
+    chapter_end_pdf_page: 3577
+    pdf_page: 3573
+    printed_page: null
+    extracted_text_lines: "216-229; 251-269"
+    text_anchor:
+      start_phrase: "They were neither ghost nor truly flesh"
+      end_phrase: "keep putting one foot in front of the other"
+      local_occurrence_note: "The Stone-called James, Lily, Sirius, and Lupin accompany Harry through the Dementors at the Forest edge."
+    nearby_context: "Harry asks whether the figures will stay with him and learns they are invisible to everyone else because they are part of him."
+    match_terms:
+      - Resurrection Stone
+      - ghosts
+      - Dementors
+      - Patronuses
+      - James Potter
+      - Lily Potter
+      - Sirius Black
+      - Remus Lupin
+    quote_excerpt_short: "neither ghost nor truly flesh"
+    source_note: "The Resurrection Stone produces dead companions who are more substantial than ghosts, invisible to others, and able to steady Harry through Dementors like Patronuses."
+    reference_type: portrait_or_ghost_lore
+    era_classification: later_editorial_note
+    topic_tags:
+      - resurrection-stone
+      - ghosts
+      - deathly-hallows
+      - dementors
+      - patronus
+      - forbidden-forest
+      - magical-artifacts
+    candidate_part: Magical Objects and Artifacts
+    candidate_chapter: The Deathly Hallows
+    candidate_section: Stone companions and Dementor resistance
+    reason_for_placement: "The passage is the strongest observed evidence for the Stone's actual effect and its difference from ordinary ghosts."
+    relevance_to_hogwarts_a_history: "A later edition can cross-reference this event when distinguishing ghosts, memories, Patronuses, and Hallows-related manifestations in Hogwarts-adjacent history."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch21-003
+        - dh-ch32-004
+        - ootp-ch02-005
+      notes: "dh-ch21-003 defines the Stone as a Hallow, dh-ch32-004 records mass Patronus defense against Dementors, and ootp-ch02-005 explains Patronuses as anti-Dementor defense. This entry adds the Stone companions' observed ghostlike form and Patronus-like support."
+    confidence: high
+    limitations: "The protective effect is described through Harry's experience rather than tested as a formal charm."
+
+  - id: dh-ch34-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Four - The Forest Again
+    chapter_start_pdf_page: 3566
+    chapter_end_pdf_page: 3577
+    pdf_page: 3575
+    printed_page: null
+    extracted_text_lines: "295-317; 343-352"
+    text_anchor:
+      start_phrase: "the place where the monstrous Aragog had once lived"
+      end_phrase: "with a flick of his wand Hagrid was silenced"
+      local_occurrence_note: "Harry follows Yaxley and Dolohov to Voldemort's clearing, where Death Eaters and giants wait and Hagrid is bound to a tree."
+    nearby_context: "The clearing still contains Aragog's web remnants, but Death Eaters have driven the acromantula descendants out to fight for their side."
+    match_terms:
+      - Forbidden Forest
+      - Aragog
+      - acromantulas
+      - Death Eaters
+      - giants
+      - Fenrir Greyback
+      - Hagrid
+    quote_excerpt_short: "the remnants of his vast web were there still"
+    source_note: "Voldemort's force occupies Aragog's former Forest clearing, with acromantula descendants driven out to fight, giants stationed nearby, and Hagrid held prisoner."
+    reference_type: direct_observed_setting
+    era_classification: later_editorial_note
+    topic_tags:
+      - forbidden-forest
+      - aragog
+      - acromantulas
+      - death-eaters
+      - giants
+      - hagrid
+      - battle-of-hogwarts
+    candidate_part: The Grounds and Edge of the Forest
+    candidate_chapter: Magical Residents in Wartime
+    candidate_section: Aragog's clearing as Voldemort's battle camp
+    reason_for_placement: "The scene turns a known Forest resident site into a wartime command location and shows hostile forces displacing its magical inhabitants."
+    relevance_to_hogwarts_a_history: "A later edition can use this to trace how the final battle transformed Forest geography and resident creature territories."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch15-005
+        - dh-ch32-001
+        - dh-ch32-003
+      notes: "cos-ch15-005 establishes Aragog's forest hollow, while dh-ch32-001 and dh-ch32-003 record acromantulas and giants entering the battle near the castle. This entry adds Voldemort's occupation of Aragog's old clearing and Hagrid's imprisonment there."
+    confidence: high
+    limitations: "The chapter does not explain exactly how Death Eaters drove out or commanded the acromantulas."
+
+  - id: dh-ch34-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Thirty-Four - The Forest Again
+    chapter_start_pdf_page: 3566
+    chapter_end_pdf_page: 3577
+    pdf_page: 3575
+    printed_page: null
+    extracted_text_lines: "312-321; 353-360"
+    text_anchor:
+      start_phrase: "Behind his head, still swirling and coiling"
+      end_phrase: "fifty curses would hit him first"
+      local_occurrence_note: "At the Forest clearing, Nagini floats behind Voldemort in a charmed cage and Harry judges her too well protected to attack."
+    nearby_context: "Harry has already passed the Nagini instruction to Neville, but in the Death Eater camp he hides his wand and chooses not to fight."
+    match_terms:
+      - Nagini
+      - charmed cage
+      - Voldemort
+      - Elder Wand
+      - Death Eaters
+      - Horcrux
+      - protective magic
+    quote_excerpt_short: "Nagini floated in her glittering, charmed cage"
+    source_note: "Nagini remains in a floating charmed cage beside Voldemort in the Forest clearing, and Harry considers both the cage and surrounding Death Eaters enough to prevent a direct attack."
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - nagini
+      - horcrux
+      - protective-magic
+      - enchanted-cage
+      - voldemort
+      - death-eaters
+      - forbidden-forest
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Horcrux Defenses and Dark Protections
+    candidate_section: Nagini's protected cage at the Forest surrender
+    reason_for_placement: "The passage confirms the protective arrangement around the final living Horcrux at the moment Harry surrenders."
+    relevance_to_hogwarts_a_history: "A later edition can cite this as the immediate pre-duel state of Voldemort's living Horcrux defense beside Hogwarts."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch32-006
+        - dh-ch33-007
+        - dh-ch27-004
+      notes: "dh-ch32-006 records Nagini's sphere at the Shrieking Shack, dh-ch33-007 records Dumbledore's protected-Nagini signal, and dh-ch27-004 records Voldemort's audit of Nagini as a Horcrux. This entry adds the same protection relocated to the Forest surrender clearing."
+    confidence: high
+    limitations: "The cage is described visually but the spell, caster, duration, and physical limits are not named."

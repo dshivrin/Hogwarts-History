@@ -1,0 +1,296 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B02
+  source_file: resources/external/interviews/accio-quote/b02-scholastic-live-chat.md
+  title: "\"About the Books: transcript of J.K. Rowling's live interview on Scholastic.com,\" Scholastic.com , 16 October 2000"
+  author: J.K. Rowling
+  source_site: Accio Quote
+  original_publisher: Scholastic.com
+  source_class: preservation_transcription
+  authority: D
+  publication_date: '16 October 2000'
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/2000/1000-scholastic-chat.htm
+  retrieved_at: '2026-08-15'
+  archive_url: null
+  carrier_type: preservation_transcript
+  is_primary: false
+  is_official: false
+  capture_completeness: complete
+  content_sha256: 7f52f298db17fc5f6c43ac67213312799d1daeb5b5f2acf558beedad997530eb
+  processed_date: '2026-08-15'
+  processor_notes: Complete preservation-transcript snapshot read; bounded author-attributed claims extracted with transcription limitations retained.
+
+entries:
+  - id: ext-b02-001
+    source_file: resources/external/interviews/accio-quote/b02-scholastic-live-chat.md
+    source_id: B02
+    source_url: https://www.accio-quote.org/articles/2000/1000-scholastic-chat.htm
+    source_section: "Question: How many students attend Hogwarts, and how many students per year per house?"
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "How many students attend Hogwarts"
+      end_phrase: "about a thousand students at Hogwarts"
+      local_occurrence_note: Late-middle interview exchange on Hogwarts enrolment.
+    nearby_context: A reader asks for total enrolment and per-year, per-House figures; the response supplies only an approximate total.
+    match_terms:
+      - Hogwarts students
+      - student population
+      - school enrolment
+    quote_excerpt_short: "There are about a thousand students at Hogwarts."
+    source_note: Rowling gives an approximate total Hogwarts student population of one thousand, without a House or year-level breakdown.
+    reference_type: historical_claim
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hogwarts-enrolment
+      - school-demography
+      - student-population
+    candidate_part: "Part II: The School and Its Community"
+    candidate_chapter: "Student Life and House Identity"
+    candidate_section: "Hogwarts Population and Scale"
+    reason_for_placement: The statement supplies a direct estimate of the institution's student population.
+    relevance_to_hogwarts_a_history: Useful as a Harry-era authorial confirmation of Hogwarts' approximate scale, not as a precise enrolment register.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed Rowling development note and Beauxbatons comparisons overlap on school population but do not repeat this approximate total.
+      audit:
+        query_tags:
+          - hogwarts-enrolment
+          - school-demography
+          - student-population
+        candidates:
+          - id: ext-a15-002
+            disposition: corroborating
+          - id: ext-a29-001
+            disposition: distinct
+          - id: ext-a29-002
+            disposition: distinct
+    confidence: medium
+    limitations: Preserved Accio Quote transcription rather than a first-party Scholastic record; the answer is approximate and gives no House or year distribution.
+
+  - id: ext-b02-002
+    source_file: resources/external/interviews/accio-quote/b02-scholastic-live-chat.md
+    source_id: B02
+    source_url: https://www.accio-quote.org/articles/2000/1000-scholastic-chat.htm
+    source_section: "Question: Do wizards and witches have to go Muggle school before they go to Hogwarts?"
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "Do wizards and witches have to go Muggle school"
+      end_phrase: "No, they don't have to."
+      local_occurrence_note: Middle interview exchange about education before Hogwarts.
+    nearby_context: The question expressly asks whether attendance at a Muggle school is required before Hogwarts.
+    match_terms:
+      - Muggle school
+      - magical education
+      - Hogwarts attendance
+    quote_excerpt_short: "No, they don't have to."
+    source_note: Rowling says witches and wizards are not required to attend Muggle school before beginning at Hogwarts.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - attendance-policy
+      - magical-education
+      - muggle-school
+    candidate_part: "Part II: The School and Its Community"
+    candidate_chapter: "Admissions and First-Year Preparation"
+    candidate_section: "Education Before Hogwarts"
+    reason_for_placement: It directly qualifies the pre-Hogwarts education expected of magical children.
+    relevance_to_hogwarts_a_history: Supports a concise account of Hogwarts entry context while leaving actual family practice and alternatives unspecified.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Related indexed material covers wizarding-school alternatives and Harry's Muggle schooling, not a universal pre-Hogwarts requirement.
+      audit:
+        query_tags:
+          - attendance-policy
+          - magical-education
+          - muggle-school
+        candidates:
+          - id: ext-a28-001
+            disposition: corroborating
+          - id: ext-a28-002
+            disposition: corroborating
+          - id: gof-ch09-002
+            disposition: distinct
+          - id: gof-ch11-004
+            disposition: distinct
+          - id: ps-ch02-002
+            disposition: corroborating
+    confidence: medium
+    limitations: Preserved transcription with authority D; the short reply establishes only that Muggle-school attendance is not compulsory.
+
+  - id: ext-b02-003
+    source_file: resources/external/interviews/accio-quote/b02-scholastic-live-chat.md
+    source_id: B02
+    source_url: https://www.accio-quote.org/articles/2000/1000-scholastic-chat.htm
+    source_section: "Question: Why did you choose to make the sport Quidditch so important to life at Hogwarts?"
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "Why did you choose to make the sport Quidditch so important"
+      end_phrase: "important part of life at school"
+      local_occurrence_note: Early interview exchange on Quidditch's place at Hogwarts.
+    nearby_context: Asked why Quidditch matters at Hogwarts, Rowling links that choice to sport's importance in school life.
+    match_terms:
+      - Quidditch
+      - school sport
+      - school life
+    quote_excerpt_short: "sport is such an important part of life at school"
+    source_note: Rowling explains Quidditch's prominence at Hogwarts through the wider importance of sport in school life.
+    reference_type: institutional_custom
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - quidditch
+      - school-life
+      - school-sport
+    candidate_part: "Part II: The School and Its Community"
+    candidate_chapter: "Student Life and House Identity"
+    candidate_section: "Quidditch and School Culture"
+    reason_for_placement: It is direct author commentary on why Quidditch is embedded in Hogwarts student life.
+    relevance_to_hogwarts_a_history: Useful interpretive support for Quidditch as a central school custom, rather than evidence for any particular match or rule.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed entries independently document Quidditch in Hogwarts life and extend the context without reproducing this authorial rationale.
+      audit:
+        query_tags:
+          - quidditch
+          - school-life
+          - school-sport
+        candidates:
+          - id: cos-ch01-001
+            disposition: corroborating
+          - id: cos-ch07-001
+            disposition: corroborating
+          - id: cos-ch14-003
+            disposition: corroborating
+          - id: dh-ch07-005
+            disposition: corroborating
+          - id: dh-ch10-004
+            disposition: corroborating
+          - id: ext-a32-001
+            disposition: corroborating
+          - id: gof-ch05-005
+            disposition: corroborating
+          - id: gof-ch06-004
+            disposition: corroborating
+          - id: gof-ch08-004
+            disposition: corroborating
+          - id: gof-ch30-005
+            disposition: corroborating
+    confidence: medium
+    limitations: Preserved transcription with authority D; this is authorial explanation of a narrative institution, not a quantified account of Hogwarts sport.
+
+  - id: ext-b02-004
+    source_file: resources/external/interviews/accio-quote/b02-scholastic-live-chat.md
+    source_id: B02
+    source_url: https://www.accio-quote.org/articles/2000/1000-scholastic-chat.htm
+    source_section: "Question: How would you describe the relationship between the wizard world and the Muggle world?"
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "How would you describe the relationship between the wizard world"
+      end_phrase: "There's still bigotry and small-mindedness"
+      local_occurrence_note: Early interview exchange on wizard–Muggle relations.
+    nearby_context: Rowling characterizes the relationship, then says magical society broadly mirrors Muggle society and retains bigotry and small-mindedness.
+    match_terms:
+      - wizard-Muggle relations
+      - wizarding society
+      - bigotry
+    quote_excerpt_short: "Uneasy co-existence!"
+    source_note: Rowling characterizes wizard–Muggle relations as uneasy coexistence and frames bigotry as persisting within the magical world.
+    reference_type: historical_claim
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - bigotry
+      - magical-muggle-relations
+      - wizarding-society
+    candidate_part: "Part I: The Wizarding World in Context"
+    candidate_chapter: "Wizarding Society and Muggle Relations"
+    candidate_section: "Secrecy, Contact, and Social Prejudice"
+    reason_for_placement: It summarizes the social relationship between magical and Muggle communities.
+    relevance_to_hogwarts_a_history: Provides limited Harry-era context for the social world in which Hogwarts operates, not a documented institutional policy.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed World Cup account corroborates prejudice in wizarding society but does not duplicate the broader relationship characterization.
+      audit:
+        query_tags:
+          - bigotry
+          - magical-muggle-relations
+          - wizarding-society
+        candidates:
+          - id: gof-ch08-003
+            disposition: corroborating
+    confidence: medium
+    limitations: Preserved transcription with authority D; the response is a broad authorial characterization, not a dated or exhaustive social history.
+
+  - id: ext-b02-005
+    source_file: resources/external/interviews/accio-quote/b02-scholastic-live-chat.md
+    source_id: B02
+    source_url: https://www.accio-quote.org/articles/2000/1000-scholastic-chat.htm
+    source_section: "Question: How does the wizarding world protect Muggle banks and vaults, etc. from wizards apparating into them and stealing the contents?"
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: "How does the wizarding world protect Muggle banks and vaults"
+      end_phrase: "you can find yourself in serious trouble"
+      local_occurrence_note: Late-middle interview exchange on Apparition oversight.
+    nearby_context: In response to a question about protecting Muggle property, Rowling says Apparition is licensed and that the Ministry monitors its use and penalizes abuse.
+    match_terms:
+      - Ministry of Magic
+      - Apparition licensing
+      - magical transport
+    quote_excerpt_short: "The Ministry of Magic keeps tabs on people apparating."
+    source_note: Rowling says the Ministry monitors Apparition, requires a licence, and can punish misuse of the transport method.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - apparition-licensing
+      - magical-transport
+      - ministry-of-magic
+    candidate_part: "Part I: The Wizarding World in Context"
+    candidate_chapter: "Magical Law, Transport, and Secrecy"
+    candidate_section: "Apparition Licensing and Enforcement"
+    reason_for_placement: It describes a Ministry regulatory mechanism relevant to magical transport and protection of Muggle property.
+    relevance_to_hogwarts_a_history: Background context for a regulated wizarding practice that shapes the wider legal world around Hogwarts; it is not a Hogwarts-specific rule.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed entries cover Ministry controls and Apparition in other circumstances, but none repeat this licensing-and-monitoring explanation.
+      audit:
+        query_tags:
+          - apparition-licensing
+          - magical-transport
+          - ministry-of-magic
+        candidates:
+          - id: dh-ch12-003
+            disposition: corroborating
+          - id: cos-ch02-005
+            disposition: corroborating
+          - id: cos-ch03-004
+            disposition: corroborating
+          - id: cos-ch13-007
+            disposition: distinct
+          - id: cos-ch14-005
+            disposition: distinct
+          - id: dh-ch04-001
+            disposition: corroborating
+          - id: dh-ch04-004
+            disposition: distinct
+          - id: dh-ch05-002
+            disposition: distinct
+          - id: dh-ch07-002
+            disposition: distinct
+          - id: dh-ch07-006
+            disposition: distinct
+    confidence: medium
+    limitations: Preserved transcription with authority D; the response gives a general enforcement description without naming the relevant statute, authority, or procedure.

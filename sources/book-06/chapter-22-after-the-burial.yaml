@@ -1,0 +1,345 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Half-Blood Prince
+  chapter: Chapter Twenty-Two - After the Burial
+  chapter_start_pdf_page: 2809
+  chapter_end_pdf_page: 2828
+  boundary_confidence: high
+  boundary_notes: Processing-state anchors give an inclusive bounded range of PDF pages 2809-2828; extraction was run only for that range.
+  processed_date: '2026-07-27'
+  processor_notes: "No explicit Hogwarts: A History title reference was found. Entries focus on Ministry-linked testing, curriculum evidence, castle security, grounds lore, magical-creature materials, and memory-source recovery."
+
+entries:
+  - id: hbp-ch22-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty-Two - After the Burial
+    chapter_start_pdf_page: 2809
+    chapter_end_pdf_page: 2828
+    pdf_page: 2810
+    printed_page: null
+    extracted_text_lines: 13-17; 129-132; 201-225
+    text_anchor:
+      start_phrase: Ministry of Magic leaflet
+      end_phrase: Two or three hours should do it
+      local_occurrence_note: Hermione and Ron prepare with a Ministry leaflet, then leave with other eligible students for the Apparition Test and return with pass/fail results.
+    nearby_context: Harry is too young for the test, while Hermione passes and Ron fails for a minor Splinching-like defect before discussing the next chance.
+    match_terms:
+      - Ministry of Magic leaflet
+      - Apparition Test
+      - examiner
+      - passed
+      - failed
+      - eyebrow
+      - seventeen
+    quote_excerpt_short: "people taking their Apparition Test"
+    source_note: The chapter shows Hogwarts students taking the Ministry Apparition Test during the school day, with eligibility tied to age and results enforced by an external examiner.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - apparition
+      - student-licensing
+      - ministry-of-magic
+      - examinations
+      - sixth-years
+      - splinching
+      - magical-transportation
+    candidate_part: Rules, Discipline, and Governance
+    candidate_chapter: Magical Transportation and Student Restrictions
+    candidate_section: Formal Apparition testing at Hogwarts
+    reason_for_placement: The passage completes the Apparition-training sequence by showing the formal test stage, age-based participation, and examiner judgment.
+    relevance_to_hogwarts_a_history: This supports a section on how Hogwarts cooperated with Ministry licensing while preparing older students for adult magical transportation.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch21-001
+        - hbp-ch18-003
+        - hbp-ch17-002
+      notes: hbp-ch17-002 records the course notice and eligibility rules, hbp-ch18-003 records the supervised Great Hall lesson, and hbp-ch21-001 records Hogsmeade practice and the April test date. This entry adds same-day test attendance and observed pass/fail outcomes.
+    confidence: high
+    limitations: The test itself happens off-page, so the chapter gives results and logistics rather than the full examination procedure.
+
+  - id: hbp-ch22-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty-Two - After the Burial
+    chapter_start_pdf_page: 2809
+    chapter_end_pdf_page: 2828
+    pdf_page: 2813
+    printed_page: null
+    extracted_text_lines: 135-146; 163-180; 185-189
+    text_anchor:
+      start_phrase: There were only three of them in Potions
+      end_phrase: Hiccuping Solution merely passable
+      local_occurrence_note: With most eligible students absent for testing, Slughorn gives the remaining underage students an open-ended Potions exercise.
+    nearby_context: Harry uses the Half-Blood Prince's corrected recipe for an Elixir to Induce Euphoria, and Slughorn identifies peppermint as a useful counterbalance to side effects.
+    match_terms:
+      - Potions
+      - Advanced Potion-Making
+      - Elixir to Induce Euphoria
+      - Half-Blood Prince
+      - peppermint
+      - Hiccuping Solution
+      - underage
+    quote_excerpt_short: "brew me up something amusing"
+    source_note: Slughorn's small Potions class becomes an open-ended practical exercise, producing an Elixir to Induce Euphoria from Prince-corrected notes and a Hiccuping Solution from Malfoy.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - potions
+      - advanced-potion-making
+      - elixir-to-induce-euphoria
+      - half-blood-prince
+      - curriculum
+      - sixth-years
+      - classroom-practice
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Potions Instruction and Materials
+    candidate_section: Open-ended advanced brewing exercises
+    reason_for_placement: The scene documents an advanced Potions practical where the teacher sets a broad outcome and evaluates students' selected brews.
+    relevance_to_hogwarts_a_history: This adds evidence for N.E.W.T.-level Potions pedagogy, old textbook marginalia, and practical experimentation in the dungeon classroom.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch09-005
+        - hbp-ch09-007
+        - hbp-ch21-002
+      notes: hbp-ch09-005 records Slughorn's N.E.W.T. Potions demonstrations and class setup, hbp-ch09-007 records the corrected Advanced Potion-Making copy, and hbp-ch21-002 records later marginal spell use. This entry adds an open-ended brewing prompt and the Euphoria recipe's peppermint correction.
+    confidence: high
+    limitations: The passage identifies two student brews but does not give the official recipe text or grading standard.
+
+  - id: hbp-ch22-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty-Two - After the Burial
+    chapter_start_pdf_page: 2809
+    chapter_end_pdf_page: 2828
+    pdf_page: 2810
+    printed_page: null
+    extracted_text_lines: 37-56; 278-307; 330-337
+    text_anchor:
+      start_phrase: leave the castle at night
+      end_phrase: proper security if you ask me
+      local_occurrence_note: Hagrid's note asks students to leave after hours under the Cloak, and Harry later finds the front door unlocked despite wartime security.
+    nearby_context: Hermione objects that security is much tighter, Harry uses the Invisibility Cloak to move through the castle, and Slughorn says Filch should be reported for the unlocked doors.
+    match_terms:
+      - nighttime
+      - security
+      - Invisibility Cloak
+      - Filch
+      - front door
+      - castle
+      - detention
+    quote_excerpt_short: "security's a million times tighter"
+    source_note: The chapter shows wartime after-hours restrictions and a practical security lapse when Harry exits under the Invisibility Cloak through an unlocked front door.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - wartime-security
+      - castle-doors
+      - invisibility-cloak
+      - filch
+      - nighttime
+      - student-misconduct
+      - detention
+    candidate_part: Protective Magic and Security
+    candidate_chapter: Wartime Castle Security
+    candidate_section: After-hours movement and door-security lapses
+    reason_for_placement: The passage combines the expected wartime rule environment with a concrete failure in ordinary door security.
+    relevance_to_hogwarts_a_history: A later editorial note could contrast strengthened wartime protections with ordinary staff-dependent enforcement at castle exits.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup for castle, nighttime, cloak, and security found broad security context but no close existing entry about an unlocked wartime castle exit.
+    confidence: medium
+    limitations: Felix Felicis affects Harry's route and the scene does not prove whether the lapse was ordinary negligence or luck-influenced coincidence.
+
+  - id: hbp-ch22-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty-Two - After the Burial
+    chapter_start_pdf_page: 2809
+    chapter_end_pdf_page: 2828
+    pdf_page: 2818
+    printed_page: null
+    extracted_text_lines: 308-325
+    text_anchor:
+      start_phrase: toward the vegetable patch
+      end_phrase: direction of her greenhouses
+      local_occurrence_note: Harry detours toward the vegetable patch and overhears Sprout supplying Slughorn with twilight-picked leaves for third-year Potions.
+    nearby_context: The exchange happens on the grounds between the entrance hall and Hagrid's cabin, near the vegetable patch and the greenhouses.
+    match_terms:
+      - vegetable patch
+      - Professor Sprout
+      - Professor Slughorn
+      - greenhouses
+      - twilight
+      - third years
+      - leafy plants
+    quote_excerpt_short: "picked at twilight"
+    source_note: Sprout provides Slughorn with twilight-picked leafy plants from the grounds, enough for his third-year Potions students and extra failed attempts.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - herbology
+      - potions
+      - greenhouses
+      - professor-sprout
+      - professor-slughorn
+      - magical-plants
+      - third-years
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Herbology and Potions Supply Links
+    candidate_section: Greenhouse materials for Potions lessons
+    reason_for_placement: The passage shows cross-department coordination between Herbology resources and Potions classroom materials.
+    relevance_to_hogwarts_a_history: This supports a practical curriculum account in which greenhouse cultivation and staff cooperation supply lesson ingredients.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found Herbology safety and Potions materials entries, but no close match for Sprout supplying Slughorn's third-year ingredient needs.
+    confidence: high
+    limitations: The plant is not named, so the entry cannot identify the specific ingredient or potion lesson.
+
+  - id: hbp-ch22-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty-Two - After the Burial
+    chapter_start_pdf_page: 2809
+    chapter_end_pdf_page: 2828
+    pdf_page: 2819
+    printed_page: null
+    extracted_text_lines: 344-350; 383-395; 416-419; 431-462
+    text_anchor:
+      start_phrase: acromantulas in the forest
+      end_phrase: forest home
+      local_occurrence_note: Slughorn confirms rumors of forest Acromantulas, while Hagrid explains that Aragog's death ended his safe access to the colony.
+    nearby_context: Hagrid buries Aragog beyond the pumpkin patch instead of in the forest because the remaining spiders will no longer let him approach their webs.
+    match_terms:
+      - Acromantulas
+      - Aragog
+      - Forbidden Forest
+      - Hagrid
+      - colony
+      - burial
+      - pumpkin patch
+    quote_excerpt_short: "acromantulas in the forest"
+    source_note: Aragog's death confirms a dangerous Acromantula colony in the Forbidden Forest and removes the protection that had allowed Hagrid to enter their area.
+    reference_type: direct_observed_setting
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - acromantula
+      - aragog
+      - forbidden-forest
+      - hagrid
+      - magical-creatures
+      - creature-risk
+      - forest-colony
+    candidate_part: The Grounds and Forbidden Forest
+    candidate_chapter: Dangerous Creatures Near Hogwarts
+    candidate_section: Aragog's death and colony control
+    reason_for_placement: The passage updates the forest-creature evidence by showing how one creature's authority had shaped human access to a dangerous colony.
+    relevance_to_hogwarts_a_history: This helps document the limits of staff control in the Forbidden Forest and the long-term consequences of keeping Acromantulas near school grounds.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch11-005
+        - cos-ch15-005
+        - cos-ch15-006
+      notes: cos-ch15-005 establishes Aragog's forest colony, cos-ch15-006 gives Aragog's origin and Hagrid's earlier care, and hbp-ch11-005 records the colony becoming unsafe during Aragog's illness. This entry adds Aragog's death, Hagrid's lost protection, and the burial logistics near the cabin.
+    confidence: high
+    limitations: Hagrid reports the spiders' changed behavior secondhand after retrieving Aragog's body.
+
+  - id: hbp-ch22-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty-Two - After the Burial
+    chapter_start_pdf_page: 2809
+    chapter_end_pdf_page: 2828
+    pdf_page: 2819
+    printed_page: null
+    extracted_text_lines: 351-359; 438-448; 499-517; 523-527
+    text_anchor:
+      start_phrase: acromantula venom is very valuable
+      end_phrase: illegal trade in dragon eggs
+      local_occurrence_note: Slughorn values and collects creature materials while later discussing unicorn hair, forest creatures, bowtruckle husbandry, and dragon-egg trade with Hagrid.
+    nearby_context: Slughorn attends Aragog's burial partly to collect venom, then surveys Hagrid's cabin for other valuable creature-derived materials.
+    match_terms:
+      - acromantula venom
+      - hundred Galleons
+      - unicorn hair
+      - bowtruckle husbandry
+      - dragon eggs
+      - Hagrid
+      - Slughorn
+    quote_excerpt_short: "might get a hundred Galleons a pint"
+    source_note: The chapter links Hogwarts grounds creatures to valuable magical materials, including Acromantula venom, unicorn hair, bowtruckle husbandry, and illegal dragon-egg trade talk.
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - magical-creatures
+      - acromantula-venom
+      - unicorn-hair
+      - bowtruckles
+      - dragon-eggs
+      - hagrid
+      - magical-materials
+    candidate_part: The Grounds and Forbidden Forest
+    candidate_chapter: Creature Materials and Informal Knowledge
+    candidate_section: Valuable byproducts from forest creatures
+    reason_for_placement: The passage shows how rare creature byproducts circulate as practical, commercial, and illicit knowledge around Hogwarts staff.
+    relevance_to_hogwarts_a_history: This could support a later section on the economic and practical significance of magical creatures living near the school.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup found broad magical-creature entries but no close existing entry covering Acromantula venom value, unicorn hair in Hagrid's cabin, and informal creature-material trade together.
+    confidence: medium
+    limitations: Some details are conversational and opportunistic rather than formal curriculum or policy.
+
+  - id: hbp-ch22-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Half-Blood Prince
+    chapter: Chapter Twenty-Two - After the Burial
+    chapter_start_pdf_page: 2809
+    chapter_end_pdf_page: 2828
+    pdf_page: 2826
+    printed_page: null
+    extracted_text_lines: 588-593; 596-633
+    text_anchor:
+      start_phrase: give me a memory
+      end_phrase: passed it across the table to Harry
+      local_occurrence_note: Harry confronts Slughorn about the suppressed memory, and Slughorn withdraws the memory thread into a bottle for Dumbledore's use.
+    nearby_context: Slughorn is ashamed of what the memory shows, but Harry argues that Dumbledore needs the information to oppose Voldemort.
+    match_terms:
+      - Slughorn
+      - memory
+      - Dumbledore
+      - bottle
+      - wand
+      - temple
+      - information
+    quote_excerpt_short: "Dumbledore needs information"
+    source_note: Slughorn's concealed memory is recoverable as a bottled magical source after he withdraws it with his wand and gives it to Harry.
+    reference_type: explicit_in_universe_source
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - slughorn
+      - memory-magic
+      - dumbledore
+      - pensieve
+      - voldemort-history
+      - private-lessons
+      - testimony
+    candidate_part: The Library, Books, and Scholarship
+    candidate_chapter: Memory, Testimony, and Historical Method
+    candidate_section: Recovering Slughorn's suppressed memory
+    reason_for_placement: The passage supplies the source-acquisition step for a historically important memory that Dumbledore had identified as necessary evidence.
+    relevance_to_hogwarts_a_history: A later editorial note can use this to explain how private testimony and memory magic entered the evidentiary record for Voldemort's school-era history.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - hbp-ch10-004
+        - ootp-ch37-006
+        - ootp-ch24-004
+      notes: hbp-ch10-004 records Dumbledore's supervised use of collected memories as historical evidence, ootp-ch37-006 records a retrieved prophecy memory, and ootp-ch24-004 establishes Pensieve memory handling. This entry adds Slughorn's coerced source recovery and bottled transfer before the Horcrux lesson.
+    confidence: high
+    limitations: The memory's content is not viewed until the next chapter, so this entry covers acquisition and provenance rather than the testimony itself.

@@ -1,0 +1,219 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A18
+  source_file: resources/external/official-rowling/harrypotter-com/a18-hogwarts-school-subjects.md
+  title: Hogwarts School Subjects
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-school-subjects
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-school-subjects
+  capture_completeness: complete
+  content_sha256: d2d664935a5f77bc259084808783b75d5f7160bacf16b2aefa10229b32c038d9
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read; extracted curriculum rules and authorial-development note.
+
+entries:
+  - id: ext-a18-001
+    source_file: resources/external/official-rowling/harrypotter-com/a18-hogwarts-school-subjects.md
+    source_id: A18
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-school-subjects
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: All first-years at Hogwarts must take seven subjects
+      end_phrase: Flying lessons (on broomsticks) are also compulsory
+      local_occurrence_note: Opening paragraph of the main article, before the second-year subject-choice rule.
+    nearby_context: The article first states the compulsory first-year curriculum, then separately introduces the later subject-choice requirement.
+    match_terms:
+      - first-years
+      - seven subjects
+      - Transfiguration
+      - flying lessons
+    quote_excerpt_short: All first-years at Hogwarts must take seven subjects
+    source_note: The compulsory first-year curriculum consists of Transfiguration, Charms, Potions, History of Magic, Defence Against the Dark Arts, Astronomy, and Herbology; flying is additionally compulsory.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hogwarts
+      - curriculum
+      - first-year-subjects
+      - core-subjects
+      - flying
+    candidate_part: 'Part II: The School'
+    candidate_chapter: Education and Curriculum
+    candidate_section: First-year compulsory subjects
+    reason_for_placement: Establishes the baseline required course of study for new Hogwarts pupils.
+    relevance_to_hogwarts_a_history: Useful as an official summary of the curriculum reflected in the Harry-era school setting.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed flying-lesson entry supports practical first-year flying but does not state the full compulsory curriculum.
+      audit:
+        query_tags:
+          - core-subjects
+          - flying
+        candidates:
+          - id: ps-ch09-001
+            disposition: corroborating
+    confidence: high
+    limitations: This retrospective official summary supplies no in-universe date or timetable detail for the curriculum rule.
+
+  - id: ext-a18-002
+    source_file: resources/external/official-rowling/harrypotter-com/a18-hogwarts-school-subjects.md
+    source_id: A18
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-school-subjects
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: At the end of their second year at Hogwarts
+      end_phrase: Care of Magical Creatures
+      local_occurrence_note: Second paragraph of the main article, between the compulsory first-year curriculum and the specialised-subject note.
+    nearby_context: After describing the seven compulsory subjects and flying, the article sets out the required second-year choice from five further subjects.
+    match_terms:
+      - second year
+      - minimum of two
+      - Arithmancy
+      - Study of Ancient Runes
+      - Care of Magical Creatures
+    quote_excerpt_short: students are required to choose a minimum of two more subjects
+    source_note: At the end of second year, pupils must select at least two additional subjects from Arithmancy, Muggle Studies, Divination, Study of Ancient Runes, and Care of Magical Creatures.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - curriculum
+      - course-selection
+      - electives
+      - third-year-subjects
+      - arithmancy
+      - muggle-studies
+    candidate_part: 'Part II: The School'
+    candidate_chapter: Education and Curriculum
+    candidate_section: Third-year subject selection
+    reason_for_placement: Defines the transition from the common first-year curriculum to selected additional subjects.
+    relevance_to_hogwarts_a_history: Provides an official rule and complete option list to contextualize Harry-era elective-selection scenes.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed entries independently depict elective selection and later schedules; this source adds the minimum requirement and authoritative complete list.
+      audit:
+        query_tags:
+          - course-selection
+          - electives
+        candidates:
+          - id: cos-ch14-002
+            disposition: corroborating
+          - id: hbp-ch11-004
+            disposition: corroborating
+          - id: ootp-ch12-002
+            disposition: corroborating
+          - id: poa-ch04-004
+            disposition: corroborating
+          - id: poa-ch06-001
+            disposition: corroborating
+          - id: poa-ch12-007
+            disposition: corroborating
+          - id: poa-ch22-006
+            disposition: corroborating
+    confidence: high
+    limitations: The article states the rule but does not give a specific calendar year, class timetable, or individual pupil's selection.
+
+  - id: ext-a18-003
+    source_file: resources/external/official-rowling/harrypotter-com/a18-hogwarts-school-subjects.md
+    source_id: A18
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-school-subjects
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Very specialised subjects such as Alchemy are sometimes offered
+      end_phrase: if there is sufficient demand
+      local_occurrence_note: Third and final paragraph of the main article before the author’s note.
+    nearby_context: The article distinguishes occasional highly specialised senior subjects from the compulsory and selected regular curriculum.
+    match_terms:
+      - Alchemy
+      - specialised subjects
+      - final two years
+      - sufficient demand
+    quote_excerpt_short: such as Alchemy are sometimes offered in the final two years
+    source_note: Highly specialised subjects, including Alchemy, may be offered during the final two school years only when demand is sufficient.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - curriculum
+      - alchemy
+      - advanced-subjects
+      - sixth-year
+      - seventh-year
+    candidate_part: 'Part II: The School'
+    candidate_chapter: Education and Curriculum
+    candidate_section: Advanced and demand-led subjects
+    reason_for_placement: Qualifies the regular curriculum with a rule for occasional senior-level offerings.
+    relevance_to_hogwarts_a_history: Supports a nuanced account of how Hogwarts could provide specialised study beyond the ordinary subject menu.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed Alchemy references concern research and Dumbledore’s recognition, rather than a Hogwarts offering rule.
+      audit:
+        query_tags:
+          - alchemy
+          - advanced-subjects
+        candidates:
+          - id: dh-ch18-003
+            disposition: distinct
+          - id: ps-ch13-001
+            disposition: distinct
+    confidence: high
+    limitations: The source gives no examples of an Alchemy class actually running, demand threshold, or teacher.
+
+  - id: ext-a18-004
+    source_file: resources/external/official-rowling/harrypotter-com/a18-hogwarts-school-subjects.md
+    source_id: A18
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-school-subjects
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: A slightly different list of school subjects appears in my earliest notes
+      end_phrase: Transfiguration is called ‘Transfiguration/Metamorphosis’
+      local_occurrence_note: Sole paragraph under the “Author’s note” heading at the end of the snapshot.
+    nearby_context: Rowling labels the note as an account of early development notes, contrasting them with the article’s current subject list.
+    match_terms:
+      - earliest notes
+      - Herbalism
+      - Beasts
+      - Transfiguration/Metamorphosis
+    quote_excerpt_short: A slightly different list of school subjects appears in my earliest notes.
+    source_note: Rowling’s early development notes used alternate names and requirements, including Herbalism, compulsory first-year Divination and Alchemy, Beasts, and Transfiguration/Metamorphosis.
+    reference_type: weak_context_only
+    era_classification: later_editorial_note
+    topic_tags:
+      - authorial-note
+      - early-notes
+      - curriculum
+      - development-notes
+      - hogwarts
+    candidate_part: 'Appendix: Editorial and Source Notes'
+    candidate_chapter: Authorial development notes
+    candidate_section: Subject-list variants
+    reason_for_placement: Keeps non-diegetic drafting history separate from claims about the finished Hogwarts curriculum.
+    relevance_to_hogwarts_a_history: Helps prevent early-draft terminology and requirements from being treated as in-universe school history.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No indexed candidate was returned for the authorial-development terms.
+      audit:
+        query_tags:
+          - early-notes
+          - authorial-note
+        candidates: []
+    confidence: high
+    limitations: This is a retrospective authorial note about development, not evidence of an in-universe curriculum.

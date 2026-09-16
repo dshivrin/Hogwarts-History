@@ -1,0 +1,58 @@
+source_unit:
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Back Cover
+  chapter_start_pdf_page: 65
+  chapter_end_pdf_page: 65
+  boundary_confidence: high
+  boundary_notes: PDF page 65 is the back cover and follows the end of Chapter Ten on PDF page 64.
+  processed_date: '2026-08-15'
+  processor_notes: The image-only back cover was rendered, OCRed, and visually checked because it contains an explicit
+    Hogwarts library provenance claim.
+entries:
+- id: qtta-bc-001
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Back Cover
+  chapter_start_pdf_page: 65
+  chapter_end_pdf_page: 65
+  pdf_page: 65
+  printed_page: null
+  extracted_text_lines: OCR lines 1735-1762
+  text_anchor:
+    start_phrase: This limited edition is a copy
+    end_phrase: almost daily basis
+    local_occurrence_note: Back-cover description above the charity and publisher information.
+  nearby_context: The wrapper describes the edition as a reproduction of Hogwarts's library volume used by young
+    Quidditch readers.
+  match_terms:
+  - limited edition
+  - Hogwarts School Library
+  - young Quidditch fans
+  - daily
+  quote_excerpt_short: copy of the volume in Hogwarts School Library
+  source_note: The back cover independently presents the edition as a copy of Hogwarts School Library's volume and
+    says young Quidditch fans consult it almost daily.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - quidditch-through-the-ages
+  - hogwarts-library
+  - library-provenance
+  - student-reading
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Named In-Universe Sources
+  candidate_section: Quidditch Through the Ages
+  reason_for_placement: It is an explicit final provenance statement for the reproduced school-library copy.
+  relevance_to_hogwarts_a_history: It corroborates the foreword and borrowing plate on the book's Hogwarts location
+    and frequent student use.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - qtta-fm-002
+    - qtta-fm-004
+    - ps-ch11-002
+    notes: This wrapper statement corroborates the internal library plate, Dumbledore's foreword, and Harry's use
+      of the same named work.
+  confidence: high
+  limitations: The statement is promotional wrapper copy rather than part of Whisp's historical chapters.

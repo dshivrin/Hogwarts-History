@@ -1,0 +1,335 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Seven - The Beginning
+  chapter_start_pdf_page: 1545
+  chapter_end_pdf_page: 1560
+  boundary_confidence: high
+  boundary_notes: Bounded from project-control/processing-state.yaml and project-control/next-run.md after the completed Chapter Thirty-Six anchor; extracted only PDF pages 1545-1560 with pypdf via scripts/extract_pages.py, without scanning the PDF from page 1.
+  processed_date: '2026-07-01'
+  processor_notes: >-
+    Processed only Book 4, Chapter Thirty-Seven. Text was extracted into
+    .tmp/current-chapter.txt and searched for explicit Hogwarts history references
+    and institutional evidence. No explicit Hogwarts: A History title reference was
+    found. Entries focus on Cedric Diggory aftermath, student privacy and Defense
+    Against the Dark Arts disruption, the altered Leaving Feast, Dumbledore's
+    public truth-telling, inter-school ties after the Triwizard Tournament, Rita
+    Skeeter's Animagus surveillance, and Ludo Bagman's goblin-debt contamination of
+    tournament conduct. Quote excerpts were kept under 25 words per entry.
+
+entries:
+- id: gof-ch37-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Seven - The Beginning
+  chapter_start_pdf_page: 1545
+  chapter_end_pdf_page: 1560
+  pdf_page: 1545
+  printed_page: null
+  extracted_text_lines: 6-23
+  text_anchor:
+    start_phrase: he had only scattered memories of the next few days
+    end_phrase: you keep it
+    local_occurrence_note: The chapter opens with Harry's painful memory of meeting Cedric's parents the morning after the third task and trying to give them the prize money.
+  nearby_context: Cedric's parents thank Harry for returning Cedric's body, hear how he died, decline the Triwizard winnings, and leave the money with Harry.
+  match_terms:
+  - Cedric Diggory
+  - Diggorys
+  - Triwizard winnings
+  - returning Cedric's body
+  - tournament aftermath
+  quote_excerpt_short: thanked him for returning Cedric's body to them
+  source_note: The chapter records a direct family aftermath meeting after a student death connected to a Hogwarts-hosted tournament, including the parents' response to the returned body and prize money.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - cedric-diggory
+  - family-care
+  - tournament-aftermath
+  - triwizard-winnings
+  - pastoral-care
+  - student-death
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Family Aftermath and Prize Refusal After Cedric Diggory's Death
+  reason_for_placement: The scene supplies aftermath evidence for how the school tragedy reached Cedric's family and how the tournament prize became morally contested after a shared victory and death.
+  relevance_to_hogwarts_a_history: A later edition can use this to document the human and procedural aftermath of the 1995 tournament casualty beyond the maze and hospital wing.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch36-002
+    notes: gof-ch36-002 records Professor Sprout's Head-of-House support for Cedric's parents; this entry adds Harry's later meeting with the Diggorys, their thanks for the returned body, and their refusal of the prize money.
+  confidence: high
+  limitations: The passage does not specify which staff members arranged or attended the meeting.
+- id: gof-ch37-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Seven - The Beginning
+  chapter_start_pdf_page: 1545
+  chapter_end_pdf_page: 1560
+  pdf_page: 1546
+  printed_page: null
+  extracted_text_lines: 26-50
+  text_anchor:
+    start_phrase: Harry returned to Gryffindor Tower the following evening
+    end_phrase: they had those lessons free
+    local_occurrence_note: Ron and Hermione report Dumbledore's breakfast request that the school leave Harry alone; the same passage notes the absence of a Defense Against the Dark Arts teacher.
+  nearby_context: After leaving the hospital wing, Harry is protected from questioning by a school-wide request, while fourth years have no Defense Against the Dark Arts lessons because the impostor teacher is gone.
+  match_terms:
+  - Gryffindor Tower
+  - Dumbledore
+  - leave Harry alone
+  - Defense Against the Dark Arts
+  - no teacher
+  - hospital wing
+  quote_excerpt_short: leave Harry alone
+  source_note: Dumbledore addresses the school after the maze crisis to limit student questioning of Harry, and the exposed impostor's removal leaves Defense Against the Dark Arts lessons temporarily vacant.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - dumbledore
+  - student-privacy
+  - trauma-aftermath
+  - defense-against-the-dark-arts
+  - teacher-vacancy
+  - barty-crouch-jr
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Student Welfare and Crisis Response
+  candidate_section: Privacy Instructions and Class Disruption After the Maze Crisis
+  reason_for_placement: The passage combines pastoral direction from the headmaster with concrete curricular disruption caused by the discovery that the year's Defense Against the Dark Arts teacher was an impostor.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence that crisis response affected both student conduct expectations and ordinary class scheduling.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Prior entries cover Moody's appointment and other crisis-related class cancellations, but this passage adds the specific post-maze privacy instruction and free lessons caused by the teacher's removal.
+  confidence: high
+  limitations: The passage reports Dumbledore's breakfast address indirectly through Ron and Hermione rather than quoting it.
+- id: gof-ch37-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Seven - The Beginning
+  chapter_start_pdf_page: 1545
+  chapter_end_pdf_page: 1560
+  pdf_page: 1548
+  printed_page: null
+  extracted_text_lines: 101-123
+  text_anchor:
+    start_phrase: It was with a heavy heart that Harry packed his trunk
+    end_phrase: His expression was difficult to read
+    local_occurrence_note: Harry dreads the usual Leaving Feast; the Great Hall lacks winning-House decorations and instead uses black drapes, while Moody returns to the staff table and Karkaroff is absent.
+  nearby_context: The feast normally announces the Inter-House Championship and displays the winning House's colors, but Cedric's death changes the decorations and mood.
+  match_terms:
+  - Leaving Feast
+  - Inter-House Championship
+  - Great Hall
+  - black drapes
+  - Cedric Diggory
+  - Mad-Eye Moody
+  - Karkaroff
+  quote_excerpt_short: black drapes on the wall behind the teachers' table
+  source_note: The chapter contrasts ordinary end-of-year feast customs with mourning practices after Cedric's death, while also showing staff-table consequences of the Moody imposture and Karkaroff's flight.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - leaving-feast
+  - great-hall
+  - house-championship
+  - cedric-diggory
+  - mourning-customs
+  - mad-eye-moody
+  - karkaroff
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: End-of-Year Feast and House Cup
+  candidate_section: Mourning Decorations After Cedric Diggory's Death
+  reason_for_placement: The scene gives an explicit variant of the usual Leaving Feast and House-color display when a school-wide bereavement overrides celebration.
+  relevance_to_hogwarts_a_history: A later edition can use this to document how Hogwarts adapted annual ceremonies during a tournament death and security crisis.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Earlier feast entries cover ordinary and crisis feasts, but no queried entry captured the black-draped Leaving Feast after Cedric's death.
+  confidence: high
+  limitations: The passage does not say whether the House Cup winner was formally announced that night.
+- id: gof-ch37-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Seven - The Beginning
+  chapter_start_pdf_page: 1545
+  chapter_end_pdf_page: 1560
+  pdf_page: 1550
+  printed_page: null
+  extracted_text_lines: 136-191
+  text_anchor:
+    start_phrase: The end
+    end_phrase: their goblets untouched
+    local_occurrence_note: At the Leaving Feast, Dumbledore names Voldemort as Cedric's murderer, says the Ministry does not want him to tell the students, and honors Harry for returning Cedric's body.
+  nearby_context: The public speech follows the black-draped feast setting and turns a school ceremony into a formal disclosure of the murder and Ministry suppression.
+  match_terms:
+  - Cedric Diggory
+  - Lord Voldemort
+  - Ministry of Magic
+  - truth
+  - Harry Potter
+  - Great Hall
+  quote_excerpt_short: truth is generally preferable to lies
+  source_note: Dumbledore publicly rejects the Ministry's preferred silence, tells students Cedric was murdered by Voldemort, and frames truthful disclosure as part of honoring the dead.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - dumbledore
+  - ministry-of-magic
+  - cedric-diggory
+  - voldemort
+  - public-address
+  - school-autonomy
+  - truth-telling
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Headmasters and School Authority
+  candidate_section: Public Truth-Telling Against Ministry Pressure
+  reason_for_placement: The speech shows the headmaster using a school-wide ceremony to make a factual disclosure that the Ministry explicitly opposed.
+  relevance_to_hogwarts_a_history: A later edition can cite this as a defining example of Hogwarts institutional autonomy and moral leadership at the start of the Second Wizarding War.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch36-005
+    notes: gof-ch36-005 records Fudge's private governance threat and Dumbledore's autonomy; this entry adds Dumbledore's public use of that autonomy before the assembled school.
+  confidence: high
+  limitations: The account is filtered through Harry's observation and does not include any later formal Ministry response to the speech.
+- id: gof-ch37-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Seven - The Beginning
+  chapter_start_pdf_page: 1545
+  chapter_end_pdf_page: 1560
+  pdf_page: 1551
+  printed_page: null
+  extracted_text_lines: 195-218
+  text_anchor:
+    start_phrase: The Triwizard Tournament's aim was to further and promote magical understanding
+    end_phrase: Remember Cedric Diggory
+    local_occurrence_note: Dumbledore addresses Beauxbatons and Durmstrang guests after naming Cedric's murder, welcomes them back, and connects inter-school ties to Voldemort's return.
+  nearby_context: The speech moves from Cedric's death and Harry's return with the body to the purpose of the Triwizard Tournament and the need for unity across schools.
+  match_terms:
+  - Triwizard Tournament
+  - magical understanding
+  - Beauxbatons
+  - Durmstrang
+  - welcomed back
+  - Lord Voldemort
+  quote_excerpt_short: welcomed back here at any time
+  source_note: Dumbledore interprets the revived Triwizard Tournament as an instrument of magical understanding and keeps Hogwarts open to its visiting schools despite the catastrophe.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - triwizard-tournament
+  - beauxbatons
+  - durmstrang
+  - international-magical-cooperation
+  - inter-school-relations
+  - magical-understanding
+  - voldemort
+  candidate_part: Ceremonies, Feasts, and Inter-School Relations
+  candidate_chapter: The Triwizard Tournament at Hogwarts
+  candidate_section: Closing Welcome and Unity After the Tournament
+  reason_for_placement: The passage states the diplomatic purpose of the tournament after its failure and records Hogwarts's continued welcome to foreign students.
+  relevance_to_hogwarts_a_history: A later edition can use this to balance the tournament's security disaster against its intended role in inter-school cooperation.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch12-007
+    - gof-ch15-005
+    notes: gof-ch12-007 gives the tournament's history and revival; gof-ch15-005 records the arrival welcome procedure. This entry adds the closing statement of purpose and post-crisis invitation back to Hogwarts.
+  confidence: high
+  limitations: The speech is aspirational and does not prove future Beauxbatons or Durmstrang visits occurred.
+- id: gof-ch37-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Seven - The Beginning
+  chapter_start_pdf_page: 1545
+  chapter_end_pdf_page: 1560
+  pdf_page: 1554
+  printed_page: null
+  extracted_text_lines: 279-347
+  text_anchor:
+    start_phrase: When Hermione returned from the trolley
+    end_phrase: Hermione placed the beetle back inside her schoolbag
+    local_occurrence_note: On the train home, Hermione reveals that Rita Skeeter is an unregistered beetle Animagus and identifies prior covert listening locations across Hogwarts.
+  nearby_context: Hermione links the lack of post-third-task reporting to her capture of Skeeter, then explains the hospital-wing capture, statue, lake, Divination, and Slytherin interview clues.
+  match_terms:
+  - Rita Skeeter
+  - Daily Prophet
+  - unregistered Animagus
+  - beetle
+  - hospital wing
+  - Divination class
+  - Slytherins
+  quote_excerpt_short: Rita Skeeter is an unregistered Animagus
+  source_note: The chapter reveals that Skeeter's Hogwarts reporting depended on illegal Animagus surveillance across school spaces, including the hospital wing and classrooms.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - rita-skeeter
+  - animagus
+  - daily-prophet
+  - hospital-wing
+  - surveillance
+  - school-security
+  - wizarding-press
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Public Records
+  candidate_section: Rita Skeeter's Unregistered Animagus Surveillance
+  reason_for_placement: The revelation explains how a hostile reporter bypassed ordinary access restrictions and created distorted public records from within Hogwarts.
+  relevance_to_hogwarts_a_history: A later edition can use this to qualify Daily Prophet material from the Triwizard year and to document a non-student security breach inside the school.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch18-005
+    notes: gof-ch18-005 flags Rita Skeeter's distorted tournament coverage and press access; this entry adds the concealed Animagus method and the later containment that stopped her reporting.
+  confidence: high
+  limitations: Hermione's account is retrospective, and the passage does not show staff discovering the breach at the time.
+- id: gof-ch37-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Thirty-Seven - The Beginning
+  chapter_start_pdf_page: 1545
+  chapter_end_pdf_page: 1560
+  pdf_page: 1558
+  printed_page: null
+  extracted_text_lines: 397-451
+  text_anchor:
+    start_phrase: You going to tell us, then
+    end_phrase: right after the third task
+    local_occurrence_note: Fred and George explain that Bagman paid them in vanishing leprechaun gold, owed goblins, was watched at Hogwarts, bet on Harry, and fled after the third task.
+  nearby_context: The conversation on the Hogwarts Express resolves the twins' blackmail subplot and explains Bagman's earlier improper help as financially motivated.
+  match_terms:
+  - Ludo Bagman
+  - leprechaun gold
+  - goblins
+  - Hogwarts
+  - Triwizard Tournament
+  - third task
+  - gambling
+  quote_excerpt_short: followed him all the way to Hogwarts
+  source_note: The chapter reveals that Bagman's debts and bet on Harry brought goblin creditors to Hogwarts and motivated his attempts to help Harry win the tournament.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - ludo-bagman
+  - goblins
+  - triwizard-tournament
+  - gambling
+  - tournament-rules
+  - judge-conduct
+  - financial-scandal
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: Bagman's Debts and Financial Pressure on Tournament Conduct
+  reason_for_placement: The passage connects a judge's earlier partiality to personal gambling debts and shows outside creditors tracking a Ministry official to the school.
+  relevance_to_hogwarts_a_history: A later edition can use this to explain a hidden procedural weakness in the revived tournament beyond the magical sabotage of the Goblet and Cup.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - gof-ch24-006
+    - gof-ch30-005
+    notes: gof-ch24-006 records Bagman's improper offer of task help, and gof-ch30-005 records earlier concerns about Bagman's judgment; this entry adds the goblin debt and betting motive behind the tournament pressure.
+  confidence: high
+  limitations: The explanation is reported by Fred and George rather than Bagman, though it accounts for multiple observed behaviors across the tournament year.

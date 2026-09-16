@@ -1,0 +1,332 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Order of the Phoenix
+  chapter: Chapter Eighteen - Dumbledore's Army
+  chapter_start_pdf_page: 1929
+  chapter_end_pdf_page: 1951
+  boundary_confidence: high
+  boundary_notes: Bounded extraction used the current control range, pages 1929-1951. A one-page forward anchor extraction confirmed PDF page 1952 begins Chapter Nineteen - The Lion and the Serpent.
+  processed_date: '2026-07-07'
+  processor_notes: "Extracted with pypdf via scripts/extract_pages.py using only the bounded page range. No explicit Hogwarts: A History references appear in this chapter."
+
+entries:
+  - id: ootp-ch18-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Eighteen - Dumbledore's Army
+    chapter_start_pdf_page: 1929
+    chapter_end_pdf_page: 1951
+    pdf_page: 1929
+    printed_page: null
+    extracted_text_lines: 6-52
+    text_anchor:
+      start_phrase: Umbridge has been reading your mail
+      end_phrase: We can't send him an owl
+      local_occurrence_note: Hermione reconstructs how Filch's Dungbomb accusation could have enabled Umbridge to read Harry's letter.
+    nearby_context: The discussion occurs during a noisy Charms lesson where frogs and ravens make private conversation safer.
+    match_terms:
+      - Umbridge
+      - Filch
+      - owl post
+      - Hedwig
+      - student mail
+      - Sirius
+    quote_excerpt_short: "somebody just wanted an excuse to read your mail"
+    source_note: Hermione's theory ties Filch's confiscation threat, Hedwig's injury, and the failed Sirius fire contact to a broader pattern of student mail and communication surveillance under Umbridge.
+    reference_type: security_or_protection
+    era_classification: later_editorial_note
+    topic_tags:
+      - communication-security
+      - owl-post
+      - hedwig
+      - filch
+      - dolores-umbridge
+      - school-surveillance
+      - student-rights
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Protective Magic and Security
+    candidate_section: Watched communications under the High Inquisitor
+    reason_for_placement: The passage adds a student-side reconstruction of how ordinary discipline could be used to intercept private school correspondence.
+    relevance_to_hogwarts_a_history: A later edition can use this as corroboration that Ministry control at Hogwarts affected privacy and student communication, not only classroom policy.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: ootp-ch17-003
+      notes: ootp-ch17-003 records McGonagall's warning, Hedwig's injury, and Umbridge's fire monitoring; this entry adds Hermione's specific theory that Filch's Dungbomb accusation was a pretext for reading Harry's mail.
+    confidence: medium
+    limitations: Hermione is inferring Umbridge's method; the chapter does not directly show Umbridge reading the letter.
+
+  - id: ootp-ch18-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Eighteen - Dumbledore's Army
+    chapter_start_pdf_page: 1929
+    chapter_end_pdf_page: 1951
+    pdf_page: 1931
+    printed_page: null
+    extracted_text_lines: 88-97
+    text_anchor:
+      start_phrase: I've got permission
+      end_phrase: three weeks away from our first match
+      local_occurrence_note: Angelina announces that the Gryffindor Quidditch team may reform after McGonagall and possibly Dumbledore intervene.
+    nearby_context: The announcement follows Educational Decree Number Twenty-four's disbanding of teams, clubs, and student organizations.
+    match_terms:
+      - Quidditch team
+      - re-form
+      - McGonagall
+      - Dumbledore
+      - Umbridge
+      - permission
+    quote_excerpt_short: "To re-form the Quidditch team!"
+    source_note: The Gryffindor team can resume only after staff appeal and Umbridge's reluctant approval, showing the High Inquisitor's decree being applied to ordinary House sport.
+    reference_type: school_rule_or_policy
+    era_classification: later_editorial_note
+    topic_tags:
+      - quidditch
+      - house-teams
+      - educational-decrees
+      - high-inquisitor
+      - dolores-umbridge
+      - professor-mcgonagall
+      - school-governance
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Headmasters and School Authority
+    candidate_section: Educational Decree Number Twenty-four and student organizations
+    reason_for_placement: The evidence shows the decree's practical effect on a long-standing Hogwarts recreational institution.
+    relevance_to_hogwarts_a_history: A later editorial note can use this as an example of Ministry oversight reaching House Quidditch administration during the 1995-1996 school year.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: ootp-ch17-001
+      notes: ootp-ch17-001 records the decree disbanding all student organizations and requiring High Inquisitor approval; this entry shows a House Quidditch team securing that approval.
+    confidence: high
+    limitations: The passage does not quote the approval document or state whether all House teams followed the same appeal route.
+
+  - id: ootp-ch18-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Eighteen - Dumbledore's Army
+    chapter_start_pdf_page: 1929
+    chapter_end_pdf_page: 1951
+    pdf_page: 1930
+    printed_page: null
+    extracted_text_lines: 38-81
+    text_anchor:
+      start_phrase: Silencio
+      end_phrase: additional practice of the Silencing Charm for homework
+      local_occurrence_note: Hermione succeeds with the Silencing Charm on a bullfrog and raven while Ron and Harry struggle.
+    nearby_context: Flitwick observes the practice, praises Hermione, and assigns extra homework after Ron fails to silence the bullfrog.
+    match_terms:
+      - Charms
+      - Silencing Charm
+      - Silencio
+      - Professor Flitwick
+      - homework
+      - fifth year
+    quote_excerpt_short: "additional practice of the Silencing Charm for homework"
+    source_note: Fifth-year Charms includes practical Silencing Charm work on live classroom animals, with Flitwick correcting students and assigning extra practice when performance is weak.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - charms
+      - silencing-charm
+      - professor-flitwick
+      - fifth-year-curriculum
+      - homework
+      - classroom-practice
+      - spellwork
+    candidate_part: Curriculum and Instruction
+    candidate_chapter: Charms
+    candidate_section: Fifth-year practical spellwork and homework
+    reason_for_placement: The scene records a concrete Charms lesson, spell incantation, practice material, teacher assessment, and follow-up homework.
+    relevance_to_hogwarts_a_history: This can seed a curriculum section on how practical charms were taught and remediated during Harry's fifth year.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate searches for Silencio, Charms, Flitwick, and homework found curriculum and workload parallels, but no prior entry for this Silencing Charm lesson.
+    confidence: high
+    limitations: The passage gives a single lesson snapshot, not the full fifth-year Charms syllabus.
+
+  - id: ootp-ch18-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Eighteen - Dumbledore's Army
+    chapter_start_pdf_page: 1929
+    chapter_end_pdf_page: 1951
+    pdf_page: 1940
+    printed_page: null
+    extracted_text_lines: 387-400
+    text_anchor:
+      start_phrase: have you been taking all the clothes
+      end_phrase: he has got his wish
+      local_occurrence_note: Dobby explains why he is wearing Hermione's hats and why the other elves avoid Gryffindor Tower.
+    nearby_context: Dobby returns Hedwig from Professor Grubbly-Plank and appears in the common room after midnight wearing stacked hats, scarves, and socks.
+    match_terms:
+      - house-elves
+      - Gryffindor Tower
+      - hats
+      - socks
+      - Winky
+      - cleaning
+    quote_excerpt_short: "None of them will clean Gryffindor Tower anymore"
+    source_note: Dobby reports that Hogwarts house-elves find Hermione's hidden hats and socks insulting, refuse to clean Gryffindor Tower, and leave Dobby to service the space alone.
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - house-elves
+      - gryffindor-tower
+      - common-room
+      - clothing
+      - magical-servitude
+      - manumission
+      - castle-maintenance
+    candidate_part: Ghosts, Portraits, and Magical Residents
+    candidate_chapter: House-Elves and Hidden Labor
+    candidate_section: Clothing, freedom, and Hogwarts service spaces
+    reason_for_placement: The passage directly clarifies who removed the hidden clothing and how the elves responded to the attempted manumission campaign.
+    relevance_to_hogwarts_a_history: This can refine a later editorial note on Hogwarts domestic labor, elf autonomy, and the unintended effects of student activism in House spaces.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch13-002
+        - ootp-ch14-001
+      notes: ootp-ch13-002 records Hermione hiding hats and ootp-ch14-001 records the hats disappearing after cleaning; this entry adds Dobby's explanation that the other elves considered the clothing insulting and stopped cleaning Gryffindor Tower.
+    confidence: high
+    limitations: The evidence comes from Dobby's report; it does not show the other elves directly or state a formal Hogwarts labor policy.
+
+  - id: ootp-ch18-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Eighteen - Dumbledore's Army
+    chapter_start_pdf_page: 1929
+    chapter_end_pdf_page: 1951
+    pdf_page: 1941
+    printed_page: null
+    extracted_text_lines: 423-454
+    text_anchor:
+      start_phrase: I need to find a place
+      end_phrase: waiting to be called into service
+      local_occurrence_note: Dobby identifies the Room of Requirement as the answer to Harry's need for a concealed Defense practice space.
+    nearby_context: Dobby says he learned of the room from other Hogwarts house-elves and connects it to Winky, Filch, and Dumbledore's Yule Ball story.
+    match_terms:
+      - Room of Requirement
+      - Come and Go Room
+      - house-elves
+      - Filch
+      - Dumbledore
+      - hidden room
+    quote_excerpt_short: "always equipped for the seeker's needs"
+    source_note: Dobby names the Come and Go Room or Room of Requirement and explains that it appears only to someone with real need, adapting its contents to that need and remaining unknown to most.
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - room-of-requirement
+      - come-and-go-room
+      - magical-architecture
+      - hidden-room
+      - house-elves
+      - filch
+      - hogwarts-secrets
+    candidate_part: Castle Architecture and Daily Operations
+    candidate_chapter: Secret Rooms, Moving Routes, and Responsive Castle Spaces
+    candidate_section: The Room of Requirement
+    reason_for_placement: The passage gives the first explicit name, access principle, service behavior, and known-user pattern for one of Hogwarts' responsive spaces.
+    relevance_to_hogwarts_a_history: This is core evidence for any architectural chapter on hidden or need-responsive rooms and on gaps in official knowledge of the castle.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: gof-ch23-004
+      notes: gof-ch23-004 records Dumbledore's earlier vanished chamber-pot room anecdote; this entry identifies the same phenomenon as the Room of Requirement and adds its rules and house-elf name.
+    confidence: high
+    limitations: Dobby is the principal source for the room's rules, and his grammar compresses some details.
+
+  - id: ootp-ch18-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Eighteen - Dumbledore's Army
+    chapter_start_pdf_page: 1929
+    chapter_end_pdf_page: 1951
+    pdf_page: 1943
+    printed_page: null
+    extracted_text_lines: 478-581
+    text_anchor:
+      start_phrase: seventh floor opposite that tapestry
+      end_phrase: they can be fooled
+      local_occurrence_note: Harry leads the group to the Room of Requirement and observes the room generated for defensive practice.
+    nearby_context: Harry uses the Marauder's Map to avoid Filch, Mrs. Norris, and Umbridge before walking past the blank wall three times.
+    match_terms:
+      - seventh floor
+      - Barnabas the Barmy
+      - Room of Requirement
+      - Dark Detectors
+      - Sneakoscopes
+      - Foe-Glass
+    quote_excerpt_short: "walk past this bit of wall three times"
+    source_note: The D.A. entrance method locates the Room of Requirement opposite the Barnabas the Barmy tapestry, and the room provides defensive books, cushions, locks, and Dark Detectors for practice.
+    reference_type: magical_architecture
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - room-of-requirement
+      - seventh-floor
+      - barnabas-the-barmy
+      - marauders-map
+      - dark-detectors
+      - defense-against-the-dark-arts
+      - castle-navigation
+    candidate_part: Castle Architecture and Daily Operations
+    candidate_chapter: Secret Rooms, Moving Routes, and Responsive Castle Spaces
+    candidate_section: The Room of Requirement as a defensive classroom
+    reason_for_placement: The scene gives direct navigation, access ritual, room manifestation, and contents for the space as used by students.
+    relevance_to_hogwarts_a_history: This can support a detailed later entry on how a hidden castle room became an unofficial classroom during the High Inquisitor year.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: gof-ch23-004
+      notes: gof-ch23-004 records the earlier hidden-room anecdote; this entry adds the room's exact seventh-floor location, entry procedure, and defensive classroom configuration.
+    confidence: high
+    limitations: The room's generated contents reflect the D.A.'s immediate need and should not be treated as permanent furnishings.
+
+  - id: ootp-ch18-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Order of the Phoenix
+    chapter: Chapter Eighteen - Dumbledore's Army
+    chapter_start_pdf_page: 1929
+    chapter_end_pdf_page: 1951
+    pdf_page: 1946
+    printed_page: null
+    extracted_text_lines: 585-753
+    text_anchor:
+      start_phrase: I think we ought to elect a leader
+      end_phrase: the Fat Lady's portrait
+      local_occurrence_note: The gathered students formalize the D.A., begin with Expelliarmus, and leave in small groups after curfew risk.
+    nearby_context: Hermione proposes a vote and a discreet name; Ginny proposes Dumbledore's Army; Harry then teaches paired Disarming Charm practice.
+    match_terms:
+      - Dumbledore's Army
+      - Defense Association
+      - Expelliarmus
+      - Disarming Charm
+      - student-led instruction
+      - common rooms
+    quote_excerpt_short: "wrote DUMBLEDORE'S ARMY across the top"
+    source_note: The first Room of Requirement meeting elects Harry leader, adopts the coded name D.A./Dumbledore's Army, and begins practical cross-House Defense instruction with Expelliarmus before students disperse to their House areas.
+    reference_type: curriculum_or_subject
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - dumbledores-army
+      - defense-association
+      - practical-defense
+      - student-led-instruction
+      - expelliarmus
+      - cross-house
+      - house-common-rooms
+    candidate_part: Curriculum and Instruction
+    candidate_chapter: Defense Against the Dark Arts
+    candidate_section: Dumbledore's Army and student-led practical Defense
+    reason_for_placement: The passage records the formal naming, leadership, first lesson content, and cross-House logistics of an unofficial Defense curriculum.
+    relevance_to_hogwarts_a_history: A later edition can use this as the moment the student-led practical Defense initiative becomes an organized Hogwarts institution, however illicit and temporary.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ootp-ch15-007
+        - ootp-ch16-004
+        - cos-ch11-003
+        - gof-ch34-001
+      notes: ootp-ch15-007 records the first proposal, ootp-ch16-004 records the Hog's Head organizing meeting, cos-ch11-003 records an earlier authorized Dueling Club, and gof-ch34-001 records Harry's prior Expelliarmus carryover; this entry adds the formal D.A. name, vote, first Room of Requirement practice, and return routes.
+    confidence: high
+    limitations: The meeting is unauthorized and temporary, so it belongs in Harry-era or later editorial treatment rather than baseline Hogwarts curriculum.

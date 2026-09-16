@@ -1,0 +1,271 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A39
+  source_file: resources/external/official-rowling/harrypotter-com/a39-potions.md
+  title: Potions
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/potions
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/potions
+  capture_completeness: complete
+  content_sha256: f0f56027bd9ac22906e1e09cd1570bf371ef10d6719308797ccc4feac13a2901
+  processed_date: '2026-09-15'
+  processor_notes: Complete snapshot read; in-universe potion propositions are separated from the author's real-world ingredient commentary.
+
+entries:
+  - id: ext-a39-001
+    source_file: resources/external/official-rowling/harrypotter-com/a39-potions.md
+    source_id: A39
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/potions
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: It is often asked whether a Muggle could create a magic potion, given a Potions book and the right ingredients.
+      end_phrase: merely adding dead flies and asphodel to a pot hanging over a fire will give you nothing but nasty-tasting, not to mention poisonous, soup
+      local_occurrence_note: Opening two body paragraphs before the comparison with spells and charms.
+    nearby_context: The article directly contrasts magical potion-making with following a recipe and heating ordinary ingredients.
+    match_terms:
+      - potion-making
+      - wandwork
+      - muggle-limit
+      - magical-craft
+    quote_excerpt_short: There is always some element of wandwork necessary to make a potion.
+    source_note: Potion-making is inherently magical and requires wandwork; a Muggle with instructions and ingredients could not reproduce it as ordinary cooking.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - potions
+      - potion-making
+      - wandwork
+      - magical-craft
+      - muggles
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Potions and Practical Magic
+    candidate_section: Potion-Making as Magic
+    reason_for_placement: Defines the craft independently of its later classroom setting and distinguishes it from ordinary cookery.
+    relevance_to_hogwarts_a_history: Supports a technical account of potion-making as an independent magical craft, but supplies no origin date.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing candidates show potion recipes, materials, and lessons but do not state that wandwork is inherently required.
+      audit:
+        query_tags:
+          - potions
+          - wandwork
+          - magic
+        candidates:
+          - id: cos-ch09-007
+            disposition: distinct
+          - id: cos-ch10-002
+            disposition: distinct
+          - id: cos-ch11-002
+            disposition: distinct
+          - id: ext-a21-002
+            disposition: distinct
+          - id: ext-a38-002
+            disposition: corroborating
+          - id: ext-a38-005
+            disposition: corroborating
+          - id: fb-ch06-006
+            disposition: distinct
+          - id: gof-ch10-006
+            disposition: distinct
+          - id: gof-ch15-002
+            disposition: distinct
+          - id: gof-ch18-004
+            disposition: distinct
+    confidence: high
+    limitations: This is an undated general proposition and cannot establish when potion-making began or where early practitioners learned it.
+
+  - id: ext-a39-002
+    source_file: resources/external/official-rowling/harrypotter-com/a39-potions.md
+    source_id: A39
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/potions
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Some potions duplicate the effects of spells and charms
+      end_phrase: witches and wizards favour whichever method they find easiest, or most satisfying, to produce their chosen end.
+      local_occurrence_note: Third body paragraph, between the wandwork explanation and the potioneer description.
+    nearby_context: Polyjuice Potion and Felix Felicis are given as examples of effects unavailable by other magical means.
+    match_terms:
+      - potion-effects
+      - spells
+      - charms
+      - unique-effects
+    quote_excerpt_short: a few have effects impossible to achieve any other way
+    source_note: Some potions overlap with spells and charms, while Polyjuice Potion and Felix Felicis exemplify effects that cannot be achieved by other means.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - potions
+      - spells
+      - charms
+      - polyjuice-potion
+      - felix-felicis
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Potions and Practical Magic
+    candidate_section: Potions and Other Magical Methods
+    reason_for_placement: Clarifies potion-making's relationship to other branches of magic and identifies capabilities unique to potions.
+    relevance_to_hogwarts_a_history: Supports technical distinctions among magical practices without dating their development.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Candidates place Potions beside other subjects or show specific recipes, but none makes this general equivalence-and-uniqueness distinction.
+      audit:
+        query_tags:
+          - potions
+          - spells
+          - charms
+        candidates:
+          - id: gof-ch15-002
+            disposition: distinct
+          - id: hbp-ch15-006
+            disposition: distinct
+          - id: poa-ch16-003
+            disposition: distinct
+          - id: ps-ch16-001
+            disposition: distinct
+          - id: cos-ch09-007
+            disposition: distinct
+          - id: cos-ch10-002
+            disposition: corroborating
+          - id: cos-ch11-002
+            disposition: distinct
+          - id: ext-a21-002
+            disposition: distinct
+          - id: ext-a38-002
+            disposition: distinct
+          - id: ext-a38-005
+            disposition: distinct
+    confidence: high
+    limitations: The statement is undated and identifies only two examples of effects said to be unavailable by other means.
+
+  - id: ext-a39-003
+    source_file: resources/external/official-rowling/harrypotter-com/a39-potions.md
+    source_id: A39
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/potions
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Potions are not for the impatient
+      end_phrase: Snape, in fact, conforms perfectly to the stereotype.
+      local_occurrence_note: Fourth body paragraph immediately before the Author's note.
+    nearby_context: The paragraph describes practical difficulty, danger, social status, and the popular image of potion experts.
+    match_terms:
+      - skilled-potioneer
+      - potion-expertise
+      - dangerous-substances
+      - branch-of-magic
+    quote_excerpt_short: their effects are usually difficult to undo by any but another skilled potioneer
+    source_note: Potioneering is a recognized branch of magic requiring patience and specialist skill, associated with dangerous substances, status, and effects difficult for non-specialists to reverse.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - potions
+      - potioneer
+      - expertise
+      - dangerous-substances
+      - magical-craft
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Potions and Practical Magic
+    candidate_section: Potioneering Expertise
+    reason_for_placement: Establishes skilled potioneering as a branch of expertise rather than merely a classroom exercise.
+    relevance_to_hogwarts_a_history: Supports potion-making as an independent specialist craft, but not its chronology or institutional origin.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Linfred and Fleamont supply later practitioner examples; school candidates show instruction but do not duplicate the general expertise claim.
+      audit:
+        query_tags:
+          - potions
+          - potioneer
+          - expertise
+        candidates:
+          - id: cos-ch09-007
+            disposition: distinct
+          - id: cos-ch10-002
+            disposition: corroborating
+          - id: cos-ch11-002
+            disposition: distinct
+          - id: ext-a21-002
+            disposition: distinct
+          - id: ext-a38-002
+            disposition: corroborating
+          - id: ext-a38-005
+            disposition: corroborating
+          - id: fb-ch06-006
+            disposition: distinct
+          - id: gof-ch10-006
+            disposition: distinct
+          - id: gof-ch15-002
+            disposition: distinct
+          - id: gof-ch18-004
+            disposition: distinct
+    confidence: high
+    limitations: The article describes an undated social stereotype and technical generality, not the historical formation of the field.
+
+  - id: ext-a39-004
+    source_file: resources/external/official-rowling/harrypotter-com/a39-potions.md
+    source_id: A39
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/potions
+    source_section: Author’s note
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Many of the components of the various draughts and libations that Harry creates for Snape exist
+      end_phrase: drinking water in which a bezoar was placed could cure you of poisoning.
+      local_occurrence_note: Final two sentences of the Author's note.
+    nearby_context: Rowling explains her real-world ingredient research after discussing the authorial choice of Potions as Snape's subject.
+    match_terms:
+      - dittany
+      - bezoar
+      - real-world-folklore
+      - ingredient-research
+    quote_excerpt_short: Dittany, for instance, really does have healing properties.
+    source_note: In authorial commentary, Rowling links dittany to real anti-inflammatory properties and bezoars to a historical belief that bezoar-infused water treated poisoning.
+    reference_type: weak_context_only
+    era_classification: later_editorial_note
+    topic_tags:
+      - dittany
+      - bezoar
+      - healing
+      - poison-treatment
+      - authorial-research
+    candidate_part: Later Editorial Notes
+    candidate_chapter: Sources and Authorial Context
+    candidate_section: Real-World Ingredient Traditions
+    reason_for_placement: Keeps Rowling's real-world ingredient commentary separate from in-universe magical propositions.
+    relevance_to_hogwarts_a_history: Source-critical context for ingredient selection only; it cannot independently establish magical plant or antidote history in-universe.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Novel entries corroborate magical uses of dittany, while this entry remains distinct real-world authorial commentary.
+      audit:
+        query_tags:
+          - dittany
+          - bezoar
+          - healing
+        candidates:
+          - id: dh-ch14-001
+            disposition: corroborating
+          - id: dh-ch27-001
+            disposition: corroborating
+          - id: ext-a38-001
+            disposition: distinct
+          - id: hbp-ch24-004
+            disposition: corroborating
+          - id: ps-ch14-001
+            disposition: distinct
+    confidence: high
+    limitations: This is authorial real-world commentary, not an in-universe statement or evidence that dittany and bezoars were used in any particular historical period.

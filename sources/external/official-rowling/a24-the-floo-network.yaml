@@ -1,0 +1,344 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: A24
+  source_file: resources/external/official-rowling/harrypotter-com/a24-the-floo-network.md
+  title: The Floo Network
+  author: J.K. Rowling
+  source_site: HarryPotter.com
+  source_class: official_rowling_original
+  authority: A
+  publication_date: '2015-08-10'
+  original_url: https://www.harrypotter.com/writing-by-jk-rowling/the-floo-network
+  retrieval_url: https://www.harrypotter.com/writing-by-jk-rowling/the-floo-network
+  capture_completeness: complete
+  content_sha256: 29fc55858d080d2165df9c71c314d567de65cab230eb2d4b22a0dece71b95129
+  processed_date: '2026-08-15'
+  processor_notes: Complete snapshot read and evidence extracted.
+
+entries:
+  - id: ext-a24-001
+    source_file: resources/external/official-rowling/harrypotter-com/a24-the-floo-network.md
+    source_id: A24
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-floo-network
+    source_section: The Floo Network
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: In use for centuries, the Floo Network
+      end_phrase: children, the elderly and the infirm
+      local_occurrence_note: Opening paragraph of the main article.
+    nearby_context: The article introduces Floo as a long-standing means of travel and contrasts it with broom travel and Apparition.
+    match_terms:
+      - floo-network
+      - international-statute-secrecy
+      - magical-transport
+    quote_excerpt_short: In use for centuries, the Floo Network
+    source_note: The Floo Network is described as having been in use for centuries.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - floo-network
+      - international-statute-secrecy
+      - magical-transport
+      - accessible-travel
+      - wizarding-infrastructure
+    candidate_part: 'Part I: Foundations and Governance'
+    candidate_chapter: Hogwarts and the Wider Wizarding World
+    candidate_section: Regulated Magical Transport
+    reason_for_placement: Establishes the long historical background of a wider magical transport system relevant to Hogwarts.
+    relevance_to_hogwarts_a_history: Useful context for the longevity of magical transport around Hogwarts; the article does not date a specific school application.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries discuss particular Floo uses or restrictions rather than this general historical description.
+      audit:
+        query_tags:
+          - floo-network
+          - international-statute-secrecy
+          - magical-transport
+        candidates:
+          - id: dh-ch04-001
+            disposition: distinct
+          - id: dh-ch12-003
+            disposition: distinct
+          - id: ext-a04-002
+            disposition: corroborating
+          - id: gof-ch04-004
+            disposition: corroborating
+          - id: dh-ch01-004
+            disposition: distinct
+          - id: dh-ch04-004
+            disposition: distinct
+          - id: dh-ch05-002
+            disposition: distinct
+          - id: dh-ch10-006
+            disposition: distinct
+          - id: dh-ch14-001
+            disposition: distinct
+          - id: dh-ch23-005
+            disposition: distinct
+    confidence: high
+    limitations: A retrospective official article gives broad system description, not a dated in-universe account of Hogwarts practice.
+
+  - id: ext-a24-002
+    source_file: resources/external/official-rowling/harrypotter-com/a24-the-floo-network.md
+    source_id: A24
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-floo-network
+    source_section: The Floo Network
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Nearly every witch or wizard home is connected to the Floo Network.
+      end_phrase: temporary connection can be arranged in emergencies
+      local_occurrence_note: Second paragraph of the main article.
+    nearby_context: The article distinguishes simple disconnection of a fireplace from Ministry-authorized connection and explains the Muggle-protection purpose.
+    match_terms:
+      - floo-network
+      - ministry-of-magic
+      - fireplace-regulation
+    quote_excerpt_short: connection requires the permission of the Ministry of Magic
+    source_note: 'The Ministry regulates Floo connections: a fireplace can be disconnected by spell, but connection needs Ministry permission, preventing accidental connection of Muggle fireplaces while allowing emergency exceptions.'
+    reference_type: school_rule_or_policy
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - floo-network
+      - ministry-of-magic
+      - fireplace-regulation
+      - muggle-secrecy
+      - emergency-access
+    candidate_part: 'Part I: Foundations and Governance'
+    candidate_chapter: Hogwarts and the Ministry of Magic
+    candidate_section: Regulated Magical Transport
+    reason_for_placement: Explains the Ministry-controlled infrastructure that governs exceptional school travel and communication by fireplace.
+    relevance_to_hogwarts_a_history: Supplies the regulatory background for rare or emergency Hogwarts Floo access without treating normal school fireplaces as public transport.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The ranked entries provide examples of Floo control, not the same general regulatory rule.
+      audit:
+        query_tags:
+          - fireplace-regulation
+          - floo-network
+          - ministry-of-magic
+        candidates:
+          - id: dh-ch12-003
+            disposition: corroborating
+          - id: hbp-ch17-001
+            disposition: corroborating
+          - id: cos-ch02-005
+            disposition: distinct
+          - id: cos-ch03-004
+            disposition: distinct
+          - id: cos-ch13-007
+            disposition: distinct
+          - id: cos-ch14-005
+            disposition: distinct
+          - id: dh-ch01-004
+            disposition: corroborating
+          - id: dh-ch04-001
+            disposition: corroborating
+          - id: dh-ch07-002
+            disposition: distinct
+          - id: dh-ch07-006
+            disposition: distinct
+    confidence: high
+    limitations: The article describes general Ministry practice without dating the regulation or identifying a particular Hogwarts fireplace.
+
+  - id: ext-a24-003
+    source_file: resources/external/official-rowling/harrypotter-com/a24-the-floo-network.md
+    source_id: A24
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-floo-network
+    source_section: The Floo Network
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The fireplaces of Hogwarts are not generally connected
+      end_phrase: often without the staff’s knowledge
+      local_occurrence_note: Closing sentence of the third paragraph of the main article.
+    nearby_context: After estimating the nationwide Floo-connected fireplaces, the article states the normal Hogwarts restriction and notes unauthorized tampering incidents.
+    match_terms:
+      - floo-network
+      - hogwarts-fireplaces
+      - access-restriction
+    quote_excerpt_short: The fireplaces of Hogwarts are not generally connected
+    source_note: Hogwarts fireplaces are normally excluded from the Floo Network, though individual fireplaces have at times been tampered with without staff knowledge.
+    reference_type: security_or_protection
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - floo-network
+      - hogwarts-fireplaces
+      - access-restriction
+      - school-security
+      - magical-transport
+    candidate_part: 'Part II: The Castle and Its Protections'
+    candidate_chapter: Access, Boundaries, and Communication
+    candidate_section: Fireplace Access and Floo Restrictions
+    reason_for_placement: Directly documents a normal access restriction at Hogwarts and an avenue by which that restriction can be compromised.
+    relevance_to_hogwarts_a_history: Strong evidence for describing the castle's ordinary transport boundary while qualifying it with known breaches.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries show wartime or surveillance-related Floo use; none states the normal Hogwarts fireplace restriction.
+      audit:
+        query_tags:
+          - access-restriction
+          - floo-network
+          - hogwarts-fireplaces
+        candidates:
+          - id: dh-ch01-004
+            disposition: distinct
+          - id: dh-ch04-001
+            disposition: distinct
+          - id: dh-ch12-003
+            disposition: distinct
+          - id: dh-ch30-004
+            disposition: distinct
+          - id: gof-ch04-004
+            disposition: distinct
+          - id: hbp-ch17-001
+            disposition: corroborating
+          - id: ootp-ch03-003
+            disposition: distinct
+          - id: ootp-ch17-003
+            disposition: corroborating
+          - id: ootp-ch22-003
+            disposition: distinct
+          - id: ootp-ch27-006
+            disposition: distinct
+    confidence: high
+    limitations: The statement is general and undated; it does not identify which Hogwarts fireplaces were tampered with or when.
+
+  - id: ext-a24-004
+    source_file: resources/external/official-rowling/harrypotter-com/a24-the-floo-network.md
+    source_id: A24
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-floo-network
+    source_section: The Floo Network
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Although generally reliable, mistakes can happen.
+      end_phrase: she wanted to go to her mother’s house
+      local_occurrence_note: Fourth paragraph of the main article, introducing the Violet Tillyman case.
+    nearby_context: The article attributes a notorious accidental misdirection to Violet Tillyman's incoherent destination speech during an argument in 1855.
+    match_terms:
+      - floo-network
+      - violet-tillyman
+      - '1855'
+      - accidental-misdirection
+    quote_excerpt_short: The most notorious instance of accidental misdirection happened in 1855
+    source_note: In 1855, Violet Tillyman was accidentally misdirected through the Floo Network after speaking her destination incoherently, illustrating that spoken-destination errors could have serious consequences.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - floo-network
+      - violet-tillyman
+      - '1855'
+      - accidental-misdirection
+      - magical-transport
+    candidate_part: 'Part I: Foundations and Governance'
+    candidate_chapter: Hogwarts and the Wider Wizarding World
+    candidate_section: Magical Transport in Historical Context
+    reason_for_placement: Provides a dated historical example of Floo-network limits relevant to the safety context for school-age travel.
+    relevance_to_hogwarts_a_history: A useful pre-Harry-era transport-history anecdote, but it concerns a private household rather than Hogwarts directly.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: No ranked entry records the 1855 Tillyman incident or the same accidental-misdirection claim.
+      audit:
+        query_tags:
+          - '1855'
+          - accidental-misdirection
+          - floo-network
+          - violet-tillyman
+        candidates:
+          - id: dh-ch01-004
+            disposition: distinct
+          - id: dh-ch04-001
+            disposition: distinct
+          - id: dh-ch12-003
+            disposition: distinct
+          - id: dh-ch30-004
+            disposition: distinct
+          - id: gof-ch04-004
+            disposition: distinct
+          - id: hbp-ch17-001
+            disposition: distinct
+          - id: ootp-ch03-003
+            disposition: distinct
+          - id: ootp-ch17-003
+            disposition: distinct
+          - id: ootp-ch22-003
+            disposition: distinct
+          - id: ootp-ch27-006
+            disposition: distinct
+    confidence: high
+    limitations: This is an author-provided retrospective anecdote; it establishes the stated 1855 case but not the frequency of such misdirection.
+
+  - id: ext-a24-005
+    source_file: resources/external/official-rowling/harrypotter-com/a24-the-floo-network.md
+    source_id: A24
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/the-floo-network
+    source_section: The Floo Network
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: there are around a thousand fireplaces across Britain connected to the Floo Network
+      end_phrase: various wizarding shops and inns
+      local_occurrence_note: First sentence of the third paragraph of the main article.
+    nearby_context: The article distinguishes the national network's public and institutional fireplaces from the generally unconnected fireplaces at Hogwarts.
+    match_terms:
+      - floo-network
+      - british-fireplaces
+      - magical-infrastructure
+    quote_excerpt_short: there are around a thousand fireplaces across Britain connected to the Floo Network
+    source_note: Beyond domestic homes, the Floo Network includes approximately a thousand connected fireplaces across Britain, including Ministry offices, wizarding shops, and inns.
+    reference_type: historical_claim
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - floo-network
+      - british-fireplaces
+      - magical-infrastructure
+      - ministry-of-magic
+      - wizarding-businesses
+    candidate_part: 'Part I: Foundations and Governance'
+    candidate_chapter: Hogwarts and the Wider Wizarding World
+    candidate_section: Regulated Magical Transport
+    reason_for_placement: Sets the scale of the national infrastructure from which Hogwarts is normally excluded.
+    relevance_to_hogwarts_a_history: Provides comparative context for the unusually restricted Floo status of Hogwarts fireplaces, while the estimate itself is undated.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Ranked results document individual Floo controls or journeys, not the nationwide connected-fireplace estimate.
+      audit:
+        query_tags:
+          - british-fireplaces
+          - floo-network
+          - magical-infrastructure
+        candidates:
+          - id: dh-ch01-004
+            disposition: distinct
+          - id: dh-ch04-001
+            disposition: distinct
+          - id: dh-ch12-003
+            disposition: distinct
+          - id: dh-ch30-004
+            disposition: distinct
+          - id: gof-ch04-004
+            disposition: distinct
+          - id: hbp-ch17-001
+            disposition: distinct
+          - id: ootp-ch03-003
+            disposition: distinct
+          - id: ootp-ch17-003
+            disposition: distinct
+          - id: ootp-ch22-003
+            disposition: distinct
+          - id: ootp-ch27-006
+            disposition: distinct
+    confidence: high
+    limitations: The approximate nationwide count has no stated date and does not specify its method or all connected location types.

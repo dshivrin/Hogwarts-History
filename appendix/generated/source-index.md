@@ -81,3 +81,227 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `gof-ch16`: Harry Potter and the Goblet of Fire, Chapter Sixteen - The Goblet of Fire, pages 1154-1173, 7 entries, 0 explicit references.
 - `gof-ch17`: Harry Potter and the Goblet of Fire, Chapter Seventeen - The Four Champions, pages 1174-1187, 7 entries, 0 explicit references.
 - `gof-ch18`: Harry Potter and the Goblet of Fire, Chapter Eighteen - The Weighing of the Wands, pages 1188-1209, 7 entries, 0 explicit references.
+- `gof-ch19`: Harry Potter and the Goblet of Fire, Chapter Nineteen - The Hungarian Horntail, pages 1210-1229, 7 entries, 0 explicit references.
+- `gof-ch20`: Harry Potter and the Goblet of Fire, Chapter Twenty - The First Task, pages 1230-1251, 7 entries, 0 explicit references.
+- `gof-ch21`: Harry Potter and the Goblet of Fire, Chapter Twenty-One - The House-Elf Liberation Front, pages 1252-1269, 7 entries, 0 explicit references.
+- `gof-ch22`: Harry Potter and the Goblet of Fire, Chapter Twenty-Two - The Unexpected Task, pages 1270-1284, 7 entries, 0 explicit references.
+- `gof-ch23`: Harry Potter and the Goblet of Fire, Chapter Twenty-Three - The Yule Ball, pages 1285-1309, 7 entries, 0 explicit references.
+- `gof-ch24`: Harry Potter and the Goblet of Fire, Chapter Twenty-Four - Rita Skeeter's Scoop, pages 1310-1329, 7 entries, 0 explicit references.
+- `gof-ch25`: Harry Potter and the Goblet of Fire, Chapter Twenty-Five - The Egg and the Eye, pages 1330-1347, 7 entries, 0 explicit references.
+- `gof-ch26`: Harry Potter and the Goblet of Fire, Chapter Twenty-Six - The Second Task, pages 1348-1371, 7 entries, 0 explicit references.
+- `gof-ch27`: Harry Potter and the Goblet of Fire, Chapter Twenty-Seven - Padfoot Returns, pages 1372-1393, 7 entries, 0 explicit references.
+- `gof-ch28`: Harry Potter and the Goblet of Fire, Chapter Twenty-Eight - The Madness of Mr. Crouch, pages 1394-1418, 7 entries, 1 explicit references.
+- `gof-ch29`: Harry Potter and the Goblet of Fire, Chapter Twenty-Nine - The Dream, pages 1419-1433, 7 entries, 0 explicit references.
+- `gof-ch30`: Harry Potter and the Goblet of Fire, Chapter Thirty - The Pensieve, pages 1434-1453, 7 entries, 0 explicit references.
+- `gof-ch31`: Harry Potter and the Goblet of Fire, Chapter Thirty-One - The Third Task, pages 1454-1478, 7 entries, 0 explicit references.
+- `gof-ch32`: Harry Potter and the Goblet of Fire, Chapter Thirty-Two - Flesh, Blood, and Bone, pages 1479-1485, 2 entries, 0 explicit references.
+- `gof-ch33`: Harry Potter and the Goblet of Fire, Chapter Thirty-Three - The Death Eaters, pages 1486-1497, 5 entries, 0 explicit references.
+- `gof-ch34`: Harry Potter and the Goblet of Fire, Chapter Thirty-Four - Priori Incantatem, pages 1498-1506, 5 entries, 0 explicit references.
+- `gof-ch35`: Harry Potter and the Goblet of Fire, Chapter Thirty-Five - Veritaserum, pages 1507-1524, 7 entries, 0 explicit references.
+- `gof-ch36`: Harry Potter and the Goblet of Fire, Chapter Thirty-Six - The Parting of the Ways, pages 1525-1544, 6 entries, 0 explicit references.
+- `gof-ch37`: Harry Potter and the Goblet of Fire, Chapter Thirty-Seven - The Beginning, pages 1545-1560, 7 entries, 0 explicit references.
+- `ootp-ch01`: Harry Potter and the Order of the Phoenix, Chapter One - Dudley Demented, pages 1570-1587, 5 entries, 0 explicit references.
+- `ootp-ch02`: Harry Potter and the Order of the Phoenix, Chapter Two - A Peck of Owls, pages 1588-1608, 6 entries, 0 explicit references.
+- `ootp-ch03`: Harry Potter and the Order of the Phoenix, Chapter Three - The Advance Guard, pages 1609-1625, 6 entries, 0 explicit references.
+- `ootp-ch04`: Harry Potter and the Order of the Phoenix, Chapter Four - Number Twelve, Grimmauld Place, pages 1626-1644, 7 entries, 0 explicit references.
+- `ootp-ch05`: Harry Potter and the Order of the Phoenix, Chapter Five - The Order of the Phoenix, pages 1645-1662, 7 entries, 0 explicit references.
+- `ootp-ch06`: Harry Potter and the Order of the Phoenix, Chapter Six - The Noble and Most Ancient House of Black, pages 1663-1684, 7 entries, 0 explicit references.
+- `ootp-ch07`: Harry Potter and the Order of the Phoenix, Chapter Seven - The Ministry of Magic, pages 1685-1699, 7 entries, 0 explicit references.
+- `ootp-ch08`: Harry Potter and the Order of the Phoenix, Chapter Eight - The Hearing, pages 1700-1713, 7 entries, 0 explicit references.
+- `ootp-ch09`: Harry Potter and the Order of the Phoenix, Chapter Nine - The Woes of Mrs. Weasley, pages 1714-1740, 7 entries, 0 explicit references.
+- `ootp-ch10`: Harry Potter and the Order of the Phoenix, Chapter Ten - Luna Lovegood, pages 1741-1760, 7 entries, 0 explicit references.
+- `ootp-ch11`: Harry Potter and the Order of the Phoenix, Chapter Eleven - The Sorting Hat's New Song, pages 1761-1780, 7 entries, 0 explicit references.
+- `ootp-ch12`: Harry Potter and the Order of the Phoenix, Chapter Twelve - Professor Umbridge, pages 1781-1809, 7 entries, 0 explicit references.
+- `ootp-ch13`: Harry Potter and the Order of the Phoenix, Chapter Thirteen - Detention with Dolores, pages 1810-1837, 7 entries, 0 explicit references.
+- `ootp-ch14`: Harry Potter and the Order of the Phoenix, Chapter Fourteen - Percy and Padfoot, pages 1838-1863, 7 entries, 0 explicit references.
+- `ootp-ch15`: Harry Potter and the Order of the Phoenix, Chapter Fifteen - The Hogwarts High Inquisitor, pages 1864-1886, 7 entries, 0 explicit references.
+- `ootp-ch16`: Harry Potter and the Order of the Phoenix, Chapter Sixteen - In the Hog's Head, pages 1887-1905, 6 entries, 0 explicit references.
+- `ootp-ch17`: Harry Potter and the Order of the Phoenix, Chapter Seventeen - Educational Decree Number Twenty-Four, pages 1906-1928, 7 entries, 1 explicit references.
+- `ootp-ch18`: Harry Potter and the Order of the Phoenix, Chapter Eighteen - Dumbledore's Army, pages 1929-1951, 7 entries, 0 explicit references.
+- `ootp-ch19`: Harry Potter and the Order of the Phoenix, Chapter Nineteen - The Lion and the Serpent, pages 1952-1973, 7 entries, 0 explicit references.
+- `ootp-ch20`: Harry Potter and the Order of the Phoenix, Chapter Twenty - Hagrid's Tale, pages 1974-1993, 7 entries, 0 explicit references.
+- `ootp-ch21`: Harry Potter and the Order of the Phoenix, Chapter Twenty-One - The Eye of the Snake, pages 1994-2017, 7 entries, 0 explicit references.
+- `ootp-ch22`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Two - St. Mungo's Hospital for Magical Maladies and Injuries, pages 2018-2042, 7 entries, 0 explicit references.
+- `ootp-ch23`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Three - Christmas on the Closed Ward, pages 2043-2065, 7 entries, 1 explicit references.
+- `ootp-ch24`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Four - Occlumency, pages 2066-2091, 7 entries, 0 explicit references.
+- `ootp-ch25`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Five - The Beetle at Bay, pages 2092-2117, 7 entries, 0 explicit references.
+- `ootp-ch26`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Six - Seen and Unforeseen, pages 2118-2144, 7 entries, 0 explicit references.
+- `ootp-ch27`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Seven - The Centaur and the Sneak, pages 2145-2168, 7 entries, 0 explicit references.
+- `ootp-ch28`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Eight - Snape's Worst Memory, pages 2169-2194, 7 entries, 0 explicit references.
+- `ootp-ch29`: Harry Potter and the Order of the Phoenix, Chapter Twenty-Nine - Career Advice, pages 2195-2218, 7 entries, 0 explicit references.
+- `ootp-ch30`: Harry Potter and the Order of the Phoenix, Chapter Thirty - Grawp, pages 2219-2244, 7 entries, 0 explicit references.
+- `ootp-ch31`: Harry Potter and the Order of the Phoenix, Chapter Thirty-One - O.W.L.s, pages 2245-2268, 7 entries, 0 explicit references.
+- `ootp-ch32`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Two - Out of the Fire, pages 2269-2289, 7 entries, 0 explicit references.
+- `ootp-ch33`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Three - Fight and Flight, pages 2290-2302, 7 entries, 0 explicit references.
+- `ootp-ch34`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Four - The Department of Mysteries, pages 2303-2319, 7 entries, 0 explicit references.
+- `ootp-ch35`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Five - Beyond the Veil, pages 2320-2344, 7 entries, 0 explicit references.
+- `ootp-ch36`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Six - The Only One He Ever Feared, pages 2345-2357, 7 entries, 0 explicit references.
+- `ootp-ch37`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Seven - The Lost Prophecy, pages 2358-2381, 7 entries, 0 explicit references.
+- `ootp-ch38`: Harry Potter and the Order of the Phoenix, Chapter Thirty-Eight - The Second War Begins, pages 2382-2406, 7 entries, 0 explicit references.
+- `hbp-ch01`: Harry Potter and the Half-Blood Prince, Chapter One - The Other Minister, pages 2415-2430, 7 entries, 0 explicit references.
+- `hbp-ch02`: Harry Potter and the Half-Blood Prince, Chapter Two - Spinner's End, pages 2431-2446, 6 entries, 0 explicit references.
+- `hbp-ch03`: Harry Potter and the Half-Blood Prince, Chapter Three - Will and Won't, pages 2447-2461, 7 entries, 0 explicit references.
+- `hbp-ch04`: Harry Potter and the Half-Blood Prince, Chapter Four - Horace Slughorn, pages 2462-2481, 7 entries, 0 explicit references.
+- `hbp-ch05`: Harry Potter and the Half-Blood Prince, Chapter Five - An Excess of Phlegm, pages 2482-2502, 7 entries, 0 explicit references.
+- `hbp-ch06`: Harry Potter and the Half-Blood Prince, Chapter Six - Draco's Detour, pages 2503-2522, 7 entries, 0 explicit references.
+- `hbp-ch07`: Harry Potter and the Half-Blood Prince, Chapter Seven - The Slug Club, pages 2523-2544, 7 entries, 0 explicit references.
+- `hbp-ch08`: Harry Potter and the Half-Blood Prince, Chapter Eight - Snape Victorious, pages 2545-2558, 7 entries, 0 explicit references.
+- `hbp-ch09`: Harry Potter and the Half-Blood Prince, Chapter Nine - The Half-Blood Prince, pages 2559-2577, 7 entries, 0 explicit references.
+- `hbp-ch10`: Harry Potter and the Half-Blood Prince, Chapter Ten - The House of Gaunt, pages 2578-2596, 7 entries, 0 explicit references.
+- `hbp-ch11`: Harry Potter and the Half-Blood Prince, Chapter Eleven - Hermione's Helping Hand, pages 2597-2612, 7 entries, 0 explicit references.
+- `hbp-ch12`: Harry Potter and the Half-Blood Prince, Chapter Twelve - Silver and Opals, pages 2613-2630, 7 entries, 0 explicit references.
+- `hbp-ch13`: Harry Potter and the Half-Blood Prince, Chapter Thirteen - The Secret Riddle, pages 2631-2648, 7 entries, 0 explicit references.
+- `hbp-ch14`: Harry Potter and the Half-Blood Prince, Chapter Fourteen - Felix Felicis, pages 2649-2668, 7 entries, 0 explicit references.
+- `hbp-ch15`: Harry Potter and the Half-Blood Prince, Chapter Fifteen - The Unbreakable Vow, pages 2669-2687, 7 entries, 0 explicit references.
+- `hbp-ch16`: Harry Potter and the Half-Blood Prince, Chapter Sixteen - A Very Frosty Christmas, pages 2688-2708, 7 entries, 0 explicit references.
+- `hbp-ch17`: Harry Potter and the Half-Blood Prince, Chapter Seventeen - A Sluggish Memory, pages 2709-2728, 7 entries, 0 explicit references.
+- `hbp-ch18`: Harry Potter and the Half-Blood Prince, Chapter Eighteen - Birthday Surprises, pages 2729-2749, 7 entries, 0 explicit references.
+- `hbp-ch19`: Harry Potter and the Half-Blood Prince, Chapter Nineteen - Elf Tails, pages 2750-2769, 7 entries, 0 explicit references.
+- `hbp-ch20`: Harry Potter and the Half-Blood Prince, Chapter Twenty - Lord Voldemort's Request, pages 2770-2790, 7 entries, 0 explicit references.
+- `hbp-ch21`: Harry Potter and the Half-Blood Prince, Chapter Twenty-One - The Unknowable Room, pages 2791-2808, 7 entries, 0 explicit references.
+- `hbp-ch22`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Two - After the Burial, pages 2809-2828, 7 entries, 0 explicit references.
+- `hbp-ch23`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Three - Horcruxes, pages 2829-2846, 7 entries, 0 explicit references.
+- `hbp-ch24`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Four - Sectumsempra, pages 2847-2865, 7 entries, 0 explicit references.
+- `hbp-ch25`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Five - The Seer Overheard, pages 2866-2883, 7 entries, 0 explicit references.
+- `hbp-ch26`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Six - The Cave, pages 2884-2904, 7 entries, 0 explicit references.
+- `hbp-ch27`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Seven - The Lightning-Struck Tower, pages 2905-2919, 7 entries, 0 explicit references.
+- `hbp-ch28`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Eight - Flight of the Prince, pages 2920-2930, 7 entries, 0 explicit references.
+- `hbp-ch29`: Harry Potter and the Half-Blood Prince, Chapter Twenty-Nine - The Phoenix Lament, pages 2931-2948, 7 entries, 0 explicit references.
+- `hbp-ch30`: Harry Potter and the Half-Blood Prince, Chapter Thirty - The White Tomb, pages 2949-2964, 7 entries, 0 explicit references.
+- `dh-ch01`: Harry Potter and the Deathly Hallows, Chapter One - The Dark Lord Ascending, pages 2976-2985, 6 entries, 0 explicit references.
+- `dh-ch02`: Harry Potter and the Deathly Hallows, Chapter Two - In Memoriam, pages 2986-2997, 6 entries, 0 explicit references.
+- `dh-ch03`: Harry Potter and the Deathly Hallows, Chapter Three - The Dursleys Departing, pages 2998-3009, 4 entries, 0 explicit references.
+- `dh-ch04`: Harry Potter and the Deathly Hallows, Chapter Four - The Seven Potters, pages 3010-3026, 6 entries, 0 explicit references.
+- `dh-ch05`: Harry Potter and the Deathly Hallows, Chapter Five - Fallen Warrior, pages 3027-3046, 7 entries, 0 explicit references.
+- `dh-ch06`: Harry Potter and the Deathly Hallows, Chapter Six - The Ghoul in Pajamas, pages 3047-3067, 7 entries, 1 explicit references.
+- `dh-ch07`: Harry Potter and the Deathly Hallows, Chapter Seven - The Will of Albus Dumbledore, pages 3068-3089, 7 entries, 0 explicit references.
+- `dh-ch08`: Harry Potter and the Deathly Hallows, Chapter Eight - The Wedding, pages 3090-3109, 7 entries, 0 explicit references.
+- `dh-ch09`: Harry Potter and the Deathly Hallows, Chapter Nine - A Place to Hide, pages 3110-3122, 7 entries, 0 explicit references.
+- `dh-ch10`: Harry Potter and the Deathly Hallows, Chapter Ten - Kreacher's Tale, pages 3123-3143, 7 entries, 0 explicit references.
+- `dh-ch11`: Harry Potter and the Deathly Hallows, Chapter Eleven - The Bribe, pages 3144-3162, 7 entries, 0 explicit references.
+- `dh-ch12`: Harry Potter and the Deathly Hallows, Chapter Twelve - Magic Is Might, pages 3163-3182, 7 entries, 0 explicit references.
+- `dh-ch13`: Harry Potter and the Deathly Hallows, Chapter Thirteen - The Muggle-born Registration Commission, pages 3183-3201, 7 entries, 0 explicit references.
+- `dh-ch14`: Harry Potter and the Deathly Hallows, Chapter Fourteen - The Thief, pages 3202-3215, 7 entries, 0 explicit references.
+- `dh-ch15`: Harry Potter and the Deathly Hallows, Chapter Fifteen - The Goblin's Revenge, pages 3216-3239, 7 entries, 0 explicit references.
+- `dh-ch16`: Harry Potter and the Deathly Hallows, Chapter Sixteen - Godric's Hollow, pages 3240-3255, 7 entries, 0 explicit references.
+- `dh-ch17`: Harry Potter and the Deathly Hallows, Chapter Seventeen - Bathilda's Secret, pages 3256-3273, 7 entries, 0 explicit references.
+- `dh-ch18`: Harry Potter and the Deathly Hallows, Chapter Eighteen - The Life and Lies of Albus Dumbledore, pages 3274-3284, 7 entries, 0 explicit references.
+- `dh-ch19`: Harry Potter and the Deathly Hallows, Chapter Nineteen - The Silver Doe, pages 3285-3305, 7 entries, 0 explicit references.
+- `dh-ch20`: Harry Potter and the Deathly Hallows, Chapter Twenty - Xenophilius Lovegood, pages 3306-3320, 7 entries, 0 explicit references.
+- `dh-ch21`: Harry Potter and the Deathly Hallows, Chapter Twenty-One - The Tale of the Three Brothers, pages 3321-3336, 7 entries, 0 explicit references.
+- `dh-ch22`: Harry Potter and the Deathly Hallows, Chapter Twenty-Two - The Deathly Hallows, pages 3337-3355, 7 entries, 0 explicit references.
+- `dh-ch23`: Harry Potter and the Deathly Hallows, Chapter Twenty-Three - Malfoy Manor, pages 3356-3382, 7 entries, 0 explicit references.
+- `dh-ch24`: Harry Potter and the Deathly Hallows, Chapter Twenty-Four - The Wandmaker, pages 3383-3404, 7 entries, 0 explicit references.
+- `dh-ch25`: Harry Potter and the Deathly Hallows, Chapter Twenty-Five - Shell Cottage, pages 3405-3419, 7 entries, 0 explicit references.
+- `dh-ch26`: Harry Potter and the Deathly Hallows, Chapter Twenty-Six - Gringotts, pages 3420-3440, 7 entries, 0 explicit references.
+- `dh-ch27`: Harry Potter and the Deathly Hallows, Chapter Twenty-Seven - The Final Hiding Place, pages 3441-3448, 6 entries, 0 explicit references.
+- `dh-ch28`: Harry Potter and the Deathly Hallows, Chapter Twenty-Eight - The Missing Mirror, pages 3449-3462, 7 entries, 0 explicit references.
+- `dh-ch29`: Harry Potter and the Deathly Hallows, Chapter Twenty-Nine - The Lost Diadem, pages 3463-3477, 7 entries, 0 explicit references.
+- `dh-ch30`: Harry Potter and the Deathly Hallows, Chapter Thirty - The Sacking of Severus Snape, pages 3478-3494, 7 entries, 0 explicit references.
+- `dh-ch31`: Harry Potter and the Deathly Hallows, Chapter Thirty-One - The Battle of Hogwarts, pages 3495-3520, 7 entries, 0 explicit references.
+- `dh-ch32`: Harry Potter and the Deathly Hallows, Chapter Thirty-Two - The Elder Wand, pages 3521-3537, 7 entries, 0 explicit references.
+- `dh-ch33`: Harry Potter and the Deathly Hallows, Chapter Thirty-Three - The Prince's Tale, pages 3538-3565, 7 entries, 0 explicit references.
+- `dh-ch34`: Harry Potter and the Deathly Hallows, Chapter Thirty-Four - The Forest Again, pages 3566-3577, 7 entries, 0 explicit references.
+- `dh-ch35`: Harry Potter and the Deathly Hallows, Chapter Thirty-Five - King's Cross, pages 3578-3593, 7 entries, 0 explicit references.
+- `dh-ch36`: Harry Potter and the Deathly Hallows, Chapter Thirty-Six - The Flaw in the Plan, pages 3594-3615, 7 entries, 0 explicit references.
+- `beedle-ch00`: The Tales of Beedle the Bard, Front Matter and Introduction, pages 1-8, 5 entries, 0 explicit references.
+- `beedle-ch01`: The Tales of Beedle the Bard, The Wizard and the Hopping Pot and Commentary, pages 9-18, 4 entries, 0 explicit references.
+- `beedle-ch02`: The Tales of Beedle the Bard, The Fountain of Fair Fortune and Commentary, pages 19-30, 9 entries, 0 explicit references.
+- `beedle-ch03`: The Tales of Beedle the Bard, The Warlock's Hairy Heart and Commentary, pages 30-39, 1 entries, 0 explicit references.
+- `beedle-ch04`: The Tales of Beedle the Bard, Babbitty Rabbitty and Her Cackling Stump and Commentary, pages 39-52, 6 entries, 0 explicit references.
+- `beedle-ch05`: The Tales of Beedle the Bard, The Tale of the Three Brothers and Commentary, pages 52-62, 4 entries, 0 explicit references.
+- `beedle-ch06`: The Tales of Beedle the Bard, Back Matter, pages 63-65, 0 entries, 0 explicit references.
+- `fb-ch00`: Fantastic Beasts and Where to Find Them, Front Matter, Contents, Author, and Foreword, pages 1-8, 6 entries, 0 explicit references.
+- `fb-ch01`: Fantastic Beasts and Where to Find Them, About This Book and What Is a Beast?, pages 9-13, 7 entries, 0 explicit references.
+- `fb-ch02`: Fantastic Beasts and Where to Find Them, A Brief History of Muggle Awareness of Fantastic Beasts, pages 14-15, 7 entries, 0 explicit references.
+- `fb-ch03`: Fantastic Beasts and Where to Find Them, Magical Beasts in Hiding, pages 16-20, 7 entries, 0 explicit references.
+- `fb-ch04`: Fantastic Beasts and Where to Find Them, Why Magizoology Matters and Ministry Classifications, pages 21-22, 4 entries, 0 explicit references.
+- `fb-ch05`: Fantastic Beasts and Where to Find Them, A-C Bestiary Entries, pages 23-30, 7 entries, 0 explicit references.
+- `fb-ch06`: Fantastic Beasts and Where to Find Them, D-H Bestiary Entries, pages 31-43, 7 entries, 0 explicit references.
+- `fb-ch07`: Fantastic Beasts and Where to Find Them, I-Q Bestiary Entries, pages 44-56, 7 entries, 0 explicit references.
+- `fb-ch08`: Fantastic Beasts and Where to Find Them, R-Z Bestiary Entries, pages 57-64, 7 entries, 0 explicit references.
+- `fb-ch09`: Fantastic Beasts and Where to Find Them, Back Matter, pages 65-65, 2 entries, 0 explicit references.
+- `qtta-ch00`: Quidditch Through the Ages, Front Matter and Foreword, pages 1-8, 5 entries, 0 explicit references.
+- `qtta-ch01`: Quidditch Through the Ages, Chapter One - The Evolution of the Flying Broomstick, pages 9-11, 2 entries, 0 explicit references.
+- `qtta-ch02`: Quidditch Through the Ages, Chapter Two - Ancient Broom Games, pages 11-14, 1 entries, 0 explicit references.
+- `qtta-ch03`: Quidditch Through the Ages, Chapter Three - The Game From Queerditch Marsh, pages 15-18, 2 entries, 0 explicit references.
+- `qtta-ch04`: Quidditch Through the Ages, Chapter Four - The Arrival of the Golden Snitch, pages 18-23, 3 entries, 0 explicit references.
+- `qtta-ch05`: Quidditch Through the Ages, Chapter Five - Anti-Muggle Precautions, pages 23-25, 2 entries, 0 explicit references.
+- `qtta-ch06`: Quidditch Through the Ages, Chapter Six - Changes in Quidditch Since the Fourteenth Century, pages 25-39, 10 entries, 0 explicit references.
+- `qtta-ch07`: Quidditch Through the Ages, Chapter Seven - Quidditch Teams of Britain and Ireland, pages 39-46, 1 entries, 0 explicit references.
+- `qtta-ch08`: Quidditch Through the Ages, Chapter Eight - The Spread of Quidditch Worldwide, pages 46-55, 1 entries, 0 explicit references.
+- `qtta-ch09`: Quidditch Through the Ages, Chapter Nine - The Development of the Racing Broom, pages 55-59, 7 entries, 0 explicit references.
+- `qtta-ch10`: Quidditch Through the Ages, Chapter Ten - Quidditch Today, pages 59-64, 2 entries, 0 explicit references.
+- `qtta-ch11`: Quidditch Through the Ages, Back Cover, pages 65-65, 1 entries, 0 explicit references.
+- `B01`: Accio Quote, https://www.accio-quote.org/articles/2000/0200-scholastic-chat.htm, 6 entries, 0 explicit references.
+- `B02`: Accio Quote, https://www.accio-quote.org/articles/2000/1000-scholastic-chat.htm, 5 entries, 0 explicit references.
+- `B03`: Accio Quote, https://www.accio-quote.org/articles/2000/1000-aol-chat.htm, 2 entries, 0 explicit references.
+- `B04`: Accio Quote, https://www.accio-quote.org/articles/2004/0304-wbd.htm, 5 entries, 0 explicit references.
+- `B05`: Accio Quote, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-1.htm, 2 entries, 0 explicit references.
+- `B06`: Accio Quote, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-2.htm, 4 entries, 0 explicit references.
+- `B07`: Accio Quote, https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-3.htm, 5 entries, 1 explicit references.
+- `B08`: Accio Quote, https://www.accio-quote.org/articles/2005/0705-edinburgh-ITVcubreporters.htm, 4 entries, 0 explicit references.
+- `B09`: Accio Quote, https://www.accio-quote.org/articles/2007/0730-bloomsbury-chat.html, 7 entries, 0 explicit references.
+- `B10`: Accio Quote, https://www.accio-quote.org/articles/2007/1217-pottercast-anelli.html, 3 entries, 0 explicit references.
+- `B11`: Accio Quote, https://www.accio-quote.org/articles/1997/0697-herald-johnstone.html, 3 entries, 0 explicit references.
+- `B12`: Accio Quote, https://www.accio-quote.org/articles/1999/0299-guardian-carey.htm, 3 entries, 0 explicit references.
+- `B13`: Accio Quote, https://www.accio-quote.org/articles/1999/0399-salon-weir.htm, 3 entries, 0 explicit references.
+- `B14`: Accio Quote, https://www.accio-quote.org/articles/1999/0399-barnesandnoble.html, 3 entries, 0 explicit references.
+- `B15`: Accio Quote, https://www.accio-quote.org/articles/1999/0999-barnesnoble-staff.htm, 1 entries, 0 explicit references.
+- `B16`: Accio Quote, https://www.accio-quote.org/articles/1999/1099-bostonglobe-loer.html, 1 entries, 0 explicit references.
+- `B17`: Accio Quote, https://www.accio-quote.org/articles/1999/1099-connectiontransc2.htm, 2 entries, 0 explicit references.
+- `B18`: Accio Quote, https://www.accio-quote.org/articles/1999/1299-wamu-rehm.htm, 3 entries, 0 explicit references.
+- `B19`: Accio Quote, https://www.accio-quote.org/articles/2000/0700-swns-alfie.htm, 2 entries, 0 explicit references.
+- `B20`: Accio Quote, https://www.accio-quote.org/articles/2000/1000-livechat-barnesnoble.html, 3 entries, 0 explicit references.
+- `B21`: Accio Quote, https://www.accio-quote.org/articles/2001/0301-raincoast-interview.html, 1 entries, 0 explicit references.
+- `B22`: Accio Quote, https://www.accio-quote.org/articles/2001/0301-bluepeter.htm, 3 entries, 0 explicit references.
+- `B23`: Accio Quote, https://www.accio-quote.org/articles/2001/0301-bbc-rednose.htm, 2 entries, 0 explicit references.
+- `B24`: Accio Quote, https://www.accio-quote.org/articles/2001/1201-bbc-hpandme.htm, 3 entries, 0 explicit references.
+- `B25`: Accio Quote, https://www.accio-quote.org/articles/2005/1205-bbc-fry.html, 3 entries, 0 explicit references.
+- `B26`: Accio Quote, https://www.accio-quote.org/articles/2006/0802-radiocityreading2.html, 2 entries, 0 explicit references.
+- `F01`: HarryPotter.com, https://www.harrypotter.com/features/hogwarts-classes-that-you-might-have-forgotten-about, 2 entries, 0 explicit references.
+- `A01`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/chamber-of-secrets, 3 entries, 0 explicit references.
+- `A02`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-sorting-hat, 3 entries, 0 explicit references.
+- `A03`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-quill-of-acceptance-and-the-book-of-admittance, 6 entries, 0 explicit references.
+- `A04`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-hogwarts-express, 5 entries, 0 explicit references.
+- `A05`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-portraits, 4 entries, 0 explicit references.
+- `A06`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-ghosts, 7 entries, 0 explicit references.
+- `A07`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/hufflepuff-common-room, 5 entries, 0 explicit references.
+- `A08`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-sword-of-gryffindor, 5 entries, 0 explicit references.
+- `A09`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-great-lake, 8 entries, 0 explicit references.
+- `A10`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/remus-lupin, 4 entries, 0 explicit references.
+- `A11`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-marauders-map, 4 entries, 0 explicit references.
+- `A12`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/professor-mcgonagall, 6 entries, 0 explicit references.
+- `A13`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/professor-kettleburn, 3 entries, 0 explicit references.
+- `A14`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-mirror-of-erised, 5 entries, 0 explicit references.
+- `A15`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-original-forty, 3 entries, 0 explicit references.
+- `A16`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/peeves, 6 entries, 0 explicit references.
+- `A17`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/pensieve, 4 entries, 0 explicit references.
+- `A18`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/hogwarts-school-subjects, 4 entries, 0 explicit references.
+- `A19`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/kings-cross-station, 3 entries, 0 explicit references.
+- `A20`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/hatstall, 5 entries, 0 explicit references.
+- `A21`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/toads, 3 entries, 0 explicit references.
+- `A22`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/familiars, 5 entries, 0 explicit references.
+- `A23`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/owls, 4 entries, 0 explicit references.
+- `A24`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-floo-network, 5 entries, 0 explicit references.
+- `A25`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/time-turner, 7 entries, 0 explicit references.
+- `A26`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/colours, 5 entries, 0 explicit references.
+- `A27`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/werewolves, 5 entries, 0 explicit references.
+- `A28`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/wizarding-schools, 4 entries, 0 explicit references.
+- `A29`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/beauxbatons-academy-of-magic, 5 entries, 0 explicit references.
+- `A30`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/ilvermorny, 3 entries, 0 explicit references.
+- `A31`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/professor-quirrell, 3 entries, 0 explicit references.
+- `A32`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/gilderoy-lockhart, 7 entries, 0 explicit references.
+- `A33`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/sybill-trelawney, 3 entries, 0 explicit references.
+- `A34`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/dolores-umbridge, 4 entries, 0 explicit references.
+- `A35`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/draco-malfoy, 2 entries, 0 explicit references.
+- `A36`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/scottish-rugby, 2 entries, 0 explicit references.
+- `A37`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/extension-charms, 1 entries, 0 explicit references.
+- `A38`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/the-potter-family, 5 entries, 0 explicit references.
+- `A39`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/potions, 4 entries, 0 explicit references.
+- `A40`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/cauldrons, 4 entries, 0 explicit references.
+- `A41`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/mr-ollivander, 3 entries, 0 explicit references.
+- `A42`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/wand-woods, 5 entries, 0 explicit references.
+- `A43`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/fourteenth-century-to-seventeenth-century-en, 4 entries, 0 explicit references.
+- `A44`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/seventeenth-century-and-beyond-en, 3 entries, 0 explicit references.
+- `A45`: HarryPotter.com, https://www.harrypotter.com/writing-by-jk-rowling/technology, 4 entries, 0 explicit references.

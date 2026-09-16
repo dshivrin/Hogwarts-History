@@ -1,0 +1,393 @@
+source_unit:
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Fountain of Fair Fortune and Commentary
+  chapter_start_pdf_page: 19
+  chapter_end_pdf_page: 30
+  boundary_confidence: high
+  boundary_notes: The tale occupies PDF pages 19-26 and Dumbledore's commentary continues from page 26 through the left side of page 30; The Warlock's Hairy Heart begins on the right side of page 30.
+  processed_date: '2026-08-15'
+  processor_notes: All pages were rendered and checked against the embedded text; page 30 is a shared transition page and entries here use only the Fountain commentary on its left side.
+entries:
+- id: beedle-ch02-001
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Fountain of Fair Fortune and Commentary
+  chapter_start_pdf_page: 19
+  chapter_end_pdf_page: 30
+  pdf_page: 26
+  printed_page: 35
+  extracted_text_lines: PDF text lines 967-1002
+  text_anchor:
+    start_phrase: the sole attempt to introduce a Christmas pantomime
+    end_phrase: adaptation of this well-beloved children's tale
+    local_occurrence_note: Opening of Dumbledore's commentary after the tale.
+  nearby_context: Dumbledore identifies Professor Herbert Beery as the Hogwarts Herbology master who proposed the production and later left Hogwarts to teach at W.A.D.A.
+  match_terms:
+  - Christmas pantomime
+  - Hogwarts
+  - Herbert Beery
+  - Herbology
+  - Yuletide
+  quote_excerpt_short: sole attempt to introduce a Christmas pantomime
+  source_note: Hogwarts's only attempted Christmas pantomime began when Herbology master Herbert Beery proposed a Yuletide adaptation for staff and students; he later left for W.A.D.A.
+  reference_type: institutional_custom
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - christmas-pantomime
+  - herbert-beery
+  - herbology
+  - yuletide
+  - school-entertainment
+  - staff-and-students
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: The Fountain of Fair Fortune Pantomime and Ban
+  reason_for_placement: The passage records a historical attempt to add dramatic performance to Hogwarts's Christmas celebrations.
+  relevance_to_hogwarts_a_history: It documents an exceptional staff-led festive event and the tale's popularity within the school.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing Christmas entries describe feasts and decorations but not a school pantomime.
+  confidence: high
+  limitations: The commentary does not give the production's calendar year.
+- id: beedle-ch02-002
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Fountain of Fair Fortune and Commentary
+  chapter_start_pdf_page: 19
+  chapter_end_pdf_page: 30
+  pdf_page: 27
+  printed_page: 36
+  extracted_text_lines: PDF text lines 1004-1025
+  text_anchor:
+    start_phrase: I was then a young Transfiguration teacher
+    end_phrase: sank slowly into the stage and out of sight
+    local_occurrence_note: Dumbledore's account of his assigned stage effects.
+  nearby_context: Beery assigned Dumbledore to create a functioning fountain and miniature moving hill for the production.
+  match_terms:
+  - young Transfiguration teacher
+  - Dumbledore
+  - special effects
+  - fountain
+  - miniature hill
+  quote_excerpt_short: I was then a young Transfiguration teacher
+  source_note: Before becoming headmaster, Dumbledore served as a young Hogwarts Transfiguration teacher and created functional magical stage effects for Beery's production.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - albus-dumbledore
+  - transfiguration-teacher
+  - hogwarts-staff
+  - stage-magic
+  - school-entertainment
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: The Fountain of Fair Fortune Pantomime and Ban
+  reason_for_placement: The recollection ties Dumbledore's early teaching career to a dated-by-headmaster school tradition.
+  relevance_to_hogwarts_a_history: It adds a concrete pre-headmaster staff role and example of teacher collaboration outside ordinary lessons.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: dh-ch35-006
+    notes: The novel confirms Dumbledore chose Hogwarts teaching; this commentary uniquely identifies Transfiguration and his junior role in the production.
+  confidence: high
+  limitations: No appointment date or teaching tenure is supplied.
+- id: beedle-ch02-003
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Fountain of Fair Fortune and Commentary
+  chapter_start_pdf_page: 19
+  chapter_end_pdf_page: 30
+  pdf_page: 27
+  printed_page: 37
+  extracted_text_lines: PDF text lines 1022-1039
+  text_anchor:
+    start_phrase: our Care of Magical Creatures teacher, Professor Silvanus Kettleburn
+    end_phrase: an Engorgement Charm upon it
+    local_occurrence_note: Description of the creature used to portray the story's worm.
+  nearby_context: Dumbledore says Kettleburn supplied an Ashwinder enlarged for the stage.
+  match_terms:
+  - Silvanus Kettleburn
+  - Care of Magical Creatures
+  - Ashwinder
+  - Engorgement Charm
+  quote_excerpt_short: our Care of Magical Creatures teacher, Professor Silvanus Kettleburn
+  source_note: Silvanus Kettleburn was Hogwarts's Care of Magical Creatures teacher and supplied an Ashwinder enlarged by charm to play the pantomime's worm.
+  reference_type: curriculum_or_subject
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - silvanus-kettleburn
+  - care-of-magical-creatures
+  - ashwinder
+  - engorgement-charm
+  - hogwarts-staff
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: The Fountain of Fair Fortune Pantomime and Ban
+  reason_for_placement: The source identifies a historical teacher and the creature-based stage contribution that triggered the event.
+  relevance_to_hogwarts_a_history: It extends the staff chronology for Care of Magical Creatures and documents unusually hazardous extracurricular creature use.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing Care of Magical Creatures entries do not identify Kettleburn's subject tenure or this production.
+  confidence: high
+  limitations: The source does not explain how the Ashwinder was transported or contained before the performance.
+- id: beedle-ch02-004
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Fountain of Fair Fortune and Commentary
+  chapter_start_pdf_page: 19
+  chapter_end_pdf_page: 30
+  pdf_page: 28
+  printed_page: 38
+  extracted_text_lines: PDF text lines 1043-1064
+  text_anchor:
+    start_phrase: exploded in a shower of hot sparks and dust
+    end_phrase: the staff had to evacuate the Hall
+    local_occurrence_note: Dumbledore's description of the performance collapse.
+  nearby_context: The enlarged Ashwinder exploded, its eggs ignited the floorboards, and two student performers dueled across the stage.
+  match_terms:
+  - Great Hall
+  - Ashwinder
+  - fire
+  - duel
+  - evacuation
+  quote_excerpt_short: the staff had to evacuate the Hall
+  source_note: The pantomime filled the Great Hall with smoke and burning scenery; a student duel caught Beery in crossfire and forced staff evacuation.
+  reference_type: direct_observed_setting
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - great-hall
+  - school-evacuation
+  - student-duel
+  - stage-fire
+  - ashwinder
+  - staff-safety
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: The Fountain of Fair Fortune Pantomime and Ban
+  reason_for_placement: The disaster explains why the proposed festive tradition ended after one attempt.
+  relevance_to_hogwarts_a_history: It documents an unusual historical emergency in the Great Hall and an early example of staff evacuation.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing Great Hall and evacuation entries concern later ceremonies or wartime crises, not this event.
+  confidence: high
+  limitations: Dumbledore writes from memory and does not name the student performers.
+- id: beedle-ch02-005
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Fountain of Fair Fortune and Commentary
+  chapter_start_pdf_page: 19
+  chapter_end_pdf_page: 30
+  pdf_page: 28
+  printed_page: 38-39
+  extracted_text_lines: PDF text lines 1065-1083
+  text_anchor:
+    start_phrase: The night's entertainment concluded with a packed hospital wing
+    end_phrase: imposed a blanket ban on future pantomimes
+    local_occurrence_note: Closing aftermath of the failed production.
+  nearby_context: The Hall smelled of smoke for months, Beery's head was enlarged, Kettleburn went on probation, and Headmaster Dippet banned future pantomimes.
+  match_terms:
+  - hospital wing
+  - Headmaster Armando Dippet
+  - probation
+  - pantomime ban
+  - Great Hall
+  quote_excerpt_short: imposed a blanket ban on future pantomimes
+  source_note: The disaster packed the hospital wing and led Headmaster Armando Dippet to impose a schoolwide ban on future pantomimes, which Dumbledore says persisted.
+  reference_type: school_rule_or_policy
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - armando-dippet
+  - hospital-wing
+  - school-ban
+  - pantomime
+  - headmaster-authority
+  - great-hall
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: The Fountain of Fair Fortune Pantomime and Ban
+  reason_for_placement: The incident created a lasting school tradition of avoiding theatrical pantomime.
+  relevance_to_hogwarts_a_history: It supplies a clear chain from festive experiment to injury, disciplinary response, and enduring custom.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing Dippet entries concern the Chamber opening rather than this use of headmaster authority.
+  confidence: high
+  limitations: "'Continues to this day' reflects the time of Dumbledore's commentary, not necessarily the present day of every later edition."
+- id: beedle-ch02-006
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Fountain of Fair Fortune and Commentary
+  chapter_start_pdf_page: 19
+  chapter_end_pdf_page: 30
+  pdf_page: 28
+  printed_page: 39
+  extracted_text_lines: PDF text lines 1067-1080
+  text_anchor:
+    start_phrase: Professor Kettleburn survived no fewer than sixty-two periods of probation
+    end_phrase: take life at a quieter pace
+    local_occurrence_note: Footnote attached to Kettleburn's probation after the pantomime.
+  nearby_context: Dumbledore contrasts Kettleburn's strained relations with Dippet and his later behavior under Dumbledore.
+  match_terms:
+  - sixty-two periods of probation
+  - Kettleburn
+  - Dippet
+  - one and a half limbs
+  - headmaster
+  quote_excerpt_short: sixty-two periods of probation during his employment
+  source_note: Kettleburn accumulated at least sixty-two probation periods; Dippet regarded him as reckless, while Dumbledore later considered him much mellowed.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - silvanus-kettleburn
+  - staff-discipline
+  - armando-dippet
+  - albus-dumbledore
+  - care-of-magical-creatures
+  - probation
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Christmas at Hogwarts
+  candidate_section: The Fountain of Fair Fortune Pantomime and Ban
+  reason_for_placement: The footnote records the staff-disciplinary aftermath of the pantomime across two headmasterships.
+  relevance_to_hogwarts_a_history: It documents how Hogwarts retained and supervised a notably hazardous teacher rather than simply dismissing him.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No existing entry records Kettleburn's probation history or contrasting relations with Dippet and Dumbledore.
+  confidence: high
+  limitations: The footnote is humorous and does not define the procedure or length of a probation period.
+- id: beedle-ch02-007
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Fountain of Fair Fortune and Commentary
+  chapter_start_pdf_page: 19
+  chapter_end_pdf_page: 30
+  pdf_page: 29
+  printed_page: 40
+  extracted_text_lines: PDF text lines 1089-1121
+  text_anchor:
+    start_phrase: demanded the removal of this particular tale from the Hogwarts library
+    end_phrase: stories that promote wizard-Muggle marriage
+    local_occurrence_note: Dumbledore's account and quotation of Lucius Malfoy's written demand.
+  nearby_context: Dumbledore identifies Malfoy as a descendant of Brutus Malfoy and a member of the Hogwarts Board of Governors.
+  match_terms:
+  - Lucius Malfoy
+  - Hogwarts library
+  - Board of Governors
+  - ban
+  - wizard-Muggle marriage
+  quote_excerpt_short: banned from the bookshelves of Hogwarts
+  source_note: Governor Lucius Malfoy formally demanded that Hogwarts remove the tale because he believed its wizard-Muggle marriage threatened his son's blood-purity beliefs.
+  reference_type: school_rule_or_policy
+  era_classification: post_1984_excluded_from_original
+  topic_tags:
+  - lucius-malfoy
+  - hogwarts-library
+  - school-governors
+  - censorship
+  - blood-purity
+  - book-challenge
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Library Collections and Restricted Books
+  candidate_section: Censorship, Board Support, and the Beedle Collection
+  reason_for_placement: The letter is a direct attempt by a governor to remove a named work from school shelves.
+  relevance_to_hogwarts_a_history: A later edition can document family influence, blood ideology, and institutional disputes over library holdings.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch12-006
+    - cos-ch14-006
+    notes: The novels establish Malfoy's governor role and board power; this commentary adds a specific written censorship demand.
+  confidence: high
+  limitations: The quoted letter supplies Malfoy's stated motive but not independent evidence of his son's reading.
+- id: beedle-ch02-008
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Fountain of Fair Fortune and Commentary
+  chapter_start_pdf_page: 19
+  chapter_end_pdf_page: 30
+  pdf_page: 29
+  printed_page: 40-42
+  extracted_text_lines: PDF text lines 1121-1133
+  text_anchor:
+    start_phrase: My refusal to remove the book from the library
+    end_phrase: our students' store of knowledge
+    local_occurrence_note: Dumbledore's reply and statement of Board support.
+  nearby_context: Dumbledore rejects Malfoy's blood-purity premise and states that a majority of governors backed his refusal.
+  match_terms:
+  - Dumbledore
+  - majority of the Board of Governors
+  - library
+  - students
+  - knowledge
+  quote_excerpt_short: backed by a majority of the Board of Governors
+  source_note: Dumbledore refused to remove Beedle from the library, and a majority of Hogwarts governors supported preserving material about Muggle ancestry in students' knowledge.
+  reference_type: institutional_custom
+  era_classification: post_1984_excluded_from_original
+  topic_tags:
+  - albus-dumbledore
+  - school-governors
+  - hogwarts-library
+  - intellectual-freedom
+  - censorship
+  - school-governance
+  candidate_part: The Library, Books, and Scholarship
+  candidate_chapter: Library Collections and Restricted Books
+  candidate_section: Censorship, Board Support, and the Beedle Collection
+  reason_for_placement: The episode records how headmaster judgment and Board support protected a challenged library work.
+  relevance_to_hogwarts_a_history: A later edition can use it as a concrete test of governance over the curriculum-adjacent library collection.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch14-006
+    - cos-ch18-005
+    notes: The novels show Board power over the headmaster and later reversal of Malfoy's influence; this source adds majority support in a censorship dispute.
+  confidence: high
+  limitations: The commentary gives no vote count, meeting record, or names of supporting governors.
+- id: beedle-ch02-009
+  source_file: pdfs/Beedle The Bard_text.pdf
+  book: The Tales of Beedle the Bard
+  chapter: The Fountain of Fair Fortune and Commentary
+  chapter_start_pdf_page: 19
+  chapter_end_pdf_page: 30
+  pdf_page: 30
+  printed_page: 42
+  extracted_text_lines: PDF text lines 1134-1144
+  text_anchor:
+    start_phrase: This exchange marked the beginning
+    end_phrase: his position as Lord Voldemort's favorite Death Eater
+    local_occurrence_note: Final paragraph of the Fountain commentary on the left side of the shared page.
+  nearby_context: Dumbledore describes the dispute's political aftermath for both his headmastership and Malfoy's status.
+  match_terms:
+  - Lucius Malfoy
+  - campaign
+  - headmaster of Hogwarts
+  - Board of Governors
+  - Death Eater
+  quote_excerpt_short: long campaign to have me removed
+  source_note: The library dispute began Lucius Malfoy's campaign to remove Dumbledore as headmaster and Dumbledore's effort to remove Malfoy from influence.
+  reference_type: historical_claim
+  era_classification: post_1984_excluded_from_original
+  topic_tags:
+  - lucius-malfoy
+  - albus-dumbledore
+  - headmastership
+  - school-governance
+  - political-conflict
+  - school-governors
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Headmaster, Governors, and School Oversight
+  candidate_section: Governor Authority Over the Headmaster
+  reason_for_placement: The source identifies a specific origin for a later struggle over headmaster and governor power.
+  relevance_to_hogwarts_a_history: A later edition can connect a library challenge to the wider governance conflict documented during the Chamber crisis.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - cos-ch12-006
+    - cos-ch14-006
+    - cos-ch18-005
+    notes: Those entries document Malfoy's pressure, Dumbledore's suspension, recall, and Malfoy's removal; this source supplies the earlier cause claimed by Dumbledore.
+  confidence: high
+  limitations: This is Dumbledore's retrospective interpretation of when the mutual campaigns began.

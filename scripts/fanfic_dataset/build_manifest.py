@@ -1,0 +1,545 @@
+"""Build deterministic, hashed manifest records for captured fanfiction data."""
+
+from __future__ import annotations
+
+import hashlib
+import json
+import os
+from pathlib import Path
+import re
+import secrets
+import stat
+
+from .merge_pdf import canonical_complete_pdf_name
+from .models import CapturedPage, ManifestRecord, SourceRecord, WorkDiscovery, WorkValidation
+
+
+DATASET_DIRECTORY = Path("data/fanfic-hogwarts-history")
+TOOL_VERSION = "1.0.0"
+SOURCE_ID = re.compile(r"^HAH-FAN-\d{3}$")
+CAPTURE_ID = re.compile(r"^\d{8}T\d{6}Z$")
+
+
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def build_manifest(capture_dir: Path) -> list[ManifestRecord]:
+    """Validate capture artifacts and write the dataset's sorted manifest."""
+    capture_dir, dataset_root = _canonical_capture(capture_dir)
+    dataset_descriptor = _open_existing_directory(
+        dataset_root,
+        "manifest dataset root is unsafe",
+    )
+    try:
+        captures = _included_captures(dataset_root)
+        if capture_dir not in captures:
+            raise ValueError("requested canonical capture is not included")
+        records: list[ManifestRecord] = []
+        for candidate in captures:
+            records.extend(_records_for_capture(candidate, dataset_root))
+        if not records:
+            raise ValueError("manifest requires at least one capture record")
+        records.sort(
+            key=lambda record: (
+                record.source_id,
+                record.capture_id,
+                record.chapter_index,
+            )
+        )
+        payload = "".join(
+            json.dumps(
+                record.model_dump(mode="json"),
+                sort_keys=True,
+                separators=(",", ":"),
+            )
+            + "\n"
+            for record in records
+        ).encode("utf-8")
+        _atomic_replace_bytes(dataset_descriptor, "manifest.jsonl", payload)
+    finally:
+        os.close(dataset_descriptor)
+    return records
+
+
+def promote_latest(work_validation: WorkValidation, *, dataset_root: Path | None = None) -> Path:
+    """Advance a work's latest pointer after a passing validation only."""
+    if work_validation.status != "pass":
+        raise ValueError("latest may only be promoted after validation status pass")
+    if SOURCE_ID.fullmatch(work_validation.source_id) is None:
+        raise ValueError("latest promotion requires a canonical source_id")
+    if CAPTURE_ID.fullmatch(work_validation.capture_id) is None:
+        raise ValueError("latest promotion requires a canonical capture_id")
+    root = _canonical_latest_root(dataset_root or _default_dataset_root())
+    root_descriptor = _open_or_create_directory_tree(root)
+    works_descriptor: int | None = None
+    work_descriptor: int | None = None
+    try:
+        works_descriptor = _open_or_create_child_directory(
+            root_descriptor,
+            "works",
+            preserve_existing_file_error=True,
+        )
+        work_descriptor = _open_or_create_child_directory(
+            works_descriptor,
+            work_validation.source_id,
+            preserve_existing_file_error=True,
+        )
+        payload = (
+            json.dumps(
+                {
+                    "capture_id": work_validation.capture_id,
+                    "source_id": work_validation.source_id,
+                },
+                sort_keys=True,
+                separators=(",", ":"),
+            )
+            + "\n"
+        ).encode("utf-8")
+        _atomic_replace_bytes(
+            work_descriptor,
+            "latest.json",
+            payload,
+        )
+    finally:
+        if work_descriptor is not None:
+            os.close(work_descriptor)
+        if works_descriptor is not None:
+            os.close(works_descriptor)
+        os.close(root_descriptor)
+    work_root = root / "works" / work_validation.source_id
+    latest_path = work_root / "latest.json"
+    return latest_path
+
+
+def _records_for_capture(capture_dir: Path, dataset_root: Path) -> list[ManifestRecord]:
+    metadata_path = capture_dir / "metadata.json"
+    metadata = _read_canonical_json_file(
+        metadata_path,
+        capture_dir,
+        dataset_root,
+    )
+    source = SourceRecord.model_validate(metadata["source"])
+    discovery = WorkDiscovery.model_validate(metadata["discovery"])
+    pages = [CapturedPage.model_validate(page) for page in metadata["pages"]]
+    if metadata.get("capture_id") != capture_dir.name:
+        raise ValueError("capture metadata does not match capture directory")
+    if source.source_id != capture_dir.parents[1].name or discovery.source_id != source.source_id:
+        raise ValueError("capture metadata source does not match capture directory")
+    if (
+        not pages
+        or not discovery.chapters
+        or len(pages) != source.expected_available_chapter_count
+        or len(discovery.chapters) != source.expected_available_chapter_count
+    ):
+        raise ValueError(
+            "capture page and discovery chapter count must be nonzero and "
+            "match the expected chapter count"
+        )
+    _require_consecutive(pages, discovery)
+    for page, chapter in zip(pages, discovery.chapters, strict=True):
+        if page.source_id != source.source_id or page.chapter != chapter:
+            raise ValueError("captured page does not match source discovery")
+    complete_pdf = capture_dir / "pdf" / canonical_complete_pdf_name(discovery)
+    complete_pdf_sha256 = _sha256_canonical_file(
+        complete_pdf,
+        capture_dir,
+        dataset_root,
+    )
+    result: list[ManifestRecord] = []
+    for page in pages:
+        index = page.chapter.chapter_index
+        expected_raw = capture_dir / "raw" / f"chapter-{index:03d}.html"
+        expected_metadata_raw = (
+            DATASET_DIRECTORY / expected_raw.relative_to(dataset_root)
+        )
+        if page.raw_html_path != expected_metadata_raw:
+            raise ValueError("captured page raw path is not canonical")
+        raw = _metadata_artifact(page.raw_html_path, dataset_root)
+        if raw != expected_raw:
+            raise ValueError("captured page raw artifact is not in its capture")
+        clean = capture_dir / "clean" / f"chapter-{index:03d}.html"
+        text = capture_dir / "text" / f"chapter-{index:03d}.md"
+        chapter_pdf = capture_dir / "pdf" / f"chapter-{index:03d}.pdf"
+        raw_sha256 = _sha256_canonical_file(raw, capture_dir, dataset_root)
+        clean_html_sha256 = _sha256_canonical_file(
+            clean,
+            capture_dir,
+            dataset_root,
+        )
+        text_sha256 = _sha256_canonical_file(text, capture_dir, dataset_root)
+        chapter_pdf_sha256 = _sha256_canonical_file(
+            chapter_pdf,
+            capture_dir,
+            dataset_root,
+        )
+        result.append(
+            ManifestRecord(
+                capture_id=capture_dir.name,
+                source_id=source.source_id,
+                work_title=discovery.work_title,
+                author=discovery.author,
+                platform=source.platform,
+                work_url=source.work_url,
+                chapter_index=index,
+                chapter_title=page.chapter.chapter_title,
+                title_missing=page.chapter.title_missing,
+                chapter_url=page.chapter.chapter_url,
+                retrieved_at_utc=page.retrieved_at_utc,
+                published_date_displayed=discovery.published_date_displayed,
+                updated_date_displayed=discovery.updated_date_displayed,
+                expected_available_chapter_count=source.expected_available_chapter_count,
+                raw_html_path=_relative_dataset_path(raw, dataset_root),
+                clean_html_path=_relative_dataset_path(clean, dataset_root),
+                text_path=_relative_dataset_path(text, dataset_root),
+                chapter_pdf_path=_relative_dataset_path(chapter_pdf, dataset_root),
+                complete_pdf_path=_relative_dataset_path(complete_pdf, dataset_root),
+                raw_sha256=raw_sha256,
+                clean_html_sha256=clean_html_sha256,
+                text_sha256=text_sha256,
+                chapter_pdf_sha256=chapter_pdf_sha256,
+                complete_pdf_sha256=complete_pdf_sha256,
+                tool_version=TOOL_VERSION,
+            )
+        )
+    return result
+
+
+def _canonical_capture(capture_dir: Path) -> tuple[Path, Path]:
+    lexical = (
+        capture_dir
+        if capture_dir.is_absolute()
+        else Path.cwd() / capture_dir
+    )
+    if ".." in lexical.parts:
+        raise ValueError("argument must be an exact canonical capture path")
+    try:
+        resolved = lexical.resolve(strict=True)
+    except (FileNotFoundError, OSError) as error:
+        raise ValueError("argument must be an existing canonical capture") from error
+    if lexical != resolved or not resolved.is_dir():
+        raise ValueError("argument must be an exact canonical capture path")
+    if (
+        resolved.parent.name != "captures"
+        or resolved.parents[2].name != "works"
+        or resolved.parents[3].name != DATASET_DIRECTORY.name
+        or resolved.parents[3].parent.name != DATASET_DIRECTORY.parent.name
+        or SOURCE_ID.fullmatch(resolved.parents[1].name) is None
+        or CAPTURE_ID.fullmatch(resolved.name) is None
+    ):
+        raise ValueError(
+            "argument must be a canonical capture path at "
+            "works/<source>/captures/<capture>"
+        )
+    return resolved, resolved.parents[3]
+
+
+def _included_captures(dataset_root: Path) -> list[Path]:
+    captures: list[Path] = []
+    works_root = dataset_root / "works"
+    for work_root in works_root.iterdir():
+        if (
+            work_root.is_symlink()
+            or not work_root.is_dir()
+            or SOURCE_ID.fullmatch(work_root.name) is None
+        ):
+            continue
+        captures_root = work_root / "captures"
+        if captures_root.is_symlink() or not captures_root.is_dir():
+            continue
+        for candidate in captures_root.iterdir():
+            if (
+                candidate.is_symlink()
+                or not candidate.is_dir()
+                or CAPTURE_ID.fullmatch(candidate.name) is None
+            ):
+                continue
+            captures.append(candidate.resolve(strict=True))
+    return sorted(captures)
+
+
+def _default_dataset_root() -> Path:
+    return Path(__file__).resolve().parents[2] / DATASET_DIRECTORY
+
+
+def _canonical_latest_root(dataset_root: Path) -> Path:
+    lexical = (
+        dataset_root
+        if dataset_root.is_absolute()
+        else Path.cwd() / dataset_root
+    )
+    if ".." in lexical.parts or lexical.parent == lexical:
+        raise ValueError("dataset root path must be canonical")
+    if lexical.is_symlink():
+        raise ValueError("dataset root must not be a symlink")
+    try:
+        resolved = lexical.resolve(strict=False)
+    except OSError as error:
+        raise ValueError("dataset root path is invalid") from error
+    if lexical != resolved:
+        raise ValueError("dataset root path must be canonical")
+    try:
+        root_status = lexical.lstat()
+    except FileNotFoundError:
+        pass
+    except OSError as error:
+        raise ValueError("dataset root path is invalid") from error
+    else:
+        if not stat.S_ISDIR(root_status.st_mode):
+            raise ValueError("dataset root is not a directory")
+    return lexical
+
+
+def _open_existing_directory(path: Path, error_message: str) -> int:
+    flags = os.O_RDONLY | getattr(os, "O_DIRECTORY", 0)
+    flags |= getattr(os, "O_NOFOLLOW", 0)
+    try:
+        descriptor = os.open(path, flags)
+    except OSError as error:
+        raise ValueError(error_message) from error
+    if not stat.S_ISDIR(os.fstat(descriptor).st_mode):
+        os.close(descriptor)
+        raise ValueError(error_message)
+    return descriptor
+
+
+def _open_or_create_directory_tree(path: Path) -> int:
+    current = _open_existing_directory(Path(path.anchor), "dataset root is unsafe")
+    try:
+        for component in path.parts[1:]:
+            child = _open_or_create_child_directory(
+                current,
+                component,
+                preserve_existing_file_error=False,
+            )
+            os.close(current)
+            current = child
+    except BaseException:
+        os.close(current)
+        raise
+    return current
+
+
+def _open_or_create_child_directory(
+    parent_descriptor: int,
+    name: str,
+    *,
+    preserve_existing_file_error: bool,
+) -> int:
+    flags = os.O_RDONLY | getattr(os, "O_DIRECTORY", 0)
+    flags |= getattr(os, "O_NOFOLLOW", 0)
+    try:
+        return os.open(name, flags, dir_fd=parent_descriptor)
+    except FileNotFoundError:
+        try:
+            os.mkdir(name, dir_fd=parent_descriptor)
+        except FileExistsError:
+            pass
+        except OSError as error:
+            raise ValueError("latest destination directory is unsafe") from error
+        try:
+            return os.open(name, flags, dir_fd=parent_descriptor)
+        except OSError as error:
+            raise ValueError(
+                "latest destination contains a symlink or non-directory"
+            ) from error
+    except OSError as error:
+        if preserve_existing_file_error:
+            try:
+                child_status = os.stat(
+                    name,
+                    dir_fd=parent_descriptor,
+                    follow_symlinks=False,
+                )
+            except OSError:
+                pass
+            else:
+                if (
+                    not stat.S_ISDIR(child_status.st_mode)
+                    and not stat.S_ISLNK(child_status.st_mode)
+                ):
+                    raise FileExistsError(
+                        f"latest destination component already exists: {name}"
+                    ) from error
+        raise ValueError(
+            "latest destination contains a symlink or non-directory"
+        ) from error
+
+
+def _atomic_replace_bytes(
+    directory_descriptor: int,
+    name: str,
+    payload: bytes,
+) -> None:
+    temporary = f".{name}.{secrets.token_hex(12)}"
+    created = False
+    try:
+        flags = os.O_WRONLY | os.O_CREAT | os.O_EXCL
+        flags |= getattr(os, "O_NOFOLLOW", 0)
+        descriptor = os.open(
+            temporary,
+            flags,
+            0o600,
+            dir_fd=directory_descriptor,
+        )
+        created = True
+        with os.fdopen(descriptor, "wb") as handle:
+            handle.write(payload)
+        try:
+            existing = os.stat(
+                name,
+                dir_fd=directory_descriptor,
+                follow_symlinks=False,
+            )
+        except FileNotFoundError:
+            pass
+        else:
+            if stat.S_ISLNK(existing.st_mode):
+                raise ValueError("destination is a symlink")
+        os.replace(
+            temporary,
+            name,
+            src_dir_fd=directory_descriptor,
+            dst_dir_fd=directory_descriptor,
+        )
+        created = False
+    finally:
+        if created:
+            try:
+                os.unlink(temporary, dir_fd=directory_descriptor)
+            except FileNotFoundError:
+                pass
+
+
+def _metadata_artifact(path: Path, dataset_root: Path) -> Path:
+    if path.is_absolute():
+        raise ValueError("artifact paths must be relative to the dataset root")
+    project_root = dataset_root.parents[1]
+    absolute = (project_root / path).resolve()
+    if not absolute.is_relative_to(dataset_root):
+        raise ValueError("artifact path is outside the dataset root")
+    return absolute
+
+
+def _relative_dataset_path(path: Path, dataset_root: Path) -> Path:
+    try:
+        return Path(DATASET_DIRECTORY) / path.relative_to(dataset_root)
+    except ValueError as error:
+        raise ValueError("artifact path is outside the dataset root") from error
+
+
+def _read_canonical_json_file(
+    path: Path,
+    capture_dir: Path,
+    dataset_root: Path,
+) -> object:
+    expected_status = _require_file(path, capture_dir, dataset_root)
+    flags = os.O_RDONLY | getattr(os, "O_NOFOLLOW", 0)
+    try:
+        descriptor = os.open(path, flags)
+    except OSError as error:
+        raise ValueError(
+            f"required artifact is not a canonical regular file: {path}"
+        ) from error
+    try:
+        opened_status = os.fstat(descriptor)
+        if (
+            not stat.S_ISREG(opened_status.st_mode)
+            or opened_status.st_dev != expected_status.st_dev
+            or opened_status.st_ino != expected_status.st_ino
+        ):
+            raise ValueError(
+                f"required artifact is not a canonical regular file: {path}"
+            )
+        with os.fdopen(descriptor, "r", encoding="utf-8") as handle:
+            descriptor = -1
+            return json.load(handle)
+    finally:
+        if descriptor >= 0:
+            os.close(descriptor)
+
+
+def _sha256_canonical_file(
+    path: Path,
+    capture_dir: Path,
+    dataset_root: Path,
+) -> str:
+    expected_status = _require_file(path, capture_dir, dataset_root)
+    flags = os.O_RDONLY | getattr(os, "O_NOFOLLOW", 0)
+    try:
+        descriptor = os.open(path, flags)
+    except OSError as error:
+        raise ValueError(
+            f"required artifact is not a canonical regular file: {path}"
+        ) from error
+    try:
+        opened_status = os.fstat(descriptor)
+        if (
+            not stat.S_ISREG(opened_status.st_mode)
+            or opened_status.st_dev != expected_status.st_dev
+            or opened_status.st_ino != expected_status.st_ino
+        ):
+            raise ValueError(
+                f"required artifact is not a canonical regular file: {path}"
+            )
+        digest = hashlib.sha256()
+        with os.fdopen(descriptor, "rb") as handle:
+            descriptor = -1
+            for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+                digest.update(chunk)
+            final_status = os.fstat(handle.fileno())
+            try:
+                current_status = path.lstat()
+            except OSError as error:
+                raise ValueError(
+                    f"required artifact is not a canonical regular file: {path}"
+                ) from error
+            if (
+                not stat.S_ISREG(current_status.st_mode)
+                or final_status.st_dev != opened_status.st_dev
+                or final_status.st_ino != opened_status.st_ino
+                or current_status.st_dev != opened_status.st_dev
+                or current_status.st_ino != opened_status.st_ino
+            ):
+                raise ValueError(
+                    f"required artifact is not a canonical regular file: {path}"
+                )
+        return digest.hexdigest()
+    finally:
+        if descriptor >= 0:
+            os.close(descriptor)
+
+
+def _require_file(
+    path: Path,
+    capture_dir: Path,
+    dataset_root: Path,
+) -> os.stat_result:
+    try:
+        file_status = path.lstat()
+        resolved = path.resolve(strict=True)
+    except (FileNotFoundError, OSError) as error:
+        raise ValueError(f"required artifact is missing: {path}") from error
+    if (
+        stat.S_ISLNK(file_status.st_mode)
+        or not stat.S_ISREG(file_status.st_mode)
+        or resolved != path
+        or not path.is_relative_to(capture_dir)
+        or not path.is_relative_to(dataset_root)
+    ):
+        raise ValueError(
+            f"required artifact is not a canonical regular file: {path}"
+        )
+    return file_status
+
+
+def _require_consecutive(pages: list[CapturedPage], discovery: WorkDiscovery) -> None:
+    indexes = [page.chapter.chapter_index for page in pages]
+    expected = list(range(1, len(indexes) + 1))
+    discovery_indexes = [chapter.chapter_index for chapter in discovery.chapters]
+    if indexes != expected or discovery_indexes != expected:
+        raise ValueError("chapters must be consecutive and ordered from one")

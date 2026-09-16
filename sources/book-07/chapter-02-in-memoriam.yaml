@@ -1,0 +1,271 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Two - In Memoriam
+  chapter_start_pdf_page: 2986
+  chapter_end_pdf_page: 2997
+  boundary_confidence: high
+  boundary_notes: Chapter Two page range was taken from project-control/processing-state.yaml after Book 7 Chapter One. Only PDF pages 2986-2997 were extracted and searched.
+  processed_date: '2026-07-31'
+  processor_notes: "Processed only Book 7, Chapter Two. Text was extracted locally with pypdf into .tmp/current-chapter.txt and .tmp/chapter-07-02-pages. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+  - id: dh-ch02-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Two - In Memoriam
+    chapter_start_pdf_page: 2986
+    chapter_end_pdf_page: 2997
+    pdf_page: 2988
+    printed_page: null
+    extracted_text_lines: "86-100; 102-108"
+    text_anchor:
+      start_phrase: "ALBUS DUMBLEDORE REMEMBERED"
+      end_phrase: "gained him many enemies in subsequent years"
+      local_occurrence_note: "Harry rereads Elphias Doge's Daily Prophet obituary for Dumbledore."
+    nearby_context: "Doge says he and Dumbledore met on their first day at Hogwarts, then explains Dumbledore's unwanted notoriety after Percival Dumbledore's attack on Muggles."
+    match_terms:
+      - albus-dumbledore
+      - elphias-doge
+      - hogwarts-student
+      - percival-dumbledore
+      - muggle-rights
+    quote_excerpt_short: "arrived at Hogwarts under the burden of unwanted notoriety"
+    source_note: "Elphias Doge's obituary gives a first-person in-universe account of Dumbledore entering Hogwarts under family scandal while rejecting anti-Muggle assumptions."
+    reference_type: explicit_in_universe_source
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - albus-dumbledore
+      - elphias-doge
+      - hogwarts-student
+      - percival-dumbledore
+      - muggle-rights
+      - in-universe-source
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: "Dumbledore's Student Years"
+    candidate_section: "Arrival Under Family Notoriety"
+    reason_for_placement: "The obituary supplies historical student-era context for one of Hogwarts' later headmasters and the social effect of family reputation at school."
+    relevance_to_hogwarts_a_history: "Useful as a later-discovered source for a historical note on Dumbledore's early Hogwarts years and the school's response to public scandal."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Queries for Dumbledore student/honors and family terms found broad Dumbledore reputation entries, but none records Doge's first-day account or Percival's effect on Dumbledore's school arrival."
+    confidence: high
+    limitations: "The evidence comes from a memorial article written after Dumbledore's death and reflects Doge's memory and interpretation."
+
+  - id: dh-ch02-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Two - In Memoriam
+    chapter_start_pdf_page: 2986
+    chapter_end_pdf_page: 2997
+    pdf_page: 2989
+    printed_page: null
+    extracted_text_lines: "109-125"
+    text_anchor:
+      start_phrase: "In a matter of months"
+      end_phrase: "The Practical Potioneer"
+      local_occurrence_note: "Doge summarizes Dumbledore's student achievements and early scholarly correspondence."
+    nearby_context: "The obituary says Dumbledore became known as the most brilliant student at the school, won notable prizes, corresponded with prominent magical figures, and published in learned journals."
+    match_terms:
+      - school-prizes
+      - bathilda-bagshot
+      - nicolas-flamel
+      - adalbert-waffling
+      - transfiguration-today
+      - scholarly-publications
+    quote_excerpt_short: "won every prize of note that the school offered"
+    source_note: "Doge presents Dumbledore as an exceptional Hogwarts student whose school prizes, correspondence, and early publications connected Hogwarts scholarship to wider magical learned circles."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - albus-dumbledore
+      - school-prizes
+      - bathilda-bagshot
+      - nicolas-flamel
+      - scholarly-publications
+      - wizarding-scholarship
+    candidate_part: The Library, Books, and Scholarship
+    candidate_chapter: "Student Scholarship and Learned Networks"
+    candidate_section: "Dumbledore's Early Academic Reputation"
+    reason_for_placement: "The passage ties Hogwarts student excellence to prizes, scholarly publication, and correspondence with historians, theorists, and alchemists."
+    relevance_to_hogwarts_a_history: "Supports a historical section on advanced student scholarship and a cross-reference to Bathilda Bagshot as a named historian in Dumbledore's circle."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "The Chocolate Frog card entry ps-ch06-003 overlaps on Dumbledore's public reputation and Nicolas Flamel, but this entry is distinct for Hogwarts prizes, Bagshot, Waffling, and student-era publication."
+    confidence: high
+    limitations: "The chapter does not name the specific Hogwarts prizes or give dates for the learned publications."
+
+  - id: dh-ch02-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Two - In Memoriam
+    chapter_start_pdf_page: 2986
+    chapter_end_pdf_page: 2997
+    pdf_page: 2989
+    printed_page: null
+    extracted_text_lines: "131-139"
+    text_anchor:
+      start_phrase: "Three years after we had started at Hogwarts"
+      end_phrase: "living in Albus's shadow"
+      local_occurrence_note: "Doge compares Aberforth's school temperament with Albus's."
+    nearby_context: "Doge says Aberforth arrived at Hogwarts three years after Albus, was not bookish, preferred dueling to discussion, and lived in Albus's shadow."
+    match_terms:
+      - aberforth-dumbledore
+      - albus-dumbledore
+      - hogwarts-student
+      - dueling
+      - siblings
+    quote_excerpt_short: "preferred to settle arguments by dueling"
+    source_note: "Aberforth Dumbledore is identified as a Hogwarts student three years behind Albus, with a contrasting non-bookish, duel-prone temperament."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - aberforth-dumbledore
+      - albus-dumbledore
+      - hogwarts-student
+      - dueling
+      - sibling-history
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: "Dumbledore's Student Years"
+    candidate_section: "Aberforth at Hogwarts"
+    reason_for_placement: "The passage adds a second Dumbledore-family Hogwarts student and suggests how sibling reputation and temperament shaped student life."
+    relevance_to_hogwarts_a_history: "Useful as a compact biographical seed for a later historical note on the Dumbledore brothers at Hogwarts."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Queries for Aberforth, Ariana, Kendra, family, and Dumbledore found no prior entry recording Aberforth's Hogwarts attendance or school temperament."
+    confidence: medium
+    limitations: "The passage gives no house, dates, subjects, disciplinary record, or independent source beyond Doge's recollection."
+
+  - id: dh-ch02-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Two - In Memoriam
+    chapter_start_pdf_page: 2986
+    chapter_end_pdf_page: 2997
+    pdf_page: 2990
+    printed_page: null
+    extracted_text_lines: "143-151; 152-159"
+    text_anchor:
+      start_phrase: "When Albus and I left Hogwarts"
+      end_phrase: "the death of his sister, Ariana"
+      local_occurrence_note: "Doge recalls his intended post-Hogwarts tour with Dumbledore and the family tragedies that prevented it."
+    nearby_context: "Doge calls the world tour a then-traditional plan after leaving Hogwarts, but Kendra's death left Albus responsible for Aberforth and Ariana."
+    match_terms:
+      - leaving-hogwarts
+      - world-tour
+      - foreign-wizards
+      - kendra-dumbledore
+      - ariana-dumbledore
+      - family-responsibility
+    quote_excerpt_short: "the then-traditional tour of the world"
+    source_note: "Doge describes a post-Hogwarts tradition of touring the world to observe foreign wizards, then records how Dumbledore's family obligations prevented him from going."
+    reference_type: institutional_custom
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - leaving-hogwarts
+      - post-hogwarts-travel
+      - foreign-wizards
+      - dumbledore-family
+      - wizarding-customs
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: "After Hogwarts"
+    candidate_section: "Traditional Graduate Travel"
+    reason_for_placement: "The passage identifies a social custom for Hogwarts leavers before career entry and connects it to wider wizarding-world education."
+    relevance_to_hogwarts_a_history: "Supports a historical appendix or section on what some students traditionally did immediately after leaving Hogwarts."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "No duplicate query was opened because candidate tags are specific to the newly observed post-Hogwarts travel custom; prior likely matches centered on Dumbledore reputation rather than graduate travel."
+    confidence: medium
+    limitations: "Doge's phrase does not establish how widespread the custom was, whether it applied only to privileged students, or when it ceased."
+
+  - id: dh-ch02-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Two - In Memoriam
+    chapter_start_pdf_page: 2986
+    chapter_end_pdf_page: 2997
+    pdf_page: 2991
+    printed_page: null
+    extracted_text_lines: "176-196"
+    text_anchor:
+      start_phrase: "Other quills will describe"
+      end_phrase: "the day that I met him"
+      local_occurrence_note: "Doge closes the obituary by summarizing Dumbledore's later achievements and headmaster reputation."
+    nearby_context: "The obituary names Dumbledore's contributions to wizarding knowledge, Chief Warlock judgments, the 1945 Grindelwald duel, and his reputation among Hogwarts headmasters."
+    match_terms:
+      - dragon-blood
+      - chief-warlock
+      - grindelwald
+      - international-statute-of-secrecy
+      - hogwarts-headmaster
+      - magical-history
+    quote_excerpt_short: "turning point in magical history"
+    source_note: "Doge frames Dumbledore's 1945 defeat of Grindelwald as a major historical turning point and closes by calling him the best loved of Hogwarts headmasters."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - albus-dumbledore
+      - grindelwald
+      - dragon-blood
+      - chief-warlock
+      - hogwarts-headmaster
+      - magical-history
+    candidate_part: Notable Events Before 1984
+    candidate_chapter: "Dumbledore and the First Wizarding War"
+    candidate_section: "The 1945 Duel and Later Reputation"
+    reason_for_placement: "The passage links Dumbledore's public achievements to his eventual Hogwarts headmaster reputation and to broader magical-history periodization."
+    relevance_to_hogwarts_a_history: "Useful for a later historical note on why Dumbledore's headmastership is treated as nationally significant, not merely internal school governance."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of: null
+      notes: "Possible existing duplicate ps-ch06-003 also records the Chocolate Frog card's Dumbledore biography, including the 1945 Grindelwald defeat and dragon's blood; this entry adds Doge's obituary framing, witness tradition, Chief Warlock context, and headmaster esteem."
+    confidence: high
+    limitations: "The passage summarizes public memory and Doge's admiration; it does not provide tactical details of the duel or institutional records from Hogwarts."
+
+  - id: dh-ch02-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Two - In Memoriam
+    chapter_start_pdf_page: 2986
+    chapter_end_pdf_page: 2997
+    pdf_page: 2993
+    printed_page: null
+    extracted_text_lines: "245-260; 272-285; 293-319; 321-350; 355-378"
+    text_anchor:
+      start_phrase: "DUMBLEDORE - THE TRUTH AT LAST?"
+      end_phrase: "once they've read my book"
+      local_occurrence_note: "Harry reads a Daily Prophet advance article and Betty Braithwaite's interview with Rita Skeeter."
+    nearby_context: "The interview promotes Rita Skeeter's nine-hundred-page biography, notes Doge's public challenge to its accuracy, and previews claims about Dumbledore's youth, family, Grindelwald, and Harry."
+    match_terms:
+      - rita-skeeter
+      - betty-braithwaite
+      - daily-prophet
+      - elphias-doge
+      - life-and-lies
+      - dumbledore-biography
+    quote_excerpt_short: "The Life and Lies of Albus Dumbledore"
+    source_note: "The Daily Prophet presents Skeeter's biography as a contested in-universe source on Dumbledore, explicitly setting Doge's obituary against revisionist claims about his youth and public career."
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - rita-skeeter
+      - daily-prophet
+      - elphias-doge
+      - albus-dumbledore
+      - wizarding-biography
+      - source-criticism
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "Sources on Dumbledore After His Death"
+    candidate_section: "Obituary, Biography, and Public Dispute"
+    reason_for_placement: "The passage is less direct school evidence than source-history evidence, but it identifies a major contested biographical source for Dumbledore and public claims about Hogwarts eyewitnesses."
+    relevance_to_hogwarts_a_history: "Useful for source criticism in any future Dumbledore editorial note, especially where Doge's memorial account conflicts with Skeeter's biography."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Queries for Daily Prophet, Dumbledore, biography, Skeeter, and Doge found related press-politics entries but no prior entry for The Life and Lies of Albus Dumbledore or the Doge/Skeeter source dispute."
+    confidence: medium
+    limitations: "Skeeter's claims are promotional, contested, and filtered through a Daily Prophet interview; they should not be treated as settled facts without later corroboration."

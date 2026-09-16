@@ -15,30 +15,60 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Annual School Letters and Booklists
   - Diagon Alley and Supply Access
   - Earlier Generations and Hogwarts Letters
+  - Exceptional correspondence with non-magical relatives
   - First-Year Supply List
   - Follow-Up and School-Supply Preparation
   - Locating Prospective Students
   - Muggle-Born Discovery and Family Communication
+  - Muggle-born explanation and pre-school magic rules
   - Persistent Delivery to Muggle Households
   - Pets, Owls, and Student Belongings
   - Student Names and Seven-Year Schooling
   - Wands as Required Equipment
+- After Hogwarts
+  - Traditional Graduate Travel
 - Care of Magical Creatures
+  - Approved textbooks and examination preparation
+  - Bowtruckles and wand-tree ecology
   - Classroom Creatures and Student Handling
   - Course Books and Dangerous Texts
+  - Creature catalogues and textbook revision
   - Live Creature Handling and Safety
+  - Magizoology as conservation and magical education
   - Skrewt Rearing, Experimental Feeding, and Safety Risks
+- Care of Magical Creatures and Creature Scholarship
+  - Fantastic Beasts as practical reference source
+  - Publication history of Fantastic Beasts
+- Care of Magical Creatures and Grounds-Based Teaching
+  - Experimental Breeding, Safety, and Oversight
+  - O.W.L. practical assessment at the forest edge
+  - O.W.L. pressure and Hagrid's returning lesson plans
+  - Substitute Instruction and Unicorn Handling
+  - Substitute inspection and O.W.L. creature syllabus
+  - Unicorn Foals and Lifecycle Instruction
 - Care of Magical Creatures and Practical Handling
   - Blast-Ended Skrewt growth and handling risks
+  - Niffler Treasure-Detection Lesson
+  - Skrewt Feeding Work After Handling Risks
+  - Skrewt Hibernation Experiment and Press Exposure
+- Careers After Hogwarts
+  - Auror Training and Natural Disguise Talent
+  - Auror preparation in sixth-year subject choices
+  - Auror prerequisites and N.E.W.T. course thresholds
+  - Fifth-year career advice and vocational pamphlets
 - Charms
   - First-Year Spellwork
 - Course Materials and Annual Booklists
   - Fourth-Year Spellbooks, Herbology Texts, and Potions Supplies
 - Course Structure and Academic Progression
   - Advanced Defensive Magic
+  - Animagus Study and Self-Transfiguration
   - Defense Against the Dark Arts Creature Sequence
   - Defense Against the Dark Arts Practical Instruction
   - Divination and Third-Year Electives
+  - End-of-Term Instruction and Historical Topics
+  - Fourth-Year Charms and Banishing Practice
+  - Fourth-Year Divination Astrology and Crystal-Gazing
   - Fourth-Year Divination and Arithmancy Contrast
   - Fourth-Year Schedules, Electives, and Morning Owl Post
   - Third-Year Books and Supplies
@@ -47,13 +77,41 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Third-Year Elective Selection
 - Defense Against the Dark Arts
   - Dueling Spells Outside Formal Instruction
+  - Patronus Defense Explained After an Emergency
   - Patronus Instruction and Anti-Dementor Defense
+  - Patronus Instruction in Off-Campus Emergencies
   - Practical Creature-Based Assessment
+  - Private defensive books used for student-led practice
+  - Sixth-year dark creatures and Unforgivable Curses curriculum
+  - Sixth-year nonverbal magic and advanced threat framing
+- Defense Against the Dark Arts Staffing
+  - Dumbledore's restrictions on Snape
+  - Voldemort's refusal and the one-year pattern
+- Divination and Elective Study
+  - Dream interpretation and O.W.L. preparation
+  - Planetary divination in the North Tower classroom
+- Divination and Prophetic Testimony
+  - Trelawney's appointment interview and Snape's interruption
 - Divination and Third-Year Electives
   - Crystal-Gazing Exams and True Seer Evidence
+- Examinations and Academic Pressure
+  - Fifth-year O.W.L. revision routines
+- Examinations and Academic Progression
+  - Easter revision, library study, and exam-year pressure
+  - Fifth-year O.W.L. practical preparation
+  - Fifth-year O.W.L.s, career advice, and N.E.W.T. selection
+  - Fifth-year weekend workload across subjects
+  - Final O.W.L. revision culture and exam-year pressure
+  - Great Hall examination layout and practical testing
+  - O.W.L. grading scale and baseline marking
+  - O.W.L. timetable, anti-cheating rules, and result delivery
+  - Wizarding Examinations Authority examiners at Hogwarts
 - Exams and Assessment
   - Education Continuity During Crisis
+  - Failed O.W.L.s, Head-of-House advice, and career thresholds
   - Head Boy, Student Achievement, and Alumni Paths
+  - O.W.L. result letters and grade scale
+  - O.W.L. thresholds and N.E.W.T. course placement
   - O.W.L.s and Student Advancement
   - O.W.L.s, N.E.W.T.s, and Overlapping Timetables
   - Third-Year Practical and Written Exams
@@ -74,8 +132,18 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Bubotuber Pus Collection and Medical Use
   - Mandrake Maturity and Restorative Use
   - Mandrake Restorative Use
+  - Rare Student-Brought Plants and Stinksap
+  - Sixth-year Snargaluff practical work
+- Herbology and Potions Supply Links
+  - Greenhouse materials for Potions lessons
 - History of Magic
   - Professor Binns and Historical Instruction
+  - Professor Binns and routine historical instruction
+  - Professor Binns, giant wars, and lecture-based instruction
+- History of Magic Curriculum
+  - O.W.L. historical topics and wizarding institutions
+- Holidays, Examinations, and Student Movement
+  - Christmas study residence and emergency hospital visits
 - Homework and Independent Study
   - Holiday Homework and Student Materials
   - Holiday Homework and Supply Shopping
@@ -83,39 +151,138 @@ Source data: sources YAML + project-control indexes + structured source data.
   - School Lists and Pre-Term Supply Shopping
 - Magical Creatures in School Knowledge
   - Unicorn Materials and Centaur Divination
+- Muggle Studies and the Non-Magical World
+  - Charity Burbage and Wartime Curriculum Politics
+- Notable Alumni and Professional Pathways
+  - Newt Scamander and magizoology careers
 - Potions
   - Advanced Potion-Brewing and Staff Expertise
   - Cross-House Lessons
   - Dungeon Classrooms and Introductory Potion-Making
+  - O.W.L. brewing standards and N.E.W.T. access
 - Potions Instruction and Materials
   - Advanced Recipes, Duration, and Misuse Risks
   - Advanced Recipes, Student Supplies, and Private Stores
+  - N.E.W.T. class supplies and advanced potion demonstrations
+  - Open-ended advanced brewing exercises
   - Private Stores, Dungeon Lessons, and Antidotes
+- Potions and Practical Magic
+  - Enchanted and Specialized Cauldrons
+  - Potion-Making as Magic
+  - Potioneering Expertise
+  - Potions and Other Magical Methods
+  - Vessels and Heat
+- Potions, Ingredients, and Brewing
+  - Felix Felicis constraints and recipe difficulty
 - Potions, Practical Testing, and Discipline
   - Antidote brewing and detention penalties
 - Second-Year Curriculum
   - Defense Against the Dark Arts Practical Instruction
+- Staff Appointments and Subject Posts
+  - Slughorn returns to Potions and Snape takes Defense Against the Dark Arts
+- Staffing the Curriculum
+  - Post-Umbridge vacancy and former Heads of House
+- Teachers, Patronage, and Student Advancement
+  - Alumni achievements and Slughorn's social memory
+  - Former-student memories of Slughorn's network
+  - Slughorn's favorites and alumni network
+  - The Slug Club as an informal student network
+- Textbooks, Marginalia, and Informal Knowledge
+  - Continued use of the Half-Blood Prince's annotated Potions book
+  - Dating the Half-Blood Prince's annotated book
+  - Marginal spellcraft and unapproved incantations
+  - Sectumsempra and dangerous marginal spellcraft
+  - Student jinx fashions before 1984
+  - The Half-Blood Prince's annotated Potions book
 - Timetables, Electives, and Exceptional Study Arrangements
   - Ending a Time-Turner Accommodation
   - Time-Turner Authorization for Overlapping Lessons
+- Transfiguration
+  - Human Transfiguration exercises after O.W.L.s
+- Transfiguration Theory and Magical Limits
+  - Gamp's Law and food as a Principal Exception
 - Transfiguration and Advanced Magical Transformations
   - Animagi in Classroom Study and External Registers
+- Transfiguration and Advanced Spellwork
+  - Fifth-year Vanishing Spells under inspection
 - Wands, Equipment, and Magical Materials
   - Champion wand materials and condition tests
+
+## Admissions and First-Year Preparation
+
+- Explaining Hogwarts to New Students
+  - First contact with Muggle-raised children
+- Identifying Magical Children
+  - Orphaned and Muggle-raised students
+- Material Support for New Students
+  - Financial aid, supplies, and travel
+
+## Appendix: Editorial and Source Notes
+
+- Authorial development notes
+  - Subject-list variants
 
 ## Appendix: Explicit References to Hogwarts: A History
 
 - Chamber of Secrets References
   - Library Demand for Hogwarts: A History
 
+## Before Hogwarts
+
+- Magic in Ancient Britain
+  - Early Wandcraft
+  - Plants and Druidic Craft
+
+## Castle Architecture and Daily Operations
+
+- Bathrooms, Prefect Privileges, and Protected Facilities
+  - Prefects' Bathroom Interior and Access Controls
+  - Prefects' Bathroom Location and Tournament Clue Use
+- Communication, Owl Post, and Student Movement
+  - Weather-Delayed Owl Post and Hogsmeade Rendezvous
+- House Common Rooms and Dormitories
+  - Passworded Portrait Access
+- Kitchens, Food Service, and Hidden Labor
+  - Feast Service by Spoken Menu Orders
+  - Fruit-Painting Entrance and Informal Student Access
+  - House-Elf Castle Duties and Information Flow
+  - House-Elf Service, Secrecy, and Winky's Hogwarts Employment
+  - Kitchen Layout Beneath the Great Hall
+- Secret Rooms, Moving Routes, and Responsive Castle Spaces
+  - The Room of Requirement
+  - The Room of Requirement as a defensive classroom
+  - The Vanishing Chamber-Pot Room
+
 ## Castle Architecture and Everyday Magic
 
 - Portraits, Passwords, and House Entrances
   - Portrait communication and Gryffindor access
 
-## Ceremonies and School Traditions
+## Castle Life and Hidden Architecture
+
+- House Common Rooms and Dormitories
+  - Passworded Portrait Access and Wartime Tightening
+- Secret Rooms and Responsive Spaces
+  - Occupied Room of Requirement and forced ejection
+
+## Castle Life and Seasonal Customs
 
 - Christmas at Hogwarts
+  - Holiday Residence, Food Service, and Visiting Delegations
+
+## Castle, Grounds, and Magical Architecture
+
+- Wizarding Households Connected to Hogwarts
+  - Black Family Artifacts and Dangerous Domestic Objects
+  - Black Family Artifacts and Goblin-Made Silver
+  - Grimmauld Place and Black Family Domestic Evidence
+
+## Ceremonies and School Traditions
+
+- Arrival at Hogwarts
+  - First-Year Gathering Under Staff Substitution
+- Christmas at Hogwarts
+  - Annual decorations and corridor routes
   - Castle Decorations and the Twelve Trees
   - Great Hall Decorations and Dinner
   - Holiday Residence During School Emergencies
@@ -123,27 +290,34 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Holiday Residence and Easter Stays
   - Holiday Residence and Winter Conditions
   - Small-Holiday Meals and Great Hall Layout
+  - The Fountain of Fair Fortune Pantomime and Ban
 - Dress, Uniform, and Formal Occasions
   - Dress Robes on the Fourth-Year School List
 - End-of-Year Feast and House Cup
   - Crisis Feast, Canceled Exams, and Departure
   - Exam Results and Winning-House Decorations
   - Final Standings, Point Awards, and Hall Decorations
+  - Mourning Decorations After Cedric Diggory's Death
 - Great Hall Daily Life
   - Meals, Owl Post, and Public Correspondence
 - Halloween Feast
   - Great Hall Decorations and Banquets
   - Great Hall Decorations and Ghost Entertainment
   - Great Hall Decorations and Ghostly Counter-Customs
+- Hogsmeade Weekends
+  - Posted dates and student arrangements
 - House Life and Student Celebrations
   - Common-Room Parties and Head-of-House Enforcement
 - One-Off Staff Events and School Morale
   - Valentine's Day During the Chamber Crisis
+- Student Offices, Prefects, and House Teams
+  - Quidditch Captain status and summer appointment letters
 - The Hogwarts Express and School Travel
   - Arrival at Hogsmeade and First-Year Gathering
   - Emergency Magical Transport Outside School Routes
   - End-of-Year Departure and Muggle-Secrecy Measures
   - Hogsmeade Weekend Permissions
+  - Hogsmeade Weekend Permissions and Village Context
   - Platform Barrier Access and Secrecy
   - Platform Nine and Three-Quarters
   - Summer Return and End-of-Term Pickup
@@ -151,47 +325,355 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Annual House Assignment in the Great Hall
   - Annual Songs, Scroll, Stool, and House Tables
   - Arrival of First-Year Students
+  - Claims about the Sorting Hat's accuracy
+  - Feast setting, House tables, staff table, and unity warnings
   - First-Year Lake Crossing
   - House Points and the House Cup
   - Pre-Arrival House Uncertainty
+  - Sorting Judgment, Apparent Mismatches, and Institutional Longevity
+  - The Hat's Intelligence, Speech, and Legilimency
   - The Sorting Hat as Magical School Artifact
+  - Warning Songs in Times of School Danger
 
 ## Ceremonies, Feasts, and Inter-School Relations
 
+- Christmas at Hogwarts
+  - Tournament-Year Castle Presentation
 - The Triwizard Tournament at Hogwarts
+  - Closing Welcome and Unity After the Tournament
+  - First-Task Spectatorship and School-Day Disruption
   - Guest seating at House tables
   - Welcoming visiting delegations
+- The Triwizard Year and Institutional Procedure
+  - Champion Representative Duties
+  - Cooperation, Rivalry, and Foreign Student Contact
+  - Creature Obstacles in the Final Task Maze
+  - Final Task Rescue Signals and Staff Patrols
+  - Final Task Venue and Spectator Use of the Quidditch Field
+  - Golden-Egg Clue and Lake Task Preparation
+  - Judge Conduct and Second-Task Clue Fairness
+  - Point Standings and Final Task Entry Order
+  - Second-Task Hostage Preparation
+  - Second-Task Lakeside Staging and Time Limit
+  - Third-Task Maze Construction and Rules
+  - Yule Ball Eligibility, Dress, and Conduct
+  - Yule Ball Staging and Great Hall Reconfiguration
 - Visiting Schools and Magical Travel
   - Beauxbatons carriage and Durmstrang lake ship
   - Beauxbatons carriage as guest lodging
+  - Winter Lodging on the Grounds
+
+## Classes, Curriculum, and Learning
+
+- Defense Against the Dark Arts
+  - Fifth-Year Textbooks and Staffing Trouble
+  - Patronus Instruction and Advanced Defensive Magic
+
+## Classroom Instruction and Practical Magic
+
+- Defense Against the Dark Arts
+  - Dueling Club Carryover
+  - Unforgivable Curse Instruction and Resistance
+
+## Comparative Magical Education
+
+- Schools and Craft Infrastructure
+  - Ilvermorny's Early Scale
+
+## Comparative Magical Societies
+
+- Magic Within Communities
+  - Healers, Hunters, and Stigma
+- Migration and Concealment
+  - European Settlement in America
+- Plants, Animals, and Potions
+  - Knowledge Beyond Europe
+- Plants, Potions, and Supply
+  - Apothecaries and Frontier Foraging
+- Tools and Technique
+  - European Wands and Wandless Practice
+
+## Core Castle and Grounds
+
+- Headmaster's Office and Protected Entrances
+  - The Pensieve and stored memories
+
+## Creature Regulation and Wizarding Public Safety
+
+- Dangerous Creature Classifications
+  - Extreme XXXXX threat examples
+
+## Crises, Secrets, and Institutional Memory
+
+- The Chamber of Secrets
+  - Riddle's Diary as Weapon and Historical Proof
+
+## Curriculum and Defensive Magic
+
+- Defence Against Dark Creatures
+  - Patronus uses beyond Dementors
+
+## Curriculum and Instruction
+
+- Charms
+  - Fifth-year practical spellwork and homework
+- Defense Against the Dark Arts
+  - D.A. Shield Charm practice after the breakout
+  - D.A. spell progression and student improvement
+  - Dumbledore's Army after Umbridge
+  - Dumbledore's Army and student-led practical Defense
+  - Student-Led Practical Defense in the Umbridge Year
+
+## Curriculum and Material Culture
+
+- Potions Instruction and Materials
+  - Animal-Derived Materials
+
+## Curriculum, Study, and Practical Magic
+
+- Charms Instruction and Independent Practice
+  - Summoning Charms Beyond the Classroom
+
+## Customs, Symbols, and Daily Life
+
+- Dress, Display, and Wizarding Identity
+  - Colour as a public recognition signal
+  - Purple and green moral symbolism
+
+## Dark Magic and Wartime Threats
+
+- Horcruxes and Concealed Soul Magic
+  - Voldemort's failure to sense Horcrux destruction
+  - Voldemort's late-war audit of hiding places
+
+## Defense, Mind Magic, and the Umbridge Year
+
+- Dumbledore's Army and Practical Defense
+  - Applied D.A. skills on the Hogwarts Express
+- Private Occlumency Instruction
+  - Shield Charm reversal and Pensieve safeguards
+
+## Editorial Appendix
+
+- Authorial Development of Hogwarts
+  - Revision and Canonical Caution
+  - Scale of the Student Body
+  - The Original Forty
+  - The Original Forty in the 2005 interview
+
+## Editorial Exclusions
+
+- Post-1984 Harry-Era Narrative
+  - Dumbledore's death confirmation
+  - Late-series continuity commentary
+
+## Editorial apparatus
+
+- Authorial commentary and source provenance
+  - Dementor creation note
+  - Mirror of Erised creation note
+  - Platform Nine and Three-Quarters creation note
+
+## Foundations and Founders
+
+- The Four Founders and Their Legacy
+  - Helga Hufflepuff and House-Elf Refuge
+  - Helga Hufflepuff in House Memory
+
+## Foundations and Physical Heritage
+
+- Ancient Artefacts of Hogwarts
+  - The Hogwarts Pensieve
+- Founding Traditions and Legends
+  - The Pensieve Discovery Legend
+
+## Founders, Ancient Magic, and Hidden Dangers
+
+- Serpent Lore and Parselmouth Traditions
+  - Ancient Basilisk breeding tradition
+
+## Founders, Headmasters, and Institutional Memory
+
+- Headmasters, Headmistresses, and Their Office
+  - Dumbledore's lakeside tomb
+  - Succession and the headmaster portrait tradition
+- Known Heads of Hogwarts
+  - Dilys Derwent, Healer and Headmistress
+
+## Founders, Houses, and Relics
+
+- House Identity and Reputation
+  - Family expectations and first-generation Sorting memories
+
+## Founders, Relics, and House Memory
+
+- Founder Relics and Contested Provenance
+  - Goblin counter-claim to the Sword of Gryffindor
+- Ravenclaw Relics and Lost Knowledge
+  - Destruction of Ravenclaw's diadem Horcrux
+  - Helena Ravenclaw and the hidden loss of the diadem
+  - Living-memory testimony for the lost diadem
+  - Popular reconstruction attempts for the lost diadem
+  - Riddle's recovery and return of the diadem
+  - The lost diadem tradition and its reputed power
+
+## Founders, Relics, and the House System
+
+- Founder Objects and Later Magical History
+  - Voldemort's Founder-Relic Horcrux Pattern
+
+## Founders, Staff, and Institutional Memory
+
+- Older Staff, Residents, and Alumni Memory
+  - Weasley Family Recollections of Pringle, Ogg, and the Fat Lady
+
+## Games, Competitions, and Student Life
+
+- Quidditch and Enchanted Equipment
+  - Snitch flesh memory and contested captures
 
 ## Ghosts, Portraits, and Magical Residents
 
 - Ghosts and Haunted Places
   - The Shrieking Shack Reputation
+- Headmaster Portraits and Institutional Memory
+  - Multi-institution portrait travel and service to the headmaster
+  - Portrait messages and supervision beyond Hogwarts
+- Headmaster's Office and Protected Entrances
+  - Office fixtures during private wartime instruction
+- Headmasters, Headmistresses, and Institutional Memory
+  - Former-head portraits after the Battle of Hogwarts
+- Hogwarts House-Elves
+  - House-elf warning under High Inquisitor pressure
+- House-Elves and Hidden Labor
+  - Clothing, freedom, and Hogwarts service spaces
 - Magical Residents of the Grounds
   - Aragog's Colony in the Forbidden Forest
+  - Centaur autonomy and Firenze's banishment
+  - Centaur territorial law after Firenze's banishment
   - Centaurs in the Forbidden Forest
   - Forbidden Forest Creature Lore
+  - Grawp's concealed residence in the Forbidden Forest
+  - Grawp's open clash with the centaur herd
   - The Giant Squid in the Lake
 - Portraits as Residents and Gatekeepers
   - Temporary Portrait Guardians
 - Portraits, Passwords, and Residential Access
   - Portrait Social Life and Access Control
 - Resident Ghosts and Poltergeists
+  - Ghostly return, choice, and limits
   - House Ghosts, Bathroom Hauntings, and Deathday Customs
   - Nearly Headless Nick and Ghost Society
+  - Peeves and the Castle's Intractable Residency
   - Peeves the Poltergeist
   - Wayfinding and Disruption
+
+## Governance, Discipline, and School Safety
+
+- Wartime Rule Under Snape and the Carrows
+  - Coercive discipline and scapegoating students
+
+## Governance, Headmasters, and Public Authority
+
+- Dumbledore's Career and Refused Power
+  - Hogwarts teaching as refuge from political temptation
+- Headmasters and School Authority
+  - Phineas Nigellus and Black Family Public History
+
+## Grounds, Lake, and Village Approaches
+
+- Hogsmeade Routes and Outlying Terrain
+  - Mountain Cave Beyond the Village Edge
+
+## Headmasters and School Authority
+
+- Ministry Intervention and Its Collapse
+  - Umbridge's authority ends at the centaur boundary
+- Ministry Intervention and Staff Vulnerability
+  - Hagrid's expected dismissal and substitute continuity
+
+## Headmasters, Headmistresses, and Their Office
+
+- Phoenixes and Headmaster Associations
+  - General phoenix properties behind Fawkes evidence
+
+## Headmasters, Staff, and School Governance
+
+- Wartime Headmastership and Staff Resistance
+  - The sacking of Severus Snape
+
+## Hidden Chambers and Dangerous Creatures
+
+- Chamber of Secrets Evidence
+  - Official creature records versus Hogwarts evidence
+
+## Hidden Rooms, Passages, and Portrait Routes
+
+- Concealed Routes Beyond the Castle
+  - Whomping Willow tunnel to the Shrieking Shack during the battle
+
+## Historical Foundations
+
+- Curriculum, Exams, and Student Life Before 1984
+  - Marauders-era O.W.L. exams and grounds culture
+- Marauders-Era Context and Hidden Identities
+  - James, Snape, Lily, and retrospective student testimony
+
+## Historiography and Evidence
+
+- Traditions, Legends, and Claims
+  - Editorial Description of Alchemy
+  - Speculation About Ancient Runes
+  - Testing Wand Lore
+
+## Hogwarts Buildings and Enchantments
+
+- Boundaries, Wards, and Exceptional Magic
+  - House-elf exceptions to anti-Apparition protections
+- Headmaster's Office and Portrait Network
+  - Former headmasters as mobile castle witnesses
+  - Former headmasters as mobile portrait witnesses
+  - Portrait communication limits and linked frames
+  - Portrait surveillance and office artifacts under Snape
+- Hidden Rooms, Passages, and Portrait Routes
+  - Ariana's portrait tunnel to the Hog's Head
+  - Known secret passages sealed under occupation
+
+## Hogwarts Buildings and Grounds
+
+- Hidden Architecture and Alterations
+  - Plumbing, Bathrooms, and the Chamber Entrance
+
+## Hogwarts Castle and Grounds
+
+- House Common Rooms and Dormitories
+  - Hufflepuff Common Room Entrance
+  - Hufflepuff Common Room Interior
+  - Hufflepuff Entrance Mechanism
+  - Hufflepuff Entrance Security
+
+## Hogwarts Crises and Institutional Memory
+
+- The First Known Chamber Opening
+  - Riddle's False Accusation of Hagrid
 
 ## Hogwarts Curriculum and Instruction
 
 - Academic Progression and Examinations
   - Fourth-year preparation for O.W.L. pressure
+- Care of Magical Creatures
+  - Hippogriff handling and classroom risk
 - Defense Against the Dark Arts
   - Fourth-year curse curriculum after Dark creature groundwork
 - Divination and Elective Study
   - Fourth-year prediction homework and student skepticism
+
+## Hogwarts Foundations and Material History
+
+- Founder Relics and House Memory
+  - Goblin Craft and Contested Ownership
+  - The Sword of Gryffindor
+  - Worthiness and the Sword’s Return
 
 ## Hogwarts Governance and External Oversight
 
@@ -200,27 +682,227 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Wizarding Law in the Classroom
   - Unforgivable Curses and Azkaban sentencing
 
+## Hogwarts Life and Culture
+
+- Student Life and House Identity
+  - Quidditch and School Culture
+
+## Hogwarts Life and Material Culture
+
+- Student Equipment and Travel
+  - Standard-issue school trunks
+
+## Hogwarts Life and Traditions
+
+- School Gatherings and Performances
+  - The Fountain of Fair Fortune Pantomime
+
+## Hogwarts People and Institutions
+
+- House Governance and Staff
+  - Ravenclaw Head of House
+- Students, Staff, and House Histories
+  - Rubeus Hagrid's Gryffindor Education
+
+## Hogwarts Staff and Governance
+
+- Teaching Staff and School Subjects
+  - Care of Magical Creatures Professorship
+  - Staff Discipline and Retention
+
+## Hogwarts Through the Ages
+
+- Student Life and Hidden Hogwarts
+  - Confiscation and the Map’s Afterlife
+  - Rule-Breaking Culture and the Map
+  - The Marauders and Nocturnal Exploration
+- The Castle’s Magical Systems
+  - Mapping and Occupant-Tracking Magic
+
+## Hogwarts as a Place
+
+- Setting and Geography
+  - Scotland
+
+## Hogwarts governance and staff
+
+- Caretakers and castle maintenance
+  - Peeves as a continuing caretaker responsibility
+  - The 1876 Peeves containment crisis
+  - The Eupraxia Mole settlement
+- Discipline and resident inhabitants
+  - Authorities recognised by Peeves
+
+## Hogwarts in Times of Crisis
+
+- Crisis Authority and School Closure
+  - Student uncertainty after the funeral
+- Death Eater Infiltration and the Tower Battle
+  - Corridor defense below the Astronomy Tower
+  - Dark Mark over Hogwarts
+  - Death of Albus Dumbledore
+  - Entrance hall breach and House-hourglass damage
+  - Headmaster sacrifice and concealed witness
+  - Hospital-wing triage after the tower battle
+  - Staff-response failure and the cursed stair barrier
+- Death, Mourning, and Memorial Practice
+  - Dumbledore's burial request and student tribute
+  - Schoolwide lakeside funeral staging
+  - Suspended lessons and funeral arrival logistics
+- Security and Restricted Objects
+  - Arrival and Mail Screening
+  - Coerced Hogsmeade accomplice and communication loophole
+  - Cursed-object attack follow-up and disguise risk
+  - Cursed-object attack on the Hogsmeade return route
+  - Disguised contraband and Secrecy Sensor limits
+  - Hogsmeade screening and external guard coverage
+  - Hogsmeade trip screening under wartime precautions
+  - Polyjuice disguise misuse in school corridors
+  - Staff investigation after a failed cursed-object attack
+- Security, Discipline, and Wartime Infiltration
+  - Gatecrashing, Head-of-House authority, and covert risk
+- The First Prophecy and the Second War
+  - Snape's partial overhearing and return
+- The Second War at School
+  - Parental Fear and Protective Measures
+- Wartime Security and Medical Response
+  - Hogsmeade return and headmaster emergency care
+- Wartime Security and Student Resistance
+  - Headmaster absences and unofficial D.A. watch
+
+## Hogwarts inhabitants and daily life
+
+- Resident ghosts and poltergeists
+  - Peeves and the castle's intractable residency
+  - Peeves' exceptional properties
+  - The origin and nature of Peeves
+
+## Hogwarts, a History as a Source
+
+- Companion Books and Editorial Frames
+  - Comic Relief charity edition provenance
+  - Harry's annotated school copy
+  - Muggle-facing production provenance
+  - Obscurus Books and Muggle charity editions
+  - Sales channels, charity donations, and motto framing
+- Named Wizarding Historians and School Texts
+  - Bathilda Bagshot as a cited historical authority
+
+## Hogwarts: A History
+
+- Admission and the First Years
+  - Admission threshold and confirmation
+  - Delayed confirmation of magical ability
+  - Identification of magical children
+  - Safeguards against false admission
+  - The Book and Quill
+- School Security and Safeguards
+  - Dumbledore's Mirror safeguards
+- School Staff and Traditions
+  - Staff composition and representation
+  - Staff travel and acquired artefacts
+- The Castle
+  - Ancient artefacts and uncertain origins
+  - Enchanted objects and their uses
+  - The Room of Requirement and long-term concealment
+- The School's Foundations and Governance
+  - Founder-established admissions instruments
+
+## Houses and Student Life
+
+- Ravenclaw House
+  - House Motto and Student Identity
+
 ## Houses, Heraldry, and School Identity
 
 - The Four Houses
+  - Colour palettes and elemental associations
   - House colors, animals, and the Hogwarts coat of arms
+  - Slytherin green and cultural associations
+
+## Institutional Life and Governance
+
+- School Records and Historical Memory
+  - The Hogwarts Pensieve
+
+## International Secrecy and Creature Control
+
+- Magical Creatures and Muggle Exposure
+  - Fines for creature-based secrecy breaches
 
 ## Later Editorial Notes
 
 - Alumni, War Memory, and Unreliable Testimony
   - Black, Potter, and Pettigrew in School Memory
+- Authorial Commentary
+  - Muggle Conformity and Wizard Otherness
+  - Orphanhood, Autonomy, and the Boarding-School Surrogate Family
+  - School as Sanctuary and Boarding-School Imagination
 - Blood Status and Hogwarts Society
   - Academic Merit and Pure-Blood Prejudice
   - Pure-Blood Prejudice Beyond School
   - Slurs, Prejudice, and Student Achievement
+- Care of Magical Creatures
+  - Hagrid and dangerous creature pedagogy
+- Classrooms, Towers, and Teaching Spaces
+  - Classroom eleven and Firenze's adapted Divination room
+- Crisis Evidence and Student Care
+  - Immediate Survivor Account in the Headmaster's Office
+- Dark Artifacts, Oaths, and Wartime Punishments
+  - Wormtail's silver hand and the cost of mercy
 - Dark Magic, Security, and Public Panic
   - Dark Mark Summoning and Emergency Response
+- Defense Against the Dark Arts Staffing
+  - End of the Jinx and Quirrell's Prior Appointment
 - Defense Against the Dark Arts Staffing and Ministry Links
   - Alastor Moody's Auror Record Before Hogwarts
   - Moody's Experience-Based Teaching Reputation
   - Moody's Formal Appointment at the Start-of-Term Feast
+  - Umbridge's Staff-Table Arrival and Grubbly-Plank's Substitution
+- Defense Against the Dark Arts Under Ministry Oversight
+  - Combat suppression and fireplace intelligence
+  - Student-led practical defense after curriculum failure
+  - Theory-only lessons, dissent, and discipline
+  - Umbridge's theory-centered curriculum
+- Defense, Mind Magic, and the Second War
+  - Headmaster-led private lessons after Occlumency failed
+- Defense, Mind Magic, and the Umbridge Year
+  - Private Occlumency lessons under official cover
+- Discipline, Punishment, and Caretaking
+  - Decree Twenty-nine and caretaker enforcement
+  - Portable Swamp, whipping approval, and student departure
+  - Portable swamp aftermath and staff noncooperation
+  - Portable swamp memorial and Umbridge's departure
 - Divination, Prophecy, and School Testimony
+  - Dual Divination staffing after Firenze's appointment
+  - Ministry custody and access hazards for prophecy records
+  - Ministry custody of prophecy records
+  - Physical prophecy records in the Department of Mysteries
+  - Prophecy interpretation, relabeling, and Harry's marked status
+  - Protective reasons for dual Divination staffing
   - Trelawney's True Prophecy and Later Corroboration
+  - Trelawney's appointment interview and the first prophecy
+  - Trelawney's confirmation of shared Divination classes
+- Dumbledore and the First Wizarding War
+  - Elder Wand ownership, Hogwarts tomb, and Voldemort's theft
+  - Grindelwald's imprisonment, refusal, and Elder Wand trail
+  - Nurmengard, the Greater Good slogan, and later repudiation
+- Dumbledore's Final Plan and the Deathly Hallows
+  - Stone failure, Hermione's delay, and Snape's intended wand succession
+- Dumbledore's Private Instruction During the Second War
+  - Pensieve lessons in the headmaster's office
+- Examinations and Academic Progression
+  - O.W.L. crisis response and staff injury aftermath
+- Exceptional Instruction During the Second War
+  - Headmaster absences and delegated crisis response
+  - Headmaster-led private lessons and prophecy preparation
+- Famous Students and Wartime Rumor
+  - Harry Potter's arrival and Death Eater interpretations
+- Founder Relics, Horcruxes, and Dumbledore's Final Plan
+  - Nagini signal and covert sword delivery
+  - Neville as contingency bearer of the Nagini mission
+- Grounds, Transport, and the Forbidden Forest
+  - Thestrals beyond school-carriage service
 - Harry Potter Before Hogwarts
   - Accidental Magic Before School
   - Guardianship and Public Memory
@@ -240,8 +922,38 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Suppressed Holiday Contact
 - Harry Potter and Voldemort's Return
   - Curse Scars and Voldemort Proximity
+- Harry Potter, Horcruxes, and Protective Magic
+  - Accidental Horcrux and blood-tether protection
+- Headmasters and School Authority
+  - Conditional Ministry appointment power and Firenze
+  - Dumbledore's Autonomy and Fudge's Governance Threat
+  - Educational Decree Number Twenty-five and punishment authority
+  - Educational Decree Number Twenty-four and student organizations
+  - Educational Decree Number Twenty-six and teacher speech
+  - Educational Decrees and the High Inquisitor
+  - Enforcement of Decree Twenty-four against the D.A.
+  - Faculty workarounds under centralized authority
+  - High Inquisitor inspections and Care of Magical Creatures
+  - High Inquisitor possession bans and expulsion threats
+  - High Inquisitor scrutiny of Hagrid
+  - Ministry denial, classroom discipline, and staff constraints
+  - Ministry pressure on Dumbledore's allies
+  - Ministry pressure on prefect loyalty
+  - Ministry-appointed headship and resistant office access
+  - Probation and continuous inspection of vulnerable teachers
+  - Public Truth-Telling Against Ministry Pressure
+  - Teacher dismissal versus castle residence
+  - Umbridge's Opening Speech and Ministry Interference
+- Headmasters, Headmistresses, and Their Office
+  - Snape's Post-War Portrait Exception
 - Hogwarts Staff and Associates Before Harry's Arrival
   - Hagrid's Trusted Mission
+- Hogwarts Under the Carrows
+  - Public support, arrests, and Taboo exposure
+- Hogwarts as Home and Historical Memory
+  - Abandoned boys and the school as formative home
+- House Identity and Reputation
+  - Later Dilution of Slytherin's Pure-Blood Identity
 - House-Elves and Hogwarts
   - Clothing, Dismissal, and Servitude Norms
   - House-Elf Bondage Before Hogwarts Kitchen Evidence
@@ -249,6 +961,15 @@ Source data: sources YAML + project-control indexes + structured source data.
   - House-Elf Magic and Old Wizarding Households
   - Kitchen Labor, Cleaning, Fires, and Dormitory Service
   - Service Norms, Pay, and Regulation
+- House-Elves and Hogwarts Labor
+  - Student Activism and Kitchen Access
+- House-Elves, Households, and Magical Secrecy
+  - House-elf obedience, lies, and Secret-Keeper limits
+- Houses, Heads, and Pastoral Responsibility
+  - Head-of-House Family Support After Cedric Diggory's Death
+- Houses, Points, and Student Authority
+  - Inquisitorial Squad physical enforcement
+  - Inquisitorial Squad point powers
 - Law, Creatures, and Magical Citizenship
   - Code of Wand Use and Non-Human Wand Restrictions
   - Ministry Guidelines for Non-Wizard Part-Humans
@@ -256,48 +977,271 @@ Source data: sources YAML + project-control indexes + structured source data.
   - National Mascots and Event Control
 - Magical Evidence and Investigation
   - Wand Spell Echoes and Prior Incantato
+- Magical Oaths and Wartime Obligations
+  - Consequences of the Unbreakable Vow
+  - Unbreakable Vow procedure
+- Magical Residents of the Grounds
+  - Grawp relocated from the Forest to a mountain cave
 - Marauders-Era Context and Hidden Identities
   - Animagi, Map Dots, and Pettigrew's Survival
   - Illegal Animagi and Monthly Transformations
   - Pettigrew's Concealed Animagus Identity
+- Ministry Authority and School Affairs
+  - Estate seizure and suspected Dark artifacts
+- Ministry Interfaces and Magical Research
+  - Brain Room hazards
+  - Disorienting magical architecture beyond Hogwarts
+  - Door charms and search movement inside the Department
+  - High-security Department doors
+  - Planetary research chamber
+  - Research rooms and navigation workarounds
+  - Rotating-room navigation and exit behavior
+  - The veiled arch and death-related magic
+  - Time Room hazards and temporal artifacts
+- Ministry Intervention and Hogwarts Governance
+  - Public proof, containment jinx, and emergency return to school
+- Ministry Intervention and Its Collapse
+  - Former staff rumors about Umbridge and the centaur herd
+- Ministry Intervention and Staff Vulnerability
+  - Hagrid's attempted removal during the Astronomy O.W.L.
+- Ministry Intervention in School Governance
+  - Attempted removal of Trelawney
+- Ministry Oversight and Student Hearings
+  - Visitor entry after hours and security gaps
+- Ministry Pressure and Public Records
+  - Public Opinion Inside Student Dormitories
+- Ministry Public Ideology and Non-Human Beings
+  - Fountain animation and wartime destruction
+- Ministry Relations With the Muggle Government
+  - Mandatory briefings about magical incidents
+  - Prime Minister notification and portrait contact
+  - Scrimgeour succession and Prime Minister protection
+- Ministry Structure and Hogwarts Oversight
+  - Department levels relevant to school-age magic
+- Phoenixes and Headmaster Associations
+  - Fawkes's Permanent Departure
+- Post-1984 Developments
+  - Dark magic and the Quirrell possession
+  - Hogwarts staff careers and appointments
+  - Internal threats and school security
 - Post-1984 Incidents and Confirmations
   - Enchanted Vehicles on Hogwarts Grounds
+- Protective Magic and Security
+  - Covert student communication under the High Inquisitor
+  - D.A. fake Galleons under the Carrows
+  - Dormitory crisis escalation to the headmaster
+  - Emergency communication and transport under surveillance
+  - Emergency communication when ordinary adult authority is absent
+  - Office access workarounds and student corridor control
+  - Office fireplace communication to Order headquarters
+  - Office fireplaces and surveillance workarounds
+  - Shield Charm rebound in live combat
+  - Stealth Sensoring Spells and office intrusion response
+  - Watched communications under the High Inquisitor
+- Public Records and Wizarding Press
+  - The Quibbler as Unreliable Alternative Press
 - Public Records and Wizarding Press Sources
   - Daily Prophet Coverage of the World Cup Crisis
 - Quidditch Beyond Hogwarts
   - Spectator Devices and Tactical Literacy
+- Quidditch and School Recreation
+  - High Inquisitor control of House teams
+- Snape's Headmastership and the Occupied School
+  - Dumbledore's student-protection charge and planned death
+- Sources and Authorial Context
+  - Cauldron Folklore
+  - Real-World Ingredient Traditions
+- Sources for Dumbledore's Life
+  - Obituary, Biography, and Public Memory
+- Sources on Dumbledore After His Death
+  - Bathilda's photographs and Rita Skeeter's source handling
+  - Obituary, Biography, and Public Dispute
+  - Serialized biography, Bathilda testimony, and Ariana's schooling
+- Staff Culture and Accommodation
+  - Trelawney's isolated tower office
+- Staff, Subjects, and Ministry Inspection
+  - Divination inspection and teacher credentials
+  - Inspection consequences and probation
+  - Potions inspection and teacher background review
 - Student Inventions and Magical Misconduct
   - Weasley Joke Products at Hogwarts
   - Weasley Joke Sweets and Engorgement Charms
+- Student Protection and Exceptional Safeguards
+  - Trace law after Harry comes of age
+- Student Resistance and Practical Defense
+  - D.A. Patronus instruction in the Room of Requirement
+  - Widespread anti-Umbridge sabotage after the Weasley exit
+- Student Welfare and Crisis Response
+  - Privacy Instructions and Class Disruption After the Maze Crisis
+- The 1997 Breach of Hogwarts
+  - Death Eater Infiltration and the Astronomy Tower
+- The Battle of Hogwarts and Its Aftermath
+  - Cease-fire, triage, and mourning in the Great Hall
+  - Great Hall mourning and underage casualties
+  - Great Hall reunions and suspension of House seating
+  - Harry's sacrificial protection over the defenders
+  - Reinforcements and magical residents in the final counterattack
+- The Battle of Hogwarts and Its International Participants
+  - Fleur Delacour as a Beauxbatons Alumna
 - The Chamber of Secrets Crisis
   - Early Warnings Before Term
+- The Deathly Hallows and the Horcrux War
+  - Harry's Hallows-versus-Horcruxes interpretation
 - The Fall of Voldemort
   - Harry Potter's Fame at Hogwarts
+- The Second War and Defensive Magic
+  - Commercial defensive devices and Shield Charm gaps
+  - Counterfeit protective objects and Ministry enforcement
+- The Second War and External Threats
+  - Dementor Deployment Beyond Azkaban and Hogwarts
+  - Dementors in Little Whinging
+- The Second War and Hogwarts Communication
+  - Post-Return Letter Secrecy and Press Silence
+- The Second War and Hogwarts Governance
+  - Ministry Fall and Emergency Patronus Warnings
+  - Ministry pressure after Dumbledore's funeral
+  - Ministry pressure, Harry's public role, and Dumbledore's independence
+- The Second War and Hogwarts Information Climate
+  - Alternative press and Harry's Quibbler interview
+  - Alternative press reaches Hogwarts by owl post
+  - Hostage pressure and reversal of The Quibbler
+  - Ministry acknowledgement and Dumbledore's reinstatement
+  - Password-protected resistance broadcasts
+  - Potterwatch as passworded counter-news
+  - Public prophecy rumors after the Department of Mysteries
+  - Public prophecy rumors entering student life
+  - Student and staff workarounds under information control
+  - The Azkaban breakout reaches the Great Hall
+  - The Quibbler as pro-Harry resistance press
+- The Second War and Hogwarts Security Breaches
+  - Borgin and Burkes consultation before the cabinet plot
+- The Second War and Hogwarts-Connected Families
+  - Pure-Blood Ideology and Black Family War Alignment
+- The Second War and Hogwarts-Connected Organizations
+  - Competing giant recruitment after Karkus's death
+  - Hogwarts as an intelligence post
+  - Ministry surveillance and the giant mission route
+  - Order Escorts for School Travel
+  - Order Leadership, Membership, and Headquarters Meetings
+  - Order Operations and Intelligence Work
+  - Order Recall and Voldemort's Recruitment Strategy
+  - Original Order Roster and First War Casualties
+- The Second War and Hogwarts-Connected Staff
+  - Retired staff evasion before returning to Hogwarts
+- The Second War and Magical Beings
+  - Werewolf recruitment and Order intelligence
+- The Second War and Ministry Casualties
+  - Amelia Bones's murder and Muggle ignorance
+- The Second War and Muggle-Facing Secrecy
+  - Dementor revolt, breeding, and public despair
+  - Public disasters, Auror response, and memory repair
+- The Second War and School Supply Routes
+  - Diagon Alley under wartime security pressure
+- The Second War and Student Life
+  - Death Eater service versus Hogwarts qualifications
+- The Second War and Student Protection
+  - Off-campus protection under Dumbledore's direction
+- The Second War and the Elder Wand Trail
+  - Voldemort's partial knowledge of the Hallows
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
+- The Triwizard Tournament Revival
+  - Linked disappearances and Ministry disagreement
+  - Ministry investigation and visiting-school tensions
+  - Student preparation for the third task
 - The Triwizard Year and Institutional Ceremonies
   - The Weighing of the Wands
+- The Triwizard Year and Institutional Procedure
+  - Bagman's Debts and Financial Pressure on Tournament Conduct
+  - Scoring and Second-Task Clue Distribution
+  - Second-Task Clue Rules and Misreadings
+  - Second-Task Schedule and Clue Management
 - The Triwizard Year and Institutional Security
   - Age Line enforcement and student attempts to bypass it
   - Bertha Jorkins and Ministry Search Failure
+  - Bertha Jorkins and Tournament Information Leakage
   - Binding selection and failed eligibility safeguards
+  - Cedric Diggory's Death and Tournament Aftermath
   - Champion instructions for the first task
   - Champion selection and the fourth name
   - Classified Ministry Announcement at Hogwarts
   - Classified Rules, Entry, and Prize Foreshadowing
   - Confunding the Goblet of Fire
+  - Covert Guidance Through School Information Networks
+  - Crouch's Forest Warning and Tournament Administration Fragments
+  - Cup Portkey Return to Hogwarts
+  - Cup Portkey Return to the Maze Edge
+  - Dementor Entry and Loss of Crouch's Testimony
   - Entry procedure, Age Line, and binding contract
+  - Family Aftermath and Prize Refusal After Cedric Diggory's Death
+  - Final-Task Patrol Sabotage
+  - First-Task Secrecy and Informal Leaks
+  - Foe-Glass Warning and Staff Rescue
+  - Goblet Entry Sabotage by the Hogwarts Infiltrator
+  - Goblet Manipulation and Cup Portkey Breach
   - Goblet lifecycle and closed selection
+  - Graveyard Victim Echoes
   - Host-school fairness dispute
+  - Immediate Mobilization After Fudge's Refusal
   - Judges, tasks, scoring, and the Goblet selector
+  - Karkaroff, Moody, and Durmstrang Risk
   - Ministry Information Leaks and Memory Charm Limits
   - Ministry Workload Before the Tournament
+  - Portkey Breach Beyond Hogwarts Grounds
+  - Priori Incantatem and Wand-Core Evidence
+  - Staff Custody and Medical Response After the Impostor Exposure
+  - Staff Impersonation and the Seven-Locked Trunk
   - The fourth champion anomaly
   - Tournament History, Revival, Selection, and Age Restriction
+  - Traditional Cheating and First-Task Fairness
+  - Triwizard Cup Endpoint and Portkey Breach
+  - Veritaserum Interrogation After the Third Task
+- The Triwizard Year and Magical Creature Hazards
+  - Dragon Assignment and First-Task Order
+  - Dragon Breeds, Keepers, and Containment
+  - Dragon breeds in textbook and lived school experience
 - The Triwizard Year and Public Records
   - Press access and distorted champion coverage
+  - Rita Skeeter's Unregistered Animagus Surveillance
+- The Umbridge Interregnum
+  - Student Enforcement and Proscribed Associations
+- The War Beyond the Gates
+  - Ambush Over Muggle Britain
+  - Burrow protections broken after the Ministry falls
+  - Coming of age and the end of the Trace
+  - Expelliarmus as Harry's wartime signature
+  - Family protection cover plans for nonreturning students
+  - Hidden prisoner breakouts and Dark Magic wounds
+  - Hypothetical Postwar Hogwarts Graduation
+  - Ministry Reliability and Civilian Protection
+  - Moody's death and Seven Potters debrief
+  - Muggle refuges and Death Eater reach
+  - Muggle-Visible Violence and Dark Creatures
+  - Nagini, Parseltongue, and corpse-concealment magic
+  - Polyjuice Decoys and Escort Risk
+  - Suppressed public records and missing Hogwarts staff
+  - The Trace and the trio's nonreturn to Hogwarts
+  - Voldemort's Pursuit and Wand Anomaly
+  - Wand anomaly and Ollivander interrogation
+  - Watched Patronus communications after the wedding attack
 - The Wizarding War and Hogwarts Memory
   - Secrecy Strains After Voldemort's Fall
+- Wands, Equipment, and Magical Materials
+  - Broken wands and limits of ordinary repair
+  - Broken wands and the loss of twin-core protection
+  - Gregorovitch search and the wand anomaly
+  - Gregorovitch's stolen object and Voldemort's search
+  - Gregorovitch, Ollivander, and International Wandmaking
+- Wartime Movement and Secrecy Outside Hogwarts
+  - Apparition into Muggle spaces and Auror fear
+- Wartime Security Around Hogwarts
+  - Bewitched gates, chained boundaries, and anti-intruder walls
+  - Hogsmeade Auror station and Patronus notice to the castle
+  - Strengthened fortifications and schoolwide reporting rules
+- Wizarding Institutions Beyond Hogwarts
+  - St. Mungo's ward safety and Ministry casualties
+- Wizarding Law in the Classroom
+  - Illegal interrogation threat under Ministry school control
 - Wizarding Press and Public Records
   - Daily Prophet Coverage of Moody Before His Hogwarts Term
 - Wizarding Schools Beyond Britain
@@ -313,30 +1257,85 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Quidditch World Cup Stadium Protections
   - World Cup Riot and Muggle Victim Rescue
 
+## Learning, Books, and Forbidden Knowledge
+
+- Restricted and Banned Magical Subjects
+  - Herpo the Foul and Horcrux Origins
+  - Horcrux destruction and soul repair mechanics
+  - Horcruxes Beyond Hogwarts Library Detail
+  - Horcruxes as a Banned Hogwarts Topic
+  - Removed Horcrux books in Dumbledore's office
+- Restricted and Dangerous Spellcraft
+  - Sectumsempra, countercurse, and student injury
+- Textbooks, Marginalia, and Informal Knowledge
+  - Snape as the Half-Blood Prince
+
+## Lessons, Exams, and Magical Knowledge
+
+- Potions Curriculum and Practical Safety
+  - N.E.W.T.-level antidote theory and bezoar use
+- Restricted Books and Forbidden Knowledge
+  - Horcrux references withheld from student research
+
+## Magical Architecture and Domestic Space
+
+- Expanded Interiors and Temporary Lodgings
+  - Wizarding tents as portable flats
+
 ## Magical Architecture and Enchantments
 
+- Castle Navigation and Concealed Routes
+  - Marauders-era meeting places and blocked passages
 - Castle Navigation, Maps, and Concealed Routes
+  - Map-and-cloak movement between tower and grounds
+  - Tapestry Shortcuts and Trick Steps
   - The Honeydukes Passage
   - The Marauder's Map
   - The Marauder's Map and Secret Passage Knowledge
+  - The Marauder's Map in Nighttime Castle Movement
   - The Whomping Willow Tunnel
+- Castle-Wide Magical Environment
+  - Muggle Technology Failure Around Hogwarts
 - Changing Staircases and Responsive Doors
   - Navigating the Castle
   - Nighttime Routes and Tower Access
 - Enchanted Objects and Hidden Rooms
   - The Mirror of Erised
+- Grounds, Transport, and the Forbidden Forest
+  - Thestrals as emergency long-distance transport
+  - Thestrals, carriage teams, and death-sight visibility
 - Headmaster's Office and Protected Entrances
   - Dippet-Era Office and Entrance Continuity
+  - Emergency nighttime access from Gryffindor Tower
+  - Gargoyle password and moving staircase
+  - Gargoyle password use for scheduled private lessons
   - Office Interior, Portraits, and Artifacts
+  - Office artifacts and founder-linked objects
   - Passworded Gargoyle and Moving Staircase
+  - Passworded gargoyle and moving stair access
+  - Rightful-headmaster access and portrait supervision
+  - The Pensieve and stored memories
 - House Common Rooms and Dormitories
+  - Founders' dormitory rule and staircase enforcement
   - Gryffindor Tower Access
+  - Password Access and Fireplace Communication
   - Slytherin Dungeon Entrance and Common Room
+- Protected Offices and Moving Entrances
+  - Headmaster's Gargoyle Entrance and Password Changes
+- Protective Magic and Guarded Places
+  - Creature Guardians and Riddle Barriers
+- Pure-Blood Families and School Influence
+  - Elite Household Architecture and Portrait Culture
+  - Malfoy Manor security and portrait culture under wartime occupation
 - Secret Passageways and Hidden Routes
   - Tapestries, Statues, and Student Wayfinding
   - The Bathroom Entrance to the Chamber
   - The Bathroom Pipe Exit
   - The Central Chamber and Serpent Architecture
+- Secret Rooms, Moving Routes, and Responsive Castle Spaces
+  - Repeated D.A. use and house-elf decoration
+- Temporary Tournament Enchantments
+  - Maze Silencing, Navigation, and Spell Obstacles
 - The Great Hall
   - The Enchanted Ceiling
 - Towers, Offices, and Upper-Floor Access
@@ -347,24 +1346,268 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Enchanted Space Beyond the Castle
   - Expanded Tents and Public Camouflage
 
+## Magical Artefacts and Everyday Objects
+
+- Founder Relics and Later Dark Uses
+  - Slytherin's locket as an active Horcrux
+- Wands, Ownership, and Identity
+  - Wand seizure and denied magical status
+
+## Magical Artefacts and Instruments
+
+- Concealment, Storage, and Field Equipment
+  - Hermione's extended beaded bag
+- Headmasters' Magical Instruments
+  - Dumbledore's Deluminator
+
+## Magical Beings, Beasts, and Classification
+
+- Centaurs and Self-Classification
+  - Respect-based beast status
+
+## Magical Communities and Families
+
+- Beings, Beasts, and Wizarding Law
+  - Ministry creature classification and centaur resistance
+- Beings, Beasts, and Wizarding Prejudice
+  - Ministry Symbolism and Non-Human Beings
+- Centaurs, Law, and Non-Human Autonomy
+  - Centaur rejection of human service and wizard law
+- Godric's Hollow and Wizarding Memory
+  - Churchyard graves, old families, and Hallows evidence
+  - Potter cottage monument and magical visitor messages
+  - Potter memorial hidden in a Muggle village square
+- Old Wizarding Families and Founder-Era Memory
+  - Peverell family and Hallows provenance
+- Squibs and Family Status
+  - Historical Stigma, Muggle Schooling, and Hogwarts Nonattendance
+- Squibs, Muggle Neighbors, and Wizarding Records
+  - Squib Witnesses and Ministry Registration Gaps
+- Wizarding Family Customs
+  - Marriage Ceremonies and Enchanted Receptions
+
+## Magical Crafts and Material Culture
+
+- Wandcraft
+  - Customer-Supplied Cores
+  - Magical Trees and Wood Selection
+  - Standardization and Innovation
+
+## Magical Creatures and Wizarding Governance
+
+- Regulation of Dangerous Beasts
+  - Wizard-bred monsters and controlled creature trade
+
+## Magical Creatures and Wizarding Law
+
+- Controlled Creature Materials
+  - Erumpent horn, tail, and fluid trade
+- Creature Regulation and Domestic Ownership
+  - Licensed ownership near Muggles
+- Dragon Reserves and International Study
+  - Romanian Longhorn conservation
+- Dragons, Trade, and Containment
+  - Dragon parts and egg-trade restrictions
+
+## Magical Creatures and Wizarding Society
+
+- Beast Classification and Creature Governance
+  - Dangerous Creature Habitats and Ministry Control
+  - International Creature Protection
+- Creature Ownership and Secrecy Duties
+  - Concealment Duties for Large Flying Beasts
+- Dark Magic, Parseltongue, and Creature Lore
+  - Serpentine Creatures and Dark Wizard Associations
+
+## Magical Creatures and the School Library
+
+- Dangerous Creatures in Study and Tournament Use
+  - Dragon Lore in Hogwarts Library Sources
+
+## Magical Creatures on the Hogwarts Grounds
+
+- Forbidden Forest Residents
+  - Student-confirmed Acromantula colony
+
+## Magical Institutions Beyond Hogwarts
+
+- Gringotts, Goblins, and Wizarding Power
+  - Break-in reporting and the stolen cup
+  - Cursed treasure and the false Sword of Gryffindor
+  - Deep vault hierarchy and old-family treasure protection
+  - Dragon guardians, Clankers, and goblin-authorized vault entry
+  - Goblin custodianship, secrecy, and founder relic claims
+  - Lestrange vault security and Horcrux target selection
+  - The Thief's Downfall and anti-enchantment defenses
+  - Vault identification and special wartime orders
+  - Wartime entrance screening and Probity Probes
+
+## Magical Institutions Beyond the Castle
+
+- Gringotts, Goblins, and Wizarding Power
+  - Wartime control of Gringotts
+
+## Magical Law and Institutions
+
+- Creature Regulation and Wizarding Public Safety
+  - Continuing disputes over creature status
+  - Failed language-based being definition
+  - Grogan Stump's 1811 creature-law settlement
+  - Legal distinction between beings and beasts
+  - Scamander's mid-century regulatory legacy
+  - Wizards' Council classification experiments
+
+## Magical Law and Secrecy
+
+- Concealment After Magical Exposure
+  - Memory Charms and scene restoration
+
+## Magical Materials and School Supplies
+
+- Wand Woods and Creature Guardianship
+  - Bowtruckles and wand-wood harvesting
+
+## Magical Objects and Artifacts
+
+- Cloaks, Concealment, and Anti-Detection
+  - True Invisibility Cloaks versus lesser concealment cloaks
+- Cloaks, Concealment, and Anti-Detection Magic
+  - Creature-derived Invisibility Cloaks
+- Communication Artifacts and Wartime Rescue
+  - Sirius Black's mirror in Aberforth's keeping
+- Founder Relics, Horcruxes, and Dumbledore's Final Plan
+  - Neville, the Sorting Hat, and Nagini's destruction
+- The Deathly Hallows
+  - Dumbledore's testimony on Hallows temptation
+  - Harry's disposition of the Hallows and wand repair
+  - Peverell creators, Cloak lineage, and Hogwarts misuse
+  - Potter Cloak provenance and Dumbledore's examination
+  - Snitch bequest and suspected Stone concealment
+  - Snitch bequest opened at the close
+  - Stone companions and Dementor resistance
+  - Three artifacts and the master-of-Death claim
+  - Wandmaker evidence for the Elder Wand outside Hallows tradition
+- Wand Ownership and Compatibility
+  - Elder Wand provenance and alternate names
+  - Replacement wands and weakened spellwork
+- Wands, Equipment, and Magical Materials
+  - Twin-core aftermath and Voldemort-specific wand anomaly
+  - Wand repair limits, identification, and allegiance
+
+## Magical Objects and Protective Magic
+
+- Concealment, Detection, and Anti-Detection Magic
+  - Limits of cloak concealment under Dark wartime surveillance
+
+## Magical Residents and Creatures
+
+- Phoenixes and Headmaster Associations
+  - Fawkes's lament and departure
+- The Lake, Forest, and Non-Human Neighbors
+  - Non-human attendance at Dumbledore's funeral
+
+## Magical Residents and Hidden Histories
+
+- Ghosts, Portraits, and Castle Memory
+  - Moaning Myrtle, Plumbing, and the Lake
+
+## Magical Transportation
+
+- Brooms, Beasts, Portkeys, and Improvised Vehicles
+  - Seven-Potters Transport Assignments
+  - Staggered Portkey relay to the Burrow
+
+## Magical Transportation and Boundaries
+
+- Hogsmeade, Apparition, and School Boundaries
+  - Headmaster travel cover and side-along Apparition
+
+## Magical Transportation and Student Restrictions
+
+- Apparition Training, Licensing, and Risks
+  - Emergency treatment after Splinching
+
+## Magical and Muggle Society
+
+- Shared Material Culture
+  - Transport Before Secrecy
+
+## Medieval Magical Britain
+
+- Crafts and Knowledge
+  - Wandmakers and Written Tradition
+
+## Medieval Magical World
+
+- Contact Beyond Britain
+  - Transcontinental Magical Networks
+
+## Modern Wizarding Britain
+
+- Commerce and Magical Crafts
+  - Wand-Wood Fashion and Fraud
+- Technology and Secrecy
+  - Enchanted Motor Vehicles
+  - The Aborted Wizarding Television Service
+  - Wizarding Radio
+
 ## Notable Events Before 1984
 
 - Dark Marks and Wartime Terror
   - Death Eaters, Public Terror, and Postwar Denials
 - Dumbledore and the First Wizarding War
   - Biographical Sources and Public Reputation
+  - Grindelwald's Durmstrang expulsion and Godric's Hollow arrival
+  - Grindelwald's Symbol and Durmstrang Memory
+  - Hallows ideology, Ariana's death, and Grindelwald's flight
   - Hogwarts as a Wartime Safe Place
   - Reputation, Power, and Voldemort
+  - The 1945 Duel and Later Reputation
+  - Young Dumbledore's anti-Statute political letter
+- Dumbledore's Student Years
+  - Aberforth at Hogwarts
+  - Arrival Under Family Notoriety
+- Dumbledore, Grindelwald, and the Deathly Hallows
+  - Hallows symbol, believers, and the Quest
+  - Symbol evidence before Xenophilius's explanation
+- Dumbledore, Grindelwald, and the Greater Good
+  - Ariana's death and the break with Grindelwald
+- First Wizarding War and Hogwarts Families
+  - The Longbottom Aurors and Bellatrix Lestrange
+- Godric's Hollow and the Dumbledore Family
+  - Bathilda Bagshot as Neighbor and Historical Source
+- Magic Before and Beyond Hogwarts
+  - Commercial Potion Innovation
+- Magical and Muggle Society
+  - Secrecy and Political Division
+  - Wartime Assistance and Separation
+- Old Wizarding Families and Artifact Inheritance
+  - Peverell descent through vanished male lines
+- Staff Appointments and Protective Patronage
+  - Trelawney's protected appointment
+- The Dumbledore Family Before Hogwarts Headmastership
+  - Ariana's attack and family concealment
 - The Fall of Voldemort
   - Godric's Hollow and the Boy Who Lived
+  - Voldemort's memory of the Potter cottage attack
 - The First Known Chamber Opening
   - Death, Secrecy, and Expulsion
   - Hagrid, Aragog, and the False Culprit
   - Riddle's Account, Expulsion, and Cover Story
   - Riddle's Confession and Hagrid's Expulsion
+  - Riddle's circle and unresolved school incidents
   - Tom Riddle's Hogwarts Record
+- Tom Riddle Before Hogwarts
+  - Gaunt convictions and Voldemort's maternal line
+- Tom Riddle's Hogwarts Career
+  - Honors, career advice, and first teaching request
 - Voldemort, Riddle, and Hogwarts Memory
   - Riddle Family Background and Muggle Records
+
+## Notable Students and Staff
+
+- Tom Riddle at Hogwarts
+  - Sorting, concealment, and staff impressions
 
 ## Original Book Core
 
@@ -379,39 +1622,533 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Origins of the School
 
+- Founder Relics and House Memory
+  - The Sorting Hat's Founder Ownership and the Sword Dispute
+- Magic Before and Beyond Hogwarts
+  - Household Medicine After the Founding
+  - Household Remedies and Potion Development
+- Magical and Muggle Society
+  - Shared Material Culture
 - The Founders' Rift
   - Admission, Bloodline Ideology, and Slytherin's Departure
 - The Founding of Hogwarts
+  - Founder Unity, House Ideals, and Slytherin's Departure
   - Founders, Houses, and Castle Site
   - The Sorting Hat's Founding Song
+  - The Sorting Hat's Ownership, Enchantment, and House-Selection Purpose
+
+## Part I - Sources And Authorities
+
+- Named Histories And School-Age Reference Books
+  - A History of Magic as a portable reference tradition
+
+## Part I — Hogwarts Castle
+
+- Resident Ghosts and Castle Memory
+  - Ghosthood and posthumous presence
+- The Castle and Its Enchantments
+  - Changeable internal architecture
+  - Magical construction and structural support
+
+## Part I: Foundations and Governance
+
+- Hogwarts and the Ministry of Magic
+  - Regulated Magical Transport
+- Hogwarts and the Wider Wizarding World
+  - Magical Transport in Historical Context
+  - Regulated Magical Transport
+
+## Part I: Foundations and Traditions
+
+- Hogwarts Customs and Ceremonies
+  - Sorting and House Assignment
+
+## Part I: Foundations of the Magical World
+
+- Rules, Limits, and Magical Practice
+  - Authorial construction of magical rules
+
+## Part I: Hidden Magical Britain
+
+- Creature Habitats and Protective Enchantments
+  - Safe habitats and charm limits
+- Creature Regulation and Wizarding Public Safety
+  - Breeding, sale, and owner concealment duties
+- International Secrecy and Creature Concealment
+  - Clause 73 and national responsibility
+  - International enforcement and persistent offenders
+  - Loch Ness kelpie and Muggle investigation
+  - Natural concealment and Muggle disbelief
+  - Public breaches and emergency memory repair
+  - Species selected for concealment
+  - The 1692 creature summit
+- Ministry Relations With the Muggle Government
+  - Memory repair and misinformation
+- Muggle Awareness Before Secrecy
+  - Medieval memory of magical creatures
+  - Misread magical-beast encounters
+  - Muggle misidentification of beasts
+- Muggle Persecution and Wizarding Withdrawal
+  - Creature sightings and anti-wizard fear
+- Named Wizarding Historians and School Texts
+  - A History of Magic as a companion authority
+
+## Part I: Historical and Cultural Background
+
+- Folklore and the Wizarding World
+  - Familiars in British Folklore
+
+## Part I: Hogwarts and Its Community
+
+- Student Life Beyond Lessons
+  - Communication Beyond the Castle
+
+## Part I: Hogwarts and Its Setting
+
+- The School and Its Connections
+  - Secrecy at Term-Time Travel
+  - The Concealed King's Cross Platform
+  - The Hogwarts Express and Hogsmeade Station
+
+## Part I: Setting and Geography
+
+- Setting and Geography
+  - School Catchment
+  - Scotland
+
+## Part I: The Castle and Its Grounds
+
+- Castle Dangers and Protective Limits
+  - Basilisk Gaze and Indirect Viewing
+- House Common Rooms and Dormitories
+  - Slytherin Common Room Location
+- Site, Wards, and Public Concealment
+  - Muggle-Facing Appearance
+- The Grounds and the Great Lake
+  - Authorial creature note
+  - Authorial development note
+  - Grounds ecology and creature refuge
+  - Lake ecology and dangerous residents
+  - Lake ecology and merpeople
+  - Lake ecology and student contact
+  - Lake geography and enchanted water travel
+  - The lake as tournament venue
+- Wards, Boundaries, and Controlled Movement
+  - Anti-Disapparition Protection
+
+## Part I: The School and Its Foundations
+
+- Arrivals, Departures, and the Hogwarts Express
+  - The Failed Portkey System
+- Castle, Grounds, and Protective Magic
+  - Boundaries and Restricted Access
+
+## Part I: The School in Context
+
+- Hogwarts and the International Magical World
+  - Other wizarding schools
+
+## Part I: The Wizarding World in Context
+
+- Magical Law, Transport, and Secrecy
+  - Apparition Licensing and Enforcement
+- Wizarding Society and Muggle Relations
+  - Secrecy, Contact, and Social Prejudice
+
+## Part II - Founders, Heirs, and Hidden Histories
+
+- Tom Riddle Before Hogwarts
+  - Orphanage Evidence and Early Magical Cruelty
+
+## Part II - Founders, Houses, And Relics
+
+- Gryffindor House And Its Founder Relic
+  - Worthiness conditions and Gryffindor qualities
+
+## Part II — Students and Education
+
+- Curriculum and Advanced Magical Study
+  - Transfiguration and Animagus Study
+- Student Life and Academic Progression
+  - Honours, Prefects, and Head Students
+- Student Life and House Identity
+  - Sorting and House Affiliation
+
+## Part II — The School
+
+- Admissions and First-Year Preparation
+  - Locating and inviting prospective pupils
+- Education and Student Life
+  - Curriculum and elective study
+  - Education after graduation
+  - Teaching staff and appointments
+
+## Part II: Governance and the Wider Wizarding World
+
+- Secrecy, Ministry Policy, and Hogwarts
+  - Mandated Travel on the Hogwarts Express
+  - Statute of Secrecy and School Access
+  - The Uncertain Acquisition of the Hogwarts Express
+
+## Part II: Institutional History
+
+- Admissions and First-Year Preparation
+  - Exceptional Admission and Sorting Case
+- Hogwarts Customs and Ceremonies
+  - Annual Student Awards
+- Notable Alumni and Staff
+  - Minerva McGonagall’s School Years
+  - Peter Pettigrew’s School Years
+
+## Part II: People and Governance
+
+- Headmasters and School Leadership
+  - Albus Dumbledore: longevity and tenure context
+
+## Part II: School Life and Governance
+
+- Admissions and First-Year Preparation
+  - Age of magical manifestation
+  - Magical inheritance and Muggle-born occurrence
+
+## Part II: The Castle and Its Living Systems
+
+- Portraits, Ghosts, and the School's Memory
+  - Headmasterial portraits and succession
+  - How magical portraits function
+  - Ordinary enchanted portraits
+  - Portrait observation in the headmaster's office
+
+## Part II: The Castle and Its Protections
+
+- Access, Boundaries, and Communication
+  - Fireplace Access and Floo Restrictions
+
+## Part II: The School
+
+- Admissions, Attendance, and Student Life
+  - Muggle-Family Contact
+  - Pre-Hogwarts Preparation
+- Curriculum and Teaching Staff
+  - Defence Against the Dark Arts Turnover
+- Curriculum, Examinations, and Achievement
+  - O.W.L. Assessment
+- Education and Curriculum
+  - Advanced and demand-led subjects
+  - First-year compulsory subjects
+  - Third-year subject selection
+- Governance and Discipline
+  - Rules and institutional order
+- Headmasters and School Authority
+  - The Headmaster's Phoenix
+- Hogwarts as Home
+  - Security and belonging
+- Houses and Student Leadership
+  - Gryffindor prefects
+- Houses, Sorting, and Student Identity
+  - Elemental House Associations
+- Institutional History and Governance
+  - Admissions and student notification
+- School Life and Daily Rhythms
+  - Boarding residence and after-hours life
+- School Staff and Residents
+  - Rubeus Hagrid's local identity
+- Staff and Teaching
+  - Defence Against the Dark Arts appointments
+- Staff, Offices, and Daily Operations
+  - Keeper of Keys Access Function
+- Student Welfare and Accommodation
+  - Concealed medical accommodation
+
+## Part II: The School Community
+
+- Resident Ghosts and Institutional Memory
+  - House ghosts
+  - Moaning Myrtle and school spaces
+  - The castle as a home for ghosts
+
+## Part II: The School Through Time
+
+- Magical Knowledge and Its Limits
+  - Eloise Mintumble and temporal disruption
+  - Legal controls after temporal disruption
+  - Ministry research into hazardous time magic
+  - The abandonment of long-distance time travel
+- Ministry and Hogwarts
+  - Exceptional Ministry authorization for time devices
+
+## Part II: The School and Its Community
+
+- Admissions and First-Year Preparation
+  - Acceptance Letters and Departure Instructions
+  - Education Before Hogwarts
+- Student Life and House Identity
+  - Hogwarts Population and Scale
+  - Quidditch Rules and Scoring
+  - Quidditch and School Culture
+
+## Part II: The School and Its People
+
+- Staff, Caretakers, and School Order
+  - Argus Filch and Mrs Norris
+- Students and Daily Life
+  - Animals at Hogwarts
+  - Communications and Owl Post
+
+## Part III - Students, Status, and Magical Capacity
+
+- Age, Qualification, and Magical Recognition
+  - Underage Wizards in Adult Enchantments
+
+## Part III - The War Beyond The Gates
+
+- Hogsmeade Under Occupation
+  - Caterwauling alarms and anti-escape charms
+  - The Hog's Head as a covert shelter
+- Information Security and Secret Keeping
+  - Fidelius-protected refuge access and emergency verification
+  - Wartime family relocation and Shell Cottage Fidelius protections
+- Muggle-Born Persecution And Wartime Student Risk
+  - Snatcher triage by school age, House claims, and Taboo exposure
+  - Snatchers and rewards for school-age fugitives
+- Patronus Messages, Guardians, And Covert Aid
+  - A corporeal Patronus as a guide rather than only a message
+- Protective Magic and Security
+  - Emergency field recovery after the Gringotts dragon escape
+- The Second War and Hogwarts Students
+  - Hogwarts Express abduction and hostage pressure
+- The Second War and Hogwarts-Connected Captives
+  - Malfoy Manor cellar, student prisoners, and wandmaker imprisonment
+- Wartime Concealment And Mobile Safe Sites
+  - Repeated field wards during flight
+
+## Part III — Staff and Governance
+
+- Professors and Departments
+  - Transfiguration Department Appointments
+- Professors and School Life
+  - Staff Residences and Local Connections
+  - Staff Rooms and Concealed Access
+
+## Part III: Hogwarts in the Wider Wizarding World
+
+- Hogwarts, Secrecy, and State Pressure
+  - Comparative institutional vulnerability
+  - School siting and defence
+- Wizarding Schools Beyond Britain
+  - International school governance
+  - School provision and alternatives
+
+## Part III: Learning at Hogwarts
+
+- History of Magic and Historical Instruction
+  - Professor Binns as a ghost teacher
+
+## Part III: Magical Architecture and Enchantments
+
+- Protective Magic and Security
+  - Concealment from Muggles
+
+## Part III: People, Houses, and Institutional Memory
+
+- Hogwarts Alumni and the Marauders Era
+  - House Membership
+- Hogwarts Leadership and Staff
+  - Headmaster and Deputy Head
+
+## Part III: School Life and Institutions
+
+- Discipline and Student Misconduct
+  - Detention for Damage to the Quidditch Pitch
+- Notable Pupils and Alumni
+  - Dolores Umbridge's School Record
+  - Gilderoy Lockhart's Ravenclaw Years
+- Student Culture and Communications
+  - Owl Post Disruption in the Great Hall
+  - Proposed School Newsletter
+
+## Part III: Student Life
+
+- Student Life and House Identity
+  - Quidditch and School Culture
+- The Four Houses
+  - Sorting Decisions and House Identity
+
+## Part IV - Architecture, Concealment, and Protective Magic
+
+- Dark Protections and Entry Conditions
+  - Blood Payment and Weakening Defenses
+- Hidden Access Systems
+  - Enchanted Transport and Residual Signatures
+- Layered Dark Protections
+  - Potion Barriers and Forced Procedures
+- Reading Magical Buildings and Hidden Places
+  - Residual Magic and Expert Detection
+
+## Part IV - Dark Artifacts And Their Defeat
+
+- Founder Relics And Horcrux Vulnerabilities
+  - Parseltongue access and Horcrux resistance
+- The Destruction Of Slytherin's Locket
+  - Gryffindor's sword as a Horcrux-destroying weapon
+
+## Part IV: Hogwarts Grounds, Buildings, and Hidden Places
+
+- The Grounds and the Forbidden Forest
+  - Creatures, Secrecy, and Forest Lore
+
+## Part IV: Hogwarts, a History as a Source
+
+- Editorial Notes on School Symbols
+  - Motto Design and Latin Rendering
+- The Book's Narrative Role
+  - Hermione as Expository Reader
+
+## Part IV: Legacy and Aftermath
+
+- Recognition and Social Change
+  - Posthumous honours
+
+## Part IV: Magical History and Wider Context
+
+- The First Wizarding War and Its Legacy
+  - Sacrificial Protection at Godric's Hollow
+
+## Part IV: Recent Hogwarts History
+
+- Student Life and Exceptional Arrangements
+  - Hermione Granger’s Time-Turner accommodation
+- The Second Wizarding War
+  - The loss of Ministry Time-Turners
+
+## Part IV: The Modern School
+
+- Defence Against the Dark Arts Staffing
+  - Dumbledore's Lockhart Appointment
+  - Lockhart's Classroom Failure
+  - Recruitment Difficulties and Curse Rumours
+- Discipline and Ministry Interference
+  - Umbridge's Abusive Detention
+- Ministry Intervention and School Governance
+  - Limits of Inquisitorial Authority
+  - Umbridge's Inquisitorial Appointment
+
+## Part V - Magical Creatures, Beings, and Dark Forces
+
+- Inferi and Dark Creature Defense
+  - Fire, Cold, and Animated Corpses
+
+## Part VI: Hogwarts and the Wider Wizarding World
+
+- Knowledge, Medicine, and School Safety
+  - Wolfsbane and Werewolf Accommodation
+- Ministry, Law, and School Context
+  - Werewolf Regulation and Social Exclusion
+- Wider Wizarding Institutions and Knowledge
+  - Magical Creature Scholarship
+
+## Part VI: Hogwarts in the Wider Wizarding World
+
+- International Schools and the Triwizard Tradition
+  - Beauxbatons and Hogwarts: Cordial Rivalry
+  - Beauxbatons, the Flamels, and School Grounds
+  - Beauxbatons: Geography and Student Catchment
+  - Comparative School Populations
+  - Ilvermorny Sorting and Wand Access
+  - Ilvermorny and the Adaptation of the House Model
+  - Ilvermorny as a North American Counterpart
+
+## People of Hogwarts
+
+- Staff and Their Symbolic Roles
+  - Authorial naming symbolism
+
+## Peoples, Beings, and Magical Society
+
+- Blood Status and School Society
+  - Pure-Blood Ideology in Wartime
+- Ghosts, Portraits, and Castle Memory
+  - Moaning Myrtle as witness and bathroom informant
+- Giants and Wizarding Relations
+  - Gurg diplomacy and Dumbledore's reputation
+  - Population collapse and forced isolation
+- Goblins and Wizarding Political Relations
+  - Goblin Neutrality and Recruitment Pressures
+- Historical Memory and Non-Human Peoples
+  - Wizarding historiography and omitted harms
+- House-Elves, Service, and Wizarding Households
+  - Clothing, family-house bonds, and possible unauthorized departure
+  - Covert school surveillance and hidden-room limits
+  - Free elf agency and exceptional transport magic
+  - Kreacher, Family Loyalty, and Headquarters Secrecy
+  - Ownership transfer and reassignment to Hogwarts kitchens
+  - Summoning, free service, and covert school surveillance
+- Magical Medicine and Creature Harm
+  - Serious bites, venom treatment, and ward privacy
+- Ministry Public Ideology and Non-Human Beings
+  - The Fountain of Magical Brethren
+- Ministry Public Ideology and Non-Magical People
+  - Magic Is Might monument and Muggle subjugation
+- Non-Human Autonomy and Wizarding Law
+  - Goblin maker-right and promise obligations
+  - Goblin wand rights and wizard control of wandlore
+- Pure-Blood Families and Genealogical Memory
+  - Interrelated Pure-Blood Families and Marriage Exclusions
+  - The Black Family Tapestry and Disowned Relatives
+- Pure-Blood Families and Material Culture
+  - Black family artifacts after Sirius Black's death
+- Wizarding Institutions Beyond Hogwarts
+  - Spell-damage long-term care at St. Mungo's
+  - St. Mungo's departments, Healers, and public triage
+  - St. Mungo's location and concealed entrance
 
 ## Peoples, Creatures, and Non-Human Communities
 
 - House-Elves and Hogwarts Labor
+  - Freed Elves, Wages, and Enslavement Customs
   - Staff-side attitudes toward wages and freedom
   - Student activism and house-elf legal status
 
 ## Protective Magic and Security
 
+- Access Control, Visitors, and Information Security
+  - Press Exclusion and Unexplained Information Leaks
+- Ancient Protections of the Castle and Grounds
+  - Mental safety and limits on hostile mind magic
 - Anti-Dementor Defenses
   - Corporeal Patronus Intervention
+- Boundaries, Gates, and School Travel
+  - Emergency transport to the school boundary
+- Castle Defenses and Siege Magic
+  - Battle use of plants, portraits, and concealed passages
+  - Improvised defensive use of castle features and school materials
+  - Staff-activated boundary and statuary defenses
 - Castle-Wide Protective Enchantments
   - Anti-Intrusion and Anti-Apparition Protections
+  - Phoenix escape and anti-Disapparition confirmation
+- Concealment and Anti-Detection Magic
+  - Disillusionment Charm in Student Extraction
 - Crisis Security During Harry's Third Year
   - Animagus Evasion of Grounds Security
 - Crisis Security and External Forces
   - Animagus Evasion of Dementor and Grounds Security
   - Dementor Powers and Ministry Authorization
   - Dementors at the Castle Boundary
+- Defensive Magic in School Crises
+  - Patronus defense against Dementors on the grounds
 - Dementor Deployment Around Hogwarts
   - Dementor Powers and the Kiss
   - Lake and Grounds Encirclement
   - Removal After Student Endangerment
+- Disguise, Concealment, and Covert Movement
+  - Layered disguises for Godric's Hollow
 - Dumbledore and External Security Arrangements
   - Azkaban Guards at the Grounds Entrances
   - Dementor Breach at the Quidditch Stadium
   - Dementors Barred from the Castle Interior
   - Gringotts Business and Hogwarts Trust
+- Emergencies on the Grounds
+  - Forest Search, Revival Magic, and Visiting-School Tension
 - Emergency Lockdowns and Student Safety
   - Great Hall Overnight Assembly
   - Post-Breach Castle Security
@@ -428,6 +2165,16 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Secrecy and Layered Protections
   - Trapdoor and Creature-Based Protection
   - Trapdoor and Plant-Based Protections
+- Headquarters, Safe Houses, and Secret-Keeping
+  - Dumbledore's Put-Outer and Grimmauld Place Arrival
+  - Grimmauld Place as Inherited Order Headquarters
+  - Inheritance risk and protection continuity at Grimmauld Place
+  - Layered Entry Controls at Grimmauld Place
+  - Number Twelve Revealed After Memorized Disclosure
+  - Unplottable Headquarters and Dumbledore as Secret-Keeper
+- Horcrux Defenses and Dark Protections
+  - Nagini's floating protective sphere
+  - Nagini's protected cage at the Forest surrender
 - House Common-Room Security
   - Password Lists and Portrait-Hole Breaches
 - House Entrances and Castle Security
@@ -435,27 +2182,99 @@ Source data: sources YAML + project-control indexes + structured source data.
 - House Entrances and Common-Room Security
   - Password Lists and Animal-Mediated Breaches
 - Infiltration and Internal Threats
+  - Hidden Death Eater at Hogwarts
   - Hidden Servants and Staff-Side Vulnerability
+  - Quirrell Possession and the Stone Attempt
+- Information Security and Eavesdropping
+  - Extendable Ears and Imperturbable Charm
+  - Student Exclusion from Order Intelligence
+- Information Security and Secret Keeping
+  - Fidelius breach through involuntary Side-Along entry
+- Information Security and Secret-Keeping
+  - Fidelius dilution after a Secret-Keeper's death
+  - Grimmauld Place defenses after Dumbledore's death
+  - Secret-Keeper limits on disclosure
 - Internal Threats and Emergency Response
   - Prefect-Led Evacuation by House
   - Troll Intrusion and Stone Diversion
 - Magical Interference and Student Safety
   - Quidditch Match Risks
+- Magical Surveillance and Staff Security Tools
+  - Moody's map search for Crouch
+- Mobile Wards and Field Concealment
+  - Campsite protections during the Horcrux hunt
+  - Protected campsite relocation and lost access
+  - Repeated campsite protection and trace removal
+- Movement Limits and Anti-Apparition Protections
+  - Explicit Hogwarts: A History citation for anti-Apparition inside Hogwarts
+  - Wizarding-dwelling courtesy and Hogwarts boundary confirmation
+- Movement Limits and Boundary Magic
+  - Anti-Disapparition protections and map boundaries
+  - Disapparition beyond the school gates
+- Off-Campus Protection of Students
+  - Advance Guard Retrieval From Privet Drive
+  - Dumbledore's Howler and the Privet Drive Residence Requirement
+  - Identity Verification After Impersonation
+  - Little Whinging Watch and Guard Failure
+  - Mrs Figg's Identity and Later Role
+  - Squib Observers and Duty Rotas at Little Whinging
+- Staff Expertise and Magical Surveillance
+  - Moody's Dark Detectors in the Classroom Office
+  - Moody's Eye and Anti-Concealment Detection
+  - Moody's eye after his death
+  - Moody, the Map, and Tournament Surveillance
+- Staff Offices, Stores, and Restricted Access
+  - Private Stores and Controlled Truth Potions
+  - Snape's Office Sealing Spell and Private Cupboard
+- Student Protection and Exceptional Safeguards
+  - Blood wards and yearly return to Privet Drive
+  - Early Break of Privet Drive Protection
+  - Evacuation Timing and Underage-Magic Constraints
+  - Harry Potter's Layered Protection
+  - Privet Drive Protection Breaks at Seventeen
+  - Privet Drive protection and wizarding age of majority
+  - Safe-house barrier around Tonks household
+  - Trace Limits and Blocked Magical Transport
 - The Chamber of Secrets
+  - Founder-Built Monster Lair and Restricted Access
   - Legend, Hidden Room, and Heir Language
   - Searches, Denials, and Institutional Memory
+  - Searches, Denials, and Restricted Access
 - The Chamber of Secrets Crisis
   - Aragog's Corrective Testimony
   - Closure and Emergency Departure
   - Emergency Suspension of School Activities
   - First Visible Attack and Wall Message
   - Founder-Built Monster Release Mechanism
+  - Later use of the Chamber and basilisk remains
   - Lockdown Movement Rules
   - Lockdown Rules and Closure Threat
   - Reopened Chamber and Staff Recognition
   - Staff Patrols and Escort Duties
   - Staff Response to Student and Ghost Attacks
   - Subterranean Route and Serpent Gate
+- The War Beyond the Gates
+  - Ministry Collapse and Protective Magic
+  - Ministry access controls and employee entry tokens
+  - Ministry-backed breach of Order protections
+  - Order Intelligence and Student Protection
+  - Regulated Transport Under Enemy Control
+- Wartime Castle Security
+  - After-hours movement and door-security lapses
+- Wartime Evacuation and Castle Boundaries
+  - Evacuating through Hogsmeade when regulated transport is unsafe
+- Wartime Evacuation and Castle Defense
+  - Great Hall evacuation and battle deployment
+- Wartime Household Precautions
+  - Identity checks and Inferi in Ministry public guidance
+  - Ministry identity challenges at home
+  - Ministry public guidance against Dark forces
+  - Post-ambush identity challenges
+- Wartime School Protection
+  - Guarded start-of-term travel during the Second War
+  - Ministry security measures for Hogwarts in the Second War
+- Wartime Student Movement and Escorts
+  - Ministry transport and Hogwarts-chosen escort
 
 ## Quidditch and School Recreation
 
@@ -467,6 +2286,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Matchday Procedure and House Support
   - Matchday Procedure and In-Play Tactics
   - Officiating, Fouls, and Cup Presentation
+  - Officiating, commentary, and post-match discipline
   - Refereeing, Commentary, Fouls, and Scoring
   - Refereeing, Penalties, and Match Endings
   - Training Supervision, Weather, and Match Results
@@ -477,8 +2297,14 @@ Source data: sources YAML + project-control indexes + structured source data.
   - House Rivalry and Player Protection
   - Hufflepuff Captain and Seeker
   - Practice Scheduling, Captains, and Equipment
+  - Replacement players after High Inquisitor sanctions
   - Season Preparation, Captains, and the Quidditch Cup
+  - Season resumption, practices, and House-head rivalry
   - Training Supervision and Broom Expertise
+- House Teams and Player Selection
+  - Tryouts, training expectations, and team equipment
+- House Teams and Training
+  - Practice sessions, equipment, and team discipline
 - Quidditch Beyond Hogwarts
   - International Events and Ministry Sport Administration
   - International Events and Security Context
@@ -488,23 +2314,52 @@ Source data: sources YAML + project-control indexes + structured source data.
 - School Quidditch Season
   - House Championship Context
   - Team Practices and Cup Standings
+- Student Enterprises and Magical Recreation
+  - Hogwarts-tested joke products become commercial goods
+  - Weasley joke inventions in common-room life
+- The History and Rules of Quidditch
+  - British League and International Play
+  - Broom Development and Safety
+  - Origins and Early Development
+  - Pitch and Equipment
+  - Player Positions
+  - Rules, Fouls, and Officiating
+  - Tactical Plays
+  - The Golden Snitch
 
 ## Rules, Discipline, and Governance
 
+- Admissions, Attendance, and Wartime Control
+  - Compulsory attendance and Blood Status screening
+- Age, School Status, and Adult Authority
+  - Order Membership and Overage School Leavers
 - Caretakers, Corridor Patrols, and Restricted Areas
   - Detention Logistics and Punishments
   - Filch's Office, Punishment Records, and Mrs. Norris
   - Nighttime Wandering and Corridor Enforcement
   - Out-of-Bounds Corridors
 - Creatures, Liability, and External Committees
+  - Buckbeak custody and wartime concealment alias
   - Dangerous-Creature Execution Procedure
+  - Ministry creature classifications
+- Crisis Authority and School Closure
+  - Reopening deliberation after Dumbledore's murder
+  - Wartime attacks and board-of-governors closure pressure
 - Detention Logistics and Punishments
   - Staff-Assigned Tasks, Filch, and Trophy Room Labor
+- Detentions, Punishments, and Staff Authority
+  - Abusive punishments under Ministry interference
+- Exams, Sport, and Magical Fairness
+  - Banned performance-enhancing potions
+  - Suspected Felix Felicis use in House Quidditch
 - Governors, Ministry, and School Accountability
   - Dangerous-Creature Appeals and Execution Authority
   - Dangerous-Creature Hearings After Class Injuries
 - Headmaster Authority and External Legal Power
   - Limits of School Authority During Ministry Action
+- Headmaster Authority and Staff Appointments
+  - Parent Pressure, Complaints, and Staff Continuity
+  - Public Scrutiny of Hagrid's Dual Role
 - Headmaster, Governors, and School Oversight
   - Creature-Injury Hearings and External Committees
   - Governor Authority Over the Headmaster
@@ -516,7 +2371,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Headmasters and School Authority
   - Dumbledore's Removal and Continuing Influence
   - Dumbledore's Reputation
+  - Ministry Discipline Revised After Headmaster Intervention
+- Headmasters, Ministers, and Public Authority
+  - Dumbledore's Refused Political Power
 - Holiday Conduct and Underage Magic
+  - Age of Majority and Magic Outside School
   - Magic Outside School
   - Ministry Warning Letters and Secrecy Law
   - Ministry Warnings and School Return Problems
@@ -536,26 +2395,72 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Books Outside the School
 - Magical Safety Rules and Exceptional Permissions
   - Time-Turner Noninterference Rules
+- Magical Secrecy and Muggle Relatives
+  - Petunia Dursley's Retained Azkaban Knowledge
 - Magical Transportation and Student Restrictions
   - Apparition Licensing and Risks
+  - Apparition testing and Hogsmeade practice sessions
+  - Formal Apparition testing at Hogwarts
+  - Ministry Apparition instruction for eligible students
+  - Ministry Apparition lessons inside a temporary Great Hall exception
+- Ministry Authority Beyond Hogwarts
+  - Secrecy, broomstick rules, and creature control
 - Ministry Interfaces with Hogwarts
   - Specialist Offices and External Governance Context
+- Ministry Law and School-Age Wizards
+  - Old Courtroom Ten and Wizengamot Procedure
+  - Rights of the Accused in Wizarding Hearings
+- Ministry Offices Affecting Hogwarts
+  - Departmental Structure and Internal Infrastructure
+- Ministry Offices Affecting Muggle Relations
+  - Misused Artifacts and Anti-Muggle Pranks
+- Ministry Oversight and Student Hearings
+  - Political Influence Around Student Discipline
+  - Visitor Entry, Search, and Wand Registration
+- Ministry Pressure and Public Records
+  - Fudge, the Prophet, and Dumbledore's Allies
+  - Press Suppression, Ministry Spies, and Dumbledore's Offices
 - Prefects and Student Authority
+  - Fifth-Year Prefects and Train Patrols
+  - Prefect carriage duties and train patrols
   - Prefects on the Hogwarts Express
 - Prefects, Head Students, and Student Authority
   - Head Boy Appointment and Insignia
 - Restricted Areas
   - Astronomy Tower Access
   - Third-Floor Corridor Enforcement
+- Restricted Objects and Student Misuse
+  - Love-potion sweets and staff antidote response
+- Snape's Hogwarts Regime
+  - Occupation defenses around the castle
+  - Portrait reports of student resistance and restored decrees
 - Staff Appointment, Disclosure, and Safety
   - Werewolf Disclosure and Resignation
 - Staff Appointments and School Safety
+  - Carrow discipline and compulsory propaganda classes
   - Confidentiality and Near-Miss Safety Incidents
+  - Dumbledore's protection and werewolf staff stigma
+  - Snape's headmastership and Carrow appointments
   - Werewolf Employment and Staff Knowledge
   - Wolfsbane Potion and Werewolf Accommodation
+  - Wolfsbane Potion and werewolf accommodation
+- Staff Authority and Internal Investigations
+  - Head-of-House inquiries after the cursed necklace attack
+- Start-of-Term Notices
+  - Forbidden joke items and House Quidditch signups
 - Student Conduct Beyond School
+  - Detection limits in adult magical households
+  - Emergency Exception and Ministry Hearing Procedure
+  - Emergency Exceptions and Limits on Ministry Discipline
+  - Hearing Venue Changed to Old Courtroom Ten
+  - Official Underage-Magic Expulsion and Wand Sanctions
+  - Underage Magic Hearings and Ministry Procedure
   - Underage Magic and Hogwarts Expulsion Risk
+  - Underage Magic and Muggle Household Leverage
+- Student Conduct and External Law
+  - Expulsion and Ministry consequences
 - Student Discipline and Expulsion
+  - Detention, expulsion risk, and historical punishment files
   - Expulsion, Wand Sanctions, and Staff Retention
   - Family Notification and Escalation
   - Head of House Responsibility and Term-Bound Points
@@ -565,27 +2470,239 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Crisis Visitor Restrictions
   - Treatment, Overnight Care, and Visitor Control
   - Visitor Access and Headmaster Exception
+  - Visitor limits, remedies, and discharge authority
+- Student Leadership and Prefects
+  - Fifth-Year Prefect Selection
+  - Prefect Qualities and Alumni Examples
+- Student Misconduct and Informal Spell Use
+  - Unsupervised conjuration and jinxes in classrooms
 - Student Misconduct and Reporting
   - Curses, Countercurses, and Faculty Reports
+  - House rivalry, jinx reports, and staff bias
 - Student Offices, Awards, and Records
   - Trophy Room Records and Head Boy Lists
+- Student Offices, Prefects, and Discipline
+  - Prefect authority and informal enforcement limits
+- Wartime Student Movement Restrictions
+  - Hogsmeade cancellations after attacks and disappearances
+- Wizarding Law and Magical Secrecy
+  - Ministry enforcement against Muggle-directed magic
 - Wizarding Transport and Secrecy
+  - Covert Broom Transport Under Surveillance
   - Floo Network Regulation and Muggle Fireplaces
+
+## Rules, Discipline, and Student Conduct
+
+- Restricted Magic and Banned Items
+  - Love-Potion Ban and Press-Fueled Accusations
+  - Love-potion retail access before term
+
+## Rules, Governance, and Discipline
+
+- Student Permissions and Informal Study
+  - Legal Study Groups and Out-of-Bounds Limits
 
 ## School Governance and Rules
 
+- Common-Room Notices and Prefect Enforcement
+  - Student advertising, Hogsmeade notices, and risky experiments
 - Start-of-Term Notices
   - Forbidden Objects, Restricted Places, and Yearly Exceptions
+  - Rules, Restricted Places, and Staff Announcements
+
+## School Life and Administration
+
+- Admissions and Student Provisioning
+  - Approved Student Pets
+- Ministry Regulation and School Practice
+  - Animal Welfare Reform
+
+## School Life and Material Culture
+
+- Pets, Familiars, and Creature Ownership
+  - Licensed magical pet species
+- Pets, Games, and Informal Student Culture
+  - Puffskeins as children's pets
+
+## Schooling at Hogwarts
+
+- Curriculum and Examinations
+  - Advanced N.E.W.T. Study
+- Elective Subjects and Staff
+  - Care of Magical Creatures After O.W.L.s
+
+## Sources and Historiography
+
+- Hogwarts: A History as an In-Universe Source
+  - Hermione's field copy during the Horcrux hunt
+
+## Sources and Methods
+
+- Memory Evidence and Historical Reconstruction
+  - Caractacus Burke's locket testimony
+  - Hokey's conviction and evidentiary limits
+  - Slughorn's missing memory as a source gap
+
+## Sources, Historiography, and Editions
+
+- Genealogies, Family Archives, and Pure-Blood Records
+  - Black family artifacts after Grimmauld Place theft
+  - Black family artifacts and published genealogies
+- Named Wizarding Historians and School Texts
+  - A History of Magic on Godric's Hollow
+  - Bathilda Bagshot as Dumbledore-family source
+  - Bathilda Bagshot as textbook author and living informant
+- Sources for Dumbledore's Life
+  - Bathilda Bagshot as living local source and possible relic custodian
+- Sources on Dumbledore After His Death
+  - Rita Skeeter's Bathilda Bagshot source note
+- Wizarding Folklore and Historical Memory
+  - Beedle's tale as a Hallows source
+
+## Sources, Records, and Magical Historiography
+
+- Memory Testimony and Historical Method
+  - Pensieve Evidence in the Headmaster's Office
+- School Records and Student Archives
+  - Newspaper clippings and old award records
+  - Old Prophet notices and staff biography research
+
+## Staff and Teaching
+
+- Defence Against the Dark Arts Appointments
+  - Werewolf Risk, Accommodation, and Stigma
+
+## Staff, Founders, and Notable Residents
+
+- Staff Biographies and Institutional Memory
+  - Hagrid, Giant Ancestry, and Dumbledore's Patronage
+
+## Staff, Students, and Patronage
+
+- Slughorn's Informal Network
+  - Christmas party hospitality and outside guests
+  - Parties, alumni guests, and invitee privileges
+  - Persistent invitations and student avoidance
+  - Private Suppers and Social Selection
+
+## Staff, Students, and School Society
+
+- Informal Power Networks
+  - Slughorn's Office and Riddle's School Circle
+
+## Student Life and Conduct
+
+- Power, Bullying, and Peer Relations
+  - Draco Malfoy
+
+## Student Life and House Culture
+
+- Quidditch, Cups, and House Rivalry
+  - Gryffindor's 1996 Cup victory and song reversal
+- The House System
+  - Wartime recognition through House points
+
+## Student Life and House Identity
+
+- Quidditch, School Sport, and Magical Equipment
+  - Historical Origins of the Snitch
+
+## Student Life and Houses
+
+- Blood Status and Hogwarts Society
+  - Commission procedure and Muggle-born interrogations
+  - Genealogical proof and criminalized ancestry claims
+  - Registration enforcement and Blood Status coercion
+  - Registration fugitives and uncertain ancestry
+  - Wartime propaganda against Muggle-borns
+  - Wartime registration and criminalization of Muggle-born magic
+- House Identity, Family Expectation, and Rebellion
+  - Black family House identity and Sirius's exception
+  - Regulus Black and Slytherin family conformity
+- House Quidditch Teams
+  - Captain authority, applicant lists, and trials
+- Quidditch and House Competition
+  - Captain replacement authority after injury
+  - Match administration, commentary, and staff oversight
+  - Practice safety and Captain discipline
+  - Replacement Keeper, commentary, and match supervision
+  - Team Selection and Captain Authority
+
+## Student Life and School Culture
+
+- Student Communication, Pranks, and Discipline
+  - Two-way mirrors and detention-era communication
+
+## Student Life and School Customs
+
+- Hogsmeade Weekends and Student Privileges
+  - Permission Lists and Castle Departure Checks
+  - Sign-out, village notices, and student venues
+- Holidays, Feasts, and Seasonal Duties
+  - Christmas duties for prefects and staff
+- House Teams and Training
+  - Championship standings, replacements, and Cup celebration
+  - Team replacement after High Inquisitor sanctions
+
+## Student Life and Traditions
+
+- House Rivalry and School Culture
+  - Quidditch songs, badges, and supporter magic
+
+## Student Life, Resistance, and Wartime Hogwarts
+
+- Dumbledore's Army and the Defense of the School
+  - Mobilization through the Room of Requirement
+
+## Student Organizations and Informal Governance
+
+- Secret Study Groups
+  - Membership Lists, Meeting Frequency, and Venue Search
+
+## Students, Reputation, and Wartime Memory
+
+- Harry Potter as Student Witness
+  - Peer Transmission of Defensive Feats
+
+## Teaching, Curriculum, and Examinations
+
+- Divination and Predictive Magic
+  - Firenze's centaur method and wartime sky omens
+
+## The Castle and Grounds
+
+- Entrances, Boundaries, and the Forbidden Forest
+  - Crisis movement from castle interior to Forest edge
+- The Forbidden Forest
+  - Deep forest routes, armed escort, and post-Firenze danger
+  - Deep-Forest hazards and student crisis tactics
 
 ## The Castle and Its Grounds
 
 - Arrival at Hogwarts
   - Carriage Route, Gates, Entrance Hall, and Great Hall
+- Classrooms, Offices, and Staff Spaces
+  - Defense Against the Dark Arts office continuity
+- Corridors, Stairs, and Moving Hazards
+  - Concealed staircases and portrait movement
 - Dungeons and Corridors
   - Interior Routes and Bathrooms
+- Grounds, Lake, and Village Approaches
+  - Visiting-School Lodging and Hogsmeade Route
+- Grounds, Staff Dwellings, and Creature Care
+  - Gamekeeper's cabin during the tower battle
+- House Common Rooms and Dormitories
+  - Hufflepuff Common Room
+- House Common Rooms and Entrances
+  - Ravenclaw Tower's question-guarded door
 - Interior Rooms
   - Trophy Room
+- Secret Rooms, Moving Routes, and Responsive Castle Spaces
+  - Room of Hidden Things access and object resistance
+  - The Room of Requirement as a wartime refuge
+  - Variable exits and resealing walls
 - The Grounds and Edge of the Forest
+  - Dangerous Creatures and Forest Placement
   - Forbidden Forest Paths and Supervised Searches
   - Forbidden Forest Paths and Warnings
   - Hagrid's Grounds Duties
@@ -597,19 +2714,59 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Towers, Corridors, and Service Rooms
   - The Owlery and school owls
 
+## The Castle and Its Magic
+
+- Boundaries, Wards, and Exceptional Magic
+  - Hogsmeade detection and Snape-era castle access
+- Hogwarts as a Magical Stronghold
+  - Ancient magic, hidden stores, and institutional pull
+  - Horcrux search logic and hidden castle secrets
+  - Voldemort's claimed knowledge of the castle's deepest secrets
+
 ## The Castle and Its Protections
 
+- Boundaries, Towers, and Defensive Enchantments
+  - Emergency flight through the castle boundary
+- Maps, Hidden Rooms, and Concealed Routes
+  - Blocked hidden-room retreat after the cabinet breach
+  - Defensive coverage and cabinet-breach failure
+  - Marauder's Map limits and watched passageways
+  - Marauder's Map surveillance and unexplained blind spots
+  - Room of Hidden Things and accumulated contraband
+  - Room of Requirement access rules and map blind spots
+  - Vanishing Cabinet passage into Hogwarts
+  - Wall-disguised shortcut toward Potions
 - Movement Limits and Anti-Apparition Protections
   - Apparition blocked inside the grounds
+- Wartime Access and Student Transport
+  - Ministry-arranged Floo returns to staff offices
+- Wartime Threats Inside Hogwarts
+  - Poisoned gifts and emergency antidotes
 
 ## The Castle and Its Working Spaces
 
 - Towers, Corridors, and Service Rooms
   - The Owlery in West Tower
 
+## The Castle, Grounds, and Approaches
+
+- Arrival at Hogwarts
+  - Thestral-Drawn Carriages
+- Towers, Outbuildings, and Grounds
+  - Owlery mail infrastructure and Thestrals in the Forest
+
 ## The Four Houses
 
+- Founder Relics and House Memory
+  - The Sword of Gryffindor and worthy Gryffindors
+- Founders' Relics and Legacies
+  - Griphook's reclamation of the Sword of Gryffindor
+  - Hufflepuff's cup and Slytherin's locket
+  - Hufflepuff's cup in the Lestrange vault
+  - Sword authenticity, goblin silver, and Horcrux destruction
+  - Sword custody, Gringotts vault panic, and false authentication
 - House Identity and Reputation
+  - Borderline Sorting decisions
   - House loyalty during the Triwizard Tournament
   - Pre-Arrival Explanations of Houses
   - Pre-Sorting Rumors and Family Expectations
@@ -617,25 +2774,72 @@ Source data: sources YAML + project-control indexes + structured source data.
 - House Points and the House Cup
   - Classroom Deductions
   - Point Records and Major Deductions
+- Ravenclaw House
+  - Rowena Ravenclaw, wit, and house identity
+  - Tower entrance, common room, and Rowena statue
+- Salazar Slytherin and His Legacy
+  - Gaunt family descent and heirlooms
+  - Parseltongue before Hogwarts
 - Slytherin House
   - Serpent Symbolism and Parseltongue Lore
+- Sorting, Families, and Exceptions
+  - Family patterns and Sirius Black's exception
+- Sorting, House Identity, and Founder Memory
+  - Wartime attempt to abolish Sorting and Houses
+
+## The Grounds and Edge of the Forest
+
+- Magical Residents in Wartime
+  - Acromantulas breaching the castle walls
+  - Aragog's clearing as Voldemort's battle camp
+  - Grawp and giants at the castle entrance
+
+## The Grounds and Forbidden Forest
+
+- Creature Materials and Informal Knowledge
+  - Valuable byproducts from forest creatures
+- Dangerous Creatures Near Hogwarts
+  - Aragog's Colony
+  - Aragog's death and colony control
+
+## The Grounds and Lake
+
+- Lake Ecology, Merpeople, and Dangerous Water Creatures
+  - Gillyweed, Grindylows, and Underwater Navigation
+  - Merpeople Settlement and Second-Task Cooperation
+  - Merpeople classification and community structure
 
 ## The Library, Books, and Scholarship
 
+- Archives, Offices, and Private Collections
+  - Dumbledore's library and instruments left to Hogwarts
 - Library Collections and Restricted Books
+  - Censorship, Board Support, and the Beedle Collection
+  - Evening study, supervision, and examination pressure
   - Physical Boundary and Enforced Restrictions
   - Research, Reference Works, and Teacher Permission
   - Restricted Section Permissions and Advanced Potions
   - Subject Sections, Study Space, and Supervision
+  - Tournament Research and Restricted-Section Permission
 - Magical Books, Records, and Unreliable Sources
   - The Riddle Diary as Memory Evidence
+- Magical Knowledge and Its Limits
+  - Magical limits and mortality
+- Magical Sources and Cultural Memory
+  - Beedle the Bard and wizarding childhood tradition
 - Magical Sources and Unreliable Records
   - The Riddle Diary as Memory and Weapon
+- Memory, Testimony, and Historical Method
+  - Pensieve lessons in the headmaster's office
+  - Pensieve memories as supervised historical evidence
+  - Recovering Slughorn's suppressed memory
 - Named In-Universe Sources
   - Bathilda Bagshot's A History of Magic
   - Informal Historical Expertise
   - Magical Medical References and Student Problem-Solving
   - Quidditch Books and Moving Illustrations
+  - Quidditch Through the Ages
+  - The Tales of Beedle the Bard
 - Named Sources About Hogwarts
   - Prefect Career Studies
 - Newspapers, Notices, and Public Wizarding Sources
@@ -643,6 +2847,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Practical Books and Specialist Periodicals
   - Broomstick Publications
   - Creature-Law and Hippogriff Sources
+- Records, Archives, and Historical Research
+  - School records and family-history research
+- Student Scholarship and Learned Networks
+  - Dumbledore's Early Academic Reputation
+  - Dumbledore's post-Hogwarts honors and planned Grand Tour
 - Student Use of Books Before Arrival
   - Course Books and Background Reading
 - Student Use of Library Books
@@ -653,9 +2862,65 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Quidditch Through the Ages
   - Research Across Books and Magical Ephemera
 
+## The Second War and Hidden Histories
+
+- Ministry Capture and Public Propaganda
+  - Thicknesse's puppet ministry and Harry as suspect
+- Regulus Black and the Secret Locket
+  - First-war resistance hidden inside a pure-blood household
+
+## The Wider Grounds and Hogsmeade
+
+- Hogsmeade Village
+  - The Hog's Head Inn
+
+## Wands, Equipment, and Magical Materials
+
+- Elder Wand Ownership and Allegiance
+  - Voldemort's mistaken mastery theory and Snape's death
+
+## Wars and political history
+
+- Voldemort's rise and the First Wizarding War
+  - Fear, naming, and social coercion
+
 ## Wars, Crises, and School Memory
 
+- Dark Arts Knowledge After the First War
+  - Cruciatus intent and Death Eater practice
+- Dumbledore, Voldemort, and Public Proof of Return
+  - Phoenix intervention during the Ministry duel
+- First Wizarding War Legal Aftermath
+  - Bagman's Rookwood-linked acquittal
+  - Council of Magical Law courtroom procedure
+  - Karkaroff testimony and Snape's wartime role
+  - Longbottom torture trial and Crouch family scandal
+- Harry Potter and Voldemort's Return
+  - Scar connection and failed Occlumency safeguards
+  - Scar-linked possession and emotional resistance
 - Harry Potter and the End of the First Wizarding War
   - Killing Curse survival and Potter-family testimony
+- Ministry Investigations and Order Secrecy
+  - Auror Headquarters and the Sirius Black File
+- Ministry Wartime Powers and Postwar Memory
+  - Barty Crouch's Law-Enforcement Record
+- Second Wizarding War Legal Repression
+  - Commission courtroom and dementor coercion
 - The First Wizarding War in Later Hogwarts Teaching
+  - Former Death Eater Associations During the Triwizard Year
   - Imperius Curse culpability and postwar denials
+- The Second War and Hogwarts Families
+  - Ministry surveillance of Order-linked families
+- Wartime Security and Communication
+  - Dangerous names and speech-based tracking
+  - Taboo on Voldemort's name and speech-based tracking
+
+## Wizarding Society Before Secrecy
+
+- Relations with the Non-Magical World
+  - Defensive Practice Before the Statute
+
+## Wizarding Society and Cultural Relations
+
+- Goblins, Wizards, and Material Ownership
+  - Competing Ownership Norms

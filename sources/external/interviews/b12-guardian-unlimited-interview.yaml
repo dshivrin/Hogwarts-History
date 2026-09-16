@@ -1,0 +1,176 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B12
+  source_file: resources/external/interviews/accio-quote/b12-guardian-unlimited-interview.md
+  title: 'Carey, Joanna. "Who hasn''t met Harry?" Guardian Unlimited , February 16, 1999'
+  author: J.K. Rowling
+  source_site: Accio Quote
+  source_class: preservation_transcription
+  authority: D
+  publication_date: '16 February 1999'
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/1999/0299-guardian-carey.htm
+  capture_completeness: complete
+  content_sha256: 4dc0385c15fc05c7f37600c1e88e14843d5fc1006c7f49c7c80f55f644b3a364
+  processed_date: '2026-08-24'
+  processor_notes: Complete preservation-transcript snapshot read; only bounded Rowling statements were extracted.
+
+entries:
+  - id: ext-b12-001
+    source_file: resources/external/interviews/accio-quote/b12-guardian-unlimited-interview.md
+    source_id: B12
+    source_url: https://www.accio-quote.org/articles/1999/0299-guardian-carey.htm
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Hogwarts HAS to be a boarding school
+      end_phrase: half the important stuff happens at night!
+      local_occurrence_note: Rowling's response, in the article's discussion of the series' boarding-school setting.
+    nearby_context: Asked about the story's orphan and boarding-school ingredients, Rowling explains why Hogwarts needed to be a boarding school.
+    match_terms:
+      - hogwarts
+      - boarding school
+      - important stuff
+      - night
+    quote_excerpt_short: Hogwarts HAS to be a boarding school - half the important stuff happens at night!
+    source_note: Rowling presents the boarding-school form as necessary to enable consequential nighttime action in Harry's Hogwarts story.
+    reference_type: historical_claim
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hogwarts
+      - boarding-school
+      - nighttime
+      - authorial-commentary
+    candidate_part: 'Part II: The School'
+    candidate_chapter: School Life and Daily Rhythms
+    candidate_section: Boarding residence and after-hours life
+    reason_for_placement: It supplies a bounded authorial rationale for Hogwarts being residential and for nighttime activity mattering to its narrative life.
+    relevance_to_hogwarts_a_history: Use as attributed authorial commentary about the Harry-era school setting, not as an independent in-universe institutional record.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed after-hours evidence concerns wartime movement restrictions, not Rowling's stated boarding-school rationale.
+      audit:
+        query_tags:
+          - authorial-commentary
+          - boarding-school
+          - nighttime
+        candidates:
+          - id: hbp-ch22-003
+            disposition: distinct
+    confidence: low
+    limitations: Accio Quote is a non-primary preservation transcription of a Guardian Unlimited interview; wording and attribution cannot be checked against the original outlet here.
+
+  - id: ext-b12-002
+    source_file: resources/external/interviews/accio-quote/b12-guardian-unlimited-interview.md
+    source_id: B12
+    source_url: https://www.accio-quote.org/articles/1999/0299-guardian-carey.htm
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Having a child of my own reinforces my belief
+      end_phrase: that's what Hogwarts offers Harry.
+      local_occurrence_note: Continuation of Rowling's explanation of the boarding-school setting, immediately after the nighttime rationale.
+    nearby_context: Rowling links her perspective as a parent to her view that children need security, then applies that view to Hogwarts and Harry.
+    match_terms:
+      - hogwarts
+      - harry
+      - security
+      - children
+    quote_excerpt_short: children above all want security, and that's what Hogwarts offers Harry.
+    source_note: Rowling characterizes Hogwarts as providing Harry security, framing this as an authorial belief rather than a described protective mechanism.
+    reference_type: historical_claim
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hogwarts
+      - security
+      - harry-potter
+      - authorial-commentary
+    candidate_part: 'Part II: The School'
+    candidate_chapter: Hogwarts as Home
+    candidate_section: Security and belonging
+    reason_for_placement: The statement directly expresses the school’s intended emotional-security role for Harry.
+    relevance_to_hogwarts_a_history: Use as limited attributed commentary on Hogwarts's intended role as Harry's secure home; do not treat it as proof of particular safeguards.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The query returns Harry-related school and wartime-security entries, but none makes this authorial claim about Hogwarts's intended security role.
+      audit:
+        query_tags:
+          - authorial-commentary
+          - harry-potter
+          - security
+        candidates:
+          - id: cos-ch01-004
+            disposition: distinct
+          - id: dh-ch01-002
+            disposition: distinct
+          - id: dh-ch04-003
+            disposition: distinct
+          - id: dh-ch04-006
+            disposition: distinct
+          - id: dh-ch05-004
+            disposition: distinct
+          - id: dh-ch05-007
+            disposition: distinct
+          - id: dh-ch07-005
+            disposition: distinct
+          - id: dh-ch11-002
+            disposition: distinct
+          - id: dh-ch20-005
+            disposition: distinct
+          - id: dh-ch22-001
+            disposition: distinct
+    confidence: low
+    limitations: Accio Quote is a non-primary preservation transcription of a Guardian Unlimited interview; this is a broad authorial interpretation, not an operational account of school security.
+
+  - id: ext-b12-003
+    source_file: resources/external/interviews/accio-quote/b12-guardian-unlimited-interview.md
+    source_id: B12
+    source_url: https://www.accio-quote.org/articles/1999/0299-guardian-carey.htm
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: there are some very strict rules
+      end_phrase: there are some very strict rules
+      local_occurrence_note: Rowling's qualification after acknowledging the article's examples of hazardous Hogwarts features.
+    nearby_context: After calling Hogwarts secure for Harry, Rowling concedes that dangers make this less obvious and cites strict rules.
+    match_terms:
+      - hogwarts
+      - strict rules
+      - school policy
+      - security
+    quote_excerpt_short: there are some very strict rules
+    source_note: Rowling states that Hogwarts has strict rules, but the preserved interview gives no specific rule, authority, or enforcement detail.
+    reference_type: school_rule_or_policy
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - hogwarts
+      - strict-rules
+      - school-policy
+      - authorial-commentary
+    candidate_part: 'Part II: The School'
+    candidate_chapter: Governance and Discipline
+    candidate_section: Rules and institutional order
+    reason_for_placement: It is a narrowly bounded authorial statement that Hogwarts operates with strict rules.
+    relevance_to_hogwarts_a_history: Use only as attributed high-level commentary; pair with primary-text evidence before describing a particular rule or enforcement practice.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed entry concerns a Ministry instructional policy, not the interview's unspecific statement about Hogwarts rules.
+      audit:
+        query_tags:
+          - authorial-commentary
+          - school-policy
+          - strict-rules
+        candidates:
+          - id: gof-ch14-002
+            disposition: distinct
+    confidence: low
+    limitations: Accio Quote is a non-primary preservation transcription of a Guardian Unlimited interview; the statement is general and does not identify any rule or its historical period.

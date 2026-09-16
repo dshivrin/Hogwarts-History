@@ -1,0 +1,149 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: F01
+  source_file: resources/external/official-editorial/harrypotter-com/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.md
+  title: The Hogwarts classes that you might have forgotten about
+  author: Pottermore
+  source_site: HarryPotter.com
+  source_class: secondary_reference
+  authority: E
+  publication_date: '2017-12-20'
+  original_url: https://www.harrypotter.com/features/hogwarts-classes-that-you-might-have-forgotten-about
+  retrieval_url: https://www.harrypotter.com/features/hogwarts-classes-that-you-might-have-forgotten-about
+  capture_completeness: complete
+  content_sha256: 6ef0939b3e547ee0426bd005197f0819b708237eb732975c137c5af5d3ff3e68
+  processed_date: '2026-09-15'
+  processor_notes: Complete snapshot read; only distinct runes and alchemy claims were retained, with speculative language and editorial authority preserved.
+
+entries:
+  - id: ext-f01-001
+    source_file: resources/external/official-editorial/harrypotter-com/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.md
+    source_id: F01
+    source_url: https://www.harrypotter.com/features/hogwarts-classes-that-you-might-have-forgotten-about
+    source_section: The Study of Ancient Runes
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Although not a lot is known of the specifics of rune study
+      end_phrase: perhaps involved a wider study of ancient wizarding culture.
+      local_occurrence_note: Ancient Runes section after the basic description of symbol decoding.
+    nearby_context: The editorial explicitly moves from acknowledged lack of detail to conjecture about the alphabet's age and the class's cultural scope.
+    match_terms:
+      - ancient-runes
+      - bronze-age
+      - iron-age
+      - speculation
+    quote_excerpt_short: It can be presumed that this alphabet once belonged to ancient Bronze/Iron Age wizards.
+    source_note: An official editorial speculates that the runic alphabet may derive from Bronze or Iron Age wizarding culture and that the class may study that culture more broadly.
+    reference_type: weak_context_only
+    era_classification: later_editorial_note
+    topic_tags:
+      - ancient-runes
+      - bronze-age
+      - curriculum
+      - official-editorial
+      - source-criticism
+    candidate_part: Historiography and Evidence
+    candidate_chapter: Traditions, Legends, and Claims
+    candidate_section: Speculation About Ancient Runes
+    reason_for_placement: Preserves an official site's proposed interpretation while preventing conjecture from entering the historical narrative as fact.
+    relevance_to_hogwarts_a_history: Weak context only; the Pensieve source supplies stronger direct evidence for pre-Hogwarts runic inscription.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries establish runes in texts and curriculum, but none records this explicitly speculative Bronze or Iron Age hypothesis.
+      audit:
+        query_tags:
+          - ancient-runes
+          - bronze-age
+          - curriculum
+        candidates:
+          - id: beedle-fm-001
+            disposition: corroborating
+          - id: ext-a18-001
+            disposition: distinct
+          - id: ext-a18-002
+            disposition: corroborating
+          - id: ext-a18-003
+            disposition: distinct
+          - id: ext-a18-004
+            disposition: distinct
+          - id: ext-a31-001
+            disposition: distinct
+          - id: fb-ch00-003
+            disposition: distinct
+          - id: gof-ch12-006
+            disposition: distinct
+          - id: gof-ch14-001
+            disposition: distinct
+          - id: gof-ch15-002
+            disposition: distinct
+    confidence: low
+    limitations: The source is a later official editorial, not Rowling Original Writing, and uses “it can be presumed” and “perhaps”; it cannot date the alphabet or prove Bronze/Iron Age use.
+
+  - id: ext-f01-002
+    source_file: resources/external/official-editorial/harrypotter-com/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.md
+    source_id: F01
+    source_url: https://www.harrypotter.com/features/hogwarts-classes-that-you-might-have-forgotten-about
+    source_section: Alchemy
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The class taught the disciplines of an ancient magic
+      end_phrase: it also had its roots in potion-making and chemistry.
+      local_occurrence_note: Alchemy section after the statement that the course depended on sufficient sixth-year demand.
+    nearby_context: The editorial describes element-based transmutation and connects alchemy to potion-making and chemistry.
+    match_terms:
+      - alchemy
+      - ancient-magic
+      - transmutation
+      - potion-making
+    quote_excerpt_short: It also had its roots in potion-making and chemistry.
+    source_note: An official editorial characterizes alchemy as ancient, element-based transmutation with roots in potion-making and chemistry.
+    reference_type: weak_context_only
+    era_classification: later_editorial_note
+    topic_tags:
+      - alchemy
+      - potions
+      - ancient-magic
+      - chemistry
+      - official-editorial
+    candidate_part: Historiography and Evidence
+    candidate_chapter: Traditions, Legends, and Claims
+    candidate_section: Editorial Description of Alchemy
+    reason_for_placement: Retains a distinct official editorial connection between alchemy and potions without treating it as primary historical evidence.
+    relevance_to_hogwarts_a_history: Suggestive context for relations among old crafts, but insufficient to date potion practice or establish a pre-Hogwarts curriculum.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Existing entries establish Alchemy instruction and potion practice separately; none states the editorial claim that alchemy had roots in potion-making.
+      audit:
+        query_tags:
+          - alchemy
+          - potions
+          - ancient-magic
+        candidates:
+          - id: cos-ch09-007
+            disposition: distinct
+          - id: cos-ch10-002
+            disposition: distinct
+          - id: cos-ch11-002
+            disposition: distinct
+          - id: dh-ch18-003
+            disposition: corroborating
+          - id: ext-a18-003
+            disposition: corroborating
+          - id: ext-a21-002
+            disposition: distinct
+          - id: ext-a38-002
+            disposition: distinct
+          - id: ext-a38-005
+            disposition: distinct
+          - id: ext-a39-001
+            disposition: corroborating
+          - id: ext-a39-002
+            disposition: distinct
+    confidence: low
+    limitations: This is a secondary editorial summary published after the 1984 scope; it offers no dated evidence, source citation, or basis for the claimed historical relationship.

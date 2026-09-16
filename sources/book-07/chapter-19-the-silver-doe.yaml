@@ -1,0 +1,321 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Nineteen - The Silver Doe
+  chapter_start_pdf_page: 3285
+  chapter_end_pdf_page: 3305
+  boundary_confidence: high
+  boundary_notes: Processing-state supplied an inclusive page range; extraction began at the visible Chapter Nineteen heading and ended at the final page before Chapter Twenty.
+  processed_date: '2026-08-06'
+  processor_notes: Extracted only PDF pages 3285-3305 with pypdf via scripts/extract_pages.py; no full-PDF scan was performed.
+
+entries:
+  - id: dh-ch19-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Nineteen - The Silver Doe
+    chapter_start_pdf_page: 3285
+    chapter_end_pdf_page: 3305
+    pdf_page: 3285
+    printed_page:
+    extracted_text_lines: 12-15
+    text_anchor:
+      start_phrase: Hermione, who was huddled in the entrance
+      end_phrase: by the light of her wand
+      local_occurrence_note: Opening campsite watch scene before the Forest of Dean move.
+    nearby_context: Hermione reads by wandlight while keeping midnight watch in the tent, shortly before deciding to move camp.
+    match_terms:
+      - A History of Magic
+      - Hermione Granger
+      - wandlight reading
+      - named source
+    quote_excerpt_short: A History of Magic by the light of her wand
+    source_note: Hermione continues to carry and consult named magical-history material during the Horcrux hunt, even outside Hogwarts and under wartime field conditions.
+    reference_type: explicit_in_universe_source
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - a-history-of-magic
+      - hermione-granger
+      - named-sources
+      - magical-history
+      - horcrux-hunt
+      - field-reading
+    candidate_part: Part I - Sources And Authorities
+    candidate_chapter: Named Histories And School-Age Reference Books
+    candidate_section: A History of Magic as a portable reference tradition
+    reason_for_placement: The scene supports how standard magical-history texts remain practical references beyond classroom use.
+    relevance_to_hogwarts_a_history: A later Hogwarts history can use this as evidence that magical-history books are treated as authoritative portable tools by well-prepared students.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - ps-ch06-004
+      notes: ps-ch06-004 already records Hermione's pre-arrival reliance on named history and Dark Arts books; this entry adds wartime field use of A History of Magic rather than duplicating the first-year preparation point.
+    confidence: medium
+    limitations: 'The passage names A History of Magic, not Hogwarts: A History, and does not identify the specific topic Hermione is reading.'
+
+  - id: dh-ch19-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Nineteen - The Silver Doe
+    chapter_start_pdf_page: 3285
+    chapter_end_pdf_page: 3305
+    pdf_page: 3287
+    printed_page:
+    extracted_text_lines: 61-64
+    text_anchor:
+      start_phrase: protective enchantments had worked for weeks
+      end_phrase: something was different tonight
+      local_occurrence_note: Harry keeps watch after relocating to the Forest of Dean.
+    nearby_context: Harry notes the long-term reliability of the campsite protections while sensing that this night differs from prior protected camps.
+    match_terms:
+      - protective enchantments
+      - campsite
+      - wards
+      - Horcrux hunt
+    quote_excerpt_short: protective enchantments had worked for weeks
+    source_note: The mobile campsite wards have protected the fugitives for weeks, confirming repeated field security can remain effective across many relocations.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - campsite
+      - field-security
+      - horcrux-hunt
+      - protective-enchantments
+      - mobile-wards
+      - wartime-security
+    candidate_part: Part III - The War Beyond The Gates
+    candidate_chapter: Wartime Concealment And Mobile Safe Sites
+    candidate_section: Repeated field wards during flight
+    reason_for_placement: The passage adds duration evidence for mobile protective enchantments used away from fixed safe houses.
+    relevance_to_hogwarts_a_history: It helps explain the practical defensive magic available to Hogwarts-trained fugitives and the broader wartime security environment around students and alumni.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch14-003
+        - dh-ch15-001
+        - dh-ch16-001
+      notes: Prior entries cover the campsite charm routine, repeated recasting, and Ron's inability to locate new camps; this passage adds explicit duration and reliability evidence for the wards.
+    confidence: medium
+    limitations: The exact enchantments are not named in this chapter; details depend on earlier campsite passages.
+
+  - id: dh-ch19-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Nineteen - The Silver Doe
+    chapter_start_pdf_page: 3285
+    chapter_end_pdf_page: 3305
+    pdf_page: 3288
+    printed_page:
+    extracted_text_lines: 94-105
+    text_anchor:
+      start_phrase: the doe made no noise
+      end_phrase: she vanished
+      local_occurrence_note: The silver doe leads Harry through the Forest of Dean.
+    nearby_context: Harry follows a silent silver-white doe that he reads as safe and later suspects is a Patronus.
+    match_terms:
+      - silver doe
+      - Patronus
+      - Forest of Dean
+      - Sword of Gryffindor
+    quote_excerpt_short: the doe made no noise as she passed through the trees
+    source_note: A silent corporeal silver doe functions as a guide, leading Harry to the pool where the Sword of Gryffindor has been hidden.
+    reference_type: security_or_protection
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - patronus
+      - silver-doe
+      - forest-of-dean
+      - sword-of-gryffindor
+      - protective-magic
+      - covert-aid
+    candidate_part: Part III - The War Beyond The Gates
+    candidate_chapter: Patronus Messages, Guardians, And Covert Aid
+    candidate_section: A corporeal Patronus as a guide rather than only a message
+    reason_for_placement: The event extends Patronus evidence from messaging and dementor defense into concealed guidance and artifact delivery.
+    relevance_to_hogwarts_a_history: The incident can inform a Hogwarts history's treatment of Patronus mastery, alumni aid, and wartime magical communication around the school community.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch08-007
+        - dh-ch09-007
+      notes: Earlier Deathly Hallows entries record speaking Patronus warnings; this entry is related but distinct because the Patronus silently guides Harry to a hidden founder relic.
+    confidence: medium
+    limitations: The caster is not identified in this chapter, so the entry should not attribute the doe to Snape here.
+
+  - id: dh-ch19-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Nineteen - The Silver Doe
+    chapter_start_pdf_page: 3285
+    chapter_end_pdf_page: 3305
+    pdf_page: 3289
+    printed_page:
+    extracted_text_lines: 129-161
+    text_anchor:
+      start_phrase: The sword of Gryffindor was lying
+      end_phrase: nerve, and chivalry set Gryffindors apart
+      local_occurrence_note: Harry identifies the sword and recalls Dumbledore's true-Gryffindor explanation.
+    nearby_context: The sword lies beneath the frozen pool; Accio fails, so Harry reasons through the prior Sorting Hat retrieval and Gryffindor qualities.
+    match_terms:
+      - Sword of Gryffindor
+      - true Gryffindor
+      - daring nerve chivalry
+      - Accio Sword
+    quote_excerpt_short: The sword of Gryffindor was lying at the bottom
+    source_note: The sword cannot simply be Summoned from the pool; Harry links its retrieval to true Gryffindor worthiness and the House qualities of daring, nerve, and chivalry.
+    reference_type: house_system
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - sword-of-gryffindor
+      - godric-gryffindor
+      - founder-relic
+      - house-qualities
+      - summoning-charm
+      - magical-artifact
+    candidate_part: Part II - Founders, Houses, And Relics
+    candidate_chapter: Gryffindor House And Its Founder Relic
+    candidate_section: Worthiness conditions and Gryffindor qualities
+    reason_for_placement: The passage directly connects a founder relic to House identity and practical magical access conditions.
+    relevance_to_hogwarts_a_history: A Hogwarts history can use this as later confirmation of the Sword of Gryffindor's selective behavior and its symbolic tie to Gryffindor virtues.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch07-006
+        - cos-ch17-005
+        - cos-ch18-004
+      notes: Prior entries establish the sword as a historical artifact and its Sorting Hat appearance to a true Gryffindor; this entry adds the Forest of Dean retrieval test and failed Summoning detail.
+    confidence: high
+    limitations: Harry's reasoning supplies the worthiness interpretation; the scene confirms behavior but not a formal rule text.
+
+  - id: dh-ch19-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Nineteen - The Silver Doe
+    chapter_start_pdf_page: 3285
+    chapter_end_pdf_page: 3305
+    pdf_page: 3294
+    printed_page:
+    extracted_text_lines: 305-325
+    text_anchor:
+      start_phrase: No, you should do it
+      end_phrase: curled upon the cold rock
+      local_occurrence_note: Harry prepares Ron to destroy Slytherin's locket.
+    nearby_context: Harry decides Ron should wield the sword, recalls the diary Horcrux's resistance, and opens the locket by speaking Parseltongue to its serpentine S.
+    match_terms:
+      - locket Horcrux
+      - Sword of Gryffindor
+      - Parseltongue
+      - Riddle diary
+    quote_excerpt_short: I am going to ask it to open, using Parseltongue
+    source_note: Slytherin's locket Horcrux requires Parseltongue to open, and Harry links the expected resistance to the diary Horcrux's attempt to kill him.
+    reference_type: cross_reference_candidate
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - horcrux
+      - slytherin-locket
+      - parseltongue
+      - riddle-diary
+      - sword-of-gryffindor
+      - dark-magic
+    candidate_part: Part IV - Dark Artifacts And Their Defeat
+    candidate_chapter: Founder Relics And Horcrux Vulnerabilities
+    candidate_section: Parseltongue access and Horcrux resistance
+    reason_for_placement: The scene ties a Slytherin-linked artifact mechanism to Horcrux destruction practice.
+    relevance_to_hogwarts_a_history: It gives later evidence for how founder symbolism, Parseltongue, and Hogwarts-era Riddle artifacts intersect with Voldemort's Horcrux magic.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch14-006
+        - dh-ch10-007
+        - cos-ch17-002
+      notes: Earlier entries identify the active locket Horcrux, Regulus's failed destruction order, and the diary as a memory weapon; this entry adds the Parseltongue opening step before destruction.
+    confidence: high
+    limitations: The entry belongs more to later editorial/contextual material than to a pre-1984 original Hogwarts history core.
+
+  - id: dh-ch19-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Nineteen - The Silver Doe
+    chapter_start_pdf_page: 3285
+    chapter_end_pdf_page: 3305
+    pdf_page: 3297
+    printed_page:
+    extracted_text_lines: 419-432
+    text_anchor:
+      start_phrase: The sword flashed, plunged
+      end_phrase: had been its final act
+      local_occurrence_note: Ron strikes the opened locket after its Riddle manifestations.
+    nearby_context: The locket projects distorted Harry and Hermione figures, burns hot, then is pierced through both windows by the sword.
+    match_terms:
+      - Horcrux destruction
+      - Sword of Gryffindor
+      - Riddle's eyes
+      - locket
+    quote_excerpt_short: Ron had pierced the glass in both windows
+    source_note: The Sword of Gryffindor destroys Slytherin's locket Horcrux after it manifests psychological attacks and Riddle-like eyes.
+    reference_type: historical_claim
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - horcrux-destruction
+      - sword-of-gryffindor
+      - slytherin-locket
+      - ron-weasley
+      - dark-magic
+      - second-war
+    candidate_part: Part IV - Dark Artifacts And Their Defeat
+    candidate_chapter: The Destruction Of Slytherin's Locket
+    candidate_section: Gryffindor's sword as a Horcrux-destroying weapon
+    reason_for_placement: The passage is direct evidence for the locket's destruction and the sword's role in neutralizing Horcrux magic.
+    relevance_to_hogwarts_a_history: Later editions can use this to explain why a Hogwarts founder relic became central to Second War resistance.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch14-006
+        - dh-ch15-006
+        - dh-ch07-006
+      notes: Prior entries establish the active locket and the sword's venom/authenticity logic; this entry records the actual destruction event.
+    confidence: high
+    limitations: The destruction occurs in the Second War and should be excluded from an original pre-1984 edition except as later editorial material.
+
+  - id: dh-ch19-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Nineteen - The Silver Doe
+    chapter_start_pdf_page: 3285
+    chapter_end_pdf_page: 3305
+    pdf_page: 3301
+    printed_page:
+    extracted_text_lines: 560-569
+    text_anchor:
+      start_phrase: I walked straight into a gang of Snatchers
+      end_phrase: dragged to the Ministry
+      local_occurrence_note: Ron explains what delayed his return after leaving the trio.
+    nearby_context: Ron says Snatchers are widespread reward-seeking gangs targeting Muggle-borns and blood traitors, with school-age fugitives treated as valuable captures.
+    match_terms:
+      - Snatchers
+      - Muggle-borns
+      - blood traitors
+      - Ministry reward
+      - school age
+    quote_excerpt_short: gangs trying to earn gold by rounding up Muggle-borns
+    source_note: Snatcher gangs operate under Ministry rewards for captured Muggle-borns and blood traitors, and they identify apparent school-age youths as possible Muggle-born fugitives.
+    reference_type: school_rule_or_policy
+    era_classification: post_1984_excluded_from_original
+    topic_tags:
+      - snatchers
+      - muggle-borns
+      - blood-traitors
+      - ministry-of-magic
+      - school-age-youth
+      - second-war
+    candidate_part: Part III - The War Beyond The Gates
+    candidate_chapter: Muggle-Born Persecution And Wartime Student Risk
+    candidate_section: Snatchers and rewards for school-age fugitives
+    reason_for_placement: The passage links Ministry policy, blood-status persecution, and the danger faced by school-age magical people outside Hogwarts.
+    relevance_to_hogwarts_a_history: It gives later-edition context for compulsory schooling, blood-status enforcement, and why absence from Hogwarts became dangerous under the captured Ministry.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of:
+      notes: Compact duplicate lookup for Snatchers, Muggle-borns, blood traitors, Ministry rewards, and school-age suspects returned no matches.
+    confidence: high
+    limitations: Ron is reporting his recent experience; the passage does not name a written Ministry decree.

@@ -1,0 +1,286 @@
+source_unit:
+  source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+  book: Fantastic Beasts and Where to Find Them
+  chapter: Front Matter, Contents, Author, and Foreword
+  chapter_start_pdf_page: 1
+  chapter_end_pdf_page: 8
+  boundary_confidence: high
+  boundary_notes: Bounded scanned-PDF processing used only rendered page images for the assigned inclusive range, PDF pages 1-8. Page 8 ends the foreword and page 9 begins the next assigned unit.
+  processed_date: '2026-09-11'
+  processor_notes: "Rendered pages 1-8 only with pdftoppm and visually inspected every page image. No explicit Hogwarts: A History title reference was found; six strongest Hogwarts-relevant front-matter and foreword entries were retained."
+
+entries:
+  - id: fb-ch00-001
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Front Matter, Contents, Author, and Foreword
+    chapter_start_pdf_page: 1
+    chapter_end_pdf_page: 8
+    pdf_page: 6
+    printed_page: vi
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Newton ('Newt') Artemis Fido Scamander was born in 1897
+      end_phrase: rapid promotion
+      local_occurrence_note: Opening paragraph of the About the Author page after Harry's marginal comment on Newt's name.
+    nearby_context: The biography introduces Scamander's early interest in beasts, family Hippogriff breeding, Hogwarts graduation, and first Ministry creature posts.
+    match_terms:
+      - Newt Scamander
+      - Hogwarts School
+      - Magizoology
+      - Ministry of Magic
+      - Department for the Regulation and Control of Magical Creatures
+      - House-Elf Relocation
+      - Beast Division
+    quote_excerpt_short: Upon graduation from Hogwarts School
+    source_note: The author note identifies Newt Scamander as a Hogwarts graduate whose creature expertise led from Ministry creature administration into the Beast Division.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - newt-scamander
+      - hogwarts-graduation
+      - magizoology
+      - ministry-of-magic
+      - beast-division
+      - house-elf-relocation
+      - hippogriffs
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Notable Alumni and Professional Pathways
+    candidate_section: Newt Scamander and magizoology careers
+    reason_for_placement: The passage connects a named Hogwarts graduate to later specialist work in magical-creature regulation and scholarship.
+    relevance_to_hogwarts_a_history: Useful as alumni evidence showing Hogwarts as the educational background for a major magizoologist and textbook author.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup for newt-scamander and hogwarts-graduation returned no indexed matches.
+    confidence: high
+    limitations: The note gives no Hogwarts House, exact graduation year, or details of Scamander's school career.
+
+  - id: fb-ch00-002
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Front Matter, Contents, Author, and Foreword
+    chapter_start_pdf_page: 1
+    chapter_end_pdf_page: 8
+    pdf_page: 6
+    printed_page: vi
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Although almost solely responsible for the creation of the Werewolf Register
+      end_phrase: services to the study of magical beasts, Magizoology
+      local_occurrence_note: Second half of the About the Author page, following the account of Scamander's Ministry promotion.
+    nearby_context: The biography summarizes Scamander's major regulatory achievements, research travel, bestselling book, Order of Merlin award, and retirement.
+    match_terms:
+      - Werewolf Register
+      - Ban on Experimental Breeding
+      - Dragon Research and Restraint Bureau
+      - Order of Merlin
+      - Magizoology
+      - Fantastic Beasts and Where to Find Them
+    quote_excerpt_short: creation of the Werewolf Register in 1947
+    source_note: Scamander is credited with creating the Werewolf Register, championing the 1965 Ban on Experimental Breeding, conducting dragon research, and receiving the Order of Merlin for magizoology.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - newt-scamander
+      - werewolf-register
+      - experimental-breeding
+      - dragon-research
+      - order-of-merlin
+      - magizoology
+      - magical-creature-regulation
+    candidate_part: Magical Law and Institutions
+    candidate_chapter: Creature Regulation and Wizarding Public Safety
+    candidate_section: Scamander's mid-century regulatory legacy
+    reason_for_placement: The passage supplies dates and institutional outcomes for twentieth-century magical-creature governance.
+    relevance_to_hogwarts_a_history: A later Hogwarts history could connect creature-law developments to the curriculum and to the authority of Scamander's textbook.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup for werewolf-register and experimental-breeding returned no indexed matches.
+    confidence: high
+    limitations: The biography is concise and does not explain the legal text, enforcement, or Hogwarts curricular response to these developments.
+
+  - id: fb-ch00-003
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Front Matter, Contents, Author, and Foreword
+    chapter_start_pdf_page: 1
+    chapter_end_pdf_page: 8
+    pdf_page: 7
+    printed_page: vii
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Newt's masterpiece has been an approved textbook at Hogwarts School
+      end_phrase: Care of Magical Creatures examinations
+      local_occurrence_note: Opening paragraph of Dumbledore's foreword after he says Newt asked him to write for the special edition.
+    nearby_context: Dumbledore frames Fantastic Beasts as both a long-approved Hogwarts textbook and a book commonly useful in wizarding homes.
+    match_terms:
+      - Fantastic Beasts
+      - approved textbook
+      - Hogwarts School
+      - Care of Magical Creatures
+      - examinations
+      - classroom
+      - wizarding household
+    quote_excerpt_short: approved textbook at Hogwarts School
+    source_note: Dumbledore says Fantastic Beasts has long been an approved Hogwarts textbook and credits it with students' strong Care of Magical Creatures examination results.
+    reference_type: curriculum_or_subject
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - fantastic-beasts-textbook
+      - hogwarts-textbooks
+      - care-of-magical-creatures
+      - examinations
+      - albus-dumbledore
+      - curriculum
+      - magical-creatures
+    candidate_part: Academic Life and Curriculum
+    candidate_chapter: Care of Magical Creatures
+    candidate_section: Approved textbooks and examination preparation
+    reason_for_placement: The foreword gives direct institutional testimony about a named Hogwarts textbook's approval and subject use.
+    relevance_to_hogwarts_a_history: Strong evidence for the Care of Magical Creatures curriculum, textbook culture, and examination preparation before Harry's era.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup returned general Care of Magical Creatures entries, including Kettleburn and Harry-era lessons, but none records Fantastic Beasts as an approved Hogwarts textbook.
+    confidence: high
+    limitations: Dumbledore does not give the first adoption date, edition history, or whether the book was required every year.
+
+  - id: fb-ch00-004
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Front Matter, Contents, Author, and Foreword
+    chapter_start_pdf_page: 1
+    chapter_end_pdf_page: 8
+    pdf_page: 7
+    printed_page: vii
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: This edition, however, has a loftier purpose
+      end_phrase: made available to Muggles
+      local_occurrence_note: Middle of Dumbledore's foreword, after the textbook discussion and before the Comic Relief appeal to wizards.
+    nearby_context: Dumbledore explains that Comic Relief motivates the special edition and addresses fellow wizards about Muggle charitable work.
+    match_terms:
+      - Obscurus
+      - Muggles
+      - Comic Relief
+      - publishing house
+      - wizarding community
+      - laughter
+      - special edition
+    quote_excerpt_short: made available to Muggles
+    source_note: Dumbledore presents the Comic Relief edition as the first Obscurus title made available to Muggles and urges wizards to recognize Muggle charitable magic.
+    reference_type: institutional_custom
+    era_classification: later_editorial_note
+    topic_tags:
+      - obscurus-books
+      - muggle-publication
+      - comic-relief
+      - wizarding-publication
+      - albus-dumbledore
+      - secrecy
+      - muggles
+    candidate_part: Hogwarts, a History as a Source
+    candidate_chapter: Companion Books and Editorial Frames
+    candidate_section: Obscurus Books and Muggle charity editions
+    reason_for_placement: The foreword explains an unusual publication boundary crossing from wizarding educational text to Muggle-accessible charity book.
+    relevance_to_hogwarts_a_history: Useful as editorial-context evidence for why a Hogwarts textbook source appears in a Muggle-facing carrier.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup for obscurus-books and muggle-publication returned no indexed matches.
+    confidence: high
+    limitations: The claim is part of the edition's comic charity frame and does not establish ordinary wizarding publication policy.
+
+  - id: fb-ch00-005
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Front Matter, Contents, Author, and Foreword
+    chapter_start_pdf_page: 1
+    chapter_end_pdf_page: 8
+    pdf_page: 8
+    printed_page: viii
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: You hold in your hands a duplicate of Harry Potter's own copy
+      end_phrase: has agreed
+      local_occurrence_note: First full paragraph on the second foreword page after Dumbledore gives Comic Relief's fundraising total.
+    nearby_context: Dumbledore identifies the reproduced object as Harry's copy, complete with marginal notes by Harry and his friends, despite Harry's reluctance.
+    match_terms:
+      - Harry Potter's copy
+      - friends' notes
+      - margins
+      - reprinted
+      - Newt Scamander
+      - graffiti
+      - Fantastic Beasts
+    quote_excerpt_short: duplicate of Harry Potter's own copy
+    source_note: The edition is framed as a duplicate of Harry's annotated copy, with Harry and his friends' marginal notes retained by agreement with Comic Relief and Scamander.
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - harry-copy
+      - marginalia
+      - annotated-textbooks
+      - fantastic-beasts-textbook
+      - harry-potter
+      - student-notes
+      - newt-scamander
+    candidate_part: Hogwarts, a History as a Source
+    candidate_chapter: Companion Books and Editorial Frames
+    candidate_section: Harry's annotated school copy
+    reason_for_placement: The passage defines the evidentiary status of the marginal notes reproduced throughout the carrier.
+    relevance_to_hogwarts_a_history: Important provenance evidence for distinguishing Scamander's textbook text from later student marginalia by Harry, Ron, and Hermione.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookup returned Half-Blood Prince textbook marginalia entries, but those concern a different annotated textbook and different authorial status.
+    confidence: high
+    limitations: The foreword does not identify which marginal notes belong to which friend, and the reproduced annotations remain comic editorial material unless individually corroborated.
+
+  - id: fb-ch00-006
+    source_file: pdfs/Fantastic-Beasts-Where-to-Find-Them.pdf
+    book: Fantastic Beasts and Where to Find Them
+    chapter: Front Matter, Contents, Author, and Foreword
+    chapter_start_pdf_page: 1
+    chapter_end_pdf_page: 8
+    pdf_page: 8
+    printed_page: viii
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: This edition of Fantastic Beasts will be sold at Flourish and Blotts
+      end_phrase: Draco dormiens nunquam titillandus
+      local_occurrence_note: Closing paragraphs of Dumbledore's foreword before his signature.
+    nearby_context: Dumbledore gives wizarding sales and donation channels, warns about a Thief's Curse, and closes with Hogwarts's Latin motto.
+    match_terms:
+      - Flourish and Blotts
+      - Muggle bookshops
+      - Gringotts Wizarding Bank
+      - Griphook
+      - Thief's Curse
+      - Draco dormiens nunquam titillandus
+      - Albus Dumbledore
+    quote_excerpt_short: sold at Flourish and Blotts
+    source_note: The special edition is sold through both Flourish and Blotts and Muggle bookshops, with extra wizarding donations directed through Gringotts and a joking Thief's Curse warning ending in the Hogwarts motto.
+    reference_type: institutional_custom
+    era_classification: later_editorial_note
+    topic_tags:
+      - flourish-blotts
+      - muggle-bookshops
+      - gringotts
+      - griphook
+      - thiefs-curse
+      - hogwarts-motto
+      - comic-relief
+    candidate_part: Hogwarts, a History as a Source
+    candidate_chapter: Companion Books and Editorial Frames
+    candidate_section: Sales channels, charity donations, and motto framing
+    reason_for_placement: The passage records the edition's wizarding and Muggle distribution frame plus a visible Hogwarts motto citation.
+    relevance_to_hogwarts_a_history: Useful mainly for editorial provenance and cross-reference; the motto ending can point to separate evidence on Hogwarts symbols.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Duplicate lookups returned Gringotts institutional entries and one external motto-design note; none duplicates this edition-specific sales, donation, curse, and motto frame.
+    confidence: high
+    limitations: The Thief's Curse appears in a humorous foreword context and should not be treated as a confirmed operational curse without supporting evidence.

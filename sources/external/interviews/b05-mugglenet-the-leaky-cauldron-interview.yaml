@@ -1,0 +1,158 @@
+source_unit:
+  source_kind: external_markdown
+  source_id: B05
+  source_file: resources/external/interviews/accio-quote/b05-mugglenet-the-leaky-cauldron-interview.md
+  title: 'Anelli, Melissa and Emerson Spartz. "The Leaky Cauldron and MuggleNet interview Joanne Kathleen Rowling: Part One," The Leaky Cauldron , 16 July 2005'
+  author: J.K. Rowling
+  source_site: Accio Quote
+  original_publisher: MuggleNet / The Leaky Cauldron
+  source_class: preservation_transcription
+  authority: D
+  publication_date: July 2005, Part 1
+  original_url: null
+  retrieval_url: https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-1.htm
+  retrieved_at: '2026-08-15'
+  archive_url: null
+  carrier_type: preservation_transcript
+  is_primary: false
+  is_official: false
+  capture_completeness: complete
+  sha256: 52f4efbdaf1e7642d0e8ab986e75b65c6dd2b1697586b33825a38d8891acab31
+  content_sha256: 52f4efbdaf1e7642d0e8ab986e75b65c6dd2b1697586b33825a38d8891acab31
+  relevance:
+    - hogwarts
+    - rowling_interview
+    - author_commentary
+  notes: "Accio Quote preservation carrier; original outlet: MuggleNet / The Leaky Cauldron."
+  processed_date: '2026-08-15'
+  processor_notes: Complete preservation-transcript snapshot read; bounded Hogwarts-history evidence extracted with carrier limitations retained.
+
+entries:
+  - id: ext-b05-001
+    source_file: resources/external/interviews/accio-quote/b05-mugglenet-the-leaky-cauldron-interview.md
+    source_id: B05
+    source_url: https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-1.htm
+    source_section: Dumbledore and McGonagall
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Well, there is information on that to come, in seven.
+      end_phrase: McGonagall is a very worthy second in command, she is not an equal.
+      local_occurrence_note: Rowling's answer to a question about Dumbledore's apparent emotional blind spots.
+    nearby_context: Rowling characterizes Dumbledore as isolated by wisdom and intelligence, then qualifies McGonagall's senior role in relation to him.
+    match_terms:
+      - Dumbledore
+      - McGonagall
+      - second in command
+      - Hogwarts leadership
+    quote_excerpt_short: McGonagall is a very worthy second in command.
+    source_note: Rowling characterizes McGonagall as Dumbledore's worthy second in command, while explicitly distinguishing that position from being his equal.
+    reference_type: historical_claim
+    era_classification: harry_era_confirmation
+    topic_tags:
+      - dumbledore
+      - leadership
+      - mcgonagall
+    candidate_part: "Part III: People, Houses, and Institutional Memory"
+    candidate_chapter: Hogwarts Leadership and Staff
+    candidate_section: Headmaster and Deputy Head
+    reason_for_placement: The answer directly describes the senior leadership relationship at Hogwarts during Dumbledore's headship.
+    relevance_to_hogwarts_a_history: Useful as Harry-era author commentary on the school's leadership hierarchy, but not evidence of a formal written deputy-head policy.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: The indexed results concern other Dumbledore or McGonagall matters, not this stated leadership relationship.
+      audit:
+        query_tags:
+          - dumbledore
+          - leadership
+          - mcgonagall
+        candidates:
+          - id: hbp-ch29-005
+            disposition: distinct
+          - id: ps-ch09-003
+            disposition: distinct
+          - id: ps-ch10-005
+            disposition: distinct
+          - id: cos-ch02-003
+            disposition: distinct
+          - id: cos-ch04-001
+            disposition: distinct
+          - id: cos-ch07-004
+            disposition: distinct
+          - id: cos-ch10-006
+            disposition: distinct
+          - id: cos-ch12-003
+            disposition: distinct
+          - id: cos-ch12-006
+            disposition: distinct
+          - id: cos-ch14-006
+            disposition: distinct
+    confidence: medium
+    limitations: Authority D preservation transcription of a spoiler-limited author answer; it offers character-level commentary rather than an institutional role description or dated administrative record.
+
+  - id: ext-b05-002
+    source_file: resources/external/interviews/accio-quote/b05-mugglenet-the-leaky-cauldron-interview.md
+    source_id: B05
+    source_url: https://www.accio-quote.org/articles/2005/0705-tlc_mugglenet-anelli-1.htm
+    source_section: Lily and James Potter's deaths
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: Can't tell you. But he did offer, you're absolutely right.
+      end_phrase: Did he clearly die to try and protect Harry specifically given a clear choice? No.
+      local_occurrence_note: Rowling answers why Lily's death protected Harry while James's death did not.
+    nearby_context: Rowling says Voldemort offered Lily a chance to live, whereas James was going to be murdered without that choice; she distinguishes Lily's consciously chosen death from James's attempted protection.
+    match_terms:
+      - Lily Potter
+      - James Potter
+      - sacrificial protection
+      - choice
+    quote_excerpt_short: She did very consciously lay down her life.
+    source_note: Rowling says Lily's protection of Harry depended on her being offered survival and consciously choosing death, a condition she distinguishes from James's unavoidable death.
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - lily-potter
+      - protective-magic
+      - sacrifice-magic
+    candidate_part: "Part IV: Magical History and Wider Context"
+    candidate_chapter: The First Wizarding War and Its Legacy
+    candidate_section: Sacrificial Protection at Godric's Hollow
+    reason_for_placement: The answer explains the distinctive condition Rowling assigns to the 1981 Potter-family attack and Harry's resulting protection.
+    relevance_to_hogwarts_a_history: Relevant background for the event that shaped Hogwarts' Harry-era history, while requiring corroboration from the novels because this is a preserved interview transcript.
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch17-006
+      notes: dh-ch17-006 gives direct scene evidence of Lily's choice; dh-ch35-001 independently explains later consequences of her sacrificial protection.
+      audit:
+        query_tags:
+          - lily-potter
+          - protective-magic
+          - sacrifice-magic
+        candidates:
+          - id: dh-ch35-001
+            disposition: corroborating
+          - id: dh-ch03-001
+            disposition: distinct
+          - id: dh-ch03-004
+            disposition: distinct
+          - id: dh-ch06-002
+            disposition: distinct
+          - id: dh-ch17-006
+            disposition: duplicate
+          - id: dh-ch19-003
+            disposition: distinct
+          - id: dh-ch29-004
+            disposition: distinct
+          - id: dh-ch29-005
+            disposition: distinct
+          - id: dh-ch32-006
+            disposition: distinct
+          - id: dh-ch34-007
+            disposition: distinct
+    confidence: medium
+    limitations: Authority D preservation transcription, published before the final explanation in the novels; it reports Rowling's distinction but does not provide a full rule set for sacrificial protection.

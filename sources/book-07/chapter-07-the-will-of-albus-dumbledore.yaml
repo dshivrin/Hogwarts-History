@@ -1,0 +1,329 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Deathly Hallows
+  chapter: Chapter Seven - The Will of Albus Dumbledore
+  chapter_start_pdf_page: 3068
+  chapter_end_pdf_page: 3089
+  boundary_confidence: high
+  boundary_notes: Chapter Seven page range was taken from project-control/processing-state.yaml after Book 7 Chapter Six. Only PDF pages 3068-3089 were extracted and searched.
+  processed_date: '2026-08-01'
+  processor_notes: "Processed only Book 7, Chapter Seven. Text was extracted locally with pypdf into .tmp/current-chapter.txt and .tmp/chapter-07-07-pages. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+  - id: dh-ch07-001
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Seven - The Will of Albus Dumbledore
+    chapter_start_pdf_page: 3068
+    chapter_end_pdf_page: 3089
+    pdf_page: 3069
+    printed_page: null
+    extracted_text_lines: "49-63; 80-88"
+    text_anchor:
+      start_phrase: "Wow -- that's right, I forgot! I'm seventeen!"
+      end_phrase: "It's traditional to give a wizard a watch when he comes of age"
+      local_occurrence_note: "Harry first uses magic freely after turning seventeen, and Mrs. Weasley gives him the traditional wizarding watch."
+    nearby_context: "The morning of Harry's seventeenth birthday at the Burrow follows the trio's preparations to leave school for Dumbledore's mission."
+    match_terms:
+      - seventeen
+      - Trace
+      - coming of age
+      - watch
+      - wizarding custom
+      - Burrow
+    quote_excerpt_short: "Reveling in the removal of his Trace"
+    source_note: "Harry's seventeenth birthday immediately ends the practical Trace constraint on his own spellcasting, and Mrs. Weasley identifies a watch as the traditional gift when a wizard comes of age."
+    reference_type: institutional_custom
+    era_classification: later_editorial_note
+    topic_tags:
+      - trace
+      - coming-of-age
+      - seventeenth-birthday
+      - wizarding-custom
+      - underage-magic
+      - burrow
+      - molly-weasley
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "The War Beyond the Gates"
+    candidate_section: "Coming of age and the end of the Trace"
+    reason_for_placement: "The scene connects the legal end of underage monitoring with a family custom that marks adult wizarding status."
+    relevance_to_hogwarts_a_history: "A later edition can use this as everyday cultural context for why Harry's seventeenth birthday changed the practical constraints on his nonreturn to Hogwarts."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - dh-ch06-001
+        - hbp-ch03-007
+      notes: "dh-ch06-001 records the Trace as a delay on the Horcrux hunt, and hbp-ch03-007 records the wizarding age of majority; this entry adds the immediate post-birthday spellcasting and watch custom."
+    confidence: high
+    limitations: "The passage does not define the Trace's legal mechanism or say whether the watch custom is universal across all wizarding families."
+
+  - id: dh-ch07-002
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Seven - The Will of Albus Dumbledore
+    chapter_start_pdf_page: 3068
+    chapter_end_pdf_page: 3089
+    pdf_page: 3079
+    printed_page: null
+    extracted_text_lines: "344-368"
+    text_anchor:
+      start_phrase: "Why has it taken this long to give us what he left us?"
+      end_phrase: "unless they can prove they're dangerous"
+      local_occurrence_note: "Hermione challenges Scrimgeour's month-long withholding of Dumbledore's bequests."
+    nearby_context: "Scrimgeour has arrived at the Burrow with Dumbledore's will and the items left to Harry, Ron, and Hermione."
+    match_terms:
+      - Decree for Justifiable Confiscation
+      - Ministry
+      - will
+      - Dark artifacts
+      - thirty-one days
+      - Magical Law
+    quote_excerpt_short: "the thirty-one days are up"
+    source_note: "The Ministry relies on the Decree for Justifiable Confiscation to inspect Dumbledore's will contents for thirty-one days, supposedly requiring evidence that bequeathed objects are illegal or dangerous."
+    reference_type: explicit_in_universe_source
+    era_classification: later_editorial_note
+    topic_tags:
+      - ministry-of-magic
+      - magical-law
+      - dumbledore-will
+      - justifiable-confiscation
+      - dark-artifacts
+      - estate-law
+      - scrimgeour
+    candidate_part: Later Editorial Notes
+    candidate_chapter: "Ministry Authority and School Affairs"
+    candidate_section: "Estate seizure and suspected Dark artifacts"
+    reason_for_placement: "The legal dispute shows Ministry power reaching into the effects of a former Hogwarts headmaster after his death."
+    relevance_to_hogwarts_a_history: "A later edition can cite this as a wartime example of Ministry oversight intersecting with Hogwarts-linked private archives and artifacts."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Targeted searches for Ministry/confiscation/will and magical-law estate bequests did not identify a direct prior duplicate."
+    confidence: high
+    limitations: "Hermione and Scrimgeour summarize the law in confrontation; the full decree text and enforcement history are not provided."
+
+  - id: dh-ch07-003
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Seven - The Will of Albus Dumbledore
+    chapter_start_pdf_page: 3068
+    chapter_end_pdf_page: 3089
+    pdf_page: 3079
+    printed_page: null
+    extracted_text_lines: "377-383"
+    text_anchor:
+      start_phrase: "He made exceptionally few personal bequests."
+      end_phrase: "were left to Hogwarts"
+      local_occurrence_note: "Scrimgeour contrasts the trio's bequests with the destination of most of Dumbledore's property."
+    nearby_context: "Scrimgeour is probing why Dumbledore singled out Ron, Hermione, and Harry in his will."
+    match_terms:
+      - Dumbledore
+      - will
+      - private library
+      - magical instruments
+      - personal effects
+      - Hogwarts
+    quote_excerpt_short: "were left to Hogwarts"
+    source_note: "Scrimgeour says Dumbledore made few personal bequests and left most possessions, including his private library, magical instruments, and other effects, to Hogwarts."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - dumbledore
+      - hogwarts-archives
+      - private-library
+      - magical-instruments
+      - headmaster
+      - estate-law
+      - institutional-memory
+    candidate_part: The Library, Books, and Scholarship
+    candidate_chapter: "Archives, Offices, and Private Collections"
+    candidate_section: "Dumbledore's library and instruments left to Hogwarts"
+    reason_for_placement: "The claim identifies Hogwarts as the institutional recipient of a headmaster's scholarly and magical collection."
+    relevance_to_hogwarts_a_history: "This supports a later account of how headmasters' private materials could enter Hogwarts's institutional holdings after death."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Targeted searches for Dumbledore/will/Hogwarts/possessions returned no duplicate matches."
+    confidence: medium
+    limitations: "The statement comes from Scrimgeour and does not specify where in Hogwarts the library, instruments, or effects were stored afterward."
+
+  - id: dh-ch07-004
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Seven - The Will of Albus Dumbledore
+    chapter_start_pdf_page: 3068
+    chapter_end_pdf_page: 3089
+    pdf_page: 3080
+    printed_page: null
+    extracted_text_lines: "395-416; 609-620"
+    text_anchor:
+      start_phrase: "I leave my Deluminator"
+      end_phrase: "Dumbledore invented it himself!"
+      local_occurrence_note: "The will identifies Ron's bequest, Scrimgeour calls it rare, and Ron later demonstrates the device."
+    nearby_context: "Scrimgeour delivers Dumbledore's personal bequests, then the trio privately tests the items upstairs."
+    match_terms:
+      - Deluminator
+      - Dumbledore
+      - invention
+      - light
+      - unique
+      - bequest
+    quote_excerpt_short: "the power to suck all light"
+    source_note: "Dumbledore's Deluminator is bequeathed to Ron, described as valuable, possibly unique, and of Dumbledore's own design, then shown removing and restoring lamplight."
+    reference_type: historical_claim
+    era_classification: later_editorial_note
+    topic_tags:
+      - deluminator
+      - dumbledore
+      - magical-artifact
+      - invention
+      - light-magic
+      - personal-bequest
+      - ron-weasley
+    candidate_part: Magical Artefacts and Instruments
+    candidate_chapter: "Headmasters' Magical Instruments"
+    candidate_section: "Dumbledore's Deluminator"
+    reason_for_placement: "The object is directly tied to Dumbledore's inventiveness and survives as a personal magical instrument with unusual light-handling properties."
+    relevance_to_hogwarts_a_history: "A later edition can connect Dumbledore's headmastership to distinctive magical instrumentation rather than only policy or teaching."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Targeted searches for Deluminator/Dumbledore/invention returned no duplicate matches."
+    confidence: high
+    limitations: "The immediate demonstration shows only light removal and restoration, not the deeper later function of the object."
+
+  - id: dh-ch07-005
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Seven - The Will of Albus Dumbledore
+    chapter_start_pdf_page: 3068
+    chapter_end_pdf_page: 3089
+    pdf_page: 3082
+    printed_page: null
+    extracted_text_lines: "448-484; 642-666"
+    text_anchor:
+      start_phrase: "I leave the Snitch he caught in his first Quidditch match at Hogwarts"
+      end_phrase: "I open at the close"
+      local_occurrence_note: "Scrimgeour explains Snitch flesh memory, and Harry later reveals Dumbledore's hidden inscription by touching it to his mouth."
+    nearby_context: "The bequest is first tested under Ministry scrutiny and then privately examined by the trio in Ron's attic room."
+    match_terms:
+      - Snitch
+      - first Quidditch match
+      - Hogwarts
+      - flesh memories
+      - Dumbledore
+      - inscription
+    quote_excerpt_short: "Because Snitches have flesh memories"
+    source_note: "Dumbledore leaves Harry the Snitch from his first Hogwarts Quidditch match; Scrimgeour explains Snitch flesh memory, and Harry later reveals a temporary Dumbledore inscription."
+    reference_type: institutional_custom
+    era_classification: later_editorial_note
+    topic_tags:
+      - golden-snitch
+      - quidditch
+      - flesh-memory
+      - dumbledore
+      - magical-artifact
+      - hidden-message
+      - harry-potter
+    candidate_part: Games, Competitions, and Student Life
+    candidate_chapter: "Quidditch and Enchanted Equipment"
+    candidate_section: "Snitch flesh memory and contested captures"
+    reason_for_placement: "The passage gives a rule-like explanation for Snitch manufacture and capture verification, then applies it to a Hogwarts match artifact."
+    relevance_to_hogwarts_a_history: "A later edition can use the bequest to explain both Quidditch equipment enchantments and the historical importance of Harry's first Hogwarts capture."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Targeted searches for Snitch/flesh-memory returned no duplicate matches."
+    confidence: high
+    limitations: "The passage does not name a governing Quidditch rulebook or say whether all Snitches use identical memory enchantments."
+
+  - id: dh-ch07-006
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Seven - The Will of Albus Dumbledore
+    chapter_start_pdf_page: 3068
+    chapter_end_pdf_page: 3089
+    pdf_page: 3083
+    printed_page: null
+    extracted_text_lines: "510-534; 667-678"
+    text_anchor:
+      start_phrase: "The sword of Godric Gryffindor"
+      end_phrase: "Ought he to know what it all meant?"
+      local_occurrence_note: "Scrimgeour refuses to hand over the sword and cites historical sources about its presentation to worthy Gryffindors."
+    nearby_context: "Dumbledore has attempted to leave Harry a second bequest, but the Ministry withholds the sword."
+    match_terms:
+      - Sword of Godric Gryffindor
+      - historical artifact
+      - reliable historical sources
+      - Sorting Hat
+      - worthy Gryffindor
+      - Heir of Slytherin
+    quote_excerpt_short: "may present itself to any worthy Gryffindor"
+    source_note: "Scrimgeour says the Sword of Godric Gryffindor is an important historical artifact, not Dumbledore's property, and that reliable sources say it may present itself to any worthy Gryffindor."
+    reference_type: historical_claim
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - sword-of-gryffindor
+      - godric-gryffindor
+      - founder-relic
+      - historical-artifact
+      - sorting-hat
+      - gryffindor
+      - ministry-of-magic
+    candidate_part: The Four Houses
+    candidate_chapter: "Founder Relics and House Memory"
+    candidate_section: "The Sword of Gryffindor and worthy Gryffindors"
+    reason_for_placement: "The passage gives explicit historical-source framing for a founder relic and its relationship to Gryffindor identity."
+    relevance_to_hogwarts_a_history: "This is a strong seed for later editorial treatment of founder artifacts, ownership disputes, and the Sword's connection to the Sorting Hat."
+    duplicate_check:
+      possible_duplicate: true
+      duplicate_of:
+        - cos-ch17-005
+      notes: "cos-ch17-005 records the Sorting Hat producing an unnamed sword for Harry; this entry names the sword, gives Ministry historical-artifact framing, and cites its ability to present itself to worthy Gryffindors."
+    confidence: high
+    limitations: "Scrimgeour does not identify the reliable historical sources, and the Ministry's ownership claim may be self-interested."
+
+  - id: dh-ch07-007
+    source_file: pdfs/harrypotter.pdf
+    book: Harry Potter and the Deathly Hallows
+    chapter: Chapter Seven - The Will of Albus Dumbledore
+    chapter_start_pdf_page: 3068
+    chapter_end_pdf_page: 3089
+    pdf_page: 3081
+    printed_page: null
+    extracted_text_lines: "419-430; 679-709"
+    text_anchor:
+      start_phrase: "I leave my copy of The Tales of Beedle the Bard"
+      end_phrase: "all these old stories came from Beedle"
+      local_occurrence_note: "Dumbledore's bequest identifies the runic book, and Ron explains Beedle as a source of old wizarding children's stories."
+    nearby_context: "Hermione receives a book she cannot yet read, then later contrasts her Muggle childhood stories with Ron's wizarding story tradition."
+    match_terms:
+      - The Tales of Beedle the Bard
+      - runes
+      - old stories
+      - wizarding childhood
+      - Dumbledore
+      - book
+    quote_excerpt_short: "all these old stories came from Beedle"
+    source_note: "Dumbledore leaves Hermione a runic copy of The Tales of Beedle the Bard, and Ron treats Beedle as the traditional source of old wizarding children's stories."
+    reference_type: explicit_in_universe_source
+    era_classification: pre_1984_historical_candidate
+    topic_tags:
+      - tales-of-beedle-the-bard
+      - runes
+      - wizarding-folklore
+      - children-stories
+      - dumbledore
+      - hermione-granger
+      - in-universe-source
+    candidate_part: The Library, Books, and Scholarship
+    candidate_chapter: "Magical Sources and Cultural Memory"
+    candidate_section: "Beedle the Bard and wizarding childhood tradition"
+    reason_for_placement: "The bequest identifies a specific wizarding book source and shows how cultural knowledge differs between Muggle-raised and wizard-raised students."
+    relevance_to_hogwarts_a_history: "A later edition can use the scene to discuss non-school sources of magical cultural memory that students bring with them to Hogwarts."
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: "Targeted searches for Beedle/Bard/runes returned no duplicate matches."
+    confidence: high
+    limitations: "Ron speaks from childhood familiarity rather than bibliographic authority, and Hermione has not translated the runic text in this chapter."

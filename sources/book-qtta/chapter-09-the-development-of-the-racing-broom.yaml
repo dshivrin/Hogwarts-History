@@ -1,0 +1,326 @@
+source_unit:
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Nine - The Development of the Racing Broom
+  chapter_start_pdf_page: 55
+  chapter_end_pdf_page: 59
+  boundary_confidence: high
+  boundary_notes: Chapter Nine begins on PDF page 55 and ends on PDF page 59, where Chapter Ten begins on the same
+    page.
+  processed_date: '2026-08-15'
+  processor_notes: All five image-only pages were rendered and OCRed; dated model claims and the shared Chapter
+    Nine/Ten page were checked. The 1990 model is explicitly excluded from the original pre-1984 body.
+entries:
+- id: qtta-ch09-001
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Nine - The Development of the Racing Broom
+  chapter_start_pdf_page: 55
+  chapter_end_pdf_page: 59
+  pdf_page: 55
+  printed_page: 47
+  extracted_text_lines: OCR lines 1511-1559
+  text_anchor:
+    start_phrase: invention of the Cushioning Charm
+    end_phrase: prized agility over safety
+    local_occurrence_note: Chapter opening and Oakshaft 79 example.
+  nearby_context: Whisp contrasts nineteenth-century comfort gains with remaining speed, altitude-control, and manufacturing
+    limitations.
+  match_terms:
+  - Cushioning Charm
+  - 1820
+  - Oakshaft 79
+  - agility
+  - safety
+  quote_excerpt_short: invention of the Cushioning Charm by Elliot Smethwyck in 1820
+  source_note: The 1820 Cushioning Charm improved comfort, but nineteenth-century brooms still lacked reliable speed
+    and high-altitude control; the durable Oakshaft 79 traded agility for safety.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - racing-brooms
+  - cushioning-charm
+  - broom-safety
+  - oakshaft-79
+  - broom-history
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Broom Development and Safety
+  reason_for_placement: It identifies an early comfort enchantment and a clear performance-versus-safety tradeoff.
+  relevance_to_hogwarts_a_history: It contextualizes the safer, more controllable equipment expected in school flying
+    and Quidditch.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing school entries discuss broom condition and inspection but not nineteenth-century design limitations.
+  confidence: high
+  limitations: The source does not state which historical models, if any, Hogwarts owned.
+- id: qtta-ch09-002
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Nine - The Development of the Racing Broom
+  chapter_start_pdf_page: 55
+  chapter_end_pdf_page: 59
+  pdf_page: 56
+  printed_page: 48
+  extracted_text_lines: OCR lines 1537-1588
+  text_anchor:
+    start_phrase: Moontrimmer, which was first created
+    end_phrase: demand far outstripped supply
+    local_occurrence_note: Early twentieth-century racing broom development before mass production.
+  nearby_context: The Moontrimmer improved controllable altitude, and the Silver Arrow became the true high-speed
+    racing-broom forerunner.
+  match_terms:
+  - Moontrimmer
+  - 1901
+  - Silver Arrow
+  - seventy miles an hour
+  quote_excerpt_short: true forerunner of the racing broom
+  source_note: The 1901 Moontrimmer improved controllable altitude, while Leonard Jewkes's Silver Arrow became the
+    first true high-speed racing-broom forerunner, though artisan production limited supply.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - moontrimmer
+  - silver-arrow
+  - racing-brooms
+  - broom-control
+  - broom-history
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Broom Development and Safety
+  reason_for_placement: The passage explains the transition from ordinary brooms to specialized sporting equipment.
+  relevance_to_hogwarts_a_history: It supplies historical context for model comparisons made by Hogwarts's flying
+    instructor.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch13-001
+    notes: Madam Hooch compares Silver Arrows with later school-era models; this entry supplies the Silver Arrow's
+      development history.
+  confidence: high
+  limitations: Performance figures are general and do not establish a Hogwarts procurement history.
+- id: qtta-ch09-003
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Nine - The Development of the Racing Broom
+  chapter_start_pdf_page: 55
+  chapter_end_pdf_page: 59
+  pdf_page: 57
+  printed_page: 49
+  extracted_text_lines: OCR lines 1560-1588
+  text_anchor:
+    start_phrase: breakthrough occurred in 1926
+    end_phrase: every Quidditch team in the country was mounted on Cleansweeps
+    local_occurrence_note: Cleansweep Broom Company paragraph.
+  nearby_context: The Ollerton brothers produced a sporting broom at unprecedented scale and with improved cornering.
+  match_terms:
+  - 1926
+  - Cleansweep Broom Company
+  - Cleansweep One
+  - sporting use
+  quote_excerpt_short: marketed as a racing broom specifically designed for sporting use
+  source_note: The 1926 Cleansweep One made purpose-built sporting brooms widely available through mass production
+    and substantially improved cornering.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - cleansweep
+  - racing-brooms
+  - broom-manufacturing
+  - quidditch-equipment
+  - broom-control
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Broom Development and Safety
+  reason_for_placement: It marks the shift to standardized, mass-produced Quidditch brooms.
+  relevance_to_hogwarts_a_history: It contextualizes the Cleansweep models used and discussed by Hogwarts pupils
+    and staff.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch13-001
+    notes: The Hogwarts entry confirms Cleansweeps as known school-era models; this source supplies their manufacturing
+      origin.
+  confidence: high
+  limitations: The claim that every team adopted Cleansweeps concerns national teams generally, not Hogwarts Houses
+    specifically.
+- id: qtta-ch09-004
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Nine - The Development of the Racing Broom
+  chapter_start_pdf_page: 55
+  chapter_end_pdf_page: 59
+  pdf_page: 57
+  printed_page: 49
+  extracted_text_lines: OCR lines 1578-1617
+  text_anchor:
+    start_phrase: Comet Trading Company's first broom
+    end_phrase: fly offside
+    local_occurrence_note: Comet 140 paragraph continuing onto PDF page 58.
+  nearby_context: Two professional players tested 140 models, and their patented braking charm reduced overshooting
+    and offside flight.
+  match_terms:
+  - Comet 140
+  - 1929
+  - braking charm
+  - overshoot
+  - offside
+  quote_excerpt_short: much less likely to overshoot goals or fly offside
+  source_note: The 1929 Comet 140 introduced the patented Horton-Keitch braking charm, reducing overshot goals and
+    offside flight and making control a competitive safety feature.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - comet-140
+  - braking-charm
+  - broom-safety
+  - racing-brooms
+  - quidditch-equipment
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Broom Development and Safety
+  reason_for_placement: It gives a concrete example of sporting design improving control and reducing flight errors.
+  relevance_to_hogwarts_a_history: It informs discussion of broom handling and safety in school matches and flying
+    practice.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Existing Hogwarts equipment entries do not identify the Comet's braking innovation.
+  confidence: high
+  limitations: The source does not state whether Hogwarts supplied Comets as school brooms.
+- id: qtta-ch09-005
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Nine - The Development of the Racing Broom
+  chapter_start_pdf_page: 55
+  chapter_end_pdf_page: 59
+  pdf_page: 58
+  printed_page: 50
+  extracted_text_lines: OCR lines 1589-1643
+  text_anchor:
+    start_phrase: Tinderblast was launched
+    end_phrase: Universal Brooms went out of business in 1978
+    local_occurrence_note: Mid-century model comparison before the Nimbus paragraph.
+  nearby_context: Whisp compares resilience, speed, ascent performance, cost, and age-related deterioration across
+    three models.
+  match_terms:
+  - Tinderblast
+  - Swiftstick
+  - Shooting Star
+  - lose power
+  - 1978
+  quote_excerpt_short: Shooting Star was found to lose speed and height as it aged
+  source_note: 'Mid-century models exposed distinct reliability risks: the resilient Tinderblast lacked speed, the
+    Swiftstick lost power in ascent, and the cheap Shooting Star deteriorated with age.'
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - tinderblast
+  - swiftstick
+  - shooting-star
+  - broom-safety
+  - equipment-aging
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Broom Development and Safety
+  reason_for_placement: The model comparison gives concrete evidence that broom age, ascent power, and resilience
+    affect sporting safety.
+  relevance_to_hogwarts_a_history: It provides historical context for Hogwarts concerns about old school brooms
+    and equipment quality.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch09-002
+    notes: The novel identifies school brooms used in first-year instruction; this entry explains why model age
+      and performance matter.
+  confidence: high
+  limitations: The passage does not identify the models or condition of Hogwarts's school broom inventory.
+- id: qtta-ch09-006
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Nine - The Development of the Racing Broom
+  chapter_start_pdf_page: 55
+  chapter_end_pdf_page: 59
+  pdf_page: 59
+  printed_page: 51
+  extracted_text_lines: OCR lines 1618-1643
+  text_anchor:
+    start_phrase: In 1967 the broom world was galvanised
+    end_phrase: top of the field
+    local_occurrence_note: Nimbus Racing Broom Company paragraph before the post-1984 Twigger model.
+  nearby_context: The Nimbus 1000 combined speed, fixed-point turning, reliability, and handling before a sequence
+    of later models.
+  match_terms:
+  - 1967
+  - Nimbus 1000
+  - hundred miles per hour
+  - fixed point
+  quote_excerpt_short: capable of turning 360 degrees at a fixed point in mid-air
+  source_note: The 1967 Nimbus 1000 combined 100-mile-per-hour speed, fixed-point turning, reliability, and easy
+    handling, establishing Nimbus as a leading racing-broom maker.
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - nimbus
+  - nimbus-1000
+  - racing-brooms
+  - broom-control
+  - quidditch-equipment
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Broom Development and Safety
+  reason_for_placement: It supplies the pre-1984 origin of the Nimbus line later used by Hogwarts players.
+  relevance_to_hogwarts_a_history: It contextualizes Nimbus ownership, model prestige, and equipment inequality
+    among House teams.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of:
+    - poa-ch01-007
+    - cos-ch07-002
+    notes: The novels show Nimbus models as prized student and donated team equipment; this entry supplies the line's
+      technical origin.
+  confidence: high
+  limitations: Later Nimbus model specifications and Hogwarts purchasing policies are not given.
+- id: qtta-ch09-007
+  source_file: pdfs/quidditch-through-the-ages.pdf
+  book: Quidditch Through the Ages
+  chapter: Chapter Nine - The Development of the Racing Broom
+  chapter_start_pdf_page: 55
+  chapter_end_pdf_page: 59
+  pdf_page: 59
+  printed_page: 51
+  extracted_text_lines: OCR lines 1618-1643
+  text_anchor:
+    start_phrase: Twigger 90, first produced in 1990
+    end_phrase: more Galleons than sense
+    local_occurrence_note: Final paragraph of Chapter Nine.
+  nearby_context: A post-cutoff model added warning and self-straightening features but warped at speed.
+  match_terms:
+  - Twigger 90
+  - 1990
+  - Warning Whistle
+  - Self-Straightening Brush
+  - warp
+  quote_excerpt_short: found to warp under high speeds
+  source_note: The 1990 Twigger 90 added a warning whistle and self-straightening brush but warped at high speed,
+    showing that added features did not ensure safe performance.
+  reference_type: historical_claim
+  era_classification: post_1984_excluded_from_original
+  topic_tags:
+  - twigger-90
+  - broom-safety
+  - racing-brooms
+  - post-1984
+  - equipment-failure
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: The History and Rules of Quidditch
+  candidate_section: Broom Development and Safety
+  reason_for_placement: It is relevant broom-safety evidence but explicitly belongs outside the original planning
+    cutoff.
+  relevance_to_hogwarts_a_history: A later editorial note can use it as a cautionary example in the continuing evolution
+    of Quidditch equipment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: No existing entry records the Twigger 90 or its high-speed warping defect.
+  confidence: high
+  limitations: The model postdates the approximate 1984 original-book cutoff and must not enter the original historical
+    body.
