@@ -1,0 +1,306 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fourteen - The Unforgivable Curses
+  chapter_start_pdf_page: 1121
+  chapter_end_pdf_page: 1136
+  boundary_confidence: high
+  boundary_notes: Extracted from the processing-state bounded page range; page 1121 begins the chapter title and page 1136 closes the chapter scene.
+  processed_date: '2026-06-22'
+  processor_notes: 'Created from bounded extraction of PDF pages 1121-1136; no explicit Hogwarts: A History title reference found.'
+entries:
+- id: gof-ch14-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fourteen - The Unforgivable Curses
+  chapter_start_pdf_page: 1121
+  chapter_end_pdf_page: 1136
+  pdf_page: 1122
+  printed_page: null
+  extracted_text_lines: 35-57
+  text_anchor:
+    start_phrase: 'The Dark Forces: A Guide to Self-Protection'
+    end_phrase: teach you how to deal with Dark
+    local_occurrence_note: Moody's first fourth-year Defense Against the Dark Arts lesson, after roll call.
+  nearby_context: Moody has the class put away its books, cites Lupin's letter about prior topics, and says the class is behind on curses.
+  match_terms:
+  - defense-against-the-dark-arts
+  - curriculum
+  - dark-creatures
+  - curses
+  - professor-lupin
+  quote_excerpt_short: "you've had a pretty thorough grounding in tackling Dark creatures"
+  source_note: Moody's lesson inventories prior third-year Dark creature coverage and reframes fourth-year Defense Against the Dark Arts as urgent curse instruction.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - defense-against-the-dark-arts
+  - curriculum
+  - curses
+  - dark-creatures
+  - professor-lupin
+  - mad-eye-moody
+  candidate_part: Hogwarts Curriculum and Instruction
+  candidate_chapter: Defense Against the Dark Arts
+  candidate_section: Fourth-year curse curriculum after Dark creature groundwork
+  reason_for_placement: The entry links subject continuity across teachers to a concrete shift from creature defense to human-used curses.
+  relevance_to_hogwarts_a_history: A future school history can use this as evidence for how Defense Against the Dark Arts curricula vary by teacher and year.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Query found general DADA staffing and curriculum entries, but this passage adds distinct fourth-year curse-syllabus detail.
+  confidence: high
+  limitations: The scene reflects Moody's in-class framing and may not represent a formal written syllabus.
+- id: gof-ch14-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fourteen - The Unforgivable Curses
+  chapter_start_pdf_page: 1121
+  chapter_end_pdf_page: 1136
+  pdf_page: 1123
+  printed_page: null
+  extracted_text_lines: 71-87
+  text_anchor:
+    start_phrase: according to the Ministry of Magic
+    end_phrase: most heavily punished by Wizarding law
+    local_occurrence_note: Moody explains the official restriction before naming the Unforgivable Curses.
+  nearby_context: Moody says Ministry expectations would limit fourth years to countercurses, but Dumbledore approves early exposure.
+  match_terms:
+  - ministry-of-magic
+  - illegal-curses
+  - sixth-year
+  - dumbledore
+  - wizarding-law
+  quote_excerpt_short: "I'm not supposed to show you what illegal Dark curses look like"
+  source_note: The lesson records Ministry guidance that illegal Dark curses are normally withheld until sixth year, contrasted with Dumbledore's local judgment.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - ministry-of-magic
+  - illegal-curses
+  - defense-against-the-dark-arts
+  - sixth-year
+  - dumbledore
+  - school-policy
+  candidate_part: Hogwarts Governance and External Oversight
+  candidate_chapter: Ministry Policy and Headmaster Discretion
+  candidate_section: Defense instruction beyond ordinary Ministry limits
+  reason_for_placement: The passage shows a tension between external educational policy and Dumbledore's discretionary wartime preparation.
+  relevance_to_hogwarts_a_history: Useful for describing how Hogwarts sometimes departs from Ministry norms during perceived security threats.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-006
+    notes: gof-ch12-006 covers Moody's DADA appointment; this passage extends the same appointment into Ministry-disputed course content.
+  confidence: high
+  limitations: The Ministry policy is reported by Moody in dialogue, not quoted from a regulation.
+- id: gof-ch14-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fourteen - The Unforgivable Curses
+  chapter_start_pdf_page: 1121
+  chapter_end_pdf_page: 1136
+  pdf_page: 1124
+  printed_page: null
+  extracted_text_lines: 93-128
+  text_anchor:
+    start_phrase: Imperius Curse, or something
+    end_phrase: CONSTANT VIGILANCE
+    local_occurrence_note: Ron names the Imperius Curse and Moody demonstrates it on a spider.
+  nearby_context: Moody calls the Imperius Curse a former Ministry problem and explains the difficulty of distinguishing coercion from free will.
+  match_terms:
+  - imperius-curse
+  - ministry-of-magic
+  - first-wizarding-war
+  - free-will
+  - voldemort
+  quote_excerpt_short: "who was being forced to act, and who was acting of their own free will"
+  source_note: Moody connects Imperius Curse control to Voldemort-era legal aftermath, when the Ministry had to distinguish coerced acts from willing ones.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - imperius-curse
+  - ministry-of-magic
+  - first-wizarding-war
+  - wizarding-law
+  - voldemort
+  - free-will
+  candidate_part: Wars, Crises, and School Memory
+  candidate_chapter: The First Wizarding War in Later Hogwarts Teaching
+  candidate_section: Imperius Curse culpability and postwar denials
+  reason_for_placement: This lesson turns Dark Arts law into historical instruction about Voldemort's earlier rise.
+  relevance_to_hogwarts_a_history: The entry can support a later editorial section on how Hogwarts classrooms taught recent wizarding-war history.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch09-007
+    notes: gof-ch09-007 covers Death Eater postwar denials and Azkaban avoidance; this entry gives the related Imperius-specific legal problem.
+  confidence: high
+  limitations: Harry infers the Voldemort-era connection; Moody does not explicitly name Voldemort in the quoted explanation.
+- id: gof-ch14-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fourteen - The Unforgivable Curses
+  chapter_start_pdf_page: 1121
+  chapter_end_pdf_page: 1136
+  pdf_page: 1127
+  printed_page: null
+  extracted_text_lines: 179-225
+  text_anchor:
+    start_phrase: Avada Kedavra
+    end_phrase: relive the worst memories of their lives
+    local_occurrence_note: Moody demonstrates the Killing Curse, then Harry mentally connects it to his parents' deaths.
+  nearby_context: Moody says there is no countercurse and identifies Harry as the only known survivor.
+  match_terms:
+  - killing-curse
+  - harry-potter
+  - potter-family
+  - voldemort
+  - dementors
+  quote_excerpt_short: "Only one known person has ever survived it"
+  source_note: The lesson identifies Avada Kedavra as unblockable, marks Harry as its only known survivor, and recalls the Potter murders and dementor-memory evidence.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - killing-curse
+  - harry-potter
+  - potter-family
+  - voldemort
+  - dementors
+  - first-wizarding-war
+  candidate_part: Wars, Crises, and School Memory
+  candidate_chapter: Harry Potter and the End of the First Wizarding War
+  candidate_section: Killing Curse survival and Potter-family testimony
+  reason_for_placement: The classroom moment links a canonical spell demonstration to the central historical event in Harry's public reputation.
+  relevance_to_hogwarts_a_history: A later edition can use this as classroom-era corroboration for how Harry's survival was understood at Hogwarts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch02-001
+    notes: gof-ch02-001 covers Harry's scar as a continuing trace of Voldemort's curse; this entry supplies the named curse and survival context.
+  confidence: high
+  limitations: Harry's recollection is mediated through prior dementor memories and classroom trauma rather than a documentary source.
+- id: gof-ch14-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fourteen - The Unforgivable Curses
+  chapter_start_pdf_page: 1121
+  chapter_end_pdf_page: 1136
+  pdf_page: 1128
+  printed_page: null
+  extracted_text_lines: 231-254
+  text_anchor:
+    start_phrase: those three curses
+    end_phrase: taking notes on each of the Unforgivable Curses
+    local_occurrence_note: Moody closes the demonstration by naming the category and punishment.
+  nearby_context: After demonstrating all three curses, Moody says students must practice constant vigilance and copy notes.
+  match_terms:
+  - unforgivable-curses
+  - azkaban
+  - wizarding-law
+  - avada-kedavra
+  - cruciatus-curse
+  - imperius-curse
+  quote_excerpt_short: "known as the Unforgivable Curses"
+  source_note: Moody names Avada Kedavra, Imperius, and Cruciatus as the Unforgivable Curses and states that use on a human earns life in Azkaban.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - unforgivable-curses
+  - azkaban
+  - wizarding-law
+  - avada-kedavra
+  - cruciatus-curse
+  - imperius-curse
+  candidate_part: Hogwarts Governance and External Oversight
+  candidate_chapter: Wizarding Law in the Classroom
+  candidate_section: Unforgivable Curses and Azkaban sentencing
+  reason_for_placement: The lesson gives the clearest in-school statement of the category and legal penalty.
+  relevance_to_hogwarts_a_history: This is direct evidence for how Hogwarts students were taught the boundary between defensive knowledge and illegal Dark magic.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch09-007
+    notes: gof-ch09-007 covers Dark Arts crimes, Death Eaters, and Azkaban avoidance; this entry gives the formal Unforgivable Curses category and sentence.
+  confidence: high
+  limitations: It summarizes wizarding law through a teacher's classroom speech.
+- id: gof-ch14-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fourteen - The Unforgivable Curses
+  chapter_start_pdf_page: 1121
+  chapter_end_pdf_page: 1136
+  pdf_page: 1131
+  printed_page: null
+  extracted_text_lines: 344-362
+  text_anchor:
+    start_phrase: Unfogging the Future
+    end_phrase: she'll lap it up
+    local_occurrence_note: Harry and Ron work through Trelawney's monthly prediction assignment in the common room.
+  nearby_context: The students use books, charts, calculations, and fabricated misfortunes for Divination homework.
+  match_terms:
+  - divination
+  - unfogging-the-future
+  - homework
+  - predictions
+  - professor-trelawney
+  quote_excerpt_short: "set to work on their predictions for the coming month"
+  source_note: The scene confirms fourth-year Divination work using Unfogging the Future, monthly predictions, charts, calculations, and Trelawney's expected tragic style.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - divination
+  - unfogging-the-future
+  - homework
+  - predictions
+  - professor-trelawney
+  - fourth-year-curriculum
+  candidate_part: Hogwarts Curriculum and Instruction
+  candidate_chapter: Divination and Elective Study
+  candidate_section: Fourth-year prediction homework and student skepticism
+  reason_for_placement: The passage provides concrete homework mechanics and student practice for the Divination elective.
+  relevance_to_hogwarts_a_history: Useful for documenting elective coursework and how students experienced Trelawney's curriculum.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch13-004
+    notes: gof-ch13-004 already records fourth-year astrology and calculation-heavy Divination homework; this entry adds the monthly prediction assignment.
+  confidence: high
+  limitations: The assignment is filtered through Harry and Ron's poor-faith completion of the work.
+- id: gof-ch14-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Fourteen - The Unforgivable Curses
+  chapter_start_pdf_page: 1121
+  chapter_end_pdf_page: 1136
+  pdf_page: 1134
+  printed_page: null
+  extracted_text_lines: 441-474
+  text_anchor:
+    start_phrase: Society for the Promotion of Elfish Welfare
+    end_phrase: record of our first meeting
+    local_occurrence_note: Hermione presents S.P.E.W. badges and manifesto after library research.
+  nearby_context: Hermione says elf enslavement is centuries old and lists wage, working-condition, non-wand-use, and Ministry representation aims.
+  match_terms:
+  - house-elves
+  - spew
+  - legal-status
+  - non-wand-use
+  - department-for-regulation-and-control-of-magical-creatures
+  quote_excerpt_short: "Elf enslavement goes back centuries"
+  source_note: Hermione founds S.P.E.W. after library research, framing house-elf enslavement as centuries old and targeting wages, legal status, wand law, and Ministry representation.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - house-elves
+  - spew
+  - magical-servitude
+  - legal-status
+  - wand-law
+  - department-for-regulation-and-control-of-magical-creatures
+  candidate_part: Peoples, Creatures, and Non-Human Communities
+  candidate_chapter: House-Elves and Hogwarts Labor
+  candidate_section: Student activism and house-elf legal status
+  reason_for_placement: The entry connects Hogwarts house-elf labor evidence to a student-led legal and historical challenge.
+  relevance_to_hogwarts_a_history: A later edition can use this to contextualize Hogwarts kitchen labor within wider house-elf law and social attitudes.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch08-002; gof-ch09-005; gof-ch12-004
+    notes: Prior entries cover unpaid service norms, non-human wand restrictions, and Hogwarts kitchen labor; this entry adds S.P.E.W.'s student-activist legal framing.
+  confidence: high
+  limitations: Hermione's historical claim comes from library research summarized in dialogue; the source texts are not named.

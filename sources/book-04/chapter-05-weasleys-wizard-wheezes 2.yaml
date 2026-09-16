@@ -1,0 +1,272 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: "Chapter Five - Weasleys\u2019 Wizard Wheezes"
+  chapter_start_pdf_page: 989
+  chapter_end_pdf_page: 1000
+  boundary_confidence: high
+  boundary_notes: Chapter Five range came from project-control/processing-state.yaml and project-control/next-run.md. Book 4 Chapter Five starts on PDF page 989 and Chapter Six starts on PDF page 1001, so only PDF pages 989-1000 were extracted and searched.
+  processed_date: '2026-06-21'
+  processor_notes: "Processed only Book 4, Chapter Five. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch05-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: "Chapter Five - Weasleys\u2019 Wizard Wheezes"
+  chapter_start_pdf_page: 989
+  chapter_end_pdf_page: 1000
+  pdf_page: 990
+  printed_page: not available
+  extracted_text_lines: PDF page 990, lines 31-42
+  text_anchor:
+    start_phrase: Bill got to his feet
+    end_phrase: dragon hide
+    local_occurrence_note: Harry meets Bill and Charlie in the Burrow kitchen immediately after arriving by Floo.
+  nearby_context: Charlie is identified as working with dragons in Romania, while Bill is identified as a Gringotts employee and former Head Boy at Hogwarts before Harry notices his dragon-hide boots.
+  match_terms:
+  - Bill Weasley
+  - Charlie Weasley
+  - Gringotts
+  - Head Boy
+  - Hogwarts
+  - dragons
+  - Romania
+  quote_excerpt_short: "Bill had been Head Boy at Hogwarts"
+  source_note: The chapter corroborates Hogwarts alumni pathways by identifying Bill as a former Head Boy now working for Gringotts and Charlie as a dragon worker in Romania.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - head-boy
+  - alumni
+  - gringotts
+  - dragon-keeping
+  - weasley-family
+  - student-leadership
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Exams and Assessment
+  candidate_section: Head Boy, Student Achievement, and Alumni Paths
+  reason_for_placement: The passage links a named Hogwarts student office to post-school wizarding careers and confirms Bill's earlier school distinction.
+  relevance_to_hogwarts_a_history: This can support a future section on senior student honors, alumni outcomes, and how Hogwarts achievement connects to later public or professional roles.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch04-003
+    notes: Book 2 Chapter Four already links Bill, Charlie, O.W.L.s, Head Boy expectations, and alumni careers; this entry corroborates Bill's Head Boy status and adds his Gringotts role plus Charlie's dragon work.
+  confidence: medium
+  limitations: The passage is a narrative recap and does not explain the Head Boy selection process or whether either career path is typical for Hogwarts alumni.
+- id: gof-ch05-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: "Chapter Five - Weasleys\u2019 Wizard Wheezes"
+  chapter_start_pdf_page: 989
+  chapter_end_pdf_page: 1000
+  pdf_page: 992
+  printed_page: not available
+  extracted_text_lines: PDF page 992, lines 110-130
+  text_anchor:
+    start_phrase: What are Weasleys' Wizard Wheezes
+    end_phrase: open a joke shop
+    local_occurrence_note: Ron and Ginny explain Fred and George's order forms while leading Harry upstairs.
+  nearby_context: Ron says the twins had price lists for invented fake wands, trick sweets, and other joke products; Ginny says they had been making things amid explosions; Ron adds that the dangerous products were intended for sale at Hogwarts and that the twins' O.W.L. results disappointed Mrs. Weasley.
+  match_terms:
+  - Weasleys' Wizard Wheezes
+  - order forms
+  - fake wands
+  - trick sweets
+  - sell it at Hogwarts
+  - O.W.L.s
+  - joke shop
+  quote_excerpt_short: "they were planning to sell it at Hogwarts"
+  source_note: The chapter documents Fred and George's student-made joke products, their attempted Hogwarts market, family concern over product danger, and a reminder that O.W.L.s are age-fifteen Hogwarts examinations.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - weasleys-wizard-wheezes
+  - joke-products
+  - fake-wands
+  - trick-sweets
+  - owls
+  - student-enterprise
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Student Inventions and Magical Misconduct
+  candidate_section: Weasley Joke Products at Hogwarts
+  reason_for_placement: The passage is not formal school policy, but it shows Harry-era student entrepreneurship, hazardous joke magic, and potential informal commerce inside Hogwarts.
+  relevance_to_hogwarts_a_history: This can support later editorial notes on student ingenuity, contraband or risky magical products, and the boundary between academic assessment and student enterprise.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch04-005
+    notes: Book 4 Chapter Four records the Ton-Tongue Toffee incident as a student-made joke sweet with an Engorgement Charm effect; this entry corroborates that product line and adds order forms, planned Hogwarts sales, fake wands, and O.W.L. context.
+  confidence: medium
+  limitations: The passage summarizes the twins' plans through family conversation and does not show actual sales at Hogwarts or official school confiscation.
+- id: gof-ch05-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: "Chapter Five - Weasleys\u2019 Wizard Wheezes"
+  chapter_start_pdf_page: 989
+  chapter_end_pdf_page: 1000
+  pdf_page: 993
+  printed_page: not available
+  extracted_text_lines: PDF page 993, lines 145-155; PDF page 997, lines 297-304; PDF page 998, lines 316-339
+  text_anchor:
+    start_phrase: A report for the Department of International Magical Cooperation
+    end_phrase: The top-secret one
+    local_occurrence_note: Percy first describes his cauldron-thickness report upstairs, then later discusses departmental workload, Bertha Jorkins, and a secret post-World Cup event at dinner.
+  nearby_context: Percy says his department is trying to standardize cauldron thickness through international law, later notes World Cup strain on Ministry departments, discusses Bertha Jorkins's disappearance, and hints at another top-secret event to organize after the World Cup.
+  match_terms:
+  - Department of International Magical Cooperation
+  - standardize cauldron thickness
+  - international law
+  - World Cup
+  - Bertha Jorkins
+  - top-secret event
+  quote_excerpt_short: "another big event to organize right after the World Cup"
+  source_note: The chapter connects Ministry international-cooperation work to cauldron-safety standards, World Cup logistics, Bertha Jorkins's disappearance, and a secret event soon to follow the World Cup.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - ministry-of-magic
+  - international-magical-cooperation
+  - cauldron-standards
+  - quidditch-world-cup
+  - bertha-jorkins
+  - triwizard-year
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Ministry Workload Before the Tournament
+  reason_for_placement: The passage is external to Hogwarts in immediate setting, but it foreshadows Ministry organization of a later school-linked event and supplies administrative context.
+  relevance_to_hogwarts_a_history: This should remain later editorial context until subsequent chapters identify the secret event's connection to Hogwarts and the Triwizard Tournament.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch01-003
+    notes: Book 4 Chapter One records Bertha Jorkins as a Ministry information source for Voldemort's plan; this entry corroborates her disappearance from the Ministry side and adds the post-World Cup secret-event workload.
+  confidence: medium
+  limitations: The event is unnamed in this chapter, so the Hogwarts connection depends on later corroborating chapters rather than this passage alone.
+- id: gof-ch05-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: "Chapter Five - Weasleys\u2019 Wizard Wheezes"
+  chapter_start_pdf_page: 989
+  chapter_end_pdf_page: 1000
+  pdf_page: 995
+  printed_page: not available
+  extracted_text_lines: PDF page 995, lines 238-243; PDF page 996, lines 256-259
+  text_anchor:
+    start_phrase: I've had more owls from Hogwarts
+    end_phrase: fake wands again
+    local_occurrence_note: Mrs. Weasley complains in the kitchen while preparing dinner after the Ton-Tongue Toffee argument.
+  nearby_context: Mrs. Weasley says Hogwarts has sent more owls about Fred and George than about the rest of her children combined, predicts possible trouble before the Improper Use of Magic Office, and immediately finds another fake wand left in the kitchen.
+  match_terms:
+  - owls from Hogwarts
+  - Fred and George
+  - Improper Use of Magic Office
+  - fake wands
+  - trouble
+  quote_excerpt_short: "more owls from Hogwarts about them"
+  source_note: The chapter gives family-side evidence that Hogwarts sends repeated disciplinary owls about student misconduct and frames the twins' fake-wand habit as conduct that could escalate beyond school.
+  reference_type: school_rule_or_policy
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - school-discipline
+  - owl-post
+  - family-notification
+  - fred-and-george
+  - fake-wands
+  - improper-use-of-magic-office
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Discipline and Expulsion
+  candidate_section: Family Notification and Escalation
+  reason_for_placement: The passage shows that Hogwarts communicates misconduct to families by owl and that repeated behavior can be viewed alongside wider magical-law consequences.
+  relevance_to_hogwarts_a_history: This can support governance coverage of school-family discipline communication and the boundary between internal school consequences and Ministry offices.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch05-005
+    notes: Book 2 Chapter Five records Dumbledore writing to families after serious misconduct; this entry corroborates family notification and adds repeated Hogwarts owls about ongoing student behavior.
+  confidence: medium
+  limitations: The evidence is Mrs. Weasley's summary and does not quote any Hogwarts disciplinary letter or specify which staff member sent the owls.
+- id: gof-ch05-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: "Chapter Five - Weasleys\u2019 Wizard Wheezes"
+  chapter_start_pdf_page: 989
+  chapter_end_pdf_page: 1000
+  pdf_page: 999
+  printed_page: not available
+  extracted_text_lines: PDF page 999, lines 356-372
+  text_anchor:
+    start_phrase: talking spiritedly about the World Cup
+    end_phrase: Gryffindor House team
+    local_occurrence_note: Dinner-table Quidditch talk shifts from international teams to Harry's school-team status.
+  nearby_context: Charlie discusses World Cup finalists and national-team results; the narration then recalls that Harry has been on the Gryffindor House Quidditch team since first year, owns a Firebolt, and plays Seeker.
+  match_terms:
+  - World Cup
+  - Ireland
+  - Bulgaria
+  - Viktor Krum
+  - Gryffindor House Quidditch team
+  - Firebolt
+  - Seeker
+  quote_excerpt_short: "played in the position of Seeker"
+  source_note: The chapter contrasts international Quidditch discussion with Harry's Hogwarts House-team role, confirming his Gryffindor Seeker position and Firebolt ownership.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - quidditch
+  - house-teams
+  - gryffindor
+  - seeker
+  - firebolt
+  - quidditch-world-cup
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: House Quidditch Teams
+  candidate_section: Brooms, Positions, and Wider Wizarding Sport
+  reason_for_placement: The passage corroborates Harry's House-team position while placing school Quidditch in conversation with the wider international game.
+  relevance_to_hogwarts_a_history: This can support later Quidditch coverage by separating Hogwarts House teams and equipment from international Quidditch culture.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch01-007
+    notes: Book 3 Chapter One already restates Harry's Hogwarts House-team status and broom equipment; this entry corroborates that role and updates the broom reference to the Firebolt while adding World Cup context.
+  confidence: medium
+  limitations: The passage is retrospective and focused on Harry; it does not describe ordinary team selection, school match rules, or Firebolt regulation.
+- id: gof-ch05-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: "Chapter Five - Weasleys\u2019 Wizard Wheezes"
+  chapter_start_pdf_page: 989
+  chapter_end_pdf_page: 1000
+  pdf_page: 1000
+  printed_page: not available
+  extracted_text_lines: PDF page 1000, lines 394-399
+  text_anchor:
+    start_phrase: Look at the time
+    end_phrase: the match went on for five days last time
+    local_occurrence_note: Mrs. Weasley sends the children to bed before the early World Cup departure.
+  nearby_context: Mrs. Weasley tells Harry to leave out his school list so she can buy his things in Diagon Alley with everyone else's, because the World Cup schedule might leave no time afterward.
+  match_terms:
+  - school list
+  - Diagon Alley
+  - World Cup
+  - get your things
+  - everyone else's
+  - five days
+  quote_excerpt_short: "leave your school list out"
+  source_note: The chapter confirms that returning students still use school lists for pre-term Diagon Alley purchases and that family shopping logistics can be coordinated around major wizarding events.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - school-list
+  - diagon-alley
+  - school-materials
+  - summer-holidays
+  - term-preparation
+  - quidditch-world-cup
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Homework and Independent Study
+  candidate_section: School Lists and Pre-Term Supply Shopping
+  reason_for_placement: The passage gives practical evidence for how school lists drive family supply acquisition before the Hogwarts term.
+  relevance_to_hogwarts_a_history: This can support future coverage of annual school-list logistics, shopping patterns, and the September return rhythm.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch04-001
+    notes: Book 4 Chapter Four records Harry's packed school trunk and September first return; this entry corroborates pre-term material preparation and adds school-list shopping in Diagon Alley before the World Cup.
+  confidence: medium
+  limitations: The passage does not quote the contents of the school list or show the shopping trip itself.

@@ -1,0 +1,132 @@
+schema_version: 1
+edition: 1984
+allowed_statuses:
+  - planned
+  - evidence_selected
+  - evidence_reviewed
+  - outlined
+  - outline_approved
+  - drafted
+  - audited
+  - editor_approved
+chapters:
+  - id: 1
+    number: 1
+    slug: before-hogwarts
+    title: Before Hogwarts
+    status: drafted
+    draft: draft-01
+  - id: 2
+    number: 2
+    slug: the-four-founders
+    title: The Four Founders
+    status: planned
+    draft: draft-01
+  - id: 3
+    number: 3
+    slug: the-founding-of-hogwarts
+    title: The Founding of Hogwarts
+    status: planned
+    draft: draft-01
+  - id: 4
+    number: 4
+    slug: the-four-houses
+    title: The Four Houses
+    status: planned
+    draft: draft-01
+  - id: 5
+    number: 5
+    slug: the-departure-of-salazar-slytherin
+    title: The Departure of Salazar Slytherin
+    status: planned
+    draft: draft-01
+  - id: 6
+    number: 6
+    slug: a-castle-unlike-any-other
+    title: A Castle Unlike Any Other
+    status: planned
+    draft: draft-01
+  - id: 7
+    number: 7
+    slug: the-grounds-and-their-boundaries
+    title: The Grounds and Their Boundaries
+    status: planned
+    draft: draft-01
+  - id: 8
+    number: 8
+    slug: the-governance-of-hogwarts
+    title: The Governance of Hogwarts
+    status: planned
+    draft: draft-01
+  - id: 9
+    number: 9
+    slug: a-hogwarts-education
+    title: A Hogwarts Education
+    status: planned
+    draft: draft-01
+  - id: 10
+    number: 10
+    slug: the-life-of-a-pupil
+    title: The Life of a Pupil
+    status: planned
+    draft: draft-01
+  - id: 11
+    number: 11
+    slug: the-library-and-the-preservation-of-knowledge
+    title: The Library and the Preservation of Knowledge
+    status: planned
+    draft: draft-01
+  - id: 12
+    number: 12
+    slug: portraits-ghosts-and-the-memory-of-hogwarts
+    title: Portraits, Ghosts and the Memory of Hogwarts
+    status: planned
+    draft: draft-01
+  - id: 13
+    number: 13
+    slug: customs-ceremonies-and-traditions
+    title: Customs, Ceremonies and Traditions
+    status: planned
+    draft: draft-01
+  - id: 14
+    number: 14
+    slug: quidditch-at-hogwarts
+    title: Quidditch at Hogwarts
+    status: planned
+    draft: draft-01
+  - id: 15
+    number: 15
+    slug: hogwarts-and-the-wider-wizarding-world
+    title: Hogwarts and the Wider Wizarding World
+    status: planned
+    draft: draft-01
+  - id: 16
+    number: 16
+    slug: the-triwizard-tournament
+    title: The Triwizard Tournament
+    status: planned
+    draft: draft-01
+  - id: 17
+    number: 17
+    slug: danger-defence-and-disaster
+    title: Danger, Defence and Disaster
+    status: planned
+    draft: draft-01
+  - id: 18
+    number: 18
+    slug: headmasters-and-reformers
+    title: Headmasters and Reformers
+    status: planned
+    draft: draft-01
+  - id: 19
+    number: 19
+    slug: hogwarts-in-the-modern-age
+    title: Hogwarts in the Modern Age
+    status: planned
+    draft: draft-01
+  - id: 20
+    number: 20
+    slug: from-dippet-to-dumbledore
+    title: From Dippet to Dumbledore
+    status: planned
+    draft: draft-01

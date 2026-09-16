@@ -1,0 +1,312 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seventeen - The Four Champions
+  chapter_start_pdf_page: 1174
+  chapter_end_pdf_page: 1187
+  boundary_confidence: high
+  boundary_notes: Extracted from the processing-state bounded page range; page 1174 begins the chapter title and page 1187 ends with Harry and Ron's dormitory argument.
+  processed_date: '2026-06-22'
+  processor_notes: 'Created from bounded extraction of PDF pages 1174-1187; no explicit Hogwarts: A History title reference found.'
+entries:
+- id: gof-ch17-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seventeen - The Four Champions
+  chapter_start_pdf_page: 1174
+  chapter_end_pdf_page: 1187
+  pdf_page: 1176
+  printed_page: null
+  extracted_text_lines: 57-79
+  text_anchor:
+    start_phrase: May I introduce
+    end_phrase: Harry will just have to do the best he
+    local_occurrence_note: Bagman introduces Harry to the three selected champions immediately after Harry is sent out of the Great Hall.
+  nearby_context: Fleur objects that Harry is too young, but Bagman says the age restriction was an extra safety measure and that a selected name creates an obligation under the rules.
+  match_terms:
+  - fourth-champion
+  - age-restriction
+  - goblet-of-fire
+  - triwizard-rules
+  - harry-potter
+  quote_excerpt_short: the fourth Triwizard champion
+  source_note: Harry is formally presented as an anomalous fourth champion, and the initial response treats his youth as irregular but not enough to void selection.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - fourth-champion
+  - age-restriction
+  - goblet-of-fire
+  - triwizard-rules
+  - harry-potter
+  - fleur-delacour
+  - ludo-bagman
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: The fourth champion anomaly
+  reason_for_placement: The passage records the first official handling of Harry's unexpected selection after the Goblet names him.
+  relevance_to_hogwarts_a_history: A later edition can use this as evidence that the 1994 tournament exposed gaps between eligibility safeguards and the binding force of selection.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch16-007; gof-ch16-003
+    notes: gof-ch16-007 records Harry's name emerging from the Goblet; gof-ch16-003 records the announced entry rules. This entry adds the immediate official interpretation once the fourth champion is in the champions' room.
+  confidence: high
+  limitations: The scene gives Bagman's immediate reading, not a formal written tournament-law ruling.
+- id: gof-ch17-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seventeen - The Four Champions
+  chapter_start_pdf_page: 1174
+  chapter_end_pdf_page: 1187
+  pdf_page: 1177
+  printed_page: null
+  extracted_text_lines: 96-111
+  text_anchor:
+    start_phrase: Two Hogwarts champions
+    end_phrase: wider selection of candidates from our own schools
+    local_occurrence_note: Karkaroff and Maxime protest after entering the side room with Dumbledore and the Ministry officials.
+  nearby_context: The visiting headmasters challenge whether the host school may have two champions and say they relied on Dumbledore's Age Line to limit candidates.
+  match_terms:
+  - host-school
+  - two-champions
+  - age-line
+  - visiting-schools
+  - triwizard-tournament
+  quote_excerpt_short: the host school is allowed two champions
+  source_note: Durmstrang and Beauxbatons treat two Hogwarts champions as a rules fairness problem, tying the objection to inter-school equality and trust in the Age Line.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - host-school
+  - two-champions
+  - age-line
+  - beauxbatons
+  - durmstrang
+  - triwizard-tournament
+  - inter-school-relations
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Host-school fairness dispute
+  reason_for_placement: The passage clarifies how visiting schools understood champion parity and eligibility safeguards in the revived tournament.
+  relevance_to_hogwarts_a_history: It can support a later discussion of Hogwarts as host institution and the diplomatic strain caused by the Goblet anomaly.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch12-007; gof-ch16-003
+    notes: gof-ch12-007 records the three-school tournament framework and age restriction; gof-ch16-003 records the Age Line mechanism. This entry adds the visiting schools' fairness objection to two Hogwarts champions.
+  confidence: high
+  limitations: The objection is voiced by aggrieved visitors and does not quote the full rulebook.
+- id: gof-ch17-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seventeen - The Four Champions
+  chapter_start_pdf_page: 1174
+  chapter_end_pdf_page: 1187
+  pdf_page: 1178
+  printed_page: null
+  extracted_text_lines: 122-154
+  text_anchor:
+    start_phrase: Did you put your name into the Goblet of Fire
+    end_phrase: bound to compete in the tournament
+    local_occurrence_note: Dumbledore questions Harry before Crouch states the rule that selected names bind competitors.
+  nearby_context: Harry denies entering himself or using an older student, McGonagall argues he could not have crossed the line, and Crouch answers Karkaroff's irregularity objection.
+  match_terms:
+  - goblet-of-fire
+  - age-line
+  - older-student
+  - magical-contract
+  - tournament-rules
+  quote_excerpt_short: bound to compete in the tournament
+  source_note: 'The official inquiry distinguishes possible entry methods from the final rule: once the Goblet returns a name, that person is bound to compete.'
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - goblet-of-fire
+  - age-line
+  - older-student
+  - magical-contract
+  - tournament-rules
+  - barty-crouch
+  - professor-mcgonagall
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Binding selection and failed eligibility safeguards
+  reason_for_placement: The scene gives the clearest post-selection statement of the rule that overrides objections about how the name entered the Goblet.
+  relevance_to_hogwarts_a_history: This is direct evidence for the legal-magical obligation imposed during the Hogwarts-hosted tournament and for the institutional inability to withdraw Harry.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch16-003; gof-ch16-004
+    notes: gof-ch16-003 announces the binding magical contract before selection, and gof-ch16-004 shows Age Line enforcement. This entry documents the rule being applied after Harry's anomalous selection.
+  confidence: high
+  limitations: The exact penalty or magical consequence for refusal is not described here.
+- id: gof-ch17-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seventeen - The Four Champions
+  chapter_start_pdf_page: 1174
+  chapter_end_pdf_page: 1187
+  pdf_page: 1179
+  printed_page: null
+  extracted_text_lines: 161-173
+  text_anchor:
+    start_phrase: You will set up the Goblet of Fire once more
+    end_phrase: Binding magical contract, like Dumbledore said
+    local_occurrence_note: Karkaroff demands a new selection after Crouch's ruling; Bagman and Moody reject the possibility.
+  nearby_context: Bagman says the Goblet has gone out and will not reignite until the next tournament, while Moody stresses that all selected champions must compete.
+  match_terms:
+  - goblet-of-fire
+  - champion-selection
+  - next-tournament
+  - magical-contract
+  - durmstrang
+  quote_excerpt_short: it won't reignite until the start of the next tournament
+  source_note: The Goblet cannot simply be reopened for a corrective draw; once extinguished, it will not reignite until the next tournament, leaving the selected champions bound.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - goblet-of-fire
+  - champion-selection
+  - next-tournament
+  - magical-contract
+  - durmstrang
+  - ludo-bagman
+  - triwizard-tournament
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Goblet lifecycle and closed selection
+  reason_for_placement: The passage adds a practical limit on tournament administration after selection has ended.
+  relevance_to_hogwarts_a_history: A later edition can explain why Hogwarts officials could not resolve the fourth-name crisis by running the Goblet again.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch16-002; gof-ch16-007
+    notes: gof-ch16-002 covers the Goblet as selector and gof-ch16-007 covers the fourth name. This entry adds the post-selection fact that the Goblet has gone out and cannot be restarted until the next tournament.
+  confidence: high
+  limitations: Bagman states the operational limit, but the enchantment's origin and technical mechanics are not explained.
+- id: gof-ch17-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seventeen - The Four Champions
+  chapter_start_pdf_page: 1174
+  chapter_end_pdf_page: 1187
+  pdf_page: 1180
+  printed_page: null
+  extracted_text_lines: 213-221
+  text_anchor:
+    start_phrase: It was a skilled witch or wizard
+    end_phrase: the only one in his category
+    local_occurrence_note: Moody explains his theory for how Harry could have been selected as a fourth champion.
+  nearby_context: Moody argues that someone wanted Harry forced into the tournament and that a powerful magical object would need to be hoodwinked by strong magic.
+  match_terms:
+  - confundus-charm
+  - goblet-of-fire
+  - magical-object
+  - fourth-school
+  - tournament-security
+  quote_excerpt_short: an exceptionally strong Confundus Charm
+  source_note: Moody theorizes that the Goblet was Confunded into treating Harry as the only entrant from a fourth school, exposing a security failure in the tournament selector.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - confundus-charm
+  - goblet-of-fire
+  - magical-object
+  - fourth-school
+  - tournament-security
+  - mad-eye-moody
+  - triwizard-tournament
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Confunding the Goblet of Fire
+  reason_for_placement: The theory gives an in-universe explanation for the fourth champion anomaly and identifies the selector as powerful but vulnerable.
+  relevance_to_hogwarts_a_history: This is important later-editorial evidence for security analysis of the 1994 tournament at Hogwarts.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate search for Confundus, Goblet, magical-object, and Triwizard terms did not return a likely existing entry.
+  confidence: medium
+  limitations: This is Moody's immediate theory, not yet confirmed within this chapter.
+- id: gof-ch17-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seventeen - The Four Champions
+  chapter_start_pdf_page: 1174
+  chapter_end_pdf_page: 1187
+  pdf_page: 1181
+  printed_page: null
+  extracted_text_lines: 237-268
+  text_anchor:
+    start_phrase: Both Cedric and Harry have been chosen to compete
+    end_phrase: exempted from end-of-year tests
+    local_occurrence_note: Dumbledore accepts the outcome and Crouch gives the first formal task briefing.
+  nearby_context: Crouch says the first task will test daring, take place on November 24 before the students and judges, bar teacher help, require wands only, and exempt champions from end-of-year tests.
+  match_terms:
+  - first-task
+  - judges
+  - teacher-help
+  - wands
+  - end-of-year-tests
+  quote_excerpt_short: exempted from end-of-year tests
+  source_note: The first-task briefing establishes tournament limits on teacher help, public judging, wand-only preparation, staged task information, and exam exemptions for champions.
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  topic_tags:
+  - first-task
+  - judges
+  - teacher-help
+  - wands
+  - end-of-year-tests
+  - barty-crouch
+  - triwizard-tournament
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Security
+  candidate_section: Champion instructions for the first task
+  reason_for_placement: The passage gives concrete operating rules for the first task and how tournament participation changes ordinary school assessment.
+  relevance_to_hogwarts_a_history: A later edition can use this to document how Hogwarts adapted academic obligations and staff boundaries around Triwizard competitors.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch16-002
+    notes: gof-ch16-002 records the three tasks and judging panel in broad terms. This entry adds the first-task date, no-teacher-help rule, wand-only condition, staged information, and test exemption.
+  confidence: high
+  limitations: The actual first task is deliberately withheld in this briefing.
+- id: gof-ch17-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Seventeen - The Four Champions
+  chapter_start_pdf_page: 1174
+  chapter_end_pdf_page: 1187
+  pdf_page: 1184
+  printed_page: null
+  extracted_text_lines: 342-354
+  text_anchor:
+    start_phrase: It was also a surprise to see
+    end_phrase: swung forward on her hinges
+    local_occurrence_note: Harry reaches Gryffindor Tower after the champions' room discussion.
+  nearby_context: Violet has moved through multiple paintings ahead of Harry, told the Fat Lady the news, misunderstands the password, and the Fat Lady opens the portrait entrance.
+  match_terms:
+  - portraits
+  - fat-lady
+  - gryffindor-tower
+  - password
+  - portrait-network
+  quote_excerpt_short: through every picture lining seven staircases
+  source_note: The scene confirms that Hogwarts portraits can move news through connected frames across staircases and that the Fat Lady remains the passworded gatekeeper to Gryffindor Tower.
+  reference_type: magical_architecture
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - portraits
+  - fat-lady
+  - gryffindor-tower
+  - passwords
+  - portrait-network
+  - common-room
+  - magical-architecture
+  candidate_part: Castle Architecture and Everyday Magic
+  candidate_chapter: Portraits, Passwords, and House Entrances
+  candidate_section: Portrait communication and Gryffindor access
+  reason_for_placement: The passage combines castle portrait mobility with common-room access control in one observed incident.
+  relevance_to_hogwarts_a_history: It can corroborate a chapter on living portraits as part of Hogwarts communication and security infrastructure.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch08-004; poa-ch08-007
+    notes: poa-ch08-004 covers Fat Lady password access, and poa-ch08-007 covers portrait mobility during a security breach. This entry adds routine gossip transfer across seven staircases after the champion selection.
+  confidence: high
+  limitations: The scene does not explain the full range or rules of portrait travel between frames.

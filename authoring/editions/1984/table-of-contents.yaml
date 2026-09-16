@@ -1,0 +1,227 @@
+schema_version: 1
+edition: 1984
+status: provisional
+notes:
+  - This is the authoritative authoring structure for the reconstructed 1984 edition.
+  - Primary concepts are retrieval hints, not canonical evidence tags.
+  - Extraction-era candidate placement metadata does not override this structure.
+chapters:
+  - id: 1
+    number: 1
+    slug: before-hogwarts
+    title: Before Hogwarts
+    status: planned
+    purpose: Establish the educational and social conditions from which Hogwarts emerged.
+    primary_concepts: [pre-Hogwarts education, early magical Britain, secrecy, magical learning]
+    boundaries:
+      include: [conditions preceding the school's foundation]
+      exclude: [the founders' individual biographies, the act of foundation]
+
+  - id: 2
+    number: 2
+    slug: the-four-founders
+    title: The Four Founders
+    status: planned
+    purpose: Introduce the founders as historical actors, collaborators, and sources of later tradition.
+    primary_concepts: [Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw, Salazar Slytherin]
+    boundaries:
+      include: [founder backgrounds, attributed aims, limits of founder traditions]
+      exclude: [the full foundation process, detailed House development]
+
+  - id: 3
+    number: 3
+    slug: the-founding-of-hogwarts
+    title: The Founding of Hogwarts
+    status: planned
+    purpose: Reconstruct how and why the founders created a permanent school together.
+    primary_concepts: [Hogwarts foundation, school site, founder collaboration, institutional origins]
+    boundaries:
+      include: [foundation chronology, early institutional aims, initial establishment]
+      exclude: [later House culture, Slytherin's eventual departure]
+
+  - id: 4
+    number: 4
+    slug: the-four-houses
+    title: The Four Houses
+    status: planned
+    purpose: Explain the origins and institutional development of the four-House system.
+    primary_concepts: [House system, Sorting, House identity, House competition]
+    boundaries:
+      include: [selection principles, House organization, institutional consequences]
+      exclude: [full founder biographies, general pupil life not shaped by Houses]
+
+  - id: 5
+    number: 5
+    slug: the-departure-of-salazar-slytherin
+    title: The Departure of Salazar Slytherin
+    status: planned
+    purpose: Examine the founders' conflict and the historical consequences of Slytherin's departure.
+    primary_concepts: [Salazar Slytherin, founders' rift, admission conflict, Chamber tradition]
+    boundaries:
+      include: [documented dispute, departure, later memory and legend]
+      exclude: [post-1984 discoveries, unsupported certainty about legendary details]
+
+  - id: 6
+    number: 6
+    slug: a-castle-unlike-any-other
+    title: A Castle Unlike Any Other
+    status: planned
+    purpose: Describe the castle as an evolving magical institution rather than a static catalogue of rooms.
+    primary_concepts: [castle architecture, enchantments, concealment, changing interior]
+    boundaries:
+      include: [major architectural systems, concealment, institutional uses of space]
+      exclude: [exhaustive room lists, grounds beyond the castle]
+
+  - id: 7
+    number: 7
+    slug: the-grounds-and-their-boundaries
+    title: The Grounds and Their Boundaries
+    status: planned
+    purpose: Trace how the school's landscape, approaches, limits, and dangerous margins shape Hogwarts.
+    primary_concepts: [grounds, lake, forest, gates, boundaries]
+    boundaries:
+      include: [approaches, managed landscape, territorial limits, edge spaces]
+      exclude: [castle interiors, exhaustive creature lore]
+
+  - id: 8
+    number: 8
+    slug: the-governance-of-hogwarts
+    title: The Governance of Hogwarts
+    status: planned
+    purpose: Explain the offices, authorities, and external pressures through which Hogwarts is governed.
+    primary_concepts: [headmaster, governors, Ministry, staff authority, school rules]
+    boundaries:
+      include: [institutional powers, oversight, discipline structures, jurisdiction]
+      exclude: [biographical surveys of individual headmasters, classroom pedagogy]
+
+  - id: 9
+    number: 9
+    slug: a-hogwarts-education
+    title: A Hogwarts Education
+    status: planned
+    purpose: Present the development, structure, subjects, and assessment of a Hogwarts education.
+    primary_concepts: [curriculum, subjects, teaching, examinations, educational progression]
+    boundaries:
+      include: [course structure, pedagogy, assessment, educational aims]
+      exclude: [daily social life, exhaustive professor biographies]
+
+  - id: 10
+    number: 10
+    slug: the-life-of-a-pupil
+    title: The Life of a Pupil
+    status: planned
+    purpose: Reconstruct the ordinary rhythms, obligations, freedoms, and social experience of pupils.
+    primary_concepts: [admissions, school travel, daily routine, discipline, pupil society]
+    boundaries:
+      include: [arrival, residence, routine, privileges, student relationships]
+      exclude: [detailed curriculum history, isolated Harry-era plot events]
+
+  - id: 11
+    number: 11
+    slug: the-library-and-the-preservation-of-knowledge
+    title: The Library and the Preservation of Knowledge
+    status: planned
+    purpose: Examine how Hogwarts collects, restricts, teaches, and preserves magical knowledge.
+    primary_concepts: [library, books, Restricted Section, scholarship, records]
+    boundaries:
+      include: [collections, access, preservation, institutional scholarship]
+      exclude: [a catalogue of named books, general classroom instruction]
+
+  - id: 12
+    number: 12
+    slug: portraits-ghosts-and-the-memory-of-hogwarts
+    title: Portraits, Ghosts and the Memory of Hogwarts
+    status: planned
+    purpose: Explore how magical residents and representations preserve, distort, and embody school memory.
+    primary_concepts: [portraits, ghosts, poltergeists, memory, testimony]
+    boundaries:
+      include: [institutional roles, memory, historical value and limits]
+      exclude: [exhaustive resident biographies, unsupported claims of perfect testimony]
+
+  - id: 13
+    number: 13
+    slug: customs-ceremonies-and-traditions
+    title: Customs, Ceremonies and Traditions
+    status: planned
+    purpose: Trace the origins, functions, and changes of recurring school customs.
+    primary_concepts: [Sorting ceremony, feasts, House Cup, school traditions, commemorations]
+    boundaries:
+      include: [institutional ceremonies, recurring customs, contested traditions]
+      exclude: [Quidditch, unexamined lists of celebrations]
+
+  - id: 14
+    number: 14
+    slug: quidditch-at-hogwarts
+    title: Quidditch at Hogwarts
+    status: planned
+    purpose: Explain the place of Quidditch in the school's organization, culture, and rivalries.
+    primary_concepts: [Quidditch, House teams, school competition, pitch, sporting culture]
+    boundaries:
+      include: [school teams, matches, rules in institutional use, cultural consequences]
+      exclude: [a complete international history of Quidditch, unrelated recreation]
+
+  - id: 15
+    number: 15
+    slug: hogwarts-and-the-wider-wizarding-world
+    title: Hogwarts and the Wider Wizarding World
+    status: planned
+    purpose: Situate Hogwarts within magical Britain and its international educational relationships.
+    primary_concepts: [Ministry, Hogsmeade, wizarding society, other schools, international relations]
+    boundaries:
+      include: [institutional relationships, public role, external influence]
+      exclude: [general wizarding history without a Hogwarts connection, detailed Triwizard history]
+
+  - id: 16
+    number: 16
+    slug: the-triwizard-tournament
+    title: The Triwizard Tournament
+    status: planned
+    purpose: Reconstruct the tournament's history, purposes, interruptions, and significance to Hogwarts.
+    primary_concepts: [Triwizard Tournament, Beauxbatons, Durmstrang, interschool competition]
+    boundaries:
+      include: [origins, governance, recorded incidents, pre-cutoff history]
+      exclude: [the 1994 tournament as 1984 knowledge, general international relations]
+
+  - id: 17
+    number: 17
+    slug: danger-defence-and-disaster
+    title: Danger, Defence and Disaster
+    status: planned
+    purpose: Examine how Hogwarts has confronted threats, accidents, crises, and institutional failure.
+    primary_concepts: [defence, security, disasters, dangerous creatures, school crises]
+    boundaries:
+      include: [pre-cutoff threats, protective responses, consequences and reform]
+      exclude: [post-1984 crises, sensational incident catalogues without historical significance]
+
+  - id: 18
+    number: 18
+    slug: headmasters-and-reformers
+    title: Headmasters and Reformers
+    status: planned
+    purpose: Assess selected leaders and reformers through their lasting institutional effects.
+    primary_concepts: [headmasters, reform, leadership, institutional change, school policy]
+    boundaries:
+      include: [historically significant tenures, reforms, contested legacies]
+      exclude: [complete officeholder lists, Dippet-to-Dumbledore transition treated in Chapter 20]
+
+  - id: 19
+    number: 19
+    slug: hogwarts-in-the-modern-age
+    title: Hogwarts in the Modern Age
+    status: planned
+    purpose: Trace the school's adaptation to modern magical society up to the edition cutoff.
+    primary_concepts: [modernization, secrecy, transport, Ministry relations, twentieth century]
+    boundaries:
+      include: [institutional developments through approximately 1984]
+      exclude: [post-1984 events, detailed Dippet and Dumbledore transition]
+
+  - id: 20
+    number: 20
+    slug: from-dippet-to-dumbledore
+    title: From Dippet to Dumbledore
+    status: planned
+    purpose: Bring the reconstruction to its cutoff through the transition between two modern headmasterships.
+    primary_concepts: [Armando Dippet, Albus Dumbledore, headmastership, twentieth-century Hogwarts]
+    boundaries:
+      include: [institutional transition, inherited conditions, developments knowable by 1984]
+      exclude: [later discoveries, post-1984 events, omniscient character knowledge]

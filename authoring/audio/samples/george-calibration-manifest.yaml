@@ -1,0 +1,337 @@
+fixture_path: fixtures/george-calibration-excerpt.txt
+fixture_sha256: 7b7439cc8724888da902fdd1b7019618d44786b1caa81f78d929ca2e002c93f0
+python_version: 3.12.13
+mlx_audio_version: 0.5.3
+misaki_version: 0.9.4
+model: mlx-community/Kokoro-82M-bf16
+model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+model_load_count: 1
+human_selection: pending
+variants:
+- variant: A
+  fixture_path: fixtures/george-calibration-excerpt.txt
+  fixture_sha256: 7b7439cc8724888da902fdd1b7019618d44786b1caa81f78d929ca2e002c93f0
+  model: mlx-community/Kokoro-82M-bf16
+  model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+  voice: bm_george
+  language: british-english
+  lang_code: b
+  speed: 0.96
+  paragraph_pause_ms: 400
+  wav_path: samples/bm-george-calibration-a-096.wav
+  wav_sha256: 3839a82b411319333e61bf59a53ab6beda750b17e605d2fc53cb1e99522def06
+  mp3_path: samples/bm-george-calibration-a-096.mp3
+  mp3_sha256: 0bbf80ca4d3f52c82bba6b7cc5cd8a0ac1e2a3c727a26ea6c42d93f500bde3ef
+  duration_seconds: 78.65
+  sample_rate: 24000
+  audio:
+    sample_rate: 24000
+    channels: 1
+    sample_count: 1887600
+    duration_seconds: 78.65
+    peak: 0.4051332175731659
+    non_silent_samples: 1722985
+    finite: true
+    opening_silence_samples: 7882
+    closing_silence_samples: 18269
+  raw_wav_unnormalised: true
+  loudness_normalisation:
+    settings:
+      integrated_lufs: -19.0
+      true_peak_dbtp: -1.0
+      loudness_range_lu: 7.0
+      channels: 1
+      sample_rate: 24000
+      codec: libmp3lame
+      bitrate: 128k
+    commands:
+      analysis:
+      - /opt/homebrew/bin/ffmpeg
+      - -hide_banner
+      - -nostats
+      - -i
+      - /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bm-george-calibration-a-096.wav
+      - -af
+      - loudnorm=I=-19.0:TP=-1.0:LRA=7.0:print_format=json
+      - -f
+      - 'null'
+      - '-'
+      normalise:
+      - /opt/homebrew/bin/ffmpeg
+      - -y
+      - -hide_banner
+      - -nostats
+      - -i
+      - /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bm-george-calibration-a-096.wav
+      - -af
+      - loudnorm=I=-19.0:TP=-1.0:LRA=7.0:measured_I=-25.26:measured_TP=-7.85:measured_LRA=1.80:measured_thresh=-35.49:offset=0.09:linear=true:print_format=json
+      - -ac
+      - '1'
+      - -ar
+      - '24000'
+      - -codec:a
+      - libmp3lame
+      - -b:a
+      - 128k
+      - /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bm-george-calibration-a-096.mp3
+      measurement:
+      - /opt/homebrew/bin/ffmpeg
+      - -hide_banner
+      - -nostats
+      - -i
+      - /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bm-george-calibration-a-096.mp3
+      - -af
+      - loudnorm=I=-19.0:TP=-1.0:LRA=7.0:print_format=json
+      - -f
+      - 'null'
+      - '-'
+    measured_input:
+      integrated_lufs: -25.26
+      true_peak_dbtp: -7.85
+      loudness_range_lu: 1.8
+      threshold_lufs: -35.49
+    normalisation_output:
+      integrated_lufs: -18.92
+      true_peak_dbtp: -1.59
+      loudness_range_lu: 1.5
+      threshold_lufs: -29.18
+      normalisation_type: linear
+      target_offset_lu: -0.08
+    measured_output:
+      integrated_lufs: -19.45
+      true_peak_dbtp: -2.02
+      loudness_range_lu: 1.8
+      threshold_lufs: -29.71
+  runtime_evidence:
+    device: Device(gpu, 0)
+    gpu_selected: true
+    metal_telemetry:
+      device_info:
+        device_name: Apple M4 Pro
+        max_recommended_working_set_size: 40200896512
+        memory_size: 51539607552
+        architecture: applegpu_g16s
+        max_buffer_length: 30150672384
+        resource_limit: 499000
+      active_memory: 327774648
+      cache_memory: 10978016
+      peak_memory: 3046138968
+    audio_array_type: mlx.core.array
+- variant: B
+  fixture_path: fixtures/george-calibration-excerpt.txt
+  fixture_sha256: 7b7439cc8724888da902fdd1b7019618d44786b1caa81f78d929ca2e002c93f0
+  model: mlx-community/Kokoro-82M-bf16
+  model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+  voice: bm_george
+  language: british-english
+  lang_code: b
+  speed: 0.98
+  paragraph_pause_ms: 400
+  wav_path: samples/bm-george-calibration-b-098.wav
+  wav_sha256: 3750f9e4c3ee18e0d00a45006e8783cae937b3c499c6cbfcecf4d62e51b9fdc6
+  mp3_path: samples/bm-george-calibration-b-098.mp3
+  mp3_sha256: 860984a573c20118943b802f634e5634af7208b1d254f4cd9d655ee9cf328d4c
+  duration_seconds: 77.55
+  sample_rate: 24000
+  audio:
+    sample_rate: 24000
+    channels: 1
+    sample_count: 1861200
+    duration_seconds: 77.55
+    peak: 0.4530167579650879
+    non_silent_samples: 1698628
+    finite: true
+    opening_silence_samples: 7882
+    closing_silence_samples: 18245
+  raw_wav_unnormalised: true
+  loudness_normalisation:
+    settings:
+      integrated_lufs: -19.0
+      true_peak_dbtp: -1.0
+      loudness_range_lu: 7.0
+      channels: 1
+      sample_rate: 24000
+      codec: libmp3lame
+      bitrate: 128k
+    commands:
+      analysis:
+      - /opt/homebrew/bin/ffmpeg
+      - -hide_banner
+      - -nostats
+      - -i
+      - /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bm-george-calibration-b-098.wav
+      - -af
+      - loudnorm=I=-19.0:TP=-1.0:LRA=7.0:print_format=json
+      - -f
+      - 'null'
+      - '-'
+      normalise:
+      - /opt/homebrew/bin/ffmpeg
+      - -y
+      - -hide_banner
+      - -nostats
+      - -i
+      - /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bm-george-calibration-b-098.wav
+      - -af
+      - loudnorm=I=-19.0:TP=-1.0:LRA=7.0:measured_I=-25.28:measured_TP=-6.85:measured_LRA=1.80:measured_thresh=-35.53:offset=0.10:linear=true:print_format=json
+      - -ac
+      - '1'
+      - -ar
+      - '24000'
+      - -codec:a
+      - libmp3lame
+      - -b:a
+      - 128k
+      - /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bm-george-calibration-b-098.mp3
+      measurement:
+      - /opt/homebrew/bin/ffmpeg
+      - -hide_banner
+      - -nostats
+      - -i
+      - /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bm-george-calibration-b-098.mp3
+      - -af
+      - loudnorm=I=-19.0:TP=-1.0:LRA=7.0:print_format=json
+      - -f
+      - 'null'
+      - '-'
+    measured_input:
+      integrated_lufs: -25.28
+      true_peak_dbtp: -6.85
+      loudness_range_lu: 1.8
+      threshold_lufs: -35.53
+    normalisation_output:
+      integrated_lufs: -19.0
+      true_peak_dbtp: -1.0
+      loudness_range_lu: 1.5
+      threshold_lufs: -29.24
+      normalisation_type: dynamic
+      target_offset_lu: -0.0
+    measured_output:
+      integrated_lufs: -19.45
+      true_peak_dbtp: -1.44
+      loudness_range_lu: 1.8
+      threshold_lufs: -29.71
+  runtime_evidence:
+    device: Device(gpu, 0)
+    gpu_selected: true
+    metal_telemetry:
+      device_info:
+        device_name: Apple M4 Pro
+        max_recommended_working_set_size: 40200896512
+        memory_size: 51539607552
+        architecture: applegpu_g16s
+        max_buffer_length: 30150672384
+        resource_limit: 499000
+      active_memory: 327774648
+      cache_memory: 10978016
+      peak_memory: 3046138968
+    audio_array_type: mlx.core.array
+- variant: C
+  fixture_path: fixtures/george-calibration-excerpt.txt
+  fixture_sha256: 7b7439cc8724888da902fdd1b7019618d44786b1caa81f78d929ca2e002c93f0
+  model: mlx-community/Kokoro-82M-bf16
+  model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+  voice: bm_george
+  language: british-english
+  lang_code: b
+  speed: 0.96
+  paragraph_pause_ms: 275
+  wav_path: samples/bm-george-calibration-c-096-shorter-pauses.wav
+  wav_sha256: fd5e9d5658f056a8dd05fbedede69b07271f196b5113f81f2e20d75933616876
+  mp3_path: samples/bm-george-calibration-c-096-shorter-pauses.mp3
+  mp3_sha256: 23784a50e7b14c7001baf2f3e1d6d6ad1eb4f9ad96046fedc49481f7ec277752
+  duration_seconds: 78.4
+  sample_rate: 24000
+  audio:
+    sample_rate: 24000
+    channels: 1
+    sample_count: 1881600
+    duration_seconds: 78.4
+    peak: 0.4051332175731659
+    non_silent_samples: 1722985
+    finite: true
+    opening_silence_samples: 7882
+    closing_silence_samples: 15269
+  raw_wav_unnormalised: true
+  loudness_normalisation:
+    settings:
+      integrated_lufs: -19.0
+      true_peak_dbtp: -1.0
+      loudness_range_lu: 7.0
+      channels: 1
+      sample_rate: 24000
+      codec: libmp3lame
+      bitrate: 128k
+    commands:
+      analysis:
+      - /opt/homebrew/bin/ffmpeg
+      - -hide_banner
+      - -nostats
+      - -i
+      - /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bm-george-calibration-c-096-shorter-pauses.wav
+      - -af
+      - loudnorm=I=-19.0:TP=-1.0:LRA=7.0:print_format=json
+      - -f
+      - 'null'
+      - '-'
+      normalise:
+      - /opt/homebrew/bin/ffmpeg
+      - -y
+      - -hide_banner
+      - -nostats
+      - -i
+      - /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bm-george-calibration-c-096-shorter-pauses.wav
+      - -af
+      - loudnorm=I=-19.0:TP=-1.0:LRA=7.0:measured_I=-25.26:measured_TP=-7.85:measured_LRA=1.80:measured_thresh=-35.49:offset=0.09:linear=true:print_format=json
+      - -ac
+      - '1'
+      - -ar
+      - '24000'
+      - -codec:a
+      - libmp3lame
+      - -b:a
+      - 128k
+      - /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bm-george-calibration-c-096-shorter-pauses.mp3
+      measurement:
+      - /opt/homebrew/bin/ffmpeg
+      - -hide_banner
+      - -nostats
+      - -i
+      - /Users/dima/Documents/Hogwarts History/authoring/audio/samples/bm-george-calibration-c-096-shorter-pauses.mp3
+      - -af
+      - loudnorm=I=-19.0:TP=-1.0:LRA=7.0:print_format=json
+      - -f
+      - 'null'
+      - '-'
+    measured_input:
+      integrated_lufs: -25.26
+      true_peak_dbtp: -7.85
+      loudness_range_lu: 1.8
+      threshold_lufs: -35.49
+    normalisation_output:
+      integrated_lufs: -18.91
+      true_peak_dbtp: -1.59
+      loudness_range_lu: 1.5
+      threshold_lufs: -29.18
+      normalisation_type: linear
+      target_offset_lu: -0.09
+    measured_output:
+      integrated_lufs: -19.44
+      true_peak_dbtp: -2.0
+      loudness_range_lu: 1.8
+      threshold_lufs: -29.72
+  runtime_evidence:
+    device: Device(gpu, 0)
+    gpu_selected: true
+    metal_telemetry:
+      device_info:
+        device_name: Apple M4 Pro
+        max_recommended_working_set_size: 40200896512
+        memory_size: 51539607552
+        architecture: applegpu_g16s
+        max_buffer_length: 30150672384
+        resource_limit: 499000
+      active_memory: 327774648
+      cache_memory: 10978016
+      peak_memory: 3046138968
+    audio_array_type: mlx.core.array

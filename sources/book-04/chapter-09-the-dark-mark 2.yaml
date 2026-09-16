@@ -1,0 +1,313 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nine - The Dark Mark
+  chapter_start_pdf_page: 1044
+  chapter_end_pdf_page: 1066
+  boundary_confidence: high
+  boundary_notes: Chapter Nine range came from project-control/processing-state.yaml and project-control/next-run.md. Book 4 Chapter Nine starts on PDF page 1044 and Chapter Ten starts on PDF page 1067, so only PDF pages 1044-1066 were extracted and searched.
+  processed_date: '2026-06-21'
+  processor_notes: "Processed only Book 4, Chapter Nine. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch09-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nine - The Dark Mark
+  chapter_start_pdf_page: 1044
+  chapter_end_pdf_page: 1066
+  pdf_page: 1046
+  printed_page: not available
+  extracted_text_lines: PDF page 1045, lines 56-62; PDF page 1046, lines 65-97; PDF page 1047, lines 100-107 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: A crowd of wizards
+    end_phrase: might make the Roberts family fall
+    local_occurrence_note: Harry sees masked wizards levitating the Roberts family while Ministry wizards try to intervene without dropping them.
+  nearby_context: After the World Cup match, hooded and masked wizards march through the campsite, levitate the Muggle Roberts family, damage tents, and force Ministry responders into a dangerous rescue.
+  match_terms:
+  - masked wizards
+  - Roberts family
+  - Muggles
+  - Ministry wizards
+  - levitating people
+  - campsite
+  quote_excerpt_short: "the smallest Muggle child"
+  source_note: The chapter gives direct evidence of Death Eater-style Muggle-baiting at a public wizarding event and shows Ministry responders constrained by victim safety.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - death-eaters
+  - muggle-baiting
+  - ministry-of-magic
+  - quidditch-world-cup
+  - muggle-secrecy
+  - public-event-security
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Wizarding Transport, Public Events, and Secrecy
+  candidate_section: World Cup Riot and Muggle Victim Rescue
+  reason_for_placement: The scene is not at Hogwarts, but it gives concrete wartime-aftershock context for Ministry security, Muggle secrecy, and Death Eater survival during a school-linked tournament year.
+  relevance_to_hogwarts_a_history: This can support later notes on why Hogwarts security and Ministry supervision during the Triwizard year cannot be separated from wider postwar public-security failures.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search returned broad war and security entries, but no prior seed specifically records the Roberts family levitation or the World Cup riot rescue problem.
+  confidence: high
+  limitations: The passage identifies the attackers visually as masked wizards; later dialogue says they were probably Death Eaters but does not prove individual identities.
+- id: gof-ch09-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nine - The Dark Mark
+  chapter_start_pdf_page: 1044
+  chapter_end_pdf_page: 1066
+  pdf_page: 1049
+  printed_page: not available
+  extracted_text_lines: PDF page 1049, lines 175-193 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: Beauxbatons
+    end_phrase: Magical Education in Europe
+    local_occurrence_note: Hermione identifies French-speaking teenagers as Beauxbatons students and names the book where she read about the school.
+  nearby_context: In the panicked wood, Harry, Ron, and Hermione encounter French-speaking teenagers looking for Madame Maxime, prompting Hermione to identify Beauxbatons Academy of Magic from a named reference book.
+  match_terms:
+  - Beauxbatons
+  - Madame Maxime
+  - Magical Education in Europe
+  - Hogwarts
+  - Hermione
+  quote_excerpt_short: "An Appraisal of Magical Education in Europe"
+  source_note: The chapter confirms Beauxbatons Academy of Magic as a European magical school known through Hermione's named in-universe educational reference.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - beauxbatons
+  - magical-education
+  - in-universe-source
+  - hermione-granger
+  - wizarding-schools
+  - europe
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Wizarding Schools Beyond Britain
+  candidate_section: Beauxbatons and European Magical Education Sources
+  reason_for_placement: The passage explicitly situates Hogwarts among European magical schools and supplies the title of an in-universe source for that knowledge.
+  relevance_to_hogwarts_a_history: This can support later editorial framing of Hogwarts as one institution in a wider educational network, while keeping the reference outside the original Hogwarts-centered text.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search found prior generic in-universe source entries but no direct prior seed for Beauxbatons or An Appraisal of Magical Education in Europe.
+  confidence: high
+  limitations: The passage identifies Beauxbatons but gives no details about its curriculum, governance, age range, or relationship with Hogwarts.
+- id: gof-ch09-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nine - The Dark Mark
+  chapter_start_pdf_page: 1044
+  chapter_end_pdf_page: 1066
+  pdf_page: 1050
+  printed_page: not available
+  extracted_text_lines: PDF page 1050, lines 212-243; PDF page 1061, lines 619-632; PDF page 1062, lines 635-644 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: Winky the house-elf
+    end_phrase: her master's reputation
+    local_occurrence_note: Winky is magically constrained from fleeing, Hermione calls the system slavery, and Crouch later dismisses her by giving clothes.
+  nearby_context: Winky struggles against an apparent magical constraint after disobeying orders; Hermione argues that house-elves are enslaved; Crouch decides Winky's disobedience means clothes and dismissal.
+  match_terms:
+  - Winky
+  - house-elf
+  - slavery
+  - clothes
+  - servant
+  - master
+  quote_excerpt_short: "This means clothes."
+  source_note: The chapter links house-elf obedience magic, social acceptance of servitude, and the clothing mechanism that frees or dismisses a house-elf.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - house-elves
+  - winky
+  - barty-crouch
+  - magical-servitude
+  - manumission
+  - clothing
+  candidate_part: Later Editorial Notes
+  candidate_chapter: House-Elves and Hogwarts
+  candidate_section: Clothing, Dismissal, and Servitude Norms
+  reason_for_placement: The passage concerns a private house-elf, but it supplies crucial context for later Hogwarts house-elf labor, Dobby's employment, and Hermione's elf-rights campaign.
+  relevance_to_hogwarts_a_history: This can help later editors explain Hogwarts house-elves against broader house-elf law and custom without implying that Crouch's household practice is school policy.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch18-006
+    notes: Book 2 Chapter Eighteen demonstrates house-elf manumission through clothing with Dobby; this entry corroborates that mechanism through Winky and adds obedience, reputation, and dismissal context from Crouch's household.
+  confidence: high
+  limitations: Winky's case reflects one master's household authority and the wider custom around house-elves, not a formal Hogwarts rule.
+- id: gof-ch09-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nine - The Dark Mark
+  chapter_start_pdf_page: 1044
+  chapter_end_pdf_page: 1066
+  pdf_page: 1053
+  printed_page: not available
+  extracted_text_lines: PDF page 1053, lines 330-349; PDF page 1054, lines 352-383; PDF page 1055, lines 394-420 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: MORSMORDRE
+    end_phrase: They will have Disapparated
+    local_occurrence_note: The unknown speaker casts the Dark Mark, Hermione identifies it, and Ministry wizards Apparate in firing Stunners.
+  nearby_context: A hidden speaker casts Morsmordre, producing a green skull with a serpent tongue; the sign panics witnesses, Hermione identifies it as Voldemort's sign, and Ministry wizards respond with mass Stunners.
+  match_terms:
+  - Morsmordre
+  - Dark Mark
+  - You-Know-Who
+  - Stupefy
+  - Ministry wizards
+  - Disapparated
+  quote_excerpt_short: "It's the Dark Mark"
+  source_note: The chapter records the incantation and appearance of the Dark Mark and shows the Ministry's immediate armed response to its summoning.
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  topic_tags:
+  - dark-mark
+  - morsmordre
+  - death-eaters
+  - ministry-response
+  - apparition
+  - stunning-spell
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Dark Magic, Security, and Public Panic
+  candidate_section: Dark Mark Summoning and Emergency Response
+  reason_for_placement: The evidence is external to Hogwarts but central to the postwar security climate surrounding the Triwizard year.
+  relevance_to_hogwarts_a_history: This can support later editorial notes explaining why dark symbols, Apparition, and Ministry overreaction shape student experience before the school year begins.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search returned Defense Against the Dark Arts and broad Voldemort entries but no direct prior seed for Morsmordre, Dark Mark appearance, or the Ministry Stunner response.
+  confidence: high
+  limitations: The caster is not identified in this chapter, so the entry should not assign responsibility beyond the observed spell and response.
+- id: gof-ch09-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nine - The Dark Mark
+  chapter_start_pdf_page: 1044
+  chapter_end_pdf_page: 1066
+  pdf_page: 1057
+  printed_page: not available
+  extracted_text_lines: PDF page 1057, lines 455-465; PDF page 1058, lines 506-515 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: Code of Wand Use
+    end_phrase: found with a wand in your hand
+    local_occurrence_note: Amos Diggory cites clause three of the Code of Wand Use after finding Winky with Harry's wand.
+  nearby_context: Diggory says the Dark Mark requires a wand, cites a rule barring non-human creatures from carrying or using wands, and invokes his Department role while questioning Winky.
+  match_terms:
+  - Code of Wand Use
+  - non-human creature
+  - wand
+  - Department for the Regulation and Control of Magical Creatures
+  - Winky
+  quote_excerpt_short: "No non-human creature is permitted to carry or use a wand."
+  source_note: The chapter names clause three of the Code of Wand Use and connects wand possession by non-human creatures to Ministry creature-regulation authority.
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  topic_tags:
+  - wand-law
+  - code-of-wand-use
+  - non-human-creatures
+  - department-for-regulation-and-control-of-magical-creatures
+  - magical-creatures
+  - winky
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Law, Creatures, and Magical Citizenship
+  candidate_section: Code of Wand Use and Non-Human Wand Restrictions
+  reason_for_placement: The legal rule is not a Hogwarts policy, but it affects magical creatures and beings relevant to school life and later house-elf debates.
+  relevance_to_hogwarts_a_history: This can support later notes on how school-adjacent magical beings are shaped by wider Ministry law rather than Hogwarts custom alone.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search returned creature-law and wand-sanction entries but no prior seed naming clause three of the Code of Wand Use or the non-human wand restriction.
+  confidence: high
+  limitations: Diggory quotes the rule in an accusatory investigation; the chapter does not supply the law's full text, history, enforcement standards, or exceptions.
+- id: gof-ch09-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nine - The Dark Mark
+  chapter_start_pdf_page: 1044
+  chapter_end_pdf_page: 1066
+  pdf_page: 1059
+  printed_page: not available
+  extracted_text_lines: PDF page 1059, lines 538-560; PDF page 1060, lines 564-570 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: a simple way of discovering
+    end_phrase: the guilty wand in your hand
+    local_occurrence_note: Diggory uses Prior Incantato on Harry's wand and obtains a smoky echo of the Dark Mark spell.
+  nearby_context: Hermione, Harry, and Ron argue that the caster had a human voice; Diggory tests the wand's last spell with Prior Incantato, producing a ghostly Dark Mark before dismissing it with Deletrius.
+  match_terms:
+  - Prior Incantato
+  - Deletrius
+  - last spell
+  - wand
+  - Dark Mark
+  - spell evidence
+  quote_excerpt_short: "the ghost of a spell"
+  source_note: The chapter gives practical magical-forensics evidence that Prior Incantato can reveal a wand's last performed spell and that Deletrius can dismiss the resulting echo.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - prior-incantato
+  - deletrius
+  - wand-magic
+  - spell-evidence
+  - ministry-investigation
+  - dark-mark
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Magical Evidence and Investigation
+  candidate_section: Wand Spell Echoes and Prior Incantato
+  reason_for_placement: The scene is not a classroom lesson, but it supplies a rare demonstration of investigative spell evidence and wand accountability.
+  relevance_to_hogwarts_a_history: This can support later notes on wand-centered magical evidence that students encounter indirectly through Ministry investigations and school crises.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Compact duplicate search returned generic wand and source entries but no prior seed for Prior Incantato as a wand-forensics method.
+  confidence: high
+  limitations: The chapter shows the method in one case and does not define its limits, reliability, time window, or susceptibility to tampering.
+- id: gof-ch09-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Nine - The Dark Mark
+  chapter_start_pdf_page: 1044
+  chapter_end_pdf_page: 1066
+  pdf_page: 1064
+  printed_page: not available
+  extracted_text_lines: PDF page 1064, lines 724-731; PDF page 1065, lines 738-767; PDF page 1066, lines 776-789 in .tmp/current-chapter.txt
+  text_anchor:
+    start_phrase: The Rise and Fall
+    end_phrase: had not been a Death Eater once
+    local_occurrence_note: Hermione names a Dark Arts history source, while Mr. Weasley and Bill explain Dark Mark terror and postwar Death Eater behavior.
+  nearby_context: Hermione identifies The Rise and Fall of the Dark Arts as her source for the Dark Mark. Mr. Weasley explains its wartime terror, Bill says the attackers fled it, and the adults discuss Death Eaters who avoided Azkaban by denying involvement.
+  match_terms:
+  - The Rise and Fall of the Dark Arts
+  - Dark Mark
+  - Death Eaters
+  - Azkaban
+  - You-Know-Who
+  - memories modified
+  quote_excerpt_short: "The Rise and Fall of the Dark Arts"
+  source_note: The chapter names an in-universe Dark Arts history source and summarizes the Dark Mark's First Wizarding War use, Death Eater identity, postwar denials, Azkaban avoidance, and immediate Muggle memory cleanup.
+  reference_type: explicit_in_universe_source
+  era_classification: pre_1984_historical_candidate
+  topic_tags:
+  - dark-mark
+  - death-eaters
+  - first-wizarding-war
+  - voldemort
+  - rise-and-fall-of-the-dark-arts
+  - in-universe-source
+  - memory-charms
+  - azkaban
+  candidate_part: Notable Events Before 1984
+  candidate_chapter: Dark Marks and Wartime Terror
+  candidate_section: Death Eaters, Public Terror, and Postwar Denials
+  reason_for_placement: The passage gives historical explanation rather than just observed panic, including a named source and adult testimony about Death Eater tactics and the sign's wartime meaning.
+  relevance_to_hogwarts_a_history: This can support a later editorial note on the historical context students bring into Hogwarts during the Triwizard year, especially where Dark Arts history intersects school security.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch07-001
+    notes: Book 4 Chapter Seven records campsite Memory Charms for ordinary anti-Muggle secrecy; this entry adds post-riot modification of the Roberts family's memories and broader Dark Mark/Death Eater history.
+  confidence: high
+  limitations: The explanation is secondhand adult testimony and a student-cited source title; it does not identify the caster or prove all masked rioters were Death Eaters.

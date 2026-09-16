@@ -1,0 +1,23 @@
+purpose: >-
+  Record historical events only after they have been editorially accepted into
+  the 1984 manuscript, so chapters share a controlled chronology without
+  importing the entire research corpus.
+schema:
+  id: stable authoring-layer chronology identifier
+  event: concise accepted event statement
+  date_or_range: accepted date, approximate date, or range
+  precision: exact, year, decade, century, range, relative, or unknown
+  confidence: high, medium, or low
+  evidence_ids: list of canonical research evidence IDs
+  first_used_in_chapter: stable chapter number or null
+  notes: chronology qualifications and editorial reasoning
+example:
+  id: chronology-example
+  event: Example only; not an accepted historical fact
+  date_or_range: null
+  precision: unknown
+  confidence: low
+  evidence_ids: []
+  first_used_in_chapter: null
+  notes: Remove the example label only when creating a real accepted record.
+records: []

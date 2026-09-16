@@ -1,0 +1,313 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Eighteen - The Weighing of the Wands
+  chapter_start_pdf_page: 1188
+  chapter_end_pdf_page: 1209
+  boundary_confidence: high
+  boundary_notes: Extracted from the processing-state bounded page range; page 1188 begins the chapter title and page 1209 ends Sirius's reply letter before the next chapter range begins.
+  processed_date: '2026-06-22'
+  processor_notes: 'Created from bounded extraction of PDF pages 1188-1209; no explicit Hogwarts: A History title reference found.'
+entries:
+- id: gof-ch18-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Eighteen - The Weighing of the Wands
+  chapter_start_pdf_page: 1188
+  chapter_end_pdf_page: 1209
+  pdf_page: 1191
+  printed_page: null
+  extracted_text_lines: 111-140
+  text_anchor:
+    start_phrase: borrow one of the school owls
+    end_phrase: letter to the leg of a large barn owl
+    local_occurrence_note: Hermione and Harry use the Owlery after deciding not to use Hedwig for Sirius correspondence.
+  nearby_context: Hermione says anyone can use school owls; the Owlery contains long lines of perches and many different owls, and Harry sends the letter by a school barn owl.
+  match_terms:
+  - school owls
+  - Owlery
+  - student correspondence
+  - barn owl
+  - Sirius Black
+  quote_excerpt_short: anyone can use them
+  source_note: The passage confirms that Hogwarts maintains school owls available for student use, with the Owlery functioning as shared correspondence infrastructure.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - school-owls
+  - owlery
+  - owl-post
+  - student-correspondence
+  - sirius-black
+  - barn-owl
+  - shared-resources
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: Towers, Corridors, and Service Rooms
+  candidate_section: The Owlery and school owls
+  reason_for_placement: The evidence adds usage policy and student access detail to the castle Owlery setting.
+  relevance_to_hogwarts_a_history: This can support a future section on routine school communications and shared animal infrastructure.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch15-001
+    notes: gof-ch15-001 locates the Owlery in West Tower and describes the school owls; this entry corroborates that setting and adds the explicit rule that anyone may borrow a school owl.
+  confidence: high
+  limitations: The scene does not state whether all correspondence destinations are permitted or whether staff monitor school owl use.
+- id: gof-ch18-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Eighteen - The Weighing of the Wands
+  chapter_start_pdf_page: 1188
+  chapter_end_pdf_page: 1209
+  pdf_page: 1192
+  printed_page: null
+  extracted_text_lines: 145-168
+  text_anchor:
+    start_phrase: The Hufflepuffs, who were usually on excellent terms
+    end_phrase: Head of Hufflepuff House
+    local_occurrence_note: Harry returns to lessons after becoming an unexpected fourth champion.
+  nearby_context: Hufflepuff students resent Harry for seeming to take Cedric's glory, while Professor Sprout's distance is interpreted through her role as Head of Hufflepuff.
+  match_terms:
+  - Hufflepuff
+  - Gryffindor
+  - Cedric Diggory
+  - Head of House
+  - House glory
+  quote_excerpt_short: Head of Hufflepuff House
+  source_note: The chapter shows House loyalty shaping student and staff responses to the Triwizard selection, with Cedric's champion status treated as rare Hufflepuff glory.
+  reference_type: house_system
+  era_classification: later_editorial_note
+  topic_tags:
+  - hufflepuff
+  - gryffindor
+  - house-system
+  - head-of-house
+  - professor-sprout
+  - cedric-diggory
+  - triwizard-tournament
+  candidate_part: The Four Houses
+  candidate_chapter: House Identity and Reputation
+  candidate_section: House loyalty during the Triwizard Tournament
+  reason_for_placement: The evidence connects House identity to public tournament support and staff affiliation.
+  relevance_to_hogwarts_a_history: A later edition can use this to illustrate how House identity affected schoolwide reception of the 1994 champion anomaly.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch06-004; gof-ch15-004
+    notes: gof-ch06-004 records Cedric's Hufflepuff Quidditch role and earlier Hufflepuff-over-Gryffindor match context; gof-ch15-004 records House symbols in the Great Hall. This entry adds House loyalty around Cedric as champion and Sprout's Head-of-House affiliation.
+  confidence: high
+  limitations: The passage reflects Harry's perception of Sprout's reaction and does not quote Sprout directly.
+- id: gof-ch18-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Eighteen - The Weighing of the Wands
+  chapter_start_pdf_page: 1188
+  chapter_end_pdf_page: 1209
+  pdf_page: 1193
+  printed_page: null
+  extracted_text_lines: 183-230
+  text_anchor:
+    start_phrase: balancing a teetering tower of crates
+    end_phrase: trying desperately to get back on their feet
+    local_occurrence_note: Hagrid conducts a Care of Magical Creatures lesson near his cabin after Harry becomes champion.
+  nearby_context: Hagrid explains that the Blast-Ended Skrewts have been killing each other from pent-up energy and has students leash and walk them while wearing dragon-hide gloves.
+  match_terms:
+  - Blast-Ended Skrewts
+  - Care of Magical Creatures
+  - Hagrid
+  - dragon-hide gloves
+  - hazardous creatures
+  quote_excerpt_short: fix a leash on a skrewt
+  source_note: The lesson extends the Skrewt-rearing project, showing larger armored creatures, student leashing work, protective gloves, and a continuing safety problem.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - blast-ended-skrewts
+  - care-of-magical-creatures
+  - hagrid
+  - hazardous-creatures
+  - dragon-hide-gloves
+  - student-safety
+  - creature-handling
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Care of Magical Creatures and Practical Handling
+  candidate_section: Blast-Ended Skrewt growth and handling risks
+  reason_for_placement: The passage supplies a later stage of an unusual practical creature curriculum at Hogwarts.
+  relevance_to_hogwarts_a_history: This can support later-editorial discussion of Hagrid's hands-on teaching style and the safety limits of live creature lessons.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch13-003
+    notes: gof-ch13-003 introduces Hagrid's live Blast-Ended Skrewt project with cross-House students; this entry corroborates it and adds growth, armor, leashing, and dragon-hide glove precautions.
+  confidence: high
+  limitations: The passage does not explain the creatures' origin or whether this curriculum had staff approval beyond Hagrid's lesson plan.
+- id: gof-ch18-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Eighteen - The Weighing of the Wands
+  chapter_start_pdf_page: 1188
+  chapter_end_pdf_page: 1209
+  pdf_page: 1198
+  printed_page: null
+  extracted_text_lines: 373-423
+  text_anchor:
+    start_phrase: Fifty points from Gryffindor
+    end_phrase: I want you back down here later to test your antidote
+    local_occurrence_note: Snape responds to the corridor jinx exchange and then begins the Potions lesson.
+  nearby_context: Hermione runs toward the hospital wing after a jinx, Snape assigns point loss and detention to Harry and Ron, and the class is set to brew antidotes from prepared recipes.
+  match_terms:
+  - Potions
+  - antidotes
+  - detention
+  - house points
+  - hospital wing
+  quote_excerpt_short: Fifty points from Gryffindor and a detention each
+  source_note: "The passage combines ordinary school discipline with Potions curriculum evidence: detention and point loss follow corridor misconduct, while fourth-years brew antidotes for testing."
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - potions
+  - antidotes
+  - detention
+  - house-points
+  - snape
+  - hospital-wing
+  - dungeon-classroom
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Potions, Practical Testing, and Discipline
+  candidate_section: Antidote brewing and detention penalties
+  reason_for_placement: The passage links classroom practice, punitive authority, and hospital-wing recourse in one school-day sequence.
+  relevance_to_hogwarts_a_history: This can support treatment of curriculum methods and disciplinary mechanisms during Harry's fourth year.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch11-002; ps-ch14-007
+    notes: cos-ch11-002 records Potions antidotes and dungeon instruction, while ps-ch14-007 records detention and point deductions. This entry adds fourth-year antidote brewing and a Snape-assigned detention after a corridor jinx exchange.
+  confidence: high
+  limitations: Snape's punishment is personally biased in context, so it should not be generalized as a neutral disciplinary standard without corroboration.
+- id: gof-ch18-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Eighteen - The Weighing of the Wands
+  chapter_start_pdf_page: 1188
+  chapter_end_pdf_page: 1209
+  pdf_page: 1201
+  printed_page: null
+  extracted_text_lines: 459-568
+  text_anchor:
+    start_phrase: Champion number four
+    end_phrase: I have NOT got tears in my eyes
+    local_occurrence_note: Bagman brings Harry into the pre-ceremony room and Rita Skeeter interviews him in a broom cupboard.
+  nearby_context: Bagman says Skeeter is writing for the Daily Prophet; she uses a Quick-Quotes Quill that immediately embellishes Harry's answers and frames the tournament story around his fame.
+  match_terms:
+  - Daily Prophet
+  - Rita Skeeter
+  - Quick-Quotes Quill
+  - Triwizard Tournament
+  - champion publicity
+  quote_excerpt_short: Quick-Quotes Quill
+  source_note: The revived tournament includes press access and magical reporting tools, with Rita Skeeter shaping a public account of Hogwarts's youngest champion before the ceremony.
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  topic_tags:
+  - daily-prophet
+  - rita-skeeter
+  - quick-quotes-quill
+  - triwizard-tournament
+  - champion-publicity
+  - wizarding-press
+  - ludo-bagman
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Public Records
+  candidate_section: Press access and distorted champion coverage
+  reason_for_placement: The passage shows how the Hogwarts-hosted tournament entered public wizarding records through press coverage.
+  relevance_to_hogwarts_a_history: A later edition can use this to flag the Daily Prophet as a public but unreliable source for the 1994 tournament.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: gof-ch10-003; gof-ch13-005
+    notes: gof-ch10-003 and gof-ch13-005 record earlier Rita Skeeter/Daily Prophet public-record material. This entry adds tournament press access at Hogwarts and the Quick-Quotes Quill's distortion of interview evidence.
+  confidence: high
+  limitations: The quill's text is shown in draft form, not as the final published Daily Prophet article.
+- id: gof-ch18-006
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Eighteen - The Weighing of the Wands
+  chapter_start_pdf_page: 1188
+  chapter_end_pdf_page: 1209
+  pdf_page: 1204
+  printed_page: null
+  extracted_text_lines: 588-606
+  text_anchor:
+    start_phrase: The Weighing of the Wands is about to start
+    end_phrase: bought his own wand over three years ago
+    local_occurrence_note: Dumbledore retrieves Harry from Skeeter's interview and opens the formal ceremony.
+  nearby_context: The five judges sit at the velvet-covered table, and Dumbledore introduces Ollivander as the expert who will inspect champion wands before the tournament.
+  match_terms:
+  - Weighing of the Wands
+  - Ollivander
+  - champions
+  - judges
+  - wand inspection
+  quote_excerpt_short: checking your wands to ensure that they are in good condition
+  source_note: The tournament includes a formal wand-weighing ceremony where an expert inspects each champion's wand before the tasks.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - wand-weighing
+  - ollivander
+  - triwizard-tournament
+  - champions
+  - judges
+  - wand-inspection
+  - tournament-ceremony
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Year and Institutional Ceremonies
+  candidate_section: The Weighing of the Wands
+  reason_for_placement: This is the named ceremony that gives the chapter its title and documents a tournament procedure carried out at Hogwarts.
+  relevance_to_hogwarts_a_history: A later edition should include the ceremony as part of the Hogwarts-hosted Triwizard revival's administrative record.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Duplicate search for Triwizard, wand-weighing, and Ollivander terms did not return a likely existing ceremony entry.
+  confidence: high
+  limitations: The passage does not state whether the ceremony existed in every historical tournament or was adapted for the 1994 revival.
+- id: gof-ch18-007
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Eighteen - The Weighing of the Wands
+  chapter_start_pdf_page: 1188
+  chapter_end_pdf_page: 1209
+  pdf_page: 1205
+  printed_page: null
+  extracted_text_lines: 611-695
+  text_anchor:
+    start_phrase: nine and a half inches
+    end_phrase: still in perfect condition
+    local_occurrence_note: Ollivander examines the four champions' wands during the wand-weighing ceremony.
+  nearby_context: Ollivander identifies Fleur's rosewood and veela-hair wand, Cedric's ash and unicorn-hair wand, Krum's Gregorovitch hornbeam and dragon-heartstring wand, and Harry's holly and phoenix-feather wand.
+  match_terms:
+  - wand cores
+  - veela hair
+  - unicorn hair
+  - dragon heartstring
+  - phoenix feather
+  quote_excerpt_short: hornbeam and dragon heartstring
+  source_note: The ceremony supplies comparative wandlore, including measurements, woods, core materials, makers, condition checks, and diagnostic spell effects.
+  reference_type: explicit_in_universe_source
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - wands
+  - wand-cores
+  - ollivander
+  - gregorovitch
+  - veela-hair
+  - unicorn-hair
+  - dragon-heartstring
+  - phoenix-feather
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Wands, Equipment, and Magical Materials
+  candidate_section: Champion wand materials and condition tests
+  reason_for_placement: The passage gives detailed in-universe expert testimony about wand composition and handling during a Hogwarts event.
+  relevance_to_hogwarts_a_history: This can support a reference section on student equipment, wand materials, and the practical importance of wands in school and tournament magic.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: ps-ch05-007
+    notes: ps-ch05-007 introduces Ollivanders, wand cores, Harry's wand selection, and the wand-chooses-wizard principle. This entry corroborates that wandlore and adds comparative champion wands plus formal condition testing.
+  confidence: high
+  limitations: Wand details are specific to the champions and should not be overextended into a complete taxonomy of wand materials.

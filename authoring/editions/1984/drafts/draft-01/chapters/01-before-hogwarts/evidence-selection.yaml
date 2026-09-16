@@ -1,0 +1,456 @@
+chapter: 1
+selected_at: '2026-09-13'
+candidate_records_inspected: 43
+selection_basis:
+  - Canonical YAML was reviewed for every listed record.
+  - Index and duplicate results were used for discovery and corroboration only.
+  - Later or undated educational practices are not projected into the founder era.
+
+revision_01_retrieval:
+  inspected_at: '2026-09-14'
+  canonical_records_inspected: 24
+  focus:
+    - potions, ingredients, antidotes, and alchemy
+    - herbs, magical plants, remedies, and healing
+    - wandmaking, wand use, and runic artefacts
+    - broom flight and other early magical crafts
+    - magical-creature knowledge and Muggle records
+    - medieval and pre-Statute magical–Muggle relations
+  selected_result: >-
+    Dated early-medieval broom evidence, a bounded wandmaking antiquity claim,
+    and a concrete medieval creature encounter materially expand the chapter.
+    The inspected potion, plant, healing, runic, and most creature records do not
+    securely date those practices before Hogwarts and are therefore retained
+    only as limits or cross-chapter material.
+  inspected_ids:
+    - qtta-ch01-001
+    - qtta-ch01-002
+    - qtta-ch02-001
+    - qtta-ch03-001
+    - qtta-ch03-002
+    - fb-ch02-001
+    - fb-ch02-002
+    - fb-ch02-003
+    - fb-ch02-004
+    - fb-ch05-003
+    - fb-ch05-004
+    - fb-ch05-005
+    - fb-ch06-006
+    - fb-ch07-006
+    - cos-ch09-003
+    - cos-ch14-001
+    - cos-ch16-002
+    - ps-ch05-007
+    - ext-a08-003
+    - ext-a17-002
+    - ext-a21-002
+    - ext-a27-003
+    - beedle-ch05-003
+    - ootp-ch24-005
+
+core:
+  - id: cos-ch09-003
+    role: direct historical support
+    supports: >-
+      The uncertain age of the foundation, the four founders, the remote castle,
+      Muggle fear and persecution, and the founders' practice of seeking out
+      magical youngsters and bringing them to the castle for education.
+    confidence: high
+    notes: >-
+      Professor Binns distinguishes this account from the Chamber legend but does
+      not identify his sources. This is the only inspected record that directly
+      joins the social setting to the creation and educational use of Hogwarts.
+
+supporting:
+  - id: ext-a08-003
+    role: direct historical context
+    supports: >-
+      Pre-Statute wizards and Muggles mingled, and defence could involve both
+      mundane weapons and wands.
+    confidence: high
+    notes: >-
+      Official retrospective source. It supplies social texture, not proof of a
+      particular educational arrangement or a complete founder-era norm.
+
+  - id: fb-ch02-001
+    role: direct historical context
+    supports: >-
+      Medieval Muggle art and literature retained imperfect knowledge of magical
+      creatures.
+    confidence: high
+    notes: >-
+      Supports an environment of visibility rather than total separation. The
+      record does not date particular examples to Hogwarts's founding.
+
+  - id: fb-ch02-002
+    role: source-method support
+    supports: >-
+      Medieval Muggle bestiaries may preserve distorted or mistaken evidence of
+      magical creatures.
+    confidence: high
+    notes: >-
+      Useful for showing both the value and limits of non-magical records; it does
+      not establish educational practice.
+
+  - id: fb-ch02-003
+    role: concrete medieval historical context
+    supports: >-
+      A fragment attributed to Brother Benedict records an encounter with what
+      Newt Scamander identifies as a Jarvey pursuing gnomes in a herb garden.
+    confidence: high
+    notes: >-
+      The manuscript fragment provides concrete texture for Muggle contact with a
+      magical creature, but Scamander's species identification is retrospective
+      and the episode does not describe wizard–Muggle social relations.
+
+  - id: fb-ch02-004
+    role: direct historical context
+    supports: >-
+      Misunderstood magic and creature sightings contributed to Muggle fear and
+      intensified persecution in a broadly medieval setting.
+    confidence: high
+    notes: >-
+      Corroborates the general climate in cos-ch09-003 but the exact period meant
+      by “this time” is contextual, so it cannot independently date the founder
+      era or prove why Hogwarts itself was founded.
+
+  - id: qtta-ch01-002
+    role: dated early-medieval material context
+    supports: >-
+      European broom flight is documented in 962; the surviving account describes
+      early brooms as discreet, crude, uncomfortable, and capable of only limited
+      control.
+    confidence: high
+    notes: >-
+      This is the strongest newly retrieved fixed date for an early magical
+      craft. The foundation date is too imprecise to prove whether 962 preceded
+      or followed the school's opening, so the record supplies a shared broad
+      historical horizon rather than a sequence. It concerns European transport,
+      not Hogwarts or British educational practice.
+
+  - id: ps-ch05-007
+    role: bounded traditional claim about old wandcraft
+    supports: >-
+      The Ollivander establishment publicly dates its wandmaking name to 382 BC.
+    confidence: medium
+    notes: >-
+      The dated shop sign is observed in a later narrative. It may support a
+      clearly attributed antiquity claim for specialist wandmaking, but not
+      uninterrupted institutional continuity, founder-era teaching, or the age
+      of any particular wand practice.
+
+  - id: beedle-fm-002
+    role: later historical comparison
+    supports: >-
+      Wizarding childhood literature was transmitted at bedtime for centuries
+      and became shared cultural knowledge among many Hogwarts pupils.
+    confidence: high
+    notes: >-
+      Demonstrates a durable household channel of cultural learning in later
+      centuries. It does not establish that Beedle's tales, or an equivalent
+      system, existed before Hogwarts.
+
+  - id: beedle-ch04-001
+    role: later historical comparison
+    supports: >-
+      Wizarding children could first encounter basic limits of magic through a
+      family story rather than formal instruction.
+    confidence: high
+    notes: >-
+      Dumbledore generalises from later wizarding childhood. Use only to show that
+      informal learning is evidenced somewhere in magical history, not to supply
+      a founder-era curriculum.
+
+later_confirmation:
+  - id: ext-b04-001
+    role: bounded comparison for education before school entry
+    supports: >-
+      In the Harry-era setting, children might attend Muggle primary school or be
+      educated at home; the Weasleys are given as a home-educated example.
+    confidence: medium
+    notes: >-
+      Authority-D preservation transcript from 2004. It gives no dates or early
+      history and therefore cannot establish pre-Hogwarts practice.
+
+  - id: ext-b02-002
+    role: bounded comparison for education before school entry
+    supports: >-
+      Attendance at Muggle school was not universally required before Hogwarts
+      in the Harry-era setting.
+    confidence: medium
+    notes: >-
+      Authority-D preservation transcript from 2000. It narrows modern practice
+      but supplies neither alternatives nor a historical origin.
+
+uncertain:
+  - id: ext-a28-001
+    role: possible comparative evidence only
+    supports: >-
+      An undated worldwide pattern of home-schooling and correspondence courses
+      where formal magical schools are absent.
+    confidence: high
+    notes: >-
+      Official 2016 source classified unknown_or_uncertain. Its general present-
+      tense claim must not be back-projected into pre-foundation Britain.
+
+  - id: ext-a28-002
+    role: possible institutional comparison only
+    supports: >-
+      A modern or undated distinction between established registered schools and
+      smaller, less regulated institutions.
+    confidence: high
+    notes: >-
+      The source gives no dates for the registration system or for the smaller
+      schools; it cannot prove that Hogwarts replaced such institutions.
+
+  - id: ext-a28-003
+    role: possible institutional comparison only
+    supports: >-
+      Magical schools have faced secrecy, war, hostile communities, and Ministry
+      pressure at unspecified times.
+    confidence: high
+    notes: >-
+      Useful as a question for later comparative history, not dated evidence for
+      the conditions of Hogwarts's foundation.
+
+  - id: ext-a28-004
+    role: possible institutional comparison only
+    supports: >-
+      Magical schools are often sited in defensible, Muggle-inaccessible regions.
+    confidence: high
+    notes: >-
+      The article expressly calls this a general rule with exceptions and does
+      not identify Hogwarts as an example or date the pattern.
+
+  - id: ext-b14-001
+    role: possible background on magical inheritance
+    supports: >-
+      Magical ability may run in families or appear in a family without known
+      magical forebears.
+    confidence: medium
+    notes: >-
+      Authority-D, undated author commentary classified unknown_or_uncertain. It
+      does not establish a founder-era population or educational consequence.
+
+  - id: ext-b14-002
+    role: possible background on childhood magic
+    supports: >-
+      Magical ability generally manifests before age eleven, with rare later
+      manifestation.
+    confidence: medium
+    notes: >-
+      Authority-D, undated author commentary classified unknown_or_uncertain. It
+      is not an institutional record and cannot define a historical admission age.
+
+  - id: ext-a17-002
+    role: post-cutoff claim about a pre-school artefact
+    supports: >-
+      An official retrospective article describes the Hogwarts Pensieve as a
+      runic stone artefact older than the school.
+    confidence: high
+    notes: >-
+      The claim would materially expand pre-Hogwarts craft history, but the
+      article postdates the 1984 narrator and supplies neither an archaeological
+      method nor evidence that this dating was then available. Do not use in the
+      revision's narrative.
+
+  - id: fb-ch05-003
+    role: undated old creature-lore candidate
+    supports: >-
+      The first recorded Basilisk breeder is identified as the Greek Dark wizard
+      and Parselmouth Herpo the Foul.
+    confidence: high
+    notes: >-
+      The canonical record supplies no date for Herpo. Its generated placement
+      label calls the tradition ancient, but that label cannot substitute for
+      dated source evidence. Do not position the episode before Hogwarts.
+
+  - id: ext-a21-002
+    role: later Hogwarts potion-material practice
+    supports: >-
+      A retrospective account says pupils brought live toads for potion work and
+      charms “centuries ago.”
+    confidence: high
+    notes: >-
+      The relative date is both imprecise and attached to an established Hogwarts
+      practice. It does not place potion-making before the foundation.
+
+  - id: fb-ch06-006
+    role: undated potion-material evidence
+    supports: >-
+      Erumpent horn, tail, and Exploding Fluid are controlled materials used in
+      potions.
+    confidence: high
+    notes: >-
+      The record demonstrates a creature–potion material link but gives no origin
+      or historical date and cannot support pre-Hogwarts potion-making.
+
+  - id: cos-ch14-001
+    role: later plant-and-healing evidence
+    supports: >-
+      Mature Mandrakes grown at Hogwarts were intended to revive petrified people.
+    confidence: high
+    notes: >-
+      This is Harry-era evidence for a plant–medicine relationship, not its age or
+      pre-foundation existence.
+
+  - id: cos-ch16-002
+    role: later plant-and-healing confirmation
+    supports: >-
+      The Hogwarts-grown Mandrakes reached cutting maturity and were used for the
+      planned revival of petrified victims.
+    confidence: high
+    notes: >-
+      Corroborates cos-ch14-001 but adds no historical origin for the remedy.
+
+  - id: fb-ch07-006
+    role: undated natural healing property
+    supports: >-
+      Phoenix tears possess healing properties.
+    confidence: high
+    notes: >-
+      Species knowledge is well supported, but the record does not establish when
+      witches and wizards discovered or used the property.
+
+  - id: qtta-ch02-001
+    role: undated early recreation and broom development
+    supports: >-
+      Organised broom games followed improvements in turning, speed, and height.
+    confidence: high
+    notes: >-
+      The sequence is useful for later broom history but does not independently
+      date a practice before Hogwarts.
+
+excluded:
+  - id: dh-ch11-004
+    reason: >-
+      Post-cutoff wartime compulsory-attendance change; its contrast with earlier
+      home education concerns modern policy, not pre-foundation conditions.
+
+  - id: gof-ch09-002
+    reason: >-
+      Later editorial note about Beauxbatons and a Harry-era source title; no
+      evidence for conditions before Hogwarts.
+
+  - id: gof-ch11-004
+    reason: >-
+      Later editorial note about Durmstrang, Beauxbatons, and Harry-era school
+      comparison; partly second-hand and outside the 1984 narrative.
+
+  - id: ext-b10-001
+    reason: >-
+      Authority-D founder claim about house-elf labour, a subject the edition
+      bible requires the reconstructed book to omit; also primarily founder
+      biography rather than Chapter 1 context.
+
+  - id: fb-ch02-005
+    reason: >-
+      Classified later_editorial_note and names A History of Magic rather than
+      establishing a Chapter 1 historical claim.
+
+  - id: beedle-ch01-001
+    reason: >-
+      Fifteenth-century persecution postdates Hogwarts's foundation and cannot be
+      used as a cause or direct description of the founder era.
+
+  - id: poa-ch01-001
+    reason: >-
+      General medieval witch-burning material used in later Hogwarts coursework;
+      it does not describe pre-foundation education or securely date the founding.
+
+  - id: poa-ch04-002
+    reason: >-
+      Duplicates the later medieval-witch-burning topic and concerns informal help
+      with Harry-era homework, not early education.
+
+  - id: beedle-ch05-001
+    reason: >-
+      A personal anecdote from Dumbledore's much later childhood; it adds no
+      distinct Chapter 1 claim beyond the selected childhood-learning evidence.
+
+  - id: ext-b13-001
+    reason: >-
+      Weak, out-of-universe authorial commentary about boarding-school appeal;
+      classified later_editorial_note and inadmissible as in-universe history.
+
+cross_chapter:
+  - id: qtta-ch03-001
+    primary_destination: 14 — Quidditch at Hogwarts
+    chapter_1_use: >-
+      None; an eleventh-century diary is excellent evidence for early medieval
+      broom recreation but probably postdates Hogwarts's emergence and belongs in
+      the dedicated Quidditch history.
+
+  - id: ext-b23-002
+    primary_destination: 15 — Hogwarts and the Wider Wizarding World
+    chapter_1_use: None; later, low-authority confirmation that other schools exist.
+
+  - id: ext-b19-001
+    primary_destination: 15 — Hogwarts and the Wider Wizarding World
+    chapter_1_use: None; later, low-authority statement of the Britain-and-Ireland catchment.
+
+  - id: ext-b26-001
+    primary_destination: 10 — The Life of a Pupil
+    chapter_1_use: None; a low-authority twentieth-century admission episode.
+
+  - id: dh-ch33-003
+    primary_destination: 10 — The Life of a Pupil
+    chapter_1_use: None; pre-1984 but modern evidence about letters, Muggle-born explanation, and underage magic.
+
+  - id: gof-ch12-002
+    primary_destination: 3 — The Founding of Hogwarts
+    chapter_1_use: >-
+      Corroborates that the four founders began the school, but its House system
+      and Hat details are deferred. It overlaps cos-ch09-003 rather than counting
+      as an independent founding event.
+
+  - id: ootp-ch11-003
+    primary_destination: 5 — The Departure of Salazar Slytherin
+    chapter_1_use: >-
+      None beyond noting internally that a later chapter owns the traditional
+      account of founder unity, conflict, and departure.
+
+  - id: ext-a02-001
+    primary_destination: 4 — The Four Houses
+    chapter_1_use: >-
+      None; explicitly legendary Sorting Hat origin, duplicating the central
+      founding-enchantment claim in gof-ch12-002.
+
+  - id: ext-a03-001
+    primary_destination: 3 — The Founding of Hogwarts
+    chapter_1_use: >-
+      None; founder-installed admission instruments belong after the castle's
+      completion and therefore beyond Chapter 1's stopping point.
+
+  - id: ext-a03-003
+    primary_destination: 9 — A Hogwarts Education
+    chapter_1_use: None; describes the established school's child-identification mechanism.
+
+  - id: ext-a17-003
+    primary_destination: 3 — The Founding of Hogwarts
+    chapter_1_use: >-
+      None; the source itself calls the Pensieve site story unsubstantiated legend.
+
+  - id: ext-b09-003
+    primary_destination: 2 — The Four Founders
+    chapter_1_use: None; lower-authority founder-relic material already duplicated by stronger evidence.
+
+  - id: ps-ch04-006
+    primary_destination: 9 — A Hogwarts Education
+    chapter_1_use: None; Harry-era confirmation of seven-year schooling and registration language.
+
+  - id: ext-b04-003
+    primary_destination: 10 — The Life of a Pupil
+    chapter_1_use: None; later Authority-D confirmation of Muggle-family admission contact.
+
+  - id: hbp-ch13-003
+    primary_destination: 10 — The Life of a Pupil
+    chapter_1_use: None; a twentieth-century orphanage admission episode, not early institutional history.
+
+  - id: ext-a30-001
+    primary_destination: 15 — Hogwarts and the Wider Wizarding World
+    chapter_1_use: None; seventeenth-century adaptation of the Hogwarts House model.
+
+  - id: ext-a07-005
+    primary_destination: 2 — The Four Founders
+    chapter_1_use: None; founder commemoration and House material culture are outside Chapter 1.

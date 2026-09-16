@@ -1,5 +1,6 @@
 import hashlib
 import io
+import shutil
 import unittest
 from contextlib import redirect_stderr
 from pathlib import Path
@@ -10,6 +11,8 @@ from unittest.mock import patch
 
 import numpy as np
 import yaml
+
+import authoring.audio.scripts.narrate as narrate
 
 from authoring.audio.scripts.narrate import (
     BlockKind,
@@ -565,3 +568,219 @@ class AuditionTests(unittest.TestCase):
                     )
                 self.assertFalse(self.manifest.exists())
                 self.assertEqual(list(self.output_dir.glob("*.wav")) if self.output_dir.exists() else [], [])
+
+
+class GeorgeCalibrationTests(unittest.TestCase):
+    def setUp(self):
+        self.temporary_directory = TemporaryDirectory()
+        self.temp_dir = Path(self.temporary_directory.name)
+        self.fixture = self.temp_dir / "george-calibration-excerpt.txt"
+        self.fixture.write_text(
+            "First literary sentence; it has two clauses.\n\n"
+            "The secure outline is spare.",
+            encoding="utf-8",
+        )
+        self.pronunciations = self.temp_dir / "pronunciations.yaml"
+        self.pronunciations.write_text(
+            "version: 1\nsubstitutions: []\n", encoding="utf-8"
+        )
+        self.output_dir = self.temp_dir / "samples"
+        self.manifest = self.output_dir / "george-calibration-manifest.yaml"
+        self.settings = {
+            "engine": "kokoro",
+            "model": "mlx-community/Kokoro-82M-bf16",
+            "language": "british-english",
+            "lang_code": "b",
+            "voice": None,
+            "speed": None,
+            "chunking": {"max_words": 160},
+            "pauses": {
+                "opening_ms": 120,
+                "continuation_ms": 80,
+                "paragraph_ms": 400,
+                "section_ms": 1000,
+                "chapter_ms": 1750,
+                "closing_ms": 180,
+            },
+            "output": {"intermediate": "wav", "listening_copy": "mp3"},
+        }
+
+    def tearDown(self):
+        self.temporary_directory.cleanup()
+
+    @staticmethod
+    def _evidence():
+        return RuntimeEvidence(
+            "Device(gpu, 0)", True, {"active_memory": 1}, "mlx.core.array"
+        )
+
+    @staticmethod
+    def _fake_normalizer(wav_path, mp3_path, sample_rate, ffmpeg):
+        mp3_path.write_bytes(b"normalised listening copy")
+        return {
+            "settings": {
+                "integrated_lufs": -19.0,
+                "true_peak_dbtp": -1.0,
+                "loudness_range_lu": 7.0,
+                "channels": 1,
+                "sample_rate": sample_rate,
+                "codec": "libmp3lame",
+                "bitrate": "128k",
+            },
+            "commands": {
+                "analysis": [ffmpeg, "analysis", str(wav_path)],
+                "normalise": [ffmpeg, "normalise", str(mp3_path)],
+                "measurement": [ffmpeg, "measurement", str(mp3_path)],
+            },
+            "measured_output": {
+                "integrated_lufs": -19.0,
+                "true_peak_dbtp": -1.1,
+                "loudness_range_lu": 0.0,
+            },
+        }
+
+    def test_calibration_reuses_one_model_and_records_exact_variants(self):
+        loads = 0
+        model = FakeKokoroModel(sample_rate=24000)
+
+        def loader(model_id):
+            nonlocal loads
+            self.assertEqual(model_id, "mlx-community/Kokoro-82M-bf16")
+            loads += 1
+            return model
+
+        runner = getattr(narrate, "run_george_calibration", None)
+        self.assertTrue(callable(runner), "calibration runner is missing")
+        records = runner(
+            fixture_path=self.fixture,
+            settings=self.settings,
+            pronunciation_path=self.pronunciations,
+            output_dir=self.output_dir,
+            manifest_path=self.manifest,
+            ffmpeg="/opt/homebrew/bin/ffmpeg",
+            model_loader=loader,
+            evidence_provider=self._evidence,
+            listening_copy_encoder=self._fake_normalizer,
+        )
+
+        self.assertEqual(loads, 1)
+        self.assertEqual([record["variant"] for record in records], ["A", "B", "C"])
+        self.assertEqual([record["speed"] for record in records], [0.96, 0.98, 0.96])
+        self.assertEqual(
+            [record["paragraph_pause_ms"] for record in records], [400, 400, 275]
+        )
+        self.assertEqual(
+            [Path(record["wav_path"]).name for record in records],
+            [
+                "bm-george-calibration-a-096.wav",
+                "bm-george-calibration-b-098.wav",
+                "bm-george-calibration-c-096-shorter-pauses.wav",
+            ],
+        )
+        self.assertEqual(
+            [Path(record["mp3_path"]).name for record in records],
+            [
+                "bm-george-calibration-a-096.mp3",
+                "bm-george-calibration-b-098.mp3",
+                "bm-george-calibration-c-096-shorter-pauses.mp3",
+            ],
+        )
+        fixture_hash = hashlib.sha256(self.fixture.read_bytes()).hexdigest()
+        self.assertEqual({record["fixture_sha256"] for record in records}, {fixture_hash})
+        self.assertEqual({record["voice"] for record in records}, {"bm_george"})
+        self.assertEqual({record["lang_code"] for record in records}, {"b"})
+        self.assertTrue(all(record["raw_wav_unnormalised"] for record in records))
+        self.assertTrue(all(Path(record["wav_path"]).is_file() for record in records))
+        self.assertTrue(all(Path(record["mp3_path"]).is_file() for record in records))
+        self.assertTrue(
+            all(
+                record["wav_sha256"]
+                == hashlib.sha256(Path(record["wav_path"]).read_bytes()).hexdigest()
+                for record in records
+            )
+        )
+        manifest = yaml.safe_load(self.manifest.read_text(encoding="utf-8"))
+        self.assertEqual(manifest["model_load_count"], 1)
+        self.assertEqual(manifest["human_selection"], "pending")
+        self.assertEqual(manifest["variants"], records)
+        self.assertEqual(len(model.requests), 4)
+        self.assertEqual(
+            [request[2] for request in model.requests],
+            [0.96, 0.96, 0.98, 0.98],
+        )
+
+    def test_parser_exposes_the_fixed_george_calibration_workflow(self):
+        args = narrate.build_parser().parse_args(["george-calibration"])
+
+        self.assertEqual(args.command, "george-calibration")
+        self.assertEqual(
+            args.fixture,
+            narrate.DEFAULT_AUDIO_ROOT
+            / "fixtures/george-calibration-excerpt.txt",
+        )
+        self.assertEqual(args.output_dir, narrate.DEFAULT_AUDIO_ROOT / "samples")
+        self.assertEqual(
+            args.manifest,
+            narrate.DEFAULT_AUDIO_ROOT
+            / "samples/george-calibration-manifest.yaml",
+        )
+        self.assertEqual(args.ffmpeg, "ffmpeg")
+
+    def test_calibration_detects_a_listening_encoder_that_alters_the_raw_wav(self):
+        def destructive_encoder(wav_path, mp3_path, sample_rate, ffmpeg):
+            wav_path.write_bytes(b"changed")
+            mp3_path.write_bytes(b"copy")
+            return self._fake_normalizer(wav_path, mp3_path, sample_rate, ffmpeg)
+
+        runner = getattr(narrate, "run_george_calibration", None)
+        self.assertTrue(callable(runner), "calibration runner is missing")
+        with self.assertRaisesRegex(RuntimeError, "raw WAV"):
+            runner(
+                fixture_path=self.fixture,
+                settings=self.settings,
+                pronunciation_path=self.pronunciations,
+                output_dir=self.output_dir,
+                manifest_path=self.manifest,
+                ffmpeg="ffmpeg",
+                model_loader=lambda _model_id: FakeKokoroModel(sample_rate=24000),
+                evidence_provider=self._evidence,
+                listening_copy_encoder=destructive_encoder,
+            )
+
+    def test_spoken_word_normalisation_creates_a_measured_mono_mp3(self):
+        ffmpeg = shutil.which("ffmpeg")
+        if ffmpeg is None:
+            self.skipTest("ffmpeg is required for loudness-normalisation integration")
+        sample_rate = 24000
+        seconds = np.arange(sample_rate * 2, dtype=np.float32) / sample_rate
+        wav_path = self.temp_dir / "tone.wav"
+        mp3_path = self.temp_dir / "tone.mp3"
+        write_pcm16_wav(
+            wav_path,
+            0.08 * np.sin(2 * np.pi * 220 * seconds),
+            sample_rate,
+        )
+
+        normalizer = getattr(narrate, "normalize_spoken_word_mp3", None)
+        self.assertTrue(callable(normalizer), "spoken-word normalizer is missing")
+        evidence = normalizer(wav_path, mp3_path, sample_rate, ffmpeg)
+
+        self.assertTrue(mp3_path.is_file())
+        self.assertGreater(mp3_path.stat().st_size, 0)
+        self.assertEqual(
+            evidence["settings"],
+            {
+                "integrated_lufs": -19.0,
+                "true_peak_dbtp": -1.0,
+                "loudness_range_lu": 7.0,
+                "channels": 1,
+                "sample_rate": 24000,
+                "codec": "libmp3lame",
+                "bitrate": "128k",
+            },
+        )
+        self.assertAlmostEqual(
+            evidence["measured_output"]["integrated_lufs"], -19.0, delta=0.6
+        )
+        self.assertLessEqual(evidence["measured_output"]["true_peak_dbtp"], -1.0)
+        self.assertEqual(set(evidence["commands"]), {"analysis", "normalise", "measurement"})

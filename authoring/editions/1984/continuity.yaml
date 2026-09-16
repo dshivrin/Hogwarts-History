@@ -1,0 +1,22 @@
+purpose: >-
+  Track manuscript-level facts and editorial decisions that later chapters must
+  not contradict, adding records only as claims are accepted into the manuscript.
+schema:
+  id: stable authoring-layer continuity identifier
+  statement: accepted manuscript-level fact or editorial decision
+  scope: chapters or subjects governed by the record
+  confidence: high, medium, or low
+  evidence_ids: list of canonical research evidence IDs
+  established_in_chapter: stable chapter number or null
+  implications: constraints for later chapters
+  notes: qualifications, disputes, or revision history
+example:
+  id: continuity-example
+  statement: Example only; not an accepted continuity fact
+  scope: []
+  confidence: low
+  evidence_ids: []
+  established_in_chapter: null
+  implications: []
+  notes: Remove the example label only when creating a real accepted record.
+records: []

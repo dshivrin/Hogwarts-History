@@ -1,0 +1,226 @@
+source_unit:
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Four - Back to the Burrow
+  chapter_start_pdf_page: 979
+  chapter_end_pdf_page: 988
+  boundary_confidence: high
+  boundary_notes: Chapter Four range came from project-control/processing-state.yaml and project-control/next-run.md. Book 4 Chapter Four starts on PDF page 979 and Chapter Five starts on PDF page 989, so only PDF pages 979-988 were extracted and searched.
+  processed_date: '2026-06-21'
+  processor_notes: "Processed only Book 4, Chapter Four. Text was extracted locally with pypdf into .tmp/current-chapter.txt and searched with rg. No explicit Hogwarts: A History reference was found. Quote excerpts were kept under 25 words per entry."
+
+entries:
+- id: gof-ch04-001
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Four - Back to the Burrow
+  chapter_start_pdf_page: 979
+  chapter_end_pdf_page: 988
+  pdf_page: 979
+  printed_page: not available
+  extracted_text_lines: PDF page 979, lines 6-14
+  text_anchor:
+    start_phrase: Harry's school trunk was packed
+    end_phrase: remaining until his return to Hogwarts
+    local_occurrence_note: Opening paragraph after the chapter title, before the Dursleys discuss the Weasleys' arrival.
+  nearby_context: Harry packs his school trunk with school things, the Invisibility Cloak, Sirius's broomstick, the enchanted map of Hogwarts, spellbooks, and quills, then removes a countdown chart for September first.
+  match_terms:
+  - school trunk
+  - school things
+  - spellbooks
+  - quills
+  - September the first
+  - return to Hogwarts
+  quote_excerpt_short: "Harry's school trunk was packed"
+  source_note: The chapter again shows a student keeping school materials at a Muggle home during summer and preparing those materials for the September first return to Hogwarts.
+  reference_type: curriculum_or_subject
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - school-materials
+  - student-trunks
+  - spellbooks
+  - quills
+  - summer-holidays
+  - term-boundaries
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Homework and Independent Study
+  candidate_section: Holiday Storage of School Materials
+  reason_for_placement: The passage gives compact practical evidence for what a returning student keeps and packs away from school before the new term.
+  relevance_to_hogwarts_a_history: This can support later notes on student materials, holiday study conditions, and the annual September first return rhythm.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch03-005
+    notes: Book 2 Chapter Three records holiday storage of trunks, spellbooks, wands, and broomsticks; this entry corroborates the pattern and adds quills plus a September first return countdown.
+  confidence: high
+  limitations: The passage describes Harry's individual packing and does not state a formal Hogwarts packing list.
+- id: gof-ch04-002
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Four - Back to the Burrow
+  chapter_start_pdf_page: 979
+  chapter_end_pdf_page: 988
+  pdf_page: 979
+  printed_page: not available
+  extracted_text_lines: PDF page 979, lines 7-10
+  text_anchor:
+    start_phrase: all his most prized possessions
+    end_phrase: given by Fred and George Weasley last year
+    local_occurrence_note: Part of the opening packing list, immediately after the school trunk is introduced.
+  nearby_context: Harry's trunk contains the Invisibility Cloak from his father, the broomstick from Sirius, and the enchanted map of Hogwarts from Fred and George.
+  match_terms:
+  - Invisibility Cloak
+  - broomstick
+  - Sirius
+  - enchanted map of Hogwarts
+  - Fred and George Weasley
+  quote_excerpt_short: "the enchanted map of Hogwarts"
+  source_note: The chapter gives a compact recap of three major magical student possessions, including the Marauder's Map identified as an enchanted map of Hogwarts.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - marauders-map
+  - invisibility-cloak
+  - broomstick
+  - magical-objects
+  - student-possessions
+  - castle-information
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Castle Navigation, Maps, and Concealed Routes
+  candidate_section: The Marauder's Map
+  reason_for_placement: The passage is a later recap rather than new origin evidence, but it preserves the map's functional identity as an enchanted map of Hogwarts kept among a student's prized possessions.
+  relevance_to_hogwarts_a_history: This can cross-reference later editorial coverage of castle mapping, concealed route knowledge, and student-held magical artifacts.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: poa-ch14-007
+    notes: Book 3 Chapter Fourteen gives stronger provenance and security context for the Marauder's Map; this entry is a later recap that confirms Harry still keeps it.
+  confidence: medium
+  limitations: The passage does not add new details about the map's makers, routes, or enchantment beyond identifying it as an enchanted map of Hogwarts.
+- id: gof-ch04-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Four - Back to the Burrow
+  chapter_start_pdf_page: 979
+  chapter_end_pdf_page: 988
+  pdf_page: 980
+  printed_page: not available
+  extracted_text_lines: PDF page 980, lines 48-56
+  text_anchor:
+    start_phrase: How were the Weasleys going to pick him up
+    end_phrase: possibly he would do the same today
+    local_occurrence_note: Lunch-table speculation after Vernon asks whether the Weasleys will be driving.
+  nearby_context: Harry recalls that the Weasleys' old Ford Anglia is now running wild in the Forbidden Forest at Hogwarts and that Arthur previously borrowed a Ministry of Magic car.
+  match_terms:
+  - Ford Anglia
+  - Forbidden Forest
+  - Hogwarts
+  - Ministry of Magic car
+  - pick him up
+  quote_excerpt_short: "running wild in the Forbidden Forest at Hogwarts"
+  source_note: The chapter confirms the enchanted Ford Anglia remains loose in the Forbidden Forest at Hogwarts after the previous year's crash, while also recalling Ministry vehicle support for student pickup.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - forbidden-forest
+  - flying-car
+  - hogwarts-grounds
+  - ministry-of-magic
+  - student-travel
+  - summer-holidays
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Post-1984 Incidents and Confirmations
+  candidate_section: Enchanted Vehicles on Hogwarts Grounds
+  reason_for_placement: The passage is a Harry-era recap that confirms an enchanted Muggle vehicle became an ongoing Hogwarts grounds anomaly.
+  relevance_to_hogwarts_a_history: This can support later editorial context for post-1984 enchanted-object incidents on school grounds and the overlap between school travel and Ministry resources.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch05-002
+    notes: Book 2 Chapter Five records the flying-car approach to Hogwarts and grounds geography; this entry corroborates the aftermath by placing the Ford Anglia in the Forbidden Forest.
+  confidence: medium
+  limitations: The evidence is retrospective and does not describe current school response to the car's presence in the Forest.
+- id: gof-ch04-004
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Four - Back to the Burrow
+  chapter_start_pdf_page: 979
+  chapter_end_pdf_page: 988
+  pdf_page: 984
+  printed_page: not available
+  extracted_text_lines: PDF page 982, lines 117-124; PDF page 984, lines 162-169; PDF page 986, lines 230-250
+  text_anchor:
+    start_phrase: tried to get here by Floo powder
+    end_phrase: rush of emerald-green flames
+    local_occurrence_note: The Weasleys are trapped behind the blocked fireplace, Arthur explains the temporary network connection, and the travelers depart by naming the Burrow.
+  nearby_context: Harry explains fire travel by Floo powder; Arthur says he had the Dursleys' fireplace connected to the Floo Network for one afternoon through a contact at the Floo Regulation Panel; the return trip uses powder, green flames, and the spoken destination.
+  match_terms:
+  - Floo powder
+  - Floo Network
+  - Muggle fireplaces
+  - Floo Regulation Panel
+  - Disapparate
+  - the Burrow
+  quote_excerpt_short: "connected to the Floo Network"
+  source_note: The chapter gives concrete evidence for regulated Floo Network access, including temporary connection of a Muggle fireplace, a Floo Regulation Panel contact, green-flame powder use, named destinations, and post-use repair.
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  topic_tags:
+  - floo-network
+  - floo-powder
+  - floo-regulation-panel
+  - muggle-fireplaces
+  - magical-transport
+  - student-travel
+  - statute-of-secrecy
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Wizarding Transport and Secrecy
+  candidate_section: Floo Network Regulation and Muggle Fireplaces
+  reason_for_placement: The passage links a transport system to regulatory approval and secrecy-sensitive interaction with a Muggle home during a student holiday pickup.
+  relevance_to_hogwarts_a_history: This is useful later editorial context for how Hogwarts students can be moved outside term and how wider wizarding transport rules intersect with Muggle guardians.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Targeted searches found prior school-travel and Ministry-law entries, but no existing seed focused on Floo Network regulation or Muggle fireplace connection.
+  confidence: high
+  limitations: The passage reflects Arthur Weasley's informal contact and may not represent standard lawful procedure.
+- id: gof-ch04-005
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Goblet of Fire
+  chapter: Chapter Four - Back to the Burrow
+  chapter_start_pdf_page: 979
+  chapter_end_pdf_page: 988
+  pdf_page: 987
+  printed_page: not available
+  extracted_text_lines: PDF page 986, lines 238-243; PDF page 987, lines 272-288
+  text_anchor:
+    start_phrase: A bag of sweets had spilled
+    end_phrase: only an Engorgement Charm
+    local_occurrence_note: Fred drops the sweets before leaving by Floo, and Dudley's tongue later swells after he eats one.
+  nearby_context: Fred's brightly wrapped toffees spill onto the floor; after the Weasleys begin leaving, Dudley eats one and Arthur identifies the effect as probably an Engorgement Charm that he can correct.
+  match_terms:
+  - toffees
+  - Fred
+  - practical joker
+  - Engorgement Charm
+  - Dudley
+  - Muggle household
+  quote_excerpt_short: "only an Engorgement Charm"
+  source_note: The chapter shows student-made joke sweets using an Engorgement Charm in a Muggle household, foreshadowing later Weasley joke-product development and raising outside-school magic and secrecy concerns.
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  topic_tags:
+  - engorgement-charm
+  - practical-jokes
+  - fred-and-george
+  - joke-sweets
+  - underage-magic
+  - muggle-secrecy
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Student Inventions and Magical Misconduct
+  candidate_section: Weasley Joke Sweets and Engorgement Charms
+  reason_for_placement: The passage is not a formal curriculum scene, but it documents student experimental magic with direct consequences for a Muggle.
+  relevance_to_hogwarts_a_history: This can support later editorial notes on student ingenuity, prank magic, and the disciplinary boundary between school learning and holiday misuse.
+  duplicate_check:
+    possible_duplicate: true
+    duplicate_of: cos-ch02-005
+    notes: Book 2 Chapter Two gives the official underage-magic and secrecy-law warning; this entry adds a later Muggle-household incident involving a student-made Engorgement Charm product.
+  confidence: medium
+  limitations: The chapter does not state when or where the charm was performed, nor whether any Ministry or Hogwarts discipline followed.

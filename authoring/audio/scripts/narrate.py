@@ -3,6 +3,7 @@ from dataclasses import asdict, dataclass
 from enum import Enum
 import hashlib
 from importlib import metadata
+import json
 from pathlib import Path
 import re
 import subprocess
@@ -266,6 +267,125 @@ def encode_listening_copy(
         [ffmpeg, "-y", "-v", "error", "-i", str(wav_path), str(output_path)],
         check=True,
     )
+
+
+def _loudnorm_measurement(output: str) -> dict[str, object]:
+    for candidate in reversed(re.findall(r"\{[^{}]+\}", output, flags=re.DOTALL)):
+        try:
+            measurement = json.loads(candidate)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(measurement, dict) and "input_i" in measurement:
+            return measurement
+    raise ValueError("ffmpeg loudnorm output did not contain a measurement")
+
+
+def _run_loudnorm_command(command: list[str]) -> dict[str, object]:
+    result = subprocess.run(command, check=True, capture_output=True, text=True)
+    return _loudnorm_measurement(result.stderr)
+
+
+def normalize_spoken_word_mp3(
+    wav_path: Path,
+    output_path: Path,
+    sample_rate: int,
+    ffmpeg: str = "ffmpeg",
+) -> dict[str, object]:
+    """Create and measure a two-pass, mono spoken-word listening copy."""
+    target_i = -19.0
+    target_tp = -1.0
+    target_lra = 7.0
+    base_filter = f"loudnorm=I={target_i}:TP={target_tp}:LRA={target_lra}"
+    analysis_command = [
+        ffmpeg,
+        "-hide_banner",
+        "-nostats",
+        "-i",
+        str(wav_path),
+        "-af",
+        f"{base_filter}:print_format=json",
+        "-f",
+        "null",
+        "-",
+    ]
+    analysis = _run_loudnorm_command(analysis_command)
+    normalise_filter = (
+        f"{base_filter}:measured_I={analysis['input_i']}"
+        f":measured_TP={analysis['input_tp']}"
+        f":measured_LRA={analysis['input_lra']}"
+        f":measured_thresh={analysis['input_thresh']}"
+        f":offset={analysis['target_offset']}:linear=true:print_format=json"
+    )
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    normalise_command = [
+        ffmpeg,
+        "-y",
+        "-hide_banner",
+        "-nostats",
+        "-i",
+        str(wav_path),
+        "-af",
+        normalise_filter,
+        "-ac",
+        "1",
+        "-ar",
+        str(sample_rate),
+        "-codec:a",
+        "libmp3lame",
+        "-b:a",
+        "128k",
+        str(output_path),
+    ]
+    normalised = _run_loudnorm_command(normalise_command)
+    measurement_command = [
+        ffmpeg,
+        "-hide_banner",
+        "-nostats",
+        "-i",
+        str(output_path),
+        "-af",
+        f"{base_filter}:print_format=json",
+        "-f",
+        "null",
+        "-",
+    ]
+    measured_output = _run_loudnorm_command(measurement_command)
+    return {
+        "settings": {
+            "integrated_lufs": target_i,
+            "true_peak_dbtp": target_tp,
+            "loudness_range_lu": target_lra,
+            "channels": 1,
+            "sample_rate": sample_rate,
+            "codec": "libmp3lame",
+            "bitrate": "128k",
+        },
+        "commands": {
+            "analysis": analysis_command,
+            "normalise": normalise_command,
+            "measurement": measurement_command,
+        },
+        "measured_input": {
+            "integrated_lufs": float(analysis["input_i"]),
+            "true_peak_dbtp": float(analysis["input_tp"]),
+            "loudness_range_lu": float(analysis["input_lra"]),
+            "threshold_lufs": float(analysis["input_thresh"]),
+        },
+        "normalisation_output": {
+            "integrated_lufs": float(normalised["output_i"]),
+            "true_peak_dbtp": float(normalised["output_tp"]),
+            "loudness_range_lu": float(normalised["output_lra"]),
+            "threshold_lufs": float(normalised["output_thresh"]),
+            "normalisation_type": normalised.get("normalization_type"),
+            "target_offset_lu": float(normalised["target_offset"]),
+        },
+        "measured_output": {
+            "integrated_lufs": float(measured_output["input_i"]),
+            "true_peak_dbtp": float(measured_output["input_tp"]),
+            "loudness_range_lu": float(measured_output["input_lra"]),
+            "threshold_lufs": float(measured_output["input_thresh"]),
+        },
+    }
 
 
 def strip_front_matter(text: str) -> str:
@@ -653,6 +773,140 @@ def run_audition(
     return records
 
 
+def run_george_calibration(
+    fixture_path: Path,
+    settings: Mapping[str, object],
+    pronunciation_path: Path,
+    output_dir: Path,
+    manifest_path: Path,
+    ffmpeg: str = "ffmpeg",
+    model_loader: Callable[[str], object] | None = None,
+    evidence_provider: Callable[[], RuntimeEvidence] | None = None,
+    listening_copy_encoder: Callable[
+        [Path, Path, int, str], dict[str, object]
+    ] = normalize_spoken_word_mp3,
+) -> list[dict[str, object]]:
+    validate_settings(settings)
+    fixture_path = fixture_path.resolve()
+    fixture_bytes = fixture_path.read_bytes()
+    fixture_hash = hashlib.sha256(fixture_bytes).hexdigest()
+    pronunciations = load_pronunciations(pronunciation_path)
+    blocks = [
+        SpeechBlock(BlockKind.PARAGRAPH, paragraph)
+        for paragraph in fixture_bytes.decode("utf-8").split("\n\n")
+        if paragraph.strip()
+    ]
+    prepared = [
+        SpeechBlock(block.kind, apply_pronunciations(block.text, pronunciations))
+        for block in blocks
+    ]
+    chunks = chunk_blocks(prepared, settings["chunking"]["max_words"])  # type: ignore[index]
+
+    configured_pauses = settings["pauses"]
+    current_paragraph_pause = configured_pauses["paragraph_ms"]  # type: ignore[index]
+    if type(current_paragraph_pause) is not int or current_paragraph_pause < 125:
+        raise ValueError("pauses.paragraph_ms must be at least 125 for calibration")
+    variants = (
+        ("A", 0.96, current_paragraph_pause, "bm-george-calibration-a-096"),
+        ("B", 0.98, current_paragraph_pause, "bm-george-calibration-b-098"),
+        (
+            "C",
+            0.96,
+            current_paragraph_pause - 125,
+            "bm-george-calibration-c-096-shorter-pauses",
+        ),
+    )
+
+    model_id = str(settings["model"])
+    model = (model_loader or _default_model_loader)(model_id)
+    revision = resolve_model_revision(model, model_id)
+    rendered_by_speed: dict[float, tuple[list[RenderedChunk], int]] = {}
+    source_array_types: set[str] = set()
+    for speed in (0.96, 0.98):
+        rendered, sample_rate, synthesis_evidence = synthesize_chunks(
+            model, chunks, "bm_george", speed, str(settings["lang_code"])
+        )
+        rendered_by_speed[speed] = (rendered, sample_rate)
+        source_array_types.update(synthesis_evidence["audio_array_type"].split(","))
+
+    source_array_type = ",".join(sorted(source_array_types))
+    runtime = (evidence_provider or collect_runtime_evidence)()
+    runtime = RuntimeEvidence(
+        runtime.device,
+        runtime.gpu_selected,
+        runtime.metal_telemetry,
+        source_array_type,
+    )
+    if not runtime.gpu_selected:
+        raise RuntimeError("MLX default device must select a GPU")
+    if not all(array_type.startswith("mlx.") for array_type in source_array_types):
+        raise RuntimeError("MLX-generated audio is required for a successful calibration")
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    records: list[dict[str, object]] = []
+    for variant, speed, paragraph_pause, basename in variants:
+        rendered, sample_rate = rendered_by_speed[speed]
+        pauses = dict(configured_pauses)  # type: ignore[arg-type]
+        pauses["paragraph_ms"] = paragraph_pause
+        wav_path = (output_dir / f"{basename}.wav").resolve()
+        mp3_path = (output_dir / f"{basename}.mp3").resolve()
+        write_pcm16_wav(
+            wav_path,
+            assemble_audio(rendered, sample_rate, pauses),
+            sample_rate,
+        )
+        wav_hash = hashlib.sha256(wav_path.read_bytes()).hexdigest()
+        audio = inspect_wav(wav_path)
+        loudness = listening_copy_encoder(wav_path, mp3_path, sample_rate, ffmpeg)
+        if hashlib.sha256(wav_path.read_bytes()).hexdigest() != wav_hash:
+            raise RuntimeError("Listening-copy processing altered the raw WAV")
+        records.append(
+            {
+                "variant": variant,
+                "fixture_path": _manifest_path(fixture_path),
+                "fixture_sha256": fixture_hash,
+                "model": model_id,
+                "model_revision": revision,
+                "voice": "bm_george",
+                "language": settings["language"],
+                "lang_code": settings["lang_code"],
+                "speed": speed,
+                "paragraph_pause_ms": paragraph_pause,
+                "wav_path": _manifest_path(wav_path),
+                "wav_sha256": wav_hash,
+                "mp3_path": _manifest_path(mp3_path),
+                "mp3_sha256": hashlib.sha256(mp3_path.read_bytes()).hexdigest(),
+                "duration_seconds": audio["duration_seconds"],
+                "sample_rate": audio["sample_rate"],
+                "audio": audio,
+                "raw_wav_unnormalised": True,
+                "loudness_normalisation": loudness,
+                "runtime_evidence": asdict(runtime),
+            }
+        )
+
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(
+        yaml.safe_dump(
+            {
+                "fixture_path": _manifest_path(fixture_path),
+                "fixture_sha256": fixture_hash,
+                "python_version": sys.version.split()[0],
+                "mlx_audio_version": _package_version("mlx-audio"),
+                "misaki_version": _package_version("misaki"),
+                "model": model_id,
+                "model_revision": revision,
+                "model_load_count": 1,
+                "human_selection": "pending",
+                "variants": records,
+            },
+            sort_keys=False,
+        ),
+        encoding="utf-8",
+    )
+    return records
+
+
 def run_render(
     markdown_path: Path, output_path: Path, voice: str, speed: float,
     settings: Mapping[str, object], pronunciation_path: Path, listening_copy: Path | None = None,
@@ -698,6 +952,21 @@ def build_parser() -> argparse.ArgumentParser:
     audition.add_argument("--sample", type=_parse_sample, action="append", required=True)
     audition.add_argument("--output-dir", type=Path, default=DEFAULT_AUDIO_ROOT / "samples")
     audition.add_argument("--manifest", type=Path, default=DEFAULT_AUDIO_ROOT / "samples/audition-manifest.yaml")
+    calibration = commands.add_parser("george-calibration")
+    calibration.add_argument(
+        "--fixture",
+        type=Path,
+        default=DEFAULT_AUDIO_ROOT / "fixtures/george-calibration-excerpt.txt",
+    )
+    calibration.add_argument(
+        "--output-dir", type=Path, default=DEFAULT_AUDIO_ROOT / "samples"
+    )
+    calibration.add_argument(
+        "--manifest",
+        type=Path,
+        default=DEFAULT_AUDIO_ROOT / "samples/george-calibration-manifest.yaml",
+    )
+    calibration.add_argument("--ffmpeg", default="ffmpeg")
     render = commands.add_parser("render")
     render.add_argument("markdown", type=Path)
     render.add_argument("--output", type=Path, required=True)
@@ -716,6 +985,17 @@ def main(argv: Sequence[str] | None = None) -> int:
             records = run_audition(args.fixture, args.sample, settings, args.pronunciations, args.output_dir, args.manifest)
             for record in records:
                 print(f"{record['path']} ({record['audio']['duration_seconds']:.2f}s)")
+        elif args.command == "george-calibration":
+            records = run_george_calibration(
+                args.fixture,
+                settings,
+                args.pronunciations,
+                args.output_dir,
+                args.manifest,
+                args.ffmpeg,
+            )
+            for record in records:
+                print(f"{record['wav_path']} ({record['duration_seconds']:.2f}s)")
         else:
             output = run_render(args.markdown, args.output, args.voice, args.speed, settings, args.pronunciations, args.listening_copy)
             print(output)
