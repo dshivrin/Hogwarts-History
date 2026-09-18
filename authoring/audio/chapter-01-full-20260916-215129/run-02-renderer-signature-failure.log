@@ -1,0 +1,35 @@
+Starting Chapter One production render
+Source: /Users/dima/Documents/Hogwarts History/authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-04.md
+Output directory: /Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129
+Creating new KokoroPipeline for language: b
+/Users/dima/Documents/Hogwarts History/authoring/audio/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+usage: run_full_chapter.py [-h] [--settings SETTINGS]
+                           [--pronunciations PRONUNCIATIONS]
+                           {audition,george-calibration,render} ...
+run_full_chapter.py: error: write_pcm16_wav() missing 1 required positional argument: 'sample_rate'
+Traceback (most recent call last):
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/scripts/narrate.py", line 1000, in main
+    output = run_render(args.markdown, args.output, args.voice, args.speed, settings, args.pronunciations, args.listening_copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/scripts/narrate.py", line 922, in run_render
+    write_pcm16_wav(output_path, assemble_audio(rendered, sample_rate, settings["pauses"]))  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: write_pcm16_wav() missing 1 required positional argument: 'sample_rate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129/run_full_chapter.py", line 535, in main
+    report = render()
+             ^^^^^^^^
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129/run_full_chapter.py", line 285, in render
+    cli_exit = narrate.main(
+               ^^^^^^^^^^^^^
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/scripts/narrate.py", line 1003, in main
+    parser.error(str(error))
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13_4/Frameworks/Python.framework/Versions/3.12/lib/python3.12/argparse.py", line 2650, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13_4/Frameworks/Python.framework/Versions/3.12/lib/python3.12/argparse.py", line 2637, in exit
+    _sys.exit(status)
+SystemExit: 2

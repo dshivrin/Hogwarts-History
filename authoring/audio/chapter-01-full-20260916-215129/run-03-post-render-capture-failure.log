@@ -1,0 +1,14 @@
+Starting Chapter One production render
+Source: /Users/dima/Documents/Hogwarts History/authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-04.md
+Output directory: /Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129
+Creating new KokoroPipeline for language: b
+/Users/dima/Documents/Hogwarts History/authoring/audio/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129/chapter-01-full.wav
+Traceback (most recent call last):
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129/run_full_chapter.py", line 556, in main
+    report = render()
+             ^^^^^^^^
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129/run_full_chapter.py", line 331, in render
+    raise RuntimeError("Expected exactly one assembly pass")
+RuntimeError: Expected exactly one assembly pass

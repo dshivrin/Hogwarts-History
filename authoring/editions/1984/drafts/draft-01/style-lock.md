@@ -1,10 +1,37 @@
 # Draft 01 Style Lock
 
-Status: PROVISIONAL — TO BE CALIBRATED WITH CHAPTERS 1–3
+Status: PROVISIONAL DRAFT-01 BASELINE — TO BE CALIBRATED FURTHER WITH
+CHAPTERS 2–3
 
 This is the operational prose contract for Draft 01. It derives from the 1984
 edition bible, editorial policy, and style guide; it narrows those authorities
 into working rules without replacing them.
+
+Revision 02 of Chapter 1 establishes the first full Draft-01 voice baseline.
+The baseline remains provisional until Chapters 2 and 3 test it against
+founder biography and the foundation narrative.
+
+## Core baseline
+
+- **Audience:** Harry Potter readers interested in the history and lore of
+  Hogwarts. The manuscript itself remains an in-universe history for readers
+  already familiar with ordinary magical life.
+- **Voice:** An in-universe historian of Hogwarts and magical Britain.
+- **Register:** Intelligent, polished and readable British historical prose.
+- **Rule:** Scholarly in judgement, conversational in presentation.
+- **Evidence:** Rigorous underneath and minimally intrusive in the prose.
+- **Uncertainty:** State meaningful uncertainty once, beside the claim it
+  limits, and then continue the history.
+- **Synthesis:** Reasonable synthesis is allowed when evidence supports it and
+  no unsupported event, person, date or institution is introduced.
+- **Vocabulary:** Prefer concrete magical and historical language to academic
+  abstractions.
+- **Personality:** Dry intelligence is welcome; constant wit is not.
+- **Exposition:** Do not explain ordinary magical concepts unnecessarily.
+- **Narrative:** Show people, objects, practices and events before drawing the
+  larger conclusion.
+- **Structure:** Explain how things developed and why they mattered rather than
+  listing lore.
 
 ## Narrative identity
 
@@ -19,12 +46,16 @@ into working rules without replacing them.
 
 ## Register and tone
 
-- Use moderately formal British historical prose: clear, scholarly, readable,
+- Use polished British historical prose: clear, intelligent, conversational,
   and slightly old-fashioned where natural.
 - Prefer precise, quiet sentences to ornament. Never use pseudo-medieval
   diction, modern fandom or wiki language, melodrama, or fantasy-novel suspense.
 - Keep the tone serious and intelligent. Dry humour is welcome when restrained
   and historically observant, never as an end in itself.
+- Prefer roads, gardens, tools, rooms, makers and recorded acts to phrases such
+  as “historical permeability”, “institutional meaning”, “social mechanism” or
+  “material culture”. Use an abstract term only when it is clearer than the
+  concrete history.
 
 ## Historical method
 
@@ -36,6 +67,9 @@ into working rules without replacing them.
   encyclopedic itemisation, or repeated “Hogwarts has…” constructions.
 - Use anecdotes only when evidence supports them and they illuminate an
   institutional development.
+- Do not mistake a later school subject for the beginning of the practices it
+  organises. Knowledge may precede its classroom name, and skilled practice may
+  continue outside the school after the institution exists.
 
 ## Narrator confidence
 
@@ -44,6 +78,8 @@ into working rules without replacing them.
   tradition holds*, *later accounts claim*, *the precise date is uncertain*,
   and *no surviving evidence establishes*.
 - Vary the wording; these are epistemic categories, not recurring formulas.
+- Establish a recurring limit once. Repeat it only when the boundary changes or
+  when a later example might otherwise be mistaken for earlier evidence.
 - A generated summary, later observation, or poetic tradition may guide inquiry
   but may not acquire greater authority in prose than its underlying source.
 - Later evidence may establish persistence or supply a comparison; it does not

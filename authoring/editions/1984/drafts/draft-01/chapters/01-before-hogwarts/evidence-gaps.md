@@ -2,6 +2,11 @@
 
 ## Chronological gaps
 
+- The Hogwarts Pensieve is directly described as older than the school and as
+  bearing modified Saxon runes (`ext-a17-002`). This establishes runic
+  inscription as part of the craftsmanship of a pre-Hogwarts magical artefact,
+  but not that the runes themselves performed magic, nor a maker, date, rune
+  school, curriculum, or method of archaeological dating.
 - The precise founding date is unknown. The best direct account says only “over
   a thousand years ago” and expressly calls the date uncertain
   (`cos-ch09-003`; open question `founding-and-the-four-houses-003`).
@@ -30,6 +35,11 @@
 - The records do not establish whether most magical children received deliberate
   instruction before Hogwarts, learned only household practices, or received no
   systematic teaching.
+- No selected record directly establishes potion-making or domestic medicinal
+  plant practice in Britain before Hogwarts. Linfred of Stinchcombe provides
+  strong twelfth-century evidence for both kinds of work outside the school
+  (`ext-a38-001`, `ext-a38-002`), but he cannot be moved into the founders'
+  century.
 - Later home education, Muggle primary schooling, correspondence courses, and
   bedtime instruction (`ext-b04-001`, `ext-b02-002`, `ext-a28-001`,
   `beedle-fm-002`, `beedle-ch04-001`) do not establish what happened before the
@@ -48,20 +58,24 @@
 - It is unknown how children born outside established magical families were
   recognised or reached before the school created a recruitment system.
 
-## Revision 01 old-arts search
+## Revision 02 old-arts search
 
-- The expanded retrieval pass queried potions, antidotes, alchemy, magical
-  plants, Herbology, healing, wands, runes, spells, broom flight, creature lore,
-  and Muggle historical context, then inspected canonical YAML for the serious
-  candidates.
-- No inspected record securely dates potion-making, medicinal plant use, or a
-  healing practice before Hogwarts. `ext-a21-002` is an imprecisely dated later
-  Hogwarts practice; `fb-ch06-006` gives an undated potion-material link;
-  `cos-ch14-001` and `cos-ch16-002` concern Harry-era Mandrake use; and
-  `fb-ch07-006` dates neither the discovery nor use of phoenix tears.
-- `ext-a17-002` explicitly describes the Hogwarts Pensieve as older than the
-  school, but its official carrier postdates 1984 and does not establish that
-  the dating was available to this edition's narrator.
+- The Revision 02 pass inspected every canonical entry in A17, A38–A45, and
+  F01. It selected only entries that strengthened the chapter's argument and
+  did not use acquisition reports or generated appendices as evidence.
+- `ext-a17-002` shows that the pre-Hogwarts Pensieve bears modified Saxon runes.
+  It does not say that the inscription itself performed magic. The explicitly
+  unsubstantiated discovery story in `ext-a17-003` remains legend.
+- No inspected record securely dates British potion-making, medicinal plant
+  use, or a healing practice before Hogwarts. `ext-a39-001`–`003` define the
+  craft but do not date it; `ext-a38-001` and `ext-a38-002` begin in the twelfth
+  century; and the older candidates remain undated or later.
+- Linfred's evidence changes the historical conclusion without closing that
+  chronological gap. It shows that Hogwarts did not absorb all practical
+  healing, plant knowledge, experiment, or potion development into the school.
+- A43 and A44 offer later non-British comparisons, while F01 offers low-authority
+  editorial speculation. None is needed to support Revision 02's selected
+  claims.
 - `fb-ch05-003` identifies the first recorded Basilisk breeder but gives no date
   for Herpo the Foul. The generated phrase “ancient Basilisk breeding tradition”
   is discovery metadata, not independent evidence of chronology.
@@ -101,12 +115,21 @@
   before first contact, and how widely did birth-time registration apply?
 - `pre-hogwarts-historical-context-024`: Which wand knowledge belongs to Hogwarts
   teaching and which to external supplier tradition?
+- What is the date and original context of the Pensieve's modified Saxon runes,
+  and by what method was the artefact identified as older than Hogwarts?
+- Is there direct evidence for potion-making or domestic medicinal plant use in
+  Britain before Hogwarts?
 - No canonical open question currently asks directly what educational systems,
   if any, existed in Britain before Hogwarts. That absence should not be mistaken
   for a settled answer.
 
 ## Source-authority issues
 
+- A17 is Authority-A official retrospective prose published after 1984. Under
+  the explicit Revision 02 editorial direction, its physical description and
+  pre-Hogwarts dating of the Pensieve are accepted as evidence for the
+  reconstructed history; its founders-discovery story remains unsubstantiated
+  legend, exactly as the source labels it.
 - `ext-b04-001` and `ext-b02-002`, the clearest statements about education before
   Hogwarts entry, survive as Authority-D interview transcriptions from 2004 and
   2000. They are later confirmations, not evidence of founder-era practice.

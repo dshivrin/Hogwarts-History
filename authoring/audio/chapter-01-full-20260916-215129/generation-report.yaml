@@ -1,0 +1,599 @@
+status: complete_technically_verified
+source:
+  path: /Users/dima/Documents/Hogwarts History/authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-04.md
+  sha256: af9a4cc9301a6353c41fee76318bc6589d09c8d157a1dec798a4329306c8f4bc
+  size_bytes: 20936
+  designation: Exact manuscript path supplied by the user as the finalized Chapter
+    One draft.
+  raw_word_count: 3158
+  spoken_block_count: 50
+  spoken_word_count: 2926
+  opening_text: Chapter One
+  closing_text: Only at this point do the four founders properly enter the history.
+    Their later fame makes their cooperation appear natural and their divisions foreseeable.
+    Neither impression should be trusted without examination. The world that made
+    their school significant can now be seen in outline; the next question is who
+    they were, what purposes they brought to the undertaking, and how much of their
+    familiar character belongs to evidence rather than to the long memory of Hogwarts.
+implementation:
+  narrate_path: /Users/dima/Documents/Hogwarts History/authoring/audio/scripts/narrate.py
+  narrate_sha256: b36e713d6795c92d4565a6786cbfc275f667a97bbdfc9dfcc5910227ae99f7c9
+  settings_path: /Users/dima/Documents/Hogwarts History/authoring/audio/narration-settings.yaml
+  settings_sha256: 5b0a1d677a4346860a5171a1d2659749b03074f0328880cee2e174f874dd77b1
+  pronunciations_path: /Users/dima/Documents/Hogwarts History/authoring/audio/pronunciation-guide.yaml
+  pronunciations_sha256: 3023282372fd3ff4b6e2a7a6a510396e72b623cad8a9bfd292b18dc2bb207510
+  pronunciation_entry_count: 0
+  cli_command:
+  - /Users/dima/Documents/Hogwarts History/authoring/audio/.venv/bin/python
+  - /Users/dima/Documents/Hogwarts History/authoring/audio/scripts/narrate.py
+  - render
+  - /Users/dima/Documents/Hogwarts History/authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-04.md
+  - --output
+  - /Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129/chapter-01-full.wav
+  - --voice
+  - bm_george
+  - --speed
+  - '0.96'
+  - --listening-copy
+  - /Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129/chapter-01-full.mp3
+  cli_exit_code: 0
+configuration:
+  engine: kokoro
+  model: mlx-community/Kokoro-82M-bf16
+  model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+  voice: bm_george
+  language: british-english
+  lang_code: b
+  speed: 0.96
+  chunking:
+    max_words: 160
+  pauses:
+    opening_ms: 120
+    continuation_ms: 80
+    paragraph_ms: 400
+    section_ms: 1000
+    chapter_ms: 1750
+    closing_ms: 180
+  output:
+    intermediate: wav
+    listening_copy: mp3
+versions:
+  python: 3.12.13
+  mlx_audio: 0.5.3
+  mlx: 0.32.2
+  misaki: 0.9.4
+  pyyaml: 6.0.2
+  numpy: 2.5.3
+runtime_evidence:
+  device: Device(gpu, 0)
+  gpu_selected: true
+  metal_telemetry:
+    device_info:
+      device_name: Apple M4 Pro
+      max_recommended_working_set_size: 40200896512
+      memory_size: 51539607552
+      architecture: applegpu_g16s
+      max_buffer_length: 30150672384
+      resource_limit: 499000
+    active_memory: 327774648
+    cache_memory: 7849988
+    peak_memory: 3403356437
+  audio_array_type: mlx.core.array
+chunks:
+  expected_count: 50
+  actual_count: 50
+  directory: /Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129/chunks
+  manifest: /Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129/chunks/chunk-manifest.yaml
+outputs:
+  wav:
+    path: /Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129/chapter-01-full.wav
+    sha256: af1f3083ebee82818d1cd70f1dd42f3bd079aacca3afcea956d34985bad10513
+    size_bytes: 58584044
+    audio:
+      sample_rate: 24000
+      channels: 1
+      sample_count: 29292000
+      duration_seconds: 1220.5
+      peak: 0.46272164583206177
+      non_silent_samples: 26509831
+      finite: true
+      opening_silence_samples: 3728
+      closing_silence_samples: 18274
+    ffprobe:
+      programs: []
+      stream_groups: []
+      streams:
+      - index: 0
+        codec_name: pcm_s16le
+        sample_fmt: s16
+        sample_rate: '24000'
+        channels: 1
+        bit_rate: '384000'
+      format:
+        format_name: wav
+        duration: '1220.500000'
+        size: '58584044'
+        bit_rate: '384000'
+    full_decode:
+      exit_code: 0
+      stderr: ''
+      passed: true
+  mp3:
+    path: /Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129/chapter-01-full.mp3
+    sha256: b579ce2adf9cb022ad594700a29e1d8193d688f366cc6b9fe4627da1342e96ab
+    size_bytes: 4882508
+    ffprobe:
+      programs: []
+      stream_groups: []
+      streams:
+      - index: 0
+        codec_name: mp3
+        sample_fmt: fltp
+        sample_rate: '24000'
+        channels: 1
+        channel_layout: mono
+        bit_rate: '32000'
+      format:
+        format_name: mp3
+        duration: '1220.500000'
+        size: '4882508'
+        bit_rate: '32003'
+    full_decode:
+      exit_code: 0
+      stderr: ''
+      passed: true
+validation:
+  markdown_construct_check: passed
+  text_sequence:
+    passed: true
+    expected_block_count: 50
+    rebuilt_block_count: 50
+  chunk_count_verified: true
+  assembly_sequence_verified: true
+  master_matches_assembled_pcm: true
+  sample_rate_verified_24000_hz: true
+  mlx_audio_array_verified: true
+  mlx_gpu_verified: true
+  final_wav_full_decode: true
+  final_mp3_full_decode: true
+  join_inspection:
+    join_count: 49
+    joins:
+    - after_chunk: 1
+      before_chunk: 2
+      configured_pause_ms: 1750
+      rendered_trailing_zero_ms: 181.333
+      next_rendered_leading_zero_ms: 162.125
+      effective_zero_gap_ms: 2093.458
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 2
+      before_chunk: 3
+      configured_pause_ms: 1000
+      rendered_trailing_zero_ms: 177.792
+      next_rendered_leading_zero_ms: 185.333
+      effective_zero_gap_ms: 1363.125
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 3
+      before_chunk: 4
+      configured_pause_ms: 1000
+      rendered_trailing_zero_ms: 186.625
+      next_rendered_leading_zero_ms: 208.417
+      effective_zero_gap_ms: 1395.042
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 4
+      before_chunk: 5
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.417
+      next_rendered_leading_zero_ms: 209.083
+      effective_zero_gap_ms: 790.5
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 5
+      before_chunk: 6
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.208
+      next_rendered_leading_zero_ms: 208.542
+      effective_zero_gap_ms: 789.75
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 6
+      before_chunk: 7
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.542
+      next_rendered_leading_zero_ms: 208.833
+      effective_zero_gap_ms: 790.375
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 7
+      before_chunk: 8
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.417
+      next_rendered_leading_zero_ms: 209.583
+      effective_zero_gap_ms: 791.0
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 8
+      before_chunk: 9
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.542
+      next_rendered_leading_zero_ms: 136.292
+      effective_zero_gap_ms: 717.833
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 9
+      before_chunk: 10
+      configured_pause_ms: 1000
+      rendered_trailing_zero_ms: 179.542
+      next_rendered_leading_zero_ms: 209.25
+      effective_zero_gap_ms: 1388.792
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 10
+      before_chunk: 11
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.208
+      next_rendered_leading_zero_ms: 208.458
+      effective_zero_gap_ms: 789.667
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 11
+      before_chunk: 12
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 182.458
+      next_rendered_leading_zero_ms: 209.25
+      effective_zero_gap_ms: 791.708
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 12
+      before_chunk: 13
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 180.583
+      next_rendered_leading_zero_ms: 208.458
+      effective_zero_gap_ms: 789.042
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 13
+      before_chunk: 14
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.625
+      next_rendered_leading_zero_ms: 209.625
+      effective_zero_gap_ms: 791.25
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 14
+      before_chunk: 15
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 180.583
+      next_rendered_leading_zero_ms: 208.458
+      effective_zero_gap_ms: 789.042
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 15
+      before_chunk: 16
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.417
+      next_rendered_leading_zero_ms: 208.542
+      effective_zero_gap_ms: 789.958
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 16
+      before_chunk: 17
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.333
+      next_rendered_leading_zero_ms: 208.417
+      effective_zero_gap_ms: 789.75
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 17
+      before_chunk: 18
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.75
+      next_rendered_leading_zero_ms: 37.125
+      effective_zero_gap_ms: 618.875
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 18
+      before_chunk: 19
+      configured_pause_ms: 1000
+      rendered_trailing_zero_ms: 181.458
+      next_rendered_leading_zero_ms: 209.25
+      effective_zero_gap_ms: 1390.708
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 19
+      before_chunk: 20
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 182.167
+      next_rendered_leading_zero_ms: 209.083
+      effective_zero_gap_ms: 791.25
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 20
+      before_chunk: 21
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.417
+      next_rendered_leading_zero_ms: 209.208
+      effective_zero_gap_ms: 790.625
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 21
+      before_chunk: 22
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.958
+      next_rendered_leading_zero_ms: 209.25
+      effective_zero_gap_ms: 791.208
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 22
+      before_chunk: 23
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.958
+      next_rendered_leading_zero_ms: 209.25
+      effective_zero_gap_ms: 791.208
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 23
+      before_chunk: 24
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.333
+      next_rendered_leading_zero_ms: 208.417
+      effective_zero_gap_ms: 789.75
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 24
+      before_chunk: 25
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 182.458
+      next_rendered_leading_zero_ms: 209.417
+      effective_zero_gap_ms: 791.875
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 25
+      before_chunk: 26
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.542
+      next_rendered_leading_zero_ms: 208.458
+      effective_zero_gap_ms: 790.0
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 26
+      before_chunk: 27
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 182.458
+      next_rendered_leading_zero_ms: 209.167
+      effective_zero_gap_ms: 791.625
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 27
+      before_chunk: 28
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.542
+      next_rendered_leading_zero_ms: 35.667
+      effective_zero_gap_ms: 617.208
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 28
+      before_chunk: 29
+      configured_pause_ms: 1000
+      rendered_trailing_zero_ms: 184.083
+      next_rendered_leading_zero_ms: 209.25
+      effective_zero_gap_ms: 1393.333
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 29
+      before_chunk: 30
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.333
+      next_rendered_leading_zero_ms: 208.542
+      effective_zero_gap_ms: 789.875
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 30
+      before_chunk: 31
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.333
+      next_rendered_leading_zero_ms: 209.625
+      effective_zero_gap_ms: 790.958
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 31
+      before_chunk: 32
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.417
+      next_rendered_leading_zero_ms: 208.458
+      effective_zero_gap_ms: 789.875
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 32
+      before_chunk: 33
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.958
+      next_rendered_leading_zero_ms: 208.542
+      effective_zero_gap_ms: 790.5
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 33
+      before_chunk: 34
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.208
+      next_rendered_leading_zero_ms: 209.25
+      effective_zero_gap_ms: 790.458
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 34
+      before_chunk: 35
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 182.458
+      next_rendered_leading_zero_ms: 208.417
+      effective_zero_gap_ms: 790.875
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 35
+      before_chunk: 36
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.417
+      next_rendered_leading_zero_ms: 35.458
+      effective_zero_gap_ms: 616.875
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 36
+      before_chunk: 37
+      configured_pause_ms: 1000
+      rendered_trailing_zero_ms: 182.417
+      next_rendered_leading_zero_ms: 208.375
+      effective_zero_gap_ms: 1390.792
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 37
+      before_chunk: 38
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.542
+      next_rendered_leading_zero_ms: 209.25
+      effective_zero_gap_ms: 790.792
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 38
+      before_chunk: 39
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.542
+      next_rendered_leading_zero_ms: 208.542
+      effective_zero_gap_ms: 790.083
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 39
+      before_chunk: 40
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.958
+      next_rendered_leading_zero_ms: 208.542
+      effective_zero_gap_ms: 790.5
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 40
+      before_chunk: 41
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.208
+      next_rendered_leading_zero_ms: 208.542
+      effective_zero_gap_ms: 789.75
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 41
+      before_chunk: 42
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.417
+      next_rendered_leading_zero_ms: 35.875
+      effective_zero_gap_ms: 617.292
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 42
+      before_chunk: 43
+      configured_pause_ms: 1000
+      rendered_trailing_zero_ms: 181.75
+      next_rendered_leading_zero_ms: 209.25
+      effective_zero_gap_ms: 1391.0
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 43
+      before_chunk: 44
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.333
+      next_rendered_leading_zero_ms: 208.333
+      effective_zero_gap_ms: 789.667
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 44
+      before_chunk: 45
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.083
+      next_rendered_leading_zero_ms: 209.25
+      effective_zero_gap_ms: 790.333
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 45
+      before_chunk: 46
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.417
+      next_rendered_leading_zero_ms: 209.333
+      effective_zero_gap_ms: 790.75
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 46
+      before_chunk: 47
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.417
+      next_rendered_leading_zero_ms: 208.292
+      effective_zero_gap_ms: 789.708
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 47
+      before_chunk: 48
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.542
+      next_rendered_leading_zero_ms: 209.208
+      effective_zero_gap_ms: 790.75
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 48
+      before_chunk: 49
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.542
+      next_rendered_leading_zero_ms: 209.625
+      effective_zero_gap_ms: 791.167
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    - after_chunk: 49
+      before_chunk: 50
+      configured_pause_ms: 400
+      rendered_trailing_zero_ms: 181.333
+      next_rendered_leading_zero_ms: 209.625
+      effective_zero_gap_ms: 790.958
+      outgoing_edge_abs_pcm16: 0
+      incoming_edge_abs_pcm16: 0
+    max_rendered_extra_silence_ms: 395.042
+    expected_total_samples: 29292000
+  audio_tests:
+    status: passed
+    repository_suite: 36 tests passed
+    task_wrapper_suite: 2 tests passed
+    note: An earlier repository-suite run with TMPDIR forced beneath authoring/audio
+      produced three path-assumption failures; the unchanged suite passed 36/36
+      with its normal self-cleaning temporary-directory semantics.
+  preexisting_file_hash_audit:
+    status: passed
+    files_verified: 46139
+    algorithm: SHA-256
+    path_set_unchanged_outside_task_directory: true
+  git_status_comparison:
+    status: passed
+    preexisting_status_unchanged_outside_task_directory: true
+    new_files_confined_to_task_directory: true
+  human_full_listen: false
+warnings:
+- >-
+  No complete human audible review was performed. Join inspection was technical:
+  all 49 joins were accounted for, the largest rendered extra silence was 395.042
+  ms, and the largest effective zero gap including configured pauses was 2093.458
+  ms.
+- Two earlier same-settings diagnostic files are retained as
+  attempt-03-complete-unvalidated.wav and attempt-03-complete-unvalidated.mp3;
+  they are not the final deliverables.
+deviations:
+- The unchanged stock render command does not persist intermediate chunks or runtime
+  evidence. This task-local wrapper captured the same render call's in-memory chunks
+  and runtime facts without changing the renderer.
+- The unchanged stock run_render call omits the required sample_rate argument to
+  write_pcm16_wav. A task-local adapter, covered by a focused regression test,
+  supplied the sample rate already emitted by the assembly step; the repository
+  implementation remained byte-for-byte unchanged.
+- The first attempt was sandboxed and stopped before synthesis because Metal was
+  unavailable. The preserved run-01-sandbox-failure.log records that event.
+- The first GPU synthesis stopped after synthesis and before file output at the
+  stock sample-rate call defect. The preserved
+  run-02-renderer-signature-failure.log records that event.
+- The next GPU attempt created complete continuous audio, then the task-local
+  validation wrapper rejected a settings-validation dummy assembly as an extra
+  chapter assembly. Those continuous files and
+  run-03-post-render-capture-failure.log were preserved; a focused regression
+  test corrected the task-local selection logic before the final pass.

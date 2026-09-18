@@ -1,0 +1,41 @@
+Starting Chapter One production render
+Source: /Users/dima/Documents/Hogwarts History/authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-04.md
+Output directory: /Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129
+usage: run_full_chapter.py [-h] [--settings SETTINGS]
+                           [--pronunciations PRONUNCIATIONS]
+                           {audition,george-calibration,render} ...
+run_full_chapter.py: error: [metal::load_device] No Metal device available. This typically occurs in headless, sandboxed, or virtualized macOS sessions where the GPU is not accessible.
+Traceback (most recent call last):
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/scripts/narrate.py", line 1000, in main
+    output = run_render(args.markdown, args.output, args.voice, args.speed, settings, args.pronunciations, args.listening_copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/scripts/narrate.py", line 919, in run_render
+    model = _default_model_loader(str(settings["model"]))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129/run_full_chapter.py", line 253, in capturing_loader
+    model = original_loader(model_id)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/scripts/narrate.py", line 644, in _default_model_loader
+    from mlx_audio.tts.utils import load_model
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/__init__.py", line 1, in <module>
+    from .utils import load, load_model
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/utils.py", line 8, in <module>
+    import mlx.core as mx
+ImportError: [metal::load_device] No Metal device available. This typically occurs in headless, sandboxed, or virtualized macOS sessions where the GPU is not accessible.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129/run_full_chapter.py", line 535, in main
+    report = render()
+             ^^^^^^^^
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/chapter-01-full-20260916-215129/run_full_chapter.py", line 285, in render
+    cli_exit = narrate.main(
+               ^^^^^^^^^^^^^
+  File "/Users/dima/Documents/Hogwarts History/authoring/audio/scripts/narrate.py", line 1003, in main
+    parser.error(str(error))
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13_4/Frameworks/Python.framework/Versions/3.12/lib/python3.12/argparse.py", line 2650, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13_4/Frameworks/Python.framework/Versions/3.12/lib/python3.12/argparse.py", line 2637, in exit
+    _sys.exit(status)
+SystemExit: 2

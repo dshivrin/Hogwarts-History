@@ -1,6 +1,6 @@
 chapter: 1
-selected_at: '2026-09-13'
-candidate_records_inspected: 43
+selected_at: '2026-09-16'
+candidate_records_inspected: 79
 selection_basis:
   - Canonical YAML was reviewed for every listed record.
   - Index and duplicate results were used for discovery and corroboration only.
@@ -48,6 +48,71 @@ revision_01_retrieval:
     - beedle-ch05-003
     - ootp-ch24-005
 
+revision_02_retrieval:
+  inspected_at: '2026-09-16'
+  canonical_source_units_inspected: 10
+  canonical_records_inspected: 38
+  source_units:
+    - A17
+    - A38
+    - A39
+    - A40
+    - A41
+    - A42
+    - A43
+    - A44
+    - A45
+    - F01
+  focus:
+    - the pre-Hogwarts Pensieve and its modified Saxon runes
+    - medieval healing, plants, remedies, and potioneering outside Hogwarts
+    - potion-making as a skilled magical craft
+    - cauldrons and transport shared historically with Muggles
+    - qualified ancient and medieval wandmaking traditions
+    - later non-British comparisons and speculative editorial rune claims
+  selected_result: >-
+    The Pensieve now supplies direct evidence for runic inscription on a
+    pre-Hogwarts magical artefact, without establishing that the runes
+    themselves performed magic.
+    Linfred Potter supplies explicitly later medieval evidence that household
+    healing, plant use, experiment, and potion development continued outside
+    the school. Potion, cauldron, wandmaking, and transport entries add bounded
+    technical or social context. A43, A44, and F01 were not needed: their later,
+    non-British, or speculative material would repeat conclusions established
+    more directly by British evidence.
+  used_ids:
+    - ext-a17-002
+    - ext-a17-003
+    - ext-a38-001
+    - ext-a38-002
+    - ext-a39-001
+    - ext-a39-002
+    - ext-a39-003
+    - ext-a40-001
+    - ext-a40-002
+    - ext-a41-001
+    - ext-a41-002
+    - ext-a41-003
+    - ext-a42-001
+    - ext-a42-002
+    - ext-a45-001
+
+revision_03_editorial:
+  revised_at: '2026-09-16'
+  new_ids: []
+  removed_from_chapter:
+    - ext-a39-001
+    - ext-a39-002
+    - ext-a39-003
+    - ext-a41-002
+    - ext-a41-003
+  notes: >-
+    Revision 03 adds no evidence. It removes the technical potion explanation
+    and Garrick Ollivander's later reforms from the chapter, retaining those
+    records as cross-chapter material. It also narrows the Pensieve conclusion:
+    ext-a17-002 establishes modified Saxon runes on an ancient magical artefact,
+    not that the inscription itself performed magic.
+
 core:
   - id: cos-ch09-003
     role: direct historical support
@@ -60,6 +125,18 @@ core:
       Professor Binns distinguishes this account from the Chamber legend but does
       not identify his sources. This is the only inspected record that directly
       joins the social setting to the creation and educational use of Hogwarts.
+
+  - id: ext-a17-002
+    role: direct pre-Hogwarts material evidence
+    supports: >-
+      The Hogwarts Pensieve is an ornately carved stone artefact bearing
+      modified Saxon runes and is explicitly described as older than the school.
+    confidence: high
+    notes: >-
+      This establishes that modified Saxon runes formed part of the craftsmanship
+      of a pre-Hogwarts magical artefact. It does not establish that the runes
+      themselves performed magic, nor a rune school, curriculum, maker, or dating
+      method beyond the official source's characterisation of the object.
 
 supporting:
   - id: ext-a08-003
@@ -161,7 +238,100 @@ supporting:
       informal learning is evidenced somewhere in magical history, not to supply
       a founder-era curriculum.
 
+  - id: ext-a17-003
+    role: explicitly unsubstantiated foundation legend
+    supports: >-
+      Later tradition claimed that the founders found the ancient Pensieve
+      half-buried where they chose to build Hogwarts.
+    confidence: high
+    notes: >-
+      The source itself labels the story unsubstantiated. Revision 02 uses it
+      only to contrast the securely ancient object with the later legend that
+      gathered around it.
+
+  - id: ext-a40-001
+    role: broad historical context for shared objects
+    supports: >-
+      Muggles and magical people once used the same suspended cooking vessels,
+      while cauldrons later remained in wizarding use for potion-making.
+    confidence: high
+    notes: >-
+      The source gives no century for the transition. Revision 02 uses it as a
+      broad example of shared ordinary life, not as a founder-era kitchen claim.
+
+  - id: ext-a40-002
+    role: undated technical description of potion vessels
+    supports: >-
+      Potion-making requires a naked flame, making a suspended cauldron a
+      practical vessel for the craft.
+    confidence: high
+    notes: >-
+      Supplies the material reason for continued cauldron use but no date for
+      the practice.
+
+  - id: ext-a41-001
+    role: qualified tradition about ancient British wandcraft
+    supports: >-
+      Mr Ollivander believes his forebears reached Britain with the Romans and
+      sold crafted wands to British wizards using cruder instruments.
+    confidence: medium
+    notes: >-
+      The chapter attributes the claim to Ollivander family belief and does not
+      treat it as independent proof or an unbroken commercial chronology.
+
+  - id: ext-a42-001
+    role: undated technical description of wand-wood knowledge
+    supports: >-
+      Only a minority of trees yield wand-quality wood, recognition requires
+      long experience, and Bowtruckles may serve as a practical sign.
+    confidence: high
+    notes: >-
+      Shows plant, creature, and craft knowledge meeting in wandmaking without
+      dating the discovery or transmission of that knowledge.
+
+  - id: ext-a42-002
+    role: direct medieval wandcraft evidence
+    supports: >-
+      Geraint Ollivander was a noted medieval wandmaker whose written craft
+      observations survived into later family knowledge.
+    confidence: high
+    notes: >-
+      Establishes a named medieval craft tradition but gives no closer date and
+      does not connect Geraint to Hogwarts.
+
+  - id: ext-a45-001
+    role: broad pre-Statute social context
+    supports: >-
+      Wizards and Muggles used the same everyday transport, including
+      horse-drawn carts and sailing ships, before legal separation.
+    confidence: high
+    notes: >-
+      Makes shared historical life concrete without projecting the entire
+      pre-Statute period into the founders' particular decade.
+
 later_confirmation:
+  - id: ext-a38-001
+    role: post-foundation medieval comparison
+    supports: >-
+      In twelfth-century Britain, Linfred of Stinchcombe cultivated unusual
+      plants, experimented privately, and supplied medicinal help to Muggle
+      neighbours from his household.
+    confidence: high
+    notes: >-
+      Linfred lived after Hogwarts was founded. His value is to show that
+      healing, plant knowledge, experiment, and local service continued outside
+      the school, not to prove the same pattern in the founders' century.
+
+  - id: ext-a38-002
+    role: post-foundation medieval comparison
+    supports: >-
+      Linfred's remedies developed into later potions and were sold to other
+      witches and wizards.
+    confidence: high
+    notes: >-
+      Demonstrates household innovation and wider transmission in the twelfth
+      century; it gives neither pre-Hogwarts potion evidence nor recipe history.
+
   - id: ext-b04-001
     role: bounded comparison for education before school entry
     supports: >-
@@ -241,18 +411,6 @@ uncertain:
     notes: >-
       Authority-D, undated author commentary classified unknown_or_uncertain. It
       is not an institutional record and cannot define a historical admission age.
-
-  - id: ext-a17-002
-    role: post-cutoff claim about a pre-school artefact
-    supports: >-
-      An official retrospective article describes the Hogwarts Pensieve as a
-      runic stone artefact older than the school.
-    confidence: high
-    notes: >-
-      The claim would materially expand pre-Hogwarts craft history, but the
-      article postdates the 1984 narrator and supplies neither an archaeological
-      method nor evidence that this dating was then available. Do not use in the
-      revision's narrative.
 
   - id: fb-ch05-003
     role: undated old creature-lore candidate
@@ -373,7 +531,68 @@ excluded:
       Weak, out-of-universe authorial commentary about boarding-school appeal;
       classified later_editorial_note and inadmissible as in-universe history.
 
+  - id: ext-a42-003
+    reason: >-
+      The claimed continuation of ancient druidic plant classification is
+      undated modern wandmaker tradition. The chapter already has stronger
+      evidence for plant knowledge and wandcraft without implying continuity.
+
+  - id: ext-a43-003
+    reason: >-
+      Later non-British comparative evidence for sophisticated plant magic and
+      potions repeats the point already established more directly by Linfred's
+      British household practice and the technical potion entries.
+
+  - id: ext-a44-002
+    reason: >-
+      Seventeenth-century American apothecary and foraging evidence is vivid but
+      too late and geographically remote to improve the chapter without opening
+      a second comparative history.
+
+  - id: ext-f01-001
+    reason: >-
+      Authority-E editorial speculation about Bronze or Iron Age runes is
+      unnecessary once ext-a17-002 directly establishes a pre-Hogwarts runic
+      artefact.
+
+  - id: ext-f01-002
+    reason: >-
+      Authority-E editorial claims about ancient alchemy and potion roots are
+      undated, post-1984, and weaker than the selected potion evidence.
+
 cross_chapter:
+  - id: ext-a39-001
+    primary_destination: 9 — A Hogwarts Education
+    chapter_1_use: >-
+      Removed in Revision 03; the technical distinction between magical
+      potion-making and recipe-following interrupts Linfred's historical example
+      and is better reserved for the treatment of Potions as a school subject.
+
+  - id: ext-a39-002
+    primary_destination: 9 — A Hogwarts Education
+    chapter_1_use: >-
+      Removed in Revision 03; the comparison between potion effects and spell or
+      charm effects belongs with a later account of the curriculum.
+
+  - id: ext-a39-003
+    primary_destination: 9 — A Hogwarts Education
+    chapter_1_use: >-
+      Removed in Revision 03; specialist skill and reversibility are useful for a
+      later discussion of Potions teaching but unnecessary to Chapter 1's history.
+
+  - id: ext-a41-002
+    primary_destination: 15 — Hogwarts and the Wider Wizarding World
+    chapter_1_use: >-
+      Removed in Revision 03; inherited customer-supplied cores belong to a fuller
+      history of wandmaking and Hogwarts's relationship with outside suppliers.
+
+  - id: ext-a41-003
+    primary_destination: 15 — Hogwarts and the Wider Wizarding World
+    chapter_1_use: >-
+      Removed in Revision 03; Garrick Ollivander's later reforms are valuable
+      evidence for changing wandmaking practice but are not needed before the
+      school enters the history.
+
   - id: qtta-ch03-001
     primary_destination: 14 — Quidditch at Hogwarts
     chapter_1_use: >-
@@ -425,11 +644,6 @@ cross_chapter:
   - id: ext-a03-003
     primary_destination: 9 — A Hogwarts Education
     chapter_1_use: None; describes the established school's child-identification mechanism.
-
-  - id: ext-a17-003
-    primary_destination: 3 — The Founding of Hogwarts
-    chapter_1_use: >-
-      None; the source itself calls the Pensieve site story unsubstantiated legend.
 
   - id: ext-b09-003
     primary_destination: 2 — The Four Founders

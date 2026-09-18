@@ -1,6 +1,6 @@
 # Chapter 1 Style Calibration
 
-Status: REVISION-01 FINDINGS AND PROPOSALS — NOT GLOBAL STYLE AUTHORITY
+Status: REVISION-03 FINDINGS AND PROPOSALS — NOT GLOBAL STYLE AUTHORITY
 
 This file applies the Draft-01 style lock to Chapter 1 and does not override
 it. The final sections now record lessons from the first complete revision for
@@ -167,6 +167,42 @@ subjects or repeatedly apologising for their absence.
 - Transitions work best by carrying a consequence forward: craft requires
   transmission, transmission occurs in a shared landscape, visibility creates
   a problem of safety, and safety makes the fixed school consequential.
+
+## Revision 03 findings
+
+### Let objects and practitioners carry the history
+
+The Pensieve and Linfred work best when the chapter describes them plainly and
+allows their implications to emerge from the sequence. The Pensieve needs one
+clear boundary—the runes belong to its craftsmanship, but their magical
+function is not established—not a technical discussion of rune theory. Linfred
+needs one clear chronological boundary, followed by the garden, remedies,
+neighbours and customers that make his later example historically useful.
+
+### Prefer concrete crossings to curricular explanation
+
+The relationship among plants, healing, creatures and wandmaking is clearer in
+a garden and at a wandmaker's woodpile than in repeated discussion of subject
+boundaries. Likewise, a technical definition of potion-making contributes less
+to this chapter than the movement of Linfred's remedies from household
+experiment into wider use. Later chapters may need those definitions; Chapter 1
+needs the practices themselves.
+
+### Give adjacent sections distinct work
+
+“Among Muggles” is strongest when it establishes the shared landscape and the
+range of ordinary contact. “Fear and Distance” can then begin with the founding
+account and explain why a permanent school required concealment. Repeating the
+whole coexistence-versus-hostility qualification in both sections weakens the
+movement from contact to danger to protected continuity.
+
+### Trust the accumulated argument
+
+Once the castle has given knowledge an address, the conclusion need not provide
+another complete inventory of the chapter. A shorter return to contingency and
+endurance carries the reader more naturally towards the founders. This suggests
+a wider Draft-01 preference: after a strong institutional synthesis, close by
+advancing the history rather than restating every strand of evidence.
 
 ## Proposed Draft-01 principles for human approval
 
