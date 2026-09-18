@@ -211,6 +211,81 @@ Source data: sources YAML + project-control indexes + structured source data.
 - `beedle-ch04`: The Tales of Beedle the Bard, Babbitty Rabbitty and Her Cackling Stump and Commentary, pages 39-52, 6 entries, 0 explicit references.
 - `beedle-ch05`: The Tales of Beedle the Bard, The Tale of the Three Brothers and Commentary, pages 52-62, 4 entries, 0 explicit references.
 - `beedle-ch06`: The Tales of Beedle the Bard, Back Matter, pages 63-65, 0 entries, 0 explicit references.
+- `CC-P1-A1-S01`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 1: KING’S CROSS, pages 14-15, 1 entries, 0 explicit references.
+- `CC-P1-A1-S02`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 2: PLATFORM NINE AND THREE-QUARTERS, pages 16-19, 4 entries, 0 explicit references.
+- `CC-P1-A1-S03`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 3: THE HOGWARTS EXPRESS, pages 20-23, 1 entries, 0 explicit references.
+- `CC-P1-A1-S04`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 4: TRANSITION SCENE, pages 24-30, 7 entries, 0 explicit references.
+- `CC-P1-A1-S05`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 5: MINISTRY OF MAGIC, HARRY’S OFFICE, pages 31-33, 0 entries, 0 explicit references.
+- `CC-P1-A1-S06`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 6: HARRY AND GINNY POTTER’S HOUSE, pages 34-36, 0 entries, 0 explicit references.
+- `CC-P1-A1-S07`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 7: HARRY AND GINNY POTTER’S HOUSE, ALBUS’S ROOM, pages 37-39, 0 entries, 0 explicit references.
+- `CC-P1-A1-S08`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 8: DREAM, HUT-ON-THE-ROCK, pages 40-42, 0 entries, 0 explicit references.
+- `CC-P1-A1-S09`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 9: HARRY AND GINNY POTTER’S HOUSE, BEDROOM, pages 43-45, 0 entries, 0 explicit references.
+- `CC-P1-A1-S10`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 10: THE HOGWARTS EXPRESS, pages 46-48, 2 entries, 0 explicit references.
+- `CC-P1-A1-S11`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 11: ROOF OF THE HOGWARTS EXPRESS, pages 49-50, 4 entries, 0 explicit references.
+- `CC-P1-A1-S12`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 12: MINISTRY OF MAGIC, GRAND MEETING ROOM, pages 51-52, 2 entries, 0 explicit references.
+- `CC-P1-A1-S13`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 13: ST. OSWALD’S HOME FOR OLD WITCHES AND WIZARDS, pages 53-53, 0 entries, 0 explicit references.
+- `CC-P1-A1-S14`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 14: ST. OSWALD’S HOME FOR OLD WITCHES AND WIZARDS, AMOS’S ROOM, pages 54-56, 0 entries, 0 explicit references.
+- `CC-P1-A1-S15`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 15: HARRY AND GINNY POTTER’S HOUSE, KITCHEN, pages 57-58, 1 entries, 0 explicit references.
+- `CC-P1-A1-S16`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 16: WHITEHALL, CELLAR, pages 59-60, 0 entries, 0 explicit references.
+- `CC-P1-A1-S17`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 17: MINISTRY OF MAGIC, MEETING ROOM, pages 61-62, 1 entries, 0 explicit references.
+- `CC-P1-A1-S18`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 18: MINISTRY OF MAGIC, CORRIDOR, pages 63-66, 0 entries, 0 explicit references.
+- `CC-P1-A1-S19`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 1, Scene 19: MINISTRY OF MAGIC, HERMIONE’S OFFICE, pages 67-76, 2 entries, 0 explicit references.
+- `CC-P1-A2-S01`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 1: DREAM, PRIVET DRIVE, CUPBOARD UNDER THE STAIRS, pages 77-78, 0 entries, 0 explicit references.
+- `CC-P1-A2-S02`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 2: HARRY AND GINNY POTTER’S HOUSE, STAIRCASE, pages 79-79, 0 entries, 0 explicit references.
+- `CC-P1-A2-S03`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 3: HOGWARTS, HEADMISTRESS’S OFFICE, pages 80-81, 3 entries, 0 explicit references.
+- `CC-P1-A2-S04`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 4: EDGE OF THE FORBIDDEN FOREST, pages 82-84, 1 entries, 0 explicit references.
+- `CC-P1-A2-S05`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 5: FORBIDDEN FOREST, pages 85-86, 2 entries, 0 explicit references.
+- `CC-P1-A2-S06`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 6: EDGE OF THE FORBIDDEN FOREST, pages 87-88, 1 entries, 0 explicit references.
+- `CC-P1-A2-S07`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 7: TRIWIZARD TOURNAMENT, EDGE OF THE FORBIDDEN FOREST, 1994, pages 89-91, 3 entries, 0 explicit references.
+- `CC-P1-A2-S08`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 8: HOGWARTS, HOSPITAL WING, pages 92-95, 4 entries, 0 explicit references.
+- `CC-P1-A2-S09`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 9: HOGWARTS, STAIRCASE, pages 96-98, 1 entries, 0 explicit references.
+- `CC-P1-A2-S10`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 10: HOGWARTS, HEADMISTRESS’S OFFICE, pages 99-100, 3 entries, 0 explicit references.
+- `CC-P1-A2-S11`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 11: HOGWARTS, DEFENSE AGAINST THE DARK ARTS CLASSROOM, pages 101-102, 3 entries, 0 explicit references.
+- `CC-P1-A2-S12`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 12: HOGWARTS, STAIRCASES, pages 103-103, 1 entries, 0 explicit references.
+- `CC-P1-A2-S13`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 13: HARRY AND GINNY POTTER’S HOUSE, KITCHEN, pages 104-106, 0 entries, 0 explicit references.
+- `CC-P1-A2-S14`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 14: HOGWARTS, STAIRCASES, pages 107-108, 2 entries, 0 explicit references.
+- `CC-P1-A2-S15`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 15: HARRY AND GINNY POTTER’S HOUSE, KITCHEN, pages 109-110, 0 entries, 0 explicit references.
+- `CC-P1-A2-S16`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 16: HOGWARTS, LIBRARY, pages 111-116, 4 entries, 0 explicit references.
+- `CC-P1-A2-S17`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 17: HOGWARTS, STAIRCASES, pages 117-118, 1 entries, 0 explicit references.
+- `CC-P1-A2-S18`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 18: HOGWARTS, HEADMISTRESS’S OFFICE, pages 119-120, 2 entries, 0 explicit references.
+- `CC-P1-A2-S19`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 19: HOGWARTS, GIRLS’ BATHROOM, pages 121-124, 6 entries, 0 explicit references.
+- `CC-P1-A2-S20`: Harry Potter and the Cursed Child: Parts One and Two, Part 1, Act 2, Scene 20: TRIWIZARD TOURNAMENT, LAKE, 1995, pages 125-131, 5 entries, 0 explicit references.
+- `CC-P2-A3-S01`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 1: HOGWARTS, HEADMISTRESS’S OFFICE, pages 132-133, 4 entries, 0 explicit references.
+- `CC-P2-A3-S02`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 2: HOGWARTS, GROUNDS, pages 134-135, 2 entries, 0 explicit references.
+- `CC-P2-A3-S03`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 3: MINISTRY OF MAGIC, OFFICE OF THE HEAD OF MAGICAL LAW ENFORCEMENT, pages 136-138, 0 entries, 0 explicit references.
+- `CC-P2-A3-S04`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 4: HOGWARTS, LIBRARY, pages 139-139, 2 entries, 0 explicit references.
+- `CC-P2-A3-S05`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 5: HOGWARTS, POTIONS CLASSROOM, pages 140-142, 4 entries, 0 explicit references.
+- `CC-P2-A3-S06`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 6: CAMPAIGN ROOM, pages 143-144, 0 entries, 0 explicit references.
+- `CC-P2-A3-S07`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 7: CAMPAIGN ROOM, pages 145-148, 1 entries, 0 explicit references.
+- `CC-P2-A3-S08`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 8: EDGE OF THE FORBIDDEN FOREST, 1994, pages 149-149, 1 entries, 0 explicit references.
+- `CC-P2-A3-S09`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 9: EDGE OF THE FORBIDDEN FOREST, pages 150-155, 3 entries, 0 explicit references.
+- `CC-P2-A3-S10`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 10: HOGWARTS, HEADMISTRESS’S OFFICE, pages 156-157, 1 entries, 0 explicit references.
+- `CC-P2-A3-S11`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 11: HOGWARTS, SLYTHERIN DORMITORY, pages 158-159, 2 entries, 0 explicit references.
+- `CC-P2-A3-S12`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 12: DREAM, GODRIC’S HOLLOW, GRAVEYARD, pages 160-161, 0 entries, 0 explicit references.
+- `CC-P2-A3-S13`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 13: HARRY AND GINNY POTTER’S HOUSE, KITCHEN, pages 162-162, 0 entries, 0 explicit references.
+- `CC-P2-A3-S14`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 14: HOGWARTS, SLYTHERIN DORMITORY, pages 163-165, 0 entries, 0 explicit references.
+- `CC-P2-A3-S15`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 15: HOGWARTS, SLYTHERIN DORMITORY, pages 166-167, 2 entries, 0 explicit references.
+- `CC-P2-A3-S16`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 16: HOGWARTS, OWLERY, pages 168-171, 2 entries, 0 explicit references.
+- `CC-P2-A3-S17`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 17: MINISTRY OF MAGIC, HERMIONE’S OFFICE, pages 172-173, 0 entries, 0 explicit references.
+- `CC-P2-A3-S18`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 18: ST. OSWALD’S HOME FOR OLD WITCHES AND WIZARDS, AMOS’S ROOM, pages 174-175, 0 entries, 0 explicit references.
+- `CC-P2-A3-S19`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 19: HOGWARTS, QUIDDITCH PITCH, pages 176-178, 2 entries, 0 explicit references.
+- `CC-P2-A3-S20`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 20: TRIWIZARD TOURNAMENT, MAZE, 1995, pages 179-183, 2 entries, 0 explicit references.
+- `CC-P2-A3-S21`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 3, Scene 21: ST. OSWALD’S HOME FOR OLD WITCHES AND WIZARDS, DELPHI’S ROOM, pages 184-188, 0 entries, 0 explicit references.
+- `CC-P2-A4-S01`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 4, Scene 1: MINISTRY OF MAGIC, GRAND MEETING ROOM, pages 189-191, 1 entries, 0 explicit references.
+- `CC-P2-A4-S02`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 4, Scene 2: SCOTTISH HIGHLANDS, AVIEMORE TRAIN STATION, 1981, pages 192-193, 0 entries, 0 explicit references.
+- `CC-P2-A4-S03`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 4, Scene 3: GODRIC’S HOLLOW, 1981, pages 194-195, 2 entries, 0 explicit references.
+- `CC-P2-A4-S04`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 4, Scene 4: MINISTRY OF MAGIC, HARRY’S OFFICE, pages 196-199, 2 entries, 0 explicit references.
+- `CC-P2-A4-S05`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 4, Scene 5: GODRIC’S HOLLOW, OUTSIDE JAMES AND LILY POTTER’S HOUSE, 1981, pages 200-203, 2 entries, 0 explicit references.
+- `CC-P2-A4-S06`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 4, Scene 6: HARRY AND GINNY POTTER’S HOUSE, ALBUS’S ROOM, pages 204-206, 1 entries, 0 explicit references.
+- `CC-P2-A4-S07`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 4, Scene 7: GODRIC’S HOLLOW, pages 207-208, 0 entries, 0 explicit references.
+- `CC-P2-A4-S08`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 4, Scene 8: GODRIC’S HOLLOW, A SHED, 1981, pages 209-210, 0 entries, 0 explicit references.
+- `CC-P2-A4-S09`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 4, Scene 9: GODRIC’S HOLLOW, ST. JEROME’S CHURCH, SANCTUARY, 1981, pages 211-213, 1 entries, 0 explicit references.
+- `CC-P2-A4-S10`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 4, Scene 10: GODRIC’S HOLLOW, ST. JEROME’S CHURCH, 1981, pages 214-217, 2 entries, 0 explicit references.
+- `CC-P2-A4-S11`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 4, Scene 11: GODRIC’S HOLLOW, ST. JEROME’S CHURCH, 1981, pages 218-224, 0 entries, 0 explicit references.
+- `CC-P2-A4-S12`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 4, Scene 12: GODRIC’S HOLLOW, 1981, pages 225-226, 1 entries, 0 explicit references.
+- `CC-P2-A4-S13`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 4, Scene 13: GODRIC’S HOLLOW, INSIDE JAMES AND LILY POTTER’S HOUSE, 1981, pages 227-228, 1 entries, 0 explicit references.
+- `CC-P2-A4-S14`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 4, Scene 14: HOGWARTS, CLASSROOM, pages 229-231, 2 entries, 0 explicit references.
+- `CC-P2-A4-S15`: Harry Potter and the Cursed Child: Parts One and Two, Part 2, Act 4, Scene 15: A BEAUTIFUL HILL, pages 232-235, 1 entries, 0 explicit references.
 - `fb-ch00`: Fantastic Beasts and Where to Find Them, Front Matter, Contents, Author, and Foreword, pages 1-8, 6 entries, 0 explicit references.
 - `fb-ch01`: Fantastic Beasts and Where to Find Them, About This Book and What Is a Beast?, pages 9-13, 7 entries, 0 explicit references.
 - `fb-ch02`: Fantastic Beasts and Where to Find Them, A Brief History of Muggle Awareness of Fantastic Beasts, pages 14-15, 7 entries, 0 explicit references.

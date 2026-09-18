@@ -1,0 +1,173 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 12: MINISTRY OF MAGIC, GRAND MEETING ROOM'
+  scene_id: CC-P1-A1-S12
+  part: 1
+  act: 1
+  scene: 12
+  chapter_start_pdf_page: 51
+  chapter_end_pdf_page: 52
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete pp. 51–52 read. Retained battle retrospective and stores/Restricted
+    Register/Peeves report.
+entries:
+- id: cc-p1-a1-s12-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 12: MINISTRY OF MAGIC, GRAND MEETING ROOM'
+  part: 1
+  act: 1
+  scene: 12
+  scene_id: CC-P1-A1-S12
+  chapter_start_pdf_page: 51
+  chapter_end_pdf_page: 52
+  pdf_page: 51
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 528:544; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HERMIONE
+    end_phrase: HERMIONE
+    local_occurrence_note: Name anchor at normalized page offset 255; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 528
+    char_end: 544
+    text_sha256: 60027a381ca4214c55f46e9769a4e36ffa84a80c287a63f7d1882dc2995352fb
+  nearby_context: Complete pp. 51–52 read. Retained battle retrospective and stores/Restricted
+    Register/Peeves report.
+  match_terms:
+  - battle-of-hogwarts
+  - postwar-history
+  quote_excerpt_short: null
+  source_note: Hermione publicly dates Voldemort's defeat at the Battle of Hogwarts
+    twenty-two years before the meeting and describes the intervening years as largely
+    peaceful for a new generation.
+  speaker: Hermione Granger
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: post_1984_excluded_from_original
+  historical_period: 1998 battle recalled at 2020 meeting
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: Battle participant speaks publicly; peace is her broad assessment.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: remembered_reported_hypothetical
+  timeline_detail: Primary-history recollection before time alterations.
+  topic_tags:
+  - battle-of-hogwarts
+  - postwar-history
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Public battle retrospective
+  candidate_section: Public battle retrospective
+  reason_for_placement: Research candidate for Public battle retrospective; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - dh-ch36-004
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Calendar year inferred from chronology; passage itself gives a relative
+    interval. Peace does not mean an absence of all conflict.
+- id: cc-p1-a1-s12-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 12: MINISTRY OF MAGIC, GRAND MEETING ROOM'
+  part: 1
+  act: 1
+  scene: 12
+  scene_id: CC-P1-A1-S12
+  chapter_start_pdf_page: 51
+  chapter_end_pdf_page: 52
+  pdf_page: 51
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1319:1333; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: PROFESSOR McGONAGALL
+    end_phrase: PROFESSOR McGONAGALL
+    local_occurrence_note: Name anchor at normalized page offset 1276; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1319
+    char_end: 1333
+    text_sha256: 57b1a97d31d633c29a4881bc9c0963174cc9ac694edb7215c36a58bd3f3c873c
+  nearby_context: Complete pp. 51–52 read. Retained battle retrospective and stores/Restricted
+    Register/Peeves report.
+  match_terms:
+  - potions
+  - restricted-register
+  - peeves
+  - potion-ingredients
+  quote_excerpt_short: null
+  source_note: 'McGonagall reports signs of interference with school potion stores
+    after summer break: small quantities of Boomslang skin and lacewing flies missing.
+    Neither is on the Restricted Register; staff initially blamed Peeves.'
+  speaker: Professor McGonagall
+  evidence_mode: dialogue_claim
+  reference_type: security_or_protection
+  era_classification: post_1984_excluded_from_original
+  historical_period: Return from summer break, 2020
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: McGonagall reports staff observation and suspicion; Hermione
+    promises investigation.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: primary
+  timeline_detail: Primary chronology before any intervention in the past.
+  topic_tags:
+  - potions
+  - restricted-register
+  - peeves
+  - potion-ingredients
+  - cursed-child
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: School stores and restricted ingredients
+  candidate_section: School stores and restricted ingredients
+  reason_for_placement: Research candidate for School stores and restricted ingredients;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - cos-ch11-002
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Peeves is suspected, not proven responsible. Register's authority,
+    scope and creation date are unspecified.

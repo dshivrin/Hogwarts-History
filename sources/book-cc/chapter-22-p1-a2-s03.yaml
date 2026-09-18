@@ -1,0 +1,259 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 3: HOGWARTS, HEADMISTRESS’S OFFICE'
+  scene_id: CC-P1-A2-S03
+  part: 1
+  act: 2
+  scene: 3
+  chapter_start_pdf_page: 80
+  chapter_end_pdf_page: 81
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+entries:
+- id: cc-p1-a2-s03-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 3: HOGWARTS, HEADMISTRESS’S OFFICE'
+  part: 1
+  act: 2
+  scene: 3
+  scene_id: CC-P1-A2-S03
+  chapter_start_pdf_page: 80
+  chapter_end_pdf_page: 81
+  pdf_page: 80
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 358:378; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: PROFESSOR McGONAGALL
+    end_phrase: PROFESSOR McGONAGALL
+    local_occurrence_note: Name anchor at normalized page offset 321; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 358
+    char_end: 378
+    text_sha256: c6eba6057e4ae5194875b32223d6c5240bebf8c3bcb5364e424ca8f0b06ef982
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - neville-longbottom
+  - staff
+  - student-safety
+  - forbidden-forest
+  quote_excerpt_short: null
+  source_note: McGonagall offers Professor Longbottom for the Forest search because
+    of his knowledge of plants, showing staff expertise mobilized in a missing-pupil
+    emergency.
+  speaker: McGonagall
+  evidence_mode: dialogue_claim
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: McGonagall supplies the account; knowledge is limited to this
+    timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: primary
+  timeline_detail: Primary present before the first intervention.
+  topic_tags:
+  - neville-longbottom
+  - staff
+  - student-safety
+  - forbidden-forest
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Staff and School Welfare
+  candidate_section: Plant expertise in search operations
+  reason_for_placement: Research candidate for Plant expertise in search operations;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Later dramatic evidence; no date of institutional introduction or general
+    policy is established.
+- id: cc-p1-a2-s03-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 3: HOGWARTS, HEADMISTRESS’S OFFICE'
+  part: 1
+  act: 2
+  scene: 3
+  scene_id: CC-P1-A2-S03
+  chapter_start_pdf_page: 80
+  chapter_end_pdf_page: 81
+  pdf_page: 80
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 449:470; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: PROFESSOR McGONAGALL
+    end_phrase: PROFESSOR McGONAGALL
+    local_occurrence_note: Name anchor at normalized page offset 321; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 449
+    char_end: 470
+    text_sha256: 3befd10d6cc3570a6738e38bb3a7301e9bd433d89b06031deed9dac1bcf15c04
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - floo-network
+  - headmistress
+  - mcgonagall
+  - headmaster-office
+  quote_excerpt_short: null
+  source_note: Hermione and Draco arrive through the headmistress’s chimney; Ron reports
+    selecting the wrong Floo and reaching a kitchen. McGonagall occupies the headmistress’s
+    office.
+  speaker: Stage directions; Ron
+  evidence_mode: stage_direction
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Directly shown to the audience; characters present can observe
+    the event.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: primary
+  timeline_detail: Primary present before the first intervention.
+  topic_tags:
+  - floo-network
+  - headmistress
+  - mcgonagall
+  - headmaster-office
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Castle Transport and Administration
+  candidate_section: Floo access to the headmistress’s office
+  reason_for_placement: Research candidate for Floo access to the headmistress’s office;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - hbp-ch17-001
+    - ext-a24-003
+    notes: 'Office Floo arrival has an indexed antecedent: a Ministry-arranged temporary
+      return through McGonagall’s office. This later headmistress-office arrival adds
+      a new occasion/location context, not the invention of Hogwarts office Floo access.
+      Mention the normal exclusion of Hogwarts fireplaces; neither source establishes
+      unrestricted access.'
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: The kitchen is Ron’s report and is not independently located; emergency
+    access does not establish unrestricted routine access.
+- id: cc-p1-a2-s03-003
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 3: HOGWARTS, HEADMISTRESS’S OFFICE'
+  part: 1
+  act: 2
+  scene: 3
+  scene_id: CC-P1-A2-S03
+  chapter_start_pdf_page: 80
+  chapter_end_pdf_page: 81
+  pdf_page: 80
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 744:765; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: GINNY
+    end_phrase: GINNY
+    local_occurrence_note: Name anchor at normalized page offset 642; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 744
+    char_end: 765
+    text_sha256: 67897a666253b1ad6e782b432226dc3e8d91c26870483509154a494c0a36fea6
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - student-safety
+  - daily-prophet
+  - search
+  quote_excerpt_short: null
+  source_note: Ginny reports arranging an emergency Daily Prophet edition seeking
+    volunteers in the missing-student search, and McGonagall expects many helpers.
+  speaker: Ginny; McGonagall
+  evidence_mode: dialogue_claim
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Ginny; McGonagall supplies the account; knowledge is limited
+    to this timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: primary
+  timeline_detail: Primary present before the first intervention.
+  topic_tags:
+  - student-safety
+  - daily-prophet
+  - search
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Staff and School Welfare
+  candidate_section: Public recruitment during a search
+  reason_for_placement: Research candidate for Public recruitment during a search;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Later dramatic evidence; no date of institutional introduction or general
+    policy is established.

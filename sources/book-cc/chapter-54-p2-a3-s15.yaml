@@ -1,0 +1,179 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 15: HOGWARTS, SLYTHERIN DORMITORY'
+  scene_id: CC-P2-A3-S15
+  part: 2
+  act: 3
+  scene: 15
+  chapter_start_pdf_page: 166
+  chapter_end_pdf_page: 167
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+entries:
+- id: cc-p2-a3-s15-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 15: HOGWARTS, SLYTHERIN DORMITORY'
+  part: 2
+  act: 3
+  scene: 15
+  scene_id: CC-P2-A3-S15
+  chapter_start_pdf_page: 166
+  chapter_end_pdf_page: 167
+  pdf_page: 166
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 360:383; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: CRAIG BOWKER JR.
+    end_phrase: CRAIG BOWKER JR.
+    local_occurrence_note: Name anchor at normalized page offset 271; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 360
+    char_end: 383
+    text_sha256: 4f24ddbeb8d7028d5f732572c243633dec9568edeb2163a7b15c3e0d5ed8d198
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - school-covenant
+  - house-security
+  - house-dormitories
+  - parental-access
+  quote_excerpt_short: null
+  source_note: Craig states that parents or professors require express permission
+    to enter House quarters under the school covenant. McGonagall interrupts before
+    he identifies whose permission is required.
+  speaker: Craig Bowker Jr.
+  evidence_mode: dialogue_claim
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  historical_period: Albus Potter school years, fourth-year crisis
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: primary
+  timeline_detail: Restored primary timeline after reversal of the first two Triwizard
+    interventions.
+  topic_tags:
+  - school-covenant
+  - house-security
+  - house-dormitories
+  - parental-access
+  - cursed-child
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: House Common Rooms and Dormitories
+  candidate_section: 'House Common Rooms and Dormitories: Permission for adult entry'
+  reason_for_placement: 'Research candidate for House Common Rooms and Dormitories:
+    Permission for adult entry; retain source mode and timeline before any editorial
+    use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: 'Source is a pupil’s statement and is unfinished: do not supply who
+    grants permission or infer that the headmistress is formally exempt.'
+- id: cc-p2-a3-s15-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 15: HOGWARTS, SLYTHERIN DORMITORY'
+  part: 2
+  act: 3
+  scene: 15
+  scene_id: CC-P2-A3-S15
+  chapter_start_pdf_page: 166
+  chapter_end_pdf_page: 167
+  pdf_page: 166
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 687:700; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HARRY
+    end_phrase: HARRY
+    local_occurrence_note: Name anchor at normalized page offset 670; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 687
+    char_end: 700
+    text_sha256: 3523ab30d966f64de59a4e6fe1b26bd81fe3f2b21926d32b61ddc1a9140a3c5d
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - house-dormitories
+  - bed-curtains
+  - school-search
+  - mcgonagall
+  quote_excerpt_short: null
+  source_note: Harry and Ginny open separate bed-curtains in the Slytherin dormitory
+    to check the boys’ beds; McGonagall directs a search when both are absent.
+  speaker: 'Stage directions: Harry, Ginny and McGonagall'
+  evidence_mode: stage_direction
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  historical_period: Albus Potter school years, fourth-year crisis
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: primary
+  timeline_detail: Restored primary timeline after reversal of the first two Triwizard
+    interventions.
+  topic_tags:
+  - house-dormitories
+  - bed-curtains
+  - school-search
+  - mcgonagall
+  - cursed-child
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: House Common Rooms and Dormitories
+  candidate_section: 'House Common Rooms and Dormitories: Beds and emergency search'
+  reason_for_placement: 'Research candidate for House Common Rooms and Dormitories:
+    Beds and emergency search; retain source mode and timeline before any editorial
+    use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Scene-specific evidence; does not establish an enduring schoolwide
+    practice or pre-1984 origin.

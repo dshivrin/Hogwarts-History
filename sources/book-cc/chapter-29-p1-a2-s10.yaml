@@ -1,0 +1,271 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 10: HOGWARTS, HEADMISTRESS’S OFFICE'
+  scene_id: CC-P1-A2-S10
+  part: 1
+  act: 2
+  scene: 10
+  chapter_start_pdf_page: 99
+  chapter_end_pdf_page: 100
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+entries:
+- id: cc-p1-a2-s10-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 10: HOGWARTS, HEADMISTRESS’S OFFICE'
+  part: 1
+  act: 2
+  scene: 10
+  scene_id: CC-P1-A2-S10
+  chapter_start_pdf_page: 99
+  chapter_end_pdf_page: 100
+  pdf_page: 99
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 555:579; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: PROFESSOR McGONAGALL
+    end_phrase: PROFESSOR McGONAGALL
+    local_occurrence_note: Name anchor at normalized page offset 350; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 555
+    char_end: 579
+    text_sha256: 9eae1f748de7ab4a92a78f8ece41ef450cdce85b9f8442771eb3e29e04077732
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - divination
+  - source-reliability
+  - student-safety
+  quote_excerpt_short: null
+  source_note: McGonagall challenges Bane’s reliability and reports expert checks
+    finding no hex or curse on Albus.
+  speaker: McGonagall
+  evidence_mode: dialogue_claim
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: McGonagall supplies the account; knowledge is limited to this
+    timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - divination
+  - source-reliability
+  - student-safety
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: School Welfare
+  candidate_section: Conflicting assessments of supposed danger
+  reason_for_placement: Research candidate for Conflicting assessments of supposed
+    danger; retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Absence of a detected curse is not proof of absence of danger; Bane’s
+    dishonesty is McGonagall’s possibility, not an established fact.
+- id: cc-p1-a2-s10-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 10: HOGWARTS, HEADMISTRESS’S OFFICE'
+  part: 1
+  act: 2
+  scene: 10
+  scene_id: CC-P1-A2-S10
+  chapter_start_pdf_page: 99
+  chapter_end_pdf_page: 100
+  pdf_page: 100
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 39:59; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: PROFESSOR McGONAGALL
+    end_phrase: PROFESSOR McGONAGALL
+    local_occurrence_note: Name anchor at normalized page offset 0; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 39
+    char_end: 59
+    text_sha256: 420a3c0608b56cfdf5f24e213dea13e0dc9c432f540f61f723ee68344abb8e93
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - headmaster-portraits
+  - institutional-memory
+  - portrait-limits
+  - succession
+  quote_excerpt_short: portrait is a memoir
+  source_note: McGonagall defines a head teacher’s portrait as a memoir supporting
+    the incumbent’s decisions and recalls advice on taking office not to confuse portrait
+    with person; her preceding comment says portraits represent less than half their
+    subjects.
+  speaker: McGonagall
+  evidence_mode: dialogue_claim
+  reference_type: portrait_or_ghost_lore
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: McGonagall supplies the account; knowledge is limited to this
+    timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - headmaster-portraits
+  - institutional-memory
+  - portrait-limits
+  - succession
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Portraits, Ghosts, and the School’s Memory
+  candidate_section: Advisory role and limits of former-head portraits
+  reason_for_placement: Research candidate for Advisory role and limits of former-head
+    portraits; retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - ext-a05-003
+    notes: Similarity is limited to the identified institutional background; altered
+      outcomes remain separate.
+    conflict_note: null
+  supporting_locations:
+  - scene_id: CC-P1-A2-S10
+    pdf_page: 99
+    timeline: altered
+    timeline_detail: First altered present created by the 1994 first-task intervention;
+      Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+    note: Preceding statement limits how much of a subject a portrait represents;
+      not a literal numerical measurement.
+  confidence: high
+  limitations: First altered timeline. Supports comparison with existing portrait
+    lore, not primary-world adoption of its exact wording or a quantified psychological
+    claim.
+- id: cc-p1-a2-s10-003
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 10: HOGWARTS, HEADMISTRESS’S OFFICE'
+  part: 1
+  act: 2
+  scene: 10
+  scene_id: CC-P1-A2-S10
+  chapter_start_pdf_page: 99
+  chapter_end_pdf_page: 100
+  pdf_page: 100
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 997:1023; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HARRY
+    end_phrase: HARRY
+    local_occurrence_note: Name anchor at normalized page offset 815; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 997
+    char_end: 1023
+    text_sha256: 21dd714bcf27151d642bbe224b37c8902c4c12bbb52571456f8f21c273d18e9b
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - ministry-intervention
+  - headmistress-authority
+  - parental-intervention
+  quote_excerpt_short: null
+  source_note: Harry threatens Ministry intervention if McGonagall will not use the
+    map as demanded; she has objected to the scheme and questions its wisdom.
+  speaker: Harry; McGonagall
+  evidence_mode: dialogue_claim
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Harry; McGonagall supplies the account; knowledge is limited
+    to this timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - ministry-intervention
+  - headmistress-authority
+  - parental-intervention
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Rules, Discipline, and Governance
+  candidate_section: Pressure on headmistress discretion
+  reason_for_placement: Research candidate for Pressure on headmistress discretion;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations:
+  - scene_id: CC-P1-A2-S13
+    pdf_page: 104
+    timeline: altered
+    timeline_detail: First altered present created by the 1994 first-task intervention;
+      Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+    note: Draco subsequently reports timetable changes and pressure on teachers in
+      the same altered branch (p104).
+  confidence: high
+  limitations: Threatened political pressure does not prove lawful jurisdiction or
+    that Ministry action occurred.

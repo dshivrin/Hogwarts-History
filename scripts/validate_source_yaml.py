@@ -75,7 +75,7 @@ EXTERNAL_ENTRY_REQUIRED = {
 }
 CONFIDENCE_VALUES = {"high", "medium", "low"}
 BOOK_SOURCE_NAME_RE = re.compile(
-    r"^book-(?:\d{2}|qtta|beedle|fb)/chapter-\d{2}-[a-z0-9-]+\.yaml$"
+    r"^book-(?:\d{2}|qtta|beedle|fb|cc)/chapter-\d{2}-[a-z0-9-]+\.yaml$"
 )
 EXTERNAL_SOURCE_NAME_RE = re.compile(
     r"^external/(?:official-rowling|official-editorial|interviews)/[a-z0-9-]+\.yaml$"
@@ -402,6 +402,178 @@ def validate_index_files(root: Path) -> list[str]:
     return errors
 
 
+def validate_script_entry(entry: dict, scene: dict, known_ids: set[str]) -> list[str]:
+    """Additional provenance checks for script entries using the book schema."""
+    errors = []
+    label = str(entry.get('id', 'CC entry'))
+    for key in ('source_id', 'scene_id', 'part', 'act', 'scene', 'speaker',
+                'evidence_mode', 'historical_period', 'information_available',
+                'character_knowledge', 'bagshot_1984_access', 'timeline', 'timeline_detail'):
+        if entry.get(key) in (None, ''):
+            errors.append(f'{label}: missing script field {key}')
+    if entry.get('source_id') != 'CC':
+        errors.append(f'{label}: source_id must be CC')
+    for key in ('scene_id', 'part', 'act', 'scene'):
+        if entry.get(key) != scene.get(key):
+            errors.append(f'{label}: {key} disagrees with manifest')
+    if scene.get('source_file'):
+        expected = {'source_file': scene['source_file'],
+                    'chapter_start_pdf_page': scene['page_start'],
+                    'chapter_end_pdf_page': scene['page_end']}
+        for key, value in expected.items():
+            if entry.get(key) != value:
+                errors.append(f'{label}: {key} disagrees with manifest')
+    prefix = str(scene.get('scene_id', '')).lower()
+    if not re.fullmatch(re.escape(prefix) + r'-\d{3}', label):
+        errors.append(f'{label}: ID must use scene prefix and three-digit ordinal')
+    page = entry.get('pdf_page')
+    if not isinstance(page, int) or not scene['page_start'] <= page <= scene['page_end']:
+        errors.append(f'{label}: PDF page outside scene range')
+    if entry.get('timeline') not in {'primary', 'altered', 'historical_visit', 'remembered_reported_hypothetical'}:
+        errors.append(f'{label}: invalid timeline')
+    if entry.get('evidence_mode') not in {'dialogue_claim', 'stage_direction', 'transition', 'editorial_inference'}:
+        errors.append(f'{label}: invalid evidence_mode')
+    if entry.get('timeline') == 'altered' and entry.get('era_classification') not in {
+            'later_editorial_note', 'post_1984_excluded_from_original', 'unknown_or_uncertain'}:
+        errors.append(f'{label}: altered timeline cannot establish original-book history')
+    comparison = entry.get('comparison') or {}
+    if not isinstance(comparison, dict):
+        return errors + [f'{label}: comparison must be a mapping']
+    if comparison.get('relation') not in {'new_information', 'corroboration', 'contradiction', 'out_of_scope'}:
+        errors.append(f'{label}: invalid comparison relation')
+    targets = comparison.get('related_ids') or []
+    if not isinstance(targets, list):
+        return errors + [f'{label}: comparison related_ids must be a list']
+    for target in targets:
+        if target not in known_ids:
+            errors.append(f'{label}: unknown comparison target {target}')
+    return errors
+
+
+def validate_script_passage(entry: dict, text: str) -> list[str]:
+    """Verify a compact passage locator without reproducing the script."""
+    label = entry.get('id', 'CC entry')
+    locator = entry.get('passage_locator')
+    if not isinstance(locator, dict):
+        return [f'{label}: passage_locator must be a mapping']
+    start, end = locator.get('char_start'), locator.get('char_end')
+    if not isinstance(start, int) or not isinstance(end, int) or not 0 <= start < end <= len(text):
+        return [f'{label}: invalid passage character range']
+    actual = hashlib.sha256(text[start:end].encode()).hexdigest()
+    if actual != locator.get('text_sha256'):
+        return [f'{label}: passage hash mismatch']
+    return []
+
+
+def validate_script_manifest(root: Path) -> list[str]:
+    """Check scene coverage against embedded headings in the original carrier."""
+    manifest_path = root / 'resources/manifests/cursed-child.yaml'
+    if not manifest_path.exists():
+        if (root / 'sources/book-cc').exists():
+            return ['CC: source manifest missing']
+        return []
+    from pypdf import PdfReader
+    errors = []
+    try:
+        manifest = load_yaml(manifest_path)
+        pdf_path = root / manifest['source_file']
+        if hashlib.sha256(pdf_path.read_bytes()).hexdigest() != manifest['sha256']:
+            errors.append('CC: original PDF hash mismatch')
+        reader = PdfReader(pdf_path)
+        if len(reader.pages) != manifest['pdf_pages']:
+            errors.append('CC: PDF page count mismatch')
+        texts = [re.sub(r'\s+', ' ', page.extract_text() or '').strip() for page in reader.pages]
+        words = ['ZERO','ONE','TWO','THREE','FOUR','FIVE','SIX','SEVEN','EIGHT','NINE','TEN',
+                 'ELEVEN','TWELVE','THIRTEEN','FOURTEEN','FIFTEEN','SIXTEEN','SEVENTEEN',
+                 'EIGHTEEN','NINETEEN','TWENTY','TWENTY-ONE']
+        headings = []
+        for page, text in enumerate(texts,1):
+            match = re.search(r'ACT (ONE|TWO|THREE|FOUR), SCENE ([A-Z-]+)', text)
+            if match:
+                act, number = words.index(match[1]), words.index(match[2])
+                headings.append((1 if act <= 2 else 2, act, number, page))
+        scenes = manifest['scenes']
+        scene_by_id = {s['scene_id']: s for s in scenes}
+        actual = [(s['part'],s['act'],s['scene'],s['page_start']) for s in scenes]
+        if actual != headings or len(scenes) != manifest['scene_count']:
+            errors.append('CC: scene manifest does not exactly cover PDF headings')
+        if len({s['part'] for s in scenes}) != manifest['parts'] or len({s['act'] for s in scenes}) != manifest['acts']:
+            errors.append('CC: part/act counts disagree')
+        for act in range(1,5):
+            numbers = [s['scene'] for s in scenes if s['act'] == act]
+            if numbers != list(range(1,len(numbers)+1)):
+                errors.append(f'CC: nonconsecutive scenes in act {act}')
+        known_ids = set()
+        for path in discover_source_yaml(root):
+            data = load_yaml(path)
+            if not isinstance(data, dict) or not isinstance(data.get('entries'), list):
+                continue  # Already reported by the canonical source validator.
+            for entry in data['entries']:
+                if isinstance(entry, dict) and isinstance(entry.get('id'), str):
+                    known_ids.add(entry['id'])
+        listed_paths = set()
+        for index, scene in enumerate(scenes):
+            label = scene['scene_id']
+            expected_id = f"CC-P{scene['part']}-A{scene['act']}-S{scene['scene']:02}"
+            if label != expected_id:
+                errors.append(f'{label}: unstable scene identifier')
+            expected_end = scenes[index+1]['page_start']-1 if index+1 < len(scenes) else manifest['narrative_end_pdf_page']
+            if scene['page_end'] != expected_end:
+                errors.append(f'{label}: invalid scene end boundary')
+            if scene.get('status') != 'complete' or not scene.get('review_note'):
+                errors.append(f'{label}: scene review incomplete')
+            path = root / scene['output_file']
+            listed_paths.add(path)
+            if not path.is_file():
+                errors.append(f'{label}: scene YAML missing')
+                continue
+            data = load_yaml(path)
+            if not isinstance(data, dict) or not isinstance(data.get('source_unit'), dict) or not isinstance(data.get('entries'), list):
+                errors.append(f'{label}: malformed scene source YAML')
+                continue
+            unit = data['source_unit']
+            for key in ('source_id','source_file'):
+                if unit.get(key) != manifest[key]:
+                    errors.append(f'{label}: source_unit {key} mismatch')
+            if unit.get('scene_id') != label or unit.get('chapter_start_pdf_page') != scene['page_start'] or unit.get('chapter_end_pdf_page') != scene['page_end']:
+                errors.append(f'{label}: source_unit scene range mismatch')
+            for key in ('part', 'act', 'scene'):
+                if unit.get(key) != scene[key]:
+                    errors.append(f'{label}: source_unit {key} mismatch')
+            if len(data['entries']) != scene.get('entry_count'):
+                errors.append(f'{label}: entry count mismatch')
+            for ordinal, entry in enumerate(data['entries'],1):
+                if not isinstance(entry, dict):
+                    errors.append(f'{label}: entry must be a mapping')
+                    continue
+                errors.extend(validate_script_entry(entry,dict(scene, source_file=manifest['source_file']),known_ids))
+                if entry.get('id') != f'{label.lower()}-{ordinal:03}':
+                    errors.append(f'{label}: nonconsecutive evidence ID')
+                page = entry.get('pdf_page')
+                if isinstance(page,int) and 1 <= page <= len(texts):
+                    errors.extend(validate_script_passage(entry, texts[page-1]))
+                    anchor = entry.get('text_anchor')
+                    if not isinstance(anchor, dict):
+                        errors.append(f'{label}: text_anchor must be a mapping')
+                        continue
+                    for key in ('start_phrase','end_phrase'):
+                        phrase = re.sub(r'\s+',' ',str(anchor.get(key) or '')).strip()
+                        if not phrase or phrase not in texts[page-1]:
+                            errors.append(f"{entry['id']}: {key} absent from cited page")
+                for support in entry.get('supporting_locations') or []:
+                    target = scene_by_id.get(support.get('scene_id'))
+                    support_page = support.get('pdf_page')
+                    if not target or not isinstance(support_page, int) or not target['page_start'] <= support_page <= target['page_end']:
+                        errors.append(f'{label}: supporting location outside its scene')
+                    if not support.get('timeline') or not support.get('timeline_detail') or not support.get('note'):
+                        errors.append(f'{label}: supporting location lacks timeline or interpretation')
+        if listed_paths != set((root / 'sources/book-cc').glob('*.yaml')):
+            errors.append('CC: unregistered or missing scene files')
+    except (OSError, KeyError, TypeError, ValueError, AttributeError, yaml.YAMLError) as exc:
+        errors.append(f'CC: invalid manifest or source: {exc}')
+    return errors
+
+
 def validate(root: Path, strict: bool) -> list[str]:
     reference_types = schema_values(root, "Reference Types")
     era_classifications = schema_values(root, "Era Classifications")
@@ -411,6 +583,7 @@ def validate(root: Path, strict: bool) -> list[str]:
     errors.extend(validate_generated_files(root))
     errors.extend(validate_book_seed(root, source_entry_count))
     errors.extend(validate_index_files(root))
+    errors.extend(validate_script_manifest(root))
     return errors
 
 

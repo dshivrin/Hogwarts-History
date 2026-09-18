@@ -1,0 +1,179 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 5: FORBIDDEN FOREST'
+  scene_id: CC-P1-A2-S05
+  part: 1
+  act: 2
+  scene: 5
+  chapter_start_pdf_page: 85
+  chapter_end_pdf_page: 86
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+entries:
+- id: cc-p1-a2-s05-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 5: FORBIDDEN FOREST'
+  part: 1
+  act: 2
+  scene: 5
+  scene_id: CC-P1-A2-S05
+  chapter_start_pdf_page: 85
+  chapter_end_pdf_page: 86
+  pdf_page: 85
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 860:879; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: BANE
+    end_phrase: BANE
+    local_occurrence_note: Name anchor at normalized page offset 757; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 860
+    char_end: 879
+    text_sha256: afb1a73ff7472d41a60c143fa5ff90f7ced844c0afb8d081ce40d029b8d829bf
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - centaurs
+  - forbidden-forest
+  - territorial-authority
+  - battle-of-hogwarts
+  quote_excerpt_short: null
+  source_note: Bane says the Forest was recognized as centaur land after the Battle
+    of Hogwarts and treats humans entering without permission as enemies. He distinguishes
+    fighting for the herd’s honor from fighting for Harry.
+  speaker: Bane
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  historical_period: After the 1998 Battle, reported in primary later present
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Bane supplies the account; knowledge is limited to this timeline
+    and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: primary
+  timeline_detail: Primary present before the first intervention.
+  topic_tags:
+  - centaurs
+  - forbidden-forest
+  - territorial-authority
+  - battle-of-hogwarts
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Forest and Non-Human Neighbors
+  candidate_section: Post-Battle centaur territorial settlement
+  reason_for_placement: Research candidate for Post-Battle centaur territorial settlement;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - ootp-ch30-007
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Unilateral testimony; no instrument, grantor, exact boundaries, or
+    settlement date is supplied. Earlier territorial assertions do not duplicate a
+    claimed post-Battle settlement.
+- id: cc-p1-a2-s05-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 5: FORBIDDEN FOREST'
+  part: 1
+  act: 2
+  scene: 5
+  scene_id: CC-P1-A2-S05
+  chapter_start_pdf_page: 85
+  chapter_end_pdf_page: 86
+  pdf_page: 86
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 301:323; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: BANE
+    end_phrase: BANE
+    local_occurrence_note: Name anchor at normalized page offset 245; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 301
+    char_end: 323
+    text_sha256: 343dbda1970ca82a2e4916f3eecf88c3ff1777557826407577747519a287c20c
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - centaurs
+  - divination
+  - bane
+  quote_excerpt_short: null
+  source_note: Bane says his knowledge of danger surrounding Albus comes from the
+    stars, while explicitly disclaiming knowledge of the boy’s location or how Harry
+    will find him.
+  speaker: Bane
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Bane supplies the account; knowledge is limited to this timeline
+    and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: primary
+  timeline_detail: Primary present before the first intervention.
+  topic_tags:
+  - centaurs
+  - divination
+  - bane
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Forest and Non-Human Neighbors
+  candidate_section: Centaur divination and its stated limits
+  reason_for_placement: Research candidate for Centaur divination and its stated limits;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - ps-ch15-007
+    notes: Bane’s celestial divination repeats indexed planetary-divination testimony.
+      The particular warning is new but chiefly plot; retain only enough of it to
+      document the stated limits of his reading.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: His interpretation is not demonstrated as a precise forecast and does
+    not identify the danger.

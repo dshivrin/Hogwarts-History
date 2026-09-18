@@ -1,0 +1,415 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 20: TRIWIZARD TOURNAMENT, LAKE, 1995'
+  scene_id: CC-P1-A2-S20
+  part: 1
+  act: 2
+  scene: 20
+  chapter_start_pdf_page: 125
+  chapter_end_pdf_page: 131
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+entries:
+- id: cc-p1-a2-s20-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 20: TRIWIZARD TOURNAMENT, LAKE, 1995'
+  part: 1
+  act: 2
+  scene: 20
+  scene_id: CC-P1-A2-S20
+  chapter_start_pdf_page: 125
+  chapter_end_pdf_page: 131
+  pdf_page: 125
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 780:792; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 278; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 780
+    char_end: 792
+    text_sha256: 0471479d668d39aebcfccdf4178c77125612201840d68a4e1459a3ff6c3e3e2e
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - triwizard-tournament
+  - black-lake
+  - gillyweed
+  - bubble-head-charm
+  quote_excerpt_short: null
+  source_note: At the visited 1995 lake task, Bagman describes Krum’s shark transformation,
+    Harry’s gillyweed, and Cedric’s breathing bubble; the stage shows the bubble around
+    Cedric’s head.
+  speaker: Bagman; stage directions
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  historical_period: 1995 second task
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Bagman; stage directions supplies the account; knowledge is
+    limited to this timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: historical_visit
+  timeline_detail: 1995 second task visited from the first altered branch; the subsequent
+    attack generates the Voldemort-victory branch.
+  topic_tags:
+  - triwizard-tournament
+  - black-lake
+  - gillyweed
+  - bubble-head-charm
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Tournament
+  candidate_section: Second-task underwater methods
+  reason_for_placement: Research candidate for Second-task underwater methods; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Later dramatic evidence; no date of institutional introduction or general
+    policy is established.
+- id: cc-p1-a2-s20-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 20: TRIWIZARD TOURNAMENT, LAKE, 1995'
+  part: 1
+  act: 2
+  scene: 20
+  scene_id: CC-P1-A2-S20
+  chapter_start_pdf_page: 125
+  chapter_end_pdf_page: 131
+  pdf_page: 125
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 953:970; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 905; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 953
+    char_end: 970
+    text_sha256: cd6ff3daf76441c65df8870cb8cd3361125593bf50a5a924ec27b212031a4fbd
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - triwizard-tournament
+  - time-travel
+  - engorgement
+  quote_excerpt_short: null
+  source_note: The boys cast underwater at Cedric, enlarging him and forcing him out
+    of the task; on the following page spectators laugh as he rises and fireworks
+    appear.
+  speaker: Stage directions
+  evidence_mode: stage_direction
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  historical_period: 1995 altered second task
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Directly shown to the audience; characters present can observe
+    the event.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: historical_visit
+  timeline_detail: Second intervention, from the Ron–Padma branch into 1995; it generates
+    the Voldemort-victory present.
+  topic_tags:
+  - triwizard-tournament
+  - time-travel
+  - engorgement
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Alternative Histories of Hogwarts
+  candidate_section: Intervention at the lake task
+  reason_for_placement: Research candidate for Intervention at the lake task; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations:
+  - scene_id: CC-P1-A2-S20
+    pdf_page: 126
+    timeline: historical_visit
+    timeline_detail: Second intervention, from the Ron–Padma branch into 1995; it
+      generates the Voldemort-victory present.
+    note: Spectators react to the altered second task.
+  confidence: high
+  limitations: Counterfactual tournament disruption, not unaltered history; no general
+    lesson that Engorgement always confers buoyancy.
+- id: cc-p1-a2-s20-003
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 20: TRIWIZARD TOURNAMENT, LAKE, 1995'
+  part: 1
+  act: 2
+  scene: 20
+  scene_id: CC-P1-A2-S20
+  chapter_start_pdf_page: 125
+  chapter_end_pdf_page: 131
+  pdf_page: 126
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1589:1616; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: UMBRIDGE
+    end_phrase: UMBRIDGE
+    local_occurrence_note: Name anchor at normalized page offset 1545; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1589
+    char_end: 1616
+    text_sha256: f8a86c18bab3d1eed2611d38ca7762221f62e071ee770a8e783a1fca61046b87
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - dolores-umbridge
+  - headmistress
+  - pure-blood-families
+  quote_excerpt_short: null
+  source_note: Umbridge identifies herself as headmistress after Scorpius returns;
+    she invokes the importance of his family while disciplining him.
+  speaker: Umbridge
+  evidence_mode: dialogue_claim
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Umbridge supplies the account; knowledge is limited to this
+    timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: 'Second altered present: Voldemort victory, generated by the 1995
+    lake-task humiliation.'
+  topic_tags:
+  - dolores-umbridge
+  - headmistress
+  - pure-blood-families
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Alternative Histories of Hogwarts
+  candidate_section: Voldemort-victory school leadership
+  reason_for_placement: Research candidate for Voldemort-victory school leadership;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Later dramatic evidence; no date of institutional introduction or general
+    policy is established.
+- id: cc-p1-a2-s20-004
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 20: TRIWIZARD TOURNAMENT, LAKE, 1995'
+  part: 1
+  act: 2
+  scene: 20
+  scene_id: CC-P1-A2-S20
+  chapter_start_pdf_page: 125
+  chapter_end_pdf_page: 131
+  pdf_page: 127
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1196:1221; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: UMBRIDGE
+    end_phrase: UMBRIDGE
+    local_occurrence_note: Name anchor at normalized page offset 1039; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1196
+    char_end: 1221
+    text_sha256: ca92552bfc14e2bb48c2b227baff66f2a97f9adc9e4eb4d4691b6ab28fbae802
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - battle-of-hogwarts
+  - propaganda
+  - blood-prejudice
+  - voldemort-day
+  quote_excerpt_short: null
+  source_note: Umbridge says Harry died in the failed Battle of Hogwarts and presents
+    Dumbledore’s defenders as terrorists defeated by her side, while using a blood-status
+    slur and mentioning Voldemort Day.
+  speaker: Umbridge
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  historical_period: Divergent 1998 battle remembered over twenty years later
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Umbridge supplies the account; knowledge is limited to this
+    timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: Voldemort-victory present; retrospective regime account of its
+    divergent Battle of Hogwarts.
+  topic_tags:
+  - battle-of-hogwarts
+  - propaganda
+  - blood-prejudice
+  - voldemort-day
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Alternative Histories of Hogwarts
+  candidate_section: Regime account of the battle and commemorative calendar
+  reason_for_placement: Research candidate for Regime account of the battle and commemorative
+    calendar; retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Explicitly partisan regime testimony within a counterfactual branch,
+    not a correction to the primary Battle account.
+- id: cc-p1-a2-s20-005
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 20: TRIWIZARD TOURNAMENT, LAKE, 1995'
+  part: 1
+  act: 2
+  scene: 20
+  scene_id: CC-P1-A2-S20
+  chapter_start_pdf_page: 125
+  chapter_end_pdf_page: 131
+  pdf_page: 127
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1540:1553; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: UMBRIDGE
+    end_phrase: UMBRIDGE
+    local_occurrence_note: Name anchor at normalized page offset 1039; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1540
+    char_end: 1553
+    text_sha256: 807980c2aa1df71e28d5793a0f750b3cfd823060a9ae203741bf42482cab32f4
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - dementors
+  - voldemort-day
+  - school-symbols
+  quote_excerpt_short: null
+  source_note: Dementors appear in the theatrical environment of the school’s new
+    regime and giant snake-emblem banners descend, alongside Umbridge’s reference
+    to Voldemort Day.
+  speaker: Stage directions; Umbridge
+  evidence_mode: stage_direction
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Directly shown to the audience; characters present can observe
+    the event.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: Voldemort-victory present after the second intervention.
+  topic_tags:
+  - dementors
+  - voldemort-day
+  - school-symbols
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Alternative Histories of Hogwarts
+  candidate_section: Regime atmosphere and symbols
+  reason_for_placement: Research candidate for Regime atmosphere and symbols; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Stage symbolism establishes the branch’s regime presentation; it does
+    not precisely locate every banner or dementor within a surveyed castle plan.

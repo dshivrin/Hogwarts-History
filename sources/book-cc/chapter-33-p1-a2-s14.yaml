@@ -1,0 +1,176 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 14: HOGWARTS, STAIRCASES'
+  scene_id: CC-P1-A2-S14
+  part: 1
+  act: 2
+  scene: 14
+  chapter_start_pdf_page: 107
+  chapter_end_pdf_page: 108
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+entries:
+- id: cc-p1-a2-s14-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 14: HOGWARTS, STAIRCASES'
+  part: 1
+  act: 2
+  scene: 14
+  scene_id: CC-P1-A2-S14
+  chapter_start_pdf_page: 107
+  chapter_end_pdf_page: 108
+  pdf_page: 107
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 362:381; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: DELPHI
+    end_phrase: DELPHI
+    local_occurrence_note: Name anchor at normalized page offset 194; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 362
+    char_end: 381
+    text_sha256: 2107d6f772bb98085dbbfd2c53e5e5d0b47a7c8cf8d7d8ce0b7e75a29bdbc494
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - school-security
+  - ghosts
+  - portraits
+  - visitors
+  quote_excerpt_short: null
+  source_note: Delphi appears inside the school, calls its security lax, and reports
+    a partly headless ghost directed her to Scorpius; she remarks on the many corridors,
+    portraits, and ghosts.
+  speaker: Delphi
+  evidence_mode: dialogue_claim
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Delphi supplies the account; knowledge is limited to this timeline
+    and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - school-security
+  - ghosts
+  - portraits
+  - visitors
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Protective Magic and Security
+  candidate_section: Unauthorized visitor and ghost guidance
+  reason_for_placement: Research candidate for Unauthorized visitor and ghost guidance;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Her presence is shown, but route and security bypass are not. Her interpretation
+    and account are unreliable; the ghost is not named in this line.
+- id: cc-p1-a2-s14-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 14: HOGWARTS, STAIRCASES'
+  part: 1
+  act: 2
+  scene: 14
+  scene_id: CC-P1-A2-S14
+  chapter_start_pdf_page: 107
+  chapter_end_pdf_page: 108
+  pdf_page: 108
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 36:57; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: DELPHI
+    end_phrase: DELPHI
+    local_occurrence_note: Name anchor at normalized page offset 0; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 36
+    char_end: 57
+    text_sha256: 71ff4818b0ac7d8dc67ddb62acd36d0664283b46acc1bc1c563da11b20f0ddf8
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - history-books
+  - triwizard-tournament
+  - altered-history
+  quote_excerpt_short: null
+  source_note: Delphi says history books now report that Cedric’s first-task failure
+    strengthened his determination in the second task.
+  speaker: Delphi
+  evidence_mode: dialogue_claim
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  historical_period: Altered 1994–1995 tournament history known in first altered present
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Delphi supplies the account; knowledge is limited to this timeline
+    and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - history-books
+  - triwizard-tournament
+  - altered-history
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Library, Books, and Scholarship
+  candidate_section: Rewritten tournament histories
+  reason_for_placement: Research candidate for Rewritten tournament histories; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: 'Unnamed books and manipulative speaker; not a citation to Hogwarts:
+    A History or a primary-timeline historical fact.'

@@ -77,6 +77,9 @@ def build_entries() -> list[dict]:
                 row["source_id"] = source_id
             if source_url:
                 row["source_url"] = source_url
+            if entry.get("scene_id"):
+                for key in ("scene_id", "pdf_page", "timeline", "timeline_detail", "evidence_mode"):
+                    row[key] = entry.get(key)
             rows.append(row)
     return rows
 

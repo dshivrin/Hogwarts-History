@@ -140,6 +140,11 @@ def entry_evidence_label(entry: dict) -> str:
 
 def format_source_line(entry: dict, source_path: Path | None = None) -> str:
     yaml_path = source_path.as_posix() if source_path else str(entry.get("_output_yaml") or "")
+    if entry.get("scene_id"):
+        return (
+            f"Source: {entry.get('source_id')}, {entry['scene_id']}, "
+            f"PDF p. {entry.get('pdf_page')}, `{entry.get('id')}`, `{yaml_path}`"
+        )
     if entry.get("source_url"):
         return f"Source: {entry.get('source_id')}, {entry.get('source_url')}, `{yaml_path}`"
     return (
@@ -227,6 +232,10 @@ def render(entries: list[dict], order: dict | None = None) -> str:
                     classification = str(entry.get("era_classification") or "unclassified")
                     confidence = str(entry.get("confidence") or "unknown")
                     lines.append(f"  - Classification: {classification} | Confidence: {confidence}")
+                    if entry.get("timeline"):
+                        lines.append(f"  - Timeline: {entry['timeline']} — {entry.get('timeline_detail', '')}")
+                        lines.append(f"  - Evidence: {entry.get('evidence_mode')} | Speaker/source: {entry.get('speaker')}")
+                        lines.append(f"  - 1984 access: {entry.get('bagshot_1984_access')}")
                     reference_type = str(entry.get("reference_type") or "").strip()
                     if reference_type:
                         lines.append(f"  - Reference type: {reference_type}")

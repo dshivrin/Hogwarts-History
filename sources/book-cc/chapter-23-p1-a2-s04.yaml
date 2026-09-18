@@ -1,0 +1,96 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 4: EDGE OF THE FORBIDDEN FOREST'
+  scene_id: CC-P1-A2-S04
+  part: 1
+  act: 2
+  scene: 4
+  chapter_start_pdf_page: 82
+  chapter_end_pdf_page: 84
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+entries:
+- id: cc-p1-a2-s04-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 4: EDGE OF THE FORBIDDEN FOREST'
+  part: 1
+  act: 2
+  scene: 4
+  scene_id: CC-P1-A2-S04
+  chapter_start_pdf_page: 82
+  chapter_end_pdf_page: 84
+  pdf_page: 83
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 539:549; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: ALBUS
+    end_phrase: ALBUS
+    local_occurrence_note: Name anchor at normalized page offset 436; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 539
+    char_end: 549
+    text_sha256: d5a5260bf6c0d8a47e7dbfc7b7c5e48caa20702bf718b7a432cf169ddb29cc42
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - triwizard-tournament
+  - first-task
+  - transfiguration
+  quote_excerpt_short: null
+  source_note: Albus recalls the first Triwizard task as retrieving a golden egg from
+    a dragon; Delphi identifies Cedric’s strategy as transfiguring a stone into a
+    dog.
+  speaker: Albus; Delphi
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  historical_period: 1994 event recalled in primary later present
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Albus; Delphi supplies the account; knowledge is limited to
+    this timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: primary
+  timeline_detail: Primary present before the first intervention.
+  topic_tags:
+  - triwizard-tournament
+  - first-task
+  - transfiguration
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Triwizard Tournament
+  candidate_section: Retrospective first-task knowledge
+  reason_for_placement: Research candidate for Retrospective first-task knowledge;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Retrospective planning conversation; Delphi is manipulative and should
+    not be treated as an impartial historian.

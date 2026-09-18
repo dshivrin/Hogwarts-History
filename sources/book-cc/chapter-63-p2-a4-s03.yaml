@@ -1,0 +1,188 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 3: GODRIC’S HOLLOW, 1981'
+  scene_id: CC-P2-A4-S03
+  part: 2
+  act: 4
+  scene: 3
+  chapter_start_pdf_page: 194
+  chapter_end_pdf_page: 195
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: 'Read pp194–195. Retain named historian and churchyard context
+    with temporal access controls; do not infer a meeting with Bagshot or identify
+    her as author of Hogwarts: A History.'
+entries:
+- id: cc-p2-a4-s03-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 3: GODRIC’S HOLLOW, 1981'
+  part: 2
+  act: 4
+  scene: 3
+  scene_id: CC-P2-A4-S03
+  chapter_start_pdf_page: 194
+  chapter_end_pdf_page: 195
+  pdf_page: 194
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 827:843; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 749; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 827
+    char_end: 843
+    text_sha256: a99847679198840d453d4a6931a9f765fcf47831132b48204c6e4cac3806de48
+  nearby_context: 'Read pp194–195. Retain named historian and churchyard context with
+    temporal access controls; do not infer a meeting with Bagshot or identify her
+    as author of Hogwarts: A History.'
+  match_terms:
+  - bathilda-bagshot
+  - a-history-of-magic
+  - godrics-hollow
+  quote_excerpt_short: null
+  source_note: Scorpius identifies Bathilda Bagshot’s house and says he sees her in
+    Godric’s Hollow in 1981; Albus recognizes her as author of A History of Magic.
+  speaker: Scorpius and Albus
+  evidence_mode: dialogue_claim
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  historical_period: 30–31 October 1981, visited from the later present
+  information_available: Stated or shown only in this later script; no contemporary
+    pre-1984 record is supplied.
+  character_knowledge: The named speaker or staged observer has this knowledge in
+    the scene; no transmission to Bagshot is shown.
+  bagshot_1984_access: Bagshot could know her own residence and authorship; the visitors’
+    identification and later observations are not shown communicated to her.
+  timeline: historical_visit
+  timeline_detail: Primary past visited by Albus and Scorpius; not the Voldemort-victory
+    branch
+  topic_tags:
+  - bathilda-bagshot
+  - a-history-of-magic
+  - godrics-hollow
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: 'Cursed Child: Later School Life and Historical Sources'
+  candidate_section: Bagshot in Godric’s Hollow in 1981
+  reason_for_placement: Research candidate for Bagshot in Godric’s Hollow in 1981;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Bagshot could know her own residence and authorship;
+    the visitors’ identification and later observations are not shown communicated
+    to her.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - dh-ch08-006
+    - dh-ch10-003
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations:
+  - scene_id: CC-P2-A4-S03
+    pdf_page: 195
+    timeline: historical_visit
+    timeline_detail: Primary past visited by Albus and Scorpius; not the Voldemort-victory
+      branch
+    note: Continuation shows avoidance of contact with the Potters; no encounter conveying
+      future knowledge to Bagshot.
+  confidence: high
+  limitations: 'Scorpius supplies the identification; Bagshot has no dialogue here.
+    This corroborates residence/authorship, not Bagshot’s access to the travelers’
+    later knowledge or authorship of Hogwarts: A History.'
+- id: cc-p2-a4-s03-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 3: GODRIC’S HOLLOW, 1981'
+  part: 2
+  act: 4
+  scene: 3
+  scene_id: CC-P2-A4-S03
+  chapter_start_pdf_page: 194
+  chapter_end_pdf_page: 195
+  pdf_page: 194
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 465:477; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 345; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 465
+    char_end: 477
+    text_sha256: 066f7038ce084327b639c948cfcb43fcc126c81a6a4882dbb419f3b09ce06685
+  nearby_context: 'Read pp194–195. Retain named historian and churchyard context with
+    temporal access controls; do not infer a meeting with Bagshot or identify her
+    as author of Hogwarts: A History.'
+  match_terms:
+  - godrics-hollow
+  - graveyard
+  - ghosts
+  quote_excerpt_short: null
+  source_note: Scorpius names the village church St. Jerome’s and reports its graveyard
+    as haunted, adding a church name to the already indexed haunted Godric’s Hollow
+    graveyard.
+  speaker: Scorpius
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  historical_period: October 1981 setting; source of haunting report unspecified
+  information_available: Stated or shown only in this later script; no contemporary
+    pre-1984 record is supplied.
+  character_knowledge: The named speaker or staged observer has this knowledge in
+    the scene; no transmission to Bagshot is shown.
+  bagshot_1984_access: The place could be locally known in 1984, but this scene supplies
+    no pre-1984 record of the church name or haunting report.
+  timeline: historical_visit
+  timeline_detail: Primary past visited; haunting is a later visitor’s report
+  topic_tags:
+  - godrics-hollow
+  - graveyard
+  - ghosts
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: 'Cursed Child: Later School Life and Historical Sources'
+  candidate_section: Named church and reported haunted graveyard
+  reason_for_placement: Research candidate for Named church and reported haunted graveyard;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: The place could be locally known in 1984, but this
+    scene supplies no pre-1984 record of the church name or haunting report.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - dh-ch17-001
+    - dh-ch16-007
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Supposed haunting is a report, not an observed ghost. The church is
+    outside Hogwarts.

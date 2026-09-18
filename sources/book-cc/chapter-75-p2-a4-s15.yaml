@@ -1,0 +1,97 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 15: A BEAUTIFUL HILL'
+  scene_id: CC-P2-A4-S15
+  part: 2
+  act: 4
+  scene: 15
+  chapter_start_pdf_page: 232
+  chapter_end_pdf_page: 235
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: 'Read pp232–235. Retain fourth-year examinations. Personal grief
+    and Cedric’s grave lack a Hogwarts location: do not turn this hill into a castle-ground
+    cemetery.'
+entries:
+- id: cc-p2-a4-s15-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 15: A BEAUTIFUL HILL'
+  part: 2
+  act: 4
+  scene: 15
+  scene_id: CC-P2-A4-S15
+  chapter_start_pdf_page: 232
+  chapter_end_pdf_page: 235
+  pdf_page: 232
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 233:250; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HARRY
+    end_phrase: HARRY
+    local_occurrence_note: Name anchor at normalized page offset 208; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 233
+    char_end: 250
+    text_sha256: f72226c97b1f4965c2bb2f34911618d0065369837825da63aa94445bcb725423
+  nearby_context: 'Read pp232–235. Retain fourth-year examinations. Personal grief
+    and Cedric’s grave lack a Hogwarts location: do not turn this hill into a castle-ground
+    cemetery.'
+  match_terms:
+  - fourth-year
+  - exams
+  - academic-progression
+  quote_excerpt_short: null
+  source_note: Harry treats fourth-year examinations as forthcoming for Albus and
+    fifth year as the next important stage of school.
+  speaker: Harry
+  evidence_mode: dialogue_claim
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  historical_period: 2020–21 school period (relative chronology; exact year requires
+    review)
+  information_available: Stated or shown only in this later script; no contemporary
+    pre-1984 record is supplied.
+  character_knowledge: The named speaker or staged observer has this knowledge in
+    the scene; no transmission to Bagshot is shown.
+  bagshot_1984_access: No evidence of availability to Bagshot by 1984.
+  timeline: primary
+  timeline_detail: Restored primary present
+  topic_tags:
+  - fourth-year
+  - exams
+  - academic-progression
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: 'Cursed Child: Later School Life and Historical Sources'
+  candidate_section: Fourth-year assessment continues
+  reason_for_placement: Research candidate for Fourth-year assessment continues; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No evidence of availability to Bagshot by 1984.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - gof-ch15-002
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Supports assessment continuity; no subjects, grading system or exact
+    exam date stated.

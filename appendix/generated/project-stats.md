@@ -8,7 +8,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Processed Source Units
 
-- Total: 299
+- Total: 374
 
 ## Entries by Book or External Source
 
@@ -86,6 +86,7 @@ Source data: sources YAML + project-control indexes + structured source data.
 - F01 — The Hogwarts classes that you might have forgotten about: 2
 - Fantastic Beasts and Where to Find Them: 61
 - Harry Potter and the Chamber of Secrets: 115
+- Harry Potter and the Cursed Child: Parts One and Two: 111
 - Harry Potter and the Deathly Hallows: 245
 - Harry Potter and the Goblet of Fire: 235
 - Harry Potter and the Half-Blood Prince: 209
@@ -98,26 +99,26 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Entries by Era Classification
 
 - harry_era_confirmation: 554
-- later_editorial_note: 710
+- later_editorial_note: 784
 - original_book_core_candidate: 13
-- post_1984_excluded_from_original: 42
-- pre_1984_historical_candidate: 366
-- unknown_or_uncertain: 32
+- post_1984_excluded_from_original: 76
+- pre_1984_historical_candidate: 368
+- unknown_or_uncertain: 33
 
 ## Entries by Reference Type
 
-- cross_reference_candidate: 121
-- curriculum_or_subject: 173
-- direct_observed_setting: 70
+- cross_reference_candidate: 123
+- curriculum_or_subject: 182
+- direct_observed_setting: 76
 - explicit_hogwarts_a_history: 10
-- explicit_in_universe_source: 114
-- historical_claim: 375
-- house_system: 42
-- institutional_custom: 231
-- magical_architecture: 116
-- portrait_or_ghost_lore: 36
-- school_rule_or_policy: 165
-- security_or_protection: 249
+- explicit_in_universe_source: 123
+- historical_claim: 400
+- house_system: 45
+- institutional_custom: 247
+- magical_architecture: 125
+- portrait_or_ghost_lore: 43
+- school_rule_or_policy: 179
+- security_or_protection: 260
 - weak_context_only: 15
 
 ## Explicit `Hogwarts: A History` References

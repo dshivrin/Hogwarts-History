@@ -1,0 +1,328 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 5: HOGWARTS, POTIONS CLASSROOM'
+  scene_id: CC-P2-A3-S05
+  part: 2
+  act: 3
+  scene: 5
+  chapter_start_pdf_page: 140
+  chapter_end_pdf_page: 142
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+entries:
+- id: cc-p2-a3-s05-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 5: HOGWARTS, POTIONS CLASSROOM'
+  part: 2
+  act: 3
+  scene: 5
+  scene_id: CC-P2-A3-S05
+  chapter_start_pdf_page: 140
+  chapter_end_pdf_page: 142
+  pdf_page: 140
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 769:800; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 677; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 769
+    char_end: 800
+    text_sha256: 8a96f20146387e3f8bded827198854214416ca5665fdb06324dbca47f1c6a5da
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - snape
+  - dumbledore
+  - staff-history
+  quote_excerpt_short: null
+  source_note: Scorpius brings knowledge from his original world that Snape secretly
+    watched the Death Eaters for Dumbledore and that apparent murder concealed support;
+    this shows later knowledge of a teacher’s wartime service.
+  speaker: Scorpius Malfoy
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  historical_period: First and Second Wizarding Wars, reported in later school years
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: remembered_reported_hypothetical
+  timeline_detail: Later character report; originating timeline specified in source
+    note.
+  topic_tags:
+  - snape
+  - dumbledore
+  - staff-history
+  - cursed-child
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: Staff history
+  candidate_section: 'Staff history: Later knowledge of Snape’s allegiance'
+  reason_for_placement: 'Research candidate for Staff history: Later knowledge of
+    Snape’s allegiance; retain source mode and timeline before any editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - gof-ch30-004
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Later testimony in an altered-world conversation; its mixture of pre-1984
+    and later actions must not be compressed into a fact available to Bagshot in 1984.
+- id: cc-p2-a3-s05-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 5: HOGWARTS, POTIONS CLASSROOM'
+  part: 2
+  act: 3
+  scene: 5
+  scene_id: CC-P2-A3-S05
+  chapter_start_pdf_page: 140
+  chapter_end_pdf_page: 142
+  pdf_page: 141
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 891:913; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SNAPE
+    end_phrase: SNAPE
+    local_occurrence_note: Name anchor at normalized page offset 869; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 891
+    char_end: 913
+    text_sha256: 4bd16c53a24d459f758a918b5773e6041395cee4f31e8c1352030ce35756a883
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - battle-of-hogwarts
+  - neville-longbottom
+  - cedric-diggory
+  quote_excerpt_short: null
+  source_note: Snape reports that altered-world Cedric killed Neville at the Battle
+    of Hogwarts; Scorpius connects this with Nagini surviving and Voldemort winning,
+    contrasting his original world’s Neville and victorious defenders.
+  speaker: Severus Snape and Scorpius Malfoy
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: post_1984_excluded_from_original
+  historical_period: 1998 battle, retrospectively reported
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: altered
+  timeline_detail: Voldemort-victory branch produced by humiliating Cedric in the
+    first two tasks; excluded from primary history.
+  topic_tags:
+  - battle-of-hogwarts
+  - neville-longbottom
+  - cedric-diggory
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Altered Hogwarts
+  candidate_section: 'Altered Hogwarts: Battle divergence'
+  reason_for_placement: 'Research candidate for Altered Hogwarts: Battle divergence;
+    retain source mode and timeline before any editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Cedric’s killing is branch-specific testimony; causal interpretation
+    is Scorpius’s explanation, not an observed battle.
+- id: cc-p2-a3-s05-003
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 5: HOGWARTS, POTIONS CLASSROOM'
+  part: 2
+  act: 3
+  scene: 5
+  scene_id: CC-P2-A3-S05
+  chapter_start_pdf_page: 140
+  chapter_end_pdf_page: 142
+  pdf_page: 142
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 23:37; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SNAPE
+    end_phrase: SNAPE
+    local_occurrence_note: Name anchor at normalized page offset 0; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 23
+    char_end: 37
+    text_sha256: ee709f9736c0c614a61a0b1d233caa50ca0a3fda28e50360cd765a988c63ea67
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - potions-classroom
+  - magical-locking
+  - concealed-routes
+  quote_excerpt_short: null
+  source_note: Snape seals the Potions-classroom door with Colloportus, then opens
+    a hatch at its back.
+  speaker: 'Stage directions: Snape'
+  evidence_mode: stage_direction
+  reference_type: magical_architecture
+  era_classification: post_1984_excluded_from_original
+  historical_period: Albus Potter school years, fourth-year crisis
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: altered
+  timeline_detail: Voldemort-victory branch produced by humiliating Cedric in the
+    first two tasks; excluded from primary history.
+  topic_tags:
+  - potions-classroom
+  - magical-locking
+  - concealed-routes
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Altered Hogwarts
+  candidate_section: 'Altered Hogwarts: Classroom door and hatch'
+  reason_for_placement: 'Research candidate for Altered Hogwarts: Classroom door and
+    hatch; retain source mode and timeline before any editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Scene-specific evidence; does not establish an enduring schoolwide
+    practice or pre-1984 origin.
+- id: cc-p2-a3-s05-004
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 5: HOGWARTS, POTIONS CLASSROOM'
+  part: 2
+  act: 3
+  scene: 5
+  scene_id: CC-P2-A3-S05
+  chapter_start_pdf_page: 140
+  chapter_end_pdf_page: 142
+  pdf_page: 142
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 315:327; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SNAPE
+    end_phrase: SNAPE
+    local_occurrence_note: Name anchor at normalized page offset 195; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 315
+    char_end: 327
+    text_sha256: 173dfd080d0e827f0ee6e59ecf234e6890dce38b6c43c9c63625a11fb2dd4478
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - whomping-willow
+  - secret-passages
+  - resistance
+  quote_excerpt_short: null
+  source_note: Snape says the hatch route leads to a room hidden within the Whomping
+    Willow’s roots, a refuge after earlier locations were destroyed.
+  speaker: Severus Snape
+  evidence_mode: dialogue_claim
+  reference_type: magical_architecture
+  era_classification: post_1984_excluded_from_original
+  historical_period: Albus Potter school years, fourth-year crisis
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: altered
+  timeline_detail: Voldemort-victory branch produced by humiliating Cedric in the
+    first two tasks; excluded from primary history.
+  topic_tags:
+  - whomping-willow
+  - secret-passages
+  - resistance
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Altered Hogwarts
+  candidate_section: 'Altered Hogwarts: Root chamber refuge'
+  reason_for_placement: 'Research candidate for Altered Hogwarts: Root chamber refuge;
+    retain source mode and timeline before any editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - poa-ch18-003
+    notes: Similarity is limited to the identified institutional background; altered
+      outcomes remain separate.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Do not identify this altered-world campaign room or classroom hatch
+    with the primary-world Shrieking Shack tunnel, or infer an old construction date.

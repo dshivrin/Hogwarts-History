@@ -1,0 +1,98 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 9: GODRIC’S HOLLOW, ST. JEROME’S CHURCH, SANCTUARY,
+    1981'
+  scene_id: CC-P2-A4-S09
+  part: 2
+  act: 4
+  scene: 9
+  chapter_start_pdf_page: 211
+  chapter_end_pdf_page: 213
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Read pp211–213. Retain Ginny’s retrospective account of common-room
+    recreation; Lily’s protection explanation concerns later knowledge of the Potter
+    attack, not newly documented Hogwarts history.
+entries:
+- id: cc-p2-a4-s09-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 9: GODRIC’S HOLLOW, ST. JEROME’S CHURCH, SANCTUARY,
+    1981'
+  part: 2
+  act: 4
+  scene: 9
+  scene_id: CC-P2-A4-S09
+  chapter_start_pdf_page: 211
+  chapter_end_pdf_page: 213
+  pdf_page: 211
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1175:1189; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: GINNY
+    end_phrase: GINNY
+    local_occurrence_note: Name anchor at normalized page offset 978; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1175
+    char_end: 1189
+    text_sha256: 7b74bc1152fe37f6981b284ab304962b1dfbf416c90c3bb44de2bb86d10857c4
+  nearby_context: Read pp211–213. Retain Ginny’s retrospective account of common-room
+    recreation; Lily’s protection explanation concerns later knowledge of the Potter
+    attack, not newly documented Hogwarts history.
+  match_terms:
+  - gryffindor-common-room
+  - exploding-snap
+  - student-life
+  quote_excerpt_short: null
+  source_note: Ginny recalls Harry inviting her to play Exploding Snap in the Gryffindor
+    common room after her Chamber of Secrets hospitalization.
+  speaker: Ginny
+  evidence_mode: dialogue_claim
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  historical_period: 1993 incident, recalled during a 1981 visit by an adult traveler
+  information_available: Stated or shown only in this later script; no contemporary
+    pre-1984 record is supplied.
+  character_knowledge: The named speaker or staged observer has this knowledge in
+    the scene; no transmission to Bagshot is shown.
+  bagshot_1984_access: No evidence of availability to Bagshot by 1984.
+  timeline: historical_visit
+  timeline_detail: Primary past visit containing a report of a future-to-1981 school
+    event
+  topic_tags:
+  - gryffindor-common-room
+  - exploding-snap
+  - student-life
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: 'Cursed Child: Later School Life and Historical Sources'
+  candidate_section: Common-room recreation and peer support
+  reason_for_placement: Research candidate for Common-room recreation and peer support;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No evidence of availability to Bagshot by 1984.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: The 1981 setting must not date this 1993 recollection before the publication
+    cutoff. Personal memory, not school policy.

@@ -1,0 +1,111 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 10: HOGWARTS, HEADMISTRESS’S OFFICE'
+  scene_id: CC-P2-A3-S10
+  part: 2
+  act: 3
+  scene: 10
+  chapter_start_pdf_page: 156
+  chapter_end_pdf_page: 157
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+entries:
+- id: cc-p2-a3-s10-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 10: HOGWARTS, HEADMISTRESS’S OFFICE'
+  part: 2
+  act: 3
+  scene: 10
+  scene_id: CC-P2-A3-S10
+  chapter_start_pdf_page: 156
+  chapter_end_pdf_page: 157
+  pdf_page: 156
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1058:1075; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: PROFESSOR McGONAGALL
+    end_phrase: PROFESSOR McGONAGALL
+    local_occurrence_note: Name anchor at normalized page offset 971; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1058
+    char_end: 1075
+    text_sha256: b6853fd1f4ac39a4f1099710d93d68ccb8d8450a0a36d4b9f0f7e491c7c3fddc
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - mcgonagall
+  - detention
+  - expulsion
+  - hogsmeade-privileges
+  quote_excerpt_short: null
+  source_note: McGonagall distinguishes parents’ authority from her authority to determine
+    school punishments. She considers expulsion but keeps the boys under her protection,
+    imposing detention for the rest of the year, canceling Christmas and banning Hogsmeade
+    visits.
+  speaker: Minerva McGonagall
+  evidence_mode: dialogue_claim
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  historical_period: Albus Potter school years, fourth-year crisis
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: primary
+  timeline_detail: Restored primary timeline after reversal of the first two Triwizard
+    interventions.
+  topic_tags:
+  - mcgonagall
+  - detention
+  - expulsion
+  - hogsmeade-privileges
+  - cursed-child
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Student Discipline and Expulsion
+  candidate_section: 'Student Discipline and Expulsion: Headmistress authority and
+    penalties'
+  reason_for_placement: 'Research candidate for Student Discipline and Expulsion:
+    Headmistress authority and penalties; retain source mode and timeline before any
+    editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - poa-ch14-002
+    - hbp-ch24-006
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations:
+  - scene_id: CC-P2-A3-S14
+    pdf_page: 163
+    timeline: primary
+    timeline_detail: Restored primary timeline after reversal of the first two Triwizard
+      interventions.
+    note: The later dormitory discussion (p163) confirms continuing detention alongside
+      ordinary Potions attendance.
+  confidence: high
+  limitations: Extraordinary response to time interference, not a general tariff;
+    what canceling Christmas operationally means is unspecified.

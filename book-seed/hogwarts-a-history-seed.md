@@ -283,6 +283,21 @@ Summary: The available evidence includes 1 source item, led by: The castle route
   - Reference type: magical_architecture
   - Notes: The passage does not say when the staircase or vanishing step was created, or whether the hazard is intentional.
 
+### Chapter: Ghosts and school safety
+
+#### Section: Ghosts and school safety: Myrtle as informant
+
+Summary: The available evidence includes 1 source item, led by: Ginny credits Myrtle’s information when staff and parents find the boys at the lake, showing a resident ghost serving as a source in a school search.
+
+- **Context:** Ginny credits Myrtle’s information when staff and parents find the boys at the lake, showing a resident ghost serving as a source in a school search.
+  - Source: CC, CC-P2-A3-S09, PDF p. 155, `cc-p2-a3-s09-003`, `sources/book-cc/chapter-48-p2-a3-s09.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary timeline after reversal of the first two Triwizard interventions.
+  - Evidence: dialogue_claim | Speaker/source: Ginny Potter
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: portrait_or_ghost_lore
+  - Notes: Primary timeline restored on previous page; scene does not reproduce the details of Myrtle’s report.
+
 ### Chapter: Grounds, Lake, and Village Approaches
 
 #### Section: Visiting-School Lodging and Hogsmeade Route
@@ -311,6 +326,32 @@ Summary: The available evidence includes 1 source item, led by: The gamekeeper's
   - Notes: The passage does not describe repairs, long-term damage, or whether the bowtruckles survived.
 
 ### Chapter: House Common Rooms and Dormitories
+
+#### Section: House Common Rooms and Dormitories: Beds and emergency search
+
+Summary: The available evidence includes 1 source item, led by: Harry and Ginny open separate bed-curtains in the Slytherin dormitory to check the boys’ beds; McGonagall directs a search when both are absent.
+
+- **Context:** Harry and Ginny open separate bed-curtains in the Slytherin dormitory to check the boys’ beds; McGonagall directs a search when both are absent.
+  - Source: CC, CC-P2-A3-S15, PDF p. 166, `cc-p2-a3-s15-002`, `sources/book-cc/chapter-54-p2-a3-s15.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary timeline after reversal of the first two Triwizard interventions.
+  - Evidence: stage_direction | Speaker/source: Stage directions: Harry, Ginny and McGonagall
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: direct_observed_setting
+  - Notes: Scene-specific evidence; does not establish an enduring schoolwide practice or pre-1984 origin.
+
+#### Section: House Common Rooms and Dormitories: Slytherin room color
+
+Summary: The available evidence includes 1 source item, led by: Albus describes his Slytherin room as green and contrasts Gryffindor rooms’ red decoration. Harry visits after thanking Albus for permission.
+
+- **Context:** Albus describes his Slytherin room as green and contrasts Gryffindor rooms’ red decoration. Harry visits after thanking Albus for permission.
+  - Source: CC, CC-P2-A3-S11, PDF p. 158, `cc-p2-a3-s11-002`, `sources/book-cc/chapter-50-p2-a3-s11.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary timeline after reversal of the first two Triwizard interventions.
+  - Evidence: dialogue_claim | Speaker/source: Albus Potter
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: direct_observed_setting
+  - Notes: Color testimony applies to rooms; humorous assertions about psychological effects are not factual architectural evidence. Does not establish the full formal access procedure.
 
 #### Section: Hufflepuff Common Room
 
@@ -352,6 +393,36 @@ Summary: The available evidence includes 1 source item, led by: The trophy room 
   - Corroborates: `ps-ch08-001`. Related to the Chapter Eight castle navigation entry through armor and interior corridors, but this is the first seed specifically for the trophy room.
   - Notes: The passage does not explain the age, purpose, or specific contents of any trophy beyond general room description.
 
+### Chapter: Lake Ecology, Merpeople, and Dangerous Water Creatures
+
+#### Section: Lake Ecology, Merpeople, and Dangerous Water Creatures: Negotiation over lake searches
+
+Summary: The available evidence includes 1 source item, led by: Harry reports negotiations with the merpeople to dredge the lake in the search for the Time-Turner, adding a later example of consultation over school waters.
+
+- **Context:** Harry reports negotiations with the merpeople to dredge the lake in the search for the Time-Turner, adding a later example of consultation over school waters.
+  - Source: CC, CC-P2-A3-S11, PDF p. 158, `cc-p2-a3-s11-001`, `sources/book-cc/chapter-50-p2-a3-s11.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary timeline after reversal of the first two Triwizard interventions.
+  - Evidence: dialogue_claim | Speaker/source: Harry Potter
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: institutional_custom
+  - Notes: Negotiation is reported; agreement and actual dredging are not established. Identity of the negotiating authority is unspecified.
+
+### Chapter: Later school crises
+
+#### Section: Later school crises: Murder on the Quidditch pitch
+
+Summary: The available evidence includes 1 source item, led by: Delphi tortures Scorpius and kills Craig Bowker Jr. on the Hogwarts Quidditch pitch during the search for the missing pupils, a concrete later school-security incident.
+
+- **Context:** Delphi tortures Scorpius and kills Craig Bowker Jr. on the Hogwarts Quidditch pitch during the search for the missing pupils, a concrete later school-security incident.
+  - Source: CC, CC-P2-A3-S19, PDF p. 177, `cc-p2-a3-s19-002`, `sources/book-cc/chapter-58-p2-a3-s19.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary timeline after reversal of the first two Triwizard interventions.
+  - Evidence: stage_direction | Speaker/source: Stage directions: Delphi, Craig and Scorpius
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: security_or_protection
+  - Notes: Incident is shown; passage does not establish which perimeter protections were absent or how Delphi entered. Record the harm without inventing a general security mechanism.
+
 ### Chapter: Secret Rooms, Moving Routes, and Responsive Castle Spaces
 
 #### Section: Room of Hidden Things access and object resistance
@@ -389,6 +460,36 @@ Summary: The available evidence includes 1 source item, led by: The Room of Requ
   - Reference type: magical_architecture
   - Notes: The chapter gives the rule from Neville's recent experience and does not state whether the behavior is permanent or crisis-specific.
 
+### Chapter: Staff history
+
+#### Section: Staff history: Later knowledge of Snape’s allegiance
+
+Summary: The available evidence includes 1 source item, led by: Scorpius brings knowledge from his original world that Snape secretly watched the Death Eaters for Dumbledore and that apparent murder concealed support; this shows later knowledge of a teacher’s wartime service.
+
+- **Context:** Scorpius brings knowledge from his original world that Snape secretly watched the Death Eaters for Dumbledore and that apparent murder concealed support; this shows later knowledge of a teacher’s wartime service.
+  - Source: CC, CC-P2-A3-S05, PDF p. 140, `cc-p2-a3-s05-001`, `sources/book-cc/chapter-44-p2-a3-s05.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: remembered_reported_hypothetical — Later character report; originating timeline specified in source note.
+  - Evidence: dialogue_claim | Speaker/source: Scorpius Malfoy
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: historical_claim
+  - Notes: Later testimony in an altered-world conversation; its mixture of pre-1984 and later actions must not be compressed into a fact available to Bagshot in 1984.
+
+### Chapter: The Triwizard Year and Institutional Procedure
+
+#### Section: The Triwizard Year and Institutional Procedure: Quidditch-field conversion
+
+Summary: The available evidence includes 1 source item, led by: Scorpius identifies the present Quidditch pitch as the location of the 1995 third-task maze.
+
+- **Context:** Scorpius identifies the present Quidditch pitch as the location of the 1995 third-task maze.
+  - Source: CC, CC-P2-A3-S19, PDF p. 176, `cc-p2-a3-s19-001`, `sources/book-cc/chapter-58-p2-a3-s19.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary timeline after reversal of the first two Triwizard interventions.
+  - Evidence: dialogue_claim | Speaker/source: Scorpius Malfoy
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: historical_claim
+  - Notes: Scene-specific evidence; does not establish an enduring schoolwide practice or pre-1984 origin.
+
 ### Chapter: Towers, Corridors, and Service Rooms
 
 #### Section: The Owlery and school owls
@@ -402,6 +503,47 @@ Summary: The available evidence includes 1 source item, led by: The passage conf
   - Reference type: institutional_custom
   - Corroborates: `gof-ch15-001`. gof-ch15-001 locates the Owlery in West Tower and describes the school owls; this entry corroborates that setting and adds the explicit rule that anyone may borrow a school owl.
   - Notes: The scene does not state whether all correspondence destinations are permitted or whether staff monitor school owl use.
+
+#### Section: Towers, Corridors, and Service Rooms: Owlery roof and correspondence
+
+Summary: The available evidence includes 1 source item, led by: The Owlery scene opens on an accessible roof with owls hooting nearby; Albus explains that he sent Delphi an owl.
+
+- **Context:** The Owlery scene opens on an accessible roof with owls hooting nearby; Albus explains that he sent Delphi an owl.
+  - Source: CC, CC-P2-A3-S16, PDF p. 168, `cc-p2-a3-s16-001`, `sources/book-cc/chapter-55-p2-a3-s16.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary timeline after reversal of the first two Triwizard interventions.
+  - Evidence: stage_direction | Speaker/source: Stage directions and Albus
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: direct_observed_setting
+  - Notes: Does not locate roof orientation or establish any new tower geometry; dialogue supplies the letter dispatch.
+
+### Chapter: Triwizard Tournament
+
+#### Section: Triwizard Tournament: Final-task standings
+
+Summary: The available evidence includes 1 source item, led by: Bagman gives the third-task standings: Cedric and Harry tied first, Viktor next and Fleur last.
+
+- **Context:** Bagman gives the third-task standings: Cedric and Harry tied first, Viktor next and Fleur last.
+  - Source: CC, CC-P2-A3-S20, PDF p. 180, `cc-p2-a3-s20-002`, `sources/book-cc/chapter-59-p2-a3-s20.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: historical_visit — 1995 third-task visit from restored primary timeline; later transition to an unidentified earlier date.
+  - Evidence: dialogue_claim | Speaker/source: Ludo Bagman
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: institutional_custom
+  - Notes: A particular 1995 ranking; wording is the announcer’s ranking, not a separate rule about tied places.
+
+#### Section: Triwizard Tournament: First-task technique
+
+Summary: The available evidence includes 1 source item, led by: The replayed 1994 task shows Cedric confronting the dragon and Bagman announcing his stone-to-dog Transfiguration after Hermione blocks Albus’s interference.
+
+- **Context:** The replayed 1994 task shows Cedric confronting the dragon and Bagman announcing his stone-to-dog Transfiguration after Hermione blocks Albus’s interference.
+  - Source: CC, CC-P2-A3-S08, PDF p. 149, `cc-p2-a3-s08-001`, `sources/book-cc/chapter-47-p2-a3-s08.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: historical_visit — 1994 first-task repair visit from Voldemort-victory branch.
+  - Evidence: dialogue_claim | Speaker/source: Ludo Bagman
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: institutional_custom
+  - Notes: Historical visit includes time-travel interference and its repair; preserve the framing rather than silently treating as an untouched 1994 transcript.
 
 ## Part: Magical Architecture and Enchantments
 
@@ -870,6 +1012,21 @@ Summary: The available evidence includes 2 source items, led by: Dumbledore iden
   - Corroborates: `gof-ch30-002`. gof-ch30-002 identifies and explains the Pensieve in Dumbledore's office; this entry adds the artifact's temporary use in Snape's office during Occlumency.
   - Notes: The evidence does not prove whether the Pensieve belongs personally to Dumbledore or institutionally to Hogwarts.
 
+### Chapter: Platform barrier access
+
+#### Section: Platform barrier access
+
+Summary: The available evidence includes 1 source item, led by: Ginny directs Albus through the wall between platforms nine and ten; the family runs through the barrier on the next page.
+
+- **Context:** Ginny directs Albus through the wall between platforms nine and ten; the family runs through the barrier on the next page.
+  - Source: CC, CC-P1-A1-S01, PDF p. 14, `cc-p1-a1-s01-001`, `sources/book-cc/chapter-01-p1-a1-s01.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: dialogue_claim | Speaker/source: Ginny; stage directions
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: magical_architecture
+  - Notes: Does not establish the origin date or universal application of this practice.
+
 ### Chapter: Protected Offices and Moving Entrances
 
 #### Section: Headmaster's Gargoyle Entrance and Password Changes
@@ -1000,6 +1157,21 @@ Summary: The available evidence includes 1 source item, led by: The maze behaves
   - Corroborates: `gof-ch28-004`. gof-ch28-004 anticipates spell obstacles in the maze; this entry adds observed effects including crowd-silencing hedges, boggart deployment, and golden mist.
   - Notes: The passage does not identify who cast each enchantment or whether the silencing effect comes from hedge thickness, explicit enchantment, or both.
 
+### Chapter: The Triwizard Year and Institutional Procedure
+
+#### Section: The Triwizard Year and Institutional Procedure: Animated maze obstacles
+
+Summary: The available evidence includes 1 source item, led by: The 1995 tournament maze is staged as a moving spiral of hedges that close around entrants; Bagman calls it living and identifies the trophy within.
+
+- **Context:** The 1995 tournament maze is staged as a moving spiral of hedges that close around entrants; Bagman calls it living and identifies the trophy within.
+  - Source: CC, CC-P2-A3-S20, PDF p. 179, `cc-p2-a3-s20-001`, `sources/book-cc/chapter-59-p2-a3-s20.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: historical_visit — 1995 third-task visit from restored primary timeline; later transition to an unidentified earlier date.
+  - Evidence: stage_direction | Speaker/source: Stage directions and Bagman
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: magical_architecture
+  - Notes: This play’s staging adds active moving hedges; prior indexed prose establishes maze construction and obstacles but does not on its own corroborate every animation detail.
+
 ### Chapter: Towers, Offices, and Upper-Floor Access
 
 #### Section: Professor Flitwick's Office and West Tower Windows
@@ -1014,6 +1186,22 @@ Summary: The available evidence includes 1 source item, led by: The chapter loca
   - Notes: The chapter does not say whether the office window normally has stronger protections or whether Alohomora works because of unusual circumstances.
 
 ## Part: The Four Houses
+
+### Chapter: The Sorting Ceremony
+
+#### Section: Long service and mental assessment
+
+Summary: The available evidence includes 1 source item, led by: The Sorting Hat's song claims centuries of service, placement on every student's head, and examination of thoughts to assign Houses.
+
+- **Supporting evidence:** The Sorting Hat's song claims centuries of service, placement on every student's head, and examination of thoughts to assign Houses.
+  - Quote: "job for centuries"
+  - Source: CC, CC-P1-A1-S04, PDF p. 24, `cc-p1-a1-s04-001`, `sources/book-cc/chapter-04-p1-a1-s04.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: high
+  - Timeline: remembered_reported_hypothetical — Ceremonial retrospective claim, not a historical visit.
+  - Evidence: dialogue_claim | Speaker/source: Sorting Hat
+  - 1984 access: Subject potentially predates 1984, but this song is heard in 2017. Bagshot might know earlier Sorting traditions; access to this exact claim by 1984 is not established.
+  - Reference type: historical_claim
+  - Notes: Ritual song gives no precise origin date; the claim to cover every pupil is generalized.
 
 ### Chapter: House Identity and Reputation
 
@@ -1160,6 +1348,21 @@ Summary: The available evidence includes 1 source item, led by: Bellatrix's pani
   - Corroborates: `dh-ch15-006`. dh-ch15-006 establishes the fake Gringotts sword and the real sword's goblin-made properties; this entry adds Bellatrix's direct vault testimony, panic, torture, and Griphook's false authentication scene.
   - Notes: Bellatrix does not explain when Snape placed the copy in her vault or what Voldemort told her about the sword.
 
+### Chapter: Great Hall Sorting ceremony
+
+#### Section: Great Hall Sorting ceremony
+
+Summary: The available evidence includes 1 source item, led by: Sorting takes place in the Great Hall: the Hat is placed on heads, Houses are announced, and pupils join cheering House groups. Rose joins Gryffindor; Scorpius and Albus join Slytherin on page 25. The montage later repeats Sorting for Lily.
+
+- **Context:** Sorting takes place in the Great Hall: the Hat is placed on heads, Houses are announced, and pupils join cheering House groups. Rose joins Gryffindor; Scorpius and Albus join Slytherin on page 25. The montage later repeats Sorting for Lily.
+  - Source: CC, CC-P1-A1-S04, PDF p. 24, `cc-p1-a1-s04-002`, `sources/book-cc/chapter-04-p1-a1-s04.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: transition | Speaker/source: Stage directions; Sorting Hat
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: house_system
+  - Notes: Walking personification of the Hat is theatrical staging, not proof of a humanoid magical resident.
+
 ### Chapter: House Points and the House Cup
 
 #### Section: Classroom Deductions
@@ -1278,6 +1481,21 @@ Summary: The available evidence includes 1 source item, led by: Voldemort attemp
   - Corroborates: `cos-ch05-004`, `hbp-ch08-003`, `dh-ch33-005`. cos-ch05-004 and hbp-ch08-003 establish ordinary Sorting and House-feast structure, while dh-ch33-005 records pre-1984 House expectations. This entry adds Voldemort's explicit wartime attempt to abolish the system.
   - Notes: The declaration is made by an enemy combatant during a failed occupation and never becomes a durable school policy.
 
+### Chapter: Student preference in Sorting
+
+#### Section: Student preference in Sorting
+
+Summary: The available evidence includes 1 source item, led by: Harry says the Sorting Hat takes pupils' feelings into account and did so for him.
+
+- **Context:** Harry says the Sorting Hat takes pupils' feelings into account and did so for him.
+  - Source: CC, CC-P1-A1-S02, PDF p. 17, `cc-p1-a1-s02-003`, `sources/book-cc/chapter-02-p1-a1-s02.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: remembered_reported_hypothetical — Personal report about primary-history Sorting.
+  - Evidence: dialogue_claim | Speaker/source: Harry Potter
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: house_system
+  - Notes: Consideration of preference is not an unconditional right to select a House.
+
 ## Part: Ceremonies and School Traditions
 
 ### Chapter: The Hogwarts Express and School Travel
@@ -1311,6 +1529,19 @@ Summary: The available evidence includes 1 source item, led by: The arrival sequ
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: institutional_custom
   - Notes: The passage does not identify who transports the luggage or whether the same process applies in every year.
+
+#### Section: Claimed original appointment
+
+Summary: The available evidence includes 1 source item, led by: The Trolley Witch claims Ottaline Gambol personally gave her the job when the Hogwarts Express began.
+
+- **Supporting evidence:** The Trolley Witch claims Ottaline Gambol personally gave her the job when the Hogwarts Express began.
+  - Source: CC, CC-P1-A1-S11, PDF p. 49, `cc-p1-a1-s11-001`, `sources/book-cc/chapter-11-p1-a1-s11.yaml`
+  - Classification: pre_1984_historical_candidate | Confidence: medium
+  - Timeline: remembered_reported_hypothetical — Retrospective claim about the primary past.
+  - Evidence: dialogue_claim | Speaker/source: Trolley Witch
+  - 1984 access: Possibly pre-1984 subject, but no proof Bagshot interviewed the witch or consulted an appointment record by 1984.
+  - Reference type: historical_claim
+  - Notes: Not independently dated or authenticated; do not treat as the earliest precisely dated scene event.
 
 #### Section: Emergency Magical Transport Outside School Routes
 
@@ -1437,6 +1668,19 @@ Summary: The available evidence includes 1 source item, led by: The chapter corr
   - Reference type: institutional_custom
   - Corroborates: `poa-ch01-005`. Book 3 Chapter One gives official Hogwarts letter travel instructions; this entry adds family planning around returning Harry to the train after the summer holiday.
   - Notes: The precise departure platform, time, and school-issued instructions are not repeated in this chapter.
+
+#### Section: Unverified service duration
+
+Summary: The available evidence includes 1 source item, led by: Scorpius infers 190 years of service from the witch's account. She replies that she has made over six million Pumpkin Pasties without explicitly confirming his arithmetic.
+
+- **Context:** Scorpius infers 190 years of service from the witch's account. She replies that she has made over six million Pumpkin Pasties without explicitly confirming his arithmetic.
+  - Source: CC, CC-P1-A1-S11, PDF p. 50, `cc-p1-a1-s11-002`, `sources/book-cc/chapter-11-p1-a1-s11.yaml`
+  - Classification: unknown_or_uncertain | Confidence: medium
+  - Timeline: remembered_reported_hypothetical — Present interpretation of an alleged old appointment.
+  - Evidence: dialogue_claim | Speaker/source: Scorpius; Trolley Witch
+  - 1984 access: Neither the student's calculation nor Bagshot's access to supporting records by 1984 is established.
+  - Reference type: historical_claim
+  - Notes: Do not derive a definitive 1830 founding date or uninterrupted employment; production total is unverified.
 
 ### Chapter: Halloween Feast
 
@@ -1704,6 +1948,21 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Reference type: institutional_custom
   - Notes: The passage does not yet identify the formal occasion, its rules, or whether dress robes were required in years without the Triwizard Tournament.
 
+### Chapter: Family departure custom
+
+#### Section: Family departure custom
+
+Summary: The available evidence includes 1 source item, led by: The Hogwarts Express waits at platform nine and three-quarters among robed families saying goodbye to their children.
+
+- **Context:** The Hogwarts Express waits at platform nine and three-quarters among robed families saying goodbye to their children.
+  - Source: CC, CC-P1-A1-S02, PDF p. 16, `cc-p1-a1-s02-001`, `sources/book-cc/chapter-02-p1-a1-s02.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: stage_direction | Speaker/source: Stage directions
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: institutional_custom
+  - Notes: Does not establish the origin date or universal application of this practice.
+
 ### Chapter: Great Hall Daily Life
 
 #### Section: Meals, Owl Post, and Public Correspondence
@@ -1753,6 +2012,21 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Reference type: institutional_custom
   - Corroborates: `poa-ch10-004`. Book 3 Chapter Ten identifies the Honeydukes secret passage and Marauder's Map route; this entry adds later use of that route to supply a Gryffindor common-room celebration.
   - Notes: The party is spontaneous after a major Quidditch victory and should not be treated as an authorized school feast or formal House custom.
+
+### Chapter: Onboard provisions and compartments
+
+#### Section: Onboard provisions and compartments
+
+Summary: The available evidence includes 1 source item, led by: The train's travelling trolley offers Pumpkin Pasties, Chocolate Frogs and Cauldron Cakes; the scene shows pupils travelling in compartments.
+
+- **Context:** The train's travelling trolley offers Pumpkin Pasties, Chocolate Frogs and Cauldron Cakes; the scene shows pupils travelling in compartments.
+  - Source: CC, CC-P1-A1-S03, PDF p. 20, `cc-p1-a1-s03-001`, `sources/book-cc/chapter-03-p1-a1-s03.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: stage_direction | Speaker/source: Trolley Witch; stage directions
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: institutional_custom
+  - Notes: Observed menu is not an exhaustive permanent provision list.
 
 ### Chapter: One-Off Staff Events and School Morale
 
@@ -1928,6 +2202,21 @@ Summary: The available evidence includes 1 source item, led by: Nearly Headless 
   - Reference type: portrait_or_ghost_lore
   - Corroborates: `cos-ch12-001`, `gof-ch12-003`. cos-ch12-001 records the Sorting Hat kept in Dumbledore's office, and gof-ch12-003 records annual songs. This entry adds historical precedent for warning songs during danger and Nick's unity formula.
   - Notes: Nick does not identify the earlier warning dates or explain exactly how the Hat detects danger.
+
+### Chapter: Triwizard format
+
+#### Section: Triwizard format
+
+Summary: The available evidence includes 1 source item, led by: Scorpius summarizes the Tournament as three schools supplying three champions for three tasks and one Cup.
+
+- **Context:** Scorpius summarizes the Tournament as three schools supplying three champions for three tasks and one Cup.
+  - Source: CC, CC-P1-A1-S10, PDF p. 48, `cc-p1-a1-s10-001`, `sources/book-cc/chapter-10-p1-a1-s10.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: remembered_reported_hypothetical — Student's primary-history summary.
+  - Evidence: dialogue_claim | Speaker/source: Scorpius Malfoy
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: institutional_custom
+  - Notes: Compressed summary omits the exceptional fourth champion and detailed selection procedure.
 
 ## Part: Academic Life and Curriculum
 
@@ -2672,6 +2961,21 @@ Summary: The available evidence includes 1 source item, led by: Doge describes a
   - Reference type: institutional_custom
   - Notes: Doge's phrase does not establish how widespread the custom was, whether it applied only to privileged students, or when it ceased.
 
+### Chapter: Brewing and corrective ingredients
+
+#### Section: Brewing and corrective ingredients
+
+Summary: The available evidence includes 1 source item, led by: Practical Potions instruction includes an explosion after Albus discusses bicorn horn and salamander blood; Scorpius asks which counter-ingredient is needed.
+
+- **Context:** Practical Potions instruction includes an explosion after Albus discusses bicorn horn and salamander blood; Scorpius asks which counter-ingredient is needed.
+  - Source: CC, CC-P1-A1-S04, PDF p. 28, `cc-p1-a1-s04-005`, `sources/book-cc/chapter-04-p1-a1-s04.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: transition | Speaker/source: Albus; Scorpius; stage directions
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: curriculum_or_subject
+  - Notes: No valid recipe or successful remedy established; nearby portrait taunt is not reliable portrait behaviour evidence.
+
 ### Chapter: Care of Magical Creatures
 
 #### Section: Approved textbooks and examination preparation
@@ -2997,6 +3301,21 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Corroborates: `poa-ch04-003`. Book 3 Chapter Four records third-year booklist and supply purchases; this entry corroborates the recurring pattern and adds fourth-year spellbook, Herbology text, and potion-refill details.
   - Notes: The passage names materials but does not quote the full fourth-year school list or identify which items are required for which teacher.
 
+### Chapter: Creature curriculum
+
+#### Section: Creature curriculum: Augurey reference
+
+Summary: The available evidence includes 1 source item, led by: Delphi asks whether the boys have encountered Augureys in Care of Magical Creatures, suggesting the species as teaching material.
+
+- **Context:** Delphi asks whether the boys have encountered Augureys in Care of Magical Creatures, suggesting the species as teaching material.
+  - Source: CC, CC-P2-A3-S16, PDF p. 170, `cc-p2-a3-s16-002`, `sources/book-cc/chapter-55-p2-a3-s16.yaml`
+  - Classification: later_editorial_note | Confidence: low
+  - Timeline: primary — Restored primary timeline after reversal of the first two Triwizard interventions.
+  - Evidence: dialogue_claim | Speaker/source: Delphi
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: curriculum_or_subject
+  - Notes: A question by a deceptive outsider, not confirmation by a pupil or teacher that Augureys are taught; preserve as uncertain curricular lead. The boys do not confirm it; no actual class or syllabus is shown. Editorial review required.
+
 ### Chapter: Defense Against the Dark Arts
 
 #### Section: Dueling Spells Outside Formal Instruction
@@ -3302,6 +3621,21 @@ Summary: The available evidence includes 1 source item, led by: External O.W.L. 
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: institutional_custom
   - Notes: Malfoy's earlier claim about his father knowing Marchbanks is student gossip and should not be treated as verified influence.
+
+### Chapter: First broom exercise
+
+#### Section: First broom exercise
+
+Summary: The available evidence includes 1 source item, led by: Madam Hooch leads pupils in a broom lesson, telling them to stand beside their broomsticks and extend a hand to command them upward before flying.
+
+- **Context:** Madam Hooch leads pupils in a broom lesson, telling them to stand beside their broomsticks and extend a hand to command them upward before flying.
+  - Source: CC, CC-P1-A1-S04, PDF p. 25, `cc-p1-a1-s04-003`, `sources/book-cc/chapter-04-p1-a1-s04.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: transition | Speaker/source: Madam Hooch; stage directions
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: curriculum_or_subject
+  - Notes: Shows Hooch teaching this cohort, not uninterrupted tenure across all intervening years.
 
 ### Chapter: Flying Lessons
 
@@ -4091,6 +4425,19 @@ Summary: The available evidence includes 1 source item, led by: The scene states
   - Corroborates: `cos-ch05-005`. Chamber of Secrets Chapter Five already records Head-of-House responsibility and detention after major misconduct; this entry adds an explicit ban on Transfiguration as punishment and shows McGonagall correcting a teacher.
   - Notes: The scene shows emergency correction in public and does not cite a written rulebook or formal disciplinary code.
 
+#### Section: Student Discipline and Expulsion: Headmistress authority and penalties
+
+Summary: The available evidence includes 1 source item, led by: McGonagall distinguishes parents’ authority from her authority to determine school punishments. She considers expulsion but keeps the boys under her protection, imposing detention for the rest of the year, canceling Christmas and banning Hogsmeade visits.
+
+- **Context:** McGonagall distinguishes parents’ authority from her authority to determine school punishments. She considers expulsion but keeps the boys under her protection, imposing detention for the rest of the year, canceling Christmas and banning Hogsmeade visits.
+  - Source: CC, CC-P2-A3-S10, PDF p. 156, `cc-p2-a3-s10-001`, `sources/book-cc/chapter-49-p2-a3-s10.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary timeline after reversal of the first two Triwizard interventions.
+  - Evidence: dialogue_claim | Speaker/source: Minerva McGonagall
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: school_rule_or_policy
+  - Notes: Extraordinary response to time interference, not a general tariff; what canceling Christmas operationally means is unspecified.
+
 ### Chapter: Headmaster, Governors, and School Oversight
 
 #### Section: Governor Authority Over the Headmaster
@@ -4201,6 +4548,21 @@ Summary: The available evidence includes 1 source item, led by: Snape explicitly
   - Reference type: school_rule_or_policy
   - Corroborates: `ps-ch08-007`, `ps-ch09-005`, `ps-ch10-005`. Earlier entries seed House-point discipline and nighttime rule-breaking; this entry adds a direct fighting rule.
   - Notes: The passage does not state the formal written rule text or ordinary range of penalties for fighting.
+
+### Chapter: Absence notification
+
+#### Section: Absence notification
+
+Summary: The available evidence includes 1 source item, led by: McGonagall sends Harry an owl reporting that Albus and Scorpius never reached school and are missing.
+
+- **Context:** McGonagall sends Harry an owl reporting that Albus and Scorpius never reached school and are missing.
+  - Source: CC, CC-P1-A1-S15, PDF p. 58, `cc-p1-a1-s15-001`, `sources/book-cc/chapter-15-p1-a1-s15.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: dialogue_claim | Speaker/source: Harry Potter; stage directions
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: school_rule_or_policy
+  - Notes: Observed response to this case, not proof of a universal attendance protocol.
 
 ### Chapter: Admissions, Attendance, and Wartime Control
 
@@ -4635,6 +4997,21 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Corroborates: `cos-ch10-005`. Chapter Ten records Madam Pomfrey's treatment authority and visitor removal; this entry corroborates hospital wing control while adding curtains for privacy and daily homework delivery.
   - Notes: Hermione's condition results from illicit Polyjuice use, so the scene should not be generalized into all long-term patient cases without further evidence.
 
+### Chapter: House Common Rooms and Dormitories
+
+#### Section: House Common Rooms and Dormitories: Permission for adult entry
+
+Summary: The available evidence includes 1 source item, led by: Craig states that parents or professors require express permission to enter House quarters under the school covenant. McGonagall interrupts before he identifies whose permission is required.
+
+- **Context:** Craig states that parents or professors require express permission to enter House quarters under the school covenant. McGonagall interrupts before he identifies whose permission is required.
+  - Source: CC, CC-P2-A3-S15, PDF p. 166, `cc-p2-a3-s15-001`, `sources/book-cc/chapter-54-p2-a3-s15.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary timeline after reversal of the first two Triwizard interventions.
+  - Evidence: dialogue_claim | Speaker/source: Craig Bowker Jr.
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: school_rule_or_policy
+  - Notes: Source is a pupil’s statement and is unfinished: do not supply who grants permission or infer that the headmistress is formally exempt.
+
 ### Chapter: House Points, Detentions, and Student Discipline
 
 #### Section: Match Sabotage and Sports Discipline
@@ -4903,6 +5280,21 @@ Summary: The available evidence includes 1 source item, led by: The chapter link
   - Corroborates: `ootp-ch04-007`, `gof-ch36-005`. ootp-ch04-007 records Ministry and Prophet pressure against Dumbledore's allies and Harry; gof-ch36-005 records Fudge's governance threat to Dumbledore; this entry adds Daily Prophet suppression, Ministry spies, and Dumbledore's loss of Confederation and Wizengamot offices.
   - Notes: The chapter summarizes political events through Order conversation rather than reproducing the Prophet articles or official Ministry notices.
 
+### Chapter: Pastoral and classroom reports
+
+#### Section: Pastoral and classroom reports
+
+Summary: The available evidence includes 1 source item, led by: Harry reports exchanging owls with McGonagall about Albus's isolation, poor cooperation in lessons and surliness.
+
+- **Context:** Harry reports exchanging owls with McGonagall about Albus's isolation, poor cooperation in lessons and surliness.
+  - Source: CC, CC-P1-A1-S04, PDF p. 29, `cc-p1-a1-s04-007`, `sources/book-cc/chapter-04-p1-a1-s04.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: dialogue_claim | Speaker/source: Harry Potter
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: institutional_custom
+  - Notes: A parent's summary of correspondence, not the letters or a universal reporting procedure.
+
 ### Chapter: Prefects and Student Authority
 
 #### Section: Fifth-Year Prefects and Train Patrols
@@ -4993,6 +5385,21 @@ Summary: The available evidence includes 1 source item, led by: Spiked sweets ca
   - Reference type: school_rule_or_policy
   - Corroborates: `hbp-ch15-002`, `hbp-ch06-006`, `gof-ch27-003`. hbp-ch15-002 covers disguised contraband, hbp-ch06-006 covers love-potion retail access, and gof-ch27-003 covers a stated Hogwarts love-potion ban. This entry adds a successful poisoning-by-sweets incident, potion aging, and Slughorn's antidote response.
   - Notes: Harry avoids Madam Pomfrey to avoid questions, so this should not be treated as standard school medical procedure.
+
+### Chapter: School stores and restricted ingredients
+
+#### Section: School stores and restricted ingredients
+
+Summary: The available evidence includes 1 source item, led by: McGonagall reports signs of interference with school potion stores after summer break: small quantities of Boomslang skin and lacewing flies missing. Neither is on the Restricted Register; staff initially blamed Peeves.
+
+- **Context:** McGonagall reports signs of interference with school potion stores after summer break: small quantities of Boomslang skin and lacewing flies missing. Neither is on the Restricted Register; staff initially blamed Peeves.
+  - Source: CC, CC-P1-A1-S12, PDF p. 51, `cc-p1-a1-s12-002`, `sources/book-cc/chapter-12-p1-a1-s12.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: dialogue_claim | Speaker/source: Professor McGonagall
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: security_or_protection
+  - Notes: Peeves is suspected, not proven responsible. Register's authority, scope and creation date are unspecified.
 
 ### Chapter: Snape's Hogwarts Regime
 
@@ -5419,6 +5826,21 @@ Summary: The available evidence includes 1 source item, led by: Hermione's inter
   - Reference type: institutional_custom
   - Corroborates: `ootp-ch12-001`. Corroborates the previous chapter's common-room prefect enforcement entry, but adds first-year safety and informal family-notification pressure.
   - Notes: The scene shows Hermione acting as prefect, but it does not state a formal written rule or official punishment outcome.
+
+### Chapter: Third-year Hogsmeade permission
+
+#### Section: Third-year Hogsmeade permission
+
+Summary: The available evidence includes 1 source item, led by: At the start of third year Harry gives Albus a Hogsmeade permission form; the next page says Albus has not yet visited and links the outing with Honeydukes.
+
+- **Context:** At the start of third year Harry gives Albus a Hogsmeade permission form; the next page says Albus has not yet visited and links the outing with Honeydukes.
+  - Source: CC, CC-P1-A1-S04, PDF p. 28, `cc-p1-a1-s04-006`, `sources/book-cc/chapter-04-p1-a1-s04.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: dialogue_claim | Speaker/source: Harry Potter; Albus
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: school_rule_or_policy
+  - Notes: Does not provide the full eligibility, signature or supervision rules.
 
 ### Chapter: Wartime Student Movement Restrictions
 
@@ -6184,6 +6606,21 @@ Summary: The available evidence includes 1 source item, led by: Hogwarts can be 
   - Reference type: security_or_protection
   - Notes: The chapter names only some incantations and plants; it does not fully enumerate all protections placed around the castle.
 
+### Chapter: Claimed anti-escape history
+
+#### Section: Claimed anti-escape history
+
+Summary: The available evidence includes 1 source item, led by: The witch claims she has never let anyone leave before the destination and that attempts by Sirius Black's circle and Fred and George failed. She attributes opposition to early departure to the train itself.
+
+- **Context:** The witch claims she has never let anyone leave before the destination and that attempts by Sirius Black's circle and Fred and George failed. She attributes opposition to early departure to the train itself.
+  - Source: CC, CC-P1-A1-S11, PDF p. 50, `cc-p1-a1-s11-003`, `sources/book-cc/chapter-11-p1-a1-s11.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: remembered_reported_hypothetical — Reported primary-history journeys before the boys' escape.
+  - Evidence: dialogue_claim | Speaker/source: Trolley Witch
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: security_or_protection
+  - Notes: Absolute claims belong to the speaker; no exact dates, nature of the train's will, or complete records supplied.
+
 ### Chapter: Concealment and Anti-Detection Magic
 
 #### Section: Disillusionment Charm in Student Extraction
@@ -6859,6 +7296,21 @@ Summary: The available evidence includes 1 source item, led by: The fleeing Deat
   - Corroborates: `gof-ch15-006`, `gof-ch29-001`, `hbp-ch04-001`. Prior entries state or contextualize the anti-Apparition rule for Hogwarts buildings and grounds; this entry adds direct operational evidence that fugitives can Disapparate only once beyond the gates and school boundary.
   - Notes: The passage does not define the boundary spell or whether the gates are the formal legal boundary or simply the nearest passable edge.
 
+### Chapter: Observed enforcement and evasion
+
+#### Section: Observed enforcement and evasion
+
+Summary: The available evidence includes 1 source item, led by: On the roof the witch makes a Pumpkin Pasty explode and transforms her hands into spikes while ordering the boys back to their seats. They jump toward water, invoking a Cushioning Charm.
+
+- **Context:** On the roof the witch makes a Pumpkin Pasty explode and transforms her hands into spikes while ordering the boys back to their seats. They jump toward water, invoking a Cushioning Charm.
+  - Source: CC, CC-P1-A1-S11, PDF p. 50, `cc-p1-a1-s11-004`, `sources/book-cc/chapter-11-p1-a1-s11.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: stage_direction | Speaker/source: Stage directions; Albus; Scorpius
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: security_or_protection
+  - Notes: Does not establish the witch's species, construction, immortality or enchantment's origin; landing is not shown here.
+
 ### Chapter: Off-Campus Protection of Students
 
 #### Section: Advance Guard Retrieval From Privet Drive
@@ -7208,6 +7660,21 @@ Summary: The available evidence includes 1 source item, led by: Death Eater agen
   - Classification: later_editorial_note | Confidence: high
   - Reference type: security_or_protection
   - Notes: The chapter does not specify the technical detection method used by the Department of Magical Transport.
+
+### Chapter: Transport failure response
+
+#### Section: Transport failure response
+
+Summary: The available evidence includes 1 source item, led by: Hermione reports the witch's fury and sense of having failed Ottaline Gambol, and her pride in delivering pupils to Hogwarts; Harry's department searches beside the tracks.
+
+- **Context:** Hermione reports the witch's fury and sense of having failed Ottaline Gambol, and her pride in delivering pupils to Hogwarts; Harry's department searches beside the tracks.
+  - Source: CC, CC-P1-A1-S17, PDF p. 61, `cc-p1-a1-s17-001`, `sources/book-cc/chapter-17-p1-a1-s17.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: dialogue_claim | Speaker/source: Hermione; Harry
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: security_or_protection
+  - Notes: An indirect report of the witch's reaction; no independent confirmation of her original appointment or perfect previous record.
 
 ### Chapter: Wartime Castle Security
 
@@ -8016,6 +8483,21 @@ Summary: The available evidence includes 1 source item, led by: Fred and George'
   - Reference type: cross_reference_candidate
   - Notes: Hermione's charm explanation is an informed inference, and the product is a Harry-era joke-shop development rather than an older school custom.
 
+### Chapter: Team announcements and impartiality
+
+#### Section: Team announcements and impartiality
+
+Summary: The available evidence includes 1 source item, led by: McGonagall announces Gryffindor's new Chaser in the Great Hall; a stage aside shows her correcting a partisan expression. Pupils discuss supporting another House's player.
+
+- **Context:** McGonagall announces Gryffindor's new Chaser in the Great Hall; a stage aside shows her correcting a partisan expression. Pupils discuss supporting another House's player.
+  - Source: CC, CC-P1-A1-S04, PDF p. 28, `cc-p1-a1-s04-004`, `sources/book-cc/chapter-04-p1-a1-s04.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: transition | Speaker/source: McGonagall; stage directions
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: institutional_custom
+  - Notes: Expected impartiality is conveyed by a stage aside, not a formal regulation.
+
 ## Part: The Library, Books, and Scholarship
 
 ### Chapter: Student Use of Library Books
@@ -8586,6 +9068,21 @@ Summary: The available evidence includes 1 source item, led by: Riddle searched 
   - Corroborates: `cos-ch13-002`, `ps-ch09-004`. cos-ch13-002 records Riddle's awards and Head Boy/prefect record in the trophy room, and ps-ch09-004 establishes the room's contents. This entry adds Riddle's own research path through trophy shields, prefect lists, old school records, and Wizarding-history books.
   - Notes: Dumbledore reports what witnesses told him and what he inferred; the passage does not show the records directly.
 
+### Chapter: School book restrictions
+
+#### Section: School book restrictions
+
+Summary: The available evidence includes 1 source item, led by: Scorpius compares Hermione's office books with Hogwarts's Restricted Section, then says the office goes beyond it. He identifies Sonnets of a Sorcerer as not allowed at Hogwarts.
+
+- **Context:** Scorpius compares Hermione's office books with Hogwarts's Restricted Section, then says the office goes beyond it. He identifies Sonnets of a Sorcerer as not allowed at Hogwarts.
+  - Source: CC, CC-P1-A1-S19, PDF p. 68, `cc-p1-a1-s19-001`, `sources/book-cc/chapter-19-p1-a1-s19.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: dialogue_claim | Speaker/source: Scorpius Malfoy
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: school_rule_or_policy
+  - Notes: Do not transfer all Ministry office titles into Hogwarts holdings. No date for the prohibition or comprehensive banned list is given.
+
 ### Chapter: Student Scholarship and Learned Networks
 
 #### Section: Dumbledore's Early Academic Reputation
@@ -8623,6 +9120,21 @@ Summary: The available evidence includes 1 source item, led by: Hermione's intro
   - Classification: harry_era_confirmation | Confidence: high
   - Reference type: explicit_in_universe_source
   - Notes: Hermione's study habits are individual and should not be generalized to all first-years.
+
+### Chapter: Trelawney's Divination title
+
+#### Section: Trelawney's Divination title
+
+Summary: The available evidence includes 1 source item, led by: Scorpius identifies My Eyes and How to See Past Them as a Divination book by Sybill Trelawney.
+
+- **Context:** Scorpius identifies My Eyes and How to See Past Them as a Divination book by Sybill Trelawney.
+  - Source: CC, CC-P1-A1-S19, PDF p. 68, `cc-p1-a1-s19-002`, `sources/book-cc/chapter-19-p1-a1-s19.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: dialogue_claim | Speaker/source: Scorpius Malfoy
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: explicit_in_universe_source
+  - Notes: Located in a Ministry office, not shown in Hogwarts's library. No curricular adoption, publication date, or responsibility for the copy's trap established.
 
 ## Part: Notable Events Before 1984
 
@@ -9625,6 +10137,298 @@ Summary: The available evidence includes 1 source item, led by: The chapter expa
   - Corroborates: `cos-ch02-001`. Book 2 Chapter Two records Dobby's bondage to a wizarding family; this entry adds Winky's claims about unpaid work, job placement after freedom, obedience to a master, and creature-regulation pressure.
   - Notes: Winky is defending conventional house-elf views, so the passage should be balanced against later evidence about Dobby's paid Hogwarts work.
 
+### Chapter: Academic Life and Curriculum
+
+#### Section: Altered Defense staffing and lesson
+
+Summary: The available evidence includes 1 source item, led by: Hermione serves as Defense Against the Dark Arts professor and teaches Patronus Charms in this altered present.
+
+- **Context:** Hermione serves as Defense Against the Dark Arts professor and teaches Patronus Charms in this altered present.
+  - Source: CC, CC-P1-A2-S11, PDF p. 101, `cc-p1-a2-s11-001`, `sources/book-cc/chapter-30-p1-a2-s11.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Hermione; Albus
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: curriculum_or_subject
+  - Notes: Later dramatic evidence; no date of institutional introduction or general policy is established.
+
+#### Section: Patronus explanation in class
+
+Summary: The available evidence includes 1 source item, led by: Hermione teaches that a Patronus projects positive feelings in the animal form of the caster’s deepest affinity and affords protection.
+
+- **Context:** Hermione teaches that a Patronus projects positive feelings in the animal form of the caster’s deepest affinity and affords protection.
+  - Source: CC, CC-P1-A2-S11, PDF p. 102, `cc-p1-a2-s11-002`, `sources/book-cc/chapter-30-p1-a2-s11.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Hermione
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: curriculum_or_subject
+  - Notes: Altered-branch classroom formulation; her broad promise of protection should not be read as immunity from every danger.
+
+#### Section: Reported Potions accident
+
+Summary: The available evidence includes 1 source item, led by: Ron reports Panju’s Potions mixing error left him without eyebrows and with a large moustache and explains his parental visit.
+
+- **Context:** Ron reports Panju’s Potions mixing error left him without eyebrows and with a large moustache and explains his parental visit.
+  - Source: CC, CC-P1-A2-S17, PDF p. 117, `cc-p1-a2-s17-001`, `sources/book-cc/chapter-36-p1-a2-s17.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Ron
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: curriculum_or_subject
+  - Notes: An altered-world pupil’s accident; ingredients, antidote, teacher, and procedure are not stated.
+
+### Chapter: Altered Hogwarts
+
+#### Section: Altered Hogwarts: Battle divergence
+
+Summary: The available evidence includes 1 source item, led by: Snape reports that altered-world Cedric killed Neville at the Battle of Hogwarts; Scorpius connects this with Nagini surviving and Voldemort winning, contrasting his original world’s Neville and victorious defenders.
+
+- **Context:** Snape reports that altered-world Cedric killed Neville at the Battle of Hogwarts; Scorpius connects this with Nagini surviving and Voldemort winning, contrasting his original world’s Neville and victorious defenders.
+  - Source: CC, CC-P2-A3-S05, PDF p. 141, `cc-p2-a3-s05-002`, `sources/book-cc/chapter-44-p2-a3-s05.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: altered — Voldemort-victory branch produced by humiliating Cedric in the first two tasks; excluded from primary history.
+  - Evidence: dialogue_claim | Speaker/source: Severus Snape and Scorpius Malfoy
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: historical_claim
+  - Notes: Cedric’s killing is branch-specific testimony; causal interpretation is Scorpius’s explanation, not an observed battle.
+
+#### Section: Altered Hogwarts: Blood Ball
+
+Summary: The available evidence includes 1 source item, led by: Polly expects students to invite partners to an event called the Blood Ball. This is a named social event in altered Hogwarts.
+
+- **Context:** Polly expects students to invite partners to an event called the Blood Ball. This is a named social event in altered Hogwarts.
+  - Source: CC, CC-P2-A3-S02, PDF p. 134, `cc-p2-a3-s02-001`, `sources/book-cc/chapter-41-p2-a3-s02.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: altered — Voldemort-victory branch produced by humiliating Cedric in the first two tasks; excluded from primary history.
+  - Evidence: dialogue_claim | Speaker/source: Polly Chapman
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: institutional_custom
+  - Notes: Frequency, origin, rules and precise venue are not stated; do not equate with the Yule Ball.
+
+#### Section: Altered Hogwarts: Classroom door and hatch
+
+Summary: The available evidence includes 1 source item, led by: Snape seals the Potions-classroom door with Colloportus, then opens a hatch at its back.
+
+- **Context:** Snape seals the Potions-classroom door with Colloportus, then opens a hatch at its back.
+  - Source: CC, CC-P2-A3-S05, PDF p. 142, `cc-p2-a3-s05-003`, `sources/book-cc/chapter-44-p2-a3-s05.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: altered — Voldemort-victory branch produced by humiliating Cedric in the first two tasks; excluded from primary history.
+  - Evidence: stage_direction | Speaker/source: Stage directions: Snape
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: magical_architecture
+  - Notes: Scene-specific evidence; does not establish an enduring schoolwide practice or pre-1984 origin.
+
+#### Section: Altered Hogwarts: Dementor-controlled grounds
+
+Summary: The available evidence includes 1 source item, led by: The repair party returns to the Forest edge still in Voldemort’s world; dementors patrol and attack there, while Snape warns their exposed position is unsafe.
+
+- **Context:** The repair party returns to the Forest edge still in Voldemort’s world; dementors patrol and attack there, while Snape warns their exposed position is unsafe.
+  - Source: CC, CC-P2-A3-S09, PDF p. 150, `cc-p2-a3-s09-001`, `sources/book-cc/chapter-48-p2-a3-s09.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: altered — Voldemort-victory branch produced by humiliating Cedric in the first two tasks; excluded from primary history.
+  - Evidence: stage_direction | Speaker/source: Stage directions and Snape
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: security_or_protection
+  - Notes: Scene remains altered through Snape’s death and Scorpius entering the lake; restoration occurs only later on page 154.
+
+#### Section: Altered Hogwarts: Dungeon persecution
+
+Summary: The available evidence includes 1 source item, led by: Polly identifies the screams as coming from Muggle-born prisoners in the dungeons and attributes the arrangement to this world’s Scorpius; stage directions show blood on her shoes.
+
+- **Context:** Polly identifies the screams as coming from Muggle-born prisoners in the dungeons and attributes the arrangement to this world’s Scorpius; stage directions show blood on her shoes.
+  - Source: CC, CC-P2-A3-S02, PDF p. 135, `cc-p2-a3-s02-002`, `sources/book-cc/chapter-41-p2-a3-s02.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: altered — Voldemort-victory branch produced by humiliating Cedric in the first two tasks; excluded from primary history.
+  - Evidence: dialogue_claim | Speaker/source: Polly Chapman
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: historical_claim
+  - Notes: A character identifies the victims and location; screams and blood are staged, but the captives themselves are not shown.
+
+#### Section: Altered Hogwarts: Ideological ritual
+
+Summary: The available evidence includes 1 source item, led by: Umbridge makes a hand-to-heart and wrists-together gesture with the regime salute; Scorpius imitates her during an official school meeting.
+
+- **Context:** Umbridge makes a hand-to-heart and wrists-together gesture with the regime salute; Scorpius imitates her during an official school meeting.
+  - Source: CC, CC-P2-A3-S01, PDF p. 133, `cc-p2-a3-s01-004`, `sources/book-cc/chapter-40-p2-a3-s01.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: altered — Voldemort-victory branch produced by humiliating Cedric in the first two tasks; excluded from primary history.
+  - Evidence: stage_direction | Speaker/source: Stage directions: Umbridge and Scorpius
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: institutional_custom
+  - Notes: Scene-specific evidence; does not establish an enduring schoolwide practice or pre-1984 origin.
+
+#### Section: Altered Hogwarts: Investigation of changed behavior
+
+Summary: The available evidence includes 1 source item, led by: Umbridge reports that school authorities checked Scorpius for hexes and curses after his behavior changed, without finding any.
+
+- **Context:** Umbridge reports that school authorities checked Scorpius for hexes and curses after his behavior changed, without finding any.
+  - Source: CC, CC-P2-A3-S01, PDF p. 132, `cc-p2-a3-s01-003`, `sources/book-cc/chapter-40-p2-a3-s01.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: altered — Voldemort-victory branch produced by humiliating Cedric in the first two tasks; excluded from primary history.
+  - Evidence: dialogue_claim | Speaker/source: Dolores Umbridge
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: security_or_protection
+  - Notes: Scene-specific evidence; does not establish an enduring schoolwide practice or pre-1984 origin.
+
+#### Section: Altered Hogwarts: Leadership and blood-purity governance
+
+Summary: The available evidence includes 1 source item, led by: Umbridge is headmistress in the altered world. She treats pure blood, leadership and athletic success as reasons for Scorpius to become Head Boy and praises their joint removal of disfavored students; she reports his value to the Augurey.
+
+- **Context:** Umbridge is headmistress in the altered world. She treats pure blood, leadership and athletic success as reasons for Scorpius to become Head Boy and praises their joint removal of disfavored students; she reports his value to the Augurey.
+  - Source: CC, CC-P2-A3-S01, PDF p. 132, `cc-p2-a3-s01-001`, `sources/book-cc/chapter-40-p2-a3-s01.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: altered — Voldemort-victory branch produced by humiliating Cedric in the first two tasks; excluded from primary history.
+  - Evidence: dialogue_claim | Speaker/source: Dolores Umbridge
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: school_rule_or_policy
+  - Notes: Scene-specific evidence; does not establish an enduring schoolwide practice or pre-1984 origin.
+
+#### Section: Altered Hogwarts: Library history holdings
+
+Summary: The available evidence includes 1 source item, led by: The library contains a history book used by Scorpius; Craig names it A History of Magic. This is not Hogwarts: A History.
+
+- **Context:** The library contains a history book used by Scorpius; Craig names it A History of Magic. This is not Hogwarts: A History.
+  - Source: CC, CC-P2-A3-S04, PDF p. 139, `cc-p2-a3-s04-002`, `sources/book-cc/chapter-43-p2-a3-s04.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: altered — Voldemort-victory branch produced by humiliating Cedric in the first two tasks; excluded from primary history.
+  - Evidence: stage_direction | Speaker/source: Craig Bowker Jr. and stage directions
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: explicit_in_universe_source
+  - Notes: Title supplied in dialogue later on the same page; no author or quoted contents supplied.
+
+#### Section: Altered Hogwarts: Potions instruction
+
+Summary: The available evidence includes 1 source item, led by: Craig says Snape sets extensive Potions essays and he completes both his own and Scorpius’s assignments, showing surviving coursework and coerced academic labor in the altered school.
+
+- **Context:** Craig says Snape sets extensive Potions essays and he completes both his own and Scorpius’s assignments, showing surviving coursework and coerced academic labor in the altered school.
+  - Source: CC, CC-P2-A3-S04, PDF p. 139, `cc-p2-a3-s04-001`, `sources/book-cc/chapter-43-p2-a3-s04.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: altered — Voldemort-victory branch produced by humiliating Cedric in the first two tasks; excluded from primary history.
+  - Evidence: dialogue_claim | Speaker/source: Craig Bowker Jr.
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: curriculum_or_subject
+  - Notes: Scene-specific evidence; does not establish an enduring schoolwide practice or pre-1984 origin.
+
+#### Section: Altered Hogwarts: Quidditch
+
+Summary: The available evidence includes 1 source item, led by: Umbridge praises Scorpius as a frequent Snitch catcher on the Quidditch pitch, showing that school Quidditch survives under this regime.
+
+- **Context:** Umbridge praises Scorpius as a frequent Snitch catcher on the Quidditch pitch, showing that school Quidditch survives under this regime.
+  - Source: CC, CC-P2-A3-S01, PDF p. 132, `cc-p2-a3-s01-002`, `sources/book-cc/chapter-40-p2-a3-s01.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: altered — Voldemort-victory branch produced by humiliating Cedric in the first two tasks; excluded from primary history.
+  - Evidence: dialogue_claim | Speaker/source: Dolores Umbridge
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: institutional_custom
+  - Notes: Scene-specific evidence; does not establish an enduring schoolwide practice or pre-1984 origin.
+
+#### Section: Altered Hogwarts: Root chamber refuge
+
+Summary: The available evidence includes 1 source item, led by: Snape says the hatch route leads to a room hidden within the Whomping Willow’s roots, a refuge after earlier locations were destroyed.
+
+- **Context:** Snape says the hatch route leads to a room hidden within the Whomping Willow’s roots, a refuge after earlier locations were destroyed.
+  - Source: CC, CC-P2-A3-S05, PDF p. 142, `cc-p2-a3-s05-004`, `sources/book-cc/chapter-44-p2-a3-s05.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: altered — Voldemort-victory branch produced by humiliating Cedric in the first two tasks; excluded from primary history.
+  - Evidence: dialogue_claim | Speaker/source: Severus Snape
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: magical_architecture
+  - Notes: Do not identify this altered-world campaign room or classroom hatch with the primary-world Shrieking Shack tunnel, or infer an old construction date.
+
+#### Section: Altered Hogwarts: Selective enforcement
+
+Summary: The available evidence includes 1 source item, led by: Snape asserts that his professorial status and Scorpius’s privileged position should deter dementor attacks without cause; subsequently Umbridge accuses them of aiding Hermione.
+
+- **Context:** Snape asserts that his professorial status and Scorpius’s privileged position should deter dementor attacks without cause; subsequently Umbridge accuses them of aiding Hermione.
+  - Source: CC, CC-P2-A3-S09, PDF p. 152, `cc-p2-a3-s09-002`, `sources/book-cc/chapter-48-p2-a3-s09.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: altered — Voldemort-victory branch produced by humiliating Cedric in the first two tasks; excluded from primary history.
+  - Evidence: dialogue_claim | Speaker/source: Severus Snape
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: school_rule_or_policy
+  - Notes: Snape’s tactical reassurance, not an independently established written rule; the scene subsequently shows it failing.
+
+#### Section: Altered Hogwarts: Survival of a school resistance organization
+
+Summary: The available evidence includes 1 source item, led by: Ron says the remaining underground group is almost all that remains of Dumbledore’s Army, still resisting the regime from concealment.
+
+- **Context:** Ron says the remaining underground group is almost all that remains of Dumbledore’s Army, still resisting the regime from concealment.
+  - Source: CC, CC-P2-A3-S07, PDF p. 145, `cc-p2-a3-s07-001`, `sources/book-cc/chapter-46-p2-a3-s07.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: altered — Voldemort-victory branch produced by humiliating Cedric in the first two tasks; excluded from primary history.
+  - Evidence: dialogue_claim | Speaker/source: Ron Weasley
+  - 1984 access: Not available for a 1984 original: later event or later testimony; no demonstrated access to these facts in 1984.
+  - Reference type: historical_claim
+  - Notes: Branch-specific later survival; no numerical membership or primary-world continuation established.
+
+### Chapter: Alternative Histories of Hogwarts
+
+#### Section: First intervention in the 1994 tournament
+
+Summary: The available evidence includes 1 source item, led by: The visitors disarm Cedric during his first task; Bagman publicly reports the inexplicable loss of the wand and uncertainty over the magic involved.
+
+- **Context:** The visitors disarm Cedric during his first task; Bagman publicly reports the inexplicable loss of the wand and uncertainty over the magic involved.
+  - Source: CC, CC-P1-A2-S07, PDF p. 91, `cc-p1-a2-s07-003`, `sources/book-cc/chapter-26-p1-a2-s07.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: historical_visit — Visit to 1994 first task, initially primary history; intervention creates the first altered branch.
+  - Evidence: stage_direction | Speaker/source: Stage directions; Bagman
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: historical_claim
+  - Notes: Divergent event caused by visitors, not part of unaltered tournament history.
+
+#### Section: Intervention at the lake task
+
+Summary: The available evidence includes 1 source item, led by: The boys cast underwater at Cedric, enlarging him and forcing him out of the task; on the following page spectators laugh as he rises and fireworks appear.
+
+- **Context:** The boys cast underwater at Cedric, enlarging him and forcing him out of the task; on the following page spectators laugh as he rises and fireworks appear.
+  - Source: CC, CC-P1-A2-S20, PDF p. 125, `cc-p1-a2-s20-002`, `sources/book-cc/chapter-39-p1-a2-s20.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: historical_visit — Second intervention, from the Ron–Padma branch into 1995; it generates the Voldemort-victory present.
+  - Evidence: stage_direction | Speaker/source: Stage directions
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: historical_claim
+  - Notes: Counterfactual tournament disruption, not unaltered history; no general lesson that Engorgement always confers buoyancy.
+
+#### Section: Regime account of the battle and commemorative calendar
+
+Summary: The available evidence includes 1 source item, led by: Umbridge says Harry died in the failed Battle of Hogwarts and presents Dumbledore’s defenders as terrorists defeated by her side, while using a blood-status slur and mentioning Voldemort Day.
+
+- **Context:** Umbridge says Harry died in the failed Battle of Hogwarts and presents Dumbledore’s defenders as terrorists defeated by her side, while using a blood-status slur and mentioning Voldemort Day.
+  - Source: CC, CC-P1-A2-S20, PDF p. 127, `cc-p1-a2-s20-004`, `sources/book-cc/chapter-39-p1-a2-s20.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — Voldemort-victory present; retrospective regime account of its divergent Battle of Hogwarts.
+  - Evidence: dialogue_claim | Speaker/source: Umbridge
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: historical_claim
+  - Notes: Explicitly partisan regime testimony within a counterfactual branch, not a correction to the primary Battle account.
+
+#### Section: Regime atmosphere and symbols
+
+Summary: The available evidence includes 1 source item, led by: Dementors appear in the theatrical environment of the school’s new regime and giant snake-emblem banners descend, alongside Umbridge’s reference to Voldemort Day.
+
+- **Context:** Dementors appear in the theatrical environment of the school’s new regime and giant snake-emblem banners descend, alongside Umbridge’s reference to Voldemort Day.
+  - Source: CC, CC-P1-A2-S20, PDF p. 127, `cc-p1-a2-s20-005`, `sources/book-cc/chapter-39-p1-a2-s20.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — Voldemort-victory present after the second intervention.
+  - Evidence: stage_direction | Speaker/source: Stage directions; Umbridge
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: direct_observed_setting
+  - Notes: Stage symbolism establishes the branch’s regime presentation; it does not precisely locate every banner or dementor within a surveyed castle plan.
+
+#### Section: Voldemort-victory school leadership
+
+Summary: The available evidence includes 1 source item, led by: Umbridge identifies herself as headmistress after Scorpius returns; she invokes the importance of his family while disciplining him.
+
+- **Context:** Umbridge identifies herself as headmistress after Scorpius returns; she invokes the importance of his family while disciplining him.
+  - Source: CC, CC-P1-A2-S20, PDF p. 126, `cc-p1-a2-s20-003`, `sources/book-cc/chapter-39-p1-a2-s20.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — Second altered present: Voldemort victory, generated by the 1995 lake-task humiliation.
+  - Evidence: dialogue_claim | Speaker/source: Umbridge
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: school_rule_or_policy
+  - Notes: Later dramatic evidence; no date of institutional introduction or general policy is established.
+
 ### Chapter: Alumni, War Memory, and Unreliable Testimony
 
 #### Section: Black, Potter, and Pettigrew in School Memory
@@ -9723,6 +10527,64 @@ Summary: The available evidence includes 1 source item, led by: The Ministry rat
   - Reference type: cross_reference_candidate
   - Notes: The Hagrid gloss is marginalia from the reproduced student copy and should be treated separately from Scamander's printed classification text.
 
+### Chapter: Castle Architecture
+
+#### Section: Bathroom fixture and ghost emergence
+
+Summary: The available evidence includes 1 source item, led by: The girls’ bathroom contains a large central Victorian sink; Myrtle emerges from it with a jet of water.
+
+- **Context:** The girls’ bathroom contains a large central Victorian sink; Myrtle emerges from it with a jet of water.
+  - Source: CC, CC-P1-A2-S19, PDF p. 121, `cc-p1-a2-s19-001`, `sources/book-cc/chapter-38-p1-a2-s19.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: stage_direction | Speaker/source: Stage directions
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: direct_observed_setting
+  - Notes: Victorian describes the fixture’s style, not proof of an installation date. The whole observation belongs to the first altered branch.
+
+#### Section: Forest-side view of Hogwarts
+
+Summary: The available evidence includes 1 source item, led by: The stage reveals Hogwarts through a gap in the Forest trees as an assemblage of bulbous buildings and towers.
+
+- **Context:** The stage reveals Hogwarts through a gap in the Forest trees as an assemblage of bulbous buildings and towers.
+  - Source: CC, CC-P1-A2-S06, PDF p. 87, `cc-p1-a2-s06-001`, `sources/book-cc/chapter-25-p1-a2-s06.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Primary present before the first intervention.
+  - Evidence: stage_direction | Speaker/source: Stage directions
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: direct_observed_setting
+  - Notes: A theatrical visual prescription, not a scale plan or proof that this silhouette existed before 1984.
+
+### Chapter: Castle Transport and Administration
+
+#### Section: Floo access to the headmistress’s office
+
+Summary: The available evidence includes 1 source item, led by: Hermione and Draco arrive through the headmistress’s chimney; Ron reports selecting the wrong Floo and reaching a kitchen. McGonagall occupies the headmistress’s office.
+
+- **Context:** Hermione and Draco arrive through the headmistress’s chimney; Ron reports selecting the wrong Floo and reaching a kitchen. McGonagall occupies the headmistress’s office.
+  - Source: CC, CC-P1-A2-S03, PDF p. 80, `cc-p1-a2-s03-002`, `sources/book-cc/chapter-22-p1-a2-s03.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Primary present before the first intervention.
+  - Evidence: stage_direction | Speaker/source: Stage directions; Ron
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: magical_architecture
+  - Notes: The kitchen is Ron’s report and is not independently located; emergency access does not establish unrestricted routine access.
+
+### Chapter: Ceremonies and School Traditions
+
+#### Section: Informal student affection and mourning
+
+Summary: The available evidence includes 1 source item, led by: Myrtle recalls hearing girls perform love incantations for Cedric in the bathroom and hearing their grief after his death.
+
+- **Context:** Myrtle recalls hearing girls perform love incantations for Cedric in the bathroom and hearing their grief after his death.
+  - Source: CC, CC-P1-A2-S19, PDF p. 122, `cc-p1-a2-s19-003`, `sources/book-cc/chapter-38-p1-a2-s19.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Myrtle
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: historical_claim
+  - Notes: Ghost’s recollection in an altered branch; efficacy of the incantations is not established.
+
 ### Chapter: Classrooms, Towers, and Teaching Spaces
 
 #### Section: Classroom eleven and Firenze's adapted Divination room
@@ -9749,6 +10611,216 @@ Summary: The available evidence includes 1 source item, led by: The chapter show
   - Reference type: institutional_custom
   - Corroborates: `gof-ch34-005`, `gof-ch35-007`. gof-ch34-005 records Harry's Portkey return and gof-ch35-007 records Crouch's Veritaserum confession; this entry adds Harry's immediate survivor debrief as a separate corroborating evidence channel.
   - Notes: The account is summarized through Harry's retelling rather than fully transcribed, and it occurs before ordinary rest or formal public reporting.
+
+### Chapter: Cursed Child: Later School Life and Historical Sources
+
+#### Section: Bagshot household rumor and access
+
+Summary: The available evidence includes 1 source item, led by: Scorpius repeats a rumor that Bagshot did not value locking doors; the stage direction then shows a door opening before he proposes taking wands and preparing potions.
+
+- **Context:** Scorpius repeats a rumor that Bagshot did not value locking doors; the stage direction then shows a door opening before he proposes taking wands and preparing potions.
+  - Source: CC, CC-P2-A4-S05, PDF p. 202, `cc-p2-a4-s05-002`, `sources/book-cc/chapter-65-p2-a4-s05.yaml`
+  - Classification: later_editorial_note | Confidence: medium
+  - Timeline: historical_visit — Primary past; visitors’ private access, not public archival disclosure
+  - Evidence: dialogue_claim | Speaker/source: Scorpius and stage directions
+  - 1984 access: Bagshot could know her household practices, but no scene establishes her consent, knowledge of the visitors, or transmission of their later information.
+  - Reference type: cross_reference_candidate
+  - Notes: A single unlocked door cannot establish a general security policy; the theft is proposed, not depicted in this passage.
+
+#### Section: Bagshot in Godric’s Hollow in 1981
+
+Summary: The available evidence includes 1 source item, led by: Scorpius identifies Bathilda Bagshot’s house and says he sees her in Godric’s Hollow in 1981; Albus recognizes her as author of A History of Magic.
+
+- **Context:** Scorpius identifies Bathilda Bagshot’s house and says he sees her in Godric’s Hollow in 1981; Albus recognizes her as author of A History of Magic.
+  - Source: CC, CC-P2-A4-S03, PDF p. 194, `cc-p2-a4-s03-001`, `sources/book-cc/chapter-63-p2-a4-s03.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: historical_visit — Primary past visited by Albus and Scorpius; not the Voldemort-victory branch
+  - Evidence: dialogue_claim | Speaker/source: Scorpius and Albus
+  - 1984 access: Bagshot could know her own residence and authorship; the visitors’ identification and later observations are not shown communicated to her.
+  - Reference type: explicit_in_universe_source
+  - Notes: Scorpius supplies the identification; Bagshot has no dialogue here. This corroborates residence/authorship, not Bagshot’s access to the travelers’ later knowledge or authorship of Hogwarts: A History.
+
+#### Section: Common-room recreation and peer support
+
+Summary: The available evidence includes 1 source item, led by: Ginny recalls Harry inviting her to play Exploding Snap in the Gryffindor common room after her Chamber of Secrets hospitalization.
+
+- **Context:** Ginny recalls Harry inviting her to play Exploding Snap in the Gryffindor common room after her Chamber of Secrets hospitalization.
+  - Source: CC, CC-P2-A4-S09, PDF p. 211, `cc-p2-a4-s09-001`, `sources/book-cc/chapter-69-p2-a4-s09.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: historical_visit — Primary past visit containing a report of a future-to-1981 school event
+  - Evidence: dialogue_claim | Speaker/source: Ginny
+  - 1984 access: No evidence of availability to Bagshot by 1984.
+  - Reference type: institutional_custom
+  - Notes: The 1981 setting must not date this 1993 recollection before the publication cutoff. Personal memory, not school policy.
+
+#### Section: Continuing inter-House Quidditch
+
+Summary: The available evidence includes 1 source item, led by: Scorpius invites Albus to watch a Slytherin–Hufflepuff Quidditch match and says he has been practicing in hope of joining the team.
+
+- **Context:** Scorpius invites Albus to watch a Slytherin–Hufflepuff Quidditch match and says he has been practicing in hope of joining the team.
+  - Source: CC, CC-P2-A4-S14, PDF p. 230, `cc-p2-a4-s14-002`, `sources/book-cc/chapter-74-p2-a4-s14.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary present
+  - Evidence: dialogue_claim | Speaker/source: Scorpius
+  - 1984 access: No evidence of availability to Bagshot by 1984.
+  - Reference type: institutional_custom
+  - Notes: Corroborates later team sport, not a complete fixture calendar or a successful team selection.
+
+#### Section: Dumbledore portrait at the Ministry
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore’s portrait visits Harry’s Ministry office and converses with him, extending the earlier headmaster-portrait evidence to a frame outside Hogwarts.
+
+- **Context:** Dumbledore’s portrait visits Harry’s Ministry office and converses with him, extending the earlier headmaster-portrait evidence to a frame outside Hogwarts.
+  - Source: CC, CC-P2-A4-S04, PDF p. 196, `cc-p2-a4-s04-001`, `sources/book-cc/chapter-64-p2-a4-s04.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary present
+  - Evidence: stage_direction | Speaker/source: Stage directions and Harry
+  - 1984 access: No evidence of availability to Bagshot by 1984.
+  - Reference type: portrait_or_ghost_lore
+  - Notes: The scene supports a Dumbledore frame at the Ministry; it does not show unrestricted travel to arbitrary portraits.
+
+#### Section: Fourth-year assessment continues
+
+Summary: The available evidence includes 1 source item, led by: Harry treats fourth-year examinations as forthcoming for Albus and fifth year as the next important stage of school.
+
+- **Context:** Harry treats fourth-year examinations as forthcoming for Albus and fifth year as the next important stage of school.
+  - Source: CC, CC-P2-A4-S15, PDF p. 232, `cc-p2-a4-s15-001`, `sources/book-cc/chapter-75-p2-a4-s15.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary present
+  - Evidence: dialogue_claim | Speaker/source: Harry
+  - 1984 access: No evidence of availability to Bagshot by 1984.
+  - Reference type: curriculum_or_subject
+  - Notes: Supports assessment continuity; no subjects, grading system or exact exam date stated.
+
+#### Section: Hagrid’s rescue under Dumbledore’s instruction
+
+Summary: The available evidence includes 1 source item, led by: Hagrid enters the ruined Potter home, says Dumbledore told him he cannot remain, and takes the surviving infant away as Muggle emergency lights approach.
+
+- **Context:** Hagrid enters the ruined Potter home, says Dumbledore told him he cannot remain, and takes the surviving infant away as Muggle emergency lights approach.
+  - Source: CC, CC-P2-A4-S13, PDF p. 227, `cc-p2-a4-s13-001`, `sources/book-cc/chapter-73-p2-a4-s13.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: remembered_reported_hypothetical — Staged primary historical episode; no continuing time-traveler viewpoint is specified
+  - Evidence: stage_direction | Speaker/source: Hagrid and stage directions
+  - 1984 access: Hagrid and Dumbledore might later report the rescue, but no pre-1984 publication or testimony to Bagshot is supplied.
+  - Reference type: historical_claim
+  - Notes: Historical staging, not a direct Bagshot record. The radiating crib and blue light are theatrical presentation, not proven magical properties.
+
+#### Section: Later Dumbledore scholarship is not 1984 knowledge
+
+Summary: The available evidence includes 1 source item, led by: Scorpius claims that numerous books discuss Dumbledore’s knowledge and motives, while insisting that the travelers are in the primary past and must not tell him the future.
+
+- **Context:** Scorpius claims that numerous books discuss Dumbledore’s knowledge and motives, while insisting that the travelers are in the primary past and must not tell him the future.
+  - Source: CC, CC-P2-A4-S05, PDF p. 200, `cc-p2-a4-s05-001`, `sources/book-cc/chapter-65-p2-a4-s05.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: historical_visit — Explicit distinction between primary past and the alternate reality where help was sought from Snape
+  - Evidence: dialogue_claim | Speaker/source: Scorpius
+  - 1984 access: No evidence of availability to Bagshot by 1984.
+  - Reference type: explicit_in_universe_source
+  - Notes: Approximate rhetorical quantity, no titles or publication dates. Do not invent a bibliography or assume these works existed in 1984.
+
+#### Section: Later remembrance of wartime dead
+
+Summary: The available evidence includes 1 source item, led by: Harry uses the collective memorial designation Fallen Fifty while grieving people killed by Voldemort.
+
+- **Context:** Harry uses the collective memorial designation Fallen Fifty while grieving people killed by Voldemort.
+  - Source: CC, CC-P2-A4-S06, PDF p. 204, `cc-p2-a4-s06-001`, `sources/book-cc/chapter-66-p2-a4-s06.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary present
+  - Evidence: dialogue_claim | Speaker/source: Harry
+  - 1984 access: No evidence of availability to Bagshot by 1984.
+  - Reference type: historical_claim
+  - Notes: The phrase is a memorial designation, not a supplied roster or an independently audited total of every wartime death.
+
+#### Section: Later witnesses to the 1981 attack
+
+Summary: The available evidence includes 1 source item, led by: Travelers watch the fatal attack on James and Lily Potter without intervening; dialogue and light effects stage the murders.
+
+- **Context:** Travelers watch the fatal attack on James and Lily Potter without intervening; dialogue and light effects stage the murders.
+  - Source: CC, CC-P2-A4-S12, PDF p. 225, `cc-p2-a4-s12-001`, `sources/book-cc/chapter-72-p2-a4-s12.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: historical_visit — Primary past witnessed by later travelers; no alternative outcome is asserted
+  - Evidence: stage_direction | Speaker/source: Offstage James, Lily and Voldemort; stage directions
+  - 1984 access: No evidence of availability to Bagshot by 1984.
+  - Reference type: historical_claim
+  - Notes: Supporting dialogue continues on p226. Public knowledge of the deaths is separate from the travelers’ inaccessible detailed observations.
+
+#### Section: Limits of the published account of 1981
+
+Summary: The available evidence includes 1 source item, led by: Albus says the history books do not describe when or how Voldemort arrived in Godric’s Hollow; Scorpius and Hermione agree.
+
+- **Context:** Albus says the history books do not describe when or how Voldemort arrived in Godric’s Hollow; Scorpius and Hermione agree.
+  - Source: CC, CC-P2-A4-S10, PDF p. 214, `cc-p2-a4-s10-001`, `sources/book-cc/chapter-70-p2-a4-s10.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: historical_visit — Primary past; later readers discussing gaps in their history books
+  - Evidence: dialogue_claim | Speaker/source: Albus, Scorpius and Hermione
+  - 1984 access: No evidence of availability to Bagshot by 1984.
+  - Reference type: explicit_in_universe_source
+  - Notes: No titles or corpus are identified. Their agreement is not proof that every archive lacks the information or that Bagshot knew the details.
+
+#### Section: Named church and reported haunted graveyard
+
+Summary: The available evidence includes 1 source item, led by: Scorpius names the village church St. Jerome’s and reports its graveyard as haunted, adding a church name to the already indexed haunted Godric’s Hollow graveyard.
+
+- **Context:** Scorpius names the village church St. Jerome’s and reports its graveyard as haunted, adding a church name to the already indexed haunted Godric’s Hollow graveyard.
+  - Source: CC, CC-P2-A4-S03, PDF p. 194, `cc-p2-a4-s03-002`, `sources/book-cc/chapter-63-p2-a4-s03.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: historical_visit — Primary past visited; haunting is a later visitor’s report
+  - Evidence: dialogue_claim | Speaker/source: Scorpius
+  - 1984 access: The place could be locally known in 1984, but this scene supplies no pre-1984 record of the church name or haunting report.
+  - Reference type: historical_claim
+  - Notes: Supposed haunting is a report, not an observed ghost. The church is outside Hogwarts.
+
+#### Section: Portrait physical and emotional limits
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore’s portrait attempts to reach beyond its frame but cannot; it displays distress and subsequently leaves the frame.
+
+- **Context:** Dumbledore’s portrait attempts to reach beyond its frame but cannot; it displays distress and subsequently leaves the frame.
+  - Source: CC, CC-P2-A4-S04, PDF p. 197, `cc-p2-a4-s04-002`, `sources/book-cc/chapter-64-p2-a4-s04.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary present
+  - Evidence: stage_direction | Speaker/source: Stage directions
+  - 1984 access: No evidence of availability to Bagshot by 1984.
+  - Reference type: portrait_or_ghost_lore
+  - Notes: A staged physical limit and displayed emotion are retained separately from any claim that a portrait is the dead person’s soul.
+
+#### Section: School death and public accountability
+
+Summary: The available evidence includes 1 source item, led by: Hermione announces at an extraordinary meeting that Craig Bowker’s body was found at Hogwarts and that the perpetrator remains unconfirmed at that point. McGonagall questions the Ministry response.
+
+- **Context:** Hermione announces at an extraordinary meeting that Craig Bowker’s body was found at Hogwarts and that the perpetrator remains unconfirmed at that point. McGonagall questions the Ministry response.
+  - Source: CC, CC-P2-A4-S01, PDF p. 189, `cc-p2-a4-s01-001`, `sources/book-cc/chapter-61-p2-a4-s01.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary present
+  - Evidence: dialogue_claim | Speaker/source: Hermione and McGonagall
+  - 1984 access: No evidence of availability to Bagshot by 1984.
+  - Reference type: security_or_protection
+  - Notes: The audience has seen the murder, but Hermione’s official report is explicitly preliminary. This is one later incident, not an enduring legal procedure.
+
+#### Section: Unnamed later Potions appointment
+
+Summary: The available evidence includes 1 source item, led by: Scorpius refers to a new female Potions professor at Hogwarts after the return to the primary timeline.
+
+- **Context:** Scorpius refers to a new female Potions professor at Hogwarts after the return to the primary timeline.
+  - Source: CC, CC-P2-A4-S14, PDF p. 230, `cc-p2-a4-s14-001`, `sources/book-cc/chapter-74-p2-a4-s14.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Restored primary present
+  - Evidence: dialogue_claim | Speaker/source: Scorpius
+  - 1984 access: No evidence of availability to Bagshot by 1984.
+  - Reference type: curriculum_or_subject
+  - Notes: No name, appointment date or predecessor is supplied; a teasing description is not biographical evidence.
+
+#### Section: Unverified Bagshot basement supplies
+
+Summary: The available evidence includes 1 source item, led by: Albus tentatively suggests that Bagshot may have the ingredients for Polyjuice in her basement.
+
+- **Context:** Albus tentatively suggests that Bagshot may have the ingredients for Polyjuice in her basement.
+  - Source: CC, CC-P2-A4-S10, PDF p. 214, `cc-p2-a4-s10-002`, `sources/book-cc/chapter-70-p2-a4-s10.yaml`
+  - Classification: later_editorial_note | Confidence: low
+  - Timeline: historical_visit — Primary past; conjecture by visiting Albus
+  - Evidence: dialogue_claim | Speaker/source: Albus
+  - 1984 access: No contemporaneous catalogue or Bagshot testimony is supplied; later visitors’ conjecture is not Bagshot’s research evidence.
+  - Reference type: cross_reference_candidate
+  - Notes: Explicitly tentative; neither a confirmed inventory nor evidence that she taught or researched Polyjuice.
 
 ### Chapter: Dark Artifacts, Oaths, and Wartime Punishments
 
@@ -10226,6 +11298,21 @@ Summary: The available evidence includes 1 source item, led by: Harry makes Nevi
   - Reference type: historical_claim
   - Corroborates: `dh-ch33-007`, `dh-ch32-006`, `dh-ch27-004`. dh-ch33-007 records Dumbledore's Nagini signal, dh-ch32-006 records Nagini's protection, and dh-ch27-004 records Voldemort's Horcrux audit. This entry adds Harry's explicit transfer of the Nagini instruction to Neville.
   - Notes: Harry does not tell Neville that Nagini is a Horcrux, only that the snake must be killed.
+
+### Chapter: Ghosts, Portraits, and Magical Residents
+
+#### Section: Myrtle’s self-identification
+
+Summary: The available evidence includes 1 source item, led by: Myrtle gives her full name as Myrtle Elizabeth Warren and identifies the girls’ bathroom as her haunt.
+
+- **Context:** Myrtle gives her full name as Myrtle Elizabeth Warren and identifies the girls’ bathroom as her haunt.
+  - Source: CC, CC-P1-A2-S19, PDF p. 122, `cc-p1-a2-s19-002`, `sources/book-cc/chapter-38-p1-a2-s19.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Myrtle
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: portrait_or_ghost_lore
+  - Notes: Name supplied in first altered present. A historical lifetime identity is not automatic evidence that Bagshot had access to it before 1984.
 
 ### Chapter: Grounds, Transport, and the Forbidden Forest
 
@@ -10832,6 +11919,61 @@ Summary: The available evidence includes 1 source item, led by: The chapter name
   - Reference type: explicit_in_universe_source
   - Notes: Percy's sentence is interrupted, so the passage names the guideline but does not provide paragraph twelve's complete rule or its practical effect.
 
+### Chapter: Magical Architecture and Enchantments
+
+#### Section: Claimed sink-to-lake plumbing route
+
+Summary: The available evidence includes 1 source item, led by: Myrtle says this sink drains straight to the lake and contravenes bylaws; the boys enter it and then take gillyweed before descending.
+
+- **Context:** Myrtle says this sink drains straight to the lake and contravenes bylaws; the boys enter it and then take gillyweed before descending.
+  - Quote: "empties directly into the lake"
+  - Source: CC, CC-P1-A2-S19, PDF p. 123, `cc-p1-a2-s19-005`, `sources/book-cc/chapter-38-p1-a2-s19.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Myrtle; stage directions
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: magical_architecture
+  - Notes: First altered world only. Earlier evidence establishes ghost travel through pipes; this adds a specific sink and bodily student passage. No bylaw text, jurisdiction, or architectural date is given; do not promote it to primary fact.
+
+#### Section: Map activation and bathroom location
+
+Summary: The available evidence includes 1 source item, led by: McGonagall taps the map and speaks its activation formula; it identifies the boys together in the first-floor girls’ bathroom. She had closed it with its usual deactivation phrase on the preceding page.
+
+- **Context:** McGonagall taps the map and speaks its activation formula; it identifies the boys together in the first-floor girls’ bathroom. She had closed it with its usual deactivation phrase on the preceding page.
+  - Source: CC, CC-P1-A2-S18, PDF p. 120, `cc-p1-a2-s18-002`, `sources/book-cc/chapter-37-p1-a2-s18.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: stage_direction | Speaker/source: Stage directions; Draco
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: magical_architecture
+  - Notes: Later dramatic evidence; no date of institutional introduction or general policy is established.
+
+#### Section: Map observations during underground departure
+
+Summary: The available evidence includes 1 source item, led by: McGonagall’s reading of the map briefly places Albus beneath Hogwarts grounds before he vanishes during the time-travel transition.
+
+- **Context:** McGonagall’s reading of the map briefly places Albus beneath Hogwarts grounds before he vanishes during the time-travel transition.
+  - Source: CC, CC-P1-A2-S19, PDF p. 123, `cc-p1-a2-s19-006`, `sources/book-cc/chapter-38-p1-a2-s19.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: McGonagall
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: magical_architecture
+  - Notes: Rapid and uncertain live interpretation; no general proof of exact map boundaries or of comprehensive time-traveler detection.
+
+#### Section: Moving staircase circulation
+
+Summary: The available evidence includes 1 source item, led by: The stage directions make the staircases rotate, meet, and separate while the pupils travel; Madam Hooch uses a staircase and directs Scorpius to move aside.
+
+- **Context:** The stage directions make the staircases rotate, meet, and separate while the pupils travel; Madam Hooch uses a staircase and directs Scorpius to move aside.
+  - Source: CC, CC-P1-A2-S12, PDF p. 103, `cc-p1-a2-s12-001`, `sources/book-cc/chapter-31-p1-a2-s12.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: stage_direction | Speaker/source: Stage directions
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: magical_architecture
+  - Notes: Altered-world theatrical choreography; Hooch’s presence does not establish a particular current teaching assignment.
+
 ### Chapter: Magical Creatures in Public Wizarding Life
 
 #### Section: National Mascots and Event Control
@@ -11206,6 +12348,21 @@ Summary: The available evidence includes 1 source item, led by: The Ministry lif
   - Reference type: historical_claim
   - Notes: The lift announcements list offices but do not explain jurisdictional history or all departments on each level.
 
+### Chapter: Neville's professorship
+
+#### Section: Neville's professorship
+
+Summary: The available evidence includes 1 source item, led by: Rose identifies Neville as a professor when Hermione asks her to convey affection to him at Hogwarts.
+
+- **Context:** Rose identifies Neville as a professor when Hermione asks her to convey affection to him at Hogwarts.
+  - Source: CC, CC-P1-A1-S02, PDF p. 18, `cc-p1-a1-s02-004`, `sources/book-cc/chapter-02-p1-a1-s02.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: primary — Primary chronology before any intervention in the past.
+  - Evidence: dialogue_claim | Speaker/source: Rose; Hermione
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: historical_claim
+  - Notes: No subject, appointment date, or more precise title is supplied.
+
 ### Chapter: Phoenixes and Headmaster Associations
 
 #### Section: Fawkes's Permanent Departure
@@ -11219,6 +12376,48 @@ Summary: The available evidence includes 1 source item, led by: Rowling states t
   - Reference type: portrait_or_ghost_lore
   - Corroborates: `hbp-ch29-002`. The Prince source directly records Fawkes leaving after Dumbledore; this chat adds Rowling's symbolic explanation.
   - Notes: Retrospective author commentary preserved in a 2007 transcript; the event is post-1984 and the stated symbolism is interpretive.
+
+### Chapter: Portraits, Ghosts, and the School’s Memory
+
+#### Section: Advisory role and limits of former-head portraits
+
+Summary: The available evidence includes 1 source item, led by: McGonagall defines a head teacher’s portrait as a memoir supporting the incumbent’s decisions and recalls advice on taking office not to confuse portrait with person; her preceding comment says portraits represent less than half their subjects.
+
+- **Context:** McGonagall defines a head teacher’s portrait as a memoir supporting the incumbent’s decisions and recalls advice on taking office not to confuse portrait with person; her preceding comment says portraits represent less than half their subjects.
+  - Quote: "portrait is a memoir"
+  - Source: CC, CC-P1-A2-S10, PDF p. 100, `cc-p1-a2-s10-002`, `sources/book-cc/chapter-29-p1-a2-s10.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: McGonagall
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: portrait_or_ghost_lore
+  - Notes: First altered timeline. Supports comparison with existing portrait lore, not primary-world adoption of its exact wording or a quantified psychological claim.
+
+#### Section: Linked Dumbledore frames
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore appears in a hospital-wing painting and says he visits other portraits, explaining why his headmistress-office frame is sometimes empty.
+
+- **Context:** Dumbledore appears in a hospital-wing painting and says he visits other portraits, explaining why his headmistress-office frame is sometimes empty.
+  - Source: CC, CC-P1-A2-S08, PDF p. 92, `cc-p1-a2-s08-001`, `sources/book-cc/chapter-27-p1-a2-s08.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Dumbledore; Harry
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: portrait_or_ghost_lore
+  - Notes: Observed in the first altered branch; cannot independently establish identical Dumbledore frames in the primary present.
+
+#### Section: Portrait self-description and overheard knowledge
+
+Summary: The available evidence includes 1 source item, led by: Dumbledore describes his portrait self as paint and memory and says portraits overhear conversations at school and Ministry, supplying a portrait’s account of its limited identity and information gathering.
+
+- **Context:** Dumbledore describes his portrait self as paint and memory and says portraits overhear conversations at school and Ministry, supplying a portrait’s account of its limited identity and information gathering.
+  - Source: CC, CC-P1-A2-S08, PDF p. 93, `cc-p1-a2-s08-002`, `sources/book-cc/chapter-27-p1-a2-s08.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Dumbledore
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: portrait_or_ghost_lore
+  - Notes: General-sounding portrait testimony occurs in an altered branch; not proof of omniscience or complete survival of a person.
 
 ### Chapter: Post-1984 Developments
 
@@ -11269,6 +12468,21 @@ Summary: The available evidence includes 1 source item, led by: The chapter conf
   - Reference type: cross_reference_candidate
   - Corroborates: `cos-ch05-002`. Book 2 Chapter Five records the flying-car approach to Hogwarts and grounds geography; this entry corroborates the aftermath by placing the Ford Anglia in the Forbidden Forest.
   - Notes: The evidence is retrospective and does not describe current school response to the car's presence in the Forest.
+
+### Chapter: Post-1995 Tournament cessation
+
+#### Section: Post-1995 Tournament cessation
+
+Summary: The available evidence includes 1 source item, led by: Scorpius reports that the last Tournament ended with Harry and Cedric sharing the win, the Cup transporting them to Voldemort, and Cedric being killed; he says the competition was cancelled afterward. Albus frames the gap as over twenty years.
+
+- **Context:** Scorpius reports that the last Tournament ended with Harry and Cedric sharing the win, the Cup transporting them to Voldemort, and Cedric being killed; he says the competition was cancelled afterward. Albus frames the gap as over twenty years.
+  - Source: CC, CC-P1-A1-S10, PDF p. 48, `cc-p1-a1-s10-002`, `sources/book-cc/chapter-10-p1-a1-s10.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: remembered_reported_hypothetical — Primary-history outcome before the rescue attempt alters events.
+  - Evidence: dialogue_claim | Speaker/source: Scorpius; Albus
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: historical_claim
+  - Notes: No decree or precise cancellation date given; does not mean the final 1995 task was stopped before completion or establish a permanent legal ban.
 
 ### Chapter: Protective Magic and Security
 
@@ -11390,6 +12604,19 @@ Summary: The available evidence includes 1 source item, led by: Umbridge respond
   - Corroborates: `ootp-ch29-005`, `ootp-ch30-002`. ootp-ch29-005 records the earlier successful office-fire breach, and ootp-ch30-002 records the niffler sabotage context; this entry adds Umbridge's named Stealth Sensoring Spells and wand-seizure response.
   - Notes: The spell's exact range and triggering conditions are not described beyond Umbridge's statement about the doorway.
 
+#### Section: Unauthorized visitor and ghost guidance
+
+Summary: The available evidence includes 1 source item, led by: Delphi appears inside the school, calls its security lax, and reports a partly headless ghost directed her to Scorpius; she remarks on the many corridors, portraits, and ghosts.
+
+- **Context:** Delphi appears inside the school, calls its security lax, and reports a partly headless ghost directed her to Scorpius; she remarks on the many corridors, portraits, and ghosts.
+  - Source: CC, CC-P1-A2-S14, PDF p. 107, `cc-p1-a2-s14-001`, `sources/book-cc/chapter-33-p1-a2-s14.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Delphi
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: security_or_protection
+  - Notes: Her presence is shown, but route and security bypass are not. Her interpretation and account are unreliable; the ghost is not named in this line.
+
 #### Section: Watched communications under the High Inquisitor
 
 Summary: The available evidence includes 4 source items, led by: McGonagall's warning, Hedwig's injured delivery, and Umbridge's attempt to seize Sirius through the common-room fire show that Hogwarts communications could be watched, intercepted, and actively monitored under the High Inquisitor.
@@ -11453,6 +12680,21 @@ Summary: The available evidence includes 1 source item, led by: The chapter prov
   - Reference type: explicit_in_universe_source
   - Notes: Rita Skeeter's article is contested by Mr. Weasley, so it should be used as evidence of public reporting and rumor circulation, not as proof of casualties.
 
+### Chapter: Public battle retrospective
+
+#### Section: Public battle retrospective
+
+Summary: The available evidence includes 1 source item, led by: Hermione publicly dates Voldemort's defeat at the Battle of Hogwarts twenty-two years before the meeting and describes the intervening years as largely peaceful for a new generation.
+
+- **Context:** Hermione publicly dates Voldemort's defeat at the Battle of Hogwarts twenty-two years before the meeting and describes the intervening years as largely peaceful for a new generation.
+  - Source: CC, CC-P1-A1-S12, PDF p. 51, `cc-p1-a1-s12-001`, `sources/book-cc/chapter-12-p1-a1-s12.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: remembered_reported_hypothetical — Primary-history recollection before time alterations.
+  - Evidence: dialogue_claim | Speaker/source: Hermione Granger
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: historical_claim
+  - Notes: Calendar year inferred from chronology; passage itself gives a relative interval. Peace does not mean an absence of all conflict.
+
 ### Chapter: Quidditch Beyond Hogwarts
 
 #### Section: Spectator Devices and Tactical Literacy
@@ -11479,6 +12721,116 @@ Summary: The available evidence includes 1 source item, led by: Educational Decr
   - Reference type: school_rule_or_policy
   - Corroborates: `cos-ch07-002`. cos-ch07-002 records earlier House-team practice booking and staff permission; this entry adds High Inquisitor reapproval, differential Slytherin/Gryffindor treatment, and decree-based control.
   - Notes: The evidence shows immediate implementation in one week, not the full season-long administrative outcome.
+
+### Chapter: Remembered headmasters
+
+#### Section: Remembered headmasters
+
+Summary: The available evidence includes 1 source item, led by: Harry says Albus Severus was named after two Hogwarts headmasters, one a Slytherin whom he regards as exceptionally brave.
+
+- **Context:** Harry says Albus Severus was named after two Hogwarts headmasters, one a Slytherin whom he regards as exceptionally brave.
+  - Source: CC, CC-P1-A1-S02, PDF p. 17, `cc-p1-a1-s02-002`, `sources/book-cc/chapter-02-p1-a1-s02.yaml`
+  - Classification: post_1984_excluded_from_original | Confidence: high
+  - Timeline: remembered_reported_hypothetical — Primary-history headmasters recalled in dialogue.
+  - Evidence: dialogue_claim | Speaker/source: Harry Potter
+  - 1984 access: No demonstrated access by Bagshot by 1984; post-1984 events require later editorial treatment.
+  - Reference type: historical_claim
+  - Notes: The statement does not explicitly name both heads. Identification as Dumbledore and Snape requires context; bravery is Harry's judgment. Do not backdate both tenures to 1984.
+
+### Chapter: Rules, Discipline, and Governance
+
+#### Section: Headmistress rejects coerced friendship policing
+
+Summary: The available evidence includes 1 source item, led by: McGonagall declines further involvement in breaking up the boys’ friendship; Harry apologizes for pressuring her.
+
+- **Context:** McGonagall declines further involvement in breaking up the boys’ friendship; Harry apologizes for pressuring her.
+  - Source: CC, CC-P1-A2-S18, PDF p. 119, `cc-p1-a2-s18-001`, `sources/book-cc/chapter-37-p1-a2-s18.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: McGonagall; Harry
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: school_rule_or_policy
+  - Notes: An individual decision reversing an exceptional restriction, not a formally promulgated school policy.
+
+#### Section: House-point discipline in the altered classroom
+
+Summary: The available evidence includes 1 source item, led by: Hermione deducts escalating Gryffindor points for Albus’s interruptions and threatens a hundred-point penalty for further disruption.
+
+- **Context:** Hermione deducts escalating Gryffindor points for Albus’s interruptions and threatens a hundred-point penalty for further disruption.
+  - Source: CC, CC-P1-A2-S11, PDF p. 102, `cc-p1-a2-s11-003`, `sources/book-cc/chapter-30-p1-a2-s11.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Hermione
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: school_rule_or_policy
+  - Notes: An individual teacher’s punitive practice in this branch, not a school-wide tariff.
+
+#### Section: Parental demands for surveillance and separation
+
+Summary: The available evidence includes 1 source item, led by: Harry proposes that McGonagall use the Marauder’s Map to monitor Albus, separate his classes from Scorpius’s, and restrict him to lessons and the Gryffindor common room. He threatens an additional surveillance spell.
+
+- **Context:** Harry proposes that McGonagall use the Marauder’s Map to monitor Albus, separate his classes from Scorpius’s, and restrict him to lessons and the Gryffindor common room. He threatens an additional surveillance spell.
+  - Source: CC, CC-P1-A2-S08, PDF p. 95, `cc-p1-a2-s08-004`, `sources/book-cc/chapter-27-p1-a2-s08.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Harry
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: school_rule_or_policy
+  - Notes: The spell is threatened, not cast or technically demonstrated; these are exceptional parental demands, not established school policy.
+
+#### Section: Pressure on headmistress discretion
+
+Summary: The available evidence includes 1 source item, led by: Harry threatens Ministry intervention if McGonagall will not use the map as demanded; she has objected to the scheme and questions its wisdom.
+
+- **Context:** Harry threatens Ministry intervention if McGonagall will not use the map as demanded; she has objected to the scheme and questions its wisdom.
+  - Source: CC, CC-P1-A2-S10, PDF p. 100, `cc-p1-a2-s10-003`, `sources/book-cc/chapter-29-p1-a2-s10.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Harry; McGonagall
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: school_rule_or_policy
+  - Notes: Threatened political pressure does not prove lawful jurisdiction or that Ministry action occurred.
+
+#### Section: Tracking concealment and discretionary non-enforcement
+
+Summary: The available evidence includes 1 source item, led by: McGonagall locates the hidden boys with the map despite their Invisibility Cloak and then deliberately lets them pass, choosing not to enforce their separation. Albus says he also uses the Cloak to avoid bullies.
+
+- **Context:** McGonagall locates the hidden boys with the map despite their Invisibility Cloak and then deliberately lets them pass, choosing not to enforce their separation. Albus says he also uses the Cloak to avoid bullies.
+  - Source: CC, CC-P1-A2-S16, PDF p. 114, `cc-p1-a2-s16-004`, `sources/book-cc/chapter-35-p1-a2-s16.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: stage_direction | Speaker/source: Stage directions; Albus
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: security_or_protection
+  - Notes: Distinct altered-world incident; map tracking does not make the boys visually visible through the Cloak.
+
+### Chapter: School Welfare
+
+#### Section: Conflicting assessments of supposed danger
+
+Summary: The available evidence includes 1 source item, led by: McGonagall challenges Bane’s reliability and reports expert checks finding no hex or curse on Albus.
+
+- **Context:** McGonagall challenges Bane’s reliability and reports expert checks finding no hex or curse on Albus.
+  - Source: CC, CC-P1-A2-S10, PDF p. 99, `cc-p1-a2-s10-001`, `sources/book-cc/chapter-29-p1-a2-s10.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: McGonagall
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: security_or_protection
+  - Notes: Absence of a detected curse is not proof of absence of danger; Bane’s dishonesty is McGonagall’s possibility, not an established fact.
+
+#### Section: Hospital-wing treatment of an unusual injury
+
+Summary: The available evidence includes 1 source item, led by: Harry reports that Pomfrey reset Albus’s strangely healed arm while he remained unconscious for twenty-four hours; the hospital wing supplies a bed and ongoing recuperation.
+
+- **Context:** Harry reports that Pomfrey reset Albus’s strangely healed arm while he remained unconscious for twenty-four hours; the hospital wing supplies a bed and ongoing recuperation.
+  - Source: CC, CC-P1-A2-S08, PDF p. 92, `cc-p1-a2-s08-003`, `sources/book-cc/chapter-27-p1-a2-s08.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Harry
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: institutional_custom
+  - Notes: Treatment details are Harry’s report of Pomfrey’s account; this is not an ordinary fracture-treatment protocol.
 
 ### Chapter: Snape's Headmastership and the Occupied School
 
@@ -11580,6 +12932,34 @@ Summary: The available evidence includes 1 source item, led by: Trelawney is des
   - Classification: post_1984_excluded_from_original | Confidence: high
   - Reference type: direct_observed_setting
   - Notes: The source supplies no date and presents a character-focused account; it cannot establish a general Hogwarts rule about teacher housing or staff hierarchy.
+
+### Chapter: Staff and School Welfare
+
+#### Section: Plant expertise in search operations
+
+Summary: The available evidence includes 1 source item, led by: McGonagall offers Professor Longbottom for the Forest search because of his knowledge of plants, showing staff expertise mobilized in a missing-pupil emergency.
+
+- **Context:** McGonagall offers Professor Longbottom for the Forest search because of his knowledge of plants, showing staff expertise mobilized in a missing-pupil emergency.
+  - Source: CC, CC-P1-A2-S03, PDF p. 80, `cc-p1-a2-s03-001`, `sources/book-cc/chapter-22-p1-a2-s03.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Primary present before the first intervention.
+  - Evidence: dialogue_claim | Speaker/source: McGonagall
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: school_rule_or_policy
+  - Notes: Later dramatic evidence; no date of institutional introduction or general policy is established.
+
+#### Section: Public recruitment during a search
+
+Summary: The available evidence includes 1 source item, led by: Ginny reports arranging an emergency Daily Prophet edition seeking volunteers in the missing-student search, and McGonagall expects many helpers.
+
+- **Context:** Ginny reports arranging an emergency Daily Prophet edition seeking volunteers in the missing-student search, and McGonagall expects many helpers.
+  - Source: CC, CC-P1-A2-S03, PDF p. 80, `cc-p1-a2-s03-003`, `sources/book-cc/chapter-22-p1-a2-s03.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Primary present before the first intervention.
+  - Evidence: dialogue_claim | Speaker/source: Ginny; McGonagall
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: school_rule_or_policy
+  - Notes: Later dramatic evidence; no date of institutional introduction or general policy is established.
 
 ### Chapter: Staff, Subjects, and Ministry Inspection
 
@@ -11832,6 +13212,116 @@ Summary: The available evidence includes 1 source item, led by: The chapter reca
   - Reference type: historical_claim
   - Corroborates: `ps-ch01-003`. Book 1 Chapter One records the Godric's Hollow reports confirmed by Dumbledore; this entry adds later narration about the curse rebounding and Harry's fame at Hogwarts.
   - Notes: The passage is retrospective narration rather than an in-universe school source and should not replace the original Godric's Hollow seed.
+
+### Chapter: The Forest and Non-Human Neighbors
+
+#### Section: Centaur divination and its stated limits
+
+Summary: The available evidence includes 1 source item, led by: Bane says his knowledge of danger surrounding Albus comes from the stars, while explicitly disclaiming knowledge of the boy’s location or how Harry will find him.
+
+- **Context:** Bane says his knowledge of danger surrounding Albus comes from the stars, while explicitly disclaiming knowledge of the boy’s location or how Harry will find him.
+  - Source: CC, CC-P1-A2-S05, PDF p. 86, `cc-p1-a2-s05-002`, `sources/book-cc/chapter-24-p1-a2-s05.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Primary present before the first intervention.
+  - Evidence: dialogue_claim | Speaker/source: Bane
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: historical_claim
+  - Notes: His interpretation is not demonstrated as a precise forecast and does not identify the danger.
+
+#### Section: Post-Battle centaur territorial settlement
+
+Summary: The available evidence includes 1 source item, led by: Bane says the Forest was recognized as centaur land after the Battle of Hogwarts and treats humans entering without permission as enemies. He distinguishes fighting for the herd’s honor from fighting for Harry.
+
+- **Context:** Bane says the Forest was recognized as centaur land after the Battle of Hogwarts and treats humans entering without permission as enemies. He distinguishes fighting for the herd’s honor from fighting for Harry.
+  - Source: CC, CC-P1-A2-S05, PDF p. 85, `cc-p1-a2-s05-001`, `sources/book-cc/chapter-24-p1-a2-s05.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Primary present before the first intervention.
+  - Evidence: dialogue_claim | Speaker/source: Bane
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: historical_claim
+  - Notes: Unilateral testimony; no instrument, grantor, exact boundaries, or settlement date is supplied. Earlier territorial assertions do not duplicate a claimed post-Battle settlement.
+
+### Chapter: The Four Houses
+
+#### Section: Choice in an altered Sorting
+
+Summary: The available evidence includes 1 source item, led by: Ron says Albus chose and persuaded the Sorting Hat into Gryffindor after a challenge from Panju.
+
+- **Context:** Ron says Albus chose and persuaded the Sorting Hat into Gryffindor after a challenge from Panju.
+  - Source: CC, CC-P1-A2-S09, PDF p. 97, `cc-p1-a2-s09-001`, `sources/book-cc/chapter-28-p1-a2-s09.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Ron
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: house_system
+  - Notes: Retrospective explanation confined to the first altered branch; Albus remembers his original Slytherin Sorting.
+
+### Chapter: The Library, Books, and Scholarship
+
+#### Section: Comparing written accounts across changed timelines
+
+Summary: The available evidence includes 1 source item, led by: Scorpius identifies a book by Rita Skeeter as the source for altered Yule Ball history: Ron escorted Hermione as a friend. The scene recalls that each champion brought a partner.
+
+- **Context:** Scorpius identifies a book by Rita Skeeter as the source for altered Yule Ball history: Ron escorted Hermione as a friend. The scene recalls that each champion brought a partner.
+  - Source: CC, CC-P1-A2-S16, PDF p. 111, `cc-p1-a2-s16-001`, `sources/book-cc/chapter-35-p1-a2-s16.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Scorpius
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: explicit_in_universe_source
+  - Notes: Title is not supplied; causal explanation on the following page is Scorpius’s reconstruction. Primary recollection must remain separate from rewritten book content.
+
+#### Section: Quiet enforced in the library
+
+Summary: The available evidence includes 1 source item, led by: A librarian tells the boys to be quiet, following another pupil’s similar demand on the preceding page.
+
+- **Context:** A librarian tells the boys to be quiet, following another pupil’s similar demand on the preceding page.
+  - Source: CC, CC-P1-A2-S16, PDF p. 112, `cc-p1-a2-s16-003`, `sources/book-cc/chapter-35-p1-a2-s16.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: stage_direction | Speaker/source: Librarian; stage directions
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: institutional_custom
+  - Notes: Later dramatic evidence; no date of institutional introduction or general policy is established.
+
+#### Section: Rewritten tournament histories
+
+Summary: The available evidence includes 1 source item, led by: Delphi says history books now report that Cedric’s first-task failure strengthened his determination in the second task.
+
+- **Context:** Delphi says history books now report that Cedric’s first-task failure strengthened his determination in the second task.
+  - Source: CC, CC-P1-A2-S14, PDF p. 108, `cc-p1-a2-s14-002`, `sources/book-cc/chapter-33-p1-a2-s14.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Delphi
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: explicit_in_universe_source
+  - Notes: Unnamed books and manipulative speaker; not a citation to Hogwarts: A History or a primary-timeline historical fact.
+
+#### Section: Time-travel scholarship used by pupils
+
+Summary: The available evidence includes 1 source item, led by: Scorpius cites Croaker’s five-hour limit as the threshold beyond which backward time travel risks harm to traveler or time.
+
+- **Context:** Scorpius cites Croaker’s five-hour limit as the threshold beyond which backward time travel risks harm to traveler or time.
+  - Source: CC, CC-P1-A2-S16, PDF p. 112, `cc-p1-a2-s16-002`, `sources/book-cc/chapter-35-p1-a2-s16.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Scorpius
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: explicit_in_universe_source
+  - Notes: No particular book or school curricular status is given; retained as cited scholarship directly bearing on altered Hogwarts history, not a school rule.
+
+#### Section: Written reports of Myrtle’s tournament role
+
+Summary: The available evidence includes 1 source item, led by: Albus says Myrtle’s presence in the tournament lake was written about, indicating later written knowledge of her involvement.
+
+- **Context:** Albus says Myrtle’s presence in the tournament lake was written about, indicating later written knowledge of her involvement.
+  - Source: CC, CC-P1-A2-S19, PDF p. 122, `cc-p1-a2-s19-004`, `sources/book-cc/chapter-38-p1-a2-s19.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: altered — First altered present created by the 1994 first-task intervention; Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  - Evidence: dialogue_claim | Speaker/source: Albus
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: explicit_in_universe_source
+  - Notes: No author, title, date, or publication is identified; not evidence of a Hogwarts: A History reference.
 
 ### Chapter: The Second War and Defensive Magic
 
@@ -12319,6 +13809,60 @@ Summary: The available evidence includes 1 source item, led by: The chapter give
   - Reference type: security_or_protection
   - Corroborates: `poa-ch22-002`. Book 3 Chapter Twenty-Two records Fudge agreeing to remove dementors from Hogwarts after they endangered Harry; this entry is a later recap that preserves the broader Sirius and Wormtail context.
   - Notes: The passage compresses a prior book's events and should be used as recap/corroboration rather than primary evidence for the crisis details.
+
+### Chapter: The Triwizard Tournament
+
+#### Section: 1994 champion roster and task arrangements
+
+Summary: The available evidence includes 1 source item, led by: Bagman identifies two Hogwarts champions, Cedric and Harry, alongside Krum and Fleur, and describes the first task’s dragon-guarded egg, Charlie Weasley’s dragon-handling role, and Cedric’s Swedish Short-Snout opponent.
+
+- **Context:** Bagman identifies two Hogwarts champions, Cedric and Harry, alongside Krum and Fleur, and describes the first task’s dragon-guarded egg, Charlie Weasley’s dragon-handling role, and Cedric’s Swedish Short-Snout opponent.
+  - Source: CC, CC-P1-A2-S07, PDF p. 90, `cc-p1-a2-s07-002`, `sources/book-cc/chapter-26-p1-a2-s07.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: historical_visit — Visit to 1994 first task, initially primary history; intervention creates the first altered branch.
+  - Evidence: dialogue_claim | Speaker/source: Bagman
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: historical_claim
+  - Notes: Later dramatic evidence; no date of institutional introduction or general policy is established.
+
+#### Section: Announcing and audience participation
+
+Summary: The available evidence includes 1 source item, led by: Bagman amplifies his voice with Sonorus to introduce the tournament before cheering Hogwarts, Durmstrang, and Beauxbatons supporters.
+
+- **Context:** Bagman amplifies his voice with Sonorus to introduce the tournament before cheering Hogwarts, Durmstrang, and Beauxbatons supporters.
+  - Source: CC, CC-P1-A2-S07, PDF p. 89, `cc-p1-a2-s07-001`, `sources/book-cc/chapter-26-p1-a2-s07.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: historical_visit — Visit to 1994 first task, initially primary history; intervention creates the first altered branch.
+  - Evidence: stage_direction | Speaker/source: Stage directions; Bagman
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: institutional_custom
+  - Notes: Later dramatic evidence; no date of institutional introduction or general policy is established.
+
+#### Section: Retrospective first-task knowledge
+
+Summary: The available evidence includes 1 source item, led by: Albus recalls the first Triwizard task as retrieving a golden egg from a dragon; Delphi identifies Cedric’s strategy as transfiguring a stone into a dog.
+
+- **Context:** Albus recalls the first Triwizard task as retrieving a golden egg from a dragon; Delphi identifies Cedric’s strategy as transfiguring a stone into a dog.
+  - Source: CC, CC-P1-A2-S04, PDF p. 83, `cc-p1-a2-s04-001`, `sources/book-cc/chapter-23-p1-a2-s04.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: primary — Primary present before the first intervention.
+  - Evidence: dialogue_claim | Speaker/source: Albus; Delphi
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: historical_claim
+  - Notes: Retrospective planning conversation; Delphi is manipulative and should not be treated as an impartial historian.
+
+#### Section: Second-task underwater methods
+
+Summary: The available evidence includes 1 source item, led by: At the visited 1995 lake task, Bagman describes Krum’s shark transformation, Harry’s gillyweed, and Cedric’s breathing bubble; the stage shows the bubble around Cedric’s head.
+
+- **Context:** At the visited 1995 lake task, Bagman describes Krum’s shark transformation, Harry’s gillyweed, and Cedric’s breathing bubble; the stage shows the bubble around Cedric’s head.
+  - Source: CC, CC-P1-A2-S20, PDF p. 125, `cc-p1-a2-s20-001`, `sources/book-cc/chapter-39-p1-a2-s20.yaml`
+  - Classification: later_editorial_note | Confidence: high
+  - Timeline: historical_visit — 1995 second task visited from the first altered branch; the subsequent attack generates the Voldemort-victory branch.
+  - Evidence: dialogue_claim | Speaker/source: Bagman; stage directions
+  - 1984 access: Not available to a 1984 author from this later event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  - Reference type: historical_claim
+  - Notes: Later dramatic evidence; no date of institutional introduction or general policy is established.
 
 ### Chapter: The Triwizard Tournament Revival
 

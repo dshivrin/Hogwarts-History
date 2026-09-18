@@ -1,0 +1,176 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 18: HOGWARTS, HEADMISTRESS’S OFFICE'
+  scene_id: CC-P1-A2-S18
+  part: 1
+  act: 2
+  scene: 18
+  chapter_start_pdf_page: 119
+  chapter_end_pdf_page: 120
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+entries:
+- id: cc-p1-a2-s18-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 18: HOGWARTS, HEADMISTRESS’S OFFICE'
+  part: 1
+  act: 2
+  scene: 18
+  scene_id: CC-P1-A2-S18
+  chapter_start_pdf_page: 119
+  chapter_end_pdf_page: 120
+  pdf_page: 119
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 814:838; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: PROFESSOR McGONAGALL
+    end_phrase: PROFESSOR McGONAGALL
+    local_occurrence_note: Name anchor at normalized page offset 767; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 814
+    char_end: 838
+    text_sha256: fa49b5f25092078d8b889985bda3aa0181859a67075d03dd1ba40d2448fe9b65
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - headmistress-authority
+  - student-welfare
+  - parental-intervention
+  quote_excerpt_short: null
+  source_note: McGonagall declines further involvement in breaking up the boys’ friendship;
+    Harry apologizes for pressuring her.
+  speaker: McGonagall; Harry
+  evidence_mode: dialogue_claim
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: McGonagall; Harry supplies the account; knowledge is limited
+    to this timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - headmistress-authority
+  - student-welfare
+  - parental-intervention
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Rules, Discipline, and Governance
+  candidate_section: Headmistress rejects coerced friendship policing
+  reason_for_placement: Research candidate for Headmistress rejects coerced friendship
+    policing; retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: An individual decision reversing an exceptional restriction, not a
+    formally promulgated school policy.
+- id: cc-p1-a2-s18-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 18: HOGWARTS, HEADMISTRESS’S OFFICE'
+  part: 1
+  act: 2
+  scene: 18
+  scene_id: CC-P1-A2-S18
+  chapter_start_pdf_page: 119
+  chapter_end_pdf_page: 120
+  pdf_page: 120
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 302:317; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: PROFESSOR McGONAGALL
+    end_phrase: PROFESSOR McGONAGALL
+    local_occurrence_note: Name anchor at normalized page offset 139; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 302
+    char_end: 317
+    text_sha256: 7f22e226c2ef44b89e2dc3b816136bf6d5896821b4154cd42bf547e55b898e35
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - marauders-map
+  - activation-phrase
+  - first-floor-bathroom
+  quote_excerpt_short: null
+  source_note: McGonagall taps the map and speaks its activation formula; it identifies
+    the boys together in the first-floor girls’ bathroom. She had closed it with its
+    usual deactivation phrase on the preceding page.
+  speaker: Stage directions; Draco
+  evidence_mode: stage_direction
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Directly shown to the audience; characters present can observe
+    the event.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - marauders-map
+  - activation-phrase
+  - first-floor-bathroom
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Magical Architecture and Enchantments
+  candidate_section: Map activation and bathroom location
+  reason_for_placement: Research candidate for Map activation and bathroom location;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - ext-a11-003
+    notes: Similarity is limited to the identified institutional background; altered
+      outcomes remain separate.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Later dramatic evidence; no date of institutional introduction or general
+    policy is established.

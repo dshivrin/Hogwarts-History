@@ -1,0 +1,323 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 2: PLATFORM NINE AND THREE-QUARTERS'
+  scene_id: CC-P1-A1-S02
+  part: 1
+  act: 1
+  scene: 2
+  chapter_start_pdf_page: 16
+  chapter_end_pdf_page: 19
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete pp. 16–19 read. Retained departure, heads, Sorting preference
+    and Neville. Slytherin stereotype, Thestral teasing and exam/Quidditch ambitions
+    are not rules.
+entries:
+- id: cc-p1-a1-s02-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 2: PLATFORM NINE AND THREE-QUARTERS'
+  part: 1
+  act: 1
+  scene: 2
+  scene_id: CC-P1-A1-S02
+  chapter_start_pdf_page: 16
+  chapter_end_pdf_page: 19
+  pdf_page: 16
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 72:89; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: ROSE
+    end_phrase: ROSE
+    local_occurrence_note: Name anchor at normalized page offset 508; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 72
+    char_end: 89
+    text_sha256: 8250d3c566a19c10e2a2472f98605b37c6247cf61f8ca94de4b427b4ed118fa5
+  nearby_context: Complete pp. 16–19 read. Retained departure, heads, Sorting preference
+    and Neville. Slytherin stereotype, Thestral teasing and exam/Quidditch ambitions
+    are not rules.
+  match_terms:
+  - hogwarts-express
+  - school-travel
+  quote_excerpt_short: null
+  source_note: The Hogwarts Express waits at platform nine and three-quarters among
+    robed families saying goodbye to their children.
+  speaker: Stage directions
+  evidence_mode: stage_direction
+  reference_type: institutional_custom
+  era_classification: post_1984_excluded_from_original
+  historical_period: 2017 departure
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: The participants learn or report this in the depicted primary
+    scene; earlier knowledge is not established.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: primary
+  timeline_detail: Primary chronology before any intervention in the past.
+  topic_tags:
+  - hogwarts-express
+  - school-travel
+  - cursed-child
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Family departure custom
+  candidate_section: Family departure custom
+  reason_for_placement: Research candidate for Family departure custom; retain source
+    mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - cos-ch05-001
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Does not establish the origin date or universal application of this
+    practice.
+- id: cc-p1-a1-s02-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 2: PLATFORM NINE AND THREE-QUARTERS'
+  part: 1
+  act: 1
+  scene: 2
+  scene_id: CC-P1-A1-S02
+  chapter_start_pdf_page: 16
+  chapter_end_pdf_page: 19
+  pdf_page: 17
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 893:920; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HARRY
+    end_phrase: HARRY
+    local_occurrence_note: Name anchor at normalized page offset 850; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 893
+    char_end: 920
+    text_sha256: 806b48978b609758011e9f6f8eab286a32aa79b1cb3e0bddf7a0317226cc9444
+  nearby_context: Complete pp. 16–19 read. Retained departure, heads, Sorting preference
+    and Neville. Slytherin stereotype, Thestral teasing and exam/Quidditch ambitions
+    are not rules.
+  match_terms:
+  - headmastership
+  - slytherin
+  - school-memory
+  quote_excerpt_short: null
+  source_note: Harry says Albus Severus was named after two Hogwarts headmasters,
+    one a Slytherin whom he regards as exceptionally brave.
+  speaker: Harry Potter
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: post_1984_excluded_from_original
+  historical_period: Earlier headmasterships recalled in 2017
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: The participants learn or report this in the depicted primary
+    scene; earlier knowledge is not established.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: remembered_reported_hypothetical
+  timeline_detail: Primary-history headmasters recalled in dialogue.
+  topic_tags:
+  - headmastership
+  - slytherin
+  - school-memory
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Remembered headmasters
+  candidate_section: Remembered headmasters
+  reason_for_placement: Research candidate for Remembered headmasters; retain source
+    mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - dh-ch12-001
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: The statement does not explicitly name both heads. Identification as
+    Dumbledore and Snape requires context; bravery is Harry's judgment. Do not backdate
+    both tenures to 1984.
+- id: cc-p1-a1-s02-003
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 2: PLATFORM NINE AND THREE-QUARTERS'
+  part: 1
+  act: 1
+  scene: 2
+  scene_id: CC-P1-A1-S02
+  chapter_start_pdf_page: 16
+  chapter_end_pdf_page: 19
+  pdf_page: 17
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1081:1099; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HARRY
+    end_phrase: HARRY
+    local_occurrence_note: Name anchor at normalized page offset 1025; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1081
+    char_end: 1099
+    text_sha256: 47f707ebdf5aae326368c0a8c44c178c1b81cd7fbe4221d8c2c0b7a52c3da1b1
+  nearby_context: Complete pp. 16–19 read. Retained departure, heads, Sorting preference
+    and Neville. Slytherin stereotype, Thestral teasing and exam/Quidditch ambitions
+    are not rules.
+  match_terms:
+  - sorting-hat
+  - house-choice
+  quote_excerpt_short: null
+  source_note: Harry says the Sorting Hat takes pupils' feelings into account and
+    did so for him.
+  speaker: Harry Potter
+  evidence_mode: dialogue_claim
+  reference_type: house_system
+  era_classification: post_1984_excluded_from_original
+  historical_period: Harry's 1991 Sorting recalled in 2017
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: The participants learn or report this in the depicted primary
+    scene; earlier knowledge is not established.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: remembered_reported_hypothetical
+  timeline_detail: Personal report about primary-history Sorting.
+  topic_tags:
+  - sorting-hat
+  - house-choice
+  - cursed-child
+  candidate_part: The Four Houses
+  candidate_chapter: Student preference in Sorting
+  candidate_section: Student preference in Sorting
+  reason_for_placement: Research candidate for Student preference in Sorting; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - ext-a20-003
+    notes: The comparison records Neville requesting another House without success.
+      Harry’s stated successful preference is a distinct detail, not proof that every
+      request is honored.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Consideration of preference is not an unconditional right to select
+    a House.
+- id: cc-p1-a1-s02-004
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 2: PLATFORM NINE AND THREE-QUARTERS'
+  part: 1
+  act: 1
+  scene: 2
+  scene_id: CC-P1-A1-S02
+  chapter_start_pdf_page: 16
+  chapter_end_pdf_page: 19
+  pdf_page: 18
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 413:429; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: ROSE
+    end_phrase: ROSE
+    local_occurrence_note: Name anchor at normalized page offset 394; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 413
+    char_end: 429
+    text_sha256: f7f0bc533ccf1e3baca1befca5b341f1d035325b3c9817897c037a56f1178a56
+  nearby_context: Complete pp. 16–19 read. Retained departure, heads, Sorting preference
+    and Neville. Slytherin stereotype, Thestral teasing and exam/Quidditch ambitions
+    are not rules.
+  match_terms:
+  - neville-longbottom
+  - teachers
+  quote_excerpt_short: null
+  source_note: Rose identifies Neville as a professor when Hermione asks her to convey
+    affection to him at Hogwarts.
+  speaker: Rose; Hermione
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: post_1984_excluded_from_original
+  historical_period: 2017 departure
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: The participants learn or report this in the depicted primary
+    scene; earlier knowledge is not established.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: primary
+  timeline_detail: Primary chronology before any intervention in the past.
+  topic_tags:
+  - neville-longbottom
+  - teachers
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Neville's professorship
+  candidate_section: Neville's professorship
+  reason_for_placement: Research candidate for Neville's professorship; retain source
+    mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: No subject, appointment date, or more precise title is supplied.

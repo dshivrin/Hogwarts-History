@@ -1,0 +1,252 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 11: HOGWARTS, DEFENSE AGAINST THE DARK ARTS CLASSROOM'
+  scene_id: CC-P1-A2-S11
+  part: 1
+  act: 2
+  scene: 11
+  chapter_start_pdf_page: 101
+  chapter_end_pdf_page: 102
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+entries:
+- id: cc-p1-a2-s11-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 11: HOGWARTS, DEFENSE AGAINST THE DARK ARTS CLASSROOM'
+  part: 1
+  act: 2
+  scene: 11
+  scene_id: CC-P1-A2-S11
+  chapter_start_pdf_page: 101
+  chapter_end_pdf_page: 102
+  pdf_page: 101
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 572:587; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HERMIONE
+    end_phrase: HERMIONE
+    local_occurrence_note: Name anchor at normalized page offset 483; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 572
+    char_end: 587
+    text_sha256: a0be39395a086f8579b5fce3a6b22eb37497a1e46c79fcadafa101f2d854ba6d
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - defense-against-the-dark-arts
+  - patronus
+  - hermione-granger
+  quote_excerpt_short: null
+  source_note: Hermione serves as Defense Against the Dark Arts professor and teaches
+    Patronus Charms in this altered present.
+  speaker: Hermione; Albus
+  evidence_mode: dialogue_claim
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Hermione; Albus supplies the account; knowledge is limited
+    to this timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - defense-against-the-dark-arts
+  - patronus
+  - hermione-granger
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Academic Life and Curriculum
+  candidate_section: Altered Defense staffing and lesson
+  reason_for_placement: Research candidate for Altered Defense staffing and lesson;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Later dramatic evidence; no date of institutional introduction or general
+    policy is established.
+- id: cc-p1-a2-s11-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 11: HOGWARTS, DEFENSE AGAINST THE DARK ARTS CLASSROOM'
+  part: 1
+  act: 2
+  scene: 11
+  scene_id: CC-P1-A2-S11
+  chapter_start_pdf_page: 101
+  chapter_end_pdf_page: 102
+  pdf_page: 102
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1049:1065; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HERMIONE
+    end_phrase: HERMIONE
+    local_occurrence_note: Name anchor at normalized page offset 721; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1049
+    char_end: 1065
+    text_sha256: 6be0255052829c87ee68421ebf0e83365eed4a5f60e4c81fab14d673a4b608c9
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - patronus
+  - defense-against-the-dark-arts
+  quote_excerpt_short: null
+  source_note: Hermione teaches that a Patronus projects positive feelings in the
+    animal form of the caster’s deepest affinity and affords protection.
+  speaker: Hermione
+  evidence_mode: dialogue_claim
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Hermione supplies the account; knowledge is limited to this
+    timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - patronus
+  - defense-against-the-dark-arts
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Academic Life and Curriculum
+  candidate_section: Patronus explanation in class
+  reason_for_placement: Research candidate for Patronus explanation in class; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - poa-ch12-002
+    notes: Lupin’s indexed lesson already establishes positive-memory/emotional power
+      and guardian protection. Hermione’s altered-world animal-affinity wording is
+      additional testimony, not independent proof that this was the ordinary primary
+      curriculum. Do not equate the broad protection claim with immunity.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Altered-branch classroom formulation; her broad promise of protection
+    should not be read as immunity from every danger.
+- id: cc-p1-a2-s11-003
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 11: HOGWARTS, DEFENSE AGAINST THE DARK ARTS CLASSROOM'
+  part: 1
+  act: 2
+  scene: 11
+  scene_id: CC-P1-A2-S11
+  chapter_start_pdf_page: 101
+  chapter_end_pdf_page: 102
+  pdf_page: 102
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 745:757; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HERMIONE
+    end_phrase: HERMIONE
+    local_occurrence_note: Name anchor at normalized page offset 721; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 745
+    char_end: 757
+    text_sha256: 58c42b21e5d21799d0e4e20a02192387c146bbe5005d05db7c675956f0f74c3a
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - house-points
+  - gryffindor
+  - classroom-discipline
+  quote_excerpt_short: null
+  source_note: Hermione deducts escalating Gryffindor points for Albus’s interruptions
+    and threatens a hundred-point penalty for further disruption.
+  speaker: Hermione
+  evidence_mode: dialogue_claim
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Hermione supplies the account; knowledge is limited to this
+    timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - house-points
+  - gryffindor
+  - classroom-discipline
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Rules, Discipline, and Governance
+  candidate_section: House-point discipline in the altered classroom
+  reason_for_placement: Research candidate for House-point discipline in the altered
+    classroom; retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: An individual teacher’s punitive practice in this branch, not a school-wide
+    tariff.

@@ -1,0 +1,857 @@
+source_id: CC
+completed_date: '2026-09-18'
+manifest: resources/manifests/cursed-child.yaml
+source_sha256: 259885808602501bb4930e56f38f85b58200b7bb0da9c07410bc0c479defb1f6
+manifest_sha256: 3a5f23ea9b7ac29d935a3e52bbc8b92eb87a0c154e82a39c164f080d221d839c
+runtime:
+  python: 3.9.6
+  pypdf: 6.13.1
+  PyYAML: 6.0.3
+  extractor: scripts/extract_pages.py
+baseline:
+  canonical_units: 299
+  raw_files_including_copies: 311
+  canonical_entries: 1717
+  raw_rows_including_copies: 1790
+  seven_novel_entries: 1314
+  companion_entries: 127
+  external_entries: 276
+  subsequent_entries_after_handoff_1683: 34
+  preserved_exact_copies:
+  - preserved_copy: sources/book-04/chapter-14-the-unforgivable-curses 2.yaml
+    canonical_file: sources/book-04/chapter-14-the-unforgivable-curses.yaml
+    sha256: 4652fb0c679d7ca7436e61f088646c82626863302fb89f7251e33583ac95861c
+    repeated_rows: 7
+  - preserved_copy: sources/book-04/chapter-06-the-portkey 2.yaml
+    canonical_file: sources/book-04/chapter-06-the-portkey.yaml
+    sha256: c0efbd8e4bc5de9e22245a627a199a17e4c7d205dc73674edb4d40d34f12988a
+    repeated_rows: 4
+  - preserved_copy: sources/book-04/chapter-15-beauxbatons-and-durmstrang 2.yaml
+    canonical_file: sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
+    sha256: 8a70d9320ef959a2be606d8a59d1c521ff3705c2899628bfde73b824b0609541
+    repeated_rows: 7
+  - preserved_copy: sources/book-04/chapter-17-the-four-champions 2.yaml
+    canonical_file: sources/book-04/chapter-17-the-four-champions.yaml
+    sha256: ae6df65c9bbd0aa36858fb3205458b13bf3525aebabe8ded4b571bc0d5ffa17d
+    repeated_rows: 7
+  - preserved_copy: sources/book-04/chapter-10-mayhem-at-the-ministry 2.yaml
+    canonical_file: sources/book-04/chapter-10-mayhem-at-the-ministry.yaml
+    sha256: aab75e0625c990f411ff6cc4d4eb966ff93f4b72460eff6389a0bcd6c340cbfe
+    repeated_rows: 7
+  - preserved_copy: sources/book-04/chapter-05-weasleys-wizard-wheezes 2.yaml
+    canonical_file: sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+    sha256: 8df2df405a061e202a29cd0d4b8aac7a16fecdca56e38bc58817b371a65c61ea
+    repeated_rows: 6
+  - preserved_copy: sources/book-04/chapter-18-the-weighing-of-the-wands 2.yaml
+    canonical_file: sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+    sha256: d68c0dd736a7278031f809f5b87b65cda41548161eda84961fe0a88497399631
+    repeated_rows: 7
+  - preserved_copy: sources/book-04/chapter-04-back-to-the-burrow 2.yaml
+    canonical_file: sources/book-04/chapter-04-back-to-the-burrow.yaml
+    sha256: 0dedf5ba73f9018c231d5a8157df704255a3c649a8b900b7878a7d2ea396823d
+    repeated_rows: 5
+  - preserved_copy: sources/book-04/chapter-09-the-dark-mark 2.yaml
+    canonical_file: sources/book-04/chapter-09-the-dark-mark.yaml
+    sha256: 0f0a698be5d513b181b3ae63f6ac192089b78cfd679c52e232fea2980734914b
+    repeated_rows: 7
+  - preserved_copy: sources/book-04/chapter-02-the-scar 2.yaml
+    canonical_file: sources/book-04/chapter-02-the-scar.yaml
+    sha256: 881d23dde48bc84a53f94c38651825f063345d53fbeb54c323137b8e7a03d50a
+    repeated_rows: 6
+  - preserved_copy: sources/book-04/chapter-08-the-quidditch-world-cup 2.yaml
+    canonical_file: sources/book-04/chapter-08-the-quidditch-world-cup.yaml
+    sha256: 4694e046ce300d77c2f65bed884f2a1e64da56cba4142069eab421b2a1ec9a49
+    repeated_rows: 6
+  - preserved_copy: sources/book-04/chapter-03-the-invitation 2.yaml
+    canonical_file: sources/book-04/chapter-03-the-invitation.yaml
+    sha256: bb8b84ffdc50cb3e3013e1da9d7e2ec16ec2aef0ec79f981b546f1e30244d2c7
+    repeated_rows: 4
+result:
+  canonical_units: 374
+  canonical_entries: 1828
+  added_scene_units: 75
+  added_entries: 111
+  scene_counts_by_act:
+    1: 19
+    2: 20
+    3: 21
+    4: 15
+  entries_by_act:
+    1: 25
+    2: 42
+    3: 28
+    4: 16
+  era_counts:
+    post_1984_excluded_from_original: 34
+    pre_1984_historical_candidate: 2
+    later_editorial_note: 74
+    unknown_or_uncertain: 1
+  timeline_counts:
+    primary: 40
+    remembered_reported_hypothetical: 11
+    historical_visit: 16
+    altered: 44
+  comparison_counts:
+    corroboration: 37
+    new_information: 73
+    contradiction: 1
+  existing_entries_corroborated: 47
+  corroborated_ids:
+  - cos-ch05-001
+  - cos-ch05-004
+  - cos-ch05-005
+  - cos-ch07-001
+  - cos-ch10-005
+  - cos-ch11-002
+  - cos-ch11-005
+  - dh-ch08-004
+  - dh-ch08-006
+  - dh-ch10-003
+  - dh-ch12-001
+  - dh-ch15-007
+  - dh-ch16-007
+  - dh-ch17-001
+  - dh-ch17-006
+  - dh-ch33-001
+  - dh-ch34-001
+  - dh-ch36-004
+  - dh-ch36-006
+  - ext-a02-002
+  - ext-a02-003
+  - ext-a05-001
+  - ext-a05-003
+  - ext-a05-004
+  - ext-a11-002
+  - ext-a11-003
+  - ext-a24-003
+  - ext-b01-003
+  - gof-ch12-002
+  - gof-ch12-003
+  - gof-ch12-005
+  - gof-ch12-007
+  - gof-ch15-002
+  - gof-ch20-006
+  - gof-ch25-001
+  - gof-ch28-004
+  - gof-ch30-004
+  - gof-ch31-002
+  - gof-ch31-004
+  - hbp-ch09-002
+  - hbp-ch17-001
+  - hbp-ch24-006
+  - poa-ch12-002
+  - poa-ch14-002
+  - ps-ch01-005
+  - ps-ch09-002
+  - ps-ch15-007
+  comparison_edges: 72
+  comparison_target_ids:
+  - cos-ch05-001
+  - cos-ch05-004
+  - cos-ch05-005
+  - cos-ch07-001
+  - cos-ch08-005
+  - cos-ch09-007
+  - cos-ch10-005
+  - cos-ch11-002
+  - cos-ch11-005
+  - cos-ch12-005
+  - dh-ch08-004
+  - dh-ch08-006
+  - dh-ch10-003
+  - dh-ch12-001
+  - dh-ch15-007
+  - dh-ch16-007
+  - dh-ch17-001
+  - dh-ch17-006
+  - dh-ch25-007
+  - dh-ch33-001
+  - dh-ch34-001
+  - dh-ch36-004
+  - dh-ch36-006
+  - ext-a02-002
+  - ext-a02-003
+  - ext-a04-004
+  - ext-a05-001
+  - ext-a05-003
+  - ext-a05-004
+  - ext-a11-002
+  - ext-a11-003
+  - ext-a20-003
+  - ext-a24-003
+  - ext-b01-003
+  - gof-ch12-002
+  - gof-ch12-003
+  - gof-ch12-005
+  - gof-ch12-007
+  - gof-ch15-001
+  - gof-ch15-002
+  - gof-ch20-006
+  - gof-ch25-001
+  - gof-ch25-004
+  - gof-ch26-002
+  - gof-ch26-007
+  - gof-ch28-004
+  - gof-ch30-004
+  - gof-ch31-002
+  - gof-ch31-004
+  - hbp-ch09-002
+  - hbp-ch17-001
+  - hbp-ch24-006
+  - ootp-ch30-007
+  - poa-ch12-002
+  - poa-ch14-002
+  - poa-ch18-003
+  - ps-ch01-005
+  - ps-ch09-002
+  - ps-ch15-007
+  cross_references_are_not_additional_evidence_rows: true
+  explicit_hogwarts_a_history_references: 0
+verification:
+  canonical_validator: passed
+  unittest_tests: 81
+  unittest_result: passed
+  source_hashes_unchanged: 311
+  authoring_hashes_unchanged: 96
+  all_ids_unique: true
+  all_scene_headings_checked_against_pdf: true
+  all_passage_hashes_and_page_ranges_checked: true
+  index_query_smoke_checks: passed with timeline, scene and page retained
+  unresolved_extraction_failures: []
+  review: Independent complete Act 1–3 reads; root Act 4 read; scoped source/tooling
+    review found no remaining blocking issues.
+open_questions:
+- id: CC-Q01
+  question: What records independently date the Trolley Witch’s claimed original appointment
+    and test Scorpius’s 190-year inference?
+  related_entries:
+  - cc-p1-a1-s11-001
+  - cc-p1-a1-s11-002
+- id: CC-Q02
+  question: Does the witch’s absolute anti-exit boast conflict with Luna’s forced
+    abduction, or distinguish voluntary escape from forcible removal? Preserve both
+    claims.
+  related_entries:
+  - cc-p1-a1-s11-003
+  - dh-ch25-007
+- id: CC-Q03
+  question: Can independent pre-1984 public tradition or accessible records establish
+    Bagshot’s knowledge of the two historical candidates? Neither entry is approved
+    original-book copy.
+  related_entries:
+  - cc-p1-a1-s04-001
+  - cc-p1-a1-s11-001
+- id: CC-Q04
+  question: Which details of the altered-world portrait account and specific sink
+    route can be independently established in the primary timeline? Do not transfer
+    the new details merely because background lore matches.
+  related_entries:
+  - cc-p1-a2-s10-002
+  - cc-p1-a2-s19-005
+- id: CC-Q05
+  question: Who grants express permission under the House-quarters covenant? Craig
+    is interrupted; no authority or exemption is established.
+  related_entries:
+  - cc-p2-a3-s15-001
+- id: CC-Q06
+  question: Are Augureys actually taught in Care of Magical Creatures? Delphi asks
+    but the boys do not confirm.
+  related_entries:
+  - cc-p2-a3-s16-002
+- id: CC-Q07
+  question: Can anything independently establish the Bagshot door rumor or tentative
+    basement inventory? Neither is evidence of her access to the travelers’ future
+    knowledge.
+  related_entries:
+  - cc-p2-a4-s05-002
+  - cc-p2-a4-s10-002
+preservation_source_hashes:
+  sources/book-07/chapter-27-the-final-hiding-place.yaml: c8f61f5a0cadc1f1b257b581f3634268964c940a5ae73e06df1f9e8fad5b1453
+  sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml: dfd4aa452eda2bd5fda6901a8778a54b757f52dc483a726766c36e01a0716a50
+  sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml: 3424425d5f19b4f629426fb875443daa44e05441ee95caff0885417fc772a8ba
+  sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml: 3ff6c9a1bad97a2c099e4372efdcc6f6aa6491037221aa153e3b30478a030cc7
+  sources/book-07/chapter-28-the-missing-mirror.yaml: 09a05d4b40c52eaa4c027cfec661e8f97628715260e0ff421d3a4b7fe4dc4b18
+  sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml: 6a763ad05b83eccb7b10541a001eba78bf529f94895e847c7f7e8d5c00a6235e
+  sources/book-07/chapter-23-malfoy-manor.yaml: dc1780987605aa4d4c66725c71205c1d7813288a8f634e104db3f3b847ed8568
+  sources/book-07/chapter-05-fallen-warrior.yaml: a535ef92cd8a97352e654d6af292c347753e0fad23fd1aa183d0e9341195b1d7
+  sources/book-07/chapter-20-xenophilius-lovegood.yaml: 0b4fd64fddcc52b7934f89ab67705ea5c26c69093a0fe3564a79ac8eaa10ab58
+  sources/book-07/chapter-33-the-prince-s-tale.yaml: a93752095475c76ded74086e56dc19a5e226ff964d05f01a8fca6fe9c8a412f2
+  sources/book-07/chapter-26-gringotts.yaml: 643d0a573461fd7993cbd1689c833a89f00291334a152344c6d4976cb72a75dc
+  sources/book-07/chapter-36-the-flaw-in-the-plan.yaml: 5a639e22fc07c31facf488639d5a04a1cdb3a21f15aee6309c33cafc82029baa
+  sources/book-07/chapter-29-the-lost-diadem.yaml: 37f0b215df32404563c0d1185f8cf4a7f1b915ebebaf2cbafe3ae7ef11f5caaf
+  sources/book-07/chapter-34-the-forest-again.yaml: 1e8ee43967d4c307a63508dc06dca3e043bb747b76eff1759054de0cbdd7ca03
+  sources/book-07/chapter-12-magic-is-might.yaml: 24d472fa2007c3b4d6648fb3ad37f5439ba36e9859404a2d60e8f073795bdb0f
+  sources/book-07/chapter-11-the-bribe.yaml: d60401c778dd846ac9ee7b30916b4e95dd8c8f4eeb910a44f0d3b1818d951ad4
+  sources/book-07/chapter-01-the-dark-lord-ascending.yaml: f2e91a00c310398bf2d31868aa10d73dd80761ad85240adb5f6611330d3f57be
+  sources/book-07/chapter-32-the-elder-wand.yaml: 09fcdcd98b5e85164f2ac2977ecf7e583e4d210035f354ccf63557784d733e68
+  sources/book-07/chapter-22-the-deathly-hallows.yaml: 26a6abda46e61dd03c9a8d1d3173d049baba9bc5e919719b759e2e5139866262
+  sources/book-07/chapter-04-the-seven-potters.yaml: e93e1d98b18798d3d325a233e4f555785f49310b44e21ad1196cbace6f3cc2f4
+  sources/book-07/chapter-10-kreacher-s-tale.yaml: 799c69e6abd6b12fe40102d962ad0cf12ae75ee5649de74a13f70fb8aedc41aa
+  sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml: a5d118cacb49ffb461094f4a0db8469b2f2fbd38c7d320af198bfcb9dceb8fd2
+  sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml: f30b049cdbd79aa79c7fc4e1a9e5f4f080e89bb028640e8564e5eee175977fea
+  sources/book-07/chapter-17-bathilda-s-secret.yaml: 2ef7bc5f481ebc8057b52c96c4358ff6a16663068e3d44b2e5b3f8cfe40c021c
+  sources/book-07/chapter-03-the-dursleys-departing.yaml: 72d017d0451a31a7bb460d63229d7ac916c74dfd2ec5715e30aec259056cb27a
+  sources/book-07/chapter-14-the-thief.yaml: 9779ec31e9b6eb7d7467a3c304a24fed35e5ed31815a5d09de161d0f7549d07e
+  sources/book-07/chapter-19-the-silver-doe.yaml: 247ce43260ef8e8ddafc5ab8d0fb2e70e93dffd5d128fd4fd7cda8c32ba34806
+  sources/book-07/chapter-24-the-wandmaker.yaml: 85855c7ef220bdea9469f9e3ffe9d66483c675b6c7e4ede2475e9279912a9144
+  sources/book-07/chapter-35-king-s-cross.yaml: c955101e52c2d1d60e3cf1df76f41664b1a6414e79fa1421ab8c450aa572f497
+  sources/book-07/chapter-09-a-place-to-hide.yaml: 9ea308fd06ad765340198dfdd475167d9db96e6485ca169d15c398b18c95e77a
+  sources/book-07/chapter-08-the-wedding.yaml: 0db02220051d94d636b5c3528ae56382371b876856b5b29d7e809d23ef02bdbe
+  sources/book-07/chapter-16-godric-s-hollow.yaml: c38751843ae515a2aa6542eeb50bf90747aea3f653f15d57a906dbc242af1e53
+  sources/book-07/chapter-25-shell-cottage.yaml: 1a8b96afebad85683ba5f9811b1eedb457d803321298494f84fe66752238f7cd
+  sources/book-07/chapter-15-the-goblin-s-revenge.yaml: 77feb3f41ff866dcd8b30b3b78f46fc715791a83b087c7293ec67707277b7602
+  sources/book-07/chapter-02-in-memoriam.yaml: dbc9bd69c82b4605a2f93b3f982725c7e64df7ad576623404e6fa4440d336792
+  sources/book-07/chapter-31-the-battle-of-hogwarts.yaml: 55bcbf63e78495467e9bb4b872d49d20d013b579156deb69dd4274ec5dab9f80
+  sources/book-06/chapter-25-the-seer-overheard.yaml: aa320afce52d278d70f3bc3d0525180b503c86f87b9cba8fbac869e739b09994
+  sources/book-06/chapter-15-the-unbreakable-vow.yaml: 08f77e4c484e2ee403c4b4ab74fa24e84d317013c848ff83a3de536111a4b89a
+  sources/book-06/chapter-14-felix-felicis.yaml: 0a2f8ce59b6d5556528d14842cfc256f7d9bf0f3a306d8e72059fd7348be2bc5
+  sources/book-06/chapter-22-after-the-burial.yaml: 82d0e96545e4580b214dbd6b24b21a42d3c3852a5ab43583e0aafeb4fe26530c
+  sources/book-06/chapter-06-draco-s-detour.yaml: 2634fc9e51a18ea0ee29876b742c3a36809cf066589e7a26cf41eefb02768ae8
+  sources/book-06/chapter-03-will-and-won-t.yaml: 2814c86f0fbf1a8d2102d4ec88d6c6ecf0ff12dbf997d9e66034726f010e4007
+  sources/book-06/chapter-21-the-unknowable-room.yaml: 0a373181c3db067199363f4b2cef624f6c1333d44033645dc8297e57ddcdf9d9
+  sources/book-06/chapter-12-silver-and-opals.yaml: 80b1313701167ab0cafbf80773f72f96c2a716a45306e2b78fe777d314e03a06
+  sources/book-06/chapter-17-a-sluggish-memory.yaml: 0164c7cff3464f7e96aed52b22d5c64e0abada01bdeb849c274c0adf54376f4d
+  sources/book-06/chapter-20-lord-voldemort-s-request.yaml: 95225d26cf72e3fd8069c0c5a18c95db98d926db817f23abf473d656729f6552
+  sources/book-06/chapter-26-the-cave.yaml: bbe4eb62636e77a32fd8e672491a98947cf2bb25a45940875c1caad00a8cc40b
+  sources/book-06/chapter-02-spinner-s-end.yaml: 1cc7f2c0fe17bfd09f78a77784c3af51a3272d1cfcf5b01d4a0467ad1e9e9720
+  sources/book-06/chapter-29-the-phoenix-lament.yaml: d06a6145d0c033d0b77a9a59c0f6cb020a3d063cd09138338cb8f28b740fb979
+  sources/book-06/chapter-23-horcruxes.yaml: 322b4e7177baa70d430d5c3130956ec5b6b88a66557eb9e9d34a5124aeb4136d
+  sources/book-06/chapter-28-flight-of-the-prince.yaml: 9f99496102662708502db3d0f1d182b4c9aa8779ebda77b65d42dd7b18b8aa7f
+  sources/book-06/chapter-19-elf-tails.yaml: 86aca1c76ee057f30921d70acbc4efc2c78739be57fdcf22157d44eb99585efe
+  sources/book-06/chapter-18-birthday-surprises.yaml: f952a29415d183617a966877fa66caa12e88af670885b923bb3eddc8e443f442
+  sources/book-06/chapter-07-the-slug-club.yaml: d0307ac8cd582d183fc53f9f7bcaead9783c836956e7c8899de2325e2c99e842
+  sources/book-06/chapter-09-the-half-blood-prince.yaml: eb487de51cc1c92d780385196a63830ca8e3b5670f7897329d37f33c27d3d058
+  sources/book-06/chapter-08-snape-victorious.yaml: d27e3ec939068a8ffeb91dae380c7cc4edeab248a5da1be64616bf0a71950d6e
+  sources/book-06/chapter-16-a-very-frosty-christmas.yaml: 664f8b66c51f5c8d570985eee32f36b2ed155bd6b8168e93e6f46c56b8b2f524
+  sources/book-06/chapter-27-the-lightning-struck-tower.yaml: 82ca41c03269cbf4f5593935b70dfe3e66aefddfd35ca162f2efa28e17e7e21f
+  sources/book-06/chapter-05-an-excess-of-phlegm.yaml: 89b303f9ee836bc368cfb8b0f379e4b2369db2bb36305cb67af8f5f28695a052
+  sources/book-06/chapter-13-the-secret-riddle.yaml: 217d7495b0d4f8269d1331a1b2dd4699070806edb6dbd55209ea31bbee1bc630
+  sources/book-06/chapter-30-the-white-tomb.yaml: 9cb99ec52677ea202c4696ace7f1dbba8aea23b858f180b5f114dab9af739f9c
+  sources/book-06/chapter-04-horace-slughorn.yaml: 4858e109d64795143b5b97ea0f1705111ceef731bc5ff75dc6f5e4e173d4af0b
+  sources/book-06/chapter-24-sectumsempra.yaml: 6f32cffca1bf2819fb986f2ea9ca2e8bb7060d373d5ca1527da30a268bfd98f9
+  sources/book-06/chapter-01-the-other-minister.yaml: 0d22a1083b6020f7dc44feacc829331effffe8c38ac8ecc903e0c7a805821b1d
+  sources/book-06/chapter-10-the-house-of-gaunt.yaml: b9f397149e11c319f8a0d20505caee94749555328db4df266f0aed27ef8dfb06
+  sources/book-06/chapter-11-hermione-s-helping-hand.yaml: a442929014b97d99488f4c62d3e261de33a418cf1560e7cb45fc1a8c95768cbf
+  sources/book-01/chapter-13-nicolas-flamel.yaml: ada0e4ab7d140bfffd3c17c5db08721d7af58b4052f70e99b8eb929e1913ea9f
+  sources/book-01/chapter-16-through-the-trapdoor.yaml: f9a6aadff4e19cd2d6401789ef7da74400744c025e8757345bd9c45aaa0f0890
+  sources/book-01/chapter-05-diagon-alley.yaml: 223024ec722d8cc148e60cb38478c0eb5d3aa0851c7f14d188fcab24f74e85e7
+  sources/book-01/chapter-01-boy-who-lived.yaml: 3eb70c9328bb89439ffa2b512addeaffc0ab19509acf917df2cf3605e2d961b4
+  sources/book-01/chapter-15-forbidden-forest.yaml: 4e3fb9886cf56fa6dc60fd81f4d2580a86d4f24138062dd17d69d38a99c9490e
+  sources/book-01/chapter-04-keeper-of-the-keys.yaml: 3a34ea28e7b2e8543ff5059bb5e5f123737b128e1a9337642ebcdf5856723048
+  sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml: f4b860dc4f1bc1215557be7d8473e2b6525a533e7deebf634b1b65e7bd1bdf89
+  sources/book-01/chapter-12-mirror-of-erised.yaml: 274e7fadb92072d8f5591c8224903a99a77373c9548cc511885adf1eec35a8a8
+  sources/book-01/chapter-10-halloween.yaml: 156435ada12a05f4b209fa672727f5ab7427c5da26b79bc7e6e8614fa169004f
+  sources/book-01/chapter-02-vanishing-glass.yaml: 2c3c31a072859d8acd8c735eadf81d6cfb60a7843d200649fa4bb56bd5732c43
+  sources/book-01/chapter-17-man-with-two-faces.yaml: b52984833459a8040a161dc7236d8c13add029b620ecf54334fe8c9affe46623
+  sources/book-01/chapter-09-midnight-duel.yaml: 105c53c70bcdd942a93a6ec2213bbb564761e1306b63f3479c7613eeb3d93b6b
+  sources/book-01/chapter-11-quidditch.yaml: 02694b5ae0ab871d33d7c173ef476481947fab7a76f73b72f42a48243c9a10d3
+  sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml: fb3e25b98cee166be564e88181118a73c311f2b415f3e16b9ebbc370184e5f9b
+  sources/book-01/chapter-08-potions-master.yaml: 7d67cc259774ab97da7d718d73fdf80f7c8161c8ca6af6aff5acb5a81316a2fb
+  sources/book-01/chapter-03-letters-from-no-one.yaml: 49cf56d339fa115fa5728d62d51ab37d0579037a39dfeeb65ca5ade5e3d61be9
+  sources/book-01/chapter-07-sorting-hat.yaml: 3d22971375f1a699f040097cf9fb6764951e566ddc2275493b0d2dfd80a93788
+  sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml: 753c6a4aaf7e9ab117768c27201f6dbf77cb2fa98b921db1c259488d8453db4b
+  sources/book-fb/chapter-08-bestiary-r-to-z.yaml: de93624ff4bec95269d4ad6dc9633b5d6ef970d780eedc8e6196d1c68b2175fa
+  sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml: 93048241a32360176719aa918fe0e1c11ecc29dd3fc2bbcb48245fa03a46b210
+  sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml: eb992d53068f1a4b2c54f2e3e3118ec2a81f2a0aaa5a589533170398178c68be
+  sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml: c502e2e3854c69d2e3ef27064a4e46549d1544f5dc5e48a9ce1dbd87de9a4918
+  sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml: b8762f078cb94381d088853b438b557d96ec67711ed78ef9df17bcdcebf99bd7
+  sources/book-fb/chapter-06-bestiary-d-to-h.yaml: e07cf92e105f1469d04ec50aaff13503e25bd36b83f6fa35c100d987a1e5390b
+  sources/book-fb/chapter-05-bestiary-a-to-c.yaml: 32dedf11220d907e9b39518b0bdb983549df331fd790c236e2e350d832f70adc
+  sources/book-fb/chapter-07-bestiary-i-to-q.yaml: 7d942abf9e4e52153628c0be209217160c0466b765666da699ee63ed24f1d51e
+  sources/book-fb/chapter-09-back-matter.yaml: 06f0f5e52e683d3379f3f9dd5112068de1ae88778336e838130faaece22e4bd3
+  sources/book-qtta/chapter-02-ancient-broom-games.yaml: 77bea26e4c6bf6b23fed27ffa28f96376870b8efd9bb6e55ddfc662e5a85c764
+  sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml: 6cfc323d6c153a70d3342f197a283df8dcd16f7eabbb1e35f8ea343108bd1e5e
+  sources/book-qtta/chapter-08-the-spread-of-quidditch-worldwide.yaml: 2d16347bf1955f356db2887f3f007a07a1eab5495389e8d92935bb81dbe3e5c5
+  sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml: 49413f0e49c104b9197ffc244b425860c89805680bc0d577179c085c2566e00e
+  sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml: 94f839fa34cf1828702099d2d24ee6c78b5d1690d8111ab710e5529efe338a5f
+  sources/book-qtta/chapter-01-evolution-of-the-flying-broomstick.yaml: 4aa435fd3343d8343e45465a5576240824cdc68400bfedad95621dff3132374c
+  sources/book-qtta/chapter-07-quidditch-teams-of-britain-and-ireland.yaml: b65e1fec710b33b5e548f6c5fef4012d9c1f787b740ff71668e767fcc5ad58e3
+  sources/book-qtta/chapter-00-front-matter.yaml: 63221a7f623f599a5707ab24bf2aadc546d738c39c42334eaba5d19675211692
+  sources/book-qtta/chapter-05-anti-muggle-precautions.yaml: 55bc2b44b72bba1daab06dafdda16f5a9150a79dfb7029a5f4cff22f63abb330
+  sources/book-qtta/chapter-11-back-cover.yaml: 3ad7d839da4e90e39908bfc2234d235d1ba17d429c6d8265635b2288e3a6546a
+  sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml: cf8134688d51e3887a6713a4053dd98591ac1e3221aba26cf3787c9c172563e5
+  sources/book-qtta/chapter-10-quidditch-today.yaml: df866447c8bdbcc5d05c82f66ec63ae84f7b574adf555b29b80397a4fe87779d
+  sources/book-beedle/chapter-03-warlocks-hairy-heart.yaml: 34f2083838f7dee32505aa0e9ee4bdeb2249624667a39daa5045c7cf6f0ebf79
+  sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml: e177c67690636f529102e3ab437a7837849c489244423705af402b0210a35404
+  sources/book-beedle/chapter-04-babbitty-rabbitty.yaml: f89c72aee1b3f102abb6900f2bd4c02329f29b5cbb7e793a5e94777a1b8a73bf
+  sources/book-beedle/chapter-05-tale-of-three-brothers.yaml: 856e21057630fbdddf762a989a2bc1db4f422ec4e038c90b5d4263456f533402
+  sources/book-beedle/chapter-00-front-matter-and-introduction.yaml: 427defe14680834df149f735fb3304ec0372c46efef7f7cdd0f94ee518e78b1d
+  sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml: 559f4564412b6d194d7af9d68e5ea8ff621d3f5fe967e77d599f59e6ca42b78b
+  sources/book-beedle/chapter-06-back-matter.yaml: 2ef7c631e9df8595b5377504b93e45a96caf090ea658c451f9db18076738caf2
+  sources/book-04/chapter-10-mayhem-at-the-ministry.yaml: aab75e0625c990f411ff6cc4d4eb966ff93f4b72460eff6389a0bcd6c340cbfe
+  sources/book-04/chapter-12-the-triwizard-tournament.yaml: f3433d58e404feb7f12c38bb24cb590d468aec48c3a73a0bb483610e1f45605d
+  sources/book-04/chapter-14-the-unforgivable-curses 2.yaml: 4652fb0c679d7ca7436e61f088646c82626863302fb89f7251e33583ac95861c
+  sources/book-04/chapter-06-the-portkey.yaml: c0efbd8e4bc5de9e22245a627a199a17e4c7d205dc73674edb4d40d34f12988a
+  sources/book-04/chapter-01-the-riddle-house.yaml: 62fd0f7b9660bffc6ba0debd15857439ca214a117c485a1ddfdf466f3c47b9d2
+  sources/book-04/chapter-16-the-goblet-of-fire.yaml: 14492b2473866631c6d63403a38cf0881043e340cb46588ac62e3071cd8e9827
+  sources/book-04/chapter-04-back-to-the-burrow.yaml: 0dedf5ba73f9018c231d5a8157df704255a3c649a8b900b7878a7d2ea396823d
+  sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml: 8a70d9320ef959a2be606d8a59d1c521ff3705c2899628bfde73b824b0609541
+  sources/book-04/chapter-37-the-beginning.yaml: 4c22b25b150a29144d588540b8fd0be14f54416590edd4e04510716a0aa2ea77
+  sources/book-04/chapter-09-the-dark-mark.yaml: 0f0a698be5d513b181b3ae63f6ac192089b78cfd679c52e232fea2980734914b
+  sources/book-04/chapter-06-the-portkey 2.yaml: c0efbd8e4bc5de9e22245a627a199a17e4c7d205dc73674edb4d40d34f12988a
+  sources/book-04/chapter-22-the-unexpected-task.yaml: 3c0f809ea31725e48e0b904f0cd26dcba1659463ff5ffbdb17a80b9b9b18ac7a
+  sources/book-04/chapter-15-beauxbatons-and-durmstrang 2.yaml: 8a70d9320ef959a2be606d8a59d1c521ff3705c2899628bfde73b824b0609541
+  sources/book-04/chapter-17-the-four-champions.yaml: ae6df65c9bbd0aa36858fb3205458b13bf3525aebabe8ded4b571bc0d5ffa17d
+  sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml: 90fd82a2fa49fbe5c5fae159cbee7beb1f3d07d97b9217eecf8ae2b851d8ba7e
+  sources/book-04/chapter-17-the-four-champions 2.yaml: ae6df65c9bbd0aa36858fb3205458b13bf3525aebabe8ded4b571bc0d5ffa17d
+  sources/book-04/chapter-13-mad-eye-moody.yaml: 584edd50fa439c4c37086a49ff65ca58ea8d4fbe7801e46509494285aacd11b0
+  sources/book-04/chapter-29-the-dream.yaml: 7b8f484b50e1333d6f7a76cdeb3504b038a9fc7b343984e5835f624ad86c7ee8
+  sources/book-04/chapter-10-mayhem-at-the-ministry 2.yaml: aab75e0625c990f411ff6cc4d4eb966ff93f4b72460eff6389a0bcd6c340cbfe
+  sources/book-04/chapter-20-the-first-task.yaml: 9999a347793bf7173d584361bdf627505a6cd79a6529ee8e5c0f9af245829248
+  sources/book-04/chapter-25-the-egg-and-the-eye.yaml: 09ca866239a87ae7157897d040d2bd13f174ea16e5d47787872acfe16c645c7c
+  sources/book-04/chapter-05-weasleys-wizard-wheezes 2.yaml: 8df2df405a061e202a29cd0d4b8aac7a16fecdca56e38bc58817b371a65c61ea
+  sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml: a4608ae5e17ca89648b9ec49db7e0bb2eab0f38dcd468acd5c45e982f9ff6ec5
+  sources/book-04/chapter-32-flesh-blood-and-bone.yaml: b6c1ca76a35f685318e6489153fbe20f48eeb55d2e7283a70da7761afa8070f5
+  sources/book-04/chapter-23-the-yule-ball.yaml: b4181db5bbbf6376b595a0fa37a6decd57036d8dcc5f64d6882a07ac56b05d2f
+  sources/book-04/chapter-18-the-weighing-of-the-wands 2.yaml: d68c0dd736a7278031f809f5b87b65cda41548161eda84961fe0a88497399631
+  sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml: 8df2df405a061e202a29cd0d4b8aac7a16fecdca56e38bc58817b371a65c61ea
+  sources/book-04/chapter-14-the-unforgivable-curses.yaml: 4652fb0c679d7ca7436e61f088646c82626863302fb89f7251e33583ac95861c
+  sources/book-04/chapter-19-the-hungarian-horntail.yaml: 19dd4884efa2e27c0da0307449889fd9d7f61e01e902d5c42869d06bc54442ac
+  sources/book-04/chapter-08-the-quidditch-world-cup.yaml: 4694e046ce300d77c2f65bed884f2a1e64da56cba4142069eab421b2a1ec9a49
+  sources/book-04/chapter-04-back-to-the-burrow 2.yaml: 0dedf5ba73f9018c231d5a8157df704255a3c649a8b900b7878a7d2ea396823d
+  sources/book-04/chapter-33-the-death-eaters.yaml: 30eb61da9356b15b3d788c9defcf8bf1c08eb75e522b7791ce99c16642556c60
+  sources/book-04/chapter-36-the-parting-of-the-ways.yaml: 60f95fbb0961309443c3ee977d0249611fa7f97b3ce48a63f6e442123b409452
+  sources/book-04/chapter-18-the-weighing-of-the-wands.yaml: d68c0dd736a7278031f809f5b87b65cda41548161eda84961fe0a88497399631
+  sources/book-04/chapter-26-the-second-task.yaml: c6f7cd64e116f27582666a8e1ad28d334162baf4de4fbb476c5f3f770b280017
+  sources/book-04/chapter-03-the-invitation.yaml: bb8b84ffdc50cb3e3013e1da9d7e2ec16ec2aef0ec79f981b546f1e30244d2c7
+  sources/book-04/chapter-09-the-dark-mark 2.yaml: 0f0a698be5d513b181b3ae63f6ac192089b78cfd679c52e232fea2980734914b
+  sources/book-04/chapter-21-the-house-elf-liberation-front.yaml: 5af6830dca967083a352d75fa5f6f1d9cb463a60d0dc268cddf2baa973c453d3
+  sources/book-04/chapter-02-the-scar 2.yaml: 881d23dde48bc84a53f94c38651825f063345d53fbeb54c323137b8e7a03d50a
+  sources/book-04/chapter-07-bagman-and-crouch.yaml: 9524519807e2a130277d8a4b13b0d7a1a02a6bc2d4070541f7f6c77ffbf97b04
+  sources/book-04/chapter-02-the-scar.yaml: 881d23dde48bc84a53f94c38651825f063345d53fbeb54c323137b8e7a03d50a
+  sources/book-04/chapter-30-the-pensieve.yaml: efe31bd5db1d8a1d34f9849a8ee15e4ec1830e9dc93711707606aff0a10e089c
+  sources/book-04/chapter-35-veritaserum.yaml: 3b023866147698f7a2954ada4e23c1ee6710e9f6b537c16f354130220b46f93d
+  sources/book-04/chapter-08-the-quidditch-world-cup 2.yaml: 4694e046ce300d77c2f65bed884f2a1e64da56cba4142069eab421b2a1ec9a49
+  sources/book-04/chapter-34-priori-incantatem.yaml: 9d26e5e38592580313801a902ab760df88935c8f63180c6c133da37b70c3ab0e
+  sources/book-04/chapter-27-padfoot-returns.yaml: 90a4523d6bee63642abaffd01efc0652e3bd91dea17a26e49abdd0cedbe94936
+  sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml: f26201a26b03ea11feba06dc7ee47843821104cd7b814a6851f6ec2c3e73565f
+  sources/book-04/chapter-31-the-third-task.yaml: 712d93baababd7809f7ec51c7b5316f227020c43814bc372953f542550fd67cb
+  sources/book-04/chapter-03-the-invitation 2.yaml: bb8b84ffdc50cb3e3013e1da9d7e2ec16ec2aef0ec79f981b546f1e30244d2c7
+  sources/book-03/chapter-03-the-knight-bus.yaml: 10f8891b130d61752690060d51a753dd6748e6f2d46681e4f60d8d4eee262f02
+  sources/book-03/chapter-09-grim-defeat.yaml: 67faf4d23ed346ede20f019cf65f3ce7132c81991e0167f40913433fc0c61af2
+  sources/book-03/chapter-22-owl-post-again.yaml: c4d9d1b97420ee9a864d0b0da4119d2d00189afd247637aa66edad432ad94e86
+  sources/book-03/chapter-14-snapes-grudge.yaml: 028ff8c4264b21f707a98d7692480711340fe8088d0e11db41544cf912972ad5
+  sources/book-03/chapter-08-flight-of-the-fat-lady.yaml: 4f982ba9ad4436959d0f84ee525d26a6e23c2e8f870babef2ca350445d314764
+  sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml: 79f43c0068eae18ebe91fff426238c1452283ca788d6761592115bfaaf870342
+  sources/book-03/chapter-04-the-leaky-cauldron.yaml: 1524878b3cb326ae022d93a11a7e8df9ef3d5eae949ab214bbb14671267eaefe
+  sources/book-03/chapter-06-talons-and-tea-leaves.yaml: 0918f733eb15dd745e1869bbdea8ae0309c008b73c7c7b8d409dac7eca6fae59
+  sources/book-03/chapter-20-the-dementors-kiss.yaml: 2d5ef11e8fb80d62d555df80989d4ff180567e21fc39c79a49c31d7dd3187e26
+  sources/book-03/chapter-11-the-firebolt.yaml: e6219ec125283da9cbb1c090c7477211a8756f236044b76c9a702061647db9cf
+  sources/book-03/chapter-15-the-quidditch-final.yaml: 083edf4b99ef03de82b24e3a98e830b872ecde9e4b57be8a87bd0b511b0a4c3d
+  sources/book-03/chapter-02-aunt-marges-big-mistake.yaml: 183ecd22560977c209712267400fbf2ad90459c0b6de2fd6bc13974768aa9921
+  sources/book-03/chapter-17-cat-rat-and-dog.yaml: 99c3560d85a3beba3d18430cf603d532c839d66938b96629082dffa5780d0bf1
+  sources/book-03/chapter-16-professor-trelawneys-prediction.yaml: f58d4d323b65da3572dbf20d9f411a39db3def519721aa217e107e78482f7682
+  sources/book-03/chapter-12-the-patronus.yaml: 230616aae0be8254e6fc185ee5aa9b8bbe7c86cf367c3aaa9939c91c004bf5ce
+  sources/book-03/chapter-21-hermiones-secret.yaml: 94dbd5cee53cba013962d7b7559792fe7b0f11ef7fa115225aac128c25c24cbe
+  sources/book-03/chapter-10-the-marauders-map.yaml: eab9b7c959cd5ecc77ed5bcc54f46021bff4c9f62cb1d8b6a055e02ca78b3759
+  sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml: 4e29844b9a304b53a5c0341f8bfd04b85d5a27af3b8a2c8a9a5c955d43562b84
+  sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml: d2cfe3cd2720efe260dbd78587cf64848325e804d1741e3f01f01c2f37e503cf
+  sources/book-03/chapter-05-the-dementor.yaml: 73ee9859fa7f01c255cfd1ca5f8bc4ac65f3d5dcc293b3c4e59a47777cb8c81f
+  sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml: 1184b3720cb96fc105128182d0bde96061e6c2ea3469b9193f9c3fd87f7c0434
+  sources/book-03/chapter-01-owl-post.yaml: 990906c2f63f9d41ebf7fc539eb203d24377d183cceb84c51f2cb4e51aaafd77
+  sources/book-02/chapter-15-aragog.yaml: f15955cb1e2cd0ba16a450780774888607cf49723db09b38e87da3bf49b522de
+  sources/book-02/chapter-13-the-very-secret-diary.yaml: 1fc57c7298404ea3ccc4abd77f0d146016fb69ae1a111eec4071ea1b84a7c90f
+  sources/book-02/chapter-18-dobbys-reward.yaml: 2d4bb29cf0290b26ba0d28b4447800125fcee69fd1ee45fbd955b53b20d9e9c8
+  sources/book-02/chapter-16-the-chamber-of-secrets.yaml: d92843d086ee740d214525d8920eb3f8c8431e18eac455ba3134d6257081b485
+  sources/book-02/chapter-06-gilderoy-lockhart.yaml: af7c13dda5bb7bfd245ce2d055f611abeb91196c9d7d4dcd4e0f332d3ed8e7a8
+  sources/book-02/chapter-03-burrow.yaml: fb80ac336705b08feb8b20e61a107cc4738fdd9fa9065f284befbbf008787fc1
+  sources/book-02/chapter-14-cornelius-fudge.yaml: 7753875240eef674c06ff6d7897dc53386aa04773eb725a9212ab34fcd34b536
+  sources/book-02/chapter-08-the-deathday-party.yaml: c1ebc6344b9f67e84bee1a6305574de391ed9b6dfaa7dcc060c7aa1e6661de64
+  sources/book-02/chapter-11-the-dueling-club.yaml: e1f9b5039db76fa19eb67143821c4f7c3c732a1e90e033dcd16ee8feaeb0aee6
+  sources/book-02/chapter-01-worst-birthday.yaml: 81fdc5bf7d3c0774f904b7e69bb9bc82fe0d52a509e8700179539d303e9b609d
+  sources/book-02/chapter-12-the-polyjuice-potion.yaml: 432326c6289e74fe79e88f4db67f259d9e489944288f5867d6b7499da91b1611
+  sources/book-02/chapter-07-mudbloods-and-murmurs.yaml: 27cacf9d931caee90df5a57384e2879478d4146d59cb0862b15cb001621bfc42
+  sources/book-02/chapter-05-whomping-willow.yaml: 4e7997ddab46e1911a3c85524c3477b32b56a976c4dd443fc40ea5a71e565075
+  sources/book-02/chapter-09-the-writing-on-the-wall.yaml: 6ea180e147b6a2ddd4b3e81b37220ed68557ebf0210addcad68bd0f53f569ffe
+  sources/book-02/chapter-02-dobbys-warning.yaml: ac0d1c03eb6da2d0b97fdda5cc6fd60a521e2c3719c8b936edd48a7cabcd355d
+  sources/book-02/chapter-17-the-heir-of-slytherin.yaml: 16c421c699f5beb685be71df0f90e4587883e141d2a930cc18340e6d5e2b1454
+  sources/book-02/chapter-04-at-flourish-and-blotts.yaml: 572c4c0c153fc0357d6c759a0af11f484bb80dc80cc2675737a8c1c91efb38ae
+  sources/book-02/chapter-10-the-rogue-bludger.yaml: f949cf481d01f3895f10b2b39e1fdf9887c5eb6460ec41056d98d191b04f4e51
+  sources/book-05/chapter-38-the-second-war-begins.yaml: eb9a7bf26e422950845b6a4d30c6b69c0f50e342f5c4e326365bbc35cdaddd62
+  sources/book-05/chapter-19-the-lion-and-the-serpent.yaml: cf09a35152adcdb1d5dab2afe7a1bcfd34fd06f068a94625e45e5b6d897d7b60
+  sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml: 1e3298b90f4a53f2c28f638e22465278664c8c55d088694331fc066242b1ed69
+  sources/book-05/chapter-01-dudley-demented.yaml: b5395eb4207ec9d6efc4724d1962a9df277d794b756e9086d748bf2110a3fbda
+  sources/book-05/chapter-30-grawp.yaml: 383472074dab843d2d2bceb05d0c713da4b22fcb8605c4b001436b60cfac958a
+  sources/book-05/chapter-21-the-eye-of-the-snake.yaml: 8e93bb6d67c8079b590a4b9d9510c4abd7f4d83a0692cca750e03db4840b6665
+  sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml: ab5e8de94604dccf5ac1ab994d202bfd1b8820248ae77c7b83b9d2f558d3d245
+  sources/book-05/chapter-13-detention-with-dolores.yaml: 357f4fe89ab7d6c59c18754d5f1a83339c0074996850148de1dbdf7dcca6020c
+  sources/book-05/chapter-29-career-advice.yaml: 5c42b0f189b4ee7f905be8313673e88e9f8be2ea9f92fabc19a1cc7a3af40694
+  sources/book-05/chapter-18-dumbledore-s-army.yaml: ad1fd58ee835d42058a655cace15991d81c2b5a351f74cd13906d73d75bab2ce
+  sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml: ea9dd7e39f292e68f931655de49449050a077265e9d2df6b4d4257e035ba154d
+  sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml: 172fe78a584fb211d22e6475fb86203f1dbda20b6b1997477d7538a447fe9b44
+  sources/book-05/chapter-24-occlumency.yaml: f1130deaca20e725a0d3c1e0e1e6c6bb81b6c13b6aeb79176678bcedcc9d9f46
+  sources/book-05/chapter-37-the-lost-prophecy.yaml: b2308eed607b1b540f68321b76257a26460255c901b4d0d56ced4ea0edde5402
+  sources/book-05/chapter-33-fight-and-flight.yaml: 67506dfb0f96861bef7b314b0c46e5979eef0ee4b8730d4b983f9c712e5b3b22
+  sources/book-05/chapter-34-the-department-of-mysteries.yaml: e9dec1cda9254248d9fa8b0318d52a4a3e4e377936916eb64048b361fb8c336a
+  sources/book-05/chapter-26-seen-and-unforeseen.yaml: b1c08780a98aec97640987b2986c6b5960167b8f012f3f38278d699ef746abdf
+  sources/book-05/chapter-12-professor-umbridge.yaml: f5c475dcb929c717f54e5d63f9415ee116f45b368be0f4df7152cce1f7753370
+  sources/book-05/chapter-10-luna-lovegood.yaml: 9765d086ac41e92b0b867001c3a9a1bca328e0783db4562c0592212e720ec44c
+  sources/book-05/chapter-14-percy-and-padfoot.yaml: fb1683206d6a41c69ea3d91aae07fcabf52c11d4c2d89d94fcac4beabc4bc038
+  sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml: a5ba1cbad8bd5d0d0d9538b2a531a10d3f3c3e9ad54d4e90ea2c72e0017b1d5c
+  sources/book-05/chapter-31-o-w-l-s.yaml: d4e686d8720aa28c92865950da1fd29fc47cac105e53fa8513d1afcb079e814f
+  sources/book-05/chapter-25-the-beetle-at-bay.yaml: 636da553b8515a9e158429065d1e238c3d6948f2826e191b2364f277f369a291
+  sources/book-05/chapter-03-the-advance-guard.yaml: d7ab3c74b9dacc8ec7b586371021fce28bbd1fe7b290db6da182ddc670331c3a
+  sources/book-05/chapter-32-out-of-the-fire.yaml: 8134ffd305158038b58115cf2378acb027530d90aadc8afc386bd1d27d372616
+  sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml: 819ea9fdac174666b88dd0098db53975d8b797d2a1447ce37c82ecf6a7fa39da
+  sources/book-05/chapter-20-hagrid-s-tale.yaml: 0c5144c884f0f14eff82d3d457ef30b07cfd692063f241aabed99eea02e0cfe4
+  sources/book-05/chapter-35-beyond-the-veil.yaml: 9e99681296c1a4a1efe5603ad912a50c194345966aa289bbbdbdf7c5d249dbb4
+  sources/book-05/chapter-09-the-woes-of-mrs-weasley.yaml: 8e46f73848b33476f958e2bb8cff76d7375dd662f5c4f8a437674bbc046b0457
+  sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml: b050096350d4ca45c5c13a96fd043446c0d7935f752771c97d84df72dd29f592
+  sources/book-05/chapter-28-snape-s-worst-memory.yaml: 01dd56a945687ea9ef8c2e93e827980d0eb0fb76282d0258c522cc099038b680
+  sources/book-05/chapter-07-the-ministry-of-magic.yaml: 74ce09bc5e5e87c59807801f448f6bec555fca146c0068c712f64f897608252b
+  sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml: 7b3d1a087bfb70759d43a78547cb95dd55f9dc2b7ba22c14e1083d14a6b05057
+  sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml: b2b5113b4f4d675ad8f109abe97e07af1cc839dc072ea3a87b3041d76cdcd110
+  sources/book-05/chapter-05-the-order-of-the-phoenix.yaml: 814dd617cbd3caadbebda89a8acd4002612af111caa8aef724461c2e51030f67
+  sources/book-05/chapter-08-the-hearing.yaml: 5419af7ec59a929033be1c0dbba86a32bb1b48aa1faf1a975e622c3927c4d294
+  sources/book-05/chapter-02-a-peck-of-owls.yaml: 9e7a7cebd1dbf2f3e43899a546cfa88413acd90e1a166eae730f7a91b628a27e
+  sources/book-05/chapter-16-in-the-hog-s-head.yaml: 9a08a5990ca5a1fdda74fa4e738efe1f83bfb0e511e630f5d85465f9b8c89731
+  sources/external/official-editorial/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.yaml: 19610845224518b3c58483716ff35f11b1f1b9eb19684276cae864326aae8622
+  sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml: 892a4e6968c11b36f64043d8e710363a63a6218135b99a37342bca72348998be
+  sources/external/official-rowling/a23-owls.yaml: 768976ed5375cf76a74ea07323dd6691069b907b99d6dd0a1c1ec8d3143a38f0
+  sources/external/official-rowling/a19-king-s-cross-station.yaml: e8f98ccb0a40716d9c4982f18448589ec208620583c577d0a627c09d9e7ddfaf
+  sources/external/official-rowling/a04-the-hogwarts-express.yaml: 4d515ad859261e316ee07d0041b1520300c8c31b9c87c9d5b310ae8b8b28f2c4
+  sources/external/official-rowling/a30-ilvermorny-school-of-witchcraft-and-wizardry.yaml: 4ff91b8ed3cdfb935a60c1d396fb8c38a2312609b1ccc4daf9178c5de024535c
+  sources/external/official-rowling/a38-the-potter-family.yaml: 0df29d7f40aace0f1fb13134f9b1d77e36b899dd287a9f9c315e46fe34c986a9
+  sources/external/official-rowling/a39-potions.yaml: 9bbb720baf1970f6f7d482c3e4523df5b109c190f5be6e9569b4cd6eff4b90aa
+  sources/external/official-rowling/a35-draco-malfoy.yaml: 33aed1d4f1e1b535366582a7ec3c794eb29a1614abcdcbdf56ca31d77d7079e3
+  sources/external/official-rowling/a10-remus-lupin.yaml: 40c85c6270d1a83e8b726150535c37b4e50a4ad72db3430ac6c44f42cde76fe2
+  sources/external/official-rowling/a09-the-great-lake.yaml: a29b037ffcc540839483364bfe7ad6231adaa945b6e8b0e8aa09a7d3e65751ec
+  sources/external/official-rowling/a14-the-mirror-of-erised.yaml: 72ad2ce9adc714fd4deb8278e6c5660a1cdc2b27ee257ddd1a7765e4bbfd05dc
+  sources/external/official-rowling/a42-wand-woods.yaml: a99687dae293c0c4c31d40080b03fdf951616b2fee1684e8155c79d70f606c7e
+  sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml: d7e4798eb454fc46ffea7e40f0de2d13a61c90040357cca9bb4bb3e105a9e1ce
+  sources/external/official-rowling/a07-hufflepuff-common-room.yaml: 35eab0e65bd6bbaeec04698b0ec02152f4f513792f420e4657a4fc411b223f9f
+  sources/external/official-rowling/a18-hogwarts-school-subjects.yaml: 04065390b82d8e76994b80e433d028cf4dd2cdc23f75643b0c0203f6459e533c
+  sources/external/official-rowling/a31-professor-quirrell.yaml: f681c8554b8f8b46bb3edb0c98fd9f5acda714c0a547a810c977399050882ce3
+  sources/external/official-rowling/a37-extension-charms.yaml: e89a2c4cdcf3b3258f8275a8e00c2e3f156ac317f529725db21987c614be18f7
+  sources/external/official-rowling/a22-familiars.yaml: 70c08df5a1dbad52bd8007010810069eb7e9924ef0ef4756707c7d34b7a93a1e
+  sources/external/official-rowling/a13-professor-kettleburn.yaml: 493f0bd2927aca77b009fcd839b3e158e6d96771476276c2ffc25c7da466895f
+  sources/external/official-rowling/a12-professor-mcgonagall.yaml: c898bb9a744cb51a0102c5cc1153dee24c4ff97267e9f4ebb15da966dedb99b7
+  sources/external/official-rowling/a44-seventeenth-century-and-beyond.yaml: ae48896702b1da66ee472a063f76c643fe0977505b09c6ca6c7523f82bb0347f
+  sources/external/official-rowling/a36-scottish-rugby.yaml: 644aaf698a31638ca7a90839f025c24f618ac7bd4e4074908bc812bf4fefac5a
+  sources/external/official-rowling/a21-toads.yaml: 75e72a4934f16691bba38f8b650850d01ae9cdb608dc546a5acc62b40c13c70a
+  sources/external/official-rowling/a01-chamber-of-secrets.yaml: 6cc616ebd1524f0c16b87533ab4d955fdf55295863fc9200b6314ca9b45a5402
+  sources/external/official-rowling/a43-fourteenth-century-seventeenth-century.yaml: 9f433c41e8f21dca3d6b2116ae87ef6e22f9685197a1bee9996b8137ff16a90b
+  sources/external/official-rowling/a27-werewolves.yaml: dd1b1dfe2f868fbc1fec7704e92328e2fa578accdd2ab0eaa246d5acbc15a0bd
+  sources/external/official-rowling/a05-hogwarts-portraits.yaml: 7e809835733f401bb91a7b6200b2055679351220eaee60e185570811331f2cfc
+  sources/external/official-rowling/a16-peeves.yaml: 8c04b9daa73f4502ccaa6cedfa73627c9cf2a4c2b92d4b6f4dbd978fe64fd219
+  sources/external/official-rowling/a45-technology.yaml: e0673b1ba7d97acb63245d7558ec850877026d18cc9f63fbcf7c5f286c12272c
+  sources/external/official-rowling/a34-dolores-umbridge.yaml: 2113be1b1ce5eeeafc961dfb0884d48d23da55d400e518cf093b23fcd32c3b83
+  sources/external/official-rowling/a11-the-marauder-s-map.yaml: ff0d3f537f22cdc8ca65e10a390a9651341d0f576e8736666f547f9fa20cd109
+  sources/external/official-rowling/a02-the-sorting-hat.yaml: 3af21096ca6e7ca34d6c40f7cd3d916697201e45248a4e723a87c10e33c08c00
+  sources/external/official-rowling/a28-wizarding-schools.yaml: 598e60d712f437070f0104faa80b3fad5a6b22047edba73c390808bea817c461
+  sources/external/official-rowling/a25-time-turner.yaml: 39b552f93f9af9eac53e64e68e2e49788b9293933e17cd7662f558f453d57dd4
+  sources/external/official-rowling/a20-hatstall.yaml: 22de82f3e2d23f2c744959fb2b11e05ec77a310eb39da83bc32145db8ac33097
+  sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml: 0464e613ca5cc945a05637c097e82525292ad0212cf0db1822f86043b04d320d
+  sources/external/official-rowling/a24-the-floo-network.yaml: 36d8ca07d548b3ee5c0e242bfcc64848b03382d2321c6c982bc14659e966dddb
+  sources/external/official-rowling/a15-the-original-forty.yaml: ddda533d5bce7c017d1371219bc8750259561c90b4d26135d3653d3cb097766d
+  sources/external/official-rowling/a06-hogwarts-ghosts.yaml: 82395e02db65fedbe20d7e93af51cbdaa984e8a19616f44fddd93807caa9978e
+  sources/external/official-rowling/a40-cauldrons.yaml: 704462ebd6d872e9fc8708e1c542e464745c88f35eff5b0440fb6bbc9ef21290
+  sources/external/official-rowling/a26-colours.yaml: c295e9fdf6329faa394b0e90b0f4cb2d43071792dd816f4f65657987a1462da6
+  sources/external/official-rowling/a17-pensieve.yaml: c38c965ab8c7502482224af97147e89cb1aeb2634155cd49d256f10e4b7411d9
+  sources/external/official-rowling/a41-mr-ollivander.yaml: cfe81e01f0b279118d83d0b9c84e69e8927ecf2b34e68742bde90e50433bfd3f
+  sources/external/official-rowling/a32-gilderoy-lockhart.yaml: 929c13ee3bfb2bcc37ada713186ec77b1f65959b498b6934a2b7a5aa8ed1474e
+  sources/external/official-rowling/a33-sybill-trelawney.yaml: 157ad00e78e772f33152eabed407525756c7c3025fe604bd0523ba17533e2ff1
+  sources/external/interviews/b04-world-book-day-live-chat.yaml: 431f874f4ec12a6a420df12c7fdd6678a9e2ca2bda5cdaa0df4a92669f4c7b20
+  sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml: ad295472ff975dcc8b4bca3efc1ca3d05e886e87bb74e29f1c75dd32b8d17470
+  sources/external/interviews/b26-radio-city-music-hall-reading-and-q-a-part-2.yaml: efaf3ea089d6756c07f566a173865e81b45228d733699ccbb2fe755aec37402a
+  sources/external/interviews/b21-raincoast-books-interview.yaml: 80ffb827f79d227ca438d1c9476ec78c17bba603867b2f449d4d66518bfaf1da
+  sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml: 4d942222db18eb63e7f22166e146c15bf1402aca61996243947102209d312e3d
+  sources/external/interviews/b15-barnes-noble-live-chat.yaml: 4df2febe837f9d6c18878ed4ddfc48cf4a270b5c243363488467cb9f00fd8b9c
+  sources/external/interviews/b12-guardian-unlimited-interview.yaml: daec0bfa766c84bfe09597efc837f873a1984e9089fa3ea16c61d9fa1ef688ae
+  sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml: d96bf475faebb3fa80d7c835d52224533d9e2847c4f15368312069d626c1813d
+  sources/external/interviews/b13-salon-interview.yaml: f8b0b053db5bab3714bd11319c05598c0198cd3eed6a2cfd0b6e7a017770cccc
+  sources/external/interviews/b01-scholastic-com-live-chat.yaml: 2d4bff234d0cde6b6d6512c1a3f664a7a4be1103ccd3c49c0eea8ab286fb2452
+  sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml: 4d7eb6bcf288f5dc46b97ead7389aa18451ad2d6648c4da1233d8c1302acf037
+  sources/external/interviews/b11-the-herald-interview.yaml: ee2f1ccd460a005c22c5f29920d12cc59987d3063ed10ba1304a9dd60420f66c
+  sources/external/interviews/b22-bbc-blue-peter-interview.yaml: 8e28c16f53e9b25b7f21d9f74da50dea6574a51b67d00f23b386e9e4be4590b7
+  sources/external/interviews/b14-barnes-noble-interview.yaml: c0c1c2398cbb369ac488500410b421a57fa4b703c81d8f9bcd2d7e7afe68e58a
+  sources/external/interviews/b02-scholastic-live-chat.yaml: 7e42c7ae7f25874f8b62acc524ad12509b8239c053cf291275cb2d9e075fa202
+  sources/external/interviews/b23-bbc-red-nose-day-chat.yaml: f3403d0173897024e3034a67b46df3f6283c061d7fddc3543440152efff83005
+  sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml: 60bbfb9f7f556cfb33bb459f47bc2cd4ef963cae0d140c032469c66bafaeff4e
+  sources/external/interviews/b19-south-west-news-service-interview.yaml: b848ede878aacdc90695664305b0a60ce58ad047ac7789fd39cba9c972d26926
+  sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml: 3a1c0e6f8b91e32d51aff6707669d86ecd819e4995c72d56dff69148118fc201
+  sources/external/interviews/b17-the-connection-wbur-radio.yaml: dfae96acacbce451f4f0c779eb4fb111f3e9cf5dcb01d33034ed43e43c141b85
+  sources/external/interviews/b24-bbc-harry-potter-and-me.yaml: e1235e95a3e3c94fdff9ec9a90530c95615948e237ef674a47db811ddff4fd19
+  sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml: 50a9a5020d0164a45612149c134cec9248429795d8f4580052959fc8ce872fa3
+  sources/external/interviews/b16-boston-globe-student-newsline-interview.yaml: f0bead194982f426566d5365f025a8c1726d943f28c1d3ddd235b6449cde4efd
+  sources/external/interviews/b03-aol-live-chat.yaml: 228396d97a54dff836db0eb2186330518e5c24bea08a43e450acca063375b9b0
+  sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml: 33794929d3676222daac464db9ac27586d4bcfa41c235c87a28c85fa78cd3250
+  sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml: f0d10af7222fccd632ae54d725d0b5e44c378429683785c2aea39be163a38514
+preservation_authoring_hashes:
+  authoring/README.md: a638ab8bbe641b6cee8efd91829b7dcdf62159f72940bbd4ef51fb00b54bc3f9
+  authoring/AGENTS.md: dc790207fba409bc5b578380ef0a81ca2d8859307bbf33b3c68bb7a90d14fd5b
+  authoring/editions/1984/editorial-policy.md: 151a16865a4d5cba50be13895c33b14b51138a5c760e3fe75061e4eb0094544f
+  authoring/editions/1984/edition-bible.md: 8a9ca331650eb542dafa56a913ebd0fbc5c1bbcc641159db69b84ce7fa760007
+  authoring/editions/1984/style-guide.md: 69b5fa2fe9b76082f04e4af37a0095fef4738ca686912d3cf591809fe9fa2dd0
+  authoring/editions/1984/drafts/draft-01/README.md: 4e77cd2d0c7c02fb6e6f5708dc1e4ae63f0389ee82de8b77cf1cec5cc4977384
+  authoring/editions/1984/drafts/draft-01/style-lock.md: b3a0a555b04245ca381ce27fed54a828653fcd9a5e874fe04920c76836d0770e
+  authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/style-calibration.md: 3a68d9de42fd557de6027767148eb443ac2a543e799c28dcb8aec4f03c55e590
+  authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/outline.md: 8bf6c2614e03f937e908e0caecec8f46ee759b3241d5f7f409d3290cffb3951e
+  authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft.md: 90b923bfa1bc4f6a66dccbece697dbe34188fa1541f19d9df5bc19b54e2a8359
+  authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-01.md: 68e5b88d073b33a5f951b5806ddde9f3ac73747c34295bbda21f1462952007ea
+  authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-04.md: af9a4cc9301a6353c41fee76318bc6589d09c8d157a1dec798a4329306c8f4bc
+  authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-03.md: 8cfe39acff2f4dabee65a7a7a19e595f2560ae10be38344bdcd11ff150608b56
+  authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-02.md: c18c3f8d3ef5cdb095dba5f7c32bbbdfbf1a423242f8d70b66ee6343acb0a590
+  authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/brief.md: ff7b54ea09e484fa68382c6cd3ea08b960ca7e26e1a0904bce07fdc80f82f736
+  authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/evidence-gaps.md: 26843850970d9854a1cb8f38c8434bd30f77aebc25487e7351d1eb56022a3200
+  authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/preparation-package.md: a365ec06bce6cb7b15338ffbd68a8a3834e142a3db880a33072c078d64c26e96
+  authoring/editions/1984/templates/outline.md: 698fd0214ae8da7f40ddea345cfb3703a0068ddd163b53146f3a82ff084a0913
+  authoring/editions/1984/templates/chapter-brief.md: 97edc7cc5dc6e65dbb8f1d3995cae4d488063501bae07bca86ab8ee67dbfac5c
+  authoring/editions/1984/templates/fact-audit.md: a810a93dfa6c089f557467cb1848c541f517c8628d19630509ed5bbebe983421
+  authoring/editions/1984/templates/style-audit.md: c3c405dc3d3af06e1070458da7059519ccb58745427b906df99a7be7597dff75
+  authoring/editions/1984/templates/evidence-gaps.md: bc916e84e5542259f2efe5b5f97f0252f2f80e67ae882af4cbdaccb667703c31
+  authoring/editions/1984/templates/continuity-audit.md: e2066b428d3293ee6c3cccd6b1855f7cf4bd193dcde70bfb916860e0424a0722
+  authoring/runtime/authoring-contract.md: a980bf1bcce81b4bafbbbfc3705441961afde7a979d3717ad3844b83e614bd68
+  authoring/shared/research-interface.md: b55bb104e6f6e4120bc067c0524534f66645339a808c5a18ef02d226158d17aa
+  authoring/shared/chapter-workflow.md: 5db5cdeb7fafa504971649c3cbab39f158fb45e6b102e5e46ae74cdf718f8f31
+  authoring/shared/evidence-policy.md: 7bc2a42e3a96fb737b452efe50768e10a3330649982687b91a55c48adf7540b9
+  authoring/audio/README.md: 08d0754cee766e028793253f30832855fad735d04c735f52451ad88bc0b103a5
+  authoring/audio/docs/superpowers/plans/2026-09-14-local-audiobook-narration.md: 6aa7f8395a09040e782258944a9d7288b53bb8b87eaec112627dab788c05dfb3
+  authoring/audio/docs/superpowers/plans/2026-09-14-local-audiobook-narration-task-6-report.md: fdbb10444cd11d388db69f88799c207faa29117cfe6d12814082de7ed62d8c58
+  authoring/audio/docs/superpowers/specs/2026-09-14-local-audiobook-narration-design.md: 2dc06981cd6e0f72aa14a8a7d1fd794ffcc9bdfac50df23435c56bc06e512e27
+  ? authoring/audio/.venv/lib/python3.12/site-packages/numpy-2.5.3.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md
+  : 211e7d737d6179a08f791ebb0a99897ce7cd2457410c542876d125576edfe910
+  authoring/audio/.venv/lib/python3.12/site-packages/numpy-2.5.3.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md: a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056
+  authoring/audio/.venv/lib/python3.12/site-packages/numpy-2.5.3.dist-info/licenses/numpy/random/LICENSE.md: 103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f
+  authoring/audio/.venv/lib/python3.12/site-packages/numpy-2.5.3.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md: 0e111337b25494a773106695f0e799f642b8567aaacca4f116a74a8177179156
+  authoring/audio/.venv/lib/python3.12/site-packages/numpy-2.5.3.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md: 9d4098846018319cd68e228ee6220361787f73bccbf00237a85e4fc9621b998f
+  authoring/audio/.venv/lib/python3.12/site-packages/numpy-2.5.3.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md: e7d4f4fb20358f314210a892ae17351e04993813646f697ec387385ca2a36918
+  authoring/audio/.venv/lib/python3.12/site-packages/numpy-2.5.3.dist-info/licenses/numpy/random/src/philox/LICENSE.md: 6f5828a57223d4cc7f8ea505a2623e7b978b242752c1515e355f46ba2cec1800
+  authoring/audio/.venv/lib/python3.12/site-packages/numpy-2.5.3.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md: 268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9
+  ? authoring/audio/.venv/lib/python3.12/site-packages/numpy-2.5.3.dist-info/licenses/numpy/random/src/distributions/LICENSE.md
+  : 469778be8f33d54e1bcaab28c281cc472916d2d273f835e55bc487d30503face
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/moss_tts_nano/README.md: 2f5c3b311f39ec2c877b864612e97a88fd69a6e2cb02f2b1fa5951d92609c598
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/voxcpm2/README.md: 51fee632505797bfc7222b3f424bb0031624a5faaf25814bb0f7c9ac1acb1782
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/kugelaudio/README.md: eb7ff2ab3d7eb34020db87963b03e3c9cad6bea17044c7ba4f3bccf23afeff0b
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/zonos2/README.md: 1e405f76fd255a6c4b3fa2ae51338c606c664c1a765bef881983146291680ba3
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/omnivoice/README.md: 62c9689cecbe6e6e624b6a32173b43397bd8ec17640fd3de43702c34c8bcc56c
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/irodori_tts/README.md: 6fa1d230ec4d1f10bd737a605875fbbd1855b2ff1504fb15f1b2689adbcc1981
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/echo_tts/README.md: d8240b1471b8994dbe62bea6293fedc357befe2105e06e2be67682467e3a48ea
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/higgs_audio/README.md: 58b6678b18d27b5e50d7d7aa7e44be7fc1a9ec9fd39590bacc5ee95cd8da0d1a
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/dense/README.md: a90dc0f6a8421d43346cb2f0c63beafe535da6c2ab2172c91f04077866fcb937
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/longcat_audiodit/README.md: 2e64a4a187a0506e43ac00c010effddfacdc267911f9d203f31536dbbadf91a8
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/arktts/README.md: b4deec56d216130d05a019bd40ccf3d6772c19772b9606c9991c2f2d220f9849
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/confucius4/README.md: b3901eb5af33b316303af92c5bc785b6f7117aab892bcf2b752c2959eb7d5522
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/higgs_audio_v3/README.md: 0d672fbb0fde5bcdfae0a96cbc2f672679836d235a065b5dd1a421b2eb14b6d2
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/tada/README.md: 037ded496213ebdf61f1347be279096a1221bbfb23d5913029179b86f741aef5
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/qwen3_tts/README.md: 0034a90aaf9506f841749b1788c5473c850287537ad23e575d39209aa4dc73e1
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/breeze_tts/README.md: c20b424c06e34b2f5992690d7be37e88ad71d3e1166268c972ed58c294c2f76d
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/moss_tts/README.md: 98b15391cbdddd81d7d1fe0a8ac6df510e176735455d27ab7e0a7ade1ae78069
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/dramabox/README.md: fc995350c8bea5cece0352dbe269f31530fee4d91f1efedbcab839f1822c35da
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/bailingmm/README.md: 087dd210586026b3398bd69221b1aa0f45aa625fcc40a82e4c1df52c7db4d169
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/fish_qwen3_omni/README.md: 5c95ccb7a27e9f0992f9a378c499172f1db387e77c9580a91f0fff8f26669ddf
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx_audio/tts/models/voxtral_tts/README.md: eb2b7319a73a0de2770d86b26eb2c8b94433c0cf926eb1fd0b5fd5ac58aa8e12
+  authoring/audio/.venv/lib/python3.12/site-packages/huggingface_hub/templates/datasetcard_template.md: 5be10ca91eb09dd6eb9d9a2b915bf9e944563c6e3d97b3004c6788d35e644efb
+  authoring/audio/.venv/lib/python3.12/site-packages/huggingface_hub/templates/modelcard_template.md: e00a80ad2ddca9db5b8ade41a3e0e18dc9c3151fa9cdae6112b2cb4cf33862e7
+  authoring/audio/.venv/lib/python3.12/site-packages/typer/.agents/skills/typer/SKILL.md: dfef816d8d67c9915e277b671c2d1230cef9d6944f503c6aa070f1cb3bef1dd5
+  authoring/audio/.venv/lib/python3.12/site-packages/pyparsing/ai/best_practices.md: aa53ca4e679311869a005446930477133ba43fe4de2052f3a18389ce85417086
+  authoring/audio/.venv/lib/python3.12/site-packages/misaki/g2pkc/README.md: d524b5cbb0713a18e4e28454509ac4458fafbb8597c7888fd5b5aced2d0f9725
+  authoring/audio/.venv/lib/python3.12/site-packages/misaki/vi_cleaner/README.md: 536d404258c8fd4bee33faa197d200ada8612e528496b4c23b30ee1944507787
+  authoring/audio/.venv/lib/python3.12/site-packages/misaki/zh_normalization/README.md: c924781e357b337e6436bd17e1c98cb3579c860af1686f802e3860645ea719a5
+  authoring/audio/.venv/lib/python3.12/site-packages/httpcore-1.0.9.dist-info/licenses/LICENSE.md: fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5
+  authoring/audio/.venv/lib/python3.12/site-packages/numpy/random/LICENSE.md: 103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f
+  authoring/audio/.venv/lib/python3.12/site-packages/pip/_vendor/idna/LICENSE.md: b7a336abf3b04e180ec065cdd16e705d079e1cc7a14f910aa6e9187f36b9cd87
+  authoring/audio/.venv/lib/python3.12/site-packages/idna-3.19.dist-info/licenses/LICENSE.md: 1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04
+  authoring/audio/.venv/lib/python3.12/site-packages/en_core_web_sm/en_core_web_sm-3.8.0/README.md: 91b0ed1742ea0803034b4d769c4536e88d9d4da7808d833f2a804b6c54aae220
+  authoring/audio/.venv/lib/python3.12/site-packages/pip-26.1.2.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md: b7a336abf3b04e180ec065cdd16e705d079e1cc7a14f910aa6e9187f36b9cd87
+  authoring/audio/.venv/lib/python3.12/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md: 4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d
+  authoring/audio/.venv/lib/python3.12/site-packages/mlx/include/metal_cpp/README.md: 3ba513bd569420bc843fa2064d7d82bf9edeb17261ab3b9678b7cda55bd5d9d5
+  authoring/audio/.venv/lib/python3.12/site-packages/scipy/fft/_duccfft/LICENSE.md: c254b2b5fd30ae3c89d36ba061730563b9760fca04f1b746a1b2c3157da2c789
+  authoring/audio/.venv/lib/python3.12/site-packages/_sounddevice_data/portaudio-binaries/README.md: b3cb053566b6f38c38bdf4822e53f8f8a2a377e05c503fdd69c52e5d1c6c104c
+  authoring/editions/1984/table-of-contents.yaml: 194717d129d72537e891e2522df8ba9ad3d0c2aae7e059a1bba9d8d32ba5fb18
+  authoring/editions/1984/continuity.yaml: 643d1d2df5a1454c5ef727b43619380600c01f8b40094735feb4d3a1b110027a
+  authoring/editions/1984/chronology.yaml: 4f3ef3770505e6036a90ef02acd9d48d851da4e1cbef7737e04b7996f8f7144d
+  authoring/editions/1984/project-control/chapter-status.yaml: 4712c089b85af7b5c4bd56db61038f5114543c18dbef10226263b6e0cab31f7c
+  authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/evidence-selection.yaml: a5a72bed2e396008a4fee7499d98b2f6157da4793b0a08410304a852d3f52e14
+  authoring/editions/1984/templates/evidence-selection.yaml: c5925f9a6ee65c3d0c14beb5cd9a8799d6927f1a127f643c628db0007a050803
+  authoring/audio/pronunciation-guide.yaml: 3023282372fd3ff4b6e2a7a6a510396e72b623cad8a9bfd292b18dc2bb207510
+  authoring/audio/narration-settings.yaml: 5b0a1d677a4346860a5171a1d2659749b03074f0328880cee2e174f874dd77b1
+  authoring/audio/samples/george-calibration-manifest.yaml: d3a4620165b9a1ddb5eee9435991068b88346ad4b08534cd069a21d58d51b611
+  authoring/audio/samples/audition-manifest.yaml: 07e68b3b9444de7899c7a6c177777502c3be7e86e907ac8c8e5852c79f7b884d
+  authoring/audio/.venv/lib/python3.12/site-packages/markdown_it/port.yaml: 8edfeb7703a77e870e5799dcdf9adebd3c9b00040c229ffed5f95aff9dbbb151
+  authoring/audio/.venv/lib/python3.12/site-packages/torch/_export/serde/schema.yaml: a33e3cc9bec51fcb719705ac13d0de85c1dc601373e09613b647eaee4969e98b
+  authoring/audio/.venv/lib/python3.12/site-packages/torchgen/packaged/autograd/deprecated.yaml: 51bb5a8f35a8f3d8dfd50e6cc3c24d248653e6cfa20c16a09eb189b61b434b64
+  authoring/audio/.venv/lib/python3.12/site-packages/torchgen/packaged/autograd/derivatives.yaml: a9d832e1993a3f47889a8d5ee52e443407bbd0df895550cc5a02c01b4465a526
+  authoring/audio/.venv/lib/python3.12/site-packages/torchgen/packaged/ATen/native/native_functions.yaml: ae1a1589816320d622f1e77fd2ed8a1f826c214791858d2394a0e4ad3db0cdc7
+  authoring/audio/.venv/lib/python3.12/site-packages/torchgen/packaged/ATen/native/tags.yaml: 013f0f6de0b8503050999db8f68e82bc9f1b009d9955d54dd13e6a648ca2c5c0
+  authoring/audio/chapter-01-full-20260916-215129/generation-report.yaml: 283353d8558d1a9379320ff9577a0056ef8230bb36f8e8f5917ffb36d8999673
+  authoring/audio/chapter-01-full-20260916-215129/chunks/chunk-manifest.yaml: ec4c5c2643aec773aa363189311e1e0230e4163c561153ae192b4b2b3dec5800
+new_scene_output_sha256:
+  sources/book-cc/chapter-01-p1-a1-s01.yaml: d44fa50e9f3fe3d818bc850e4291aabf3b98d78e5fcb82e547d61ec1c18fd517
+  sources/book-cc/chapter-02-p1-a1-s02.yaml: 5f366ada3111f0df0d57a822eba64b0b7063820e4b0caa35191a4c74ad99d067
+  sources/book-cc/chapter-03-p1-a1-s03.yaml: 6104e541d59ee5b807592dd0ebd0b46ef69ac1c94a5f55ebcc2741974a720566
+  sources/book-cc/chapter-04-p1-a1-s04.yaml: f781aadecf69a559c61489b957abb0132e8a57777009cf29892cfa10aa876310
+  sources/book-cc/chapter-05-p1-a1-s05.yaml: fa0298f7ff8fef7281d270d05f8eb9c0af86efd6b17dac892c303baac7515e8f
+  sources/book-cc/chapter-06-p1-a1-s06.yaml: f810d0bc23898b7f60998386f69edf5b679954ffe554674b31c0bcae8beffaaf
+  sources/book-cc/chapter-07-p1-a1-s07.yaml: 4efd47e5d7413002329debd4674ff78ee3b3f6e3582d3dfba625672fdd3d000a
+  sources/book-cc/chapter-08-p1-a1-s08.yaml: 39f8fe02ca275a13ce428efeec106e477dd434d5a955a2861fa33286702238b2
+  sources/book-cc/chapter-09-p1-a1-s09.yaml: 3c17d7ed9ebf0b7553ec7ac77eaf67c8096d5898883e37a27f6581ccbaec199f
+  sources/book-cc/chapter-10-p1-a1-s10.yaml: ba90126135d2eb7d4dc4d6fc2fe5d55d63ff8bc12f7e8281ca6acba88fe537ec
+  sources/book-cc/chapter-11-p1-a1-s11.yaml: f2823e64578b80c6af3c49343d61ad45c3daf270bb3bf2d86fd0d4887303795a
+  sources/book-cc/chapter-12-p1-a1-s12.yaml: 7cc7797416f3f4907f4e4f4509fba46ffb5f9fbc10be81d7654bb590a7a4622c
+  sources/book-cc/chapter-13-p1-a1-s13.yaml: d94be5407d19b762c3d0d463c7e9a6863e250844c18f3b8aa446447a72d77c3a
+  sources/book-cc/chapter-14-p1-a1-s14.yaml: dd8ecf6a83dd2f98affbb1136f186624cc4c07347e0b782bdb1c96c4d33214b9
+  sources/book-cc/chapter-15-p1-a1-s15.yaml: d0472e02ddf26e58b23be68a711777327c6785050fd7607ddda747c27797f954
+  sources/book-cc/chapter-16-p1-a1-s16.yaml: b2200d559b717eb2ea52256bd934ed8d114af686e8eb37a97de510f07576ae7e
+  sources/book-cc/chapter-17-p1-a1-s17.yaml: 6343d17806a86d2588a753e5d86daca437b2a72ea58606747fbc881c80ad7e68
+  sources/book-cc/chapter-18-p1-a1-s18.yaml: f10b29f0c32caa77edf23abc91359cb8484a7f9993b5e884d891a9df48dd63c8
+  sources/book-cc/chapter-19-p1-a1-s19.yaml: 97dbe575d9a5c1a1627f5bda6a50c232f639b24438f3deb08b70a5f9b7c85258
+  sources/book-cc/chapter-20-p1-a2-s01.yaml: b5818c9d712050e9648692023827f251fad3476730fcc340239364b3c5ca2a70
+  sources/book-cc/chapter-21-p1-a2-s02.yaml: 4cf57e532e50da68d81e7c6b4b8f0c67d1f0a39f591f683c3b306e69b0c659af
+  sources/book-cc/chapter-22-p1-a2-s03.yaml: 482b28d41825acef3cbd015d5ea7078e4c8ed650e3646dd594d1b3d9a947fd22
+  sources/book-cc/chapter-23-p1-a2-s04.yaml: 0551198faa220cf9092e069490f4f10f53def9ff040b17282b60a4dd0097a13a
+  sources/book-cc/chapter-24-p1-a2-s05.yaml: be14c4a16961fa9c3730cf6aeeece4249a9ddb6243e23d2d64d30d1e75d96871
+  sources/book-cc/chapter-25-p1-a2-s06.yaml: 45e2ec4b6020642288cf09111461537f8edd64b301533a0a4b00a1feb1015bb5
+  sources/book-cc/chapter-26-p1-a2-s07.yaml: 49093bd0bfd592b568d0b24464af0da80bafe8083b255c18752ded5f6d244178
+  sources/book-cc/chapter-27-p1-a2-s08.yaml: 129acb558e1f12f1042d711a68a7578a1c3334ad81ccd8b7a70198b94bdf735b
+  sources/book-cc/chapter-28-p1-a2-s09.yaml: 9333df6880401caabf95d8f464c16dcbd5acf23693afb296878fb2da352457dd
+  sources/book-cc/chapter-29-p1-a2-s10.yaml: 85d0e8321a4105e16a21520a9f39aefb9e70aa97c5fdcefab8ad2e169b1e0f31
+  sources/book-cc/chapter-30-p1-a2-s11.yaml: d3c226b81641e6b213742ea353cdeacc9ae67a6ce81faa7de3a06c5180b8fff7
+  sources/book-cc/chapter-31-p1-a2-s12.yaml: 8daf88f6df3205ae00b70727dfcc043ba07a82f5fefc14c07534082d46796d1b
+  sources/book-cc/chapter-32-p1-a2-s13.yaml: d4dbe77342adeede18db0dabdfaea59471a857e28b47ee5ce739d5963fbb7c85
+  sources/book-cc/chapter-33-p1-a2-s14.yaml: 4ae467824f38d33f4baa6400709fa5d229baace1eab4a66b2d1f0e7d864389b6
+  sources/book-cc/chapter-34-p1-a2-s15.yaml: 9045fc7e22fe62706267b8badb37668a3ed4c7f9004009fd65125de4263a9479
+  sources/book-cc/chapter-35-p1-a2-s16.yaml: bdf4439c89d262de72bb7e63f27d4e412a2a48ec8b02e3fb7c26e6396a63b3c4
+  sources/book-cc/chapter-36-p1-a2-s17.yaml: b1d5139a41d66fff8cfb1268fd431102dc3897f92df19ab9025b07fa77e4253d
+  sources/book-cc/chapter-37-p1-a2-s18.yaml: 74160dc4b742f4947cea30853e3071fcb158684a9f597059f93ecf744444faf5
+  sources/book-cc/chapter-38-p1-a2-s19.yaml: 40c4fd74feb798b2998a86602e21ffc6069839f9900cd837942883f2e2e917e4
+  sources/book-cc/chapter-39-p1-a2-s20.yaml: 95e7a6aaeea546eda6d92ebc6bb34738d342a0f445d0593a2601e848a5f001a0
+  sources/book-cc/chapter-40-p2-a3-s01.yaml: 0ba7441f0c1678054c83d17b302f6423baa77f0fe56826f9630f6bcc2a68be75
+  sources/book-cc/chapter-41-p2-a3-s02.yaml: 2eead9336248825a6e94bb633bb657c7e47f9ccebdca00d624ad51c5283e9247
+  sources/book-cc/chapter-42-p2-a3-s03.yaml: 0fafd28d4d2acff71f7b01df0c181c3343ac4d1b0754172f1362a39d89a41999
+  sources/book-cc/chapter-43-p2-a3-s04.yaml: fe54e9122912de5e0a8b535c9536f829176baad3d1508d165e8c6dc71b5735ca
+  sources/book-cc/chapter-44-p2-a3-s05.yaml: bb1786040fdd0ba74327f3985f1952a4503a1f89bdcc21d5e1ef06b729f9b53b
+  sources/book-cc/chapter-45-p2-a3-s06.yaml: 78b0ef1503f8d251987e4d76d54fc0cead1070bfffdaac65744a06e8b846efac
+  sources/book-cc/chapter-46-p2-a3-s07.yaml: f707167a8f83d9483fac9871b7494783fbf823237c88b151b97cb63789655ab7
+  sources/book-cc/chapter-47-p2-a3-s08.yaml: 66e6de5d8a1ff14bc04785e96408ac07d18ffd07a84f3d25e55df3cb28c875cd
+  sources/book-cc/chapter-48-p2-a3-s09.yaml: 46bca3b277649f9eea85d9eafdf932a1e3840547984d5fa6fe2d3cb1be3ea59b
+  sources/book-cc/chapter-49-p2-a3-s10.yaml: ea7187d0575bfdfe8991b9239df0e32004bb790b5ecfe3b88140d3158de5b1c3
+  sources/book-cc/chapter-50-p2-a3-s11.yaml: 5cc2951c6d7aa29eb6d4eab2b2d613bf029499bab16e21329e8a09c9ee57eeac
+  sources/book-cc/chapter-51-p2-a3-s12.yaml: 9d80b79a2e57959646ddcb49aad1fc39fba5ac2a0c490067ec635be74693158f
+  sources/book-cc/chapter-52-p2-a3-s13.yaml: a67a44d995da1d4339722628095e4b221bed2117e21b37606c651084736230b1
+  sources/book-cc/chapter-53-p2-a3-s14.yaml: 21c0c4595d025557eed5306a2a929e86c518a7e5c527b226dafe201a5fb724bc
+  sources/book-cc/chapter-54-p2-a3-s15.yaml: b1d0463c8060461e3736daaeea6eb1c802444ae1c90382fb9329bd6efa30c916
+  sources/book-cc/chapter-55-p2-a3-s16.yaml: b52a0f328b5481fb1f0956e14de79f5ffb0cef06e5c83b2afac26e58b0d78bf1
+  sources/book-cc/chapter-56-p2-a3-s17.yaml: d8c4e6521db0b9870bf2aa02e6324d4d8afc652c9d10a24bc6b578af5af4c896
+  sources/book-cc/chapter-57-p2-a3-s18.yaml: efe7c0e40ce2b8961db1e589103c4681d1ca1663bd56ad5a5284986c65503766
+  sources/book-cc/chapter-58-p2-a3-s19.yaml: 10866c1e294165523ff241c146fbf00b40364c1d587290f13f985edfc41e4526
+  sources/book-cc/chapter-59-p2-a3-s20.yaml: 6560e1482d9a8fa08974d78cf08f547b662fbd36034bf294ec6ab68db822d56c
+  sources/book-cc/chapter-60-p2-a3-s21.yaml: b14f81ad9f1fc78417af8e8fee14c5868c1b7f3210f67785dfa3b9d165c561f4
+  sources/book-cc/chapter-61-p2-a4-s01.yaml: c6f60ee7a289a53acc48a437be510f6ce703ca10484713da642d3eaf03613214
+  sources/book-cc/chapter-62-p2-a4-s02.yaml: c0ccf3e4378506a38a2dbfa709714fd1de0b626542feee901369e15bf0107cab
+  sources/book-cc/chapter-63-p2-a4-s03.yaml: d0e2d527a7bae470eeaa332ca126f20a86263d8c4816a72461a653dd9d1adc81
+  sources/book-cc/chapter-64-p2-a4-s04.yaml: 50b6ebf3885b8f239605966a6b163beb260668169f802359f330881ff4a0ba18
+  sources/book-cc/chapter-65-p2-a4-s05.yaml: 15a264e30f4264a6a1e9be52dc09ecba71d8fe6cd9c29a39bb8c6ddf41309f5c
+  sources/book-cc/chapter-66-p2-a4-s06.yaml: 3278a6f5badd0cbadf6fe6f9703199247258e2659dbc645a36a2f234e88870f2
+  sources/book-cc/chapter-67-p2-a4-s07.yaml: 907774bfe7bce54efcb9b429adcbcaec1654ab54826b07e777cfaecda9b7b556
+  sources/book-cc/chapter-68-p2-a4-s08.yaml: 0f252fc8906b17d49d1d53a822bfe650c84d42e3852eb7552a5b52d0afd7dc4d
+  sources/book-cc/chapter-69-p2-a4-s09.yaml: aad50a4a2a76c511d372b0991a527a845d002c9028283872cbdfa27af7084cfa
+  sources/book-cc/chapter-70-p2-a4-s10.yaml: d155f008df71cb5ace7a03f59a875d13ab157934de71e4979c5c88ed9f6fb6ba
+  sources/book-cc/chapter-71-p2-a4-s11.yaml: 356255771c8e61eedcdbebf8d492c31e08cf18d675c3534cbfc068a7e6b4ac15
+  sources/book-cc/chapter-72-p2-a4-s12.yaml: 286dd9cab9229bf1d4676db9b7a8c05e4108a0ec6c6c92fb9ac5ddbdf2b80894
+  sources/book-cc/chapter-73-p2-a4-s13.yaml: 8f8d6eb2261fa708edf6f95cbd1401974cd350b9c980e48ed90cc59f4dde10c7
+  sources/book-cc/chapter-74-p2-a4-s14.yaml: a4b58c3e21242993ae6b0ba58e1f09d02f872337d98abb06c1d111d642bf2721
+  sources/book-cc/chapter-75-p2-a4-s15.yaml: a70ed08c274db040367ed9e6d0a97058236e157a23088e9149d29b912ba909c1
+created_files:
+- pdfs/harry-potter-and-the-cursed-child.pdf
+- resources/manifests/cursed-child.yaml
+- resources/manifests/cursed-child-research-record.yaml
+- resources/manifests/cursed-child-research-report.md
+- tests/test_script_source.py
+- tests/test_source_copy_discovery.py
+- sources/book-cc/chapter-01-p1-a1-s01.yaml
+- sources/book-cc/chapter-02-p1-a1-s02.yaml
+- sources/book-cc/chapter-03-p1-a1-s03.yaml
+- sources/book-cc/chapter-04-p1-a1-s04.yaml
+- sources/book-cc/chapter-05-p1-a1-s05.yaml
+- sources/book-cc/chapter-06-p1-a1-s06.yaml
+- sources/book-cc/chapter-07-p1-a1-s07.yaml
+- sources/book-cc/chapter-08-p1-a1-s08.yaml
+- sources/book-cc/chapter-09-p1-a1-s09.yaml
+- sources/book-cc/chapter-10-p1-a1-s10.yaml
+- sources/book-cc/chapter-11-p1-a1-s11.yaml
+- sources/book-cc/chapter-12-p1-a1-s12.yaml
+- sources/book-cc/chapter-13-p1-a1-s13.yaml
+- sources/book-cc/chapter-14-p1-a1-s14.yaml
+- sources/book-cc/chapter-15-p1-a1-s15.yaml
+- sources/book-cc/chapter-16-p1-a1-s16.yaml
+- sources/book-cc/chapter-17-p1-a1-s17.yaml
+- sources/book-cc/chapter-18-p1-a1-s18.yaml
+- sources/book-cc/chapter-19-p1-a1-s19.yaml
+- sources/book-cc/chapter-20-p1-a2-s01.yaml
+- sources/book-cc/chapter-21-p1-a2-s02.yaml
+- sources/book-cc/chapter-22-p1-a2-s03.yaml
+- sources/book-cc/chapter-23-p1-a2-s04.yaml
+- sources/book-cc/chapter-24-p1-a2-s05.yaml
+- sources/book-cc/chapter-25-p1-a2-s06.yaml
+- sources/book-cc/chapter-26-p1-a2-s07.yaml
+- sources/book-cc/chapter-27-p1-a2-s08.yaml
+- sources/book-cc/chapter-28-p1-a2-s09.yaml
+- sources/book-cc/chapter-29-p1-a2-s10.yaml
+- sources/book-cc/chapter-30-p1-a2-s11.yaml
+- sources/book-cc/chapter-31-p1-a2-s12.yaml
+- sources/book-cc/chapter-32-p1-a2-s13.yaml
+- sources/book-cc/chapter-33-p1-a2-s14.yaml
+- sources/book-cc/chapter-34-p1-a2-s15.yaml
+- sources/book-cc/chapter-35-p1-a2-s16.yaml
+- sources/book-cc/chapter-36-p1-a2-s17.yaml
+- sources/book-cc/chapter-37-p1-a2-s18.yaml
+- sources/book-cc/chapter-38-p1-a2-s19.yaml
+- sources/book-cc/chapter-39-p1-a2-s20.yaml
+- sources/book-cc/chapter-40-p2-a3-s01.yaml
+- sources/book-cc/chapter-41-p2-a3-s02.yaml
+- sources/book-cc/chapter-42-p2-a3-s03.yaml
+- sources/book-cc/chapter-43-p2-a3-s04.yaml
+- sources/book-cc/chapter-44-p2-a3-s05.yaml
+- sources/book-cc/chapter-45-p2-a3-s06.yaml
+- sources/book-cc/chapter-46-p2-a3-s07.yaml
+- sources/book-cc/chapter-47-p2-a3-s08.yaml
+- sources/book-cc/chapter-48-p2-a3-s09.yaml
+- sources/book-cc/chapter-49-p2-a3-s10.yaml
+- sources/book-cc/chapter-50-p2-a3-s11.yaml
+- sources/book-cc/chapter-51-p2-a3-s12.yaml
+- sources/book-cc/chapter-52-p2-a3-s13.yaml
+- sources/book-cc/chapter-53-p2-a3-s14.yaml
+- sources/book-cc/chapter-54-p2-a3-s15.yaml
+- sources/book-cc/chapter-55-p2-a3-s16.yaml
+- sources/book-cc/chapter-56-p2-a3-s17.yaml
+- sources/book-cc/chapter-57-p2-a3-s18.yaml
+- sources/book-cc/chapter-58-p2-a3-s19.yaml
+- sources/book-cc/chapter-59-p2-a3-s20.yaml
+- sources/book-cc/chapter-60-p2-a3-s21.yaml
+- sources/book-cc/chapter-61-p2-a4-s01.yaml
+- sources/book-cc/chapter-62-p2-a4-s02.yaml
+- sources/book-cc/chapter-63-p2-a4-s03.yaml
+- sources/book-cc/chapter-64-p2-a4-s04.yaml
+- sources/book-cc/chapter-65-p2-a4-s05.yaml
+- sources/book-cc/chapter-66-p2-a4-s06.yaml
+- sources/book-cc/chapter-67-p2-a4-s07.yaml
+- sources/book-cc/chapter-68-p2-a4-s08.yaml
+- sources/book-cc/chapter-69-p2-a4-s09.yaml
+- sources/book-cc/chapter-70-p2-a4-s10.yaml
+- sources/book-cc/chapter-71-p2-a4-s11.yaml
+- sources/book-cc/chapter-72-p2-a4-s12.yaml
+- sources/book-cc/chapter-73-p2-a4-s13.yaml
+- sources/book-cc/chapter-74-p2-a4-s14.yaml
+- sources/book-cc/chapter-75-p2-a4-s15.yaml
+modified_files:
+- appendix/generated/book-structure-seed.md
+- appendix/generated/open-questions.md
+- appendix/generated/project-stats.md
+- appendix/generated/review-flags.md
+- appendix/generated/source-index.md
+- book-seed/hogwarts-a-history-seed.md
+- docs/instructions/schema-reference.md
+- project-control/duplicate-index.yaml
+- project-control/entry-index.yaml
+- project-control/source-index.yaml
+- project-control/source-plan.yaml
+- project-control/tag-index.yaml
+- scripts/build_duplicate_index.py
+- scripts/build_entry_index.py
+- scripts/generate_appendices.py
+- scripts/generate_book_seed.py
+- scripts/query_duplicates.py
+- scripts/query_entries.py
+- scripts/source_files.py
+- scripts/validate_source_yaml.py

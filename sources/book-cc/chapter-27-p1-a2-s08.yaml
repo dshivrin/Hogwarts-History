@@ -1,0 +1,346 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 8: HOGWARTS, HOSPITAL WING'
+  scene_id: CC-P1-A2-S08
+  part: 1
+  act: 2
+  scene: 8
+  chapter_start_pdf_page: 92
+  chapter_end_pdf_page: 95
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+entries:
+- id: cc-p1-a2-s08-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 8: HOGWARTS, HOSPITAL WING'
+  part: 1
+  act: 2
+  scene: 8
+  scene_id: CC-P1-A2-S08
+  chapter_start_pdf_page: 92
+  chapter_end_pdf_page: 95
+  pdf_page: 92
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 568:583; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: DUMBLEDORE
+    end_phrase: DUMBLEDORE
+    local_occurrence_note: Name anchor at normalized page offset 521; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 568
+    char_end: 583
+    text_sha256: 3c5e81f6c4514aab3e9dc3e4f8eeac7defe63d64dbc138fbb02f2394758a4743
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - portraits
+  - dumbledore-portrait
+  - hospital-wing
+  quote_excerpt_short: null
+  source_note: Dumbledore appears in a hospital-wing painting and says he visits other
+    portraits, explaining why his headmistress-office frame is sometimes empty.
+  speaker: Dumbledore; Harry
+  evidence_mode: dialogue_claim
+  reference_type: portrait_or_ghost_lore
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Dumbledore; Harry supplies the account; knowledge is limited
+    to this timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - portraits
+  - dumbledore-portrait
+  - hospital-wing
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Portraits, Ghosts, and the School’s Memory
+  candidate_section: Linked Dumbledore frames
+  reason_for_placement: Research candidate for Linked Dumbledore frames; retain source
+    mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - dh-ch15-007
+    notes: Similarity is limited to the identified institutional background; altered
+      outcomes remain separate.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Observed in the first altered branch; cannot independently establish
+    identical Dumbledore frames in the primary present.
+- id: cc-p1-a2-s08-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 8: HOGWARTS, HOSPITAL WING'
+  part: 1
+  act: 2
+  scene: 8
+  scene_id: CC-P1-A2-S08
+  chapter_start_pdf_page: 92
+  chapter_end_pdf_page: 95
+  pdf_page: 93
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1041:1057; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: DUMBLEDORE
+    end_phrase: DUMBLEDORE
+    local_occurrence_note: Name anchor at normalized page offset 976; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1041
+    char_end: 1057
+    text_sha256: afb8a3bead792067ad8154ab0dbb84945543613da504b8822d82b03b36e7ec76
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - portraits
+  - institutional-memory
+  - portrait-limits
+  quote_excerpt_short: null
+  source_note: Dumbledore describes his portrait self as paint and memory and says
+    portraits overhear conversations at school and Ministry, supplying a portrait’s
+    account of its limited identity and information gathering.
+  speaker: Dumbledore
+  evidence_mode: dialogue_claim
+  reference_type: portrait_or_ghost_lore
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Dumbledore supplies the account; knowledge is limited to this
+    timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - portraits
+  - institutional-memory
+  - portrait-limits
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Portraits, Ghosts, and the School’s Memory
+  candidate_section: Portrait self-description and overheard knowledge
+  reason_for_placement: Research candidate for Portrait self-description and overheard
+    knowledge; retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - ext-a05-003
+    - ext-a05-004
+    notes: Similarity is limited to the identified institutional background; altered
+      outcomes remain separate.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: General-sounding portrait testimony occurs in an altered branch; not
+    proof of omniscience or complete survival of a person.
+- id: cc-p1-a2-s08-003
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 8: HOGWARTS, HOSPITAL WING'
+  part: 1
+  act: 2
+  scene: 8
+  scene_id: CC-P1-A2-S08
+  chapter_start_pdf_page: 92
+  chapter_end_pdf_page: 95
+  pdf_page: 92
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 701:714; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HARRY
+    end_phrase: HARRY
+    local_occurrence_note: Name anchor at normalized page offset 642; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 701
+    char_end: 714
+    text_sha256: 1b02f445897c8994e2500b98ccb47cc87351acecd18bc416ecfbd0f15d005c82
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - hospital-wing
+  - madam-pomfrey
+  - healing
+  quote_excerpt_short: null
+  source_note: Harry reports that Pomfrey reset Albus’s strangely healed arm while
+    he remained unconscious for twenty-four hours; the hospital wing supplies a bed
+    and ongoing recuperation.
+  speaker: Harry
+  evidence_mode: dialogue_claim
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Harry supplies the account; knowledge is limited to this timeline
+    and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - hospital-wing
+  - madam-pomfrey
+  - healing
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: School Welfare
+  candidate_section: Hospital-wing treatment of an unusual injury
+  reason_for_placement: Research candidate for Hospital-wing treatment of an unusual
+    injury; retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - cos-ch10-005
+    notes: Pomfrey, inpatient recovery and arm-bone treatment have direct indexed
+      antecedents. The temporally malformed injury is new to the altered branch. Corroboration
+      applies only to the institutional background, not to a primary-world Albus injury.
+    conflict_note: null
+  supporting_locations:
+  - scene_id: CC-P1-A2-S08
+    pdf_page: 93
+    timeline: altered
+    timeline_detail: First altered present created by the 1994 first-task intervention;
+      Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+    note: Harry also reports tentative advice to eat chocolate; the recovered arm
+      functions normally on p93.
+  confidence: high
+  limitations: Treatment details are Harry’s report of Pomfrey’s account; this is
+    not an ordinary fracture-treatment protocol.
+- id: cc-p1-a2-s08-004
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 8: HOGWARTS, HOSPITAL WING'
+  part: 1
+  act: 2
+  scene: 8
+  scene_id: CC-P1-A2-S08
+  chapter_start_pdf_page: 92
+  chapter_end_pdf_page: 95
+  pdf_page: 95
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 650:663; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HARRY
+    end_phrase: HARRY
+    local_occurrence_note: Name anchor at normalized page offset 524; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 650
+    char_end: 663
+    text_sha256: 7cfb8276090194af4d32b36a184d7e8b4bee734f783e293be1e11d877b7d1daf
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - marauders-map
+  - student-discipline
+  - parental-intervention
+  - school-timetable
+  quote_excerpt_short: null
+  source_note: Harry proposes that McGonagall use the Marauder’s Map to monitor Albus,
+    separate his classes from Scorpius’s, and restrict him to lessons and the Gryffindor
+    common room. He threatens an additional surveillance spell.
+  speaker: Harry
+  evidence_mode: dialogue_claim
+  reference_type: school_rule_or_policy
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Harry supplies the account; knowledge is limited to this timeline
+    and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - marauders-map
+  - student-discipline
+  - parental-intervention
+  - school-timetable
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Rules, Discipline, and Governance
+  candidate_section: Parental demands for surveillance and separation
+  reason_for_placement: Research candidate for Parental demands for surveillance and
+    separation; retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - ext-a11-002
+    notes: Similarity is limited to the identified institutional background; altered
+      outcomes remain separate.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: The spell is threatened, not cast or technically demonstrated; these
+    are exceptional parental demands, not established school policy.

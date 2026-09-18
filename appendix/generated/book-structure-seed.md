@@ -27,6 +27,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Wands as Required Equipment
 - After Hogwarts
   - Traditional Graduate Travel
+- Brewing and corrective ingredients
+  - Brewing and corrective ingredients
 - Care of Magical Creatures
   - Approved textbooks and examination preparation
   - Bowtruckles and wand-tree ecology
@@ -75,6 +77,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Third-Year Charms and Divination Assessment
   - Third-Year Course Materials
   - Third-Year Elective Selection
+- Creature curriculum
+  - Creature curriculum: Augurey reference
 - Defense Against the Dark Arts
   - Dueling Spells Outside Formal Instruction
   - Patronus Defense Explained After an Emergency
@@ -116,6 +120,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - O.W.L.s, N.E.W.T.s, and Overlapping Timetables
   - Third-Year Practical and Written Exams
   - Written Papers, Practical Exams, and Anti-Cheating Measures
+- First broom exercise
+  - First broom exercise
 - First-Year Curriculum
   - Core Subjects and Introductory Lessons
   - Defense Against the Dark Arts Practical Instruction
@@ -298,6 +304,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Exam Results and Winning-House Decorations
   - Final Standings, Point Awards, and Hall Decorations
   - Mourning Decorations After Cedric Diggory's Death
+- Family departure custom
+  - Family departure custom
 - Great Hall Daily Life
   - Meals, Owl Post, and Public Correspondence
 - Halloween Feast
@@ -308,12 +316,15 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Posted dates and student arrangements
 - House Life and Student Celebrations
   - Common-Room Parties and Head-of-House Enforcement
+- Onboard provisions and compartments
+  - Onboard provisions and compartments
 - One-Off Staff Events and School Morale
   - Valentine's Day During the Chamber Crisis
 - Student Offices, Prefects, and House Teams
   - Quidditch Captain status and summer appointment letters
 - The Hogwarts Express and School Travel
   - Arrival at Hogsmeade and First-Year Gathering
+  - Claimed original appointment
   - Emergency Magical Transport Outside School Routes
   - End-of-Year Departure and Muggle-Secrecy Measures
   - Hogsmeade Weekend Permissions
@@ -321,6 +332,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Platform Barrier Access and Secrecy
   - Platform Nine and Three-Quarters
   - Summer Return and End-of-Term Pickup
+  - Unverified service duration
 - The Sorting Ceremony
   - Annual House Assignment in the Great Hall
   - Annual Songs, Scroll, Stool, and House Tables
@@ -334,6 +346,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - The Hat's Intelligence, Speech, and Legilimency
   - The Sorting Hat as Magical School Artifact
   - Warning Songs in Times of School Danger
+- Triwizard format
+  - Triwizard format
 
 ## Ceremonies, Feasts, and Inter-School Relations
 
@@ -832,6 +846,31 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Later Editorial Notes
 
+- Academic Life and Curriculum
+  - Altered Defense staffing and lesson
+  - Patronus explanation in class
+  - Reported Potions accident
+- Altered Hogwarts
+  - Altered Hogwarts: Battle divergence
+  - Altered Hogwarts: Blood Ball
+  - Altered Hogwarts: Classroom door and hatch
+  - Altered Hogwarts: Dementor-controlled grounds
+  - Altered Hogwarts: Dungeon persecution
+  - Altered Hogwarts: Ideological ritual
+  - Altered Hogwarts: Investigation of changed behavior
+  - Altered Hogwarts: Leadership and blood-purity governance
+  - Altered Hogwarts: Library history holdings
+  - Altered Hogwarts: Potions instruction
+  - Altered Hogwarts: Quidditch
+  - Altered Hogwarts: Root chamber refuge
+  - Altered Hogwarts: Selective enforcement
+  - Altered Hogwarts: Survival of a school resistance organization
+- Alternative Histories of Hogwarts
+  - First intervention in the 1994 tournament
+  - Intervention at the lake task
+  - Regime account of the battle and commemorative calendar
+  - Regime atmosphere and symbols
+  - Voldemort-victory school leadership
 - Alumni, War Memory, and Unreliable Testimony
   - Black, Potter, and Pettigrew in School Memory
 - Authorial Commentary
@@ -844,10 +883,34 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Slurs, Prejudice, and Student Achievement
 - Care of Magical Creatures
   - Hagrid and dangerous creature pedagogy
+- Castle Architecture
+  - Bathroom fixture and ghost emergence
+  - Forest-side view of Hogwarts
+- Castle Transport and Administration
+  - Floo access to the headmistress’s office
+- Ceremonies and School Traditions
+  - Informal student affection and mourning
 - Classrooms, Towers, and Teaching Spaces
   - Classroom eleven and Firenze's adapted Divination room
 - Crisis Evidence and Student Care
   - Immediate Survivor Account in the Headmaster's Office
+- Cursed Child: Later School Life and Historical Sources
+  - Bagshot household rumor and access
+  - Bagshot in Godric’s Hollow in 1981
+  - Common-room recreation and peer support
+  - Continuing inter-House Quidditch
+  - Dumbledore portrait at the Ministry
+  - Fourth-year assessment continues
+  - Hagrid’s rescue under Dumbledore’s instruction
+  - Later Dumbledore scholarship is not 1984 knowledge
+  - Later remembrance of wartime dead
+  - Later witnesses to the 1981 attack
+  - Limits of the published account of 1981
+  - Named church and reported haunted graveyard
+  - Portrait physical and emotional limits
+  - School death and public accountability
+  - Unnamed later Potions appointment
+  - Unverified Bagshot basement supplies
 - Dark Artifacts, Oaths, and Wartime Punishments
   - Wormtail's silver hand and the cost of mercy
 - Dark Magic, Security, and Public Panic
@@ -901,6 +964,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Founder Relics, Horcruxes, and Dumbledore's Final Plan
   - Nagini signal and covert sword delivery
   - Neville as contingency bearer of the Nagini mission
+- Ghosts, Portraits, and Magical Residents
+  - Myrtle’s self-identification
 - Grounds, Transport, and the Forbidden Forest
   - Thestrals beyond school-carriage service
 - Harry Potter Before Hogwarts
@@ -973,6 +1038,11 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Law, Creatures, and Magical Citizenship
   - Code of Wand Use and Non-Human Wand Restrictions
   - Ministry Guidelines for Non-Wizard Part-Humans
+- Magical Architecture and Enchantments
+  - Claimed sink-to-lake plumbing route
+  - Map activation and bathroom location
+  - Map observations during underground departure
+  - Moving staircase circulation
 - Magical Creatures in Public Wizarding Life
   - National Mascots and Event Control
 - Magical Evidence and Investigation
@@ -1018,14 +1088,22 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Scrimgeour succession and Prime Minister protection
 - Ministry Structure and Hogwarts Oversight
   - Department levels relevant to school-age magic
+- Neville's professorship
+  - Neville's professorship
 - Phoenixes and Headmaster Associations
   - Fawkes's Permanent Departure
+- Portraits, Ghosts, and the School’s Memory
+  - Advisory role and limits of former-head portraits
+  - Linked Dumbledore frames
+  - Portrait self-description and overheard knowledge
 - Post-1984 Developments
   - Dark magic and the Quirrell possession
   - Hogwarts staff careers and appointments
   - Internal threats and school security
 - Post-1984 Incidents and Confirmations
   - Enchanted Vehicles on Hogwarts Grounds
+- Post-1995 Tournament cessation
+  - Post-1995 Tournament cessation
 - Protective Magic and Security
   - Covert student communication under the High Inquisitor
   - D.A. fake Galleons under the Carrows
@@ -1037,15 +1115,29 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Office fireplaces and surveillance workarounds
   - Shield Charm rebound in live combat
   - Stealth Sensoring Spells and office intrusion response
+  - Unauthorized visitor and ghost guidance
   - Watched communications under the High Inquisitor
 - Public Records and Wizarding Press
   - The Quibbler as Unreliable Alternative Press
 - Public Records and Wizarding Press Sources
   - Daily Prophet Coverage of the World Cup Crisis
+- Public battle retrospective
+  - Public battle retrospective
 - Quidditch Beyond Hogwarts
   - Spectator Devices and Tactical Literacy
 - Quidditch and School Recreation
   - High Inquisitor control of House teams
+- Remembered headmasters
+  - Remembered headmasters
+- Rules, Discipline, and Governance
+  - Headmistress rejects coerced friendship policing
+  - House-point discipline in the altered classroom
+  - Parental demands for surveillance and separation
+  - Pressure on headmistress discretion
+  - Tracking concealment and discretionary non-enforcement
+- School Welfare
+  - Conflicting assessments of supposed danger
+  - Hospital-wing treatment of an unusual injury
 - Snape's Headmastership and the Occupied School
   - Dumbledore's student-protection charge and planned death
 - Sources and Authorial Context
@@ -1059,6 +1151,9 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Serialized biography, Bathilda testimony, and Ariana's schooling
 - Staff Culture and Accommodation
   - Trelawney's isolated tower office
+- Staff and School Welfare
+  - Plant expertise in search operations
+  - Public recruitment during a search
 - Staff, Subjects, and Ministry Inspection
   - Divination inspection and teacher credentials
   - Inspection consequences and probation
@@ -1089,6 +1184,17 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Harry's Hallows-versus-Horcruxes interpretation
 - The Fall of Voldemort
   - Harry Potter's Fame at Hogwarts
+- The Forest and Non-Human Neighbors
+  - Centaur divination and its stated limits
+  - Post-Battle centaur territorial settlement
+- The Four Houses
+  - Choice in an altered Sorting
+- The Library, Books, and Scholarship
+  - Comparing written accounts across changed timelines
+  - Quiet enforced in the library
+  - Rewritten tournament histories
+  - Time-travel scholarship used by pupils
+  - Written reports of Myrtle’s tournament role
 - The Second War and Defensive Magic
   - Commercial defensive devices and Shield Charm gaps
   - Counterfeit protective objects and Ministry enforcement
@@ -1145,6 +1251,11 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Voldemort's partial knowledge of the Hallows
 - The Sirius Black Crisis
   - Dementors, False Conviction, and Escape
+- The Triwizard Tournament
+  - 1994 champion roster and task arrangements
+  - Announcing and audience participation
+  - Retrospective first-task knowledge
+  - Second-task underwater methods
 - The Triwizard Tournament Revival
   - Linked disappearances and Ministry disagreement
   - Ministry investigation and visiting-school tensions
@@ -1320,6 +1431,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Gryffindor Tower Access
   - Password Access and Fireplace Communication
   - Slytherin Dungeon Entrance and Common Room
+- Platform barrier access
+  - Platform barrier access
 - Protected Offices and Moving Entrances
   - Headmaster's Gargoyle Entrance and Password Changes
 - Protective Magic and Guarded Places
@@ -1338,6 +1451,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Maze Silencing, Navigation, and Spell Obstacles
 - The Great Hall
   - The Enchanted Ceiling
+- The Triwizard Year and Institutional Procedure
+  - The Triwizard Year and Institutional Procedure: Animated maze obstacles
 - Towers, Offices, and Upper-Floor Access
   - Professor Flitwick's Office and West Tower Windows
 
@@ -2126,6 +2241,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Castle-Wide Protective Enchantments
   - Anti-Intrusion and Anti-Apparition Protections
   - Phoenix escape and anti-Disapparition confirmation
+- Claimed anti-escape history
+  - Claimed anti-escape history
 - Concealment and Anti-Detection Magic
   - Disillusionment Charm in Student Extraction
 - Crisis Security During Harry's Third Year
@@ -2211,6 +2328,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Movement Limits and Boundary Magic
   - Anti-Disapparition protections and map boundaries
   - Disapparition beyond the school gates
+- Observed enforcement and evasion
+  - Observed enforcement and evasion
 - Off-Campus Protection of Students
   - Advance Guard Retrieval From Privet Drive
   - Dumbledore's Howler and the Privet Drive Residence Requirement
@@ -2259,6 +2378,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Ministry-backed breach of Order protections
   - Order Intelligence and Student Protection
   - Regulated Transport Under Enemy Control
+- Transport failure response
+  - Transport failure response
 - Wartime Castle Security
   - After-hours movement and door-security lapses
 - Wartime Evacuation and Castle Boundaries
@@ -2317,6 +2438,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Student Enterprises and Magical Recreation
   - Hogwarts-tested joke products become commercial goods
   - Weasley joke inventions in common-room life
+- Team announcements and impartiality
+  - Team announcements and impartiality
 - The History and Rules of Quidditch
   - British League and International Play
   - Broom Development and Safety
@@ -2329,6 +2452,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 
 ## Rules, Discipline, and Governance
 
+- Absence notification
+  - Absence notification
 - Admissions, Attendance, and Wartime Control
   - Compulsory attendance and Blood Status screening
 - Age, School Status, and Adult Authority
@@ -2384,6 +2509,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Muggle Cover Stories and Outside-School Magic
 - Hospital Wing Authority and Student Care
   - Patient Privacy and Continued Classwork
+- House Common Rooms and Dormitories
+  - House Common Rooms and Dormitories: Permission for adult entry
 - House Points as Discipline and Reward
   - Emergency Incident Assessment
   - Fighting and Corridor Discipline
@@ -2420,6 +2547,8 @@ Source data: sources YAML + project-control indexes + structured source data.
 - Ministry Pressure and Public Records
   - Fudge, the Prophet, and Dumbledore's Allies
   - Press Suppression, Ministry Spies, and Dumbledore's Offices
+- Pastoral and classroom reports
+  - Pastoral and classroom reports
 - Prefects and Student Authority
   - Fifth-Year Prefects and Train Patrols
   - Prefect carriage duties and train patrols
@@ -2431,6 +2560,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Third-Floor Corridor Enforcement
 - Restricted Objects and Student Misuse
   - Love-potion sweets and staff antidote response
+- School stores and restricted ingredients
+  - School stores and restricted ingredients
 - Snape's Hogwarts Regime
   - Occupation defenses around the castle
   - Portrait reports of student resistance and restored decrees
@@ -2465,6 +2596,7 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Family Notification and Escalation
   - Head of House Responsibility and Term-Bound Points
   - Prohibited Punishments, Detentions, and Head-of-House Referral
+  - Student Discipline and Expulsion: Headmistress authority and penalties
 - Student Health and the Hospital Wing
   - Crisis Recovery and Headmaster Discretion
   - Crisis Visitor Restrictions
@@ -2483,6 +2615,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Trophy Room Records and Head Boy Lists
 - Student Offices, Prefects, and Discipline
   - Prefect authority and informal enforcement limits
+- Third-year Hogsmeade permission
+  - Third-year Hogsmeade permission
 - Wartime Student Movement Restrictions
   - Hogsmeade cancellations after attacks and disappearances
 - Wizarding Law and Magical Secrecy
@@ -2687,20 +2821,30 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Concealed staircases and portrait movement
 - Dungeons and Corridors
   - Interior Routes and Bathrooms
+- Ghosts and school safety
+  - Ghosts and school safety: Myrtle as informant
 - Grounds, Lake, and Village Approaches
   - Visiting-School Lodging and Hogsmeade Route
 - Grounds, Staff Dwellings, and Creature Care
   - Gamekeeper's cabin during the tower battle
 - House Common Rooms and Dormitories
+  - House Common Rooms and Dormitories: Beds and emergency search
+  - House Common Rooms and Dormitories: Slytherin room color
   - Hufflepuff Common Room
 - House Common Rooms and Entrances
   - Ravenclaw Tower's question-guarded door
 - Interior Rooms
   - Trophy Room
+- Lake Ecology, Merpeople, and Dangerous Water Creatures
+  - Lake Ecology, Merpeople, and Dangerous Water Creatures: Negotiation over lake searches
+- Later school crises
+  - Later school crises: Murder on the Quidditch pitch
 - Secret Rooms, Moving Routes, and Responsive Castle Spaces
   - Room of Hidden Things access and object resistance
   - The Room of Requirement as a wartime refuge
   - Variable exits and resealing walls
+- Staff history
+  - Staff history: Later knowledge of Snape’s allegiance
 - The Grounds and Edge of the Forest
   - Dangerous Creatures and Forest Placement
   - Forbidden Forest Paths and Supervised Searches
@@ -2711,8 +2855,14 @@ Source data: sources YAML + project-control indexes + structured source data.
 - The Lake and Castle Approach
   - Arrival at Hogsmeade and First-Year Gathering
   - Express Route and Aerial Approach
+- The Triwizard Year and Institutional Procedure
+  - The Triwizard Year and Institutional Procedure: Quidditch-field conversion
 - Towers, Corridors, and Service Rooms
   - The Owlery and school owls
+  - Towers, Corridors, and Service Rooms: Owlery roof and correspondence
+- Triwizard Tournament
+  - Triwizard Tournament: Final-task standings
+  - Triwizard Tournament: First-task technique
 
 ## The Castle and Its Magic
 
@@ -2765,6 +2915,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Hufflepuff's cup in the Lestrange vault
   - Sword authenticity, goblin silver, and Horcrux destruction
   - Sword custody, Gringotts vault panic, and false authentication
+- Great Hall Sorting ceremony
+  - Great Hall Sorting ceremony
 - House Identity and Reputation
   - Borderline Sorting decisions
   - House loyalty during the Triwizard Tournament
@@ -2786,6 +2938,10 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Family patterns and Sirius Black's exception
 - Sorting, House Identity, and Founder Memory
   - Wartime attempt to abolish Sorting and Houses
+- Student preference in Sorting
+  - Student preference in Sorting
+- The Sorting Ceremony
+  - Long service and mental assessment
 
 ## The Grounds and Edge of the Forest
 
@@ -2849,6 +3005,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Creature-Law and Hippogriff Sources
 - Records, Archives, and Historical Research
   - School records and family-history research
+- School book restrictions
+  - School book restrictions
 - Student Scholarship and Learned Networks
   - Dumbledore's Early Academic Reputation
   - Dumbledore's post-Hogwarts honors and planned Grand Tour
@@ -2861,6 +3019,8 @@ Source data: sources YAML + project-control indexes + structured source data.
   - Practical Preparation from Published Sources
   - Quidditch Through the Ages
   - Research Across Books and Magical Ephemera
+- Trelawney's Divination title
+  - Trelawney's Divination title
 
 ## The Second War and Hidden Histories
 

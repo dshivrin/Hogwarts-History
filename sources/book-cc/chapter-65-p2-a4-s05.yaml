@@ -1,0 +1,186 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 5: GODRIC’S HOLLOW, OUTSIDE JAMES AND LILY POTTER’S
+    HOUSE, 1981'
+  scene_id: CC-P2-A4-S05
+  part: 2
+  act: 4
+  scene: 5
+  chapter_start_pdf_page: 200
+  chapter_end_pdf_page: 203
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Read pp200–203. Retain historical-source limits and Bagshot-house
+    rumor. Exclude potion recipe/device for sending a private message as plot-specific
+    non-Hogwarts magic; no encounter with Bagshot is shown.
+entries:
+- id: cc-p2-a4-s05-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 5: GODRIC’S HOLLOW, OUTSIDE JAMES AND LILY POTTER’S
+    HOUSE, 1981'
+  part: 2
+  act: 4
+  scene: 5
+  scene_id: CC-P2-A4-S05
+  chapter_start_pdf_page: 200
+  chapter_end_pdf_page: 203
+  pdf_page: 200
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 764:777; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 723; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 764
+    char_end: 777
+    text_sha256: ac7c7c3a80e848b1cff732f710cc3bab54c2f84f4b61fd3d9481c852abc349bd
+  nearby_context: Read pp200–203. Retain historical-source limits and Bagshot-house
+    rumor. Exclude potion recipe/device for sending a private message as plot-specific
+    non-Hogwarts magic; no encounter with Bagshot is shown.
+  match_terms:
+  - dumbledore
+  - source-history
+  - biography
+  quote_excerpt_short: null
+  source_note: Scorpius claims that numerous books discuss Dumbledore’s knowledge
+    and motives, while insisting that the travelers are in the primary past and must
+    not tell him the future.
+  speaker: Scorpius
+  evidence_mode: dialogue_claim
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  historical_period: Books known to Scorpius in the later present; conversation in
+    1981
+  information_available: Stated or shown only in this later script; no contemporary
+    pre-1984 record is supplied.
+  character_knowledge: The named speaker or staged observer has this knowledge in
+    the scene; no transmission to Bagshot is shown.
+  bagshot_1984_access: No evidence of availability to Bagshot by 1984.
+  timeline: historical_visit
+  timeline_detail: Explicit distinction between primary past and the alternate reality
+    where help was sought from Snape
+  topic_tags:
+  - dumbledore
+  - source-history
+  - biography
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: 'Cursed Child: Later School Life and Historical Sources'
+  candidate_section: Later Dumbledore scholarship is not 1984 knowledge
+  reason_for_placement: Research candidate for Later Dumbledore scholarship is not
+    1984 knowledge; retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No evidence of availability to Bagshot by 1984.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - dh-ch08-004
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Approximate rhetorical quantity, no titles or publication dates. Do
+    not invent a bibliography or assume these works existed in 1984.
+- id: cc-p2-a4-s05-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 5: GODRIC’S HOLLOW, OUTSIDE JAMES AND LILY POTTER’S
+    HOUSE, 1981'
+  part: 2
+  act: 4
+  scene: 5
+  scene_id: CC-P2-A4-S05
+  chapter_start_pdf_page: 200
+  chapter_end_pdf_page: 203
+  pdf_page: 202
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1652:1659; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 1559; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1652
+    char_end: 1659
+    text_sha256: 379952d2b334b194e0a0948db06191ee40f9995135094131d2bfc5b5be28066c
+  nearby_context: Read pp200–203. Retain historical-source limits and Bagshot-house
+    rumor. Exclude potion recipe/device for sending a private message as plot-specific
+    non-Hogwarts magic; no encounter with Bagshot is shown.
+  match_terms:
+  - bathilda-bagshot
+  - godrics-hollow
+  - source-criticism
+  quote_excerpt_short: null
+  source_note: Scorpius repeats a rumor that Bagshot did not value locking doors;
+    the stage direction then shows a door opening before he proposes taking wands
+    and preparing potions.
+  speaker: Scorpius and stage directions
+  evidence_mode: dialogue_claim
+  reference_type: cross_reference_candidate
+  era_classification: later_editorial_note
+  historical_period: October 1981 visited setting; rumor learned at unspecified later
+    date
+  information_available: Stated or shown only in this later script; no contemporary
+    pre-1984 record is supplied.
+  character_knowledge: The named speaker or staged observer has this knowledge in
+    the scene; no transmission to Bagshot is shown.
+  bagshot_1984_access: Bagshot could know her household practices, but no scene establishes
+    her consent, knowledge of the visitors, or transmission of their later information.
+  timeline: historical_visit
+  timeline_detail: Primary past; visitors’ private access, not public archival disclosure
+  topic_tags:
+  - bathilda-bagshot
+  - godrics-hollow
+  - source-criticism
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: 'Cursed Child: Later School Life and Historical Sources'
+  candidate_section: Bagshot household rumor and access
+  reason_for_placement: Research candidate for Bagshot household rumor and access;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Bagshot could know her household practices, but
+    no scene establishes her consent, knowledge of the visitors, or transmission of
+    their later information.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations:
+  - scene_id: CC-P2-A4-S05
+    pdf_page: 203
+    timeline: historical_visit
+    timeline_detail: Primary past; visitors’ private access, not public archival disclosure
+    note: Scorpius proposes taking wands after the door opens.
+  confidence: medium
+  limitations: A single unlocked door cannot establish a general security policy;
+    the theft is proposed, not depicted in this passage.

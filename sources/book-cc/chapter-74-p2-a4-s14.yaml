@@ -1,0 +1,175 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 14: HOGWARTS, CLASSROOM'
+  scene_id: CC-P2-A4-S14
+  part: 2
+  act: 4
+  scene: 14
+  chapter_start_pdf_page: 229
+  chapter_end_pdf_page: 231
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Read pp229–231. Retain new Potions professor and inter-House fixture.
+    School-ball recollection explicitly belongs to an alternate world and is not retained
+    again as a primary custom.
+entries:
+- id: cc-p2-a4-s14-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 14: HOGWARTS, CLASSROOM'
+  part: 2
+  act: 4
+  scene: 14
+  scene_id: CC-P2-A4-S14
+  chapter_start_pdf_page: 229
+  chapter_end_pdf_page: 231
+  pdf_page: 230
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 66:83; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 0; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 66
+    char_end: 83
+    text_sha256: 2737984215a6510fcce40ac66c6b43488a8a4e7ed2e57b7b91b5ac6d4325b6a9
+  nearby_context: Read pp229–231. Retain new Potions professor and inter-House fixture.
+    School-ball recollection explicitly belongs to an alternate world and is not retained
+    again as a primary custom.
+  match_terms:
+  - potions
+  - staff-appointments
+  - hogwarts
+  quote_excerpt_short: null
+  source_note: Scorpius refers to a new female Potions professor at Hogwarts after
+    the return to the primary timeline.
+  speaker: Scorpius
+  evidence_mode: dialogue_claim
+  reference_type: curriculum_or_subject
+  era_classification: later_editorial_note
+  historical_period: 2020–21 school period (relative chronology; exact year requires
+    review)
+  information_available: Stated or shown only in this later script; no contemporary
+    pre-1984 record is supplied.
+  character_knowledge: The named speaker or staged observer has this knowledge in
+    the scene; no transmission to Bagshot is shown.
+  bagshot_1984_access: No evidence of availability to Bagshot by 1984.
+  timeline: primary
+  timeline_detail: Restored primary present
+  topic_tags:
+  - potions
+  - staff-appointments
+  - hogwarts
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: 'Cursed Child: Later School Life and Historical Sources'
+  candidate_section: Unnamed later Potions appointment
+  reason_for_placement: Research candidate for Unnamed later Potions appointment;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No evidence of availability to Bagshot by 1984.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: No name, appointment date or predecessor is supplied; a teasing description
+    is not biographical evidence.
+- id: cc-p2-a4-s14-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 14: HOGWARTS, CLASSROOM'
+  part: 2
+  act: 4
+  scene: 14
+  scene_id: CC-P2-A4-S14
+  chapter_start_pdf_page: 229
+  chapter_end_pdf_page: 231
+  pdf_page: 230
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 781:813; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 741; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 781
+    char_end: 813
+    text_sha256: 25b35269112fe0563a4f619010dde6e6649485e55f5f2859a452480526e412ee
+  nearby_context: Read pp229–231. Retain new Potions professor and inter-House fixture.
+    School-ball recollection explicitly belongs to an alternate world and is not retained
+    again as a primary custom.
+  match_terms:
+  - quidditch
+  - house-teams
+  - slytherin
+  - hufflepuff
+  quote_excerpt_short: null
+  source_note: Scorpius invites Albus to watch a Slytherin–Hufflepuff Quidditch match
+    and says he has been practicing in hope of joining the team.
+  speaker: Scorpius
+  evidence_mode: dialogue_claim
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  historical_period: 2020–21 school period (relative chronology; exact year requires
+    review)
+  information_available: Stated or shown only in this later script; no contemporary
+    pre-1984 record is supplied.
+  character_knowledge: The named speaker or staged observer has this knowledge in
+    the scene; no transmission to Bagshot is shown.
+  bagshot_1984_access: No evidence of availability to Bagshot by 1984.
+  timeline: primary
+  timeline_detail: Restored primary present
+  topic_tags:
+  - quidditch
+  - house-teams
+  - slytherin
+  - hufflepuff
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: 'Cursed Child: Later School Life and Historical Sources'
+  candidate_section: Continuing inter-House Quidditch
+  reason_for_placement: Research candidate for Continuing inter-House Quidditch; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No evidence of availability to Bagshot by 1984.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - cos-ch07-001
+    - hbp-ch09-002
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Corroborates later team sport, not a complete fixture calendar or a
+    successful team selection.

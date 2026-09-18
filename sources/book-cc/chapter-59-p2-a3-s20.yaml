@@ -1,0 +1,194 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 20: TRIWIZARD TOURNAMENT, MAZE, 1995'
+  scene_id: CC-P2-A3-S20
+  part: 2
+  act: 3
+  scene: 20
+  chapter_start_pdf_page: 179
+  chapter_end_pdf_page: 183
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read, including post-maze backward transition on
+    p183. Extracted tournament setting and procedure. Excluded generic dueling spells,
+    Delphi’s unsupported prophecy theory and vague statement that Hogwarts looks the
+    same at an unidentified earlier date.
+entries:
+- id: cc-p2-a3-s20-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 20: TRIWIZARD TOURNAMENT, MAZE, 1995'
+  part: 2
+  act: 3
+  scene: 20
+  scene_id: CC-P2-A3-S20
+  chapter_start_pdf_page: 179
+  chapter_end_pdf_page: 183
+  pdf_page: 179
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 71:87; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: BAGMAN
+    end_phrase: BAGMAN
+    local_occurrence_note: Name anchor at normalized page offset 246; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 71
+    char_end: 87
+    text_sha256: 176e82910ec8bf86994eff45ce86368439af1c72549156d381abd6ea3314f01a
+  nearby_context: Complete scene read, including post-maze backward transition on
+    p183. Extracted tournament setting and procedure. Excluded generic dueling spells,
+    Delphi’s unsupported prophecy theory and vague statement that Hogwarts looks the
+    same at an unidentified earlier date.
+  match_terms:
+  - maze
+  - third-task
+  - moving-hedges
+  - triwizard-cup
+  quote_excerpt_short: null
+  source_note: The 1995 tournament maze is staged as a moving spiral of hedges that
+    close around entrants; Bagman calls it living and identifies the trophy within.
+  speaker: Stage directions and Bagman
+  evidence_mode: stage_direction
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  historical_period: '1995'
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: historical_visit
+  timeline_detail: 1995 third-task visit from restored primary timeline; later transition
+    to an unidentified earlier date.
+  topic_tags:
+  - maze
+  - third-task
+  - moving-hedges
+  - triwizard-cup
+  - cursed-child
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: The Triwizard Year and Institutional Procedure
+  candidate_section: 'The Triwizard Year and Institutional Procedure: Animated maze
+    obstacles'
+  reason_for_placement: 'Research candidate for The Triwizard Year and Institutional
+    Procedure: Animated maze obstacles; retain source mode and timeline before any
+    editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - gof-ch28-004
+    - gof-ch31-002
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations:
+  - scene_id: CC-P2-A3-S20
+    pdf_page: 179
+    timeline: historical_visit
+    timeline_detail: 1995 third-task visit from restored primary timeline; later transition
+      to an unidentified earlier date.
+    note: Bagman calls for support from all three visiting-school audiences in the
+      same task presentation.
+  confidence: high
+  limitations: This play’s staging adds active moving hedges; prior indexed prose
+    establishes maze construction and obstacles but does not on its own corroborate
+    every animation detail.
+- id: cc-p2-a3-s20-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 20: TRIWIZARD TOURNAMENT, MAZE, 1995'
+  part: 2
+  act: 3
+  scene: 20
+  scene_id: CC-P2-A3-S20
+  chapter_start_pdf_page: 179
+  chapter_end_pdf_page: 183
+  pdf_page: 180
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1167:1186; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: BAGMAN
+    end_phrase: BAGMAN
+    local_occurrence_note: Name anchor at normalized page offset 1111; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1167
+    char_end: 1186
+    text_sha256: a130e284aefc625c897b0e6a654deced50842b8718a21736cad5a069747fd2e1
+  nearby_context: Complete scene read, including post-maze backward transition on
+    p183. Extracted tournament setting and procedure. Excluded generic dueling spells,
+    Delphi’s unsupported prophecy theory and vague statement that Hogwarts looks the
+    same at an unidentified earlier date.
+  match_terms:
+  - triwizard-tournament
+  - third-task
+  - scoring
+  quote_excerpt_short: null
+  source_note: 'Bagman gives the third-task standings: Cedric and Harry tied first,
+    Viktor next and Fleur last.'
+  speaker: Ludo Bagman
+  evidence_mode: dialogue_claim
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  historical_period: '1995'
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: historical_visit
+  timeline_detail: 1995 third-task visit from restored primary timeline; later transition
+    to an unidentified earlier date.
+  topic_tags:
+  - triwizard-tournament
+  - third-task
+  - scoring
+  - cursed-child
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: Triwizard Tournament
+  candidate_section: 'Triwizard Tournament: Final-task standings'
+  reason_for_placement: 'Research candidate for Triwizard Tournament: Final-task standings;
+    retain source mode and timeline before any editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - gof-ch31-004
+    notes: The indexed entry explicitly gives Harry and Cedric tied first, Krum next,
+      Fleur last and staggered entry. This is direct restatement in the visited historical
+      task, not new tournament information.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: A particular 1995 ranking; wording is the announcer’s ranking, not
+    a separate rule about tied places.

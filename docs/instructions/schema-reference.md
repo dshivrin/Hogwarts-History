@@ -165,3 +165,51 @@ Use only:
 - `candidate_part`, `candidate_chapter`, and `candidate_section` are tentative structure suggestions.
 - `duplicate_check` records whether the same fact already appears elsewhere, without deleting repeated evidence. For external queue completion, its `audit.query_tags` and `audit.candidate_ids` record the current compact-index comparison; every listed candidate must be returned by that latest index, and `duplicate_of` must be one of those candidates.
 - `confidence` should be `high`, `medium`, or `low`.
+
+## Supplementary play script (CC)
+
+`resources/manifests/cursed-child.yaml` registers the unmodified, hash-bound PDF
+and all 75 scenes. `sources/book-cc/chapter-NN-pP-aA-sSS.yaml` uses the existing
+book evidence envelope; `chapter-NN` is only its sequential compatibility slot,
+not an invented chapter in the play. Stable scene IDs are `CC-P1-A2-S10`; evidence
+IDs append a three-digit ordinal in lower case, such as `cc-p1-a2-s10-001`.
+
+Every source unit adds `source_kind: script_pdf`, `source_id: CC`,
+`source_class: supplementary_script`, `part`, `act`, `scene`, and `scene_id`.
+Every entry retains these coordinates and its own exact 1-based PDF page.
+It additionally records:
+
+- `speaker` and `evidence_mode`: `dialogue_claim`, `stage_direction`, `transition`,
+  or `editorial_inference`. Audience effects are not automatically world facts.
+- `historical_period`, `information_available`, `character_knowledge`, and
+  `bagshot_1984_access`. A pre-1984 subject is not proof of pre-1984 knowledge.
+- `timeline`: `primary`, `altered`, `historical_visit`, or
+  `remembered_reported_hypothetical`; `timeline_detail` names the branch and
+  distinguishes historical staging, recollection, dream, or hypothetical use.
+- `comparison`: `relation` (`new_information`, `corroboration`, `contradiction`,
+  or `out_of_scope`), `related_ids`, scoped `notes`, and optional `conflict_note`.
+  A link can be context without being corroboration. An altered-world similarity
+  does not establish a primary-world event. Existing evidence is not rewritten.
+- `supporting_locations`: additional scene/page/timeline locators for continuation
+  pages or consolidated repeated evidence. Every location keeps its own context.
+- `passage_locator`: zero-based, end-exclusive character offsets and SHA-256 of a
+  small relevant span in `re.sub(r'\s+', ' ', page.extract_text() or '').strip()`.
+  This uses the same pypdf extraction as `scripts/extract_pages.py`; omit that
+  tool's added page header when reconstructing offsets. Name anchors aid navigation;
+  the hashed span identifies the passage more precisely. `quote_excerpt_short`
+  can be null when the evidence is paraphrased; quotes are deliberately sparse.
+
+`confidence` assesses support for the narrowly attributed claim, not the truth of
+an unreliable character's assertion or its eligibility for the 1984 book.
+`pre_1984_historical_candidate` remains provisional. No CC entry is automatically
+approved for the original book. Existing era categories are unchanged.
+
+`just validate` now checks the carrier hash, complete scene-heading coverage,
+consecutive coordinates and IDs, page ranges, passage hashes, comparison targets,
+and explicitly altered-world exclusion from original-book classifications.
+Indexes, queries and the generated research seed retain timeline context.
+
+Source discovery preserves numbered filesystem copies but excludes them from
+canonical counting only when they are byte-identical to the original chapter
+file. Orphaned or differing copies remain visible and fail ordinary validation.
+The CC research record inventories the 12 pre-existing copies (73 repeated rows).

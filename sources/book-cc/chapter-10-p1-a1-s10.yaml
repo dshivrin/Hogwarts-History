@@ -1,0 +1,169 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 10: THE HOGWARTS EXPRESS'
+  scene_id: CC-P1-A1-S10
+  part: 1
+  act: 1
+  scene: 10
+  chapter_start_pdf_page: 46
+  chapter_end_pdf_page: 48
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete pp. 46–48 read. Retained tournament format and cessation.
+entries:
+- id: cc-p1-a1-s10-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 10: THE HOGWARTS EXPRESS'
+  part: 1
+  act: 1
+  scene: 10
+  scene_id: CC-P1-A1-S10
+  chapter_start_pdf_page: 46
+  chapter_end_pdf_page: 48
+  pdf_page: 48
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 453:471; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 419; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 453
+    char_end: 471
+    text_sha256: 2f237d760919549735b95ac21634bcae7f81a578adf32a9a213e9f1834d13e6f
+  nearby_context: Complete pp. 46–48 read. Retained tournament format and cessation.
+  match_terms:
+  - triwizard-tournament
+  - international-competition
+  quote_excerpt_short: null
+  source_note: Scorpius summarizes the Tournament as three schools supplying three
+    champions for three tasks and one Cup.
+  speaker: Scorpius Malfoy
+  evidence_mode: dialogue_claim
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  historical_period: Earlier tournament tradition recounted in 2020
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: The participants learn or report this in the depicted primary
+    scene; earlier knowledge is not established.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: remembered_reported_hypothetical
+  timeline_detail: Student's primary-history summary.
+  topic_tags:
+  - triwizard-tournament
+  - international-competition
+  - cursed-child
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Triwizard format
+  candidate_section: Triwizard format
+  reason_for_placement: Research candidate for Triwizard format; retain source mode
+    and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - gof-ch12-007
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Compressed summary omits the exceptional fourth champion and detailed
+    selection procedure.
+- id: cc-p1-a1-s10-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 10: THE HOGWARTS EXPRESS'
+  part: 1
+  act: 1
+  scene: 10
+  scene_id: CC-P1-A1-S10
+  chapter_start_pdf_page: 46
+  chapter_end_pdf_page: 48
+  pdf_page: 48
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 928:957; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 729; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 928
+    char_end: 957
+    text_sha256: a0903e440b8ec81621d1b66c2184086964a3a184c0d42973dc489a01b7d8bce7
+  nearby_context: Complete pp. 46–48 read. Retained tournament format and cessation.
+  match_terms:
+  - triwizard-tournament
+  - cedric-diggory
+  - tournament-cessation
+  quote_excerpt_short: null
+  source_note: Scorpius reports that the last Tournament ended with Harry and Cedric
+    sharing the win, the Cup transporting them to Voldemort, and Cedric being killed;
+    he says the competition was cancelled afterward. Albus frames the gap as over
+    twenty years.
+  speaker: Scorpius; Albus
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: post_1984_excluded_from_original
+  historical_period: 1995 and subsequent cessation reported in 2020
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: Student historical knowledge, not eyewitness testimony; source
+    not named.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: remembered_reported_hypothetical
+  timeline_detail: Primary-history outcome before the rescue attempt alters events.
+  topic_tags:
+  - triwizard-tournament
+  - cedric-diggory
+  - tournament-cessation
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Post-1995 Tournament cessation
+  candidate_section: Post-1995 Tournament cessation
+  reason_for_placement: Research candidate for Post-1995 Tournament cessation; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - gof-ch12-007
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: No decree or precise cancellation date given; does not mean the final
+    1995 task was stopped before completion or establish a permanent legal ban.

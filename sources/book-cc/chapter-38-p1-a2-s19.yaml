@@ -1,0 +1,501 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 19: HOGWARTS, GIRLS’ BATHROOM'
+  scene_id: CC-P1-A2-S19
+  part: 1
+  act: 2
+  scene: 19
+  chapter_start_pdf_page: 121
+  chapter_end_pdf_page: 124
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+entries:
+- id: cc-p1-a2-s19-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 19: HOGWARTS, GIRLS’ BATHROOM'
+  part: 1
+  act: 2
+  scene: 19
+  scene_id: CC-P1-A2-S19
+  chapter_start_pdf_page: 121
+  chapter_end_pdf_page: 124
+  pdf_page: 121
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 112:132; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: ALBUS
+    end_phrase: ALBUS
+    local_occurrence_note: Name anchor at normalized page offset 63; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 112
+    char_end: 132
+    text_sha256: 70b6df6d1b44e7bd5fdb09e7bff354aa4d78f60c0d4901114f588a4bc3d39ccb
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - moaning-myrtle
+  - bathroom
+  - plumbing
+  quote_excerpt_short: null
+  source_note: The girls’ bathroom contains a large central Victorian sink; Myrtle
+    emerges from it with a jet of water.
+  speaker: Stage directions
+  evidence_mode: stage_direction
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Directly shown to the audience; characters present can observe
+    the event.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - moaning-myrtle
+  - bathroom
+  - plumbing
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Castle Architecture
+  candidate_section: Bathroom fixture and ghost emergence
+  reason_for_placement: Research candidate for Bathroom fixture and ghost emergence;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - gof-ch25-004
+    notes: Similarity is limited to the identified institutional background; altered
+      outcomes remain separate.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Victorian describes the fixture’s style, not proof of an installation
+    date. The whole observation belongs to the first altered branch.
+- id: cc-p1-a2-s19-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 19: HOGWARTS, GIRLS’ BATHROOM'
+  part: 1
+  act: 2
+  scene: 19
+  scene_id: CC-P1-A2-S19
+  chapter_start_pdf_page: 121
+  chapter_end_pdf_page: 124
+  pdf_page: 122
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 240:263; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: MOANING MYRTLE
+    end_phrase: MOANING MYRTLE
+    local_occurrence_note: Name anchor at normalized page offset 206; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 240
+    char_end: 263
+    text_sha256: 99adb0f01d6f87930e81c5f159140f2e46f752f26c21bc7e0413b64cc4518602
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - moaning-myrtle
+  - ghosts
+  - bathroom
+  quote_excerpt_short: null
+  source_note: Myrtle gives her full name as Myrtle Elizabeth Warren and identifies
+    the girls’ bathroom as her haunt.
+  speaker: Myrtle
+  evidence_mode: dialogue_claim
+  reference_type: portrait_or_ghost_lore
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Myrtle supplies the account; knowledge is limited to this timeline
+    and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - moaning-myrtle
+  - ghosts
+  - bathroom
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ghosts, Portraits, and Magical Residents
+  candidate_section: Myrtle’s self-identification
+  reason_for_placement: Research candidate for Myrtle’s self-identification; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - cos-ch08-005
+    notes: Myrtle’s girls’ bathroom haunt is indexed; the inspected prior entry does
+      not contain Elizabeth Warren. Keep the full name as new source detail while
+      cross-referencing the established haunt. Do not call the complete name novel
+      corroboration or assume 1984 access.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Name supplied in first altered present. A historical lifetime identity
+    is not automatic evidence that Bagshot had access to it before 1984.
+- id: cc-p1-a2-s19-003
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 19: HOGWARTS, GIRLS’ BATHROOM'
+  part: 1
+  act: 2
+  scene: 19
+  scene_id: CC-P1-A2-S19
+  chapter_start_pdf_page: 121
+  chapter_end_pdf_page: 124
+  pdf_page: 122
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1064:1081; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: MOANING MYRTLE
+    end_phrase: MOANING MYRTLE
+    local_occurrence_note: Name anchor at normalized page offset 896; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1064
+    char_end: 1081
+    text_sha256: a6448027ed1553ad944ccd38c06457883e154a9edf08d74675c9cb8026d40dd0
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - moaning-myrtle
+  - student-customs
+  - cedric-diggory
+  quote_excerpt_short: null
+  source_note: Myrtle recalls hearing girls perform love incantations for Cedric in
+    the bathroom and hearing their grief after his death.
+  speaker: Myrtle
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  historical_period: 1994–1995 student customs and bereavement recalled in first altered
+    present
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Myrtle supplies the account; knowledge is limited to this timeline
+    and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - moaning-myrtle
+  - student-customs
+  - cedric-diggory
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Ceremonies and School Traditions
+  candidate_section: Informal student affection and mourning
+  reason_for_placement: Research candidate for Informal student affection and mourning;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Ghost’s recollection in an altered branch; efficacy of the incantations
+    is not established.
+- id: cc-p1-a2-s19-004
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 19: HOGWARTS, GIRLS’ BATHROOM'
+  part: 1
+  act: 2
+  scene: 19
+  scene_id: CC-P1-A2-S19
+  chapter_start_pdf_page: 121
+  chapter_end_pdf_page: 124
+  pdf_page: 122
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 645:665; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: ALBUS
+    end_phrase: ALBUS
+    local_occurrence_note: Name anchor at normalized page offset 600; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 645
+    char_end: 665
+    text_sha256: 5b3d171ec54b8c7c220fd9c312803fbf519746f24796cdb3c29c5b37babd4bdc
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - moaning-myrtle
+  - triwizard-tournament
+  - written-history
+  quote_excerpt_short: null
+  source_note: Albus says Myrtle’s presence in the tournament lake was written about,
+    indicating later written knowledge of her involvement.
+  speaker: Albus
+  evidence_mode: dialogue_claim
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Albus supplies the account; knowledge is limited to this timeline
+    and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - moaning-myrtle
+  - triwizard-tournament
+  - written-history
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Library, Books, and Scholarship
+  candidate_section: Written reports of Myrtle’s tournament role
+  reason_for_placement: Research candidate for Written reports of Myrtle’s tournament
+    role; retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: 'No author, title, date, or publication is identified; not evidence
+    of a Hogwarts: A History reference.'
+- id: cc-p1-a2-s19-005
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 19: HOGWARTS, GIRLS’ BATHROOM'
+  part: 1
+  act: 2
+  scene: 19
+  scene_id: CC-P1-A2-S19
+  chapter_start_pdf_page: 121
+  chapter_end_pdf_page: 124
+  pdf_page: 123
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 47:77; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: MOANING MYRTLE
+    end_phrase: MOANING MYRTLE
+    local_occurrence_note: Name anchor at normalized page offset 0; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 47
+    char_end: 77
+    text_sha256: 12348407758215f597c39372b9164691a21c6b2457c7c067d550e397ae34278e
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - moaning-myrtle
+  - plumbing
+  - black-lake
+  - bylaws
+  quote_excerpt_short: empties directly into the lake
+  source_note: Myrtle says this sink drains straight to the lake and contravenes bylaws;
+    the boys enter it and then take gillyweed before descending.
+  speaker: Myrtle; stage directions
+  evidence_mode: dialogue_claim
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Myrtle; stage directions supplies the account; knowledge is
+    limited to this timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - moaning-myrtle
+  - plumbing
+  - black-lake
+  - bylaws
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Magical Architecture and Enchantments
+  candidate_section: Claimed sink-to-lake plumbing route
+  reason_for_placement: Research candidate for Claimed sink-to-lake plumbing route;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - gof-ch25-004
+    notes: Existing record proves Myrtle’s account of ghost movement through pipes
+      to the lake. A specific sink draining directly there, alleged bylaw violations,
+      and living pupils using it are additional altered-world claims. Label the whole
+      new claim new_information, with partial corroboration explicitly confined to
+      the ghost/plumbing/lake connection.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: First altered world only. Earlier evidence establishes ghost travel
+    through pipes; this adds a specific sink and bodily student passage. No bylaw
+    text, jurisdiction, or architectural date is given; do not promote it to primary
+    fact.
+- id: cc-p1-a2-s19-006
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 19: HOGWARTS, GIRLS’ BATHROOM'
+  part: 1
+  act: 2
+  scene: 19
+  scene_id: CC-P1-A2-S19
+  chapter_start_pdf_page: 121
+  chapter_end_pdf_page: 124
+  pdf_page: 123
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1522:1546; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: PROFESSOR McGONAGALL
+    end_phrase: PROFESSOR McGONAGALL
+    local_occurrence_note: Name anchor at normalized page offset 1451; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1522
+    char_end: 1546
+    text_sha256: 4dc2946fb427718a15f38a6dd3d1ea82945f446082e05de86b7f11ff1aa7e95f
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - marauders-map
+  - plumbing
+  - time-travel
+  quote_excerpt_short: null
+  source_note: McGonagall’s reading of the map briefly places Albus beneath Hogwarts
+    grounds before he vanishes during the time-travel transition.
+  speaker: McGonagall
+  evidence_mode: dialogue_claim
+  reference_type: magical_architecture
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: McGonagall supplies the account; knowledge is limited to this
+    timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - marauders-map
+  - plumbing
+  - time-travel
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Magical Architecture and Enchantments
+  candidate_section: Map observations during underground departure
+  reason_for_placement: Research candidate for Map observations during underground
+    departure; retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - ext-a11-002
+    notes: Similarity is limited to the identified institutional background; altered
+      outcomes remain separate.
+    conflict_note: null
+  supporting_locations:
+  - scene_id: CC-P1-A2-S19
+    pdf_page: 124
+    timeline: altered
+    timeline_detail: First altered present created by the 1994 first-task intervention;
+      Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+    note: The map-reading sentence continues here with grounds and repeated disappearance.
+  confidence: high
+  limitations: Rapid and uncertain live interpretation; no general proof of exact
+    map boundaries or of comprehensive time-traveler detection.

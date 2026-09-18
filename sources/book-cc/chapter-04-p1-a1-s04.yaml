@@ -1,0 +1,571 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 4: TRANSITION SCENE'
+  scene_id: CC-P1-A1-S04
+  part: 1
+  act: 1
+  scene: 4
+  chapter_start_pdf_page: 24
+  chapter_end_pdf_page: 30
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete pp. 24–30 read. Montage covers ordinary years, not altered
+    time. Retained school practices; portrait insult is not established portrait behaviour.
+entries:
+- id: cc-p1-a1-s04-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 4: TRANSITION SCENE'
+  part: 1
+  act: 1
+  scene: 4
+  scene_id: CC-P1-A1-S04
+  chapter_start_pdf_page: 24
+  chapter_end_pdf_page: 30
+  pdf_page: 24
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 761:778; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SORTING HAT
+    end_phrase: SORTING HAT
+    local_occurrence_note: Name anchor at normalized page offset 733; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 761
+    char_end: 778
+    text_sha256: bc56dd57873b2ae93a43960c850a4f9034955c5c4b312aeb92ea73ee6da4de0e
+  nearby_context: Complete pp. 24–30 read. Montage covers ordinary years, not altered
+    time. Retained school practices; portrait insult is not established portrait behaviour.
+  match_terms:
+  - sorting-hat
+  - sorting-ceremony
+  - ancient-magic
+  quote_excerpt_short: job for centuries
+  source_note: The Sorting Hat's song claims centuries of service, placement on every
+    student's head, and examination of thoughts to assign Houses.
+  speaker: Sorting Hat
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  historical_period: Undated centuries before the 2017 Sorting
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: Hat claims direct longstanding experience; assembled pupils
+    hear it in 2017.
+  bagshot_1984_access: Subject potentially predates 1984, but this song is heard in
+    2017. Bagshot might know earlier Sorting traditions; access to this exact claim
+    by 1984 is not established.
+  timeline: remembered_reported_hypothetical
+  timeline_detail: Ceremonial retrospective claim, not a historical visit.
+  topic_tags:
+  - sorting-hat
+  - sorting-ceremony
+  - ancient-magic
+  - cursed-child
+  candidate_part: The Four Houses
+  candidate_chapter: The Sorting Ceremony
+  candidate_section: Long service and mental assessment
+  reason_for_placement: Research candidate for Long service and mental assessment;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Subject potentially predates 1984, but this song
+    is heard in 2017. Bagshot might know earlier Sorting traditions; access to this
+    exact claim by 1984 is not established.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - gof-ch12-002
+    - ext-a02-002
+    - ext-a02-003
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Ritual song gives no precise origin date; the claim to cover every
+    pupil is generalized.
+- id: cc-p1-a1-s04-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 4: TRANSITION SCENE'
+  part: 1
+  act: 1
+  scene: 4
+  scene_id: CC-P1-A1-S04
+  chapter_start_pdf_page: 24
+  chapter_end_pdf_page: 30
+  pdf_page: 24
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 282:297; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SORTING HAT
+    end_phrase: SORTING HAT
+    local_occurrence_note: Name anchor at normalized page offset 574; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 282
+    char_end: 297
+    text_sha256: 0e9b0551cc6dcd5e72617d744bf53e7bb137e3df9aade0646f87e56433d2843e
+  nearby_context: Complete pp. 24–30 read. Montage covers ordinary years, not altered
+    time. Retained school practices; portrait insult is not established portrait behaviour.
+  match_terms:
+  - great-hall
+  - sorting-hat
+  - four-houses
+  quote_excerpt_short: null
+  source_note: 'Sorting takes place in the Great Hall: the Hat is placed on heads,
+    Houses are announced, and pupils join cheering House groups. Rose joins Gryffindor;
+    Scorpius and Albus join Slytherin on page 25. The montage later repeats Sorting
+    for Lily.'
+  speaker: Stage directions; Sorting Hat
+  evidence_mode: transition
+  reference_type: house_system
+  era_classification: post_1984_excluded_from_original
+  historical_period: 2017 Sorting and later school-year montage
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: The participants learn or report this in the depicted primary
+    scene; earlier knowledge is not established.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: primary
+  timeline_detail: Primary chronology before any intervention in the past.
+  topic_tags:
+  - great-hall
+  - sorting-hat
+  - four-houses
+  - cursed-child
+  candidate_part: The Four Houses
+  candidate_chapter: Great Hall Sorting ceremony
+  candidate_section: Great Hall Sorting ceremony
+  reason_for_placement: Research candidate for Great Hall Sorting ceremony; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - cos-ch05-004
+    - gof-ch12-003
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations:
+  - scene_id: CC-P1-A1-S04
+    pdf_page: 25
+    timeline: primary
+    timeline_detail: Primary chronology before any intervention in the past.
+    note: Sorting assignments continue.
+  confidence: high
+  limitations: Walking personification of the Hat is theatrical staging, not proof
+    of a humanoid magical resident.
+- id: cc-p1-a1-s04-003
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 4: TRANSITION SCENE'
+  part: 1
+  act: 1
+  scene: 4
+  scene_id: CC-P1-A1-S04
+  chapter_start_pdf_page: 24
+  chapter_end_pdf_page: 30
+  pdf_page: 25
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 979:994; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: ROSE
+    end_phrase: ROSE
+    local_occurrence_note: Name anchor at normalized page offset 890; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 979
+    char_end: 994
+    text_sha256: 352757bca2866077f4ba49f2ee1fa9b8c525b813eb08a863911711aea7b70e9a
+  nearby_context: Complete pp. 24–30 read. Montage covers ordinary years, not altered
+    time. Retained school practices; portrait insult is not established portrait behaviour.
+  match_terms:
+  - madam-hooch
+  - flying-lessons
+  - broomsticks
+  quote_excerpt_short: null
+  source_note: Madam Hooch leads pupils in a broom lesson, telling them to stand beside
+    their broomsticks and extend a hand to command them upward before flying.
+  speaker: Madam Hooch; stage directions
+  evidence_mode: transition
+  reference_type: curriculum_or_subject
+  era_classification: post_1984_excluded_from_original
+  historical_period: Albus's first year, 2017–2018
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: The participants learn or report this in the depicted primary
+    scene; earlier knowledge is not established.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: primary
+  timeline_detail: Primary chronology before any intervention in the past.
+  topic_tags:
+  - madam-hooch
+  - flying-lessons
+  - broomsticks
+  - cursed-child
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: First broom exercise
+  candidate_section: First broom exercise
+  reason_for_placement: Research candidate for First broom exercise; retain source
+    mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - ps-ch09-002
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Shows Hooch teaching this cohort, not uninterrupted tenure across all
+    intervening years.
+- id: cc-p1-a1-s04-004
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 4: TRANSITION SCENE'
+  part: 1
+  act: 1
+  scene: 4
+  scene_id: CC-P1-A1-S04
+  chapter_start_pdf_page: 24
+  chapter_end_pdf_page: 30
+  pdf_page: 28
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 344:357; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: PROFESSOR McGONAGALL
+    end_phrase: PROFESSOR McGONAGALL
+    local_occurrence_note: Name anchor at normalized page offset 281; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 344
+    char_end: 357
+    text_sha256: 5aaadeba8ea7a0dba45cc545d991e7fff06e7db57afc66ba6beab24841ef1946
+  nearby_context: Complete pp. 24–30 read. Montage covers ordinary years, not altered
+    time. Retained school practices; portrait insult is not established portrait behaviour.
+  match_terms:
+  - quidditch
+  - great-hall
+  - house-teams
+  - mcgonagall
+  quote_excerpt_short: null
+  source_note: McGonagall announces Gryffindor's new Chaser in the Great Hall; a stage
+    aside shows her correcting a partisan expression. Pupils discuss supporting another
+    House's player.
+  speaker: McGonagall; stage directions
+  evidence_mode: transition
+  reference_type: institutional_custom
+  era_classification: post_1984_excluded_from_original
+  historical_period: Second-year montage, 2018–2019
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: The participants learn or report this in the depicted primary
+    scene; earlier knowledge is not established.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: primary
+  timeline_detail: Primary chronology before any intervention in the past.
+  topic_tags:
+  - quidditch
+  - great-hall
+  - house-teams
+  - mcgonagall
+  - cursed-child
+  candidate_part: Quidditch and School Recreation
+  candidate_chapter: Team announcements and impartiality
+  candidate_section: Team announcements and impartiality
+  reason_for_placement: Research candidate for Team announcements and impartiality;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Expected impartiality is conveyed by a stage aside, not a formal regulation.
+- id: cc-p1-a1-s04-005
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 4: TRANSITION SCENE'
+  part: 1
+  act: 1
+  scene: 4
+  scene_id: CC-P1-A1-S04
+  chapter_start_pdf_page: 24
+  chapter_end_pdf_page: 30
+  pdf_page: 28
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 777:792; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: ALBUS
+    end_phrase: ALBUS
+    local_occurrence_note: Name anchor at normalized page offset 753; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 777
+    char_end: 792
+    text_sha256: b1bbe25343395acd916fc26dcd109cc765c28c757fe5da282408c0055ceb5b2e
+  nearby_context: Complete pp. 24–30 read. Montage covers ordinary years, not altered
+    time. Retained school practices; portrait insult is not established portrait behaviour.
+  match_terms:
+  - potions
+  - potion-ingredients
+  - practical-lessons
+  quote_excerpt_short: null
+  source_note: Practical Potions instruction includes an explosion after Albus discusses
+    bicorn horn and salamander blood; Scorpius asks which counter-ingredient is needed.
+  speaker: Albus; Scorpius; stage directions
+  evidence_mode: transition
+  reference_type: curriculum_or_subject
+  era_classification: post_1984_excluded_from_original
+  historical_period: Second-year montage, 2018–2019
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: The participants learn or report this in the depicted primary
+    scene; earlier knowledge is not established.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: primary
+  timeline_detail: Primary chronology before any intervention in the past.
+  topic_tags:
+  - potions
+  - potion-ingredients
+  - practical-lessons
+  - cursed-child
+  candidate_part: Academic Life and Curriculum
+  candidate_chapter: Brewing and corrective ingredients
+  candidate_section: Brewing and corrective ingredients
+  reason_for_placement: Research candidate for Brewing and corrective ingredients;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - cos-ch11-002
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: No valid recipe or successful remedy established; nearby portrait taunt
+    is not reliable portrait behaviour evidence.
+- id: cc-p1-a1-s04-006
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 4: TRANSITION SCENE'
+  part: 1
+  act: 1
+  scene: 4
+  scene_id: CC-P1-A1-S04
+  chapter_start_pdf_page: 24
+  chapter_end_pdf_page: 30
+  pdf_page: 28
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1599:1628; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HARRY
+    end_phrase: HARRY
+    local_occurrence_note: Name anchor at normalized page offset 1557; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1599
+    char_end: 1628
+    text_sha256: 00c4f8275268552af873d33206d16b33e3b4ad67e28e7b54ebb8745db20c22a6
+  nearby_context: Complete pp. 24–30 read. Montage covers ordinary years, not altered
+    time. Retained school practices; portrait insult is not established portrait behaviour.
+  match_terms:
+  - hogsmeade
+  - permission-form
+  - third-year
+  quote_excerpt_short: null
+  source_note: At the start of third year Harry gives Albus a Hogsmeade permission
+    form; the next page says Albus has not yet visited and links the outing with Honeydukes.
+  speaker: Harry Potter; Albus
+  evidence_mode: dialogue_claim
+  reference_type: school_rule_or_policy
+  era_classification: post_1984_excluded_from_original
+  historical_period: Start of third year, 2019
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: The participants learn or report this in the depicted primary
+    scene; earlier knowledge is not established.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: primary
+  timeline_detail: Primary chronology before any intervention in the past.
+  topic_tags:
+  - hogsmeade
+  - permission-form
+  - third-year
+  - cursed-child
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Third-year Hogsmeade permission
+  candidate_section: Third-year Hogsmeade permission
+  reason_for_placement: Research candidate for Third-year Hogsmeade permission; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - gof-ch12-005
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations:
+  - scene_id: CC-P1-A1-S04
+    pdf_page: 29
+    timeline: primary
+    timeline_detail: Primary chronology before any intervention in the past.
+    note: Permission-form conversation continues.
+  confidence: high
+  limitations: Does not provide the full eligibility, signature or supervision rules.
+- id: cc-p1-a1-s04-007
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 4: TRANSITION SCENE'
+  part: 1
+  act: 1
+  scene: 4
+  scene_id: CC-P1-A1-S04
+  chapter_start_pdf_page: 24
+  chapter_end_pdf_page: 30
+  pdf_page: 29
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 559:574; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HARRY
+    end_phrase: HARRY
+    local_occurrence_note: Name anchor at normalized page offset 532; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 559
+    char_end: 574
+    text_sha256: 5a43ee56f5dd87cff157718bab852a0faf4837b5dc3a85e6df9a5169b7ae3f6d
+  nearby_context: Complete pp. 24–30 read. Montage covers ordinary years, not altered
+    time. Retained school practices; portrait insult is not established portrait behaviour.
+  match_terms:
+  - owl-post
+  - parent-contact
+  - mcgonagall
+  - student-welfare
+  quote_excerpt_short: null
+  source_note: Harry reports exchanging owls with McGonagall about Albus's isolation,
+    poor cooperation in lessons and surliness.
+  speaker: Harry Potter
+  evidence_mode: dialogue_claim
+  reference_type: institutional_custom
+  era_classification: post_1984_excluded_from_original
+  historical_period: Start of third year, 2019
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: The participants learn or report this in the depicted primary
+    scene; earlier knowledge is not established.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: primary
+  timeline_detail: Primary chronology before any intervention in the past.
+  topic_tags:
+  - owl-post
+  - parent-contact
+  - mcgonagall
+  - student-welfare
+  - cursed-child
+  candidate_part: Rules, Discipline, and Governance
+  candidate_chapter: Pastoral and classroom reports
+  candidate_section: Pastoral and classroom reports
+  reason_for_placement: Research candidate for Pastoral and classroom reports; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - cos-ch05-005
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: A parent's summary of correspondence, not the letters or a universal
+    reporting procedure.

@@ -1,0 +1,332 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 11: ROOF OF THE HOGWARTS EXPRESS'
+  scene_id: CC-P1-A1-S11
+  part: 1
+  act: 1
+  scene: 11
+  chapter_start_pdf_page: 49
+  chapter_end_pdf_page: 50
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete pp. 49–50 read. Separated witch's claims, student's dating
+    inference, observed enforcement and relative geography.
+entries:
+- id: cc-p1-a1-s11-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 11: ROOF OF THE HOGWARTS EXPRESS'
+  part: 1
+  act: 1
+  scene: 11
+  scene_id: CC-P1-A1-S11
+  chapter_start_pdf_page: 49
+  chapter_end_pdf_page: 50
+  pdf_page: 49
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1447:1470; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: TROLLEY WITCH
+    end_phrase: TROLLEY WITCH
+    local_occurrence_note: Name anchor at normalized page offset 1344; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1447
+    char_end: 1470
+    text_sha256: 014db01edd01d0316c6907fdcfddb8124e7e71e0b59c485405fd17dbc1d4f657
+  nearby_context: Complete pp. 49–50 read. Separated witch's claims, student's dating
+    inference, observed enforcement and relative geography.
+  match_terms:
+  - hogwarts-express
+  - trolley-witch
+  - ottaline-gambol
+  quote_excerpt_short: null
+  source_note: The Trolley Witch claims Ottaline Gambol personally gave her the job
+    when the Hogwarts Express began.
+  speaker: Trolley Witch
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: pre_1984_historical_candidate
+  historical_period: Undated inception of Express, reported in 2020
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: Speaker claims firsthand experience but cannot remember her
+    own name.
+  bagshot_1984_access: Possibly pre-1984 subject, but no proof Bagshot interviewed
+    the witch or consulted an appointment record by 1984.
+  timeline: remembered_reported_hypothetical
+  timeline_detail: Retrospective claim about the primary past.
+  topic_tags:
+  - hogwarts-express
+  - trolley-witch
+  - ottaline-gambol
+  - cursed-child
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Claimed original appointment
+  reason_for_placement: Research candidate for Claimed original appointment; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Possibly pre-1984 subject, but no proof Bagshot
+    interviewed the witch or consulted an appointment record by 1984.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - ext-a04-004
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: medium
+  limitations: Not independently dated or authenticated; do not treat as the earliest
+    precisely dated scene event.
+- id: cc-p1-a1-s11-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 11: ROOF OF THE HOGWARTS EXPRESS'
+  part: 1
+  act: 1
+  scene: 11
+  scene_id: CC-P1-A1-S11
+  chapter_start_pdf_page: 49
+  chapter_end_pdf_page: 50
+  pdf_page: 50
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 23:41; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 0; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 23
+    char_end: 41
+    text_sha256: fce53eb7f44aa0c6e1182a6f109a730f827ee7bc4e6df80d248038a07141fdf5
+  nearby_context: Complete pp. 49–50 read. Separated witch's claims, student's dating
+    inference, observed enforcement and relative geography.
+  match_terms:
+  - hogwarts-express
+  - trolley-witch
+  - chronology-uncertain
+  quote_excerpt_short: null
+  source_note: Scorpius infers 190 years of service from the witch's account. She
+    replies that she has made over six million Pumpkin Pasties without explicitly
+    confirming his arithmetic.
+  speaker: Scorpius; Trolley Witch
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: unknown_or_uncertain
+  historical_period: Roughly 190-year duration inferred in 2020
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: Scorpius calculates; the witch supplies a separate production
+    claim.
+  bagshot_1984_access: Neither the student's calculation nor Bagshot's access to supporting
+    records by 1984 is established.
+  timeline: remembered_reported_hypothetical
+  timeline_detail: Present interpretation of an alleged old appointment.
+  topic_tags:
+  - hogwarts-express
+  - trolley-witch
+  - chronology-uncertain
+  - cursed-child
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: The Hogwarts Express and School Travel
+  candidate_section: Unverified service duration
+  reason_for_placement: Research candidate for Unverified service duration; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Neither the student's calculation nor Bagshot's
+    access to supporting records by 1984 is established.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - ext-a04-004
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: medium
+  limitations: Do not derive a definitive 1830 founding date or uninterrupted employment;
+    production total is unverified.
+- id: cc-p1-a1-s11-003
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 11: ROOF OF THE HOGWARTS EXPRESS'
+  part: 1
+  act: 1
+  scene: 11
+  scene_id: CC-P1-A1-S11
+  chapter_start_pdf_page: 49
+  chapter_end_pdf_page: 50
+  pdf_page: 50
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 617:632; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: TROLLEY WITCH
+    end_phrase: TROLLEY WITCH
+    local_occurrence_note: Name anchor at normalized page offset 110; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 617
+    char_end: 632
+    text_sha256: e80f91573d0ffc16b2d26fdce9c70417d40904352ddd20151c4b33308ce74163
+  nearby_context: Complete pp. 49–50 read. Separated witch's claims, student's dating
+    inference, observed enforcement and relative geography.
+  match_terms:
+  - hogwarts-express
+  - trolley-witch
+  - sirius-black
+  - fred-and-george
+  quote_excerpt_short: null
+  source_note: The witch claims she has never let anyone leave before the destination
+    and that attempts by Sirius Black's circle and Fred and George failed. She attributes
+    opposition to early departure to the train itself.
+  speaker: Trolley Witch
+  evidence_mode: dialogue_claim
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  historical_period: Undated pre-1984 and Harry-era attempts recounted in 2020
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: The participants learn or report this in the depicted primary
+    scene; earlier knowledge is not established.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: remembered_reported_hypothetical
+  timeline_detail: Reported primary-history journeys before the boys' escape.
+  topic_tags:
+  - hogwarts-express
+  - trolley-witch
+  - sirius-black
+  - fred-and-george
+  - cursed-child
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Claimed anti-escape history
+  candidate_section: Claimed anti-escape history
+  reason_for_placement: Research candidate for Claimed anti-escape history; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: contradiction
+    related_ids:
+    - dh-ch25-007
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: Potential tension with Luna's abduction from the Express. Forced
+      removal may differ from permitted voluntary escape, so this is not a conclusively
+      resolved contradiction.
+  supporting_locations: []
+  confidence: high
+  limitations: Absolute claims belong to the speaker; no exact dates, nature of the
+    train's will, or complete records supplied.
+- id: cc-p1-a1-s11-004
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 11: ROOF OF THE HOGWARTS EXPRESS'
+  part: 1
+  act: 1
+  scene: 11
+  scene_id: CC-P1-A1-S11
+  chapter_start_pdf_page: 49
+  chapter_end_pdf_page: 50
+  pdf_page: 50
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 743:760; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: TROLLEY WITCH
+    end_phrase: TROLLEY WITCH
+    local_occurrence_note: Name anchor at normalized page offset 703; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 743
+    char_end: 760
+    text_sha256: e377c0784c8bf7b51bbe3051a0d6c484ec7482baf71d95f88ad97fa044f7de6d
+  nearby_context: Complete pp. 49–50 read. Separated witch's claims, student's dating
+    inference, observed enforcement and relative geography.
+  match_terms:
+  - hogwarts-express
+  - trolley-witch
+  - defensive-magic
+  - cushioning-charm
+  quote_excerpt_short: null
+  source_note: On the roof the witch makes a Pumpkin Pasty explode and transforms
+    her hands into spikes while ordering the boys back to their seats. They jump toward
+    water, invoking a Cushioning Charm.
+  speaker: Stage directions; Albus; Scorpius
+  evidence_mode: stage_direction
+  reference_type: security_or_protection
+  era_classification: post_1984_excluded_from_original
+  historical_period: 2020 fourth-year departure
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: The participants learn or report this in the depicted primary
+    scene; earlier knowledge is not established.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: primary
+  timeline_detail: Primary chronology before any intervention in the past.
+  topic_tags:
+  - hogwarts-express
+  - trolley-witch
+  - defensive-magic
+  - cushioning-charm
+  - cursed-child
+  candidate_part: Protective Magic and Security
+  candidate_chapter: Observed enforcement and evasion
+  candidate_section: Observed enforcement and evasion
+  reason_for_placement: Research candidate for Observed enforcement and evasion; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Does not establish the witch's species, construction, immortality or
+    enchantment's origin; landing is not shown here.

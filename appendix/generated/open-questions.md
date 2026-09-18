@@ -446,6 +446,9 @@ Source data: sources YAML + project-control indexes + structured source data.
 ## Generated From Low-Confidence Entries
 
 - `dh-ch22-004` (Chapter Twenty-Two - The Deathly Hallows): The Snitch does not open in this chapter, so the Stone placement remains a character inference here.
+- `cc-p1-a1-s11-002` (Part 1, Act 1, Scene 11: ROOF OF THE HOGWARTS EXPRESS): Do not derive a definitive 1830 founding date or uninterrupted employment; production total is unverified.
+- `cc-p2-a3-s16-002` (Part 2, Act 3, Scene 16: HOGWARTS, OWLERY): A question by a deceptive outsider, not confirmation by a pupil or teacher that Augureys are taught; preserve as uncertain curricular lead. The boys do not confirm it; no actual class or syllabus is shown. Editorial review required.
+- `cc-p2-a4-s10-002` (Part 2, Act 4, Scene 10: GODRIC’S HOLLOW, ST. JEROME’S CHURCH, 1981): Explicitly tentative; neither a confirmed inventory nor evidence that she taught or researched Polyjuice.
 - `ext-b01-005` (None): Preservation transcription (authority D), not an official first-party page; the answer is deliberately incomplete in 2000 and points readers to a then-unpublished Book VII explanation.
 - `ext-b01-006` (None): Preservation transcription (authority D), not an official first-party page; this is a concise 2000 planning-era answer, not a published in-universe institutional source.
 - `ext-b04-004` (None): Authority D preservation transcription; Rowling explicitly qualifies the answer as from memory, and the transcript supplies no subject list or documentary confirmation.

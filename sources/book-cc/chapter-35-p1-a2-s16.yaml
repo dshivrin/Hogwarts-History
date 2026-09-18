@@ -1,0 +1,338 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 16: HOGWARTS, LIBRARY'
+  scene_id: CC-P1-A2-S16
+  part: 1
+  act: 2
+  scene: 16
+  chapter_start_pdf_page: 111
+  chapter_end_pdf_page: 116
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+entries:
+- id: cc-p1-a2-s16-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 16: HOGWARTS, LIBRARY'
+  part: 1
+  act: 2
+  scene: 16
+  scene_id: CC-P1-A2-S16
+  chapter_start_pdf_page: 111
+  chapter_end_pdf_page: 116
+  pdf_page: 111
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 979:998; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 945; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 979
+    char_end: 998
+    text_sha256: cbbe58eb3c6a8a2987c8f8e8f009cdd498e8ef18b01f69aa45da0aebafab494b
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - rita-skeeter
+  - yule-ball
+  - triwizard-tournament
+  - library
+  quote_excerpt_short: null
+  source_note: 'Scorpius identifies a book by Rita Skeeter as the source for altered
+    Yule Ball history: Ron escorted Hermione as a friend. The scene recalls that each
+    champion brought a partner.'
+  speaker: Scorpius
+  evidence_mode: dialogue_claim
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  historical_period: 1994 Yule Ball remembered and read about in first altered present
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Scorpius supplies the account; knowledge is limited to this
+    timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - rita-skeeter
+  - yule-ball
+  - triwizard-tournament
+  - library
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Library, Books, and Scholarship
+  candidate_section: Comparing written accounts across changed timelines
+  reason_for_placement: Research candidate for Comparing written accounts across changed
+    timelines; retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Title is not supplied; causal explanation on the following page is
+    Scorpius’s reconstruction. Primary recollection must remain separate from rewritten
+    book content.
+- id: cc-p1-a2-s16-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 16: HOGWARTS, LIBRARY'
+  part: 1
+  act: 2
+  scene: 16
+  scene_id: CC-P1-A2-S16
+  chapter_start_pdf_page: 111
+  chapter_end_pdf_page: 116
+  pdf_page: 112
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1150:1173; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 1076; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1150
+    char_end: 1173
+    text_sha256: 997d194de1201a7103b746530b896426f0e9048083b91ebddcc90cfceb82bcd4
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - time-travel
+  - scholarship
+  - croaker
+  quote_excerpt_short: null
+  source_note: Scorpius cites Croaker’s five-hour limit as the threshold beyond which
+    backward time travel risks harm to traveler or time.
+  speaker: Scorpius
+  evidence_mode: dialogue_claim
+  reference_type: explicit_in_universe_source
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Scorpius supplies the account; knowledge is limited to this
+    timeline and stated testimony.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - time-travel
+  - scholarship
+  - croaker
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Library, Books, and Scholarship
+  candidate_section: Time-travel scholarship used by pupils
+  reason_for_placement: Research candidate for Time-travel scholarship used by pupils;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: No particular book or school curricular status is given; retained as
+    cited scholarship directly bearing on altered Hogwarts history, not a school rule.
+- id: cc-p1-a2-s16-003
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 16: HOGWARTS, LIBRARY'
+  part: 1
+  act: 2
+  scene: 16
+  scene_id: CC-P1-A2-S16
+  chapter_start_pdf_page: 111
+  chapter_end_pdf_page: 116
+  pdf_page: 112
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1034:1043; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: ALBUS
+    end_phrase: ALBUS
+    local_occurrence_note: Name anchor at normalized page offset 997; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1034
+    char_end: 1043
+    text_sha256: 4a8d5e40943f43b26d2729014ad80bca9ade181a0917ddf39c20e56582dcc471
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - library
+  - librarian
+  - school-customs
+  quote_excerpt_short: null
+  source_note: A librarian tells the boys to be quiet, following another pupil’s similar
+    demand on the preceding page.
+  speaker: Librarian; stage directions
+  evidence_mode: stage_direction
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Directly shown to the audience; characters present can observe
+    the event.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - library
+  - librarian
+  - school-customs
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: The Library, Books, and Scholarship
+  candidate_section: Quiet enforced in the library
+  reason_for_placement: Research candidate for Quiet enforced in the library; retain
+    source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - cos-ch11-005
+    notes: Library conduct supervision is indexed already. This scene adds an explicit
+      quiet request in an altered library. The existing entry supports supervision,
+      not a documented wording of a universal silence rule.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Later dramatic evidence; no date of institutional introduction or general
+    policy is established.
+- id: cc-p1-a2-s16-004
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 2, Scene 16: HOGWARTS, LIBRARY'
+  part: 1
+  act: 2
+  scene: 16
+  scene_id: CC-P1-A2-S16
+  chapter_start_pdf_page: 111
+  chapter_end_pdf_page: 116
+  pdf_page: 114
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 635:649; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: PROFESSOR McGONAGALL
+    end_phrase: PROFESSOR McGONAGALL
+    local_occurrence_note: Name anchor at normalized page offset 589; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 635
+    char_end: 649
+    text_sha256: cba9c4f507b356bb84e4f7d047fd9442e77f08552da471ba4441062ce644dd57
+  nearby_context: Complete scene read in sequence; relevant concrete institutional
+    evidence retained; personal dialogue and plot mechanics omitted.
+  match_terms:
+  - marauders-map
+  - invisibility-cloak
+  - bullying
+  - headmistress-authority
+  quote_excerpt_short: null
+  source_note: McGonagall locates the hidden boys with the map despite their Invisibility
+    Cloak and then deliberately lets them pass, choosing not to enforce their separation.
+    Albus says he also uses the Cloak to avoid bullies.
+  speaker: Stage directions; Albus
+  evidence_mode: stage_direction
+  reference_type: security_or_protection
+  era_classification: later_editorial_note
+  historical_period: Post-2017 school generation; approximately 2020, subject to the
+    script’s relative dating
+  information_available: Available to the stated witness in this scene; publication
+    and wider circulation are not established.
+  character_knowledge: Directly shown to the audience; characters present can observe
+    the event.
+  bagshot_1984_access: Not available to a 1984 author from this later event or testimony.
+    Earlier existence alone would not establish Bagshot’s access.
+  timeline: altered
+  timeline_detail: First altered present created by the 1994 first-task intervention;
+    Ron married Padma and Hermione teaches at Hogwarts. Not primary-timeline evidence.
+  topic_tags:
+  - marauders-map
+  - invisibility-cloak
+  - bullying
+  - headmistress-authority
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Rules, Discipline, and Governance
+  candidate_section: Tracking concealment and discretionary non-enforcement
+  reason_for_placement: Research candidate for Tracking concealment and discretionary
+    non-enforcement; retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: Not available to a 1984 author from this later
+    event or testimony. Earlier existence alone would not establish Bagshot’s access.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - ext-a11-002
+    - gof-ch25-001
+    notes: Similarity is limited to the identified institutional background; altered
+      outcomes remain separate.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Distinct altered-world incident; map tracking does not make the boys
+    visually visible through the Cloak.

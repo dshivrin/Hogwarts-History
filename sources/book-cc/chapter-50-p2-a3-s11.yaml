@@ -1,0 +1,178 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 11: HOGWARTS, SLYTHERIN DORMITORY'
+  scene_id: CC-P2-A3-S11
+  part: 2
+  act: 3
+  scene: 11
+  chapter_start_pdf_page: 158
+  chapter_end_pdf_page: 159
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+entries:
+- id: cc-p2-a3-s11-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 11: HOGWARTS, SLYTHERIN DORMITORY'
+  part: 2
+  act: 3
+  scene: 11
+  scene_id: CC-P2-A3-S11
+  chapter_start_pdf_page: 158
+  chapter_end_pdf_page: 159
+  pdf_page: 158
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 322:352; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: ALBUS
+    end_phrase: ALBUS
+    local_occurrence_note: Name anchor at normalized page offset 207; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 322
+    char_end: 352
+    text_sha256: 0ba1fe347d879b56b9c0a6edfead4ebd73af42aafae2df31f5dc426a427b2e97
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - merpeople
+  - black-lake
+  - school-search
+  quote_excerpt_short: null
+  source_note: Harry reports negotiations with the merpeople to dredge the lake in
+    the search for the Time-Turner, adding a later example of consultation over school
+    waters.
+  speaker: Harry Potter
+  evidence_mode: dialogue_claim
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  historical_period: Albus Potter school years, fourth-year crisis
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: primary
+  timeline_detail: Restored primary timeline after reversal of the first two Triwizard
+    interventions.
+  topic_tags:
+  - merpeople
+  - black-lake
+  - school-search
+  - cursed-child
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: Lake Ecology, Merpeople, and Dangerous Water Creatures
+  candidate_section: 'Lake Ecology, Merpeople, and Dangerous Water Creatures: Negotiation
+    over lake searches'
+  reason_for_placement: 'Research candidate for Lake Ecology, Merpeople, and Dangerous
+    Water Creatures: Negotiation over lake searches; retain source mode and timeline
+    before any editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - gof-ch26-007
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Negotiation is reported; agreement and actual dredging are not established.
+    Identity of the negotiating authority is unspecified.
+- id: cc-p2-a3-s11-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 11: HOGWARTS, SLYTHERIN DORMITORY'
+  part: 2
+  act: 3
+  scene: 11
+  scene_id: CC-P2-A3-S11
+  chapter_start_pdf_page: 158
+  chapter_end_pdf_page: 159
+  pdf_page: 158
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 429:448; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: ALBUS
+    end_phrase: ALBUS
+    local_occurrence_note: Name anchor at normalized page offset 422; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 429
+    char_end: 448
+    text_sha256: a3480def024f8a076484907d084dcc685259e507323e22d5f5243bbd356b2208
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - slytherin-common-room
+  - house-dormitories
+  - house-colors
+  quote_excerpt_short: null
+  source_note: Albus describes his Slytherin room as green and contrasts Gryffindor
+    rooms’ red decoration. Harry visits after thanking Albus for permission.
+  speaker: Albus Potter
+  evidence_mode: dialogue_claim
+  reference_type: direct_observed_setting
+  era_classification: later_editorial_note
+  historical_period: Albus Potter school years, fourth-year crisis
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: primary
+  timeline_detail: Restored primary timeline after reversal of the first two Triwizard
+    interventions.
+  topic_tags:
+  - slytherin-common-room
+  - house-dormitories
+  - house-colors
+  - cursed-child
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: House Common Rooms and Dormitories
+  candidate_section: 'House Common Rooms and Dormitories: Slytherin room color'
+  reason_for_placement: 'Research candidate for House Common Rooms and Dormitories:
+    Slytherin room color; retain source mode and timeline before any editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - cos-ch12-005
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Color testimony applies to rooms; humorous assertions about psychological
+    effects are not factual architectural evidence. Does not establish the full formal
+    access procedure.

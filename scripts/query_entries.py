@@ -64,6 +64,10 @@ def query(root: Path, args: argparse.Namespace) -> dict:
                 "output_yaml": row.get("output_yaml"),
             }
         )
+        if row.get("scene_id"):
+            for key in ("scene_id", "pdf_page", "timeline", "timeline_detail", "evidence_mode"):
+                rows[-1][key] = row.get(key)
+
     return {
         "query": {
             "tag": args.tag,

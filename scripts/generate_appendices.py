@@ -221,7 +221,7 @@ def generate_source_index() -> str:
 
 def external_source_label(entry: dict) -> str | None:
     source_id = entry.get("source_id")
-    if not source_id:
+    if not source_id or entry.get("scene_id"):
         return None
     title = entry.get("_source_title") or "Untitled external source"
     return f"{source_id} — {title}"
@@ -229,7 +229,10 @@ def external_source_label(entry: dict) -> str | None:
 
 def entry_label(entry: dict) -> str:
     external_label = external_source_label(entry)
-    if external_label:
+    if entry.get("scene_id"):
+        location = (f"{entry.get('_book')}, {entry['scene_id']}, PDF p. {entry.get('pdf_page')}; "
+                    f"{entry.get('timeline')}: {entry.get('timeline_detail')}")
+    elif external_label:
         location = external_label.replace(" — ", ", ", 1)
     else:
         location = f"{entry.get('_book')}, {entry.get('_chapter')}"

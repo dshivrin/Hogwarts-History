@@ -101,6 +101,10 @@ def query_candidates(
             }
         )
 
+        if entry.get("scene_id"):
+            for key in ("scene_id", "pdf_page", "timeline", "timeline_detail", "evidence_mode"):
+                matches[-1][key] = entry.get(key)
+
     matches.sort(key=lambda row: (-int(row["score"]), str(row["entry_id"])))
     return {
         "query": {

@@ -1,0 +1,101 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 8: EDGE OF THE FORBIDDEN FOREST, 1994'
+  scene_id: CC-P2-A3-S08
+  part: 2
+  act: 3
+  scene: 8
+  chapter_start_pdf_page: 149
+  chapter_end_pdf_page: 149
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+entries:
+- id: cc-p2-a3-s08-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 8: EDGE OF THE FORBIDDEN FOREST, 1994'
+  part: 2
+  act: 3
+  scene: 8
+  scene_id: CC-P2-A3-S08
+  chapter_start_pdf_page: 149
+  chapter_end_pdf_page: 149
+  pdf_page: 149
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1046:1062; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HERMIONE
+    end_phrase: HERMIONE
+    local_occurrence_note: Name anchor at normalized page offset 837; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1046
+    char_end: 1062
+    text_sha256: 11a62d07d874c86996fd3aa456fdebba10629bc5f4f74793e3f60303d69af47d
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - first-task
+  - transfiguration
+  - cedric-diggory
+  - triwizard-tournament
+  quote_excerpt_short: null
+  source_note: The replayed 1994 task shows Cedric confronting the dragon and Bagman
+    announcing his stone-to-dog Transfiguration after Hermione blocks Albus’s interference.
+  speaker: Ludo Bagman
+  evidence_mode: dialogue_claim
+  reference_type: institutional_custom
+  era_classification: later_editorial_note
+  historical_period: '1994'
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: historical_visit
+  timeline_detail: 1994 first-task repair visit from Voldemort-victory branch.
+  topic_tags:
+  - first-task
+  - transfiguration
+  - cedric-diggory
+  - triwizard-tournament
+  - cursed-child
+  candidate_part: The Castle and Its Grounds
+  candidate_chapter: Triwizard Tournament
+  candidate_section: 'Triwizard Tournament: First-task technique'
+  reason_for_placement: 'Research candidate for Triwizard Tournament: First-task technique;
+    retain source mode and timeline before any editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids:
+    - gof-ch20-006
+    notes: The inspected indexed first-task record supports Cedric’s dragon context
+      but does not itself index the stone-to-dog technique. Do not invent an exact
+      duplicate ID for that technique. Merge repeated recalled technique from Act
+      2 scene 4 only with separate provenance for recalled primary history versus
+      repair intervention.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Historical visit includes time-travel interference and its repair;
+    preserve the framing rather than silently treating as an untouched 1994 transcript.

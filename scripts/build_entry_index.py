@@ -78,7 +78,7 @@ def build_indexes() -> tuple[dict, dict]:
         chapter_number = chapter_number_from_path(path)
         rel_path = path.relative_to(ROOT).as_posix()
         source_kind = source_unit.get("source_kind") or "book_pdf"
-        source_id = source_unit.get("source_id") or source_unit_id(path, chapter_number)
+        source_id = source_unit.get("scene_id") or source_unit.get("source_id") or source_unit_id(path, chapter_number)
         explicit_count = sum(
             1
             for entry in entries
@@ -115,6 +115,9 @@ def build_indexes() -> tuple[dict, dict]:
                 }
             )
         processed_units.append(unit_row)
+        if source_unit.get("scene_id"):
+            for key in ("source_id", "source_kind", "source_class", "scene_id", "part", "act", "scene"):
+                unit_row[key] = source_unit.get(key)
 
         for entry in entries:
             if not isinstance(entry, dict) or not entry.get("id"):
@@ -132,6 +135,9 @@ def build_indexes() -> tuple[dict, dict]:
             }
             for tag in tags:
                 by_tag[tag].append(entry_id)
+            if entry.get("scene_id"):
+                for key in ("source_id", "scene_id", "pdf_page", "timeline", "timeline_detail", "evidence_mode"):
+                    by_entry[entry_id][key] = entry.get(key)
 
     entry_index = {
         "version": 1,

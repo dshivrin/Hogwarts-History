@@ -1,0 +1,324 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 1: HOGWARTS, HEADMISTRESS’S OFFICE'
+  scene_id: CC-P2-A3-S01
+  part: 2
+  act: 3
+  scene: 1
+  chapter_start_pdf_page: 132
+  chapter_end_pdf_page: 133
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+entries:
+- id: cc-p2-a3-s01-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 1: HOGWARTS, HEADMISTRESS’S OFFICE'
+  part: 2
+  act: 3
+  scene: 1
+  scene_id: CC-P2-A3-S01
+  chapter_start_pdf_page: 132
+  chapter_end_pdf_page: 133
+  pdf_page: 132
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 369:387; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: UMBRIDGE
+    end_phrase: UMBRIDGE
+    local_occurrence_note: Name anchor at normalized page offset 306; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 369
+    char_end: 387
+    text_sha256: 2583dd4c8d6f3e53359f5f664b280604efadb6da4003e77117075dc8bde649e2
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - dolores-umbridge
+  - head-boy
+  - blood-status
+  - school-governance
+  quote_excerpt_short: null
+  source_note: Umbridge is headmistress in the altered world. She treats pure blood,
+    leadership and athletic success as reasons for Scorpius to become Head Boy and
+    praises their joint removal of disfavored students; she reports his value to the
+    Augurey.
+  speaker: Dolores Umbridge
+  evidence_mode: dialogue_claim
+  reference_type: school_rule_or_policy
+  era_classification: post_1984_excluded_from_original
+  historical_period: Albus Potter school years, fourth-year crisis
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: altered
+  timeline_detail: Voldemort-victory branch produced by humiliating Cedric in the
+    first two tasks; excluded from primary history.
+  topic_tags:
+  - dolores-umbridge
+  - head-boy
+  - blood-status
+  - school-governance
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Altered Hogwarts
+  candidate_section: 'Altered Hogwarts: Leadership and blood-purity governance'
+  reason_for_placement: 'Research candidate for Altered Hogwarts: Leadership and blood-purity
+    governance; retain source mode and timeline before any editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Scene-specific evidence; does not establish an enduring schoolwide
+    practice or pre-1984 origin.
+- id: cc-p2-a3-s01-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 1: HOGWARTS, HEADMISTRESS’S OFFICE'
+  part: 2
+  act: 3
+  scene: 1
+  scene_id: CC-P2-A3-S01
+  chapter_start_pdf_page: 132
+  chapter_end_pdf_page: 133
+  pdf_page: 132
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 552:567; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: UMBRIDGE
+    end_phrase: UMBRIDGE
+    local_occurrence_note: Name anchor at normalized page offset 489; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 552
+    char_end: 567
+    text_sha256: 6e9da2e388b648d1d6726fa9101aeed4ec4dedd5b2c978c17474f6d2754284d5
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - quidditch
+  - golden-snitch
+  quote_excerpt_short: null
+  source_note: Umbridge praises Scorpius as a frequent Snitch catcher on the Quidditch
+    pitch, showing that school Quidditch survives under this regime.
+  speaker: Dolores Umbridge
+  evidence_mode: dialogue_claim
+  reference_type: institutional_custom
+  era_classification: post_1984_excluded_from_original
+  historical_period: Albus Potter school years, fourth-year crisis
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: altered
+  timeline_detail: Voldemort-victory branch produced by humiliating Cedric in the
+    first two tasks; excluded from primary history.
+  topic_tags:
+  - quidditch
+  - golden-snitch
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Altered Hogwarts
+  candidate_section: 'Altered Hogwarts: Quidditch'
+  reason_for_placement: 'Research candidate for Altered Hogwarts: Quidditch; retain
+    source mode and timeline before any editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Scene-specific evidence; does not establish an enduring schoolwide
+    practice or pre-1984 origin.
+- id: cc-p2-a3-s01-003
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 1: HOGWARTS, HEADMISTRESS’S OFFICE'
+  part: 2
+  act: 3
+  scene: 1
+  scene_id: CC-P2-A3-S01
+  chapter_start_pdf_page: 132
+  chapter_end_pdf_page: 133
+  pdf_page: 132
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1417:1433; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: UMBRIDGE
+    end_phrase: UMBRIDGE
+    local_occurrence_note: Name anchor at normalized page offset 1230; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1417
+    char_end: 1433
+    text_sha256: 6e5a25527a87f6dd950ab4a247727f014783473802225c740adc9441432cab18
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - student-welfare
+  - hexes
+  - curses
+  quote_excerpt_short: null
+  source_note: Umbridge reports that school authorities checked Scorpius for hexes
+    and curses after his behavior changed, without finding any.
+  speaker: Dolores Umbridge
+  evidence_mode: dialogue_claim
+  reference_type: security_or_protection
+  era_classification: post_1984_excluded_from_original
+  historical_period: Albus Potter school years, fourth-year crisis
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: altered
+  timeline_detail: Voldemort-victory branch produced by humiliating Cedric in the
+    first two tasks; excluded from primary history.
+  topic_tags:
+  - student-welfare
+  - hexes
+  - curses
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Altered Hogwarts
+  candidate_section: 'Altered Hogwarts: Investigation of changed behavior'
+  reason_for_placement: 'Research candidate for Altered Hogwarts: Investigation of
+    changed behavior; retain source mode and timeline before any editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Scene-specific evidence; does not establish an enduring schoolwide
+    practice or pre-1984 origin.
+- id: cc-p2-a3-s01-004
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 1: HOGWARTS, HEADMISTRESS’S OFFICE'
+  part: 2
+  act: 3
+  scene: 1
+  scene_id: CC-P2-A3-S01
+  chapter_start_pdf_page: 132
+  chapter_end_pdf_page: 133
+  pdf_page: 133
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 231:254; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: UMBRIDGE
+    end_phrase: UMBRIDGE
+    local_occurrence_note: Name anchor at normalized page offset 221; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 231
+    char_end: 254
+    text_sha256: a97b5b4ae9dd1c908d05f8437c278de6e30d54a6bab7d2771fb7d04ce9431964
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - dolores-umbridge
+  - political-ritual
+  quote_excerpt_short: null
+  source_note: Umbridge makes a hand-to-heart and wrists-together gesture with the
+    regime salute; Scorpius imitates her during an official school meeting.
+  speaker: 'Stage directions: Umbridge and Scorpius'
+  evidence_mode: stage_direction
+  reference_type: institutional_custom
+  era_classification: post_1984_excluded_from_original
+  historical_period: Albus Potter school years, fourth-year crisis
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: altered
+  timeline_detail: Voldemort-victory branch produced by humiliating Cedric in the
+    first two tasks; excluded from primary history.
+  topic_tags:
+  - dolores-umbridge
+  - political-ritual
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Altered Hogwarts
+  candidate_section: 'Altered Hogwarts: Ideological ritual'
+  reason_for_placement: 'Research candidate for Altered Hogwarts: Ideological ritual;
+    retain source mode and timeline before any editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Scene-specific evidence; does not establish an enduring schoolwide
+    practice or pre-1984 origin.

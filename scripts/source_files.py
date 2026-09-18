@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+import re
 
 
 def discover_source_yaml(root: Path) -> list[Path]:
@@ -11,4 +12,17 @@ def discover_source_yaml(root: Path) -> list[Path]:
     sources = Path(root) / "sources"
     paths = set(sources.glob("book-*/*.yaml"))
     paths.update(sources.glob("external/**/*.yaml"))
-    return sorted(path for path in paths if path.is_file())
+    result = []
+    for path in sorted(paths):
+        if not path.is_file():
+            continue
+        # Preserve numbered filesystem copies on disk, but do not count an
+        # exactly identical copy as a second source. Divergent copies remain
+        # visible so the canonical validator rejects them for human review.
+        match = re.fullmatch(r"(chapter-\d{2}-[a-z0-9-]+) (\d+)\.yaml", path.name)
+        if match and int(match[2]) >= 2:
+            original = path.with_name(match[1] + ".yaml")
+            if original.is_file() and original.read_bytes() == path.read_bytes():
+                continue
+        result.append(path)
+    return result

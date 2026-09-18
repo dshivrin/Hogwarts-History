@@ -1,0 +1,95 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 6: HARRY AND GINNY POTTER’S HOUSE, ALBUS’S ROOM'
+  scene_id: CC-P2-A4-S06
+  part: 2
+  act: 4
+  scene: 6
+  chapter_start_pdf_page: 204
+  chapter_end_pdf_page: 206
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Read pp204–206. Retain memorial terminology; message-burning is
+    private time-travel plot and not evidence of castle infrastructure.
+entries:
+- id: cc-p2-a4-s06-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 6: HARRY AND GINNY POTTER’S HOUSE, ALBUS’S ROOM'
+  part: 2
+  act: 4
+  scene: 6
+  scene_id: CC-P2-A4-S06
+  chapter_start_pdf_page: 204
+  chapter_end_pdf_page: 206
+  pdf_page: 204
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1136:1148; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HARRY
+    end_phrase: HARRY
+    local_occurrence_note: Name anchor at normalized page offset 950; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1136
+    char_end: 1148
+    text_sha256: cd976ef59bfc479d2094021a49cd28cbdd2e067c482709729604b0c8aa5f2c1d
+  nearby_context: Read pp204–206. Retain memorial terminology; message-burning is
+    private time-travel plot and not evidence of castle infrastructure.
+  match_terms:
+  - battle-of-hogwarts
+  - casualties
+  - public-memory
+  quote_excerpt_short: null
+  source_note: Harry uses the collective memorial designation Fallen Fifty while grieving
+    people killed by Voldemort.
+  speaker: Harry
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: later_editorial_note
+  historical_period: Retrospective postwar remembrance, not 1984
+  information_available: Stated or shown only in this later script; no contemporary
+    pre-1984 record is supplied.
+  character_knowledge: The named speaker or staged observer has this knowledge in
+    the scene; no transmission to Bagshot is shown.
+  bagshot_1984_access: No evidence of availability to Bagshot by 1984.
+  timeline: primary
+  timeline_detail: Restored primary present
+  topic_tags:
+  - battle-of-hogwarts
+  - casualties
+  - public-memory
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: 'Cursed Child: Later School Life and Historical Sources'
+  candidate_section: Later remembrance of wartime dead
+  reason_for_placement: Research candidate for Later remembrance of wartime dead;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No evidence of availability to Bagshot by 1984.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - dh-ch33-001
+    - dh-ch34-001
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: The phrase is a memorial designation, not a supplied roster or an independently
+    audited total of every wartime death.

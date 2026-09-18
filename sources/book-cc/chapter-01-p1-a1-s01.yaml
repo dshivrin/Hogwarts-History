@@ -1,0 +1,101 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 1: KING’S CROSS'
+  scene_id: CC-P1-A1-S01
+  part: 1
+  act: 1
+  scene: 1
+  chapter_start_pdf_page: 14
+  chapter_end_pdf_page: 15
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete pp. 14–15 read. Retained barrier; excluded unreliable
+    sibling joke about letter frequency.
+entries:
+- id: cc-p1-a1-s01-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 1, Act 1, Scene 1: KING’S CROSS'
+  part: 1
+  act: 1
+  scene: 1
+  scene_id: CC-P1-A1-S01
+  chapter_start_pdf_page: 14
+  chapter_end_pdf_page: 15
+  pdf_page: 14
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 1111:1133; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: GINNY
+    end_phrase: GINNY
+    local_occurrence_note: Name anchor at normalized page offset 1056; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 1111
+    char_end: 1133
+    text_sha256: dbf4ca1a894e569297322d43b5204ccf6c516e42413c67561ed45270c9ebf890
+  nearby_context: Complete pp. 14–15 read. Retained barrier; excluded unreliable sibling
+    joke about letter frequency.
+  match_terms:
+  - platform-nine-and-three-quarters
+  - magical-barrier
+  - school-travel
+  quote_excerpt_short: null
+  source_note: Ginny directs Albus through the wall between platforms nine and ten;
+    the family runs through the barrier on the next page.
+  speaker: Ginny; stage directions
+  evidence_mode: dialogue_claim
+  reference_type: magical_architecture
+  era_classification: post_1984_excluded_from_original
+  historical_period: 2017 departure
+  information_available: This later dramatic source provides the stated evidence;
+    its availability does not establish earlier historical access.
+  character_knowledge: The participants learn or report this in the depicted primary
+    scene; earlier knowledge is not established.
+  bagshot_1984_access: No demonstrated access by Bagshot by 1984; post-1984 events
+    require later editorial treatment.
+  timeline: primary
+  timeline_detail: Primary chronology before any intervention in the past.
+  topic_tags:
+  - platform-nine-and-three-quarters
+  - magical-barrier
+  - school-travel
+  - cursed-child
+  candidate_part: Magical Architecture and Enchantments
+  candidate_chapter: Platform barrier access
+  candidate_section: Platform barrier access
+  reason_for_placement: Research candidate for Platform barrier access; retain source
+    mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No demonstrated access by Bagshot by 1984; post-1984
+    events require later editorial treatment.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - cos-ch05-001
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations:
+  - scene_id: CC-P1-A1-S01
+    pdf_page: 15
+    timeline: primary
+    timeline_detail: Primary chronology before any intervention in the past.
+    note: Family crosses the barrier.
+  confidence: high
+  limitations: Does not establish the origin date or universal application of this
+    practice.

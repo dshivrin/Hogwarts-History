@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-09-16'
+updated: '2026-09-17'
 tags:
   '1402':
     entries:
@@ -49,6 +49,8 @@ tags:
     - sources/external/official-rowling/a25-time-turner.yaml
   a-history-of-magic:
     entries:
+    - cc-p2-a3-s04-002
+    - cc-p2-a4-s03-001
     - dh-ch08-006
     - dh-ch16-003
     - dh-ch16-004
@@ -60,6 +62,8 @@ tags:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-19-the-silver-doe.yaml
+    - sources/book-cc/chapter-43-p2-a3-s04.yaml
+    - sources/book-cc/chapter-63-p2-a4-s03.yaml
     - sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
   abduction:
     entries:
@@ -99,6 +103,7 @@ tags:
     - sources/book-03/chapter-07-the-boggart-in-the-wardrobe.yaml
   academic-progression:
     entries:
+    - cc-p2-a4-s15-001
     - hbp-ch05-006
     - hbp-ch09-001
     - hbp-ch11-001
@@ -112,6 +117,7 @@ tags:
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
+    - sources/book-cc/chapter-75-p2-a4-s15.yaml
   academic-standards:
     entries:
     - ext-b04-004
@@ -210,8 +216,10 @@ tags:
     - sources/book-07/chapter-34-the-forest-again.yaml
   activation-phrase:
     entries:
+    - cc-p1-a2-s18-002
     - ext-a11-003
     output_yaml:
+    - sources/book-cc/chapter-37-p1-a2-s18.yaml
     - sources/external/official-rowling/a11-the-marauder-s-map.yaml
   adapted-technology:
     entries:
@@ -493,6 +501,11 @@ tags:
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
     - sources/book-05/chapter-35-beyond-the-veil.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
+  altered-history:
+    entries:
+    - cc-p1-a2-s14-002
+    output_yaml:
+    - sources/book-cc/chapter-33-p1-a2-s14.yaml
   alumni:
     entries:
     - cos-ch04-003
@@ -570,6 +583,7 @@ tags:
     - sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
   ancient-magic:
     entries:
+    - cc-p1-a1-s04-001
     - ext-f01-002
     - gof-ch20-001
     - gof-ch33-004
@@ -580,6 +594,7 @@ tags:
     - sources/book-04/chapter-33-the-death-eaters.yaml
     - sources/book-05/chapter-37-the-lost-prophecy.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
     - sources/external/official-editorial/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.yaml
   ancient-runes:
     entries:
@@ -1090,6 +1105,11 @@ tags:
     - ext-b25-002
     output_yaml:
     - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
+  augurey:
+    entries:
+    - cc-p2-a3-s16-002
+    output_yaml:
+    - sources/book-cc/chapter-55-p2-a3-s16.yaml
   augustus-worme:
     entries:
     - fb-ch01-001
@@ -1314,6 +1334,7 @@ tags:
     - sources/book-03/chapter-04-the-leaky-cauldron.yaml
   bane:
     entries:
+    - cc-p1-a2-s05-002
     - ootp-ch27-002
     - ootp-ch30-007
     - ootp-ch33-004
@@ -1324,6 +1345,7 @@ tags:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-05/chapter-33-fight-and-flight.yaml
+    - sources/book-cc/chapter-24-p1-a2-s05.yaml
   banishing-charm:
     entries:
     - gof-ch26-001
@@ -1336,9 +1358,11 @@ tags:
     - sources/book-04/chapter-27-padfoot-returns.yaml
   banned-books:
     entries:
+    - cc-p1-a1-s19-001
     - hbp-ch24-005
     output_yaml:
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/book-cc/chapter-19-p1-a1-s19.yaml
   banned-subject:
     entries:
     - dh-ch06-006
@@ -1460,6 +1484,9 @@ tags:
     - sources/book-06/chapter-26-the-cave.yaml
   bathilda-bagshot:
     entries:
+    - cc-p2-a4-s03-001
+    - cc-p2-a4-s05-002
+    - cc-p2-a4-s10-002
     - dh-ch02-002
     - dh-ch08-006
     - dh-ch10-003
@@ -1486,11 +1513,16 @@ tags:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+    - sources/book-cc/chapter-63-p2-a4-s03.yaml
+    - sources/book-cc/chapter-65-p2-a4-s05.yaml
+    - sources/book-cc/chapter-70-p2-a4-s10.yaml
     - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
     - sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
     - sources/book-qtta/chapter-00-front-matter.yaml
   bathroom:
     entries:
+    - cc-p1-a2-s19-001
+    - cc-p1-a2-s19-002
     - cos-ch15-007
     - cos-ch16-006
     - gof-ch25-004
@@ -1498,6 +1530,7 @@ tags:
     - sources/book-02/chapter-15-aragog.yaml
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-cc/chapter-38-p1-a2-s19.yaml
   bathroom-entrance:
     entries:
     - cos-ch17-007
@@ -1521,6 +1554,11 @@ tags:
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
   battle-of-hogwarts:
     entries:
+    - cc-p1-a1-s12-001
+    - cc-p1-a2-s05-001
+    - cc-p1-a2-s20-004
+    - cc-p2-a3-s05-002
+    - cc-p2-a4-s06-001
     - dh-ch30-006
     - dh-ch31-001
     - dh-ch31-004
@@ -1546,6 +1584,11 @@ tags:
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-cc/chapter-12-p1-a1-s12.yaml
+    - sources/book-cc/chapter-24-p1-a2-s05.yaml
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
+    - sources/book-cc/chapter-44-p2-a3-s05.yaml
+    - sources/book-cc/chapter-66-p2-a4-s06.yaml
     - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   beaded-bag:
     entries:
@@ -1636,6 +1679,11 @@ tags:
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
     - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
+  bed-curtains:
+    entries:
+    - cc-p2-a3-s15-002
+    output_yaml:
+    - sources/book-cc/chapter-54-p2-a3-s15.yaml
   bedazzling-hex:
     entries:
     - dh-ch21-004
@@ -1769,9 +1817,11 @@ tags:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
   biography:
     entries:
+    - cc-p2-a4-s05-001
     - dh-ch08-004
     output_yaml:
     - sources/book-07/chapter-08-the-wedding.yaml
+    - sources/book-cc/chapter-65-p2-a4-s05.yaml
   birth-registration:
     entries:
     - hbp-ch13-003
@@ -1813,6 +1863,9 @@ tags:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
   black-lake:
     entries:
+    - cc-p1-a2-s19-005
+    - cc-p1-a2-s20-001
+    - cc-p2-a3-s11-001
     - fb-ch07-004
     - gof-ch15-007
     - gof-ch21-003
@@ -1831,6 +1884,9 @@ tags:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
+    - sources/book-cc/chapter-38-p1-a2-s19.yaml
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
+    - sources/book-cc/chapter-50-p2-a3-s11.yaml
     - sources/book-fb/chapter-07-bestiary-i-to-q.yaml
   black-market-study-aids:
     entries:
@@ -1862,11 +1918,21 @@ tags:
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
+  blood-ball:
+    entries:
+    - cc-p2-a3-s02-001
+    output_yaml:
+    - sources/book-cc/chapter-41-p2-a3-s02.yaml
   blood-magic:
     entries:
     - hbp-ch26-003
     output_yaml:
     - sources/book-06/chapter-26-the-cave.yaml
+  blood-prejudice:
+    entries:
+    - cc-p1-a2-s20-004
+    output_yaml:
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
   blood-protection:
     entries:
     - dh-ch03-001
@@ -1901,6 +1967,8 @@ tags:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   blood-status:
     entries:
+    - cc-p2-a3-s01-001
+    - cc-p2-a3-s02-002
     - cos-ch04-004
     - cos-ch07-003
     - cos-ch09-004
@@ -1924,6 +1992,8 @@ tags:
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
     - sources/book-07/chapter-23-malfoy-manor.yaml
+    - sources/book-cc/chapter-40-p2-a3-s01.yaml
+    - sources/book-cc/chapter-41-p2-a3-s02.yaml
   blood-status-threat:
     entries:
     - cos-ch08-006
@@ -2338,6 +2408,7 @@ tags:
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
   broomsticks:
     entries:
+    - cc-p1-a1-s04-003
     - cos-ch07-002
     - dh-ch04-004
     - hbp-ch01-002
@@ -2357,6 +2428,7 @@ tags:
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-06/chapter-01-the-other-minister.yaml
     - sources/book-07/chapter-04-the-seven-potters.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
   brutus-malfoy:
     entries:
     - beedle-ch01-003
@@ -2364,9 +2436,11 @@ tags:
     - sources/book-beedle/chapter-01-wizard-and-hopping-pot.yaml
   bubble-head-charm:
     entries:
+    - cc-p1-a2-s20-001
     - ootp-ch30-002
     output_yaml:
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
   bubotubers:
     entries:
     - gof-ch13-002
@@ -2402,8 +2476,12 @@ tags:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
   bullying:
     entries:
+    - cc-p1-a2-s16-004
+    - cc-p2-a3-s04-001
     - ext-b11-003
     output_yaml:
+    - sources/book-cc/chapter-35-p1-a2-s16.yaml
+    - sources/book-cc/chapter-43-p2-a3-s04.yaml
     - sources/external/interviews/b11-the-herald-interview.yaml
   bundimuns:
     entries:
@@ -2463,6 +2541,11 @@ tags:
     - gof-ch28-001
     output_yaml:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
+  bylaws:
+    entries:
+    - cc-p1-a2-s19-005
+    output_yaml:
+    - sources/book-cc/chapter-38-p1-a2-s19.yaml
   cadmus-peverell:
     entries:
     - dh-ch21-006
@@ -2513,6 +2596,7 @@ tags:
     entries:
     - beedle-ch02-003
     - beedle-ch02-006
+    - cc-p2-a3-s16-002
     - cos-ch08-003
     - cos-ch14-002
     - ext-a13-001
@@ -2579,6 +2663,7 @@ tags:
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+    - sources/book-cc/chapter-55-p2-a3-s16.yaml
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
     - sources/book-fb/chapter-06-bestiary-d-to-h.yaml
@@ -2682,6 +2767,7 @@ tags:
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
   castle-architecture:
     entries:
+    - cc-p2-a3-s16-001
     - dh-ch29-007
     - dh-ch30-001
     - gof-ch15-001
@@ -2691,6 +2777,7 @@ tags:
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
     - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+    - sources/book-cc/chapter-55-p2-a3-s16.yaml
   castle-boundary:
     entries:
     - hbp-ch27-003
@@ -2749,6 +2836,11 @@ tags:
     - dh-ch27-006
     output_yaml:
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
+  castle-exterior:
+    entries:
+    - cc-p1-a2-s06-001
+    output_yaml:
+    - sources/book-cc/chapter-25-p1-a2-s06.yaml
   castle-floorplan:
     entries:
     - ext-b01-003
@@ -2813,6 +2905,7 @@ tags:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
   castle-navigation:
     entries:
+    - cc-p1-a2-s12-001
     - cos-ch05-006
     - cos-ch12-005
     - dh-ch29-005
@@ -2849,6 +2942,7 @@ tags:
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-cc/chapter-31-p1-a2-s12.yaml
     - sources/external/official-rowling/a07-hufflepuff-common-room.yaml
   castle-plumbing:
     entries:
@@ -2941,11 +3035,13 @@ tags:
     - sources/book-03/chapter-21-hermiones-secret.yaml
   casualties:
     entries:
+    - cc-p2-a4-s06-001
     - dh-ch33-001
     - dh-ch34-001
     output_yaml:
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-cc/chapter-66-p2-a4-s06.yaml
   caterwauling-charm:
     entries:
     - dh-ch28-001
@@ -3002,6 +3098,10 @@ tags:
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
   cedric-diggory:
     entries:
+    - cc-p1-a1-s10-002
+    - cc-p1-a2-s19-003
+    - cc-p2-a3-s05-002
+    - cc-p2-a3-s08-001
     - gof-ch06-004
     - gof-ch16-007
     - gof-ch18-002
@@ -3029,6 +3129,10 @@ tags:
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-05/chapter-12-professor-umbridge.yaml
+    - sources/book-cc/chapter-10-p1-a1-s10.yaml
+    - sources/book-cc/chapter-38-p1-a2-s19.yaml
+    - sources/book-cc/chapter-44-p2-a3-s05.yaml
+    - sources/book-cc/chapter-47-p2-a3-s08.yaml
   cellar:
     entries:
     - dh-ch23-004
@@ -3064,6 +3168,8 @@ tags:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
   centaurs:
     entries:
+    - cc-p1-a2-s05-001
+    - cc-p1-a2-s05-002
     - cos-ch15-003
     - dh-ch36-004
     - dh-ch36-005
@@ -3101,6 +3207,7 @@ tags:
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-cc/chapter-24-p1-a2-s05.yaml
     - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
     - sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
     - sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
@@ -3258,11 +3365,13 @@ tags:
     - sources/book-fb/chapter-09-back-matter.yaml
   charlie-weasley:
     entries:
+    - cc-p1-a2-s07-002
     - poa-ch15-004
     - ps-ch14-005
     output_yaml:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+    - sources/book-cc/chapter-26-p1-a2-s07.yaml
   charms:
     entries:
     - ext-a39-002
@@ -3423,6 +3532,11 @@ tags:
     - beedle-ch02-001
     output_yaml:
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+  chronology-uncertain:
+    entries:
+    - cc-p1-a1-s11-002
+    output_yaml:
+    - sources/book-cc/chapter-11-p1-a1-s11.yaml
   circulation-record:
     entries:
     - qtta-fm-002
@@ -3455,6 +3569,11 @@ tags:
     output_yaml:
     - sources/book-04/chapter-07-bagman-and-crouch.yaml
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
+  classroom-accidents:
+    entries:
+    - cc-p1-a2-s17-001
+    output_yaml:
+    - sources/book-cc/chapter-36-p1-a2-s17.yaml
   classroom-architecture:
     entries:
     - gof-ch29-005
@@ -3472,11 +3591,13 @@ tags:
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
   classroom-discipline:
     entries:
+    - cc-p1-a2-s11-003
     - ootp-ch15-005
     - ps-ch08-007
     output_yaml:
     - sources/book-01/chapter-08-potions-master.yaml
     - sources/book-05/chapter-15-the-hogwarts-high-inquisitor.yaml
+    - sources/book-cc/chapter-30-p1-a2-s11.yaml
   classroom-disruption:
     entries:
     - cos-ch13-003
@@ -3822,6 +3943,11 @@ tags:
     - poa-ch20-001
     output_yaml:
     - sources/book-03/chapter-20-the-dementors-kiss.yaml
+  concealed-routes:
+    entries:
+    - cc-p2-a3-s05-003
+    output_yaml:
+    - sources/book-cc/chapter-44-p2-a3-s05.yaml
   concealed-staircase:
     entries:
     - hbp-ch28-003
@@ -4170,6 +4296,11 @@ tags:
     - ext-a41-003
     output_yaml:
     - sources/external/official-rowling/a41-mr-ollivander.yaml
+  craig-bowker:
+    entries:
+    - cc-p2-a3-s19-002
+    output_yaml:
+    - sources/book-cc/chapter-58-p2-a3-s19.yaml
   creature-alias:
     entries:
     - hbp-ch03-006
@@ -4347,6 +4478,11 @@ tags:
     - cos-ch14-007
     output_yaml:
     - sources/book-02/chapter-14-cornelius-fudge.yaml
+  croaker:
+    entries:
+    - cc-p1-a2-s16-002
+    output_yaml:
+    - sources/book-cc/chapter-35-p1-a2-s16.yaml
   crookshanks:
     entries:
     - fb-ch07-002
@@ -4515,6 +4651,170 @@ tags:
     - hbp-ch29-004
     output_yaml:
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+  cursed-child:
+    entries:
+    - cc-p1-a1-s01-001
+    - cc-p1-a1-s02-001
+    - cc-p1-a1-s02-002
+    - cc-p1-a1-s02-003
+    - cc-p1-a1-s02-004
+    - cc-p1-a1-s03-001
+    - cc-p1-a1-s04-001
+    - cc-p1-a1-s04-002
+    - cc-p1-a1-s04-003
+    - cc-p1-a1-s04-004
+    - cc-p1-a1-s04-005
+    - cc-p1-a1-s04-006
+    - cc-p1-a1-s04-007
+    - cc-p1-a1-s10-001
+    - cc-p1-a1-s10-002
+    - cc-p1-a1-s11-001
+    - cc-p1-a1-s11-002
+    - cc-p1-a1-s11-003
+    - cc-p1-a1-s11-004
+    - cc-p1-a1-s12-001
+    - cc-p1-a1-s12-002
+    - cc-p1-a1-s15-001
+    - cc-p1-a1-s17-001
+    - cc-p1-a1-s19-001
+    - cc-p1-a1-s19-002
+    - cc-p1-a2-s03-001
+    - cc-p1-a2-s03-002
+    - cc-p1-a2-s03-003
+    - cc-p1-a2-s04-001
+    - cc-p1-a2-s05-001
+    - cc-p1-a2-s05-002
+    - cc-p1-a2-s06-001
+    - cc-p1-a2-s07-001
+    - cc-p1-a2-s07-002
+    - cc-p1-a2-s07-003
+    - cc-p1-a2-s08-001
+    - cc-p1-a2-s08-002
+    - cc-p1-a2-s08-003
+    - cc-p1-a2-s08-004
+    - cc-p1-a2-s09-001
+    - cc-p1-a2-s10-001
+    - cc-p1-a2-s10-002
+    - cc-p1-a2-s10-003
+    - cc-p1-a2-s11-001
+    - cc-p1-a2-s11-002
+    - cc-p1-a2-s11-003
+    - cc-p1-a2-s12-001
+    - cc-p1-a2-s14-001
+    - cc-p1-a2-s14-002
+    - cc-p1-a2-s16-001
+    - cc-p1-a2-s16-002
+    - cc-p1-a2-s16-003
+    - cc-p1-a2-s16-004
+    - cc-p1-a2-s17-001
+    - cc-p1-a2-s18-001
+    - cc-p1-a2-s18-002
+    - cc-p1-a2-s19-001
+    - cc-p1-a2-s19-002
+    - cc-p1-a2-s19-003
+    - cc-p1-a2-s19-004
+    - cc-p1-a2-s19-005
+    - cc-p1-a2-s19-006
+    - cc-p1-a2-s20-001
+    - cc-p1-a2-s20-002
+    - cc-p1-a2-s20-003
+    - cc-p1-a2-s20-004
+    - cc-p1-a2-s20-005
+    - cc-p2-a3-s01-001
+    - cc-p2-a3-s01-002
+    - cc-p2-a3-s01-003
+    - cc-p2-a3-s01-004
+    - cc-p2-a3-s02-001
+    - cc-p2-a3-s02-002
+    - cc-p2-a3-s04-001
+    - cc-p2-a3-s04-002
+    - cc-p2-a3-s05-001
+    - cc-p2-a3-s05-002
+    - cc-p2-a3-s05-003
+    - cc-p2-a3-s05-004
+    - cc-p2-a3-s07-001
+    - cc-p2-a3-s08-001
+    - cc-p2-a3-s09-001
+    - cc-p2-a3-s09-002
+    - cc-p2-a3-s09-003
+    - cc-p2-a3-s10-001
+    - cc-p2-a3-s11-001
+    - cc-p2-a3-s11-002
+    - cc-p2-a3-s15-001
+    - cc-p2-a3-s15-002
+    - cc-p2-a3-s16-001
+    - cc-p2-a3-s16-002
+    - cc-p2-a3-s19-001
+    - cc-p2-a3-s19-002
+    - cc-p2-a3-s20-001
+    - cc-p2-a3-s20-002
+    - cc-p2-a4-s01-001
+    - cc-p2-a4-s03-001
+    - cc-p2-a4-s03-002
+    - cc-p2-a4-s04-001
+    - cc-p2-a4-s04-002
+    - cc-p2-a4-s05-001
+    - cc-p2-a4-s05-002
+    - cc-p2-a4-s06-001
+    - cc-p2-a4-s09-001
+    - cc-p2-a4-s10-001
+    - cc-p2-a4-s10-002
+    - cc-p2-a4-s12-001
+    - cc-p2-a4-s13-001
+    - cc-p2-a4-s14-001
+    - cc-p2-a4-s14-002
+    - cc-p2-a4-s15-001
+    output_yaml:
+    - sources/book-cc/chapter-01-p1-a1-s01.yaml
+    - sources/book-cc/chapter-02-p1-a1-s02.yaml
+    - sources/book-cc/chapter-03-p1-a1-s03.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
+    - sources/book-cc/chapter-10-p1-a1-s10.yaml
+    - sources/book-cc/chapter-11-p1-a1-s11.yaml
+    - sources/book-cc/chapter-12-p1-a1-s12.yaml
+    - sources/book-cc/chapter-15-p1-a1-s15.yaml
+    - sources/book-cc/chapter-17-p1-a1-s17.yaml
+    - sources/book-cc/chapter-19-p1-a1-s19.yaml
+    - sources/book-cc/chapter-22-p1-a2-s03.yaml
+    - sources/book-cc/chapter-23-p1-a2-s04.yaml
+    - sources/book-cc/chapter-24-p1-a2-s05.yaml
+    - sources/book-cc/chapter-25-p1-a2-s06.yaml
+    - sources/book-cc/chapter-26-p1-a2-s07.yaml
+    - sources/book-cc/chapter-27-p1-a2-s08.yaml
+    - sources/book-cc/chapter-28-p1-a2-s09.yaml
+    - sources/book-cc/chapter-29-p1-a2-s10.yaml
+    - sources/book-cc/chapter-30-p1-a2-s11.yaml
+    - sources/book-cc/chapter-31-p1-a2-s12.yaml
+    - sources/book-cc/chapter-33-p1-a2-s14.yaml
+    - sources/book-cc/chapter-35-p1-a2-s16.yaml
+    - sources/book-cc/chapter-36-p1-a2-s17.yaml
+    - sources/book-cc/chapter-37-p1-a2-s18.yaml
+    - sources/book-cc/chapter-38-p1-a2-s19.yaml
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
+    - sources/book-cc/chapter-40-p2-a3-s01.yaml
+    - sources/book-cc/chapter-41-p2-a3-s02.yaml
+    - sources/book-cc/chapter-43-p2-a3-s04.yaml
+    - sources/book-cc/chapter-44-p2-a3-s05.yaml
+    - sources/book-cc/chapter-46-p2-a3-s07.yaml
+    - sources/book-cc/chapter-47-p2-a3-s08.yaml
+    - sources/book-cc/chapter-48-p2-a3-s09.yaml
+    - sources/book-cc/chapter-49-p2-a3-s10.yaml
+    - sources/book-cc/chapter-50-p2-a3-s11.yaml
+    - sources/book-cc/chapter-54-p2-a3-s15.yaml
+    - sources/book-cc/chapter-55-p2-a3-s16.yaml
+    - sources/book-cc/chapter-58-p2-a3-s19.yaml
+    - sources/book-cc/chapter-59-p2-a3-s20.yaml
+    - sources/book-cc/chapter-61-p2-a4-s01.yaml
+    - sources/book-cc/chapter-63-p2-a4-s03.yaml
+    - sources/book-cc/chapter-64-p2-a4-s04.yaml
+    - sources/book-cc/chapter-65-p2-a4-s05.yaml
+    - sources/book-cc/chapter-66-p2-a4-s06.yaml
+    - sources/book-cc/chapter-69-p2-a4-s09.yaml
+    - sources/book-cc/chapter-70-p2-a4-s10.yaml
+    - sources/book-cc/chapter-72-p2-a4-s12.yaml
+    - sources/book-cc/chapter-73-p2-a4-s13.yaml
+    - sources/book-cc/chapter-74-p2-a4-s14.yaml
+    - sources/book-cc/chapter-75-p2-a4-s15.yaml
   cursed-fire:
     entries:
     - dh-ch31-007
@@ -4552,15 +4852,19 @@ tags:
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
   curses:
     entries:
+    - cc-p2-a3-s01-003
     - gof-ch14-001
     - ps-ch13-003
     output_yaml:
     - sources/book-01/chapter-13-nicolas-flamel.yaml
     - sources/book-04/chapter-14-the-unforgivable-curses.yaml
+    - sources/book-cc/chapter-40-p2-a3-s01.yaml
   cushioning-charm:
     entries:
+    - cc-p1-a1-s11-004
     - qtta-ch09-001
     output_yaml:
+    - sources/book-cc/chapter-11-p1-a1-s11.yaml
     - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   d-a:
     entries:
@@ -4583,6 +4887,7 @@ tags:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
   daily-prophet:
     entries:
+    - cc-p1-a2-s03-003
     - cos-ch12-006
     - dh-ch01-006
     - dh-ch02-006
@@ -4631,6 +4936,7 @@ tags:
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
+    - sources/book-cc/chapter-22-p1-a2-s03.yaml
   daisy-pennifold:
     entries:
     - qtta-ch06-002
@@ -5081,6 +5387,8 @@ tags:
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
   defense-against-the-dark-arts:
     entries:
+    - cc-p1-a2-s11-001
+    - cc-p1-a2-s11-002
     - cos-ch04-006
     - cos-ch06-006
     - cos-ch06-007
@@ -5216,6 +5524,7 @@ tags:
     - sources/book-06/chapter-23-horcruxes.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
+    - sources/book-cc/chapter-30-p1-a2-s11.yaml
     - sources/external/interviews/b03-aol-live-chat.yaml
     - sources/external/interviews/b08-edinburgh-cub-reporter-press-conference.yaml
     - sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
@@ -5226,6 +5535,7 @@ tags:
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
   defensive-magic:
     entries:
+    - cc-p1-a1-s11-004
     - dh-ch32-004
     - fb-ch07-003
     - hbp-ch06-005
@@ -5236,6 +5546,7 @@ tags:
     - sources/book-05/chapter-36-the-only-one-he-ever-feared.yaml
     - sources/book-06/chapter-06-draco-s-detour.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
+    - sources/book-cc/chapter-11-p1-a1-s11.yaml
     - sources/book-fb/chapter-07-bestiary-i-to-q.yaml
   defensive-magical-theory:
     entries:
@@ -5285,6 +5596,9 @@ tags:
     - sources/book-05/chapter-08-the-hearing.yaml
   dementors:
     entries:
+    - cc-p1-a2-s20-005
+    - cc-p2-a3-s09-001
+    - cc-p2-a3-s09-002
     - dh-ch03-003
     - dh-ch13-006
     - dh-ch28-001
@@ -5352,6 +5666,8 @@ tags:
     - sources/book-07/chapter-29-the-lost-diadem.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
+    - sources/book-cc/chapter-48-p2-a3-s09.yaml
     - sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
   dementors-kiss:
     entries:
@@ -5491,6 +5807,7 @@ tags:
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
   detention:
     entries:
+    - cc-p2-a3-s10-001
     - cos-ch05-005
     - cos-ch07-006
     - ext-a32-003
@@ -5527,6 +5844,7 @@ tags:
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/book-cc/chapter-49-p2-a3-s10.yaml
     - sources/external/official-rowling/a32-gilderoy-lockhart.yaml
     - sources/external/official-rowling/a34-dolores-umbridge.yaml
   detentions:
@@ -5740,6 +6058,9 @@ tags:
     - sources/external/official-rowling/a39-potions.yaml
   divination:
     entries:
+    - cc-p1-a1-s19-002
+    - cc-p1-a2-s05-002
+    - cc-p1-a2-s10-001
     - dh-ch32-002
     - gof-ch10-005
     - gof-ch13-001
@@ -5791,6 +6112,9 @@ tags:
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
+    - sources/book-cc/chapter-19-p1-a1-s19.yaml
+    - sources/book-cc/chapter-24-p1-a2-s05.yaml
+    - sources/book-cc/chapter-29-p1-a2-s10.yaml
   divination-classroom:
     entries:
     - poa-ch06-002
@@ -5840,6 +6164,10 @@ tags:
     - sources/book-07/chapter-09-a-place-to-hide.yaml
   dolores-umbridge:
     entries:
+    - cc-p1-a2-s20-003
+    - cc-p2-a3-s01-001
+    - cc-p2-a3-s01-004
+    - cc-p2-a3-s09-002
     - ext-a34-001
     - ext-a34-002
     - ext-a34-003
@@ -5882,6 +6210,9 @@ tags:
     - sources/book-05/chapter-32-out-of-the-fire.yaml
     - sources/book-06/chapter-04-horace-slughorn.yaml
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
+    - sources/book-cc/chapter-40-p2-a3-s01.yaml
+    - sources/book-cc/chapter-48-p2-a3-s09.yaml
     - sources/external/official-rowling/a34-dolores-umbridge.yaml
   domestic-herd:
     entries:
@@ -6022,6 +6353,7 @@ tags:
     - sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
   dragons:
     entries:
+    - cc-p1-a2-s07-002
     - fb-ch02-001
     - fb-ch02-004
     - fb-ch02-007
@@ -6039,6 +6371,7 @@ tags:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-06/chapter-01-the-other-minister.yaml
+    - sources/book-cc/chapter-26-p1-a2-s07.yaml
     - sources/book-fb/chapter-02-muggle-awareness-of-fantastic-beasts.yaml
     - sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
     - sources/book-fb/chapter-06-bestiary-d-to-h.yaml
@@ -6100,6 +6433,9 @@ tags:
     - sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml
   dumbledore:
     entries:
+    - cc-p2-a3-s05-001
+    - cc-p2-a4-s05-001
+    - cc-p2-a4-s13-001
     - cos-ch02-003
     - cos-ch04-001
     - cos-ch07-004
@@ -6367,6 +6703,9 @@ tags:
     - sources/book-07/chapter-24-the-wandmaker.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
+    - sources/book-cc/chapter-44-p2-a3-s05.yaml
+    - sources/book-cc/chapter-65-p2-a4-s05.yaml
+    - sources/book-cc/chapter-73-p2-a4-s13.yaml
     - sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml
     - sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml
     - sources/external/interviews/b23-bbc-red-nose-day-chat.yaml
@@ -6492,6 +6831,9 @@ tags:
     - sources/book-07/chapter-35-king-s-cross.yaml
   dumbledore-portrait:
     entries:
+    - cc-p1-a2-s08-001
+    - cc-p2-a4-s04-001
+    - cc-p2-a4-s04-002
     - dh-ch15-007
     - dh-ch33-002
     - dh-ch33-007
@@ -6501,6 +6843,8 @@ tags:
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-cc/chapter-27-p1-a2-s08.yaml
+    - sources/book-cc/chapter-64-p2-a4-s04.yaml
   dumbledore-possession:
     entries:
     - ext-b08-003
@@ -6527,6 +6871,7 @@ tags:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
   dumbledores-army:
     entries:
+    - cc-p2-a3-s07-001
     - dh-ch05-004
     - dh-ch16-002
     - dh-ch29-003
@@ -6559,6 +6904,7 @@ tags:
     - sources/book-07/chapter-29-the-lost-diadem.yaml
     - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
+    - sources/book-cc/chapter-46-p2-a3-s07.yaml
     - sources/external/official-rowling/a35-draco-malfoy.yaml
   dungeon-classroom:
     entries:
@@ -6571,6 +6917,7 @@ tags:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
   dungeons:
     entries:
+    - cc-p2-a3-s02-002
     - cos-ch08-004
     - cos-ch12-005
     - cos-ch16-007
@@ -6589,6 +6936,7 @@ tags:
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-cc/chapter-41-p2-a3-s02.yaml
   durmstrang:
     entries:
     - dh-ch08-002
@@ -7040,6 +7388,11 @@ tags:
     - gof-ch17-006
     output_yaml:
     - sources/book-04/chapter-17-the-four-champions.yaml
+  engorgement:
+    entries:
+    - cc-p1-a2-s20-002
+    output_yaml:
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
   engorgement-charm:
     entries:
     - beedle-ch02-003
@@ -7247,6 +7600,7 @@ tags:
     - sources/external/interviews/b04-world-book-day-live-chat.yaml
   exams:
     entries:
+    - cc-p2-a4-s15-001
     - cos-ch04-003
     - cos-ch04-004
     - cos-ch16-001
@@ -7275,6 +7629,7 @@ tags:
     - sources/book-05/chapter-29-career-advice.yaml
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
+    - sources/book-cc/chapter-75-p2-a4-s15.yaml
   exceptional-instruction:
     entries:
     - hbp-ch04-007
@@ -7349,6 +7704,11 @@ tags:
     - fb-ch06-006
     output_yaml:
     - sources/book-fb/chapter-06-bestiary-d-to-h.yaml
+  exploding-snap:
+    entries:
+    - cc-p2-a4-s09-001
+    output_yaml:
+    - sources/book-cc/chapter-69-p2-a4-s09.yaml
   exposition:
     entries:
     - ext-b07-004
@@ -7356,6 +7716,7 @@ tags:
     - sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
   expulsion:
     entries:
+    - cc-p2-a3-s10-001
     - cos-ch02-005
     - cos-ch05-005
     - cos-ch07-005
@@ -7391,6 +7752,7 @@ tags:
     - sources/book-06/chapter-02-spinner-s-end.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+    - sources/book-cc/chapter-49-p2-a3-s10.yaml
   extendable-ears:
     entries:
     - hbp-ch06-007
@@ -7932,9 +8294,11 @@ tags:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
   first-floor-bathroom:
     entries:
+    - cc-p1-a2-s18-002
     - cos-ch08-005
     output_yaml:
     - sources/book-02/chapter-08-the-deathday-party.yaml
+    - sources/book-cc/chapter-37-p1-a2-s18.yaml
   first-opening:
     entries:
     - cos-ch15-007
@@ -7942,6 +8306,10 @@ tags:
     - sources/book-02/chapter-15-aragog.yaml
   first-task:
     entries:
+    - cc-p1-a2-s04-001
+    - cc-p1-a2-s07-002
+    - cc-p1-a2-s07-003
+    - cc-p2-a3-s08-001
     - gof-ch17-006
     - gof-ch19-004
     - gof-ch19-005
@@ -7952,8 +8320,13 @@ tags:
     - sources/book-04/chapter-17-the-four-champions.yaml
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
+    - sources/book-cc/chapter-23-p1-a2-s04.yaml
+    - sources/book-cc/chapter-26-p1-a2-s07.yaml
+    - sources/book-cc/chapter-47-p2-a3-s08.yaml
   first-wizarding-war:
     entries:
+    - cc-p2-a4-s12-001
+    - cc-p2-a4-s13-001
     - dh-ch10-007
     - dh-ch17-006
     - gof-ch09-007
@@ -7980,6 +8353,8 @@ tags:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
+    - sources/book-cc/chapter-72-p2-a4-s12.yaml
+    - sources/book-cc/chapter-73-p2-a4-s13.yaml
   first-world-war:
     entries:
     - ext-a38-004
@@ -8113,6 +8488,7 @@ tags:
     - sources/book-06/chapter-01-the-other-minister.yaml
   floo-network:
     entries:
+    - cc-p1-a2-s03-002
     - dh-ch01-004
     - dh-ch04-001
     - dh-ch12-003
@@ -8146,6 +8522,7 @@ tags:
     - sources/book-07/chapter-04-the-seven-potters.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+    - sources/book-cc/chapter-22-p1-a2-s03.yaml
     - sources/external/official-rowling/a24-the-floo-network.yaml
   floo-powder:
     entries:
@@ -8216,9 +8593,11 @@ tags:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
   flying-lessons:
     entries:
+    - cc-p1-a1-s04-003
     - ps-ch09-002
     output_yaml:
     - sources/book-01/chapter-09-midnight-duel.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
   flying-motorbike:
     entries:
     - dh-ch04-004
@@ -8273,6 +8652,10 @@ tags:
     - sources/book-01/chapter-09-midnight-duel.yaml
   forbidden-forest:
     entries:
+    - cc-p1-a2-s03-001
+    - cc-p1-a2-s05-001
+    - cc-p1-a2-s06-001
+    - cc-p2-a3-s09-001
     - cos-ch01-001
     - cos-ch15-003
     - cos-ch15-004
@@ -8333,6 +8716,10 @@ tags:
     - sources/book-06/chapter-30-the-white-tomb.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-cc/chapter-22-p1-a2-s03.yaml
+    - sources/book-cc/chapter-24-p1-a2-s05.yaml
+    - sources/book-cc/chapter-25-p1-a2-s06.yaml
+    - sources/book-cc/chapter-48-p2-a3-s09.yaml
     - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
     - sources/external/interviews/b22-bbc-blue-peter-interview.yaml
     - sources/external/official-rowling/a27-werewolves.yaml
@@ -8538,6 +8925,7 @@ tags:
     - sources/external/official-rowling/a26-colours.yaml
   four-houses:
     entries:
+    - cc-p1-a1-s04-002
     - cos-ch05-004
     - cos-ch09-003
     - ext-a02-001
@@ -8548,6 +8936,7 @@ tags:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
     - sources/external/official-rowling/a02-the-sorting-hat.yaml
   four-point-spell:
     entries:
@@ -8576,6 +8965,7 @@ tags:
     - sources/book-04/chapter-17-the-four-champions.yaml
   fourth-year:
     entries:
+    - cc-p2-a4-s15-001
     - gof-ch10-006
     - gof-ch10-007
     - gof-ch15-002
@@ -8586,6 +8976,7 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-cc/chapter-75-p2-a4-s15.yaml
   fourth-year-curriculum:
     entries:
     - gof-ch13-001
@@ -8605,6 +8996,7 @@ tags:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
   fred-and-george:
     entries:
+    - cc-p1-a1-s11-003
     - gof-ch04-005
     - gof-ch05-004
     - hbp-ch16-001
@@ -8614,6 +9006,7 @@ tags:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+    - sources/book-cc/chapter-11-p1-a1-s11.yaml
   fred-george:
     entries:
     - ootp-ch29-007
@@ -8830,6 +9223,10 @@ tags:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
   ghosts:
     entries:
+    - cc-p1-a2-s14-001
+    - cc-p1-a2-s19-002
+    - cc-p2-a3-s09-003
+    - cc-p2-a4-s03-002
     - cos-ch01-001
     - cos-ch08-001
     - cos-ch08-005
@@ -8862,6 +9259,10 @@ tags:
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-cc/chapter-33-p1-a2-s14.yaml
+    - sources/book-cc/chapter-38-p1-a2-s19.yaml
+    - sources/book-cc/chapter-48-p2-a3-s09.yaml
+    - sources/book-cc/chapter-63-p2-a4-s03.yaml
     - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
     - sources/external/official-rowling/a06-hogwarts-ghosts.yaml
   ghoul:
@@ -8940,6 +9341,7 @@ tags:
     - sources/external/official-rowling/a32-gilderoy-lockhart.yaml
   gillyweed:
     entries:
+    - cc-p1-a2-s20-001
     - gof-ch26-004
     - gof-ch26-006
     - gof-ch27-004
@@ -8948,6 +9350,7 @@ tags:
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
   ginny-weasley:
     entries:
     - cos-ch17-002
@@ -9139,6 +9542,11 @@ tags:
     - sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml
   godrics-hollow:
     entries:
+    - cc-p2-a4-s03-001
+    - cc-p2-a4-s03-002
+    - cc-p2-a4-s05-002
+    - cc-p2-a4-s10-001
+    - cc-p2-a4-s12-001
     - dh-ch08-006
     - dh-ch10-003
     - dh-ch16-003
@@ -9172,6 +9580,10 @@ tags:
     - sources/book-07/chapter-20-xenophilius-lovegood.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
+    - sources/book-cc/chapter-63-p2-a4-s03.yaml
+    - sources/book-cc/chapter-65-p2-a4-s05.yaml
+    - sources/book-cc/chapter-70-p2-a4-s10.yaml
+    - sources/book-cc/chapter-72-p2-a4-s12.yaml
     - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
   golden-cup:
     entries:
@@ -9210,6 +9622,7 @@ tags:
     - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
   golden-snitch:
     entries:
+    - cc-p2-a3-s01-002
     - dh-ch07-005
     - dh-ch16-003
     - dh-ch22-004
@@ -9223,6 +9636,7 @@ tags:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-cc/chapter-40-p2-a3-s01.yaml
     - sources/book-fb/chapter-08-bestiary-r-to-z.yaml
     - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
     - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
@@ -9253,11 +9667,13 @@ tags:
     - sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
   graveyard:
     entries:
+    - cc-p2-a4-s03-002
     - dh-ch16-007
     - dh-ch17-001
     output_yaml:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
+    - sources/book-cc/chapter-63-p2-a4-s03.yaml
   grawp:
     entries:
     - dh-ch32-003
@@ -9282,6 +9698,8 @@ tags:
     entries:
     - beedle-ch02-004
     - beedle-ch02-005
+    - cc-p1-a1-s04-002
+    - cc-p1-a1-s04-004
     - cos-ch01-001
     - cos-ch05-004
     - cos-ch06-001
@@ -9372,6 +9790,7 @@ tags:
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
     - sources/external/official-rowling/a13-professor-kettleburn.yaml
     - sources/external/official-rowling/a32-gilderoy-lockhart.yaml
   great-hall-feast:
@@ -9651,9 +10070,11 @@ tags:
     - sources/book-03/chapter-10-the-marauders-map.yaml
   grounds-security:
     entries:
+    - cc-p2-a3-s09-001
     - poa-ch09-007
     output_yaml:
     - sources/book-03/chapter-09-grim-defeat.yaml
+    - sources/book-cc/chapter-48-p2-a3-s09.yaml
   grubbly-plank:
     entries:
     - ootp-ch10-006
@@ -9665,6 +10086,8 @@ tags:
     - sources/book-05/chapter-30-grawp.yaml
   gryffindor:
     entries:
+    - cc-p1-a2-s09-001
+    - cc-p1-a2-s11-003
     - cos-ch06-005
     - cos-ch07-002
     - cos-ch15-002
@@ -9755,6 +10178,8 @@ tags:
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/book-cc/chapter-28-p1-a2-s09.yaml
+    - sources/book-cc/chapter-30-p1-a2-s11.yaml
     - sources/external/interviews/b04-world-book-day-live-chat.yaml
     - sources/external/interviews/b20-barnes-noble-yahoo-chat.yaml
     - sources/external/official-rowling/a06-hogwarts-ghosts.yaml
@@ -9763,6 +10188,7 @@ tags:
     - sources/external/official-rowling/a20-hatstall.yaml
   gryffindor-common-room:
     entries:
+    - cc-p2-a4-s09-001
     - hbp-ch12-007
     - hbp-ch25-001
     - ootp-ch14-007
@@ -9776,6 +10202,7 @@ tags:
     - sources/book-05/chapter-24-occlumency.yaml
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+    - sources/book-cc/chapter-69-p2-a4-s09.yaml
   gryffindor-dormitory:
     entries:
     - ootp-ch11-007
@@ -9931,6 +10358,7 @@ tags:
     - sources/book-06/chapter-14-felix-felicis.yaml
   hagrid:
     entries:
+    - cc-p2-a4-s13-001
     - cos-ch02-004
     - cos-ch07-005
     - cos-ch13-005
@@ -10075,6 +10503,7 @@ tags:
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-cc/chapter-73-p2-a4-s13.yaml
     - sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
     - sources/book-fb/chapter-04-magizoology-and-ministry-classifications.yaml
     - sources/book-fb/chapter-06-bestiary-d-to-h.yaml
@@ -10400,6 +10829,7 @@ tags:
     - sources/external/official-rowling/a13-professor-kettleburn.yaml
   head-boy:
     entries:
+    - cc-p2-a3-s01-001
     - cos-ch04-003
     - cos-ch13-002
     - cos-ch18-001
@@ -10429,6 +10859,7 @@ tags:
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+    - sources/book-cc/chapter-40-p2-a3-s01.yaml
   head-girl:
     entries:
     - ext-a12-002
@@ -10548,6 +10979,7 @@ tags:
     - sources/book-04/chapter-02-the-scar.yaml
   headmaster-office:
     entries:
+    - cc-p1-a2-s03-002
     - cos-ch11-007
     - cos-ch12-001
     - cos-ch13-006
@@ -10590,10 +11022,12 @@ tags:
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-cc/chapter-22-p1-a2-s03.yaml
     - sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
     - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   headmaster-portraits:
     entries:
+    - cc-p1-a2-s10-002
     - cos-ch12-001
     - cos-ch13-006
     - dh-ch36-006
@@ -10624,6 +11058,7 @@ tags:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-cc/chapter-29-p1-a2-s10.yaml
     - sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
     - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   headmaster-public-cover:
@@ -10648,22 +11083,34 @@ tags:
   headmastership:
     entries:
     - beedle-ch02-009
+    - cc-p1-a1-s02-002
     - cos-ch02-003
     output_yaml:
     - sources/book-02/chapter-02-dobbys-warning.yaml
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+    - sources/book-cc/chapter-02-p1-a1-s02.yaml
   headmistress:
     entries:
+    - cc-p1-a2-s03-002
+    - cc-p1-a2-s20-003
     - hbp-ch29-005
     - ootp-ch22-006
     output_yaml:
     - sources/book-05/chapter-22-st-mungos-hospital-for-magical-maladies-and-injuries.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-cc/chapter-22-p1-a2-s03.yaml
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
   headmistress-authority:
     entries:
+    - cc-p1-a2-s10-003
+    - cc-p1-a2-s16-004
+    - cc-p1-a2-s18-001
     - ootp-ch33-004
     output_yaml:
     - sources/book-05/chapter-33-fight-and-flight.yaml
+    - sources/book-cc/chapter-29-p1-a2-s10.yaml
+    - sources/book-cc/chapter-35-p1-a2-s16.yaml
+    - sources/book-cc/chapter-37-p1-a2-s18.yaml
   headmistresses:
     entries:
     - cos-ch09-006
@@ -10730,12 +11177,14 @@ tags:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   healing:
     entries:
+    - cc-p1-a2-s08-003
     - dh-ch14-001
     - ext-a38-001
     - ext-a39-004
     - ext-a43-002
     output_yaml:
     - sources/book-07/chapter-14-the-thief.yaml
+    - sources/book-cc/chapter-27-p1-a2-s08.yaml
     - sources/external/official-rowling/a38-the-potter-family.yaml
     - sources/external/official-rowling/a39-potions.yaml
     - sources/external/official-rowling/a43-fourteenth-century-seventeenth-century.yaml
@@ -10871,6 +11320,7 @@ tags:
   hermione-granger:
     entries:
     - beedle-fm-001
+    - cc-p1-a2-s11-001
     - cos-ch04-004
     - cos-ch07-003
     - dh-ch07-007
@@ -10907,6 +11357,7 @@ tags:
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
     - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+    - sources/book-cc/chapter-30-p1-a2-s11.yaml
     - sources/external/interviews/b01-scholastic-com-live-chat.yaml
     - sources/external/official-rowling/a20-hatstall.yaml
     - sources/external/official-rowling/a25-time-turner.yaml
@@ -10945,11 +11396,13 @@ tags:
     - sources/book-07/chapter-03-the-dursleys-departing.yaml
   hexes:
     entries:
+    - cc-p2-a3-s01-003
     - ootp-ch23-004
     - ootp-ch38-007
     output_yaml:
     - sources/book-05/chapter-23-christmas-on-the-closed-ward.yaml
     - sources/book-05/chapter-38-the-second-war-begins.yaml
+    - sources/book-cc/chapter-40-p2-a3-s01.yaml
   hidden-agent:
     entries:
     - gof-ch01-004
@@ -11188,11 +11641,21 @@ tags:
     - ext-a21-002
     output_yaml:
     - sources/external/official-rowling/a21-toads.yaml
+  historical-records:
+    entries:
+    - cc-p2-a4-s10-001
+    output_yaml:
+    - sources/book-cc/chapter-70-p2-a4-s10.yaml
   historiography:
     entries:
     - dh-ch25-003
     output_yaml:
     - sources/book-07/chapter-25-shell-cottage.yaml
+  history-books:
+    entries:
+    - cc-p1-a2-s14-002
+    output_yaml:
+    - sources/book-cc/chapter-33-p1-a2-s14.yaml
   history-of-magic:
     entries:
     - cos-ch09-002
@@ -11257,6 +11720,7 @@ tags:
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
   hogsmeade:
     entries:
+    - cc-p1-a1-s04-006
     - dh-ch27-006
     - dh-ch28-001
     - dh-ch28-002
@@ -11325,6 +11789,7 @@ tags:
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
     - sources/external/official-rowling/a10-remus-lupin.yaml
     - sources/external/official-rowling/a12-professor-mcgonagall.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
@@ -11340,9 +11805,11 @@ tags:
     - sources/book-06/chapter-12-silver-and-opals.yaml
   hogsmeade-privileges:
     entries:
+    - cc-p2-a3-s10-001
     - poa-ch14-002
     output_yaml:
     - sources/book-03/chapter-14-snapes-grudge.yaml
+    - sources/book-cc/chapter-49-p2-a3-s10.yaml
   hogsmeade-station:
     entries:
     - gof-ch11-006
@@ -11367,6 +11834,7 @@ tags:
     - sources/book-05/chapter-12-professor-umbridge.yaml
   hogwarts:
     entries:
+    - cc-p2-a4-s14-001
     - dh-ch10-001
     - dh-ch10-006
     - dh-ch15-002
@@ -11450,6 +11918,7 @@ tags:
     - sources/book-07/chapter-27-the-final-hiding-place.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-cc/chapter-74-p2-a4-s14.yaml
     - sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml
     - sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
     - sources/external/interviews/b11-the-herald-interview.yaml
@@ -11617,6 +12086,13 @@ tags:
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
   hogwarts-express:
     entries:
+    - cc-p1-a1-s02-001
+    - cc-p1-a1-s03-001
+    - cc-p1-a1-s11-001
+    - cc-p1-a1-s11-002
+    - cc-p1-a1-s11-003
+    - cc-p1-a1-s11-004
+    - cc-p1-a1-s17-001
     - cos-ch04-001
     - cos-ch05-001
     - cos-ch05-002
@@ -11668,6 +12144,10 @@ tags:
     - sources/book-06/chapter-30-the-white-tomb.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/book-cc/chapter-02-p1-a1-s02.yaml
+    - sources/book-cc/chapter-03-p1-a1-s03.yaml
+    - sources/book-cc/chapter-11-p1-a1-s11.yaml
+    - sources/book-cc/chapter-17-p1-a1-s17.yaml
     - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
@@ -12138,6 +12618,7 @@ tags:
     - sources/external/official-rowling/a28-wizarding-schools.yaml
   homework:
     entries:
+    - cc-p2-a3-s04-001
     - cos-ch08-003
     - cos-ch13-001
     - gof-ch13-004
@@ -12170,6 +12651,7 @@ tags:
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
     - sources/book-05/chapter-18-dumbledore-s-army.yaml
     - sources/book-05/chapter-24-occlumency.yaml
+    - sources/book-cc/chapter-43-p2-a3-s04.yaml
   homework-groups:
     entries:
     - ootp-ch16-003
@@ -12313,6 +12795,8 @@ tags:
   hospital-wing:
     entries:
     - beedle-ch02-005
+    - cc-p1-a2-s08-001
+    - cc-p1-a2-s08-003
     - cos-ch10-005
     - cos-ch11-006
     - cos-ch13-001
@@ -12365,6 +12849,7 @@ tags:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+    - sources/book-cc/chapter-27-p1-a2-s08.yaml
   host-school:
     entries:
     - gof-ch17-002
@@ -12443,11 +12928,18 @@ tags:
     - sources/book-03/chapter-22-owl-post-again.yaml
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-04/chapter-37-the-beginning.yaml
+  house-choice:
+    entries:
+    - cc-p1-a1-s02-003
+    output_yaml:
+    - sources/book-cc/chapter-02-p1-a1-s02.yaml
   house-colors:
     entries:
+    - cc-p2-a3-s11-002
     - poa-ch15-006
     output_yaml:
     - sources/book-03/chapter-15-the-quidditch-final.yaml
+    - sources/book-cc/chapter-50-p2-a3-s11.yaml
   house-common-rooms:
     entries:
     - cos-ch12-005
@@ -12473,6 +12965,14 @@ tags:
     - sources/book-01/chapter-15-forbidden-forest.yaml
     - sources/book-01/chapter-17-man-with-two-faces.yaml
     - sources/book-02/chapter-18-dobbys-reward.yaml
+  house-dormitories:
+    entries:
+    - cc-p2-a3-s11-002
+    - cc-p2-a3-s15-001
+    - cc-p2-a3-s15-002
+    output_yaml:
+    - sources/book-cc/chapter-50-p2-a3-s11.yaml
+    - sources/book-cc/chapter-54-p2-a3-s15.yaml
   house-elf-magic:
     entries:
     - dh-ch10-006
@@ -12632,6 +13132,7 @@ tags:
     - sources/book-05/chapter-25-the-beetle-at-bay.yaml
   house-points:
     entries:
+    - cc-p1-a2-s11-003
     - cos-ch05-005
     - cos-ch06-003
     - cos-ch06-006
@@ -12677,6 +13178,7 @@ tags:
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-05/chapter-38-the-second-war-begins.yaml
+    - sources/book-cc/chapter-30-p1-a2-s11.yaml
   house-qualities:
     entries:
     - dh-ch19-004
@@ -12701,11 +13203,13 @@ tags:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
   house-security:
     entries:
+    - cc-p2-a3-s15-001
     - poa-ch14-002
     - poa-ch19-005
     output_yaml:
     - sources/book-03/chapter-14-snapes-grudge.yaml
     - sources/book-03/chapter-19-the-servant-of-lord-voldemort.yaml
+    - sources/book-cc/chapter-54-p2-a3-s15.yaml
   house-system:
     entries:
     - cos-ch09-004
@@ -12776,6 +13280,8 @@ tags:
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
   house-teams:
     entries:
+    - cc-p1-a1-s04-004
+    - cc-p2-a4-s14-002
     - cos-ch07-001
     - cos-ch07-002
     - gof-ch05-005
@@ -12805,6 +13311,8 @@ tags:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-14-felix-felicis.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
+    - sources/book-cc/chapter-74-p2-a4-s14.yaml
   household-magic:
     entries:
     - ext-a38-001
@@ -12829,6 +13337,7 @@ tags:
     - sources/book-03/chapter-14-snapes-grudge.yaml
   hufflepuff:
     entries:
+    - cc-p2-a4-s14-002
     - cos-ch06-002
     - ext-a06-003
     - ext-a07-001
@@ -12856,6 +13365,7 @@ tags:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-36-the-parting-of-the-ways.yaml
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
+    - sources/book-cc/chapter-74-p2-a4-s14.yaml
     - sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
     - sources/external/official-rowling/a06-hogwarts-ghosts.yaml
     - sources/external/official-rowling/a07-hufflepuff-common-room.yaml
@@ -13211,6 +13721,8 @@ tags:
   institutional-memory:
     entries:
     - beedle-fm-004
+    - cc-p1-a2-s08-002
+    - cc-p1-a2-s10-002
     - dh-ch07-003
     - dh-ch10-001
     - dh-ch15-007
@@ -13225,6 +13737,8 @@ tags:
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
     - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
+    - sources/book-cc/chapter-27-p1-a2-s08.yaml
+    - sources/book-cc/chapter-29-p1-a2-s10.yaml
     - sources/external/official-rowling/a05-hogwarts-portraits.yaml
     - sources/external/official-rowling/a17-pensieve.yaml
     - sources/external/official-rowling/a36-scottish-rugby.yaml
@@ -13317,8 +13831,10 @@ tags:
     - sources/book-04/chapter-26-the-second-task.yaml
   international-competition:
     entries:
+    - cc-p1-a1-s10-001
     - ext-a29-004
     output_yaml:
+    - sources/book-cc/chapter-10-p1-a1-s10.yaml
     - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   international-confederation:
     entries:
@@ -13457,6 +13973,7 @@ tags:
   invisibility-cloak:
     entries:
     - beedle-ch05-002
+    - cc-p1-a2-s16-004
     - dh-ch09-002
     - dh-ch16-005
     - dh-ch17-003
@@ -13514,6 +14031,7 @@ tags:
     - sources/book-07/chapter-35-king-s-cross.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
     - sources/book-beedle/chapter-05-tale-of-three-brothers.yaml
+    - sources/book-cc/chapter-35-p1-a2-s16.yaml
     - sources/book-fb/chapter-06-bestiary-d-to-h.yaml
   invisibility-section:
     entries:
@@ -14105,8 +14623,16 @@ tags:
     - hbp-ch12-003
     output_yaml:
     - sources/book-06/chapter-12-silver-and-opals.yaml
+  librarian:
+    entries:
+    - cc-p1-a2-s16-003
+    output_yaml:
+    - sources/book-cc/chapter-35-p1-a2-s16.yaml
   library:
     entries:
+    - cc-p1-a2-s16-001
+    - cc-p1-a2-s16-003
+    - cc-p2-a3-s04-002
     - cos-ch09-001
     - cos-ch11-005
     - cos-ch14-004
@@ -14149,6 +14675,8 @@ tags:
     - sources/book-05/chapter-29-career-advice.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
+    - sources/book-cc/chapter-35-p1-a2-s16.yaml
+    - sources/book-cc/chapter-43-p2-a3-s04.yaml
   library-book:
     entries:
     - cos-ch16-003
@@ -14180,6 +14708,7 @@ tags:
     - sources/book-06/chapter-18-birthday-surprises.yaml
   library-rules:
     entries:
+    - cc-p1-a1-s19-001
     - cos-ch09-007
     - cos-ch10-001
     - ps-ch11-003
@@ -14187,6 +14716,7 @@ tags:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
+    - sources/book-cc/chapter-19-p1-a1-s19.yaml
   licensing:
     entries:
     - fb-ch07-002
@@ -14552,6 +15082,8 @@ tags:
     - sources/book-07/chapter-13-the-muggle-born-registration-commission.yaml
   madam-hooch:
     entries:
+    - cc-p1-a1-s04-003
+    - cc-p1-a2-s12-001
     - cos-ch10-003
     - cos-ch10-004
     - hbp-ch14-005
@@ -14576,6 +15108,8 @@ tags:
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-06/chapter-14-felix-felicis.yaml
     - sources/book-06/chapter-19-elf-tails.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
+    - sources/book-cc/chapter-31-p1-a2-s12.yaml
   madam-pince:
     entries:
     - cos-ch10-001
@@ -14589,6 +15123,7 @@ tags:
     - sources/book-05/chapter-24-occlumency.yaml
   madam-pomfrey:
     entries:
+    - cc-p1-a2-s08-003
     - cos-ch10-005
     - cos-ch13-001
     - cos-ch15-001
@@ -14614,6 +15149,7 @@ tags:
     - sources/book-06/chapter-19-elf-tails.yaml
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-cc/chapter-27-p1-a2-s08.yaml
   madam-puddifoot:
     entries:
     - ootp-ch25-006
@@ -14831,11 +15367,13 @@ tags:
     - sources/external/official-rowling/a25-time-turner.yaml
   magical-barrier:
     entries:
+    - cc-p1-a1-s01-001
     - cos-ch05-001
     - hbp-ch26-006
     output_yaml:
     - sources/book-02/chapter-05-whomping-willow.yaml
     - sources/book-06/chapter-26-the-cave.yaml
+    - sources/book-cc/chapter-01-p1-a1-s01.yaml
   magical-beings:
     entries:
     - dh-ch24-003
@@ -14903,6 +15441,7 @@ tags:
     - sources/external/official-rowling/a38-the-potter-family.yaml
   magical-communication:
     entries:
+    - cc-p2-a4-s04-001
     - dh-ch15-007
     - dh-ch28-003
     - ext-a23-001
@@ -14914,6 +15453,7 @@ tags:
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-28-the-missing-mirror.yaml
+    - sources/book-cc/chapter-64-p2-a4-s04.yaml
     - sources/external/official-rowling/a23-owls.yaml
   magical-community:
     entries:
@@ -15339,9 +15879,11 @@ tags:
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   magical-locking:
     entries:
+    - cc-p2-a3-s05-003
     - gof-ch25-006
     output_yaml:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-cc/chapter-44-p2-a3-s05.yaml
   magical-lodging:
     entries:
     - dh-ch14-004
@@ -15901,6 +16443,10 @@ tags:
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
   marauders-map:
     entries:
+    - cc-p1-a2-s08-004
+    - cc-p1-a2-s16-004
+    - cc-p1-a2-s18-002
+    - cc-p1-a2-s19-006
     - dh-ch29-001
     - dh-ch29-005
     - ext-a11-001
@@ -15948,6 +16494,10 @@ tags:
     - sources/book-06/chapter-25-the-seer-overheard.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/book-07/chapter-29-the-lost-diadem.yaml
+    - sources/book-cc/chapter-27-p1-a2-s08.yaml
+    - sources/book-cc/chapter-35-p1-a2-s16.yaml
+    - sources/book-cc/chapter-37-p1-a2-s18.yaml
+    - sources/book-cc/chapter-38-p1-a2-s19.yaml
     - sources/external/official-rowling/a11-the-marauder-s-map.yaml
   marble-staircase:
     entries:
@@ -16079,6 +16629,8 @@ tags:
     - sources/external/interviews/b04-world-book-day-live-chat.yaml
   maze:
     entries:
+    - cc-p2-a3-s19-001
+    - cc-p2-a3-s20-001
     - gof-ch28-004
     - gof-ch31-002
     - gof-ch31-003
@@ -16088,8 +16640,16 @@ tags:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
+    - sources/book-cc/chapter-58-p2-a3-s19.yaml
+    - sources/book-cc/chapter-59-p2-a3-s20.yaml
   mcgonagall:
     entries:
+    - cc-p1-a1-s04-004
+    - cc-p1-a1-s04-007
+    - cc-p1-a2-s03-002
+    - cc-p2-a3-s10-001
+    - cc-p2-a3-s15-002
+    - cc-p2-a4-s01-001
     - ext-b05-001
     - hbp-ch12-007
     - hbp-ch24-006
@@ -16122,6 +16682,11 @@ tags:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
+    - sources/book-cc/chapter-22-p1-a2-s03.yaml
+    - sources/book-cc/chapter-49-p2-a3-s10.yaml
+    - sources/book-cc/chapter-54-p2-a3-s15.yaml
+    - sources/book-cc/chapter-61-p2-a4-s01.yaml
     - sources/external/interviews/b05-mugglenet-the-leaky-cauldron-interview.yaml
   mcgonagall-office:
     entries:
@@ -16313,6 +16878,7 @@ tags:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
   merpeople:
     entries:
+    - cc-p2-a3-s11-001
     - ext-a09-003
     - ext-a09-006
     - fb-ch01-005
@@ -16328,6 +16894,7 @@ tags:
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-06/chapter-30-the-white-tomb.yaml
+    - sources/book-cc/chapter-50-p2-a3-s11.yaml
     - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
     - sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
     - sources/book-fb/chapter-05-bestiary-a-to-c.yaml
@@ -16553,6 +17120,7 @@ tags:
     - sources/external/official-rowling/a28-wizarding-schools.yaml
   ministry-intervention:
     entries:
+    - cc-p1-a2-s10-003
     - ext-a34-002
     - ext-a34-003
     - ext-a34-004
@@ -16580,6 +17148,7 @@ tags:
     - sources/book-05/chapter-26-seen-and-unforeseen.yaml
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-31-o-w-l-s.yaml
+    - sources/book-cc/chapter-29-p1-a2-s10.yaml
     - sources/external/official-rowling/a34-dolores-umbridge.yaml
   ministry-investigation:
     entries:
@@ -16612,6 +17181,7 @@ tags:
     - sources/book-05/chapter-08-the-hearing.yaml
   ministry-of-magic:
     entries:
+    - cc-p2-a4-s01-001
     - cos-ch02-005
     - cos-ch03-004
     - cos-ch13-007
@@ -16781,6 +17351,7 @@ tags:
     - sources/book-07/chapter-19-the-silver-doe.yaml
     - sources/book-07/chapter-21-the-tale-of-the-three-brothers.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/book-cc/chapter-61-p2-a4-s01.yaml
     - sources/book-fb/chapter-00-front-matter-contents-and-foreword.yaml
     - sources/book-fb/chapter-01-about-this-book-and-what-is-a-beast.yaml
     - sources/book-fb/chapter-03-magical-beasts-in-hiding.yaml
@@ -16936,6 +17507,13 @@ tags:
     - sources/book-01/chapter-17-man-with-two-faces.yaml
     - sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
     - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
+  missing-students:
+    entries:
+    - cc-p1-a1-s15-001
+    - cc-p1-a1-s17-001
+    output_yaml:
+    - sources/book-cc/chapter-15-p1-a1-s15.yaml
+    - sources/book-cc/chapter-17-p1-a1-s17.yaml
   mist:
     entries:
     - hbp-ch01-006
@@ -16950,6 +17528,12 @@ tags:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
   moaning-myrtle:
     entries:
+    - cc-p1-a2-s19-001
+    - cc-p1-a2-s19-002
+    - cc-p1-a2-s19-003
+    - cc-p1-a2-s19-004
+    - cc-p1-a2-s19-005
+    - cc-p2-a3-s09-003
     - cos-ch08-005
     - cos-ch15-007
     - cos-ch16-006
@@ -16964,6 +17548,8 @@ tags:
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/book-cc/chapter-38-p1-a2-s19.yaml
+    - sources/book-cc/chapter-48-p2-a3-s09.yaml
     - sources/external/official-rowling/a06-hogwarts-ghosts.yaml
   moaning-myrtle-bathroom:
     entries:
@@ -17065,6 +17651,11 @@ tags:
     - gof-ch37-003
     output_yaml:
     - sources/book-04/chapter-37-the-beginning.yaml
+  moving-hedges:
+    entries:
+    - cc-p2-a3-s20-001
+    output_yaml:
+    - sources/book-cc/chapter-59-p2-a3-s20.yaml
   moving-illustrations:
     entries:
     - ootp-ch23-004
@@ -17102,6 +17693,11 @@ tags:
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
     - sources/external/interviews/b01-scholastic-com-live-chat.yaml
     - sources/external/interviews/b03-aol-live-chat.yaml
+  moving-staircases:
+    entries:
+    - cc-p1-a2-s12-001
+    output_yaml:
+    - sources/book-cc/chapter-31-p1-a2-s12.yaml
   mrs-figg:
     entries:
     - ext-b22-003
@@ -17805,6 +18401,9 @@ tags:
     - sources/book-04/chapter-19-the-hungarian-horntail.yaml
   neville-longbottom:
     entries:
+    - cc-p1-a1-s02-004
+    - cc-p1-a2-s03-001
+    - cc-p2-a3-s05-002
     - dh-ch28-007
     - dh-ch34-002
     - dh-ch36-002
@@ -17827,6 +18426,9 @@ tags:
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-cc/chapter-02-p1-a1-s02.yaml
+    - sources/book-cc/chapter-22-p1-a2-s03.yaml
+    - sources/book-cc/chapter-44-p2-a3-s05.yaml
     - sources/external/official-rowling/a03-quill-of-acceptance-and-book-of-admittance.yaml
     - sources/external/official-rowling/a20-hatstall.yaml
   newt-courses:
@@ -18567,8 +19169,10 @@ tags:
     - sources/external/interviews/b13-salon-interview.yaml
   ottaline-gambol:
     entries:
+    - cc-p1-a1-s11-001
     - ext-a04-004
     output_yaml:
+    - sources/book-cc/chapter-11-p1-a1-s11.yaml
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   out-of-bounds:
     entries:
@@ -18598,6 +19202,9 @@ tags:
     - sources/book-06/chapter-25-the-seer-overheard.yaml
   owl-post:
     entries:
+    - cc-p1-a1-s04-007
+    - cc-p1-a1-s15-001
+    - cc-p2-a3-s16-001
     - cos-ch01-003
     - cos-ch01-005
     - cos-ch02-004
@@ -18651,6 +19258,9 @@ tags:
     - sources/book-05/chapter-29-career-advice.yaml
     - sources/book-06/chapter-11-hermione-s-helping-hand.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
+    - sources/book-cc/chapter-15-p1-a1-s15.yaml
+    - sources/book-cc/chapter-55-p2-a3-s16.yaml
     - sources/external/official-rowling/a22-familiars.yaml
     - sources/external/official-rowling/a23-owls.yaml
   owl-post-results:
@@ -18660,6 +19270,7 @@ tags:
     - sources/book-05/chapter-31-o-w-l-s.yaml
   owlery:
     entries:
+    - cc-p2-a3-s16-001
     - gof-ch15-001
     - gof-ch18-001
     - gof-ch29-001
@@ -18671,6 +19282,7 @@ tags:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+    - sources/book-cc/chapter-55-p2-a3-s16.yaml
   owls:
     entries:
     - cos-ch04-003
@@ -18729,6 +19341,13 @@ tags:
     - ootp-ch29-002
     output_yaml:
     - sources/book-05/chapter-29-career-advice.yaml
+  parent-contact:
+    entries:
+    - cc-p1-a1-s04-007
+    - cc-p1-a1-s15-001
+    output_yaml:
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
+    - sources/book-cc/chapter-15-p1-a1-s15.yaml
   parent-letters:
     entries:
     - gof-ch24-007
@@ -18753,16 +19372,35 @@ tags:
     - ext-a15-003
     output_yaml:
     - sources/external/official-rowling/a15-the-original-forty.yaml
+  parental-access:
+    entries:
+    - cc-p2-a3-s15-001
+    output_yaml:
+    - sources/book-cc/chapter-54-p2-a3-s15.yaml
   parental-enforcement:
     entries:
     - hbp-ch17-007
     output_yaml:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
+  parental-intervention:
+    entries:
+    - cc-p1-a2-s08-004
+    - cc-p1-a2-s10-003
+    - cc-p1-a2-s18-001
+    output_yaml:
+    - sources/book-cc/chapter-27-p1-a2-s08.yaml
+    - sources/book-cc/chapter-29-p1-a2-s10.yaml
+    - sources/book-cc/chapter-37-p1-a2-s18.yaml
   parental-pressure:
     entries:
     - poa-ch22-003
     output_yaml:
     - sources/book-03/chapter-22-owl-post-again.yaml
+  parents:
+    entries:
+    - cc-p1-a2-s17-001
+    output_yaml:
+    - sources/book-cc/chapter-36-p1-a2-s17.yaml
   parselmouth:
     entries:
     - cos-ch11-004
@@ -18910,6 +19548,8 @@ tags:
     - sources/book-06/chapter-07-the-slug-club.yaml
   patronus:
     entries:
+    - cc-p1-a2-s11-001
+    - cc-p1-a2-s11-002
     - dh-ch08-007
     - dh-ch09-007
     - dh-ch13-006
@@ -18943,6 +19583,7 @@ tags:
     - sources/book-07/chapter-28-the-missing-mirror.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+    - sources/book-cc/chapter-30-p1-a2-s11.yaml
     - sources/book-fb/chapter-07-bestiary-i-to-q.yaml
   patronus-charm:
     entries:
@@ -18979,6 +19620,7 @@ tags:
     - sources/book-04/chapter-30-the-pensieve.yaml
   peeves:
     entries:
+    - cc-p1-a1-s12-002
     - cos-ch08-005
     - cos-ch11-006
     - dh-ch32-002
@@ -19020,6 +19662,7 @@ tags:
     - sources/book-05/chapter-30-grawp.yaml
     - sources/book-05/chapter-38-the-second-war-begins.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
+    - sources/book-cc/chapter-12-p1-a1-s12.yaml
     - sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml
     - sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
     - sources/external/official-rowling/a16-peeves.yaml
@@ -19099,6 +19742,7 @@ tags:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
   permission-form:
     entries:
+    - cc-p1-a1-s04-006
     - poa-ch02-001
     - poa-ch03-005
     - poa-ch05-002
@@ -19112,6 +19756,7 @@ tags:
     - sources/book-03/chapter-10-the-marauders-map.yaml
     - sources/book-03/chapter-14-snapes-grudge.yaml
     - sources/book-03/chapter-22-owl-post-again.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
   permission-forms:
     entries:
     - ootp-ch16-001
@@ -19395,6 +20040,7 @@ tags:
     - sources/book-02/chapter-18-dobbys-reward.yaml
   platform-nine-and-three-quarters:
     entries:
+    - cc-p1-a1-s01-001
     - cos-ch05-001
     - dh-ch33-004
     - ext-a19-002
@@ -19417,6 +20063,7 @@ tags:
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-06/chapter-07-the-slug-club.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/book-cc/chapter-01-p1-a1-s01.yaml
     - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
     - sources/external/interviews/b24-bbc-harry-potter-and-me.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
@@ -19454,12 +20101,16 @@ tags:
     - sources/external/interviews/b25-bbc-radio-4-living-with-harry-potter.yaml
   plumbing:
     entries:
+    - cc-p1-a2-s19-001
+    - cc-p1-a2-s19-005
+    - cc-p1-a2-s19-006
     - cos-ch16-007
     - ext-a01-002
     - gof-ch25-004
     output_yaml:
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
+    - sources/book-cc/chapter-38-p1-a2-s19.yaml
     - sources/external/official-rowling/a01-chamber-of-secrets.yaml
   pluto:
     entries:
@@ -19507,6 +20158,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-04-number-twelve-grimmauld-place.yaml
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+  political-ritual:
+    entries:
+    - cc-p2-a3-s01-004
+    output_yaml:
+    - sources/book-cc/chapter-40-p2-a3-s01.yaml
   poltergeist:
     entries:
     - ext-a16-001
@@ -19519,6 +20175,7 @@ tags:
     - sources/external/official-rowling/a16-peeves.yaml
   polyjuice-potion:
     entries:
+    - cc-p2-a4-s10-002
     - cos-ch09-007
     - cos-ch10-002
     - cos-ch12-004
@@ -19549,6 +20206,7 @@ tags:
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-25-shell-cottage.yaml
     - sources/book-07/chapter-26-gringotts.yaml
+    - sources/book-cc/chapter-70-p2-a4-s10.yaml
     - sources/external/official-rowling/a39-potions.yaml
   portable-swamp:
     entries:
@@ -19634,16 +20292,22 @@ tags:
     - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   portrait-limits:
     entries:
+    - cc-p1-a2-s08-002
+    - cc-p1-a2-s10-002
     - ext-a05-002
     output_yaml:
+    - sources/book-cc/chapter-27-p1-a2-s08.yaml
+    - sources/book-cc/chapter-29-p1-a2-s10.yaml
     - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   portrait-lore:
     entries:
+    - cc-p2-a4-s04-002
     - dh-ch09-006
     - ext-a05-001
     - ext-a05-002
     output_yaml:
     - sources/book-07/chapter-09-a-place-to-hide.yaml
+    - sources/book-cc/chapter-64-p2-a4-s04.yaml
     - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   portrait-mobility:
     entries:
@@ -19676,6 +20340,11 @@ tags:
     - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   portraits:
     entries:
+    - cc-p1-a2-s08-001
+    - cc-p1-a2-s08-002
+    - cc-p1-a2-s14-001
+    - cc-p2-a4-s04-001
+    - cc-p2-a4-s04-002
     - dh-ch01-001
     - dh-ch10-001
     - dh-ch12-002
@@ -19719,6 +20388,9 @@ tags:
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/book-cc/chapter-27-p1-a2-s08.yaml
+    - sources/book-cc/chapter-33-p1-a2-s14.yaml
+    - sources/book-cc/chapter-64-p2-a4-s04.yaml
     - sources/external/official-rowling/a05-hogwarts-portraits.yaml
     - sources/external/official-rowling/a07-hufflepuff-common-room.yaml
   positions-of-responsibility:
@@ -19798,6 +20470,11 @@ tags:
     - ext-b01-005
     output_yaml:
     - sources/external/interviews/b01-scholastic-com-live-chat.yaml
+  postwar-history:
+    entries:
+    - cc-p1-a1-s12-001
+    output_yaml:
+    - sources/book-cc/chapter-12-p1-a1-s12.yaml
   potion:
     entries:
     - hbp-ch26-006
@@ -19805,6 +20482,8 @@ tags:
     - sources/book-06/chapter-26-the-cave.yaml
   potion-ingredients:
     entries:
+    - cc-p1-a1-s04-005
+    - cc-p1-a1-s12-002
     - cos-ch11-002
     - gof-ch25-006
     - gof-ch27-004
@@ -19812,6 +20491,8 @@ tags:
     - sources/book-02/chapter-11-the-dueling-club.yaml
     - sources/book-04/chapter-25-the-egg-and-the-eye.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
+    - sources/book-cc/chapter-12-p1-a1-s12.yaml
   potion-making:
     entries:
     - ext-a39-001
@@ -19824,6 +20505,11 @@ tags:
     - sources/external/official-rowling/a39-potions.yaml
   potions:
     entries:
+    - cc-p1-a1-s04-005
+    - cc-p1-a1-s12-002
+    - cc-p1-a2-s17-001
+    - cc-p2-a3-s04-001
+    - cc-p2-a4-s14-001
     - cos-ch09-007
     - cos-ch10-002
     - cos-ch11-002
@@ -19903,6 +20589,11 @@ tags:
     - sources/book-06/chapter-21-the-unknowable-room.yaml
     - sources/book-06/chapter-22-after-the-burial.yaml
     - sources/book-06/chapter-24-sectumsempra.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
+    - sources/book-cc/chapter-12-p1-a1-s12.yaml
+    - sources/book-cc/chapter-36-p1-a2-s17.yaml
+    - sources/book-cc/chapter-43-p2-a3-s04.yaml
+    - sources/book-cc/chapter-74-p2-a4-s14.yaml
     - sources/book-fb/chapter-06-bestiary-d-to-h.yaml
     - sources/external/official-editorial/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.yaml
     - sources/external/official-rowling/a21-toads.yaml
@@ -19922,6 +20613,11 @@ tags:
     - gof-ch27-005
     output_yaml:
     - sources/book-04/chapter-27-padfoot-returns.yaml
+  potions-classroom:
+    entries:
+    - cc-p2-a3-s05-003
+    output_yaml:
+    - sources/book-cc/chapter-44-p2-a3-s05.yaml
   potions-office:
     entries:
     - ootp-ch24-004
@@ -19934,6 +20630,7 @@ tags:
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
   potter-family:
     entries:
+    - cc-p2-a4-s12-001
     - dh-ch16-006
     - dh-ch16-007
     - dh-ch17-006
@@ -19950,6 +20647,7 @@ tags:
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
     - sources/book-07/chapter-35-king-s-cross.yaml
+    - sources/book-cc/chapter-72-p2-a4-s12.yaml
   potterwatch:
     entries:
     - dh-ch22-006
@@ -20002,6 +20700,7 @@ tags:
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
   practical-lessons:
     entries:
+    - cc-p1-a1-s04-005
     - cos-ch06-003
     - cos-ch06-004
     - cos-ch06-007
@@ -20020,6 +20719,7 @@ tags:
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-05/chapter-13-detention-with-dolores.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
   practical-magic:
     entries:
     - ootp-ch12-006
@@ -20598,11 +21298,13 @@ tags:
     - sources/book-03/chapter-18-moony-wormtail-padfoot-and-prongs.yaml
   propaganda:
     entries:
+    - cc-p1-a2-s20-004
     - dh-ch11-002
     - dh-ch12-006
     output_yaml:
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
   prophecy:
     entries:
     - dh-ch22-001
@@ -20822,6 +21524,7 @@ tags:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   public-memory:
     entries:
+    - cc-p2-a4-s06-001
     - dh-ch16-006
     - dh-ch17-002
     - ps-ch02-006
@@ -20829,6 +21532,7 @@ tags:
     - sources/book-01/chapter-02-vanishing-glass.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
+    - sources/book-cc/chapter-66-p2-a4-s06.yaml
   public-opinion:
     entries:
     - ootp-ch04-007
@@ -20884,11 +21588,13 @@ tags:
     - sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
   pure-blood-families:
     entries:
+    - cc-p1-a2-s20-003
     - dh-ch22-002
     - ootp-ch06-006
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
     - sources/book-07/chapter-22-the-deathly-hallows.yaml
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
   pure-blood-households:
     entries:
     - dh-ch01-001
@@ -21013,6 +21719,9 @@ tags:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
   quidditch:
     entries:
+    - cc-p1-a1-s04-004
+    - cc-p2-a3-s01-002
+    - cc-p2-a4-s14-002
     - cos-ch01-001
     - cos-ch07-001
     - cos-ch14-003
@@ -21095,6 +21804,9 @@ tags:
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-07/chapter-07-the-will-of-albus-dumbledore.yaml
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
+    - sources/book-cc/chapter-40-p2-a3-s01.yaml
+    - sources/book-cc/chapter-74-p2-a4-s14.yaml
     - sources/book-fb/chapter-08-bestiary-r-to-z.yaml
     - sources/external/interviews/b02-scholastic-live-chat.yaml
     - sources/external/interviews/b11-the-herald-interview.yaml
@@ -21151,6 +21863,7 @@ tags:
     - sources/book-qtta/chapter-09-the-development-of-the-racing-broom.yaml
   quidditch-field:
     entries:
+    - cc-p2-a3-s19-001
     - gof-ch28-004
     - gof-ch31-002
     - poa-ch09-007
@@ -21160,6 +21873,7 @@ tags:
     - sources/book-03/chapter-09-grim-defeat.yaml
     - sources/book-04/chapter-28-the-madness-of-mr-crouch.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
+    - sources/book-cc/chapter-58-p2-a3-s19.yaml
   quidditch-final:
     entries:
     - poa-ch15-005
@@ -21226,12 +21940,14 @@ tags:
     - sources/book-qtta/chapter-03-the-game-from-queerditch-marsh.yaml
   quidditch-pitch:
     entries:
+    - cc-p2-a3-s19-002
     - ext-a32-003
     - ps-ch11-004
     - qtta-ch05-001
     - qtta-ch06-001
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
+    - sources/book-cc/chapter-58-p2-a3-s19.yaml
     - sources/book-qtta/chapter-05-anti-muggle-precautions.yaml
     - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
     - sources/external/official-rowling/a32-gilderoy-lockhart.yaml
@@ -21556,6 +22272,11 @@ tags:
     output_yaml:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-01/chapter-13-nicolas-flamel.yaml
+  refreshments:
+    entries:
+    - cc-p1-a1-s03-001
+    output_yaml:
+    - sources/book-cc/chapter-03-p1-a1-s03.yaml
   regeneration:
     entries:
     - fb-ch07-006
@@ -21673,6 +22394,13 @@ tags:
     output_yaml:
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
     - sources/external/official-rowling/a10-remus-lupin.yaml
+  resistance:
+    entries:
+    - cc-p2-a3-s05-004
+    - cc-p2-a3-s07-001
+    output_yaml:
+    - sources/book-cc/chapter-44-p2-a3-s05.yaml
+    - sources/book-cc/chapter-46-p2-a3-s07.yaml
   resistance-continuity:
     entries:
     - dh-ch34-002
@@ -21719,8 +22447,14 @@ tags:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
+  restricted-register:
+    entries:
+    - cc-p1-a1-s12-002
+    output_yaml:
+    - sources/book-cc/chapter-12-p1-a1-s12.yaml
   restricted-section:
     entries:
+    - cc-p1-a1-s19-001
     - cos-ch09-007
     - cos-ch10-001
     - gof-ch26-002
@@ -21733,6 +22467,7 @@ tags:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
+    - sources/book-cc/chapter-19-p1-a1-s19.yaml
   resurrection:
     entries:
     - ext-b17-001
@@ -21818,6 +22553,7 @@ tags:
     - sources/book-04/chapter-09-the-dark-mark.yaml
   rita-skeeter:
     entries:
+    - cc-p1-a2-s16-001
     - dh-ch02-006
     - dh-ch08-004
     - dh-ch11-006
@@ -21845,6 +22581,7 @@ tags:
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+    - sources/book-cc/chapter-35-p1-a2-s16.yaml
   robe-fitting:
     entries:
     - ps-ch05-005
@@ -22163,6 +22900,11 @@ tags:
     - dh-ch02-002
     output_yaml:
     - sources/book-07/chapter-02-in-memoriam.yaml
+  scholarship:
+    entries:
+    - cc-p1-a2-s16-002
+    output_yaml:
+    - sources/book-cc/chapter-35-p1-a2-s16.yaml
   school-absence-cover:
     entries:
     - dh-ch06-005
@@ -22267,6 +23009,11 @@ tags:
     - poa-ch01-003
     output_yaml:
     - sources/book-03/chapter-01-owl-post.yaml
+  school-covenant:
+    entries:
+    - cc-p2-a3-s15-001
+    output_yaml:
+    - sources/book-cc/chapter-54-p2-a3-s15.yaml
   school-crest:
     entries:
     - ps-ch03-001
@@ -22282,6 +23029,16 @@ tags:
     - ext-b10-003
     output_yaml:
     - sources/external/interviews/b10-pottercast-j-k-rowling-interview.yaml
+  school-customs:
+    entries:
+    - cc-p1-a2-s16-003
+    output_yaml:
+    - sources/book-cc/chapter-35-p1-a2-s16.yaml
+  school-dances:
+    entries:
+    - cc-p2-a3-s02-001
+    output_yaml:
+    - sources/book-cc/chapter-41-p2-a3-s02.yaml
   school-danger:
     entries:
     - ootp-ch11-004
@@ -22383,6 +23140,7 @@ tags:
     entries:
     - beedle-ch02-008
     - beedle-ch02-009
+    - cc-p2-a3-s01-001
     - cos-ch12-006
     - cos-ch18-005
     - ext-a34-002
@@ -22421,6 +23179,7 @@ tags:
     - sources/book-05/chapter-27-the-centaur-and-the-sneak.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-beedle/chapter-02-fountain-of-fair-fortune.yaml
+    - sources/book-cc/chapter-40-p2-a3-s01.yaml
     - sources/external/official-rowling/a34-dolores-umbridge.yaml
   school-governors:
     entries:
@@ -22554,6 +23313,11 @@ tags:
     - sources/book-04/chapter-02-the-scar.yaml
     - sources/book-04/chapter-04-back-to-the-burrow.yaml
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
+  school-memory:
+    entries:
+    - cc-p1-a1-s02-002
+    output_yaml:
+    - sources/book-cc/chapter-02-p1-a1-s02.yaml
   school-misconduct:
     entries:
     - dh-ch35-004
@@ -22789,6 +23553,15 @@ tags:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-05/chapter-24-occlumency.yaml
+  school-search:
+    entries:
+    - cc-p2-a3-s09-003
+    - cc-p2-a3-s11-001
+    - cc-p2-a3-s15-002
+    output_yaml:
+    - sources/book-cc/chapter-48-p2-a3-s09.yaml
+    - sources/book-cc/chapter-50-p2-a3-s11.yaml
+    - sources/book-cc/chapter-54-p2-a3-s15.yaml
   school-searches:
     entries:
     - cos-ch09-006
@@ -22807,6 +23580,8 @@ tags:
     - sources/external/official-rowling/a28-wizarding-schools.yaml
   school-security:
     entries:
+    - cc-p1-a2-s14-001
+    - cc-p2-a3-s19-002
     - cos-ch02-002
     - ext-a07-003
     - ext-a24-003
@@ -22835,6 +23610,8 @@ tags:
     - sources/book-06/chapter-27-the-lightning-struck-tower.yaml
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+    - sources/book-cc/chapter-33-p1-a2-s14.yaml
+    - sources/book-cc/chapter-58-p2-a3-s19.yaml
     - sources/external/official-rowling/a07-hufflepuff-common-room.yaml
     - sources/external/official-rowling/a24-the-floo-network.yaml
     - sources/external/official-rowling/a28-wizarding-schools.yaml
@@ -22913,6 +23690,11 @@ tags:
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-05/chapter-29-career-advice.yaml
     - sources/book-05/chapter-32-out-of-the-fire.yaml
+  school-symbols:
+    entries:
+    - cc-p1-a2-s20-005
+    output_yaml:
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
   school-textbooks:
     entries:
     - hbp-ch09-007
@@ -22922,6 +23704,11 @@ tags:
     - sources/book-06/chapter-09-the-half-blood-prince.yaml
     - sources/book-06/chapter-10-the-house-of-gaunt.yaml
     - sources/book-06/chapter-16-a-very-frosty-christmas.yaml
+  school-timetable:
+    entries:
+    - cc-p1-a2-s08-004
+    output_yaml:
+    - sources/book-cc/chapter-27-p1-a2-s08.yaml
   school-traditions:
     entries:
     - cos-ch08-004
@@ -22942,6 +23729,8 @@ tags:
     - sources/book-04/chapter-03-the-invitation.yaml
   school-travel:
     entries:
+    - cc-p1-a1-s01-001
+    - cc-p1-a1-s02-001
     - cos-ch05-001
     - ext-a04-001
     - ext-a04-002
@@ -22962,6 +23751,8 @@ tags:
     - sources/book-04/chapter-11-aboard-the-hogwarts-express.yaml
     - sources/book-05/chapter-10-luna-lovegood.yaml
     - sources/book-05/chapter-38-the-second-war-begins.yaml
+    - sources/book-cc/chapter-01-p1-a1-s01.yaml
+    - sources/book-cc/chapter-02-p1-a1-s02.yaml
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
   school-trunks:
@@ -22996,6 +23787,7 @@ tags:
     - sources/external/official-rowling/a32-gilderoy-lockhart.yaml
   scoring:
     entries:
+    - cc-p2-a3-s20-002
     - ext-b18-002
     - gof-ch20-007
     - gof-ch26-005
@@ -23007,6 +23799,7 @@ tags:
     - sources/book-01/chapter-11-quidditch.yaml
     - sources/book-04/chapter-20-the-first-task.yaml
     - sources/book-04/chapter-26-the-second-task.yaml
+    - sources/book-cc/chapter-59-p2-a3-s20.yaml
     - sources/book-qtta/chapter-04-the-arrival-of-the-golden-snitch.yaml
     - sources/book-qtta/chapter-06-changes-in-quidditch-since-the-fourteenth-century.yaml
     - sources/external/interviews/b18-the-diane-rehm-show-wamu.yaml
@@ -23045,6 +23838,11 @@ tags:
     - poa-ch14-005
     output_yaml:
     - sources/book-03/chapter-14-snapes-grudge.yaml
+  search:
+    entries:
+    - cc-p1-a2-s03-003
+    output_yaml:
+    - sources/book-cc/chapter-22-p1-a2-s03.yaml
   seasonal-decorations:
     entries:
     - poa-ch08-006
@@ -23304,6 +24102,7 @@ tags:
     - sources/book-07/chapter-29-the-lost-diadem.yaml
   secret-passages:
     entries:
+    - cc-p2-a3-s05-004
     - dh-ch32-005
     - ootp-ch17-007
     - ootp-ch28-003
@@ -23337,6 +24136,7 @@ tags:
     - sources/book-05/chapter-17-educational-decree-number-twenty-four.yaml
     - sources/book-05/chapter-28-snape-s-worst-memory.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
+    - sources/book-cc/chapter-44-p2-a3-s05.yaml
   secret-passageway:
     entries:
     - dh-ch31-004
@@ -23804,6 +24604,7 @@ tags:
     - sources/book-02/chapter-08-the-deathday-party.yaml
   sirius-black:
     entries:
+    - cc-p1-a1-s11-003
     - dh-ch04-004
     - dh-ch10-002
     - dh-ch10-003
@@ -23874,6 +24675,7 @@ tags:
     - sources/book-07/chapter-04-the-seven-potters.yaml
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/book-cc/chapter-11-p1-a1-s11.yaml
     - sources/external/interviews/b04-world-book-day-live-chat.yaml
   sirius-black-crisis:
     entries:
@@ -23999,6 +24801,8 @@ tags:
     - sources/book-06/chapter-18-birthday-surprises.yaml
   slytherin:
     entries:
+    - cc-p1-a1-s02-002
+    - cc-p2-a4-s14-002
     - cos-ch07-002
     - cos-ch18-004
     - dh-ch10-002
@@ -24050,15 +24854,19 @@ tags:
     - sources/book-07/chapter-10-kreacher-s-tale.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-cc/chapter-02-p1-a1-s02.yaml
+    - sources/book-cc/chapter-74-p2-a4-s14.yaml
     - sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
     - sources/external/official-rowling/a06-hogwarts-ghosts.yaml
     - sources/external/official-rowling/a20-hatstall.yaml
   slytherin-common-room:
     entries:
+    - cc-p2-a3-s11-002
     - cos-ch12-005
     - ext-b07-002
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+    - sources/book-cc/chapter-50-p2-a3-s11.yaml
     - sources/external/interviews/b07-mugglenet-the-leaky-cauldron-interview.yaml
   slytherin-descendants:
     entries:
@@ -24142,6 +24950,8 @@ tags:
     - sources/book-02/chapter-16-the-chamber-of-secrets.yaml
   snape:
     entries:
+    - cc-p2-a3-s04-001
+    - cc-p2-a3-s05-001
     - cos-ch11-002
     - dh-ch06-002
     - dh-ch09-006
@@ -24210,6 +25020,8 @@ tags:
     - sources/book-06/chapter-30-the-white-tomb.yaml
     - sources/book-07/chapter-06-the-ghoul-in-pajamas.yaml
     - sources/book-07/chapter-09-a-place-to-hide.yaml
+    - sources/book-cc/chapter-43-p2-a3-s04.yaml
+    - sources/book-cc/chapter-44-p2-a3-s05.yaml
   snape-office:
     entries:
     - gof-ch27-004
@@ -24285,6 +25097,16 @@ tags:
     - ext-a43-002
     output_yaml:
     - sources/external/official-rowling/a43-fourteenth-century-seventeenth-century.yaml
+  sonnets-of-a-sorcerer:
+    entries:
+    - cc-p1-a1-s19-001
+    output_yaml:
+    - sources/book-cc/chapter-19-p1-a1-s19.yaml
+  sonorus:
+    entries:
+    - cc-p1-a2-s07-001
+    output_yaml:
+    - sources/book-cc/chapter-26-p1-a2-s07.yaml
   sorcerers-stone:
     entries:
     - gof-ch33-002
@@ -24307,6 +25129,7 @@ tags:
     - sources/external/official-rowling/a20-hatstall.yaml
   sorting-ceremony:
     entries:
+    - cc-p1-a1-s04-001
     - cos-ch05-004
     - ext-a30-003
     - gof-ch12-003
@@ -24319,6 +25142,7 @@ tags:
     - sources/book-04/chapter-12-the-triwizard-tournament.yaml
     - sources/book-05/chapter-19-the-lion-and-the-serpent.yaml
     - sources/book-06/chapter-08-snape-victorious.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
     - sources/external/official-rowling/a30-ilvermorny-school-of-witchcraft-and-wizardry.yaml
   sorting-decisions:
     entries:
@@ -24337,6 +25161,10 @@ tags:
     - sources/book-01/chapter-06-journey-from-platform-nine-and-three-quarters.yaml
   sorting-hat:
     entries:
+    - cc-p1-a1-s02-003
+    - cc-p1-a1-s04-001
+    - cc-p1-a1-s04-002
+    - cc-p1-a2-s09-001
     - cos-ch05-004
     - cos-ch12-001
     - cos-ch17-005
@@ -24378,6 +25206,9 @@ tags:
     - sources/book-07/chapter-12-magic-is-might.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-cc/chapter-02-p1-a1-s02.yaml
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
+    - sources/book-cc/chapter-28-p1-a2-s09.yaml
     - sources/external/interviews/b06-mugglenet-the-leaky-cauldron-interview.yaml
     - sources/external/interviews/b09-bloomsbury-post-deathly-hallows-web-chat.yaml
     - sources/external/official-rowling/a02-the-sorting-hat.yaml
@@ -24401,6 +25232,8 @@ tags:
     - sources/external/official-rowling/a31-professor-quirrell.yaml
   source-criticism:
     entries:
+    - cc-p2-a4-s05-002
+    - cc-p2-a4-s10-002
     - dh-ch02-006
     - dh-ch11-006
     - dh-ch17-004
@@ -24414,6 +25247,8 @@ tags:
     - sources/book-07/chapter-11-the-bribe.yaml
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-18-the-life-and-lies-of-albus-dumbledore.yaml
+    - sources/book-cc/chapter-65-p2-a4-s05.yaml
+    - sources/book-cc/chapter-70-p2-a4-s10.yaml
     - sources/external/official-editorial/f01-the-hogwarts-classes-that-you-might-have-forgotten-about.yaml
     - sources/external/official-rowling/a15-the-original-forty.yaml
     - sources/external/official-rowling/a42-wand-woods.yaml
@@ -24424,12 +25259,16 @@ tags:
     - sources/book-beedle/chapter-00-front-matter-and-introduction.yaml
   source-history:
     entries:
+    - cc-p2-a4-s05-001
+    - cc-p2-a4-s10-001
     - dh-ch08-004
     - dh-ch08-006
     - dh-ch16-004
     output_yaml:
     - sources/book-07/chapter-08-the-wedding.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
+    - sources/book-cc/chapter-65-p2-a4-s05.yaml
+    - sources/book-cc/chapter-70-p2-a4-s10.yaml
   source-provenance:
     entries:
     - beedle-fm-001
@@ -24440,9 +25279,11 @@ tags:
     - sources/book-qtta/chapter-00-front-matter.yaml
   source-reliability:
     entries:
+    - cc-p1-a2-s10-001
     - gof-ch15-003
     output_yaml:
     - sources/book-04/chapter-15-beauxbatons-and-durmstrang.yaml
+    - sources/book-cc/chapter-29-p1-a2-s10.yaml
   spattergroit:
     entries:
     - dh-ch06-005
@@ -24676,10 +25517,12 @@ tags:
     - sources/book-04/chapter-08-the-quidditch-world-cup.yaml
   staff:
     entries:
+    - cc-p1-a2-s03-001
     - ext-b17-002
     - ps-ch05-004
     output_yaml:
     - sources/book-01/chapter-05-diagon-alley.yaml
+    - sources/book-cc/chapter-22-p1-a2-s03.yaml
     - sources/external/interviews/b17-the-connection-wbur-radio.yaml
   staff-absence:
     entries:
@@ -24713,6 +25556,7 @@ tags:
     - sources/external/official-rowling/a32-gilderoy-lockhart.yaml
   staff-appointments:
     entries:
+    - cc-p2-a4-s14-001
     - dh-ch12-001
     - gof-ch24-002
     - hbp-ch08-005
@@ -24726,6 +25570,7 @@ tags:
     - sources/book-06/chapter-08-snape-victorious.yaml
     - sources/book-06/chapter-23-horcruxes.yaml
     - sources/book-07/chapter-12-magic-is-might.yaml
+    - sources/book-cc/chapter-74-p2-a4-s14.yaml
   staff-authority:
     entries:
     - ext-a34-004
@@ -24800,6 +25645,7 @@ tags:
     - sources/external/official-rowling/a33-sybill-trelawney.yaml
   staff-history:
     entries:
+    - cc-p2-a3-s05-001
     - gof-ch27-005
     - hbp-ch05-001
     - ps-ch01-002
@@ -24808,6 +25654,7 @@ tags:
     - sources/book-01/chapter-01-boy-who-lived.yaml
     - sources/book-04/chapter-27-padfoot-returns.yaml
     - sources/book-06/chapter-05-an-excess-of-phlegm.yaml
+    - sources/book-cc/chapter-44-p2-a3-s05.yaml
   staff-impersonation:
     entries:
     - gof-ch35-006
@@ -24877,6 +25724,11 @@ tags:
     - ps-ch14-003
     output_yaml:
     - sources/book-01/chapter-14-norbert-the-norwegian-ridgeback.yaml
+  staff-publications:
+    entries:
+    - cc-p1-a1-s19-002
+    output_yaml:
+    - sources/book-cc/chapter-19-p1-a1-s19.yaml
   staff-reporting:
     entries:
     - hbp-ch08-006
@@ -24927,8 +25779,10 @@ tags:
     - sources/book-03/chapter-09-grim-defeat.yaml
   staff-status:
     entries:
+    - cc-p2-a3-s09-002
     - ext-a33-002
     output_yaml:
+    - sources/book-cc/chapter-48-p2-a3-s09.yaml
     - sources/external/official-rowling/a33-sybill-trelawney.yaml
   staff-substitution:
     entries:
@@ -25268,6 +26122,11 @@ tags:
     - ootp-ch05-003
     output_yaml:
     - sources/book-05/chapter-05-the-order-of-the-phoenix.yaml
+  student-choice:
+    entries:
+    - cc-p1-a2-s09-001
+    output_yaml:
+    - sources/book-cc/chapter-28-p1-a2-s09.yaml
   student-conduct:
     entries:
     - gof-ch22-001
@@ -25310,16 +26169,21 @@ tags:
     - sources/external/official-rowling/a09-the-great-lake.yaml
   student-customs:
     entries:
+    - cc-p1-a2-s19-003
     - gof-ch21-002
     output_yaml:
     - sources/book-04/chapter-21-the-house-elf-liberation-front.yaml
+    - sources/book-cc/chapter-38-p1-a2-s19.yaml
   student-death:
     entries:
+    - cc-p2-a3-s19-002
     - gof-ch37-001
     output_yaml:
     - sources/book-04/chapter-37-the-beginning.yaml
+    - sources/book-cc/chapter-58-p2-a3-s19.yaml
   student-discipline:
     entries:
+    - cc-p1-a2-s08-004
     - cos-ch18-002
     - dh-ch16-002
     - dh-ch30-002
@@ -25354,6 +26218,7 @@ tags:
     - sources/book-06/chapter-24-sectumsempra.yaml
     - sources/book-07/chapter-16-godric-s-hollow.yaml
     - sources/book-07/chapter-30-the-sacking-of-severus-snape.yaml
+    - sources/book-cc/chapter-27-p1-a2-s08.yaml
     - sources/external/official-rowling/a32-gilderoy-lockhart.yaml
   student-dormitories:
     entries:
@@ -25491,10 +26356,12 @@ tags:
     - sources/book-06/chapter-25-the-seer-overheard.yaml
   student-life:
     entries:
+    - cc-p2-a4-s09-001
     - ext-a32-002
     - ootp-ch11-007
     output_yaml:
     - sources/book-05/chapter-11-the-sorting-hat-s-new-song.yaml
+    - sources/book-cc/chapter-69-p2-a4-s09.yaml
     - sources/external/official-rowling/a32-gilderoy-lockhart.yaml
   student-lockdown:
     entries:
@@ -25796,6 +26663,10 @@ tags:
     - sources/book-06/chapter-18-birthday-surprises.yaml
   student-safety:
     entries:
+    - cc-p1-a2-s03-001
+    - cc-p1-a2-s03-003
+    - cc-p1-a2-s10-001
+    - cc-p2-a4-s01-001
     - cos-ch13-007
     - cos-ch14-003
     - cos-ch15-001
@@ -25862,6 +26733,9 @@ tags:
     - sources/book-06/chapter-12-silver-and-opals.yaml
     - sources/book-06/chapter-18-birthday-surprises.yaml
     - sources/book-06/chapter-28-flight-of-the-prince.yaml
+    - sources/book-cc/chapter-22-p1-a2-s03.yaml
+    - sources/book-cc/chapter-29-p1-a2-s10.yaml
+    - sources/book-cc/chapter-61-p2-a4-s01.yaml
   student-selection:
     entries:
     - hbp-ch07-005
@@ -25978,8 +26852,14 @@ tags:
     - sources/book-05/chapter-24-occlumency.yaml
   student-welfare:
     entries:
+    - cc-p1-a1-s04-007
+    - cc-p1-a2-s18-001
+    - cc-p2-a3-s01-003
     - ext-a04-003
     output_yaml:
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
+    - sources/book-cc/chapter-37-p1-a2-s18.yaml
+    - sources/book-cc/chapter-40-p2-a3-s01.yaml
     - sources/external/official-rowling/a04-the-hogwarts-express.yaml
   student-withdrawal:
     entries:
@@ -26052,8 +26932,10 @@ tags:
     - sources/book-01/chapter-16-through-the-trapdoor.yaml
   succession:
     entries:
+    - cc-p1-a2-s10-002
     - ext-a05-003
     output_yaml:
+    - sources/book-cc/chapter-29-p1-a2-s10.yaml
     - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   suit-of-armor:
     entries:
@@ -26232,6 +27114,7 @@ tags:
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
   sybill-trelawney:
     entries:
+    - cc-p1-a1-s19-002
     - hbp-ch15-005
     - hbp-ch20-002
     - hbp-ch25-004
@@ -26243,6 +27126,7 @@ tags:
     - sources/book-06/chapter-15-the-unbreakable-vow.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
     - sources/book-06/chapter-25-the-seer-overheard.yaml
+    - sources/book-cc/chapter-19-p1-a1-s19.yaml
   symbols:
     entries:
     - dh-ch08-002
@@ -26438,12 +27322,14 @@ tags:
     - sources/book-04/chapter-37-the-beginning.yaml
   teachers:
     entries:
+    - cc-p1-a1-s02-004
     - cos-ch12-002
     - ext-a14-002
     - ext-a44-003
     - ext-b17-002
     output_yaml:
     - sources/book-02/chapter-12-the-polyjuice-potion.yaml
+    - sources/book-cc/chapter-02-p1-a1-s02.yaml
     - sources/external/interviews/b17-the-connection-wbur-radio.yaml
     - sources/external/official-rowling/a14-the-mirror-of-erised.yaml
     - sources/external/official-rowling/a44-seventeenth-century-and-beyond.yaml
@@ -26599,9 +27485,11 @@ tags:
     - sources/external/official-rowling/a19-king-s-cross-station.yaml
   territorial-authority:
     entries:
+    - cc-p1-a2-s05-001
     - ootp-ch30-007
     output_yaml:
     - sources/book-05/chapter-30-grawp.yaml
+    - sources/book-cc/chapter-24-p1-a2-s05.yaml
   testimony:
     entries:
     - gof-ch36-004
@@ -26701,6 +27589,9 @@ tags:
     - sources/book-01/chapter-17-man-with-two-faces.yaml
   third-task:
     entries:
+    - cc-p2-a3-s19-001
+    - cc-p2-a3-s20-001
+    - cc-p2-a3-s20-002
     - gof-ch28-004
     - gof-ch29-004
     - gof-ch31-002
@@ -26711,6 +27602,13 @@ tags:
     - sources/book-04/chapter-29-the-dream.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
+    - sources/book-cc/chapter-58-p2-a3-s19.yaml
+    - sources/book-cc/chapter-59-p2-a3-s20.yaml
+  third-year:
+    entries:
+    - cc-p1-a1-s04-006
+    output_yaml:
+    - sources/book-cc/chapter-04-p1-a1-s04.yaml
   third-year-booklist:
     entries:
     - poa-ch04-003
@@ -26833,10 +27731,18 @@ tags:
     - sources/book-05/chapter-35-beyond-the-veil.yaml
   time-travel:
     entries:
+    - cc-p1-a2-s07-003
+    - cc-p1-a2-s16-002
+    - cc-p1-a2-s19-006
+    - cc-p1-a2-s20-002
     - ext-a25-002
     - ext-a25-003
     - ext-a25-004
     output_yaml:
+    - sources/book-cc/chapter-26-p1-a2-s07.yaml
+    - sources/book-cc/chapter-35-p1-a2-s16.yaml
+    - sources/book-cc/chapter-38-p1-a2-s19.yaml
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
     - sources/external/official-rowling/a25-time-turner.yaml
   time-turner:
     entries:
@@ -26967,6 +27873,11 @@ tags:
     - ootp-ch06-006
     output_yaml:
     - sources/book-05/chapter-06-the-noble-and-most-ancient-house-of-black.yaml
+  torture:
+    entries:
+    - cc-p2-a3-s02-002
+    output_yaml:
+    - sources/book-cc/chapter-41-p2-a3-s02.yaml
   tournament-aftermath:
     entries:
     - gof-ch37-001
@@ -26982,6 +27893,11 @@ tags:
     - gof-ch18-006
     output_yaml:
     - sources/book-04/chapter-18-the-weighing-of-the-wands.yaml
+  tournament-cessation:
+    entries:
+    - cc-p1-a1-s10-002
+    output_yaml:
+    - sources/book-cc/chapter-10-p1-a1-s10.yaml
   tournament-logistics:
     entries:
     - gof-ch26-005
@@ -27061,6 +27977,11 @@ tags:
     - hbp-ch29-004
     output_yaml:
     - sources/book-06/chapter-29-the-phoenix-lament.yaml
+  towers:
+    entries:
+    - cc-p1-a2-s06-001
+    output_yaml:
+    - sources/book-cc/chapter-25-p1-a2-s06.yaml
   trace:
     entries:
     - dh-ch04-001
@@ -27112,6 +28033,8 @@ tags:
   transfiguration:
     entries:
     - beedle-ch04-002
+    - cc-p1-a2-s04-001
+    - cc-p2-a3-s08-001
     - cos-ch06-004
     - dh-ch15-003
     - dh-ch32-002
@@ -27152,6 +28075,8 @@ tags:
     - sources/book-07/chapter-15-the-goblin-s-revenge.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+    - sources/book-cc/chapter-23-p1-a2-s04.yaml
+    - sources/book-cc/chapter-47-p2-a3-s08.yaml
     - sources/book-fb/chapter-08-bestiary-r-to-z.yaml
     - sources/external/official-rowling/a12-professor-mcgonagall.yaml
   transfiguration-book:
@@ -27254,6 +28179,7 @@ tags:
     - sources/book-04/chapter-05-weasleys-wizard-wheezes.yaml
   triwizard-cup:
     entries:
+    - cc-p2-a3-s20-001
     - gof-ch28-004
     - gof-ch31-007
     - gof-ch32-001
@@ -27267,6 +28193,7 @@ tags:
     - sources/book-04/chapter-33-the-death-eaters.yaml
     - sources/book-04/chapter-34-priori-incantatem.yaml
     - sources/book-04/chapter-35-veritaserum.yaml
+    - sources/book-cc/chapter-59-p2-a3-s20.yaml
   triwizard-rules:
     entries:
     - gof-ch17-001
@@ -27274,6 +28201,20 @@ tags:
     - sources/book-04/chapter-17-the-four-champions.yaml
   triwizard-tournament:
     entries:
+    - cc-p1-a1-s10-001
+    - cc-p1-a1-s10-002
+    - cc-p1-a2-s04-001
+    - cc-p1-a2-s07-001
+    - cc-p1-a2-s07-002
+    - cc-p1-a2-s07-003
+    - cc-p1-a2-s14-002
+    - cc-p1-a2-s16-001
+    - cc-p1-a2-s19-004
+    - cc-p1-a2-s20-001
+    - cc-p1-a2-s20-002
+    - cc-p2-a3-s08-001
+    - cc-p2-a3-s19-001
+    - cc-p2-a3-s20-002
     - ext-a09-005
     - ext-a29-004
     - gof-ch07-007
@@ -27358,6 +28299,16 @@ tags:
     - sources/book-04/chapter-37-the-beginning.yaml
     - sources/book-05/chapter-16-in-the-hog-s-head.yaml
     - sources/book-06/chapter-01-the-other-minister.yaml
+    - sources/book-cc/chapter-10-p1-a1-s10.yaml
+    - sources/book-cc/chapter-23-p1-a2-s04.yaml
+    - sources/book-cc/chapter-26-p1-a2-s07.yaml
+    - sources/book-cc/chapter-33-p1-a2-s14.yaml
+    - sources/book-cc/chapter-35-p1-a2-s16.yaml
+    - sources/book-cc/chapter-38-p1-a2-s19.yaml
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
+    - sources/book-cc/chapter-47-p2-a3-s08.yaml
+    - sources/book-cc/chapter-58-p2-a3-s19.yaml
+    - sources/book-cc/chapter-59-p2-a3-s20.yaml
     - sources/external/official-rowling/a09-the-great-lake.yaml
     - sources/external/official-rowling/a29-beauxbatons-academy-of-magic.yaml
   triwizard-winnings:
@@ -27390,6 +28341,18 @@ tags:
     output_yaml:
     - sources/book-01/chapter-10-halloween.yaml
     - sources/book-01/chapter-17-man-with-two-faces.yaml
+  trolley-witch:
+    entries:
+    - cc-p1-a1-s03-001
+    - cc-p1-a1-s11-001
+    - cc-p1-a1-s11-002
+    - cc-p1-a1-s11-003
+    - cc-p1-a1-s11-004
+    - cc-p1-a1-s17-001
+    output_yaml:
+    - sources/book-cc/chapter-03-p1-a1-s03.yaml
+    - sources/book-cc/chapter-11-p1-a1-s11.yaml
+    - sources/book-cc/chapter-17-p1-a1-s17.yaml
   trolls:
     entries:
     - fb-ch01-002
@@ -27919,6 +28882,7 @@ tags:
     - sources/external/official-rowling/a24-the-floo-network.yaml
   visiting-schools:
     entries:
+    - cc-p1-a2-s07-001
     - gof-ch15-005
     - gof-ch15-006
     - gof-ch16-001
@@ -27935,6 +28899,7 @@ tags:
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
     - sources/book-04/chapter-24-rita-skeeter-s-scoop.yaml
+    - sources/book-cc/chapter-26-p1-a2-s07.yaml
   visitor-access:
     entries:
     - ps-ch17-004
@@ -27961,6 +28926,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-07-the-ministry-of-magic.yaml
     - sources/book-05/chapter-34-the-department-of-mysteries.yaml
+  visitors:
+    entries:
+    - cc-p1-a2-s14-001
+    output_yaml:
+    - sources/book-cc/chapter-33-p1-a2-s14.yaml
   voldemort:
     entries:
     - cos-ch02-003
@@ -28087,6 +29057,12 @@ tags:
     - dh-ch23-002
     output_yaml:
     - sources/book-07/chapter-23-malfoy-manor.yaml
+  voldemort-day:
+    entries:
+    - cc-p1-a2-s20-004
+    - cc-p1-a2-s20-005
+    output_yaml:
+    - sources/book-cc/chapter-39-p1-a2-s20.yaml
   voldemort-defenses:
     entries:
     - dh-ch10-006
@@ -28755,6 +29731,7 @@ tags:
     - sources/book-03/chapter-13-gryffindor-versus-ravenclaw.yaml
   whomping-willow:
     entries:
+    - cc-p2-a3-s05-004
     - cos-ch05-003
     - dh-ch32-005
     - gof-ch31-001
@@ -28778,6 +29755,7 @@ tags:
     - sources/book-03/chapter-21-hermiones-secret.yaml
     - sources/book-04/chapter-31-the-third-task.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
+    - sources/book-cc/chapter-44-p2-a3-s05.yaml
   wider-wizarding-culture:
     entries:
     - qtta-ch07-001
@@ -29443,6 +30421,11 @@ tags:
     - ext-a08-004
     output_yaml:
     - sources/external/official-rowling/a08-the-sword-of-gryffindor.yaml
+  written-history:
+    entries:
+    - cc-p1-a2-s19-004
+    output_yaml:
+    - sources/book-cc/chapter-38-p1-a2-s19.yaml
   written-knowledge:
     entries:
     - ext-a42-002
@@ -29498,6 +30481,7 @@ tags:
     - sources/book-07/chapter-14-the-thief.yaml
   yule-ball:
     entries:
+    - cc-p1-a2-s16-001
     - gof-ch22-001
     - gof-ch22-002
     - gof-ch23-002
@@ -29505,6 +30489,7 @@ tags:
     output_yaml:
     - sources/book-04/chapter-22-the-unexpected-task.yaml
     - sources/book-04/chapter-23-the-yule-ball.yaml
+    - sources/book-cc/chapter-35-p1-a2-s16.yaml
   yuletide:
     entries:
     - beedle-ch02-001

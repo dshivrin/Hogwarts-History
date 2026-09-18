@@ -1,0 +1,180 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 4: MINISTRY OF MAGIC, HARRY’S OFFICE'
+  scene_id: CC-P2-A4-S04
+  part: 2
+  act: 4
+  scene: 4
+  chapter_start_pdf_page: 196
+  chapter_end_pdf_page: 199
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Read pp196–199. Retain portrait operation. Private Malfoy time
+    devices are not a school institution; distinguish the special devices from the
+    earlier Ministry models without rewriting prior Time-Turner records.
+entries:
+- id: cc-p2-a4-s04-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 4: MINISTRY OF MAGIC, HARRY’S OFFICE'
+  part: 2
+  act: 4
+  scene: 4
+  scene_id: CC-P2-A4-S04
+  chapter_start_pdf_page: 196
+  chapter_end_pdf_page: 199
+  pdf_page: 196
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 162:173; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: HARRY
+    end_phrase: HARRY
+    local_occurrence_note: Name anchor at normalized page offset 140; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 162
+    char_end: 173
+    text_sha256: aba1cc9afc443a641ee80fd048009b73ad842a4eb076a8658230c4b9a90a1ffe
+  nearby_context: Read pp196–199. Retain portrait operation. Private Malfoy time devices
+    are not a school institution; distinguish the special devices from the earlier
+    Ministry models without rewriting prior Time-Turner records.
+  match_terms:
+  - dumbledore-portrait
+  - portraits
+  - magical-communication
+  quote_excerpt_short: null
+  source_note: Dumbledore’s portrait visits Harry’s Ministry office and converses
+    with him, extending the earlier headmaster-portrait evidence to a frame outside
+    Hogwarts.
+  speaker: Stage directions and Harry
+  evidence_mode: stage_direction
+  reference_type: portrait_or_ghost_lore
+  era_classification: later_editorial_note
+  historical_period: 2020–21 school period (relative chronology; exact year requires
+    review)
+  information_available: Stated or shown only in this later script; no contemporary
+    pre-1984 record is supplied.
+  character_knowledge: The named speaker or staged observer has this knowledge in
+    the scene; no transmission to Bagshot is shown.
+  bagshot_1984_access: No evidence of availability to Bagshot by 1984.
+  timeline: primary
+  timeline_detail: Restored primary present
+  topic_tags:
+  - dumbledore-portrait
+  - portraits
+  - magical-communication
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: 'Cursed Child: Later School Life and Historical Sources'
+  candidate_section: Dumbledore portrait at the Ministry
+  reason_for_placement: Research candidate for Dumbledore portrait at the Ministry;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No evidence of availability to Bagshot by 1984.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - dh-ch15-007
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: The scene supports a Dumbledore frame at the Ministry; it does not
+    show unrestricted travel to arbitrary portraits.
+- id: cc-p2-a4-s04-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 4, Scene 4: MINISTRY OF MAGIC, HARRY’S OFFICE'
+  part: 2
+  act: 4
+  scene: 4
+  scene_id: CC-P2-A4-S04
+  chapter_start_pdf_page: 196
+  chapter_end_pdf_page: 199
+  pdf_page: 197
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 507:516; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: DUMBLEDORE
+    end_phrase: DUMBLEDORE
+    local_occurrence_note: Name anchor at normalized page offset 484; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 507
+    char_end: 516
+    text_sha256: f6205788e442b0c33d017369d7f184ccfbd81c234f329d1df0f8868ca846d2f9
+  nearby_context: Read pp196–199. Retain portrait operation. Private Malfoy time devices
+    are not a school institution; distinguish the special devices from the earlier
+    Ministry models without rewriting prior Time-Turner records.
+  match_terms:
+  - dumbledore-portrait
+  - portrait-lore
+  - portraits
+  quote_excerpt_short: null
+  source_note: Dumbledore’s portrait attempts to reach beyond its frame but cannot;
+    it displays distress and subsequently leaves the frame.
+  speaker: Stage directions
+  evidence_mode: stage_direction
+  reference_type: portrait_or_ghost_lore
+  era_classification: later_editorial_note
+  historical_period: 2020–21 school period (relative chronology; exact year requires
+    review)
+  information_available: Stated or shown only in this later script; no contemporary
+    pre-1984 record is supplied.
+  character_knowledge: The named speaker or staged observer has this knowledge in
+    the scene; no transmission to Bagshot is shown.
+  bagshot_1984_access: No evidence of availability to Bagshot by 1984.
+  timeline: primary
+  timeline_detail: Restored primary present
+  topic_tags:
+  - dumbledore-portrait
+  - portrait-lore
+  - portraits
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: 'Cursed Child: Later School Life and Historical Sources'
+  candidate_section: Portrait physical and emotional limits
+  reason_for_placement: Research candidate for Portrait physical and emotional limits;
+    retain source mode and timeline before any editorial use.
+  relevance_to_hogwarts_a_history: No evidence of availability to Bagshot by 1984.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: corroboration
+    related_ids:
+    - ext-a05-001
+    - dh-ch36-006
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations:
+  - scene_id: CC-P2-A4-S04
+    pdf_page: 198
+    timeline: primary
+    timeline_detail: Restored primary present
+    note: Portrait has left the frame.
+  confidence: high
+  limitations: A staged physical limit and displayed emotion are retained separately
+    from any claim that a portrait is the dead person’s soul.

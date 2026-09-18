@@ -1,0 +1,171 @@
+source_unit:
+  source_kind: script_pdf
+  source_id: CC
+  source_class: supplementary_script
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 2: HOGWARTS, GROUNDS'
+  scene_id: CC-P2-A3-S02
+  part: 2
+  act: 3
+  scene: 2
+  chapter_start_pdf_page: 134
+  chapter_end_pdf_page: 135
+  boundary_confidence: high
+  boundary_notes: Each range runs to the page before the next scene heading; inter-act
+    divider pages may be included. Final scene ends on page 235 before The End.
+  processed_date: '2026-09-17'
+  processor_notes: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+entries:
+- id: cc-p2-a3-s02-001
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 2: HOGWARTS, GROUNDS'
+  part: 2
+  act: 3
+  scene: 2
+  scene_id: CC-P2-A3-S02
+  chapter_start_pdf_page: 134
+  chapter_end_pdf_page: 135
+  pdf_page: 134
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 980:994; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 904; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 980
+    char_end: 994
+    text_sha256: c10eab6b5876cb4e0ba06139e97a970bcd6e2517b389763f5e42a7847f42b663
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - school-dances
+  - blood-ball
+  quote_excerpt_short: null
+  source_note: Polly expects students to invite partners to an event called the Blood
+    Ball. This is a named social event in altered Hogwarts.
+  speaker: Polly Chapman
+  evidence_mode: dialogue_claim
+  reference_type: institutional_custom
+  era_classification: post_1984_excluded_from_original
+  historical_period: Albus Potter school years, fourth-year crisis
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: altered
+  timeline_detail: Voldemort-victory branch produced by humiliating Cedric in the
+    first two tasks; excluded from primary history.
+  topic_tags:
+  - school-dances
+  - blood-ball
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Altered Hogwarts
+  candidate_section: 'Altered Hogwarts: Blood Ball'
+  reason_for_placement: 'Research candidate for Altered Hogwarts: Blood Ball; retain
+    source mode and timeline before any editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: Frequency, origin, rules and precise venue are not stated; do not equate
+    with the Yule Ball.
+- id: cc-p2-a3-s02-002
+  source_id: CC
+  source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+  source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+  book: 'Harry Potter and the Cursed Child: Parts One and Two'
+  chapter: 'Part 2, Act 3, Scene 2: HOGWARTS, GROUNDS'
+  part: 2
+  act: 3
+  scene: 2
+  scene_id: CC-P2-A3-S02
+  chapter_start_pdf_page: 134
+  chapter_end_pdf_page: 135
+  pdf_page: 135
+  printed_page: null
+  extracted_text_lines: Normalized page character locator 105:120; see passage_locator
+    (zero-based, end-exclusive).
+  text_anchor:
+    start_phrase: SCORPIUS
+    end_phrase: SCORPIUS
+    local_occurrence_note: Name anchor at normalized page offset 399; relevant passage
+      located by passage_locator and paraphrased in source_note.
+  passage_locator:
+    normalization: pypdf page.extract_text(); collapse whitespace to one space; strip
+    char_start: 105
+    char_end: 120
+    text_sha256: 4a8c0c850952d2e2b8cab11249270b8579387d420fc8f6088eba3f8dd08e4a5e
+  nearby_context: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  match_terms:
+  - dungeons
+  - blood-status
+  - torture
+  quote_excerpt_short: null
+  source_note: Polly identifies the screams as coming from Muggle-born prisoners in
+    the dungeons and attributes the arrangement to this world’s Scorpius; stage directions
+    show blood on her shoes.
+  speaker: Polly Chapman
+  evidence_mode: dialogue_claim
+  reference_type: historical_claim
+  era_classification: post_1984_excluded_from_original
+  historical_period: Albus Potter school years, fourth-year crisis
+  information_available: Available to reader from this scene; no earlier circulation
+    established.
+  character_knowledge: Direct scene participants or identified speaker; wider dissemination
+    not established.
+  bagshot_1984_access: 'Not available for a 1984 original: later event or later testimony;
+    no demonstrated access to these facts in 1984.'
+  timeline: altered
+  timeline_detail: Voldemort-victory branch produced by humiliating Cedric in the
+    first two tasks; excluded from primary history.
+  topic_tags:
+  - dungeons
+  - blood-status
+  - torture
+  - cursed-child
+  candidate_part: Later Editorial Notes
+  candidate_chapter: Altered Hogwarts
+  candidate_section: 'Altered Hogwarts: Dungeon persecution'
+  reason_for_placement: 'Research candidate for Altered Hogwarts: Dungeon persecution;
+    retain source mode and timeline before any editorial use.'
+  relevance_to_hogwarts_a_history: 'Not available for a 1984 original: later event
+    or later testimony; no demonstrated access to these facts in 1984.'
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: Linked supporting evidence is retained separately; comparison records the
+      relationship without modifying prior entries.
+  comparison:
+    relation: new_information
+    related_ids: []
+    notes: Indexed comparison reviewed; links are context unless relation is corroboration
+      or contradiction.
+    conflict_note: null
+  supporting_locations: []
+  confidence: high
+  limitations: A character identifies the victims and location; screams and blood
+    are staged, but the captives themselves are not shown.

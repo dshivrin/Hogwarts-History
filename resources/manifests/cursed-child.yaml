@@ -1,0 +1,1041 @@
+source_id: CC
+source_number: 8
+short_title: Cursed Child
+title: 'Harry Potter and the Cursed Child: Parts One and Two'
+source_class: supplementary_script
+source_file: pdfs/harry-potter-and-the-cursed-child.pdf
+source_url: https://kvdrdolibrary.wordpress.com/wp-content/uploads/2021/08/harry_potter_and_the_cursed_child.pdf
+sha256: 259885808602501bb4930e56f38f85b58200b7bb0da9c07410bc0c479defb1f6
+pdf_pages: 276
+retrieved_date: '2026-09-17'
+edition: Special Rehearsal Edition; official script of the original West End production;
+  Pottermore digital edition, 2016
+edition_evidence_pdf_pages:
+- 4
+- 276
+isbn: 978-1-78110-704-1
+playwright: Jack Thorne
+original_story_by:
+- J.K. Rowling
+- John Tiffany
+- Jack Thorne
+carrier_notes: Reflowed calibre PDF. Page 236 contains a third-party download notice.
+  Preserved byte-for-byte; no assertion that this is a publisher-issued PDF. PDF pages
+  are 1-based, not printed pages.
+parts: 2
+acts: 4
+scene_count: 75
+non_scene_ranges:
+- page_start: 1
+  page_end: 13
+  kind: front_matter
+- page_start: 236
+  page_end: 276
+  kind: end_marker_and_back_matter
+boundary_notes: Each range runs to the page before the next scene heading; inter-act
+  divider pages may be included. Final scene ends on page 235 before The End.
+scenes:
+- scene_id: CC-P1-A1-S01
+  part: 1
+  act: 1
+  scene: 1
+  page_start: 14
+  location: KING’S CROSS
+  page_end: 15
+  output_file: sources/book-cc/chapter-01-p1-a1-s01.yaml
+  status: complete
+  review_note: Complete pp. 14–15 read. Retained barrier; excluded unreliable sibling
+    joke about letter frequency.
+  entry_count: 1
+- scene_id: CC-P1-A1-S02
+  part: 1
+  act: 1
+  scene: 2
+  page_start: 16
+  location: PLATFORM NINE AND THREE-QUARTERS
+  page_end: 19
+  output_file: sources/book-cc/chapter-02-p1-a1-s02.yaml
+  status: complete
+  review_note: Complete pp. 16–19 read. Retained departure, heads, Sorting preference
+    and Neville. Slytherin stereotype, Thestral teasing and exam/Quidditch ambitions
+    are not rules.
+  entry_count: 4
+- scene_id: CC-P1-A1-S03
+  part: 1
+  act: 1
+  scene: 3
+  page_start: 20
+  location: THE HOGWARTS EXPRESS
+  page_end: 23
+  output_file: sources/book-cc/chapter-03-p1-a1-s03.yaml
+  status: complete
+  review_note: Complete pp. 20–23 read. Retained train provisions; excluded friendship
+    drama and parentage rumor.
+  entry_count: 1
+- scene_id: CC-P1-A1-S04
+  part: 1
+  act: 1
+  scene: 4
+  page_start: 24
+  location: TRANSITION SCENE
+  page_end: 30
+  output_file: sources/book-cc/chapter-04-p1-a1-s04.yaml
+  status: complete
+  review_note: Complete pp. 24–30 read. Montage covers ordinary years, not altered
+    time. Retained school practices; portrait insult is not established portrait behaviour.
+  entry_count: 7
+- scene_id: CC-P1-A1-S05
+  part: 1
+  act: 1
+  scene: 5
+  page_start: 31
+  location: MINISTRY OF MAGIC, HARRY’S OFFICE
+  page_end: 33
+  output_file: sources/book-cc/chapter-05-p1-a1-s05.yaml
+  status: complete
+  review_note: Complete pp. 31–33 read. Ministry seizure and unrest add no Hogwarts-specific
+    fact; departure is background.
+  entry_count: 0
+- scene_id: CC-P1-A1-S06
+  part: 1
+  act: 1
+  scene: 6
+  page_start: 34
+  location: HARRY AND GINNY POTTER’S HOUSE
+  page_end: 36
+  output_file: sources/book-cc/chapter-06-p1-a1-s06.yaml
+  status: complete
+  review_note: Complete pp. 34–36 read. Amos's grief and rescue request add no institutional
+    fact beyond more explicit scene 10 evidence. Delphi's school claim is unspecified.
+  entry_count: 0
+- scene_id: CC-P1-A1-S07
+  part: 1
+  act: 1
+  scene: 7
+  page_start: 37
+  location: HARRY AND GINNY POTTER’S HOUSE, ALBUS’S ROOM
+  page_end: 39
+  output_file: sources/book-cc/chapter-07-p1-a1-s07.yaml
+  status: complete
+  review_note: Complete pp. 37–39 read. Family gifts, textbook packing and conflict
+    do not establish school history or policy.
+  entry_count: 0
+- scene_id: CC-P1-A1-S08
+  part: 1
+  act: 1
+  scene: 8
+  page_start: 40
+  location: DREAM, HUT-ON-THE-ROCK
+  page_end: 42
+  output_file: sources/book-cc/chapter-08-p1-a1-s08.yaml
+  status: complete
+  review_note: Complete pp. 40–42 read. Retained admission only as explicit dream
+    cross-reference; no direct historical fact inferred.
+  entry_count: 0
+  consolidation_decisions:
+  - candidate_ordinal: 1
+    decision: not_separate_entry
+    reason: Dream echo is not independent admissions or historical evidence.
+- scene_id: CC-P1-A1-S09
+  part: 1
+  act: 1
+  scene: 9
+  page_start: 43
+  location: HARRY AND GINNY POTTER’S HOUSE, BEDROOM
+  page_end: 45
+  output_file: sources/book-cc/chapter-09-p1-a1-s09.yaml
+  status: complete
+  review_note: Complete pp. 43–45 read. Confirms nightmare context. Private Dumbledore
+    quotation and family conversation not additional institutional evidence.
+  entry_count: 0
+- scene_id: CC-P1-A1-S10
+  part: 1
+  act: 1
+  scene: 10
+  page_start: 46
+  location: THE HOGWARTS EXPRESS
+  page_end: 48
+  output_file: sources/book-cc/chapter-10-p1-a1-s10.yaml
+  status: complete
+  review_note: Complete pp. 46–48 read. Retained tournament format and cessation.
+  entry_count: 2
+- scene_id: CC-P1-A1-S11
+  part: 1
+  act: 1
+  scene: 11
+  page_start: 49
+  location: ROOF OF THE HOGWARTS EXPRESS
+  page_end: 50
+  output_file: sources/book-cc/chapter-11-p1-a1-s11.yaml
+  status: complete
+  review_note: Complete pp. 49–50 read. Separated witch's claims, student's dating
+    inference, observed enforcement and relative geography.
+  entry_count: 4
+  consolidation_decisions:
+  - candidate_ordinal: 5
+    decision: not_separate_entry
+    reason: Vague escape geography does not establish Hogwarts geography or a route
+      map.
+- scene_id: CC-P1-A1-S12
+  part: 1
+  act: 1
+  scene: 12
+  page_start: 51
+  location: MINISTRY OF MAGIC, GRAND MEETING ROOM
+  page_end: 52
+  output_file: sources/book-cc/chapter-12-p1-a1-s12.yaml
+  status: complete
+  review_note: Complete pp. 51–52 read. Retained battle retrospective and stores/Restricted
+    Register/Peeves report.
+  entry_count: 2
+- scene_id: CC-P1-A1-S13
+  part: 1
+  act: 1
+  scene: 13
+  page_start: 53
+  location: ST. OSWALD’S HOME FOR OLD WITCHES AND WIZARDS
+  page_end: 53
+  output_file: sources/book-cc/chapter-13-p1-a1-s13.yaml
+  status: complete
+  review_note: Complete p. 53 read. St. Oswald's magical antics are not Hogwarts evidence.
+  entry_count: 0
+- scene_id: CC-P1-A1-S14
+  part: 1
+  act: 1
+  scene: 14
+  page_start: 54
+  location: ST. OSWALD’S HOME FOR OLD WITCHES AND WIZARDS, AMOS’S ROOM
+  page_end: 56
+  output_file: sources/book-cc/chapter-14-p1-a1-s14.yaml
+  status: complete
+  review_note: Complete pp. 54–56 read. Repeated prejudice and rescue arrangements
+    provide no new school fact.
+  entry_count: 0
+- scene_id: CC-P1-A1-S15
+  part: 1
+  act: 1
+  scene: 15
+  page_start: 57
+  location: HARRY AND GINNY POTTER’S HOUSE, KITCHEN
+  page_end: 58
+  output_file: sources/book-cc/chapter-15-p1-a1-s15.yaml
+  status: complete
+  review_note: Complete pp. 57–58 read. Retained McGonagall's absence notification.
+  entry_count: 1
+- scene_id: CC-P1-A1-S16
+  part: 1
+  act: 1
+  scene: 16
+  page_start: 59
+  location: WHITEHALL, CELLAR
+  page_end: 60
+  output_file: sources/book-cc/chapter-16-p1-a1-s16.yaml
+  status: complete
+  review_note: Complete pp. 59–60 read. Off-campus Polyjuice and Ministry entry do
+    not establish school instruction or protection.
+  entry_count: 0
+- scene_id: CC-P1-A1-S17
+  part: 1
+  act: 1
+  scene: 17
+  page_start: 61
+  location: MINISTRY OF MAGIC, MEETING ROOM
+  page_end: 62
+  output_file: sources/book-cc/chapter-17-p1-a1-s17.yaml
+  status: complete
+  review_note: Complete pp. 61–62 read. Retained school transport failure response;
+    family argument excluded.
+  entry_count: 1
+- scene_id: CC-P1-A1-S18
+  part: 1
+  act: 1
+  scene: 18
+  page_start: 63
+  location: MINISTRY OF MAGIC, CORRIDOR
+  page_end: 66
+  output_file: sources/book-cc/chapter-18-p1-a1-s18.yaml
+  status: complete
+  review_note: Complete pp. 63–66 read. Off-campus Ministry infiltration does not
+    establish Hogwarts procedure.
+  entry_count: 0
+- scene_id: CC-P1-A1-S19
+  part: 1
+  act: 1
+  scene: 19
+  page_start: 67
+  location: MINISTRY OF MAGIC, HERMIONE’S OFFICE
+  page_end: 76
+  output_file: sources/book-cc/chapter-19-p1-a1-s19.yaml
+  status: complete
+  review_note: Complete pp. 67–76 read, including blank end pages. Retained school
+    book restriction and staff-authored title. Ministry library trap and all other
+    office titles not transferred to Hogwarts.
+  entry_count: 2
+- scene_id: CC-P1-A2-S01
+  part: 1
+  act: 2
+  scene: 1
+  page_start: 77
+  location: DREAM, PRIVET DRIVE, CUPBOARD UNDER THE STAIRS
+  page_end: 78
+  output_file: sources/book-cc/chapter-20-p1-a2-s01.yaml
+  status: complete
+  review_note: 'Complete dream scene read: domestic abuse and prophetic imagery supply
+    no concrete Hogwarts institutional evidence.'
+  entry_count: 0
+- scene_id: CC-P1-A2-S02
+  part: 1
+  act: 2
+  scene: 2
+  page_start: 79
+  location: HARRY AND GINNY POTTER’S HOUSE, STAIRCASE
+  page_end: 79
+  output_file: sources/book-cc/chapter-21-p1-a2-s02.yaml
+  status: complete
+  review_note: 'Complete domestic scene read: dream discussion and Durmstrang clothing
+    clue are plot movement, not school evidence.'
+  entry_count: 0
+- scene_id: CC-P1-A2-S03
+  part: 1
+  act: 2
+  scene: 3
+  page_start: 80
+  location: HOGWARTS, HEADMISTRESS’S OFFICE
+  page_end: 81
+  output_file: sources/book-cc/chapter-22-p1-a2-s03.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 3
+- scene_id: CC-P1-A2-S04
+  part: 1
+  act: 2
+  scene: 4
+  page_start: 82
+  location: EDGE OF THE FORBIDDEN FOREST
+  page_end: 84
+  output_file: sources/book-cc/chapter-23-p1-a2-s04.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 1
+  consolidation_decisions:
+  - candidate_ordinal: 2
+    decision: not_separate_entry
+    reason: Delphi’s recruitment assurance is not evidence of an institutional guarantee.
+  - candidate_ordinal: 3
+    decision: not_separate_entry
+    reason: Disguise proposal does not establish a formal school identification rule.
+- scene_id: CC-P1-A2-S05
+  part: 1
+  act: 2
+  scene: 5
+  page_start: 85
+  location: FORBIDDEN FOREST
+  page_end: 86
+  output_file: sources/book-cc/chapter-24-p1-a2-s05.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 2
+- scene_id: CC-P1-A2-S06
+  part: 1
+  act: 2
+  scene: 6
+  page_start: 87
+  location: EDGE OF THE FORBIDDEN FOREST
+  page_end: 88
+  output_file: sources/book-cc/chapter-25-p1-a2-s06.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 1
+- scene_id: CC-P1-A2-S07
+  part: 1
+  act: 2
+  scene: 7
+  page_start: 89
+  location: TRIWIZARD TOURNAMENT, EDGE OF THE FORBIDDEN FOREST, 1994
+  page_end: 91
+  output_file: sources/book-cc/chapter-26-p1-a2-s07.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 3
+- scene_id: CC-P1-A2-S08
+  part: 1
+  act: 2
+  scene: 8
+  page_start: 92
+  location: HOGWARTS, HOSPITAL WING
+  page_end: 95
+  output_file: sources/book-cc/chapter-27-p1-a2-s08.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 4
+  consolidation_decisions:
+  - candidate_ordinal: 4
+    decision: not_separate_entry
+    reason: Linked supporting occurrence for CC-P1-A2-S08, original candidate 3; not
+      a separate fact.
+- scene_id: CC-P1-A2-S09
+  part: 1
+  act: 2
+  scene: 9
+  page_start: 96
+  location: HOGWARTS, STAIRCASE
+  page_end: 98
+  output_file: sources/book-cc/chapter-28-p1-a2-s09.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 1
+  consolidation_decisions:
+  - candidate_ordinal: 2
+    decision: not_separate_entry
+    reason: Parental preference for a visit over a Howler is not a school custom or
+      requirement.
+- scene_id: CC-P1-A2-S10
+  part: 1
+  act: 2
+  scene: 10
+  page_start: 99
+  location: HOGWARTS, HEADMISTRESS’S OFFICE
+  page_end: 100
+  output_file: sources/book-cc/chapter-29-p1-a2-s10.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 3
+- scene_id: CC-P1-A2-S11
+  part: 1
+  act: 2
+  scene: 11
+  page_start: 101
+  location: HOGWARTS, DEFENSE AGAINST THE DARK ARTS CLASSROOM
+  page_end: 102
+  output_file: sources/book-cc/chapter-30-p1-a2-s11.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 3
+- scene_id: CC-P1-A2-S12
+  part: 1
+  act: 2
+  scene: 12
+  page_start: 103
+  location: HOGWARTS, STAIRCASES
+  page_end: 103
+  output_file: sources/book-cc/chapter-31-p1-a2-s12.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 1
+- scene_id: CC-P1-A2-S13
+  part: 1
+  act: 2
+  scene: 13
+  page_start: 104
+  location: HARRY AND GINNY POTTER’S HOUSE, KITCHEN
+  page_end: 106
+  output_file: sources/book-cc/chapter-32-p1-a2-s13.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 0
+  consolidation_decisions:
+  - candidate_ordinal: 1
+    decision: not_separate_entry
+    reason: Linked supporting occurrence for CC-P1-A2-S10, original candidate 3; not
+      a separate fact.
+- scene_id: CC-P1-A2-S14
+  part: 1
+  act: 2
+  scene: 14
+  page_start: 107
+  location: HOGWARTS, STAIRCASES
+  page_end: 108
+  output_file: sources/book-cc/chapter-33-p1-a2-s14.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 2
+- scene_id: CC-P1-A2-S15
+  part: 1
+  act: 2
+  scene: 15
+  page_start: 109
+  location: HARRY AND GINNY POTTER’S HOUSE, KITCHEN
+  page_end: 110
+  output_file: sources/book-cc/chapter-34-p1-a2-s15.yaml
+  status: complete
+  review_note: 'Complete domestic reconciliation scene read: friendships and family
+    psychology provide no sufficiently concrete institutional fact.'
+  entry_count: 0
+- scene_id: CC-P1-A2-S16
+  part: 1
+  act: 2
+  scene: 16
+  page_start: 111
+  location: HOGWARTS, LIBRARY
+  page_end: 116
+  output_file: sources/book-cc/chapter-35-p1-a2-s16.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 4
+- scene_id: CC-P1-A2-S17
+  part: 1
+  act: 2
+  scene: 17
+  page_start: 117
+  location: HOGWARTS, STAIRCASES
+  page_end: 118
+  output_file: sources/book-cc/chapter-36-p1-a2-s17.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 1
+- scene_id: CC-P1-A2-S18
+  part: 1
+  act: 2
+  scene: 18
+  page_start: 119
+  location: HOGWARTS, HEADMISTRESS’S OFFICE
+  page_end: 120
+  output_file: sources/book-cc/chapter-37-p1-a2-s18.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 2
+  consolidation_decisions:
+  - candidate_ordinal: 3
+    decision: not_separate_entry
+    reason: Repeated office fireplace arrival; scene review preserves its altered
+      context without another fact.
+- scene_id: CC-P1-A2-S19
+  part: 1
+  act: 2
+  scene: 19
+  page_start: 121
+  location: HOGWARTS, GIRLS’ BATHROOM
+  page_end: 124
+  output_file: sources/book-cc/chapter-38-p1-a2-s19.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 6
+  consolidation_decisions:
+  - candidate_ordinal: 7
+    decision: not_separate_entry
+    reason: Ministry device secrecy is contextual plot, not an additional school policy.
+- scene_id: CC-P1-A2-S20
+  part: 1
+  act: 2
+  scene: 20
+  page_start: 125
+  location: TRIWIZARD TOURNAMENT, LAKE, 1995
+  page_end: 131
+  output_file: sources/book-cc/chapter-39-p1-a2-s20.yaml
+  status: complete
+  review_note: Complete scene read in sequence; relevant concrete institutional evidence
+    retained; personal dialogue and plot mechanics omitted.
+  entry_count: 5
+- scene_id: CC-P2-A3-S01
+  part: 2
+  act: 3
+  scene: 1
+  page_start: 132
+  location: HOGWARTS, HEADMISTRESS’S OFFICE
+  page_end: 133
+  output_file: sources/book-cc/chapter-40-p2-a3-s01.yaml
+  status: complete
+  review_note: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  entry_count: 4
+- scene_id: CC-P2-A3-S02
+  part: 2
+  act: 3
+  scene: 2
+  page_start: 134
+  location: HOGWARTS, GROUNDS
+  page_end: 135
+  output_file: sources/book-cc/chapter-41-p2-a3-s02.yaml
+  status: complete
+  review_note: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  entry_count: 2
+- scene_id: CC-P2-A3-S03
+  part: 2
+  act: 3
+  scene: 3
+  page_start: 136
+  location: MINISTRY OF MAGIC, OFFICE OF THE HEAD OF MAGICAL LAW ENFORCEMENT
+  page_end: 138
+  output_file: sources/book-cc/chapter-42-p2-a3-s03.yaml
+  status: complete
+  review_note: 'Complete scene read: Ministry/personal-family confrontation establishes
+    broader altered-world brutality but adds no concrete Hogwarts institution or setting
+    evidence; excluded plot and general politics.'
+  entry_count: 0
+- scene_id: CC-P2-A3-S04
+  part: 2
+  act: 3
+  scene: 4
+  page_start: 139
+  location: HOGWARTS, LIBRARY
+  page_end: 139
+  output_file: sources/book-cc/chapter-43-p2-a3-s04.yaml
+  status: complete
+  review_note: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  entry_count: 2
+- scene_id: CC-P2-A3-S05
+  part: 2
+  act: 3
+  scene: 5
+  page_start: 140
+  location: HOGWARTS, POTIONS CLASSROOM
+  page_end: 142
+  output_file: sources/book-cc/chapter-44-p2-a3-s05.yaml
+  status: complete
+  review_note: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  entry_count: 4
+  consolidation_decisions:
+  - candidate_ordinal: 1
+    decision: not_separate_entry
+    reason: Linked supporting occurrence for CC-P2-A3-S04, original candidate 1; not
+      a separate fact.
+- scene_id: CC-P2-A3-S06
+  part: 2
+  act: 3
+  scene: 6
+  page_start: 143
+  location: CAMPAIGN ROOM
+  page_end: 144
+  output_file: sources/book-cc/chapter-45-p2-a3-s06.yaml
+  status: complete
+  review_note: 'Complete scene read: arrival confirms occupants of the root-room refuge
+    already located in S05; banter about Hermione’s school performance is not reliable
+    curricular evaluation. No separate institutional entry.'
+  entry_count: 0
+- scene_id: CC-P2-A3-S07
+  part: 2
+  act: 3
+  scene: 7
+  page_start: 145
+  location: CAMPAIGN ROOM
+  page_end: 148
+  output_file: sources/book-cc/chapter-46-p2-a3-s07.yaml
+  status: complete
+  review_note: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  entry_count: 1
+  consolidation_decisions:
+  - candidate_ordinal: 2
+    decision: not_separate_entry
+    reason: Recalls the same first-branch Hermione appointment already retained at
+      CC-P1-A2-S11.
+  - candidate_ordinal: 3
+    decision: not_separate_entry
+    reason: Planning repeats already recorded first-task setting; no new institutional
+      detail.
+- scene_id: CC-P2-A3-S08
+  part: 2
+  act: 3
+  scene: 8
+  page_start: 149
+  location: EDGE OF THE FORBIDDEN FOREST, 1994
+  page_end: 149
+  output_file: sources/book-cc/chapter-47-p2-a3-s08.yaml
+  status: complete
+  review_note: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  entry_count: 1
+- scene_id: CC-P2-A3-S09
+  part: 2
+  act: 3
+  scene: 9
+  page_start: 150
+  location: EDGE OF THE FORBIDDEN FOREST
+  page_end: 155
+  output_file: sources/book-cc/chapter-48-p2-a3-s09.yaml
+  status: complete
+  review_note: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  entry_count: 3
+- scene_id: CC-P2-A3-S10
+  part: 2
+  act: 3
+  scene: 10
+  page_start: 156
+  location: HOGWARTS, HEADMISTRESS’S OFFICE
+  page_end: 157
+  output_file: sources/book-cc/chapter-49-p2-a3-s10.yaml
+  status: complete
+  review_note: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  entry_count: 1
+- scene_id: CC-P2-A3-S11
+  part: 2
+  act: 3
+  scene: 11
+  page_start: 158
+  location: HOGWARTS, SLYTHERIN DORMITORY
+  page_end: 159
+  output_file: sources/book-cc/chapter-50-p2-a3-s11.yaml
+  status: complete
+  review_note: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  entry_count: 2
+- scene_id: CC-P2-A3-S12
+  part: 2
+  act: 3
+  scene: 12
+  page_start: 160
+  location: DREAM, GODRIC’S HOLLOW, GRAVEYARD
+  page_end: 161
+  output_file: sources/book-cc/chapter-51-p2-a3-s12.yaml
+  status: complete
+  review_note: 'Complete dream scene read: imagined Godric’s Hollow funeral memory
+    has no concrete school evidence; not accepted as historical visit or real childhood
+    memory.'
+  entry_count: 0
+- scene_id: CC-P2-A3-S13
+  part: 2
+  act: 3
+  scene: 13
+  page_start: 162
+  location: HARRY AND GINNY POTTER’S HOUSE, KITCHEN
+  page_end: 162
+  output_file: sources/book-cc/chapter-52-p2-a3-s13.yaml
+  status: complete
+  review_note: 'Complete scene read: Harry expressly says he never visited Godric’s
+    Hollow with Petunia, confirming S12 is dream material; family anxiety and visions
+    excluded.'
+  entry_count: 0
+- scene_id: CC-P2-A3-S14
+  part: 2
+  act: 3
+  scene: 14
+  page_start: 163
+  location: HOGWARTS, SLYTHERIN DORMITORY
+  page_end: 165
+  output_file: sources/book-cc/chapter-53-p2-a3-s14.yaml
+  status: complete
+  review_note: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  entry_count: 0
+  consolidation_decisions:
+  - candidate_ordinal: 1
+    decision: not_separate_entry
+    reason: Linked supporting occurrence for CC-P2-A3-S10, original candidate 1; not
+      a separate fact.
+- scene_id: CC-P2-A3-S15
+  part: 2
+  act: 3
+  scene: 15
+  page_start: 166
+  location: HOGWARTS, SLYTHERIN DORMITORY
+  page_end: 167
+  output_file: sources/book-cc/chapter-54-p2-a3-s15.yaml
+  status: complete
+  review_note: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  entry_count: 2
+- scene_id: CC-P2-A3-S16
+  part: 2
+  act: 3
+  scene: 16
+  page_start: 168
+  location: HOGWARTS, OWLERY
+  page_end: 171
+  output_file: sources/book-cc/chapter-55-p2-a3-s16.yaml
+  status: complete
+  review_note: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  entry_count: 2
+- scene_id: CC-P2-A3-S17
+  part: 2
+  act: 3
+  scene: 17
+  page_start: 172
+  location: MINISTRY OF MAGIC, HERMIONE’S OFFICE
+  page_end: 173
+  output_file: sources/book-cc/chapter-56-p2-a3-s17.yaml
+  status: complete
+  review_note: 'Complete scene read: Ron’s report corroborates the already extracted
+    Owlery roof encounter; Ministry mobilization and relationship discussion add no
+    separate school fact. McGonagall’s entire-school search is consistent with S15.'
+  entry_count: 0
+- scene_id: CC-P2-A3-S18
+  part: 2
+  act: 3
+  scene: 18
+  page_start: 174
+  location: ST. OSWALD’S HOME FOR OLD WITCHES AND WIZARDS, AMOS’S ROOM
+  page_end: 175
+  output_file: sources/book-cc/chapter-57-p2-a3-s18.yaml
+  status: complete
+  review_note: 'Complete scene read: Hogwarts tower is merely the reported last-seen
+    location already extracted; Delphi’s invented kinship is external plot evidence,
+    not new school history.'
+  entry_count: 0
+- scene_id: CC-P2-A3-S19
+  part: 2
+  act: 3
+  scene: 19
+  page_start: 176
+  location: HOGWARTS, QUIDDITCH PITCH
+  page_end: 178
+  output_file: sources/book-cc/chapter-58-p2-a3-s19.yaml
+  status: complete
+  review_note: Complete scene read in order; concrete Hogwarts evidence extracted
+    below.
+  entry_count: 2
+- scene_id: CC-P2-A3-S20
+  part: 2
+  act: 3
+  scene: 20
+  page_start: 179
+  location: TRIWIZARD TOURNAMENT, MAZE, 1995
+  page_end: 183
+  output_file: sources/book-cc/chapter-59-p2-a3-s20.yaml
+  status: complete
+  review_note: Complete scene read, including post-maze backward transition on p183.
+    Extracted tournament setting and procedure. Excluded generic dueling spells, Delphi’s
+    unsupported prophecy theory and vague statement that Hogwarts looks the same at
+    an unidentified earlier date.
+  entry_count: 2
+  consolidation_decisions:
+  - candidate_ordinal: 2
+    decision: not_separate_entry
+    reason: Linked supporting occurrence for CC-P2-A3-S20, original candidate 1; not
+      a separate fact.
+- scene_id: CC-P2-A3-S21
+  part: 2
+  act: 3
+  scene: 21
+  page_start: 184
+  location: ST. OSWALD’S HOME FOR OLD WITCHES AND WIZARDS, DELPHI’S ROOM
+  page_end: 188
+  output_file: sources/book-cc/chapter-60-p2-a3-s21.yaml
+  status: complete
+  review_note: Complete scene read, including blank trailing PDF pages 187–188. External
+    room search, Parseltongue mechanism and Delphi parentage concern conspiracy rather
+    than a Hogwarts institution; no extraction.
+  entry_count: 0
+- scene_id: CC-P2-A4-S01
+  part: 2
+  act: 4
+  scene: 1
+  page_start: 189
+  location: MINISTRY OF MAGIC, GRAND MEETING ROOM
+  page_end: 191
+  output_file: sources/book-cc/chapter-61-p2-a4-s01.yaml
+  status: complete
+  review_note: Read pp189–191. Retain formal response to pupil death; exclude prophecy
+    speculation and personal solidarity as plot, not settled school rules.
+  entry_count: 1
+- scene_id: CC-P2-A4-S02
+  part: 2
+  act: 4
+  scene: 2
+  page_start: 192
+  location: SCOTTISH HIGHLANDS, AVIEMORE TRAIN STATION, 1981
+  page_end: 193
+  output_file: sources/book-cc/chapter-62-p2-a4-s02.yaml
+  status: complete
+  review_note: 'Read pp192–193. No new institutional entry: Aviemore is where the
+    travelers fled, not proof of Hogwarts’s precise location. Timetable says 30 October
+    1981; thirty-nine-years-ago remark is recorded as a chronology issue.'
+  entry_count: 0
+- scene_id: CC-P2-A4-S03
+  part: 2
+  act: 4
+  scene: 3
+  page_start: 194
+  location: GODRIC’S HOLLOW, 1981
+  page_end: 195
+  output_file: sources/book-cc/chapter-63-p2-a4-s03.yaml
+  status: complete
+  review_note: 'Read pp194–195. Retain named historian and churchyard context with
+    temporal access controls; do not infer a meeting with Bagshot or identify her
+    as author of Hogwarts: A History.'
+  entry_count: 2
+- scene_id: CC-P2-A4-S04
+  part: 2
+  act: 4
+  scene: 4
+  page_start: 196
+  location: MINISTRY OF MAGIC, HARRY’S OFFICE
+  page_end: 199
+  output_file: sources/book-cc/chapter-64-p2-a4-s04.yaml
+  status: complete
+  review_note: Read pp196–199. Retain portrait operation. Private Malfoy time devices
+    are not a school institution; distinguish the special devices from the earlier
+    Ministry models without rewriting prior Time-Turner records.
+  entry_count: 2
+- scene_id: CC-P2-A4-S05
+  part: 2
+  act: 4
+  scene: 5
+  page_start: 200
+  location: GODRIC’S HOLLOW, OUTSIDE JAMES AND LILY POTTER’S HOUSE, 1981
+  page_end: 203
+  output_file: sources/book-cc/chapter-65-p2-a4-s05.yaml
+  status: complete
+  review_note: Read pp200–203. Retain historical-source limits and Bagshot-house rumor.
+    Exclude potion recipe/device for sending a private message as plot-specific non-Hogwarts
+    magic; no encounter with Bagshot is shown.
+  entry_count: 2
+- scene_id: CC-P2-A4-S06
+  part: 2
+  act: 4
+  scene: 6
+  page_start: 204
+  location: HARRY AND GINNY POTTER’S HOUSE, ALBUS’S ROOM
+  page_end: 206
+  output_file: sources/book-cc/chapter-66-p2-a4-s06.yaml
+  status: complete
+  review_note: Read pp204–206. Retain memorial terminology; message-burning is private
+    time-travel plot and not evidence of castle infrastructure.
+  entry_count: 1
+- scene_id: CC-P2-A4-S07
+  part: 2
+  act: 4
+  scene: 7
+  page_start: 207
+  location: GODRIC’S HOLLOW
+  page_end: 208
+  output_file: sources/book-cc/chapter-67-p2-a4-s07.yaml
+  status: complete
+  review_note: Read pp207–208. Godric’s Hollow’s modern tourism and cinematic time
+    reversal supply no additional Hogwarts institution or pre-1984 evidence; excluded.
+  entry_count: 0
+- scene_id: CC-P2-A4-S08
+  part: 2
+  act: 4
+  scene: 8
+  page_start: 209
+  location: GODRIC’S HOLLOW, A SHED, 1981
+  page_end: 210
+  output_file: sources/book-cc/chapter-68-p2-a4-s08.yaml
+  status: complete
+  review_note: Read pp209–210. Reunion and church observation plan excluded; St. Jerome’s
+    naming already retained at scene3.
+  entry_count: 0
+- scene_id: CC-P2-A4-S09
+  part: 2
+  act: 4
+  scene: 9
+  page_start: 211
+  location: GODRIC’S HOLLOW, ST. JEROME’S CHURCH, SANCTUARY, 1981
+  page_end: 213
+  output_file: sources/book-cc/chapter-69-p2-a4-s09.yaml
+  status: complete
+  review_note: Read pp211–213. Retain Ginny’s retrospective account of common-room
+    recreation; Lily’s protection explanation concerns later knowledge of the Potter
+    attack, not newly documented Hogwarts history.
+  entry_count: 1
+- scene_id: CC-P2-A4-S10
+  part: 2
+  act: 4
+  scene: 10
+  page_start: 214
+  location: GODRIC’S HOLLOW, ST. JEROME’S CHURCH, 1981
+  page_end: 217
+  output_file: sources/book-cc/chapter-70-p2-a4-s10.yaml
+  status: complete
+  review_note: Read pp214–217. Retain explicit historical-record gap and tentative
+    Bagshot supplies claim. Transformation into Voldemort is an improvised trap, not
+    a curriculum standard.
+  entry_count: 2
+- scene_id: CC-P2-A4-S11
+  part: 2
+  act: 4
+  scene: 11
+  page_start: 218
+  location: GODRIC’S HOLLOW, ST. JEROME’S CHURCH, 1981
+  page_end: 224
+  output_file: sources/book-cc/chapter-71-p2-a4-s11.yaml
+  status: complete
+  review_note: Read pp218–224. Battle magic, flying Delphi, and audience-directed
+    Voldemort entrance excluded as non-Hogwarts plot/staging. No castle defenses or
+    curriculum rules inferred.
+  entry_count: 0
+- scene_id: CC-P2-A4-S12
+  part: 2
+  act: 4
+  scene: 12
+  page_start: 225
+  location: GODRIC’S HOLLOW, 1981
+  page_end: 226
+  output_file: sources/book-cc/chapter-72-p2-a4-s12.yaml
+  status: complete
+  review_note: Read pp225–226. Retain witnessed Potter murders as a later-source corroboration
+    only; witnesses from the future cannot make this record available to Bagshot in
+    1984.
+  entry_count: 1
+- scene_id: CC-P2-A4-S13
+  part: 2
+  act: 4
+  scene: 13
+  page_start: 227
+  location: GODRIC’S HOLLOW, INSIDE JAMES AND LILY POTTER’S HOUSE, 1981
+  page_end: 228
+  output_file: sources/book-cc/chapter-73-p2-a4-s13.yaml
+  status: complete
+  review_note: Read pp227–228. Hagrid’s rescue is a separate staged historical scene
+    after the travelers rotate off; retain his report of Dumbledore’s instruction
+    without inventing Bagshot access or treating scenic crib light as magic.
+  entry_count: 1
+- scene_id: CC-P2-A4-S14
+  part: 2
+  act: 4
+  scene: 14
+  page_start: 229
+  location: HOGWARTS, CLASSROOM
+  page_end: 231
+  output_file: sources/book-cc/chapter-74-p2-a4-s14.yaml
+  status: complete
+  review_note: Read pp229–231. Retain new Potions professor and inter-House fixture.
+    School-ball recollection explicitly belongs to an alternate world and is not retained
+    again as a primary custom.
+  entry_count: 2
+- scene_id: CC-P2-A4-S15
+  part: 2
+  act: 4
+  scene: 15
+  page_start: 232
+  location: A BEAUTIFUL HILL
+  page_end: 235
+  output_file: sources/book-cc/chapter-75-p2-a4-s15.yaml
+  status: complete
+  review_note: 'Read pp232–235. Retain fourth-year examinations. Personal grief and
+    Cedric’s grave lack a Hogwarts location: do not turn this hill into a castle-ground
+    cemetery.'
+  entry_count: 1
+narrative_end_pdf_page: 235
+status: complete
+extraction_method: Existing scripts/extract_pages.py (pypdf embedded text), complete
+  sequential scene reads, focused rendered-page inspection. No OCR. Name anchors plus
+  hashed character locators and sparse short excerpts.
+visual_checks_pdf_pages:
+- 4
+- 24
+- 99
+- 100
+- 123
+- 194
+explicit_reference_search:
+  hogwarts_a_history: 0
+  a_history_of_magic: Distinct title; found at PDF pages 139 and 194.
+  bathilda_bagshot_pdf_pages:
+  - 194
+  - 202
+  - 214
+  method: Whitespace-normalized whole-carrier check after all scene reads; manual
+    context review distinguishes titles and mentions.
