@@ -1,59 +1,96 @@
-# Open questions — Codex drafting and research guide
+# Open-questions editorial overlay
 
-This guide accompanies [`hogwarts-open-questions-enriched.yaml`](hogwarts-open-questions-enriched.yaml). It preserves all **386** original question IDs, questions, original tags, original statuses, sources and related-entry references, then adds research leads, provenance controls, chapter destinations and individualized two-paragraph instructions. The **23** identified source leads are leads, not 23 claims of resolved questions; all original statuses stay `open`. Questions not specifically verified remain **research pending**, not falsely stamped “no source exists.”
+The live `hogwarts-open-questions-enriched.yaml` is an ID-keyed editorial overlay for all 386 canonical questions. It does not replace the canonical question store or authorize manuscript changes.
 
-## Two paragraphs to apply in every drafting iteration
+## Authorities
 
-At the start of each new chapter iteration, open the current approved chapter outline and read only questions whose primary or secondary destination matches that chapter. Confirm the local files and source YAML rather than treating this enriched backlog as new canon. Research specific leads (original seven-novel PDF, three companion PDFs, existing evidence YAML, first-party Rowling material, then carefully labelled secondary discovery sources), log the exact entry ID, chapter, page or archival URL and what the source actually supports. If the current project outline differs from the thematic placeholders, update the placement in the new working copy; do not silently renumber or edit the approved outline, completed chapters or source records.
+Paths below are relative to the repository root:
 
-Before drafting, assign each question one outcome: documented answer, narrower unresolved question, bounded historian inference, explicitly speculative flourish, later editorial annotation, excluded matter or repository-only cleanup. A pre-1984 event is NOT enough for the original book: the narrator must plausibly have access to it, and outside authorial explanations published later are not themselves proof of contemporary access. In the prose use questions sparingly, as purposeful transitions or source-critical observations; any creative details must be identifiable as conjecture and consistent with known magic, dates and voices. Never invent canon sources, direct quotations, official offices, rules, spells or precise dates. Append a per-chapter question-resolution log; leave original question status unchanged until exact evidence or an editorial decision is recorded.
+- `project-control/structured-sources/open-questions.yaml`: authoritative IDs, wording, topics, original status, tags, source notes, and related entries. Read-only for overlay work.
+- `authoring/editions/1984/table-of-contents.yaml`: authoritative twenty-chapter destinations, purposes, and boundaries.
+- `project-control/entry-index.yaml`: evidence-ID discovery and pointers to exact canonical `sources/**/*.yaml` records. Read the records and their limitations before asserting a fact.
+- `resources/manifests/external-sources.yaml`: external-source identity, authority, original URLs, and local snapshots.
+- `project-control/source-index.yaml`: processed local PDF units and their evidence paths.
+- `authoring/editions/1984/` and `authoring/shared/`: edition policy and chapter workflow. Read applicable authoring instructions before drafting.
 
-## Destination register
+The dated legacy backups are migration inputs, not evidence. Their source leads and old thematic destinations are not authorities.
 
-Only Chapters 1–3 have established numbers in the latest conversation: *Before Hogwarts*, *The Four Founders*, *The Founding of Hogwarts*. The repository audit reports an incomplete 14-part order seed rather than an approved comprehensive book outline. Codex must read `project-control/book-seed-order.yaml` **and the current local chapter plan** to map all tentative destinations; do not assume the old alphabetical structure is an approved table of contents. The house-elf topic is preserved for omission awareness but is forbidden from manuscript use. One `source-processing-001` task is a repository QA item.
+## Retrieve one chapter
 
-| Key | Destination | Questions |
-|---|---|---:|
-| `CASTLE` | Castle Architecture and Enchantments [tentative chapter] | 26 |
-| `SORTING` | The Four Houses and Sorting [tentative chapter] | 4 |
-| `C2` | Chapter 2 — The Four Founders | 7 |
-| `C3` | Chapter 3 — The Founding of Hogwarts | 17 |
-| `SECURITY` | Castle Defences and Security [tentative chapter] | 60 |
-| `GROUNDS` | Grounds, Lake and Forest [tentative chapter] | 23 |
-| `GHOSTS` | Ghosts, Portraits and Other Residents [tentative chapter] | 19 |
-| `OMISSION` | Internal research only — excluded subject | 5 |
-| `GOVERNANCE` | School Governance, Discipline and Care [tentative chapter] | 56 |
-| `ACADEMICS` | Curriculum, Teachers and Examinations [tentative chapter] | 56 |
-| `SPORT` | Quidditch and School Recreation [tentative chapter] | 28 |
-| `LIBRARY` | Library, Archives and Sources [tentative chapter] | 26 |
-| `LATER` | Later Editorial Notes [post-cutoff only] | 16 |
-| `ADMISSIONS` | Admissions, Letters and Student Travel [tentative chapter] | 30 |
-| `TRADITIONS` | Feasts and School Traditions [tentative chapter] | 12 |
-| `CONTROL` | Project control — no manuscript destination | 1 |
+From the repository root:
 
-## Evidence triage and writing choices
+```bash
+.venv/bin/python scripts/open_questions_overlay.py query --chapter 5
+```
 
-Use `research.search_first` IDs to look up exact links in `source_registry`. Direct textual evidence is not the same as a source lead, and an official modern recap is not interchangeable with the original in-universe text. When research cannot find an answer, append the search terms, local entry IDs and sources examined to `negative_search_log` before choosing a speculative treatment. Keep source `status: open` unless a specific verified answer or reviewed editorial disposition is recorded. In particular, an unknown exact rule is not a licence to write an imaginary Hogwarts bylaw.
+The query returns primary **and secondary** matches, joins canonical question wording and topic, and includes research, gap, placement, and interpretation fields. A destination supports retrieval; it does not grant body eligibility. Excluded items remain visible for omission awareness. Avoid repeating the same material in every matching chapter.
 
-A historian's unanswered question can be a strength when it explains a limitation (the ceiling’s maker, a tunnel’s builders, the start of a ceremony). A creative liberty may enrich interpretation — for instance, why a castle would keep a visible sky under a roof — but no imagined archival letter, invented quotation, fictional witness, definitive secret spell or invented exact date should appear as discovered evidence. Use enough questions to create curiosity, not so many that the chapter becomes a questionnaire.
+## Actual record shape
 
-## Selected newly identified source leads
+`questions` maps each unchanged canonical ID to exactly four fields:
 
-| Question IDs | Source | What changes |
-|---|---|---|
-| `sorting-ceremony-001`, `sorting-ceremony-005`, `sorting-ceremony-006` | `W-SORT`, `W-SWORD` | Founders’ hat and Godric’s goblin-made sword have official treatments; fine details of ceremony and Hat/sword mechanism remain separate. |
-| `castle-navigation-and-magical-architecture-009`, `-012`, `-015` | `W-MAP`, `W-PASSAGES` | Four mapmakers, tracking charm, concealment limitations, and seven passages / four known to Filch are sourced; date of official awareness remains open. |
-| `castle-navigation-and-magical-architecture-025`, `protective-magic-and-security-102`, `-104` | `W-CHAMBER` | Chamber’s original and eighteenth-century entrances can be discussed without inventing architecture. |
-| `ghosts-and-magical-residents-001` | `W-PEEVES` | The founder-era poltergeist and documented failed expulsion in 1876 furnish a pre-cutoff historical episode. |
-| `castle-rooms-and-displays-013`, `-015` | `W-WILLOW`, `W-LUPIN` | The Willow and passage belong to a documented student accommodation, not an arbitrary ancient castle hazard. |
-| `castle-navigation-and-magical-architecture-018`, `-019` | `W-MIRROR` | The mirror was at the castle long before 1991, but its exact arrival and maker remain unknown. The modified 1991 protection is later editorial context. |
-| `feasts-and-school-traditions-003`, `-038` | `W-TRAIN`, `W-KINGS`, `P-BEEDLE` | School transport has a dated evolution; the ill-fated pantomime has a bounded historical placement under Dippet, without a known exact year. |
+- `research`: `status`, `verified_facts` (each with `statement` and exact `evidence_ids`), `local_source_ids`, `external_candidate_ids`, `query_tags`, and a concrete `next_action`.
+- `gap`: `status` and `residual_question`.
+- `placement`: `primary_chapter_id` and `secondary_chapter_ids`, using only outline IDs 1–20.
+- `interpretation`: `body_eligibility`, `author_question`, `historical_inference`, `creative_reconstruction`, and a cautionary `note`.
 
-## Safety checks for Codex
+`local_source_ids` are sources to inspect first, **not a log of completed searches**. The P-prefixed catalog keys are corpus aliases whose actual paths resolve through the local inventory; A-prefixed keys are canonical external manifest logical IDs. External candidates have `availability: candidate_unverified` and no canonical source ID. Their URLs cannot support a verified fact until normal ingestion assigns an evidence ID.
 
-1. Validate `questions` count and set of IDs against the original YAML; require **{len(Q)} of {len(Q)}** and no duplicates.
-2. Preserve the seven original fields exactly (`id`, `topic`, `question`, `tags` as original prefix, `status`, `source`, `related_entries`).
-3. No `C4` or later chapter numbers may be assigned until the current approved local outline supplies them.
-4. Distinguish the founding-era artifact, the date it was discovered, the date a witness described it and what the circa-1984 narrator could have known.
-5. Keep the house-elf topic outside the manuscript and the source-processing question outside narrative text.
-6. Do not edit the prior source YAML, current draft or final Chapter 1 in this integration pass. Write research updates into a new working copy and log new decisions.
+Supported research statuses are `local_search_required`, `partially_answered`, `answered_with_access_gap`, `answered_later_context`, `excluded`, and `repository_only_resolved`. Gap statuses respectively distinguish `not_yet_reviewed`, `actual_gap`, `no_residual_gap`, `excluded_from_manuscript`, and `repository_only`. Do not introduce an unsupported status in a hand edit; extend the builder, validator, and tests deliberately when a new disposition is needed.
+
+## Local-first research
+
+1. Read the canonical question and related entries, overlay facts, residual question, and cited evidence limitations.
+2. Search the compact entry index with `query_tags`, using `just query-entries TAG` and `just query-dupes TAGS`.
+3. Follow exact evidence IDs to canonical YAML and inspect `local_source_ids`.
+4. Check the corresponding existing snapshots and PDFs. Do not download or re-extract already available material.
+5. Investigate `external_candidate_ids` only if that local review leaves a specific residual gap. An unverified URL is a lead, never an inspected source.
+6. Ingest usable external evidence through the normal evidence pipeline before referencing its new ID here.
+
+Record reproducible negative searches and editorial outcomes in the existing chapter `evidence-gaps.md` or `evidence-selection.yaml` workflow when conducting authoring work. A quick failed search does not establish absence from the corpus. This overlay implementation does not modify those artifacts.
+
+## Partial answers and interpretation
+
+Preserve the supported portion as a verified fact with exact evidence IDs. Narrow `gap.residual_question` to what remains unresolved; every partial answer must retain a non-empty residual. Do not merge or delete duplicates, answered questions, excluded questions, or repository-control questions.
+
+For example, the Sorting Hat's founder-era origin is supported by `ext-a02-001`; the beginning of its later ceremonial form remains a separate question. For admissions, `ext-a03-004/005` explain the Book's evidentiary threshold and Neville's delayed acceptance; addresses and first-contact logistics remain unresolved.
+
+Verified facts contain only supported assertions, with attribution where the evidence is testimony or tradition. `historical_inference` and `creative_reconstruction` are separate **non-canonical eligibility assessments**, not established conclusions. `author_question: eligible` permits consideration of explicit uncertainty after access review; it does not turn an unanswered question into a fact.
+
+Creative reconstruction is restricted to rhetorical framing and bounded interpretation under edition policy. Never invent an event, actor, custom, procedure, motive, source, quotation, date, office, law, school rule, spell, or witness to fill a gap. `candidate_after_editorial_review` still requires a human editorial decision. Questions may remain unanswered.
+
+House-elf IDs remain excluded from manuscript use. `source-processing-001` is repository control work and must never become narrative material.
+
+## Three different dates
+
+An **event date** locates what happened. A **witness date** locates when someone described it. A **narrator-access date** concerns when the circa-1984 historian could plausibly know it. These are separate research questions: later testimony about an earlier event does not prove earlier narrator access. Modern authorial commentary can settle editorial facts without making them available to the in-world historian.
+
+The overlay records conservative body eligibility, not invented date values. Before drafting, establish the three dates or their uncertainty from the cited evidence in the existing chapter evidence-selection workflow. `requires_access_review` is not body approval. `later_context_only` material cannot be imported into the original body merely because its event predates 1984. The Mirror's modification is documented without asserting an exact year absent from the cited record.
+
+## Update one record reproducibly
+
+The live overlay is generated. To update a reviewed question, edit its ID-specific entry in `REVIEWED` in `scripts/open_questions_overlay.py`, keeping assertions and evidence IDs separate from its residual question. Placement corrections belong in `CHAPTER_OVERRIDES`; source mappings belong in the source-catalog builder. Add a focused regression test before changing behavior. Do not change canonical question wording or edit the dated backups.
+
+Rebuild from the immutable dated input:
+
+```bash
+.venv/bin/python scripts/open_questions_overlay.py migrate \
+  --legacy resources/external/open-questions-scapping/hogwarts-open-questions-enriched.pre-restructure-2026-09-18.yaml
+just validate-open-questions
+just validate
+just test
+git diff --check
+```
+
+Review the generated change for the intended ID and any deliberate source-catalog correction. A direct edit to the generated YAML is temporary and will fail deterministic rebuild tests. A record requiring a new disposition must receive a deliberate builder/validator/test extension first.
+
+Validation rejects missing/reordered IDs, duplicate YAML keys, stale canonical metadata, invalid evidence/source/chapter references, unsupported statuses, empty partial residuals, and violations of exclusion controls. The suite verifies equivalent rebuild data and backup hashes. Machines check references and structure; human review must still judge whether the cited passage supports the precise assertion and whether the narrator could know it.
+
+## Preserved inputs
+
+The backups match the pre-restructure originals byte for byte:
+
+| Backup | SHA-256 |
+|---|---|
+| `hogwarts-open-questions-enriched.pre-restructure-2026-09-18.yaml` | `96424a5640b3e22ba03672d5dd28f52eb867e9d905f86ebd604a7229d2d6cb3a` |
+| `hogwarts-open-questions-codex-guide.pre-restructure-2026-09-18.md` | `5b29d22d711b0b9934e35c0a49e017de1868e97374085258bafe05b1557227d5` |

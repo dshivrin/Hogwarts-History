@@ -28,9 +28,14 @@ status:
 search pattern:
     rg "{{pattern}}" .
 
-# Run the source/index/generated-file validator
+# Run the source/index/generated-file validators
 validate:
     .venv/bin/python scripts/validate_source_yaml.py
+    .venv/bin/python scripts/open_questions_overlay.py validate
+
+# Validate only the editorial open-questions overlay
+validate-open-questions:
+    .venv/bin/python scripts/open_questions_overlay.py validate
 
 # Run the current test suite
 test:
