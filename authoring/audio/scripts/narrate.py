@@ -141,7 +141,45 @@ def split_sentences(text: str) -> list[str]:
 
     sentences: list[str] = []
     start = 0
+    non_terminal_abbreviations = {
+        "dr",
+        "etc",
+        "jr",
+        "miss",
+        "mr",
+        "mrs",
+        "ms",
+        "no",
+        "prof",
+        "sr",
+        "st",
+        "vs",
+    }
     for match in re.finditer(r"[.!?](?:[\"'\u201d\u2019]+)?", normalized):
+        punctuation_index = match.start()
+        if normalized[punctuation_index] == ".":
+            previous_character = (
+                normalized[punctuation_index - 1]
+                if punctuation_index > 0
+                else ""
+            )
+            next_character = (
+                normalized[punctuation_index + 1]
+                if punctuation_index + 1 < len(normalized)
+                else ""
+            )
+            word_match = re.search(
+                r"([A-Za-z]+)$", normalized[:punctuation_index]
+            )
+            preceding_word = word_match.group(1) if word_match else ""
+            if (
+                previous_character == "."
+                or next_character == "."
+                or (previous_character.isdigit() and next_character.isdigit())
+                or preceding_word.lower() in non_terminal_abbreviations
+                or (len(preceding_word) == 1 and bool(normalized[match.end() :].strip()))
+            ):
+                continue
         sentence = normalized[start : match.end()].strip()
         if sentence:
             sentences.append(sentence)
@@ -519,7 +557,8 @@ def prepare_narration(
     if provenance_path.exists():
         raise FileExistsError(f"Refusing to overwrite narration provenance: {provenance_path}")
 
-    source_text = source_path.read_text(encoding="utf-8")
+    source_bytes = source_path.read_bytes()
+    source_text = source_bytes.decode("utf-8")
     prepared = remove_html_comments(strip_front_matter(source_text))
     prepared = re.sub(r"\n{3,}", "\n\n", prepared).strip() + "\n"
     narration_hash = hashlib.sha256(prepared.encode("utf-8")).hexdigest()
@@ -530,7 +569,7 @@ def prepare_narration(
         "preparation_tool": _portable_project_path(Path(__file__)),
         "source_manuscript": {
             "path": _portable_project_path(source_path),
-            "sha256": sha256_path(source_path),
+            "sha256": hashlib.sha256(source_bytes).hexdigest(),
         },
         "narration": {
             "path": _portable_project_path(narration_path),
@@ -1323,6 +1362,8 @@ def run_render(
     validate_settings(settings)
     render_spec = validate_render_spec(voice, speed)
     snapshot = read_narration_snapshot(markdown_path)
+    if not snapshot.blocks:
+        raise ValueError("Narration manuscript contains no spoken content")
     for warning in snapshot.warnings:
         print(f"WARNING: {warning}", file=sys.stderr)
     pronunciations = load_pronunciations(pronunciation_path)

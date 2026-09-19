@@ -210,6 +210,19 @@ class SampleSelectionTests(unittest.TestCase):
             [self.blocks[0], self.blocks[2]],
         )
 
+    def test_removing_final_sentence_does_not_split_after_abbreviation(self):
+        self.assertIsNone(
+            narrate.remove_final_prose_sentence(
+                [
+                    SpeechBlock(BlockKind.CHAPTER, "Chapter One"),
+                    SpeechBlock(
+                        BlockKind.PARAGRAPH,
+                        "Mr. Smith arrived.",
+                    ),
+                ]
+            )
+        )
+
     def test_paragraph_numbering_ignores_headings(self):
         self.assertEqual(narrate.select_prose_paragraph(self.blocks, 1), [self.blocks[2]])
         self.assertEqual(narrate.select_prose_paragraph(self.blocks, 2), [self.blocks[4]])
@@ -338,6 +351,35 @@ class NarrationManuscriptTests(unittest.TestCase):
         self.assertEqual(provenance["narration"]["prepared_sha256"], narration_hash)
         self.assertEqual(provenance["narration"]["current_sha256"], narration_hash)
         self.assertEqual(provenance["prepared_at"], "2026-09-19T12:00:00+00:00")
+
+    def test_prepare_hashes_the_same_immutable_source_snapshot_it_reads(self):
+        original_bytes = self.source.read_bytes()
+        original_hash = hashlib.sha256(original_bytes).hexdigest()
+        path_type = type(self.source)
+
+        class RacingSourcePath(path_type):
+            def read_text(path_self, *args, **kwargs):
+                snapshot = super().read_text(*args, **kwargs)
+                super().write_text("# Concurrent revision\n", encoding="utf-8")
+                return snapshot
+
+            def read_bytes(path_self):
+                snapshot = super().read_bytes()
+                super().write_text("# Concurrent revision\n", encoding="utf-8")
+                return snapshot
+
+        provenance_path = narrate.prepare_narration(
+            RacingSourcePath(self.source), self.narration
+        )
+
+        provenance = yaml.safe_load(provenance_path.read_text(encoding="utf-8"))
+        report, warnings, _, _ = narrate.inspect_narration_provenance(
+            self.narration
+        )
+        self.assertIn("# Chapter One", self.narration.read_text(encoding="utf-8"))
+        self.assertEqual(provenance["source_manuscript"]["sha256"], original_hash)
+        self.assertEqual(report["source_manuscript"]["status"], "drifted")
+        self.assertEqual(len(warnings), 1)
 
     def test_prepare_refuses_to_overwrite_existing_narration(self):
         self.narration.write_text("Human performance edit.\n", encoding="utf-8")
@@ -639,6 +681,33 @@ class NarrationManuscriptTests(unittest.TestCase):
             "full",
         )
 
+    def test_empty_full_narration_fails_before_model_loading(self):
+        empty_narration = self.temp_dir / "empty-narration.md"
+        empty_narration.write_text("<!-- editorial only -->\n", encoding="utf-8")
+        load_count = 0
+
+        def load(_model_id):
+            nonlocal load_count
+            load_count += 1
+            return FakeKokoroModel(24000)
+
+        with self.assertRaisesRegex(ValueError, "spoken content"):
+            narrate.run_render(
+                empty_narration,
+                self.temp_dir / "empty.wav",
+                "bm_george",
+                0.96,
+                self.settings,
+                self.pronunciations,
+                model_loader=load,
+                evidence_provider=lambda: RuntimeEvidence(
+                    "Device(gpu, 0)", True, {}, "mlx.core.array"
+                ),
+            )
+
+        self.assertEqual(load_count, 0)
+        self.assertFalse((self.temp_dir / "empty.wav").exists())
+
 
 class PronunciationTests(unittest.TestCase):
     def test_pronunciation_substitutions_are_boundary_aware(self):
@@ -695,6 +764,17 @@ class PronunciationTests(unittest.TestCase):
 
 
 class ChunkingTests(unittest.TestCase):
+    def test_split_sentences_is_conservative_for_common_non_boundaries(self):
+        self.assertEqual(
+            split_sentences(
+                "Dr. A. N. Smith measured 3.5 metres... Then left. Next sentence."
+            ),
+            [
+                "Dr. A. N. Smith measured 3.5 metres... Then left.",
+                "Next sentence.",
+            ],
+        )
+
     def test_chunk_blocks_keeps_sentences_that_total_the_word_limit_together(self):
         chunks = chunk_blocks(
             [SpeechBlock(BlockKind.PARAGRAPH, "One two. Three.")], max_words=3
