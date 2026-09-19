@@ -1,9 +1,10 @@
-# Local narration prototype
+# Local audiobook narration
 
-This directory contains the local Kokoro audition tooling for the 1984 edition
-manuscript. It is intentionally isolated from the manuscript and research
-layers. The canonical narrator settings keep `voice` and `speed` unset; an
-audition supplies those values for that run without rewriting the settings.
+This directory contains the local Kokoro narration and audition tooling for the
+1984 edition manuscript. It is intentionally isolated from the manuscript and
+research layers. `narration-settings.yaml` supplies the canonical voice, speed,
+model, language, chunking, and pause settings for normal full and sample
+renders; CLI voice and speed flags are optional per-run overrides.
 
 ## Install
 
@@ -23,6 +24,108 @@ requirements command above; it is not an extra manual spaCy step.
 `requirements-lock.txt` is the complete, tested M4 Pro environment snapshot;
 it records the resolved packages from the successful audition rather than
 replacing the portable top-level contract.
+
+## Manuscript roles
+
+The pipeline keeps three distinct text records:
+
+- **Book manuscript:** the approved chapter Markdown is authoritative for the
+  written book and remains read-only during narration work.
+- **Narration manuscript:** the durable `narration.md` beside the chapter is
+  authoritative for speech. A human may change punctuation, wording, headings,
+  sentence boundaries, whitespace, or paragraphs for performance without
+  changing the book manuscript.
+- **Chunk manifest:** a per-render machine record of the exact strings submitted
+  to Kokoro after Markdown parsing, pronunciation substitutions, and chunking.
+
+## Prepare, edit, and render
+
+Prepare a narration manuscript once:
+
+```bash
+authoring/audio/.venv/bin/python authoring/audio/scripts/narrate.py prepare \
+  APPROVED_CHAPTER.md --output CHAPTER_DIRECTORY/narration.md
+```
+
+Preparation removes front matter and editorial HTML comments while preserving
+readable headings, paragraphs, and inline Markdown. It also creates
+`narration-provenance.yaml` beside the narration manuscript. Preparation refuses
+to overwrite either existing file; there is intentionally no force option.
+
+The provenance file retains the source-manuscript path and preparation hash,
+the narration's immutable `prepared_sha256`, and a `current_sha256` initialized
+to that baseline and updated after each successful render. Source-manuscript
+drift is emitted as a warning and recorded in the render manifest. Drift never
+blocks rendering and never rewrites the narration manuscript.
+
+After preparation, edit `narration.md` directly and render that file. The
+caller supplies the manuscript and every output path; Python does not discover
+chapters or active editions:
+
+```bash
+HF_HUB_OFFLINE=1 authoring/audio/.venv/bin/python \
+  authoring/audio/scripts/narrate.py render CHAPTER_DIRECTORY/narration.md \
+  --output authoring/audio/output/RUN/chapter.wav \
+  --listening-copy authoring/audio/output/RUN/chapter.mp3 \
+  --manifest authoring/audio/output/RUN/render-manifest.yaml \
+  --chunk-manifest authoring/audio/output/RUN/chunks/chunk-manifest.yaml
+```
+
+Omitting `--voice` and `--speed` uses the canonical configured defaults for a
+normal render. Add only the values explicitly requested for an override, for
+example `--voice bm_lewis`, `--speed 0.92`, or both. Normal render validation
+requires a non-empty voice identifier and an in-range speed; the Kokoro backend
+is authoritative for whether an explicit voice identifier actually exists.
+
+Create an opening sample through the same synthesis and output path:
+
+```bash
+HF_HUB_OFFLINE=1 authoring/audio/.venv/bin/python \
+  authoring/audio/scripts/narrate.py sample CHAPTER_DIRECTORY/narration.md \
+  --output authoring/audio/output/RUN/sample.wav \
+  --listening-copy authoring/audio/output/RUN/sample.mp3 \
+  --manifest authoring/audio/output/RUN/render-manifest.yaml \
+  --chunk-manifest authoring/audio/output/RUN/chunks/chunk-manifest.yaml
+```
+
+The opening candidate contains the opening headings plus the first two prose
+paragraphs when present. If it exceeds approximately 30 seconds, complete
+trailing prose sentences are removed and resynthesized until it fits. The
+waveform is never cut mid-sentence and `narration.md` is never modified.
+
+Select a complete prose paragraph by its one-based prose-only number:
+
+```bash
+HF_HUB_OFFLINE=1 authoring/audio/.venv/bin/python \
+  authoring/audio/scripts/narrate.py sample CHAPTER_DIRECTORY/narration.md \
+  --paragraph 6 \
+  --output authoring/audio/output/RUN/paragraph-006.wav \
+  --listening-copy authoring/audio/output/RUN/paragraph-006.mp3 \
+  --manifest authoring/audio/output/RUN/render-manifest.yaml \
+  --chunk-manifest authoring/audio/output/RUN/chunks/chunk-manifest.yaml
+```
+
+Headings do not count as paragraphs. Paragraph samples retain the complete
+selected paragraph and are not limited by the opening-sample duration cap.
+Use fresh timestamped output directories for both `generate` and `regenerate`.
+Both operations synthesize from the current persistent narration manuscript.
+If `narration.md` is absent, stop and run `prepare` only as a separate explicit
+operation; generation never prepares or replaces it automatically.
+
+The normal editorial loop is:
+
+```text
+approve book manuscript
+→ prepare narration manuscript once
+→ edit narration manuscript
+→ render
+→ listen
+→ edit narration manuscript
+→ render again to a new output directory
+```
+
+Pronunciation-guide substitutions remain an implementation-level step and are
+not written into the prepared narration manuscript.
 
 ## Test and audition commands
 
@@ -49,16 +152,19 @@ regenerating it with:
 The audition fixture is the exact 442-word first-five-paragraph excerpt. Do
 not edit it independently of the manuscript-extraction tests. The approved
 first pass uses British language code `b`, the Kokoro model
-`mlx-community/Kokoro-82M-bf16`, and the four listed voices at speed `0.96`.
-Do not render the complete chapter in this prototype.
+`mlx-community/Kokoro-82M-bf16`, and the fixed audition whitelist
+`bm_daniel`, `bm_george`, `bf_alice`, and `bf_emma` at speed `0.96`. That
+whitelist applies to the audition batch, not to normal render overrides.
 
 ## Files, outputs, and offline reuse
 
 `narration-settings.yaml` is the canonical configuration: `engine`, `model`,
-`language`, `lang_code`, pauses, chunk target, and WAV/MP3 output formats are
-stable; `voice: null` and `speed: null` remain unset until selection. The
-versioned pronunciation guide starts empty and must contain only tested,
-documented narration-layer substitutions.
+`language`, `lang_code`, voice, speed, pauses, chunk target, and WAV/MP3 output
+formats are shared by normal full and sample renders. The current configured
+defaults are `bm_george` at `0.96`; change them only in that file so short
+requests automatically follow future canonical selections. The versioned
+pronunciation guide starts empty and must contain only tested, documented
+narration-layer substitutions.
 
 Generated output, model caches, Python caches, and generated sample audio are
 ignored by `.gitignore`; `output/.gitkeep` preserves the output directory.
@@ -83,10 +189,8 @@ manuscript as part of narration preparation.
 
 ## Human listening gate
 
-The four approved `0.96` WAVs have technical verification only. This execution
-environment has no audio-return channel, so it has not established comparative
-voice quality, pacing, artifacts, audible pronunciation of `Hogwarts`,
-`Muggle`, or `Muggles`, or awkward spoken sentences. A human must listen to all
-four complete samples before any speed variant, pronunciation substitution, or
-narrator selection. Until then, leave `pronunciation-guide.yaml` empty and
-keep canonical `voice: null` and `speed: null`.
+Technical validation does not establish subjective voice quality, pacing,
+pronunciation, or the absence of audible artifacts. Listen to complete files
+before making editorial or pronunciation-guide changes. Keep
+`pronunciation-guide.yaml` limited to problems a human listener has identified
+and verified.
