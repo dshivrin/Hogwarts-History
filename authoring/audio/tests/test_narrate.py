@@ -217,6 +217,8 @@ class SampleSelectionTests(unittest.TestCase):
             "She earned a Ph.D. before she arrived.",
             "Rev. Smith arrived.",
             "Assoc. Smith arrived.",
+            "It happened on Sept. 19, 990.",
+            'Rev. "John" Smith arrived.',
         )
         for text in examples:
             with self.subTest(text=text):
@@ -770,6 +772,12 @@ class PronunciationTests(unittest.TestCase):
 
 
 class ChunkingTests(unittest.TestCase):
+    def test_split_sentences_preserves_boundary_after_proper_noun(self):
+        self.assertEqual(
+            split_sentences("They reached Hogwarts. The train arrived."),
+            ["They reached Hogwarts.", "The train arrived."],
+        )
+
     def test_split_sentences_is_conservative_for_common_non_boundaries(self):
         self.assertEqual(
             split_sentences(
@@ -1197,6 +1205,8 @@ class SampleRenderingTests(unittest.TestCase):
             "She earned a Ph.D. before she arrived.": "She earned a Ph.",
             "Rev. Smith arrived.": "Rev.",
             "Assoc. Smith arrived.": "Assoc.",
+            "It happened on Sept. 19, 990.": "It happened on Sept.",
+            'Rev. "John" Smith arrived.': "Rev.",
         }
         for index, (sentence, unsafe_fragment) in enumerate(cases.items()):
             with self.subTest(sentence=sentence):
