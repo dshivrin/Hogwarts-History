@@ -211,17 +211,23 @@ class SampleSelectionTests(unittest.TestCase):
         )
 
     def test_removing_final_sentence_does_not_split_after_abbreviation(self):
-        self.assertIsNone(
-            narrate.remove_final_prose_sentence(
-                [
-                    SpeechBlock(BlockKind.CHAPTER, "Chapter One"),
-                    SpeechBlock(
-                        BlockKind.PARAGRAPH,
-                        "Mr. Smith arrived.",
-                    ),
-                ]
-            )
+        examples = (
+            "Mr. Smith arrived.",
+            "It happened approx. ten years earlier.",
+            "She earned a Ph.D. before she arrived.",
+            "Rev. Smith arrived.",
+            "Assoc. Smith arrived.",
         )
+        for text in examples:
+            with self.subTest(text=text):
+                self.assertIsNone(
+                    narrate.remove_final_prose_sentence(
+                        [
+                            SpeechBlock(BlockKind.CHAPTER, "Chapter One"),
+                            SpeechBlock(BlockKind.PARAGRAPH, text),
+                        ]
+                    )
+                )
 
     def test_paragraph_numbering_ignores_headings(self):
         self.assertEqual(narrate.select_prose_paragraph(self.blocks, 1), [self.blocks[2]])
@@ -1183,6 +1189,46 @@ class SampleRenderingTests(unittest.TestCase):
             after["narration"]["current_sha256"],
             before["narration"]["current_sha256"],
         )
+
+    def test_unshortenable_abbreviated_openings_never_finalize_fragments(self):
+        cases = {
+            "Mr. Smith arrived.": "Mr.",
+            "It happened approx. ten years earlier.": "It happened approx.",
+            "She earned a Ph.D. before she arrived.": "She earned a Ph.",
+            "Rev. Smith arrived.": "Rev.",
+            "Assoc. Smith arrived.": "Assoc.",
+        }
+        for index, (sentence, unsafe_fragment) in enumerate(cases.items()):
+            with self.subTest(sentence=sentence):
+                narration = self.temp_dir / f"abbreviation-{index}.md"
+                narration.write_text(
+                    f"# Chapter One\n\n{sentence}\n", encoding="utf-8"
+                )
+                output = self.temp_dir / f"abbreviation-{index}.wav"
+                model = DurationKokoroModel(
+                    {
+                        "Chapter One": 2,
+                        sentence: 31,
+                        unsafe_fragment: 2,
+                    }
+                )
+
+                with self.assertRaisesRegex(ValueError, "exceed 30 seconds"):
+                    narrate.run_sample(
+                        narration,
+                        output,
+                        "bm_george",
+                        0.96,
+                        self.settings,
+                        self.pronunciations,
+                        model_loader=lambda _model_id, model=model: model,
+                        evidence_provider=self._evidence,
+                    )
+
+                self.assertFalse(output.exists())
+                self.assertNotIn(
+                    unsafe_fragment, [request[0] for request in model.requests]
+                )
 
     def test_sample_uses_one_immutable_narration_snapshot(self):
         original_hash = hashlib.sha256(self.narration.read_bytes()).hexdigest()

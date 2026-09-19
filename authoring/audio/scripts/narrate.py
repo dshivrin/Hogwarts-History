@@ -142,9 +142,15 @@ def split_sentences(text: str) -> list[str]:
     sentences: list[str] = []
     start = 0
     non_terminal_abbreviations = {
+        "approx",
+        "dept",
         "dr",
         "etc",
+        "fig",
+        "govt",
+        "inc",
         "jr",
+        "ltd",
         "miss",
         "mr",
         "mrs",
@@ -153,6 +159,7 @@ def split_sentences(text: str) -> list[str]:
         "prof",
         "sr",
         "st",
+        "vol",
         "vs",
     }
     for match in re.finditer(r"[.!?](?:[\"'\u201d\u2019]+)?", normalized):
@@ -163,21 +170,34 @@ def split_sentences(text: str) -> list[str]:
                 if punctuation_index > 0
                 else ""
             )
-            next_character = (
-                normalized[punctuation_index + 1]
-                if punctuation_index + 1 < len(normalized)
+            following_character = (
+                normalized[match.end()]
+                if match.end() < len(normalized)
                 else ""
             )
+            next_non_space = normalized[match.end() :].lstrip()[:1]
             word_match = re.search(
                 r"([A-Za-z]+)$", normalized[:punctuation_index]
             )
             preceding_word = word_match.group(1) if word_match else ""
             if (
                 previous_character == "."
-                or next_character == "."
-                or (previous_character.isdigit() and next_character.isdigit())
+                or following_character == "."
+                or (
+                    previous_character.isdigit()
+                    and following_character.isdigit()
+                )
+                or (
+                    bool(following_character)
+                    and not following_character.isspace()
+                )
                 or preceding_word.lower() in non_terminal_abbreviations
                 or (len(preceding_word) == 1 and bool(normalized[match.end() :].strip()))
+                or bool(next_non_space and next_non_space.islower())
+                or (
+                    preceding_word[:1].isupper()
+                    and bool(next_non_space and next_non_space.isupper())
+                )
             ):
                 continue
         sentence = normalized[start : match.end()].strip()
