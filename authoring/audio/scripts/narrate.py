@@ -132,6 +132,69 @@ def split_sentences(text: str) -> list[str]:
     return sentences
 
 
+def select_opening_sample_blocks(
+    blocks: Sequence[SpeechBlock],
+) -> list[SpeechBlock]:
+    selected: list[SpeechBlock] = []
+    prose_count = 0
+    for block in blocks:
+        if block.kind is BlockKind.PARAGRAPH:
+            selected.append(block)
+            prose_count += 1
+            if prose_count == 2:
+                break
+        elif prose_count == 0:
+            selected.append(block)
+    if prose_count == 0:
+        raise ValueError("Opening sample requires at least one prose paragraph")
+    return selected
+
+
+def remove_final_prose_sentence(
+    blocks: Sequence[SpeechBlock],
+) -> list[SpeechBlock] | None:
+    selected = list(blocks)
+    paragraph_index = next(
+        (
+            index
+            for index in range(len(selected) - 1, -1, -1)
+            if selected[index].kind is BlockKind.PARAGRAPH
+        ),
+        None,
+    )
+    if paragraph_index is None:
+        return None
+    sentences = split_sentences(selected[paragraph_index].text)
+    prose_count = sum(
+        block.kind is BlockKind.PARAGRAPH for block in selected
+    )
+    if len(sentences) == 1:
+        if prose_count <= 1:
+            return None
+        del selected[paragraph_index]
+        return selected
+    selected[paragraph_index] = SpeechBlock(
+        BlockKind.PARAGRAPH, " ".join(sentences[:-1])
+    )
+    return selected
+
+
+def select_prose_paragraph(
+    blocks: Sequence[SpeechBlock], paragraph_number: int
+) -> list[SpeechBlock]:
+    if type(paragraph_number) is not int or paragraph_number < 1:
+        raise ValueError("prose paragraph number must be a positive integer")
+    paragraphs = [
+        block for block in blocks if block.kind is BlockKind.PARAGRAPH
+    ]
+    if paragraph_number > len(paragraphs):
+        raise ValueError(
+            f"prose paragraph {paragraph_number} does not exist; "
+            f"narration contains {len(paragraphs)} prose paragraphs"
+        )
+    return [paragraphs[paragraph_number - 1]]
+
+
 def chunk_blocks(
     blocks: Sequence[SpeechBlock], max_words: int
 ) -> list[SpeechChunk]:

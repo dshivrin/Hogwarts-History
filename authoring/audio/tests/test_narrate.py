@@ -134,6 +134,56 @@ class RenderConfigurationTests(unittest.TestCase):
                     self.assertEqual(render.call_args.args[2:4], (expected_voice, expected_speed))
 
 
+class SampleSelectionTests(unittest.TestCase):
+    def setUp(self):
+        self.blocks = [
+            SpeechBlock(BlockKind.CHAPTER, "Chapter One"),
+            SpeechBlock(BlockKind.SECTION, "Before Hogwarts"),
+            SpeechBlock(BlockKind.PARAGRAPH, "First sentence. Second sentence."),
+            SpeechBlock(BlockKind.SECTION, "Later Section"),
+            SpeechBlock(BlockKind.PARAGRAPH, "Third sentence."),
+        ]
+
+    def test_opening_selection_keeps_opening_headings_and_first_two_paragraphs(self):
+        self.assertEqual(
+            narrate.select_opening_sample_blocks(self.blocks),
+            [self.blocks[0], self.blocks[1], self.blocks[2], self.blocks[4]],
+        )
+
+    def test_removing_final_sentence_preserves_headings_and_sentence_boundary(self):
+        self.assertEqual(
+            narrate.remove_final_prose_sentence(self.blocks[:3]),
+            [
+                self.blocks[0],
+                self.blocks[1],
+                SpeechBlock(BlockKind.PARAGRAPH, "First sentence."),
+            ],
+        )
+        self.assertIsNone(
+            narrate.remove_final_prose_sentence(
+                [self.blocks[0], SpeechBlock(BlockKind.PARAGRAPH, "Only sentence.")]
+            )
+        )
+        self.assertEqual(
+            narrate.remove_final_prose_sentence(
+                [self.blocks[0], self.blocks[2], self.blocks[4]]
+            ),
+            [self.blocks[0], self.blocks[2]],
+        )
+
+    def test_paragraph_numbering_ignores_headings(self):
+        self.assertEqual(narrate.select_prose_paragraph(self.blocks, 1), [self.blocks[2]])
+        self.assertEqual(narrate.select_prose_paragraph(self.blocks, 2), [self.blocks[4]])
+
+    def test_invalid_paragraph_and_heading_only_narration_fail(self):
+        for number in (0, -1, 3):
+            with self.subTest(number=number):
+                with self.assertRaisesRegex(ValueError, "prose paragraph"):
+                    narrate.select_prose_paragraph(self.blocks, number)
+        with self.assertRaisesRegex(ValueError, "prose"):
+            narrate.select_opening_sample_blocks(self.blocks[:2])
+
+
 class MarkdownPreparationTests(unittest.TestCase):
     def test_markdown_preparation_preserves_code_spans_and_strips_emphasis(self):
         self.assertEqual(
