@@ -7,6 +7,7 @@ Status: NOT PERFORMED
 - In-universe historical-nonfiction voice:
 - Moderately formal British prose:
 - Knowledgeable but non-omniscient narrator:
+- Later editorial additions identifiable and not voiced as Bagshot knowledge:
 
 ## Historical writing
 

@@ -3,6 +3,62 @@
 Status: Proposed outline only. Completion of this file does not advance the
 chapter beyond `evidence_selected`.
 
+## Unified Expanded Revision 06 Overlay
+
+This overlay governs `draft-revision-06.md` and supersedes Revision 05's
+reader-facing layered-note treatment without changing the established section
+structure, central argument, entry point, or Chapter 2 handoff.
+
+- The chapter reads as one continuous historical narrative. Post-1984
+  publication is not an exclusion rule, and no paragraph carries a visible or
+  spoken editorial-note announcement.
+- Hidden evidence and source-access comments continue to record source
+  authority, carrier date, event chronology and access history. Reader-facing
+  attribution is retained only where it clarifies fact, testimony, tradition,
+  or interpretation.
+- The Pensieve, broom, wandcraft, Linfred, Beedle, pre-Statute transport,
+  cauldron, magical-creature and Brother Benedict material remain in their
+  established sections.
+- The creature-fear passage now makes a bounded historical interpretation:
+  unfamiliar creatures could become monsters in Muggle retelling, but no
+  particular persecution is attributed to a particular encounter.
+- “A Place for Learning” retains “The castle gave knowledge an address” and the
+  argument for preservation beyond individual keepers. Speculative classroom
+  interaction, founder disagreement and former-pupil projections are removed.
+- The ending still stops before the first classroom's daily arrangements,
+  construction, governance, or other Chapter 3 material, then passes naturally
+  to Chapter 2's evidentiary examination of the founders.
+
+## Unified Expanded Revision 05 Overlay
+
+This overlay governs `draft-revision-05.md` without changing the chapter's
+established structure, central argument, entry point or exit point.
+
+- Reconstructed Bagshot narration remains unlabelled.
+- Every integrated post-1984 editorial paragraph begins with
+  `**Later editorial note.**`, the fixed printed-and-spoken convention in the
+  Draft 01 style lock.
+- Later editorial clusters cover the Pensieve account; later official
+  wandcraft material; the Linfred comparison; Beedle reception; and later
+  retrospective evidence about pre-Statute transport and cauldrons.
+- `ext-a45-001` is included in the access review as a 2015 carrier for a broad
+  pre-Statute claim. It does not establish the founders' decade and cannot be
+  presented as knowledge available to the 1984 narrator.
+- *Quidditch Through the Ages*, *Fantastic Beasts and Where to Find Them* and
+  *The Tales of Beedle the Bard* require two dates to be kept separate: the
+  period described by their historical contents and the dates of the surviving
+  editions, translations and commentary through which this project reads them.
+- The unsupported reference to messages and supplies crossing the distance to
+  Hogwarts is removed. The passage retains only Binns's evidenced claim that
+  pupils were sought and brought to the remote school.
+- UE12-08 remains deferred. The collective-learning paragraph explains what
+  pupils gain from learning together; the following disagreement paragraph
+  explains what happens when teachers bind different aims to one institution.
+  They are adjacent but not redundant.
+- The final transition still ends at the founders' identities, purposes and
+  evidentiary recoverability. It does not enter Chapter 3's account of the joint
+  founding or early operation.
+
 ## Central Argument
 
 The significance of Hogwarts can be shown more securely than the educational

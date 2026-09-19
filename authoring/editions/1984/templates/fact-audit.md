@@ -7,9 +7,11 @@ Status: NOT PERFORMED
 | Claim or passage | Evidence IDs | Support status | Notes |
 | --- | --- | --- | --- |
 
-## Chronology and cutoff review
+## Chronology and knowledge-access review
 
-- Post-1984 knowledge leakage:
+- Event chronology recorded separately from source date:
+- Later knowledge incorrectly attributed to Bagshot:
+- Editorial additions identifiable:
 - Dates or sequences requiring correction:
 
 ## Authority and provenance review

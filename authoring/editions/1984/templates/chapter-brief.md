@@ -14,6 +14,12 @@
 ## Chronological scope
 
 
+## Narrative layers
+
+- Reconstructed Bagshot narrative:
+- Later editorial additions:
+- Separate addendum, if required:
+
 ## Required subjects
 
 -
@@ -32,5 +38,4 @@
 
 
 ## Editorial notes
-
 

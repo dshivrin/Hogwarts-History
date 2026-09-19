@@ -1,0 +1,89 @@
+schema_version: 1
+status: technically_verified_human_listen_pending
+created: 2026-09-19
+chapter:
+  number: 1
+  title: Before Hogwarts
+  approved_revision: 7
+source:
+  approved_path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/final-draft-candidate-revision-07.md
+  approved_sha256: 471ee8304bfd81c4c538b8ce74c8762448a197b1c7d33e7584b83ef1c6e855ed
+  approved_size_bytes: 19586
+  derived_path: authoring/audio/output/chapter-01-before-hogwarts-20260919-175431/narration-input.md
+  derived_sha256: 0dd0badf817bffacaf7e416c3ef52607a51761625d83adcfd8ea59c934f72c35
+  submitted_text_path: authoring/audio/output/chapter-01-before-hogwarts-20260919-175431/tts-submission.txt
+  submitted_text_sha256: c4d3cabefbee79e2c2747951f83ad028b1e19f54d3932d295059d2153b86f58d
+  spoken_blocks: 40
+  spoken_words: 2527
+render:
+  engine: kokoro
+  model: mlx-community/Kokoro-82M-bf16
+  model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+  voice: bm_george
+  language: british-english
+  lang_code: b
+  speed: 0.96
+  chunk_max_words: 160
+  chunk_count: 42
+  generation_command: HF_HUB_OFFLINE=1 authoring/audio/.venv/bin/python authoring/audio/output/chapter-01-before-hogwarts-20260919-175431/produce_chapter_one.py
+  underlying_render_command: authoring/audio/.venv/bin/python authoring/audio/scripts/narrate.py render authoring/audio/output/chapter-01-before-hogwarts-20260919-175431/narration-input.md --output authoring/audio/output/chapter-01-before-hogwarts-20260919-175431/chapter-01-before-hogwarts.wav --voice bm_george --speed 0.96 --listening-copy authoring/audio/output/chapter-01-before-hogwarts-20260919-175431/chapter-01-before-hogwarts.mp3
+  duration_seconds: 1051.21
+outputs:
+  wav:
+    path: authoring/audio/output/chapter-01-before-hogwarts-20260919-175431/chapter-01-before-hogwarts.wav
+    sha256: ef1f0672c6172b9957b7277fcc640fdc7eef339f891abe81a8b4a6973cef3201
+    size_bytes: 50458124
+    codec: pcm_s16le
+    sample_rate: 24000
+    channels: 1
+  mp3:
+    path: authoring/audio/output/chapter-01-before-hogwarts-20260919-175431/chapter-01-before-hogwarts.mp3
+    sha256: ab320fe8c3df83011d013a3c42289dc5ef5ac40959da6051a5705bc6998ef79a
+    size_bytes: 4205324
+    codec: mp3
+    sample_rate: 24000
+    channels: 1
+    bit_rate: 32000
+versions:
+  python: 3.12.13
+  mlx_audio: 0.5.3
+  mlx: 0.32.2
+  misaki: 0.9.4
+  pyyaml: 6.0.2
+  numpy: 2.5.3
+runtime_evidence:
+  device: Device(gpu, 0)
+  gpu_selected: true
+  device_name: Apple M4 Pro
+  architecture: applegpu_g16s
+  audio_array_type: mlx.core.array
+  peak_memory_bytes: 3403357777
+verification:
+  approved_hash_match: true
+  shared_audio_tests: 36_of_36_passed
+  task_local_tests: 7_of_7_passed
+  exact_text_sequence: 40_blocks_once_in_order
+  chunk_reconstruction: 42_chunks_once_in_order
+  required_heading_sequence: 8_headings_in_order
+  opening: passed_chapter_one_then_before_hogwarts
+  complete_closing_paragraph: true
+  internal_metadata_absent: true
+  chapter_two_text_absent: true
+  master_matches_assembled_pcm: true
+  wav_full_decode: true
+  mp3_full_decode: true
+  all_join_edges_zero_pcm16: true
+  effective_join_gap_ms_min: 469.25
+  effective_join_gap_ms_max: 2114.125
+  maximum_model_edge_silence_ms: 394.25
+  clipping_detected: false
+  preexisting_chapter_files_changed_by_render: false
+  approved_manuscript_unchanged: true
+  human_full_listen: false
+artifacts:
+  render_manifest: authoring/audio/output/chapter-01-before-hogwarts-20260919-175431/render-manifest.yaml
+  chunk_manifest: authoring/audio/output/chapter-01-before-hogwarts-20260919-175431/chunks/chunk-manifest.yaml
+  generation_log: authoring/audio/output/chapter-01-before-hogwarts-20260919-175431/full-render.log
+  quality_control_report: authoring/audio/output/chapter-01-before-hogwarts-20260919-175431/quality-control-report.md
+limitations:
+  - Subjective pronunciation, delivery, pacing and audible artifact review require a human full listen.

@@ -25,13 +25,17 @@ and edition-specific project state. Authoring files may cite evidence IDs and
 repository-relative source paths; they should not duplicate canonical evidence
 records wholesale.
 
-## Editions
+## Edition
 
-The current target is `authoring/editions/1984/`, a reconstructed edition whose
-editorial knowledge cutoff is approximately 1984. A future edition such as
-`authoring/editions/2026/` may use the same research corpus while applying a
-different historical scope, chronology, annotation scheme, and set of editorial
-decisions. No 2026 edition has been created yet.
+The project now produces one unified, expanded edition. The reconstructed 1984
+edition remains its historical and literary foundation, but all canonical
+evidence may be considered. Later discoveries and later events are added through
+clearly attributable editorial material rather than being retroactively placed
+within Bathilda Bagshot's knowledge.
+
+`authoring/editorial-policy.md` is the project-wide authority for this model.
+The existing `authoring/editions/1984/` directory is retained as a legacy path
+for continuity; its name no longer denotes an evidence or publication cutoff.
 
 ## Drafts
 
@@ -40,5 +44,5 @@ attempt. Substantially different voices or editorial approaches should become
 sibling drafts such as `draft-02/` or `draft-03/`; a completed draft should not
 be silently overwritten to try a different approach.
 
-Chapter workspaces are created only when a chapter enters preparation. The
-current draft therefore has an empty `chapters/` directory.
+Chapter workspaces are created only when a chapter enters preparation. Existing
+workspaces remain in the legacy path and are governed by the unified policy.

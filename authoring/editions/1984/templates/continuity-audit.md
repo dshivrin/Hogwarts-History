@@ -12,7 +12,7 @@ Status: NOT PERFORMED
 - Names, offices, places, and terminology:
 - Dates and historical sequence:
 - Repeated events or explanations:
-- Narrator knowledge and uncertainty:
+- Bagshot knowledge, later editorial attribution, and uncertainty:
 - Cross-chapter promises and boundaries:
 
 ## Proposed continuity updates

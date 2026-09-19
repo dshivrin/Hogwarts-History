@@ -6,6 +6,18 @@
 - Chapter title: Before Hogwarts
 - Draft: Draft 01
 - Workflow state after preparation: `evidence_selected`
+- Current review draft: `draft-revision-06.md` (Unified Expanded Edition;
+  editorial review pending, with no workflow-state advance)
+
+## Unified Expanded revision constraint
+
+The revised chapter keeps this brief's purpose, structure and Chapter 2 handoff.
+Post-1984 carriers may contribute through the access treatment recorded in
+`evidence-selection.yaml`, but revision 06 presents the result as one continuous
+historical narrative without visible editorial-note labels. Important source
+differences remain naturally attributed in the prose; publication dates,
+authority and event chronology remain in hidden metadata. The revision does not
+add material merely because the unified policy permits it.
 
 ## Purpose
 
@@ -45,7 +57,7 @@ school project begins. The foundation is known only as more than a thousand
 years before Professor Binns's 1992 account; its precise date is uncertain.
 Earlier and broadly medieval evidence may establish social conditions, while
 later examples of home learning or childhood culture may be used only as
-explicitly labelled comparisons. Fifteenth-century persecution, the 1692
+clearly dated or attributed comparisons. Fifteenth-century persecution, the 1692
 Statute settlement, and modern admissions practice do not become causes or
 features of the founder era merely because they are better documented.
 

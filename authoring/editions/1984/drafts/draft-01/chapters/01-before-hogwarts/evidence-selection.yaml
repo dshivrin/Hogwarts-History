@@ -6,6 +6,114 @@ selection_basis:
   - Index and duplicate results were used for discovery and corroboration only.
   - Later or undated educational practices are not projected into the founder era.
 
+unified_expanded_revision_05:
+  reviewed_at: '2026-09-19'
+  governing_audit: ../../chapters-01-02-unified-expanded-review-2026-09-19.md
+  editorial_note_marker: '**Later editorial note.**'
+  access_review:
+    - id: ext-a45-001
+      disposition: used_in_later_editorial_layer
+      historical_content_date: pre_Statute; no lower boundary established
+      surviving_carrier_date: '2015-08-10'
+      narrator_access: unavailable_by_1984
+      note: >-
+        The account supports shared ordinary transport before the Statute but
+        does not place carts or sailing ships in the founders' particular
+        decade. It is therefore visibly editorial rather than reconstructed
+        Bagshot narration.
+    - id: qtta-ch01-002
+      disposition: historical_content_used_with_carrier_qualification
+      historical_content_date: '962'
+      surviving_carrier_date: post-1984 project edition and translation
+      narrator_access: >-
+        The in-world historical work and its subject matter are distinct from
+        the surviving edition, translation and editorial apparatus used by the
+        project.
+    - id: fb-ch02-001
+      disposition: historical_content_used_with_carrier_qualification
+      historical_content_date: medieval and earlier creature knowledge
+      surviving_carrier_date: post-1984 project edition
+      narrator_access: >-
+        Newt Scamander's in-world work predates the edition boundary; the
+        current carrier does not. Only the historical content is claimed.
+    - id: fb-ch02-002
+      disposition: historical_content_used_with_carrier_qualification
+      historical_content_date: medieval and earlier creature knowledge
+      surviving_carrier_date: post-1984 project edition
+      narrator_access: same distinction as fb-ch02-001
+    - id: beedle-fm-002
+      disposition: used_in_later_editorial_layer
+      historical_content_date: old in-world tales; precise circulation date unresolved
+      surviving_carrier_date: post-1984 translation, edition and commentary
+      narrator_access: >-
+        The tales' historical existence is distinct from the later translation
+        and Dumbledore commentary through which this reception claim survives.
+    - id: beedle-ch04-001
+      disposition: used_in_later_editorial_layer
+      historical_content_date: old in-world tale
+      surviving_carrier_date: post-1984 translation, edition and commentary
+      narrator_access: unavailable for the exact later editorial formulation
+  later_editorial_clusters:
+    - [ext-a17-002, ext-a17-003]
+    - [ps-ch05-007, ext-a41-001, ext-a42-001, ext-a42-002]
+    - [ext-a38-001, ext-a38-002]
+    - [beedle-fm-002, beedle-ch04-001]
+    - [ext-a08-003, ext-a45-001, ext-a40-001, ext-a40-002]
+  deferred:
+    - id: UE12-08
+      reason: >-
+        No single redundant passage was identified: collective learning and
+        durable disagreement perform different argumentative work and are
+        retained.
+
+unified_expanded_revision_06:
+  reviewed_at: '2026-09-19'
+  source_draft: draft-revision-05.md
+  review_draft: draft-revision-06.md
+  presentation_model: unified_narrative
+  reader_facing_editorial_marker: null
+  governing_instruction: >-
+    Integrate eligible evidence into one continuous historical narrative. Do
+    not use publication year as an exclusion rule; preserve source authority,
+    carrier date, event chronology, and claim limitations in hidden metadata
+    and natural attribution.
+  integrated_clusters:
+    - ids: [ext-a17-002, ext-a17-003]
+      treatment: >-
+        Pensieve description and rune-dating limit integrated; the discovery
+        story remains explicitly tradition rather than established occurrence.
+    - ids: [ps-ch05-007, ext-a41-001, ext-a42-001, ext-a42-002]
+      treatment: >-
+        Wandcraft retained with the shop date, Garrick Ollivander's family
+        belief, and firmer medieval evidence kept distinct.
+    - ids: [ext-a38-001, ext-a38-002]
+      treatment: >-
+        Linfred remains a twelfth-century post-foundation comparison and is not
+        projected into the founders' century.
+    - ids: [beedle-fm-002, beedle-ch04-001]
+      treatment: >-
+        Historical reception remains distinct from the surviving translation,
+        edition, and Dumbledore commentary.
+    - ids: [ext-a08-003, ext-a45-001, ext-a40-001, ext-a40-002]
+      treatment: >-
+        Broad pre-Statute material culture is integrated without assigning it
+        to the founders' particular decade.
+  narrative_revisions:
+    - >-
+      The fear paragraph now joins the Brother Benedict/Jarvey example to the
+      broader record of dragons and Hippogriffs as bounded interpretation; it
+      does not claim a particular encounter caused a particular persecution.
+    - >-
+      A Place for Learning retains “The castle gave knowledge an address” and
+      the preservation argument, but removes speculative classroom detail,
+      early institutional disagreement, and the former-pupil projection.
+  remaining_material_uncertainties:
+    - the Pensieve's maker, engraving date, and discovery circumstances
+    - whether the 962 broom record precedes or follows Hogwarts's opening
+    - the ordinary systems of magical education before Hogwarts
+    - the precise relationship between creature encounters and persecution
+    - the first catchment and daily arrangements of the early school
+
 revision_01_retrieval:
   inspected_at: '2026-09-14'
   canonical_records_inspected: 24
@@ -482,29 +590,29 @@ uncertain:
 excluded:
   - id: dh-ch11-004
     reason: >-
-      Post-cutoff wartime compulsory-attendance change; its contrast with earlier
-      home education concerns modern policy, not pre-foundation conditions.
+      A wartime compulsory-attendance change whose contrast with earlier home
+      education concerns modern policy, not pre-foundation conditions.
 
   - id: gof-ch09-002
     reason: >-
-      Later editorial note about Beauxbatons and a Harry-era source title; no
-      evidence for conditions before Hogwarts.
+      A Harry-era Beauxbatons detail that establishes no condition before
+      Hogwarts and adds no Chapter 1 historical claim.
 
   - id: gof-ch11-004
     reason: >-
-      Later editorial note about Durmstrang, Beauxbatons, and Harry-era school
-      comparison; partly second-hand and outside the 1984 narrative.
+      A partly second-hand Harry-era comparison of Durmstrang and Beauxbatons;
+      it does not establish British conditions before Hogwarts.
 
   - id: ext-b10-001
     reason: >-
-      Authority-D founder claim about house-elf labour, a subject the edition
-      bible requires the reconstructed book to omit; also primarily founder
-      biography rather than Chapter 1 context.
+      Authority-D founder claim about house-elf labour; excluded from Chapter 1
+      because it is founder biography rather than pre-Hogwarts context. Chapter
+      2 records its attribution and authority separately.
 
   - id: fb-ch02-005
     reason: >-
-      Classified later_editorial_note and names A History of Magic rather than
-      establishing a Chapter 1 historical claim.
+      Names A History of Magic but does not establish a distinct Chapter 1
+      historical claim.
 
   - id: beedle-ch01-001
     reason: >-
@@ -528,8 +636,8 @@ excluded:
 
   - id: ext-b13-001
     reason: >-
-      Weak, out-of-universe authorial commentary about boarding-school appeal;
-      classified later_editorial_note and inadmissible as in-universe history.
+      Weak out-of-universe commentary about boarding-school appeal; it supplies
+      no historical evidence for pre-Hogwarts education or the founding setting.
 
   - id: ext-a42-003
     reason: >-

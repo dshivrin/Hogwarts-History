@@ -1,6 +1,8 @@
 # Draft 01
 
-Draft 01 is the first full style experiment for the reconstructed 1984 edition.
+Draft 01 began as the first full style experiment for the reconstructed 1984
+edition and now continues as the foundation of the Unified Expanded Edition.
+The legacy directory name does not restrict the evidence corpus.
 Chapters will be prepared and produced one at a time, with the early chapters
 used to calibrate the book-wide voice.
 

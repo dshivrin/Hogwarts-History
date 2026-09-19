@@ -1,7 +1,9 @@
 # Shared Evidence Policy
 
 This policy interprets the repository's controlled evidence classifications for
-authoring. Classification does not replace direct source review.
+the Unified Expanded Edition. It is subordinate to
+`authoring/editorial-policy.md`. Classification does not replace direct source
+review, and extraction-era era labels do not by themselves decide inclusion.
 
 ## Era classifications
 
@@ -12,8 +14,9 @@ to review of the exact source, chronology, authority, and chapter relevance.
 
 ### `pre_1984_historical_candidate`
 
-Historical material potentially usable in the 1984 edition after chronology and
-relevance review.
+Historical material about events or conditions before 1984. Review chronology,
+relevance, source authority, and knowledge access before assigning it to either
+the reconstructed Bagshot narrative or a later editorial addition.
 
 ### `harry_era_confirmation`
 
@@ -26,12 +29,15 @@ object continued to exist. By itself it does not establish:
 
 ### `later_editorial_note`
 
-Do not place this material in the original 1984 narrative. Preserve it as a
-candidate for a future edition, annotation, or editorial note.
+Consider this material for an attributable editorial addition in the relevant
+chapter or addendum. Do not place it in the reconstructed Bagshot narrative or
+imply that Bagshot knew it.
 
 ### `post_1984_excluded_from_original`
 
-Exclude this material from the reconstructed 1984 body.
+Exclude this material from the reconstructed Bagshot narrative, but reconsider
+it for the unified edition. Use an integrated editorial addition when it fits
+the chapter's chronology and flow; otherwise reserve it for an addendum.
 
 ### `unknown_or_uncertain`
 
@@ -42,8 +48,23 @@ Require explicit editorial review before use.
 Confidence, era, reference type, source authority, tentative placement, and
 duplication or corroboration are independent dimensions. Do not flatten them
 into a single quality score. A high-confidence observation may still be outside
-the edition cutoff; a lower-authority carrier may still preserve useful wording;
-and a duplicate may strengthen a claim without deserving repeated prose.
+Bagshot's plausible knowledge; a lower-authority carrier may still preserve
+useful testimony; and a duplicate may strengthen a claim without deserving
+repeated prose.
+
+## Required chapter-level classifications
+
+For every material chapter claim, record both:
+
+1. **Event chronology:** when the described event or condition occurred.
+2. **Knowledge access:** whether it is a plausible candidate for the
+   reconstructed Bagshot narrative, a later discovery about an earlier event, a
+   later historical event, an unverified or disputed account, or an editorial
+   interpretation.
+
+Source publication date is provenance, not event chronology. A post-1984 source
+may document a founder-era event without making that evidence available to
+Bagshot.
 
 ## Source authority
 
@@ -64,4 +85,5 @@ statements attributed to the same speaker.
 
 Evidence selection establishes the support and limits for historical claims.
 Voice, emphasis, causation, and narrative shape remain editorial decisions, and
-must not turn uncertainty into fact or source language into unexamined prose.
+must not turn uncertainty into fact, later knowledge into Bagshot knowledge, or
+source language into unexamined prose.

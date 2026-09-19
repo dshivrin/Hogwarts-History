@@ -1,0 +1,106 @@
+schema_version: 1
+status: technically_verified_human_listen_pending
+created: 2026-09-19T18:08:29+03:00
+chapter:
+  number: 2
+  title: The Four Founders
+  approved_revision: 6
+source:
+  approved_path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/final-draft-candidate-revision-06.md
+  approved_sha256: b4b8c8cfc5a94169545ff7d159c02821f05723877ba8051fa28224ca83c30e43
+  approved_size_bytes: 9391
+  derived_path: authoring/audio/output/chapter-02-the-four-founders-20260919-180558/narration-input.md
+  derived_sha256: 699650adb73a6541c013d61b48b8005bc8e67ab1b3098a0f864c1ee69a0d3edf
+  submitted_text_path: authoring/audio/output/chapter-02-the-four-founders-20260919-180558/tts-submission.txt
+  submitted_text_sha256: c18e6a3c76cc0204d695e7dfd7ba179537ee5777cee816cb4cbcb18ca548edf4
+  spoken_blocks: 25
+  spoken_words: 1049
+render:
+  engine: kokoro
+  model: mlx-community/Kokoro-82M-bf16
+  model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+  voice: bm_george
+  language: british-english
+  lang_code: b
+  speed: 0.96
+  chunk_max_words: 160
+  chunk_count: 25
+  generation_command: HF_HUB_OFFLINE=1 authoring/audio/.venv/bin/python authoring/audio/output/chapter-02-the-four-founders-20260919-180558/produce_chapter_two.py
+  underlying_render_command: authoring/audio/.venv/bin/python authoring/audio/scripts/narrate.py render authoring/audio/output/chapter-02-the-four-founders-20260919-180558/narration-input.md --output authoring/audio/output/chapter-02-the-four-founders-20260919-180558/chapter-02-the-four-founders.wav --voice bm_george --speed 0.96 --listening-copy authoring/audio/output/chapter-02-the-four-founders-20260919-180558/chapter-02-the-four-founders.mp3
+  duration_seconds: 465.925
+configuration:
+  narration_settings_sha256: 5b0a1d677a4346860a5171a1d2659749b03074f0328880cee2e174f874dd77b1
+  pronunciation_guide_sha256: 3023282372fd3ff4b6e2a7a6a510396e72b623cad8a9bfd292b18dc2bb207510
+  pronunciation_entry_count: 0
+  pauses:
+    opening_ms: 120
+    continuation_ms: 80
+    paragraph_ms: 400
+    section_ms: 1000
+    chapter_ms: 1750
+    closing_ms: 180
+  output:
+    intermediate: wav
+    listening_copy: mp3
+outputs:
+  wav:
+    path: authoring/audio/output/chapter-02-the-four-founders-20260919-180558/chapter-02-the-four-founders.wav
+    sha256: ae862dca1745f0a7fb8d86ffef40dbad970cb2ad38a3209befa2bfadebbea8e8
+    size_bytes: 22364444
+    codec: pcm_s16le
+    sample_rate: 24000
+    channels: 1
+  mp3:
+    path: authoring/audio/output/chapter-02-the-four-founders-20260919-180558/chapter-02-the-four-founders.mp3
+    sha256: 4bede663e5bca92f6c2a4aefe83f4eeaeb3a09df5d1177ed32ae41c30775e1c2
+    size_bytes: 1864172
+    codec: mp3
+    sample_rate: 24000
+    channels: 1
+    bit_rate: 32000
+versions:
+  python: 3.12.13
+  mlx_audio: 0.5.3
+  mlx: 0.32.2
+  misaki: 0.9.4
+  pyyaml: 6.0.2
+  numpy: 2.5.3
+runtime_evidence:
+  device: Device(gpu, 0)
+  gpu_selected: true
+  device_name: Apple M4 Pro
+  architecture: applegpu_g16s
+  audio_array_type: mlx.core.array
+  peak_memory_bytes: 3318841796
+verification:
+  approved_hash_match: true
+  shared_audio_tests: 36_of_36_passed
+  task_local_tests: 7_of_7_passed
+  exact_text_sequence: 25_blocks_once_in_order
+  chunk_reconstruction: 25_chunks_once_in_order
+  required_heading_sequence: 6_headings_in_order
+  opening: passed_chapter_two_then_the_four_founders
+  complete_closing_paragraph: true
+  internal_metadata_absent: true
+  chapter_one_text_absent: true
+  chapter_three_prose_absent: true
+  master_matches_assembled_pcm: true
+  wav_full_decode: true
+  mp3_full_decode: true
+  all_join_edges_zero_pcm16: true
+  maximum_effective_join_gap_ms: 2112.0
+  maximum_model_edge_silence_ms: 440.833
+  chunk_rms_dbfs_spread: 1.326
+  clipping_detected: false
+  approved_manuscript_unchanged: true
+  prior_chapter_two_audio_unchanged: true
+  chapter_one_audio_unchanged: true
+  human_full_listen: false
+artifacts:
+  render_manifest: authoring/audio/output/chapter-02-the-four-founders-20260919-180558/render-manifest.yaml
+  chunk_manifest: authoring/audio/output/chapter-02-the-four-founders-20260919-180558/chunks/chunk-manifest.yaml
+  generation_log: authoring/audio/output/chapter-02-the-four-founders-20260919-180558/full-render.log
+  quality_control_report: authoring/audio/output/chapter-02-the-four-founders-20260919-180558/quality-control-report.md
+limitations:
+  - Subjective pronunciation, delivery, pacing and audible artifact review require a human full listen.
+  - The first sandboxed attempt was preserved at authoring/audio/output/chapter-02-the-four-founders-20260919-180346/; it failed before synthesis because no Metal device was available.

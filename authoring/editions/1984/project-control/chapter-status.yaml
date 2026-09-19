@@ -1,5 +1,6 @@
 schema_version: 1
-edition: 1984
+edition: unified-expanded
+legacy_path: authoring/editions/1984
 allowed_statuses:
   - planned
   - evidence_selected
@@ -14,20 +15,61 @@ chapters:
     number: 1
     slug: before-hogwarts
     title: Before Hogwarts
-    status: drafted
+    status: editor_approved
     draft: draft-01
+    approved_manuscript:
+      revision: 7
+      path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/final-draft-candidate-revision-07.md
+      sha256: 471ee8304bfd81c4c538b8ce74c8762448a197b1c7d33e7584b83ef1c6e855ed
+    workflow_history:
+      - status: editor_approved
+        date: 2026-09-19
+        note: Revision 07 received explicit final editorial sign-off; its approved manuscript path and SHA-256 are recorded above.
   - id: 2
     number: 2
     slug: the-four-founders
     title: The Four Founders
-    status: planned
+    status: editor_approved
     draft: draft-01
+    approved_manuscript:
+      revision: 6
+      path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/final-draft-candidate-revision-06.md
+      sha256: b4b8c8cfc5a94169545ff7d159c02821f05723877ba8051fa28224ca83c30e43
+    workflow_history:
+      - status: evidence_selected
+        date: 2026-09-18
+        note: Selected the chapter-local dossier and claim table in preparation-package.md.
+      - status: evidence_reviewed
+        date: 2026-09-18
+        note: Read the governing authorities and relevant canonical YAML; checked Binns and Hat passages against the original PDF.
+      - status: outlined
+        date: 2026-09-18
+        note: Confirmed the four-part argument and outline in preparation-package.md.
+      - status: outline_approved
+        date: 2026-09-18
+        note: User instruction to implement drafting-instructions.md explicitly approves the four-part outline; prose approval remains pending.
+      - status: drafted
+        date: 2026-09-18
+        note: Created and verified draft.md against the approved four-part outline, evidence metadata requirements, chapter boundaries, and 1984 knowledge controls.
+      - status: editor_approved
+        date: 2026-09-19
+        note: Final-draft candidate Revision 06 received explicit final editorial sign-off after its fact, evidence, style, cross-chapter continuity and narration-preflight audits passed; its approved path and SHA-256 are recorded above.
   - id: 3
     number: 3
     slug: the-founding-of-hogwarts
     title: The Founding of Hogwarts
-    status: planned
+    status: outlined
     draft: draft-01
+    workflow_history:
+      - status: evidence_selected
+        date: 2026-09-19
+        note: Selected the complete Chapter 3 working set and recorded all material founding-search candidates and cross-chapter dispositions in preparation-package.md.
+      - status: evidence_reviewed
+        date: 2026-09-19
+        note: Reviewed canonical YAML, duplicate results, exact core PDF passages, official A02/A03/A16/A17 snapshots, and the B10 preservation transcript under the Unified Expanded Edition policy.
+      - status: outlined
+        date: 2026-09-19
+        note: Prepared the proposed outline with separate event-chronology and knowledge-access classifications and explicit Bagshot, editorial-addition, and addendum layers; editorial review is pending.
   - id: 4
     number: 4
     slug: the-four-houses

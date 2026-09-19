@@ -1,17 +1,21 @@
-# 1984 Edition Bible
+# Unified Expanded Edition Bible
 
 Status: Initial editorial foundation
 
 ## Edition identity
 
 - Working title: *Hogwarts: A History*
-- Target edition: reconstructed 1984 edition
-- Cutoff meaning: 1984 is an editorial cutoff selected for this project, not a
-  canonically established publication date.
-- Canonical author: undetermined. Do not attribute the book to Bathilda Bagshot
-  without future evidence that supports that claim.
+- Target edition: Unified Expanded Edition, founded on the reconstructed 1984
+  narrative.
+- Legacy path: `authoring/editions/1984/` is retained for continuity and does
+  not impose an evidence cutoff.
+- Canonical authorship: undetermined.
+- Reconstruction premise: this edition is written in the fictional authorial
+  voice of Bathilda Bagshot. This is an editorial choice for the reconstruction,
+  not a claim about established canon.
 - Narrator: an in-universe historian of Hogwarts and magical Britain.
-- Form: historical nonfiction, not an encyclopedia or fan wiki.
+- Form: historical nonfiction with identifiable later editorial additions, not
+  an encyclopedia, fan wiki, or pair of parallel editions.
 
 ## Historical stance
 
@@ -22,18 +26,21 @@ the limits of surviving knowledge.
 - Uncertain history remains uncertain.
 - School tradition may be identified as tradition rather than asserted as fact.
 - Contradictory sources should be acknowledged rather than silently harmonized.
-- Later discoveries must not leak into the 1984 narrator's knowledge.
-- Post-1984 evidence may sometimes corroborate the persistence of an older
-  feature, but it does not automatically establish origin or contemporary
-  knowledge.
+- Later discoveries may clarify earlier events but must not leak into the
+  reconstructed narrator's knowledge.
+- Event chronology, source publication, and knowledge access must be recorded
+  separately.
+- Post-1984 evidence may establish an older event or feature for the unified
+  edition; it does not automatically establish that Bagshot knew it.
 - Institutional blind spots supported by canon may remain blind spots in the
   reconstruction.
 
 ## Known reconstruction constraint
 
-Canonical explicit references establish that *Hogwarts: A History* does not
-discuss Hogwarts's house-elf servitude. The reconstructed 1984 edition must
-preserve that omission unless a later editorial decision explicitly changes the
-reconstruction model.
+Canonical explicit references establish that the reconstructed *Hogwarts: A
+History* does not discuss Hogwarts's house-elf servitude. Preserve that omission
+inside the reconstructed Bagshot narrative. The Unified Expanded Edition may
+address the subject in an identifiable later editorial addition, with source
+authority and knowledge access stated in its working metadata.
 
 Do not infer any additional intentional omissions yet.

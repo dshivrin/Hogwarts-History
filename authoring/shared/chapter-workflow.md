@@ -71,3 +71,20 @@ This order prevents a narrative from being invented first and supported by a
 selective search afterward. Fact, style, and continuity audits are separate
 checks. Human editorial approval remains a required gate, and completion of one
 chapter must not automatically start the next.
+
+## Unified-edition planning fields
+
+Evidence dossiers must classify event chronology independently from knowledge
+access. Outlines must label each proposed passage as reconstructed Bagshot
+narrative or later editorial addition. An addendum is appropriate only when an
+addition would disrupt chronology, the reconstructed author's perspective, or
+the main chapter's reading flow.
+
+## Draft-wide style authority
+
+Before outlining or drafting, load the active draft's `style-lock.md`. Apply it
+through revision and check the completed chapter against it before delivery.
+Chapter-local instructions may narrow subject matter and chapter boundaries,
+but they may not silently override the draft-wide narrator, chronology,
+evidence, or prose rules. Any proposed book-wide change must be resolved in the
+style lock rather than introduced in one chapter alone.

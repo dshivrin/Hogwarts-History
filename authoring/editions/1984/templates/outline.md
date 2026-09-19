@@ -16,6 +16,11 @@
 ## Treatment of uncertainty and legend
 
 
-## Conclusion
+## Passage attribution
 
+- Reconstructed Bagshot narrative:
+- Later editorial additions:
+- Separate addendum, if required:
+
+## Conclusion
 

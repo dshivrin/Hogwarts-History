@@ -1,4 +1,4 @@
-# 1984 Edition Style Guide
+# Unified Expanded Edition Style Guide
 
 Status: INITIAL / DRAFT-01 CALIBRATION
 
@@ -16,6 +16,10 @@ may produce revisions before later chapters are drafted.
   of facts.
 - Use anecdotes when they illuminate institutional history.
 - Distinguish evidence, tradition, and speculation.
+- Keep the reconstructed Bagshot voice distinct from identifiable later
+  editorial additions without turning the book into parallel editions.
+- Do not make Bagshot appear to know a later-discovered fact merely because the
+  underlying event occurred before 1984.
 
 ## Avoid
 

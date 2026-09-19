@@ -1,8 +1,11 @@
 schema_version: 1
-edition: 1984
+edition: unified-expanded
+legacy_path: authoring/editions/1984
 status: provisional
 notes:
-  - This is the authoritative authoring structure for the reconstructed 1984 edition.
+  - This is the authoritative twenty-chapter structure for the Unified Expanded Edition.
+  - The reconstructed 1984 narrative is the literary foundation, not an evidence cutoff.
+  - Later discoveries and events enter as identifiable editorial additions or addenda and are never retroactively attributed to Bagshot.
   - Primary concepts are retrieval hints, not canonical evidence tags.
   - Extraction-era candidate placement metadata does not override this structure.
 chapters:
@@ -59,7 +62,7 @@ chapters:
     primary_concepts: [Salazar Slytherin, founders' rift, admission conflict, Chamber tradition]
     boundaries:
       include: [documented dispute, departure, later memory and legend]
-      exclude: [post-1984 discoveries, unsupported certainty about legendary details]
+      exclude: [unsupported certainty about legendary details, detailed confirmation and consequences reserved for later editorial treatment]
 
   - id: 6
     number: 6
@@ -179,8 +182,8 @@ chapters:
     purpose: Reconstruct the tournament's history, purposes, interruptions, and significance to Hogwarts.
     primary_concepts: [Triwizard Tournament, Beauxbatons, Durmstrang, interschool competition]
     boundaries:
-      include: [origins, governance, recorded incidents, pre-cutoff history]
-      exclude: [the 1994 tournament as 1984 knowledge, general international relations]
+      include: [origins, governance, recorded incidents, later developments in attributable editorial additions]
+      exclude: [the 1994 tournament as Bagshot knowledge, general international relations]
 
   - id: 17
     number: 17
@@ -190,8 +193,8 @@ chapters:
     purpose: Examine how Hogwarts has confronted threats, accidents, crises, and institutional failure.
     primary_concepts: [defence, security, disasters, dangerous creatures, school crises]
     boundaries:
-      include: [pre-cutoff threats, protective responses, consequences and reform]
-      exclude: [post-1984 crises, sensational incident catalogues without historical significance]
+      include: [threats, protective responses, consequences and reform across the unified chronology]
+      exclude: [sensational incident catalogues without historical significance, later crises misattributed to Bagshot]
 
   - id: 18
     number: 18
@@ -209,19 +212,19 @@ chapters:
     slug: hogwarts-in-the-modern-age
     title: Hogwarts in the Modern Age
     status: planned
-    purpose: Trace the school's adaptation to modern magical society up to the edition cutoff.
+    purpose: Trace the school's adaptation to modern magical society, preserving the reconstructed 1984 account while adding later developments editorially.
     primary_concepts: [modernization, secrecy, transport, Ministry relations, twentieth century]
     boundaries:
-      include: [institutional developments through approximately 1984]
-      exclude: [post-1984 events, detailed Dippet and Dumbledore transition]
+      include: [institutional developments through approximately 1984, attributable editorial additions for later developments]
+      exclude: [later events presented as Bagshot knowledge, detailed Dippet and Dumbledore transition]
 
   - id: 20
     number: 20
     slug: from-dippet-to-dumbledore
     title: From Dippet to Dumbledore
     status: planned
-    purpose: Bring the reconstruction to its cutoff through the transition between two modern headmasterships.
+    purpose: Complete the reconstructed historical foundation through the transition between two modern headmasterships and provide an editorial bridge to later history.
     primary_concepts: [Armando Dippet, Albus Dumbledore, headmastership, twentieth-century Hogwarts]
     boundaries:
-      include: [institutional transition, inherited conditions, developments knowable by 1984]
-      exclude: [later discoveries, post-1984 events, omniscient character knowledge]
+      include: [institutional transition, inherited conditions, developments knowable by Bagshot, concise editorial bridge to later history]
+      exclude: [later discoveries or events presented as Bagshot knowledge, omniscient character knowledge]

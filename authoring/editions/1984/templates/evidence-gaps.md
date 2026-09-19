@@ -4,6 +4,11 @@
 
 - None recorded.
 
+## Knowledge-access gaps
+
+- None recorded. Record separately whether an event is established and whether
+  the reconstructed Bagshot narrator could reasonably have known it.
+
 ## Contradictory evidence
 
 - None recorded.

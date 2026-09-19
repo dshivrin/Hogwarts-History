@@ -1,0 +1,70 @@
+schema_version: 1
+status: technically_verified_human_listen_pending
+created: 2026-09-19
+chapter:
+  number: 2
+  title: The Four Founders
+source:
+  approved_path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/draft-revision-03.md
+  approved_sha256: 8b38b87155d796b8ae80d433a074b38a0ac6bab735333ada9588b1fd80f43393
+  approved_size_bytes: 6383
+  derived_path: authoring/audio/output/chapter-02-the-four-founders-20260919-123233/narration-input.md
+  derived_sha256: fd785ef224057bf6189e869f99decb467568e42c99f68c9d4f11ecf6bbb0c42e
+  submitted_text_path: authoring/audio/output/chapter-02-the-four-founders-20260919-123233/tts-submission.txt
+  submitted_text_sha256: 7672445b17e9d69c0e2fc0a715fff241f5d7321a68563ec742e956a6c9347a6b
+  spoken_blocks: 22
+  spoken_words: 759
+render:
+  engine: kokoro
+  model: mlx-community/Kokoro-82M-bf16
+  model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+  voice: bm_george
+  language: british-english
+  lang_code: b
+  speed: 0.96
+  chunk_max_words: 160
+  duration_seconds: 343.325
+outputs:
+  wav:
+    path: authoring/audio/output/chapter-02-the-four-founders-20260919-123233/chapter-02-the-four-founders.wav
+    sha256: db0cf187763c7310d8baf745eb88240572a7cb535961fc18b99006f6333d1ffc
+    size_bytes: 16479644
+    codec: pcm_s16le
+    sample_rate: 24000
+    channels: 1
+  mp3:
+    path: authoring/audio/output/chapter-02-the-four-founders-20260919-123233/chapter-02-the-four-founders.mp3
+    sha256: a06423375a2b6e2b8838faa45899c7640fdc50d56d90a2961ad67cf0599924fd
+    size_bytes: 1373804
+    codec: mp3
+    sample_rate: 24000
+    channels: 1
+    bit_rate: 32000
+versions:
+  python: 3.12.13
+  mlx_audio: 0.5.3
+  mlx: 0.32.2
+  misaki: 0.9.4
+  pyyaml: 6.0.2
+  numpy: 2.5.3
+runtime_evidence:
+  device: Device(gpu, 0)
+  gpu_selected: true
+  device_name: Apple M4 Pro
+  architecture: applegpu_g16s
+  audio_array_type: mlx.core.array
+  peak_memory_bytes: 3372683023
+verification:
+  shared_audio_tests: 36_of_36_passed
+  task_local_tests: 7_of_7_passed
+  exact_text_sequence: 22_blocks_once_in_order
+  master_matches_assembled_pcm: true
+  wav_full_decode: true
+  mp3_full_decode: true
+  all_join_edges_zero_pcm16: true
+  chunk_rms_dbfs_spread: 1.204
+  clipping_detected: false
+  preexisting_files_changed_by_render: false
+  human_full_listen: false
+limitations:
+  - Subjective voice performance, pronunciation, and audible artifact checks require a human full listen.

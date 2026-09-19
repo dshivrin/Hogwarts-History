@@ -125,6 +125,18 @@
 
 ## Source-authority issues
 
+- The Unified Expanded Revision 06 access review includes `ext-a45-001`. Its
+  historical subject is shared transport before the Statute of Secrecy, while
+  its surviving official carrier was published in 2015. The unified narrative
+  integrates the claim but does not narrow it to the founders' decade; hidden
+  metadata continues to record the carrier date and authority.
+- The historical contents of *Quidditch Through the Ages*, *Fantastic Beasts
+  and Where to Find Them* and *The Tales of Beedle the Bard* must not be dated
+  by the surviving project carriers. The in-world works, reported events and
+  old tales are separate from the dates of the editions, translations and
+  commentary through which they now survive. Revision 06 integrates these
+  claims without a visible layer marker, while the access comments retain the
+  carrier distinction and the prose attributes important limits naturally.
 - A17 is Authority-A official retrospective prose published after 1984. Under
   the explicit Revision 02 editorial direction, its physical description and
   pre-Hogwarts dating of the Pensieve are accepted as evidence for the
