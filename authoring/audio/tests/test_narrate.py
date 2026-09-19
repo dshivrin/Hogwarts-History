@@ -236,6 +236,371 @@ class MarkdownPreparationTests(unittest.TestCase):
         self.assertLessEqual(len(fixture.split()), 500)
 
 
+class NarrationManuscriptTests(unittest.TestCase):
+    def setUp(self):
+        self.temporary_directory = TemporaryDirectory()
+        self.temp_dir = Path(self.temporary_directory.name)
+        self.source = self.temp_dir / "chapter.md"
+        self.narration = self.temp_dir / "narration.md"
+        self.source.write_text(
+            "---\nrevision: 7\n---\n\n"
+            "# Chapter One\n\n"
+            "## Before Hogwarts\n\n"
+            "<!-- evidence: source-1 -->\n\n"
+            "Spoken *words* remain.\n",
+            encoding="utf-8",
+        )
+        self.pronunciations = self.temp_dir / "pronunciations.yaml"
+        self.pronunciations.write_text(
+            "version: 1\nsubstitutions: []\n", encoding="utf-8"
+        )
+        self.settings = {
+            "engine": "kokoro",
+            "model": "mlx-community/Kokoro-82M-bf16",
+            "language": "british-english",
+            "lang_code": "b",
+            "voice": "bm_george",
+            "speed": 0.96,
+            "chunking": {"max_words": 160},
+            "pauses": {
+                "opening_ms": 0,
+                "continuation_ms": 0,
+                "paragraph_ms": 0,
+                "section_ms": 0,
+                "chapter_ms": 0,
+                "closing_ms": 0,
+            },
+            "output": {"intermediate": "wav", "listening_copy": "mp3"},
+        }
+
+    def tearDown(self):
+        self.temporary_directory.cleanup()
+
+    def test_prepare_creates_readable_narration_and_provenance(self):
+        prepare = getattr(narrate, "prepare_narration", None)
+        self.assertTrue(callable(prepare), "narration preparation is missing")
+
+        provenance_path = prepare(
+            self.source,
+            self.narration,
+            prepared_at="2026-09-19T12:00:00+00:00",
+        )
+
+        self.assertEqual(
+            self.narration.read_text(encoding="utf-8"),
+            "# Chapter One\n\n## Before Hogwarts\n\nSpoken *words* remain.\n",
+        )
+        provenance = yaml.safe_load(provenance_path.read_text(encoding="utf-8"))
+        narration_hash = hashlib.sha256(self.narration.read_bytes()).hexdigest()
+        self.assertEqual(
+            provenance["source_manuscript"]["sha256"],
+            hashlib.sha256(self.source.read_bytes()).hexdigest(),
+        )
+        self.assertEqual(provenance["narration"]["prepared_sha256"], narration_hash)
+        self.assertEqual(provenance["narration"]["current_sha256"], narration_hash)
+        self.assertEqual(provenance["prepared_at"], "2026-09-19T12:00:00+00:00")
+
+    def test_prepare_refuses_to_overwrite_existing_narration(self):
+        self.narration.write_text("Human performance edit.\n", encoding="utf-8")
+
+        with self.assertRaisesRegex(FileExistsError, "Refusing to overwrite"):
+            narrate.prepare_narration(self.source, self.narration)
+
+        self.assertEqual(
+            self.narration.read_text(encoding="utf-8"),
+            "Human performance edit.\n",
+        )
+
+    def test_prepare_uses_exclusive_creation_after_preflight_check(self):
+        self.narration.write_text("Human performance edit.\n", encoding="utf-8")
+
+        with patch.object(Path, "exists", return_value=False):
+            with self.assertRaises(FileExistsError) as raised:
+                narrate.prepare_narration(self.source, self.narration)
+
+        self.assertEqual(Path(raised.exception.filename), self.narration)
+        self.assertEqual(
+            self.narration.read_text(encoding="utf-8"),
+            "Human performance edit.\n",
+        )
+
+    def test_prepare_preserves_new_narration_if_sidecar_creation_races(self):
+        provenance_path = narrate.narration_provenance_path(self.narration)
+        provenance_path.write_text("human: provenance\n", encoding="utf-8")
+
+        with patch.object(Path, "exists", return_value=False):
+            with self.assertRaises(FileExistsError):
+                narrate.prepare_narration(self.source, self.narration)
+
+        self.assertTrue(self.narration.is_file())
+        self.assertIn(
+            "# Chapter One",
+            self.narration.read_text(encoding="utf-8"),
+        )
+        self.assertEqual(
+            provenance_path.read_text(encoding="utf-8"),
+            "human: provenance\n",
+        )
+
+    def test_prepare_does_not_delete_a_replacement_after_sidecar_failure(self):
+        provenance_path = narrate.narration_provenance_path(self.narration)
+        provenance_path.write_text("human: provenance\n", encoding="utf-8")
+        path_type = type(self.narration)
+
+        class ReplacingPath(path_type):
+            def open(path_self, mode="r", *args, **kwargs):
+                opened = super().open(mode, *args, **kwargs)
+                if path_self.name != "narration.md" or mode != "x":
+                    return opened
+
+                class ReplaceOnClose:
+                    def __enter__(wrapper_self):
+                        return opened.__enter__()
+
+                    def __exit__(wrapper_self, *exception):
+                        result = opened.__exit__(*exception)
+                        Path(path_self).unlink()
+                        Path(path_self).write_text(
+                            "Concurrent human narration.\n", encoding="utf-8"
+                        )
+                        return result
+
+                return ReplaceOnClose()
+
+        racing_narration = ReplacingPath(self.narration)
+        with patch.object(Path, "exists", return_value=False):
+            with self.assertRaises(FileExistsError):
+                narrate.prepare_narration(self.source, racing_narration)
+
+        self.assertEqual(
+            self.narration.read_text(encoding="utf-8"),
+            "Concurrent human narration.\n",
+        )
+
+    def test_prepare_command_creates_narration_without_loading_tts_settings(self):
+        exit_code = main(
+            ["prepare", str(self.source), "--output", str(self.narration)]
+        )
+
+        self.assertEqual(exit_code, 0)
+        self.assertTrue(self.narration.is_file())
+        self.assertTrue(narrate.narration_provenance_path(self.narration).is_file())
+
+    def test_render_uses_edited_narration_and_records_exact_chunks(self):
+        provenance_path = narrate.prepare_narration(
+            self.source,
+            self.narration,
+            prepared_at="2026-09-19T12:00:00+00:00",
+        )
+        prepared_hash = hashlib.sha256(self.narration.read_bytes()).hexdigest()
+        self.narration.write_text(
+            "# Spoken Title\n\nA narration-only sentence!\n",
+            encoding="utf-8",
+        )
+        current_hash = hashlib.sha256(self.narration.read_bytes()).hexdigest()
+        output = self.temp_dir / "chapter.wav"
+        render_manifest = self.temp_dir / "render-manifest.yaml"
+        chunk_manifest = self.temp_dir / "chunks" / "chunk-manifest.yaml"
+        model = FakeKokoroModel(sample_rate=24000)
+
+        narrate.run_render(
+            self.narration,
+            output,
+            "bm_george",
+            0.96,
+            self.settings,
+            self.pronunciations,
+            manifest_path=render_manifest,
+            chunk_manifest_path=chunk_manifest,
+            model_loader=lambda _model_id: model,
+            evidence_provider=lambda: RuntimeEvidence(
+                "Device(gpu, 0)", True, {"active_memory": 1}, "mlx.core.array"
+            ),
+        )
+
+        self.assertEqual(
+            [request[0] for request in model.requests],
+            ["Spoken Title", "A narration-only sentence!"],
+        )
+        self.assertEqual(inspect_wav(output)["sample_rate"], 24000)
+        chunks = yaml.safe_load(chunk_manifest.read_text(encoding="utf-8"))
+        self.assertEqual(
+            [chunk["text"] for chunk in chunks["chunks"]],
+            ["Spoken Title", "A narration-only sentence!"],
+        )
+        manifest = yaml.safe_load(render_manifest.read_text(encoding="utf-8"))
+        self.assertEqual(manifest["narration"]["prepared_sha256"], prepared_hash)
+        self.assertEqual(manifest["narration"]["current_sha256"], current_hash)
+        provenance = yaml.safe_load(provenance_path.read_text(encoding="utf-8"))
+        self.assertEqual(provenance["narration"]["prepared_sha256"], prepared_hash)
+        self.assertEqual(provenance["narration"]["current_sha256"], current_hash)
+
+    def test_source_drift_warns_and_is_recorded_without_blocking_render(self):
+        narrate.prepare_narration(self.source, self.narration)
+        self.source.write_text("# Revised print manuscript\n", encoding="utf-8")
+        output = self.temp_dir / "chapter.wav"
+        render_manifest = self.temp_dir / "render-manifest.yaml"
+        warning_output = io.StringIO()
+
+        with redirect_stderr(warning_output):
+            narrate.run_render(
+                self.narration,
+                output,
+                "bm_george",
+                0.96,
+                self.settings,
+                self.pronunciations,
+                manifest_path=render_manifest,
+                model_loader=lambda _model_id: FakeKokoroModel(24000),
+                evidence_provider=lambda: RuntimeEvidence(
+                    "Device(gpu, 0)", True, {}, "mlx.core.array"
+                ),
+            )
+
+        self.assertTrue(output.is_file())
+        self.assertIn("WARNING: Source manuscript has changed", warning_output.getvalue())
+        manifest = yaml.safe_load(render_manifest.read_text(encoding="utf-8"))
+        self.assertEqual(manifest["source_manuscript"]["status"], "drifted")
+        self.assertEqual(len(manifest["warnings"]), 1)
+        self.assertIn("has changed", manifest["warnings"][0])
+
+    def test_render_command_writes_requested_manifests_next_to_output(self):
+        narrate.prepare_narration(self.source, self.narration)
+        settings_path = self.temp_dir / "settings.yaml"
+        settings_path.write_text(yaml.safe_dump(self.settings), encoding="utf-8")
+        output_dir = self.temp_dir / "render"
+        output = output_dir / "chapter.wav"
+
+        with (
+            patch(
+                "authoring.audio.scripts.narrate._default_model_loader",
+                return_value=FakeKokoroModel(24000),
+            ),
+            patch(
+                "authoring.audio.scripts.narrate.collect_runtime_evidence",
+                return_value=RuntimeEvidence(
+                    "Device(gpu, 0)", True, {}, "mlx.core.array"
+                ),
+            ),
+        ):
+            exit_code = main(
+                [
+                    "--settings",
+                    str(settings_path),
+                    "--pronunciations",
+                    str(self.pronunciations),
+                    "render",
+                    str(self.narration),
+                    "--output",
+                    str(output),
+                    "--voice",
+                    "bm_george",
+                    "--speed",
+                    "0.96",
+                    "--manifest",
+                    str(output_dir / "render-manifest.yaml"),
+                    "--chunk-manifest",
+                    str(output_dir / "chunks" / "chunk-manifest.yaml"),
+                ]
+            )
+
+        self.assertEqual(exit_code, 0)
+        self.assertTrue((output_dir / "render-manifest.yaml").is_file())
+        self.assertTrue((output_dir / "chunks" / "chunk-manifest.yaml").is_file())
+
+    def test_legacy_markdown_without_provenance_has_consistent_manifest_shape(self):
+        legacy_input = self.temp_dir / "legacy-input.md"
+        legacy_input.write_text("# Legacy narration\n", encoding="utf-8")
+        output = self.temp_dir / "legacy.wav"
+        manifest_path = self.temp_dir / "legacy-manifest.yaml"
+
+        narrate.run_render(
+            legacy_input,
+            output,
+            "bm_george",
+            0.96,
+            self.settings,
+            self.pronunciations,
+            manifest_path=manifest_path,
+            model_loader=lambda _model_id: FakeKokoroModel(24000),
+            evidence_provider=lambda: RuntimeEvidence(
+                "Device(gpu, 0)", True, {}, "mlx.core.array"
+            ),
+        )
+
+        manifest = yaml.safe_load(manifest_path.read_text(encoding="utf-8"))
+        self.assertEqual(manifest["narration"]["path"], str(legacy_input.resolve()))
+        self.assertIsNone(manifest["narration"]["prepared_sha256"])
+
+    def test_render_hash_and_chunks_use_one_immutable_narration_snapshot(self):
+        narrate.prepare_narration(self.source, self.narration)
+        original_bytes = self.narration.read_bytes()
+        original_hash = hashlib.sha256(original_bytes).hexdigest()
+        path_type = type(self.narration)
+
+        class RacingPath(path_type):
+            def read_bytes(path_self):
+                snapshot = super().read_bytes()
+                super().write_text(
+                    "# Concurrent performance edit\n", encoding="utf-8"
+                )
+                return snapshot
+
+            def read_text(path_self, *args, **kwargs):
+                if path_self.name == "narration.md":
+                    super().write_text(
+                        "# Concurrent performance edit\n", encoding="utf-8"
+                    )
+                return super().read_text(*args, **kwargs)
+
+        racing_narration = RacingPath(self.narration)
+        output = self.temp_dir / "snapshot.wav"
+        manifest_path = self.temp_dir / "snapshot-manifest.yaml"
+        model = FakeKokoroModel(24000)
+
+        narrate.run_render(
+            racing_narration,
+            output,
+            "bm_george",
+            0.96,
+            self.settings,
+            self.pronunciations,
+            manifest_path=manifest_path,
+            model_loader=lambda _model_id: model,
+            evidence_provider=lambda: RuntimeEvidence(
+                "Device(gpu, 0)", True, {}, "mlx.core.array"
+            ),
+        )
+
+        manifest = yaml.safe_load(manifest_path.read_text(encoding="utf-8"))
+        self.assertEqual(model.requests[0][0], "Chapter One")
+        self.assertEqual(manifest["narration"]["current_sha256"], original_hash)
+
+    def test_full_render_manifest_identifies_full_kind(self):
+        narrate.prepare_narration(self.source, self.narration)
+        output = self.temp_dir / "full.wav"
+        manifest = self.temp_dir / "full-manifest.yaml"
+
+        narrate.run_render(
+            self.narration,
+            output,
+            "bm_george",
+            0.96,
+            self.settings,
+            self.pronunciations,
+            manifest_path=manifest,
+            model_loader=lambda _model_id: FakeKokoroModel(24000),
+            evidence_provider=lambda: RuntimeEvidence(
+                "Device(gpu, 0)", True, {}, "mlx.core.array"
+            ),
+        )
+
+        self.assertEqual(
+            yaml.safe_load(manifest.read_text(encoding="utf-8"))["render_kind"],
+            "full",
+        )
+
+
 class PronunciationTests(unittest.TestCase):
     def test_pronunciation_substitutions_are_boundary_aware(self):
         entries = [

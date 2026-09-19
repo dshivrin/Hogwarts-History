@@ -1,5 +1,6 @@
 import argparse
 from dataclasses import asdict, dataclass
+from datetime import datetime, timezone
 from enum import Enum
 import hashlib
 from importlib import metadata
@@ -60,6 +61,25 @@ class RuntimeEvidence:
     gpu_selected: bool
     metal_telemetry: dict[str, object]
     audio_array_type: str
+
+
+@dataclass(frozen=True)
+class NarrationSnapshot:
+    path: Path
+    sha256: str
+    blocks: tuple[SpeechBlock, ...]
+    provenance_report: dict[str, object]
+    warnings: tuple[str, ...]
+    provenance_path: Path | None
+    provenance: dict[str, object] | None
+
+
+@dataclass(frozen=True)
+class SynthesisBundle:
+    chunks: tuple[SpeechChunk, ...]
+    audio: np.ndarray
+    sample_rate: int
+    synthesis_evidence: dict[str, object]
 
 
 APPROVED_VOICES = frozenset({"bm_daniel", "bm_george", "bf_alice", "bf_emma"})
@@ -464,6 +484,164 @@ def strip_front_matter(text: str) -> str:
 
 def remove_html_comments(text: str) -> str:
     return re.sub(r"<!--.*?-->", "", text, flags=re.DOTALL)
+
+
+def sha256_path(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as input_file:
+        for block in iter(lambda: input_file.read(1024 * 1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
+
+
+def narration_provenance_path(narration_path: Path) -> Path:
+    return narration_path.with_name(f"{narration_path.stem}-provenance.yaml")
+
+
+def _portable_project_path(path: Path) -> str:
+    resolved = path.resolve()
+    repository_root = DEFAULT_AUDIO_ROOT.parents[1].resolve()
+    try:
+        return resolved.relative_to(repository_root).as_posix()
+    except ValueError:
+        return str(resolved)
+
+
+def prepare_narration(
+    source_path: Path,
+    narration_path: Path,
+    *,
+    prepared_at: str | None = None,
+) -> Path:
+    provenance_path = narration_provenance_path(narration_path)
+    if narration_path.exists():
+        raise FileExistsError(f"Refusing to overwrite narration manuscript: {narration_path}")
+    if provenance_path.exists():
+        raise FileExistsError(f"Refusing to overwrite narration provenance: {provenance_path}")
+
+    source_text = source_path.read_text(encoding="utf-8")
+    prepared = remove_html_comments(strip_front_matter(source_text))
+    prepared = re.sub(r"\n{3,}", "\n\n", prepared).strip() + "\n"
+    narration_hash = hashlib.sha256(prepared.encode("utf-8")).hexdigest()
+    narration_path.parent.mkdir(parents=True, exist_ok=True)
+    provenance = {
+        "schema_version": 1,
+        "prepared_at": prepared_at or datetime.now(timezone.utc).isoformat(),
+        "preparation_tool": _portable_project_path(Path(__file__)),
+        "source_manuscript": {
+            "path": _portable_project_path(source_path),
+            "sha256": sha256_path(source_path),
+        },
+        "narration": {
+            "path": _portable_project_path(narration_path),
+            "prepared_sha256": narration_hash,
+            "current_sha256": narration_hash,
+        },
+    }
+    with narration_path.open("x", encoding="utf-8") as narration_file:
+        narration_file.write(prepared)
+    with provenance_path.open("x", encoding="utf-8") as provenance_file:
+        yaml.safe_dump(
+            provenance,
+            provenance_file,
+            sort_keys=False,
+            allow_unicode=True,
+        )
+    return provenance_path
+
+
+def _resolve_project_path(path: str) -> Path:
+    value = Path(path)
+    if value.is_absolute():
+        return value
+    return DEFAULT_AUDIO_ROOT.parents[1] / value
+
+
+def inspect_narration_provenance(
+    narration_path: Path,
+    current_narration_hash: str | None = None,
+) -> tuple[dict[str, object], list[str], Path | None, dict[str, object] | None]:
+    if current_narration_hash is None:
+        current_narration_hash = sha256_path(narration_path)
+    provenance_path = narration_provenance_path(narration_path)
+    if not provenance_path.exists():
+        return (
+            {
+                "narration": {
+                    "path": _portable_project_path(narration_path),
+                    "prepared_sha256": None,
+                    "current_sha256": current_narration_hash,
+                }
+            },
+            [],
+            None,
+            None,
+        )
+
+    provenance = yaml.safe_load(provenance_path.read_text(encoding="utf-8"))
+    if not isinstance(provenance, dict):
+        raise ValueError("Narration provenance must be a mapping")
+    source = provenance.get("source_manuscript")
+    narration = provenance.get("narration")
+    if not isinstance(source, dict) or not isinstance(narration, dict):
+        raise ValueError("Narration provenance requires source_manuscript and narration mappings")
+    if not isinstance(source.get("path"), str) or not isinstance(source.get("sha256"), str):
+        raise ValueError("Narration provenance source manuscript is incomplete")
+    if not isinstance(narration.get("prepared_sha256"), str):
+        raise ValueError("Narration provenance prepared hash is missing")
+
+    source_path = _resolve_project_path(source["path"])
+    warnings: list[str] = []
+    current_source_hash: str | None = None
+    if source_path.exists():
+        current_source_hash = sha256_path(source_path)
+        source_status = (
+            "current" if current_source_hash == source["sha256"] else "drifted"
+        )
+    else:
+        source_status = "missing"
+    if source_status == "drifted":
+        warnings.append(
+            "Source manuscript has changed since this narration manuscript was prepared: "
+            f"{source['path']}"
+        )
+    elif source_status == "missing":
+        warnings.append(
+            "Source manuscript recorded by narration provenance is missing: "
+            f"{source['path']}"
+        )
+
+    report = {
+        "source_manuscript": {
+            "path": source["path"],
+            "sha256": source["sha256"],
+            "current_sha256": current_source_hash,
+            "status": source_status,
+        },
+        "narration": {
+            "path": _portable_project_path(narration_path),
+            "prepared_sha256": narration["prepared_sha256"],
+            "current_sha256": current_narration_hash,
+        },
+    }
+    return report, warnings, provenance_path, provenance
+
+
+def read_narration_snapshot(markdown_path: Path) -> NarrationSnapshot:
+    narration_bytes = markdown_path.read_bytes()
+    narration_hash = hashlib.sha256(narration_bytes).hexdigest()
+    report, warnings, provenance_path, provenance = inspect_narration_provenance(
+        markdown_path, narration_hash
+    )
+    return NarrationSnapshot(
+        markdown_path,
+        narration_hash,
+        tuple(markdown_to_blocks(narration_bytes.decode("utf-8"))),
+        report,
+        tuple(warnings),
+        provenance_path,
+        provenance,
+    )
 
 
 def strip_inline_markdown(text: str) -> str:
@@ -990,22 +1168,187 @@ def run_george_calibration(
     return records
 
 
+def synthesize_blocks(
+    blocks: Sequence[SpeechBlock],
+    pronunciations: Sequence[Pronunciation],
+    settings: Mapping[str, object],
+    model: object,
+    voice: str,
+    speed: float,
+) -> SynthesisBundle:
+    spoken_blocks = [
+        SpeechBlock(block.kind, apply_pronunciations(block.text, pronunciations))
+        for block in blocks
+    ]
+    chunks = chunk_blocks(
+        spoken_blocks, settings["chunking"]["max_words"]  # type: ignore[index]
+    )
+    rendered, sample_rate, evidence = synthesize_chunks(
+        model, chunks, voice, speed, str(settings["lang_code"])
+    )
+    audio = assemble_audio(
+        rendered, sample_rate, settings["pauses"]  # type: ignore[arg-type]
+    )
+    return SynthesisBundle(tuple(chunks), audio, sample_rate, evidence)
+
+
+def write_render_result(
+    snapshot: NarrationSnapshot,
+    bundle: SynthesisBundle,
+    output_path: Path,
+    voice: str,
+    speed: float,
+    settings: Mapping[str, object],
+    model: object,
+    listening_copy: Path | None,
+    manifest_path: Path | None,
+    chunk_manifest_path: Path | None,
+    evidence_provider: Callable[[], RuntimeEvidence],
+    *,
+    render_kind: str,
+    selection: Mapping[str, object] | None = None,
+) -> Path:
+    if render_kind not in {"full", "sample"}:
+        raise ValueError(f"Unknown render kind: {render_kind}")
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    write_pcm16_wav(output_path, bundle.audio, bundle.sample_rate)
+    if listening_copy is not None:
+        encode_listening_copy(output_path, listening_copy)
+
+    chunk_records = [
+        {
+            "index": index,
+            "kind": chunk.kind.value,
+            "ends_block": chunk.ends_block,
+            "word_count": len(chunk.text.split()),
+            "text": chunk.text,
+        }
+        for index, chunk in enumerate(bundle.chunks, start=1)
+    ]
+    if chunk_manifest_path is not None:
+        chunk_manifest_path.parent.mkdir(parents=True, exist_ok=True)
+        chunk_manifest_path.write_text(
+            yaml.safe_dump(
+                {
+                    "narration": snapshot.provenance_report["narration"],
+                    "chunk_count": len(chunk_records),
+                    "chunks": chunk_records,
+                },
+                sort_keys=False,
+                allow_unicode=True,
+            ),
+            encoding="utf-8",
+        )
+
+    runtime_evidence = asdict(evidence_provider())
+    runtime_evidence["audio_array_type"] = bundle.synthesis_evidence[
+        "audio_array_type"
+    ]
+    if manifest_path is not None:
+        manifest_path.parent.mkdir(parents=True, exist_ok=True)
+        outputs: dict[str, object] = {
+            "wav": {
+                "path": _portable_project_path(output_path),
+                "sha256": sha256_path(output_path),
+                "audio": inspect_wav(output_path),
+            }
+        }
+        if listening_copy is not None:
+            outputs["mp3"] = {
+                "path": _portable_project_path(listening_copy),
+                "sha256": sha256_path(listening_copy),
+            }
+        manifest: dict[str, object] = {
+            "schema_version": 1,
+            "status": "rendered",
+            "render_kind": render_kind,
+            **snapshot.provenance_report,
+            "warnings": list(snapshot.warnings),
+            "configuration": {
+                "engine": settings["engine"],
+                "model": settings["model"],
+                "model_revision": resolve_model_revision(
+                    model, str(settings["model"])
+                ),
+                "voice": voice,
+                "language": settings["language"],
+                "lang_code": settings["lang_code"],
+                "speed": speed,
+                "chunking": dict(settings["chunking"]),  # type: ignore[arg-type]
+                "pauses": dict(settings["pauses"]),  # type: ignore[arg-type]
+            },
+            "runtime_evidence": runtime_evidence,
+            "chunks": {
+                "count": len(chunk_records),
+                "manifest": (
+                    _portable_project_path(chunk_manifest_path)
+                    if chunk_manifest_path is not None
+                    else None
+                ),
+                "submitted_text": chunk_records,
+            },
+            "outputs": outputs,
+        }
+        if selection is not None:
+            manifest["sample_selection"] = dict(selection)
+        manifest_path.write_text(
+            yaml.safe_dump(manifest, sort_keys=False, allow_unicode=True),
+            encoding="utf-8",
+        )
+
+    if snapshot.provenance_path is not None and snapshot.provenance is not None:
+        narration = snapshot.provenance["narration"]
+        if not isinstance(narration, dict):
+            raise ValueError("Narration provenance narration mapping is invalid")
+        narration["current_sha256"] = snapshot.sha256
+        snapshot.provenance_path.write_text(
+            yaml.safe_dump(
+                snapshot.provenance, sort_keys=False, allow_unicode=True
+            ),
+            encoding="utf-8",
+        )
+    return output_path
+
+
 def run_render(
     markdown_path: Path, output_path: Path, voice: str, speed: float,
     settings: Mapping[str, object], pronunciation_path: Path, listening_copy: Path | None = None,
+    *,
+    manifest_path: Path | None = None,
+    chunk_manifest_path: Path | None = None,
+    model_loader: Callable[[str], object] | None = None,
+    evidence_provider: Callable[[], RuntimeEvidence] | None = None,
 ) -> Path:
     validate_settings(settings)
-    validate_render_spec(voice, speed)
+    render_spec = validate_render_spec(voice, speed)
+    snapshot = read_narration_snapshot(markdown_path)
+    for warning in snapshot.warnings:
+        print(f"WARNING: {warning}", file=sys.stderr)
     pronunciations = load_pronunciations(pronunciation_path)
-    blocks = [SpeechBlock(block.kind, apply_pronunciations(block.text, pronunciations)) for block in markdown_to_blocks(markdown_path.read_text(encoding="utf-8"))]
-    chunks = chunk_blocks(blocks, settings["chunking"]["max_words"])  # type: ignore[index]
-    model = _default_model_loader(str(settings["model"]))
-    rendered, sample_rate, _ = synthesize_chunks(model, chunks, voice, float(speed), str(settings["lang_code"]))
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    write_pcm16_wav(output_path, assemble_audio(rendered, sample_rate, settings["pauses"]))  # type: ignore[arg-type]
-    if listening_copy is not None:
-        encode_listening_copy(output_path, listening_copy)
-    return output_path
+    model = (model_loader or _default_model_loader)(str(settings["model"]))
+    bundle = synthesize_blocks(
+        snapshot.blocks,
+        pronunciations,
+        settings,
+        model,
+        render_spec.voice,
+        render_spec.speed,
+    )
+    return write_render_result(
+        snapshot,
+        bundle,
+        output_path,
+        render_spec.voice,
+        render_spec.speed,
+        settings,
+        model,
+        listening_copy,
+        manifest_path,
+        chunk_manifest_path,
+        evidence_provider or collect_runtime_evidence,
+        render_kind="full",
+    )
 
 
 def _read_settings(path: Path) -> Mapping[str, object]:
@@ -1030,6 +1373,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--settings", type=Path, default=DEFAULT_AUDIO_ROOT / "narration-settings.yaml")
     parser.add_argument("--pronunciations", type=Path, default=DEFAULT_AUDIO_ROOT / "pronunciation-guide.yaml")
     commands = parser.add_subparsers(dest="command", required=True)
+    prepare = commands.add_parser("prepare")
+    prepare.add_argument("source", type=Path)
+    prepare.add_argument("--output", type=Path, required=True)
     audition = commands.add_parser("audition")
     audition.add_argument("--fixture", type=Path, default=DEFAULT_AUDIO_ROOT / "fixtures/audition-excerpt.txt")
     audition.add_argument("--sample", type=_parse_sample, action="append", required=True)
@@ -1056,6 +1402,8 @@ def build_parser() -> argparse.ArgumentParser:
     render.add_argument("--voice")
     render.add_argument("--speed", type=float)
     render.add_argument("--listening-copy", type=Path)
+    render.add_argument("--manifest", type=Path)
+    render.add_argument("--chunk-manifest", type=Path)
     return parser
 
 
@@ -1063,6 +1411,11 @@ def main(argv: Sequence[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
     try:
+        if args.command == "prepare":
+            provenance = prepare_narration(args.source, args.output)
+            print(args.output)
+            print(provenance)
+            return 0
         settings = _read_settings(args.settings)
         if args.command == "audition":
             records = run_audition(args.fixture, args.sample, settings, args.pronunciations, args.output_dir, args.manifest)
@@ -1089,6 +1442,8 @@ def main(argv: Sequence[str] | None = None) -> int:
                 settings,
                 args.pronunciations,
                 args.listening_copy,
+                manifest_path=args.manifest,
+                chunk_manifest_path=args.chunk_manifest,
             )
             print(output)
     except Exception as error:
