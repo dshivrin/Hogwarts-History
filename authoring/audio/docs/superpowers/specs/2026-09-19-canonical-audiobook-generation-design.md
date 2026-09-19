@@ -21,7 +21,8 @@ It will:
 - make canonical voice and speed concrete values in
   `authoring/audio/narration-settings.yaml`;
 - make `render --voice` and `render --speed` optional overrides;
-- add a `sample NARRATION.md` command alongside `render`;
+- add a `sample NARRATION.md` command alongside `render`, supporting an
+  opening sample by default and one prose paragraph through `--paragraph N`;
 - share the existing Markdown parsing, pronunciation, chunking, Kokoro
   synthesis, semantic-pause assembly, WAV/MP3 output, provenance, manifest,
   and validation mechanisms;
@@ -38,6 +39,12 @@ It will not:
 - rewrite, regenerate, truncate, or otherwise edit `narration.md`;
 - create parallel provenance or reproducibility schemas.
 
+This round also excludes special title or section performance, title sound
+effects, MiniMax-generated assets, music, ambience, cue mixing, crossfades,
+subtitle-removal editorial rules, and broader mastering changes. Those remain
+future work after the narration manuscripts and targeted sample workflow are
+comfortable to use.
+
 ## Responsibility boundary
 
 ### Codex project instructions
@@ -50,6 +57,8 @@ generate chapter 3 audio
 generate sample of chapter 3
 regenerate chapter 3 audio
 regenerate sample of chapter 3
+generate paragraph 6 of chapter 3
+regenerate paragraph 6 of chapter 3
 ```
 
 Codex must:
@@ -58,7 +67,8 @@ Codex must:
    structure;
 2. require the persistent `narration.md` to exist;
 3. select a new timestamped output directory under `authoring/audio/output/`;
-4. invoke `render` for a full chapter or `sample` for an opening sample;
+4. invoke `render` for a full chapter, `sample` for an opening sample, or
+   `sample --paragraph N` for a targeted prose paragraph;
 5. omit voice and speed arguments for a normal run so configuration supplies
    them;
 6. pass only user-requested voice or speed overrides;
@@ -77,8 +87,9 @@ output paths. It does not know about chapter numbers or editions.
 
 The existing `render NARRATION.md` command remains the only full-chapter
 rendering path. The new `sample NARRATION.md` command is a small sibling that
-selects an opening excerpt, then delegates synthesis and output production to
-the same internal rendering path.
+selects an opening excerpt by default or one prose paragraph when passed
+`--paragraph N`, then delegates synthesis and output production to the same
+internal rendering implementation.
 
 ## Canonical configuration and overrides
 
@@ -100,13 +111,21 @@ Thus a request may override only speed, only voice, or both. The resolved
 values are recorded in the existing render manifest. Overrides never write
 back to `narration-settings.yaml`.
 
-Canonical configuration validation will require a non-empty voice identifier
-and a numeric speed in the supported `0.90` through `1.05` range. Explicit
-render/sample overrides use the same range. The fixed four-voice audition
-workflow retains its own approved-combination validation, while direct
-render/sample overrides accept a valid Kokoro voice identifier such as the
-user-approved `bm_lewis`. This prevents the audition batch policy from
-incorrectly constraining an explicit one-off render.
+The parser-level `--voice` and `--speed` arguments become optional. A shared
+CLI-boundary resolver produces concrete values before calling the existing
+internal rendering functions. `run_render` continues receiving a concrete
+voice and speed so its current contract, tests, and task-local callers do not
+change unnecessarily. The new sample path uses the same resolver.
+
+The runtime's existing supported speed range of `0.90` through `1.05` remains
+in effect for canonical settings and explicit overrides. This refactor does
+not introduce or broaden that policy.
+
+Voice validation is separated by purpose. The fixed four-voice audition
+workflow retains its approved-combination validation. Normal render, opening
+sample, and paragraph sample operations instead validate a non-empty Kokoro
+voice identifier independently, so an explicit one-off override such as
+`bm_lewis` is not rejected merely because it is outside the audition batch.
 
 ## Shared rendering architecture
 
@@ -128,43 +147,75 @@ narration snapshot
 
 The implementation will extract only the smallest internal seams needed for
 reuse. Full rendering will retain its existing public behavior and manifest
-shape. Sampling will supply selected opening blocks to the same downstream
-chunking, synthesis, assembly, output, and evidence code rather than
-reimplementing those steps.
+compatibility, with only the approved `render_kind` extension. Opening and
+paragraph sampling will supply selected blocks to the same downstream
+pronunciation, chunking, synthesis, assembly, output, and evidence code rather
+than reimplementing those steps.
 
 The input narration file must exist before either command starts. A missing
 file fails cleanly through the CLI error path. No render or sample code calls
 `prepare_narration`.
 
-## Sample selection
+## Immutable narration snapshot and sample selection
 
-A sample is derived in memory from the single immutable snapshot read from
-`narration.md`. Selection preserves original spoken text and block kinds.
+Every render or sample reads `narration.md` once. Both sample modes operate on
+parsed blocks derived in memory from that complete immutable snapshot. No
+temporary or derived Markdown file becomes the apparent narration source.
+
+The narration path and hash in provenance and manifests always identify the
+complete authoritative narration manuscript. Separate sample-selection
+metadata records the subset selected for speech.
+
+### Opening sample
 
 The initial candidate contains:
 
 1. opening heading blocks before the first prose paragraph, including the
    chapter title and any opening subtitle or section heading;
-2. complete sentences from the beginning prose;
-3. normally the complete first paragraph when it fits the target, with
-   additional complete sentences considered only when useful.
+2. complete sentences beginning with the first prose paragraph, preferably
+   including that complete paragraph when it fits naturally;
+3. further complete opening sentences only when they are useful and duration
+   permits.
 
 The selector uses complete sentence boundaries from the existing sentence
 splitter. It never paraphrases text, cuts a sentence, edits the source file, or
 truncates an already-rendered waveform.
 
-The first pass uses a conservative opening prose budget consistent with the
-requested roughly 50–70-word guidance. After synthesis and assembly, the WAV
-duration is inspected. If it exceeds 30 seconds, the final selected prose
-sentence is removed and the sample is synthesized again. Opening heading
-content is retained. Reduction continues until the duration is at most 30
-seconds or no prose sentence can be removed. If headings plus the shortest
-opening prose sentence still exceed the target, the command fails clearly
-rather than cutting speech mid-sentence.
+Natural sentence and paragraph boundaries plus the 30-second maximum determine
+observable sample content. A conservative text estimate may avoid an obviously
+oversized first attempt, but no fixed word-count heuristic governs selection.
 
-Retry artifacts remain within the newly selected output location and do not
-alter historical runs. Only the successful final WAV, optional MP3, and final
-metadata are reported as outputs.
+The pipeline loads Kokoro once, synthesizes and assembles the candidate in
+memory, and measures duration from that assembled audio. If the candidate
+exceeds 30 seconds, it removes the final selected prose sentence, then
+resynthesizes and reassembles the reduced candidate with the already-loaded
+model. Opening headings remain included. Reduction continues until duration is
+at most 30 seconds or no prose sentence can be removed. If headings plus the
+shortest usable opening prose sentence still exceed the target, the command
+fails clearly rather than cutting speech mid-sentence.
+
+No rejected candidate is written as an ordinary output. Only after a candidate
+is accepted may the command write the final WAV, optional MP3, manifests,
+provenance update, and other normal evidence. The implementation never
+truncates rendered audio to satisfy the duration limit.
+
+### Paragraph sample
+
+`sample NARRATION.md --paragraph N` selects the one-based Nth
+`BlockKind.PARAGRAPH` from the parsed narration snapshot. Chapter and section
+headings do not count toward paragraph numbering. The selector includes exactly
+that prose block and does not add neighboring headings or paragraphs.
+
+Selection occurs before pronunciation substitution. The raw selected block is
+not rewritten or paraphrased, then it passes through the normal pronunciation
+guide, sentence-aware chunker, synthesis, and assembly path. Consequently the
+exact strings submitted to Kokoro may differ from the raw paragraph when a
+documented pronunciation substitution applies; the existing chunk manifest
+continues recording those submitted strings.
+
+A paragraph sample renders the complete selected prose paragraph. It has no
+30-second duration limit, although the existing chunker may split it at
+sentence boundaries under the configured chunk-size rule.
 
 ## Manifests, provenance, and records
 
@@ -172,18 +223,21 @@ Full renders continue using the existing narration provenance, render
 manifest, exact submitted chunk manifest, WAV/MP3 handling, runtime evidence,
 and reproducibility-record workflow.
 
-Samples use those same mechanisms. The existing render manifest gains only a
-render-kind field with values `full` or `sample`, plus sample-selection facts
-needed to audit the result, such as selected sentence count and final duration.
+Samples use those same mechanisms. The existing render manifest gains a stable
+`render_kind` field with values `full`, `opening_sample`, or
+`paragraph_sample`, plus the sample-selection facts needed to audit the result.
+An opening sample records its selected sentences and final duration. A
+paragraph sample records its one-based prose paragraph number and duration.
 The chunk manifest continues to contain the exact strings submitted to Kokoro.
 The narration entry continues to identify and hash the complete authoritative
 `narration.md`, while the sample-selection metadata identifies the derived
 subset. No sample-specific provenance sidecar is created.
 
 Source-manuscript drift remains a warning recorded in metadata and never
-causes narration replacement. A successful sample may update the existing
+causes narration replacement. A successful sample updates the existing
 provenance `current_sha256` to the hash of the narration snapshot it used, just
-as a full render does.
+as a full render does. Rejected opening-sample candidates do not update
+provenance.
 
 Timestamped directory naming remains an agent-level choice following existing
 `authoring/audio/output/` conventions. The Python commands continue accepting
@@ -197,7 +251,9 @@ Both commands fail before model loading when:
 - configured voice or speed is absent or invalid;
 - an explicit override is invalid;
 - the narration has no usable spoken blocks;
-- a valid sentence-boundary sample cannot satisfy the duration contract.
+- a requested prose paragraph number is outside the available range;
+- an opening sample cannot satisfy the duration contract at a complete-sentence
+  boundary.
 
 Existing source-drift warnings remain non-fatal. Synthesis, audio encoding,
 manifest, and provenance errors continue through the existing CLI error
@@ -209,13 +265,15 @@ The root `AGENTS.md` will distinguish:
 
 - **normal audiobook render:** Codex resolves the narration manuscript and
   output paths, while voice and speed come from canonical configuration;
-- **explicit override/audition render:** user-specified voice and/or speed are
+- **override render:** user-specified voice and/or speed are
   passed for that run and replace the corresponding configured value.
 
 It will also state that missing narration stops generation and requires the
-separate preparation operation. The audio README will document optional
-render overrides and the new sample command without presenting natural-language
-chapter discovery as a Python feature.
+separate preparation operation, distinguish the four-voice audition batch from
+normal one-off voice overrides, and route paragraph requests to
+`sample --paragraph N`. The audio README will document optional render
+overrides, opening samples, and paragraph samples without presenting
+natural-language chapter discovery as a Python feature.
 
 ## Tests
 
@@ -226,11 +284,19 @@ Tests will cover only the new behavior:
 - sample selection retains opening headings and only complete prose sentences;
 - an over-duration sample removes whole trailing sentences and regenerates;
 - no waveform truncation is used to meet the duration target;
+- rejected opening-sample attempts do not write ordinary output artifacts and
+  reuse one loaded model;
+- prose paragraph numbering ignores headings;
+- a requested paragraph selects exactly the corresponding prose block;
+- paragraph samples render the complete paragraph without the opening-sample
+  duration limit;
+- paragraph selection precedes canonical pronunciation substitution;
 - sample and full rendering use the same pronunciation, chunking, synthesis,
   assembly, output, provenance, and manifest path;
 - missing `narration.md` fails and never invokes preparation;
 - existing full-render output and manifest behavior remains compatible;
-- sample manifests identify the render kind and exact selected/submitted text.
+- manifests identify all three render kinds and record the applicable sample
+  selection alongside the exact submitted chunks.
 
 Tests will use the existing fake Kokoro model and temporary files. They will
 not add Python chapter-discovery tests or require a real model download.
@@ -244,8 +310,11 @@ The change is complete when:
   or instruction edits;
 - explicit overrides affect only the requested run;
 - full renders still use the existing canonical path;
-- samples are produced through shared rendering code and contain only complete
-  opening sentences at no more than approximately 30 seconds;
+- opening samples are produced through shared rendering code, retain opening
+  headings, contain only complete prose sentences, and last no more than 30
+  seconds;
+- paragraph samples select exactly one prose paragraph before pronunciation,
+  render it completely, and have no opening-sample duration limit;
 - missing narration never causes implicit preparation;
 - the focused tests and existing audio test suite pass;
 - documentation and governing instructions accurately describe the resulting
