@@ -126,6 +126,8 @@ workflow retains its approved-combination validation. Normal render, opening
 sample, and paragraph sample operations instead validate a non-empty Kokoro
 voice identifier independently, so an explicit one-off override such as
 `bm_lewis` is not rejected merely because it is outside the audition batch.
+The Kokoro backend remains authoritative for whether that structurally valid
+identifier actually exists; this refactor does not add a voice registry.
 
 ## Shared rendering architecture
 
@@ -174,8 +176,8 @@ The initial candidate contains:
    chapter title and any opening subtitle or section heading;
 2. complete sentences beginning with the first prose paragraph, preferably
    including that complete paragraph when it fits naturally;
-3. further complete opening sentences only when they are useful and duration
-   permits.
+3. the complete second prose paragraph when present, subject to the same
+   duration reduction.
 
 The selector uses complete sentence boundaries from the existing sentence
 splitter. It never paraphrases text, cuts a sentence, edits the source file, or
@@ -193,6 +195,10 @@ model. Opening headings remain included. Reduction continues until duration is
 at most 30 seconds or no prose sentence can be removed. If headings plus the
 shortest usable opening prose sentence still exceed the target, the command
 fails clearly rather than cutting speech mid-sentence.
+
+When the final selected prose paragraph contains only one sentence, reduction
+may remove that entire trailing paragraph and continue with the earlier prose,
+provided at least one prose sentence remains.
 
 No rejected candidate is written as an ordinary output. Only after a candidate
 is accepted may the command write the final WAV, optional MP3, manifests,
@@ -235,8 +241,8 @@ subset. No sample-specific provenance sidecar is created.
 
 Source-manuscript drift remains a warning recorded in metadata and never
 causes narration replacement. A successful sample updates the existing
-provenance `current_sha256` to the hash of the narration snapshot it used, just
-as a full render does. Rejected opening-sample candidates do not update
+provenance `current_sha256` directly from the immutable snapshot's own SHA-256,
+just as a full render does. Rejected opening-sample candidates do not update
 provenance.
 
 Timestamped directory naming remains an agent-level choice following existing
@@ -319,3 +325,10 @@ The change is complete when:
 - the focused tests and existing audio test suite pass;
 - documentation and governing instructions accurately describe the resulting
   behavior.
+
+After automated verification passes, run one real cached/offline opening
+sample from the existing Chapter One `narration.md` with canonical configured
+defaults. Do not render a full chapter. Verify the resulting WAV and MP3,
+duration, `opening_sample` render kind, narration hash, exact submitted chunks,
+and a basic human listening check. Keep the smoke-test output ignored and out
+of version control.

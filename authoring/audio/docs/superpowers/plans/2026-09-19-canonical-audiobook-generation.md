@@ -18,6 +18,7 @@
 - Voice and speed resolution is independently `explicit CLI override -> narration-settings.yaml`; overrides never mutate settings.
 - Preserve the existing supported speed range of `0.90` through `1.05`; do not describe it as a new policy.
 - Keep the fixed four-voice audition batch validation separate from normal render/sample voice validation.
+- Normal render/sample voice validation is structural; the Kokoro backend remains authoritative for whether a non-empty explicit identifier exists.
 - Preserve the public `run_render(..., voice: str, speed: float, ...)` contract for current tests and task-local callers.
 - Use render kinds `full`, `opening_sample`, and `paragraph_sample`.
 - Opening samples retain opening headings, contain complete prose sentences, and must be no longer than 30 seconds.
@@ -238,7 +239,7 @@ class SampleSelectionTests(unittest.TestCase):
     def test_opening_selection_keeps_only_opening_headings_and_first_paragraph(self):
         self.assertEqual(
             narrate.select_opening_sample_blocks(self.blocks),
-            self.blocks[:3],
+            [self.blocks[0], self.blocks[1], self.blocks[2], self.blocks[4]],
         )
 
     def test_removing_final_sentence_preserves_headings_and_sentence_boundary(self):
@@ -254,6 +255,12 @@ class SampleSelectionTests(unittest.TestCase):
             narrate.remove_final_prose_sentence(
                 [self.blocks[0], SpeechBlock(BlockKind.PARAGRAPH, "Only sentence.")]
             )
+        )
+        self.assertEqual(
+            narrate.remove_final_prose_sentence(
+                [self.blocks[0], self.blocks[2], self.blocks[4]]
+            ),
+            [self.blocks[0], self.blocks[2]],
         )
 
     def test_paragraph_numbering_ignores_headings(self):
@@ -289,12 +296,18 @@ def select_opening_sample_blocks(
     blocks: Sequence[SpeechBlock],
 ) -> list[SpeechBlock]:
     selected: list[SpeechBlock] = []
+    prose_count = 0
     for block in blocks:
         if block.kind is BlockKind.PARAGRAPH:
             selected.append(block)
-            return selected
-        selected.append(block)
-    raise ValueError("Opening sample requires at least one prose paragraph")
+            prose_count += 1
+            if prose_count == 2:
+                break
+        elif prose_count == 0:
+            selected.append(block)
+    if prose_count == 0:
+        raise ValueError("Opening sample requires at least one prose paragraph")
+    return selected
 
 
 def remove_final_prose_sentence(
@@ -309,8 +322,12 @@ def remove_final_prose_sentence(
     if paragraph_index is None:
         return None
     sentences = split_sentences(selected[paragraph_index].text)
-    if len(sentences) <= 1:
-        return None
+    prose_blocks = [block for block in selected if block.kind is BlockKind.PARAGRAPH]
+    if len(sentences) == 1:
+        if len(prose_blocks) <= 1:
+            return None
+        del selected[paragraph_index]
+        return selected
     selected[paragraph_index] = SpeechBlock(
         BlockKind.PARAGRAPH, " ".join(sentences[:-1])
     )
@@ -331,7 +348,11 @@ def select_prose_paragraph(
     return [paragraphs[paragraph_number - 1]]
 ```
 
-The opening selector deliberately uses the complete first prose paragraph and no later paragraph. The specification permits additional sentences but does not require them; this deterministic minimum avoids a hidden word heuristic and lets the duration loop remove only trailing sentences from that paragraph.
+The opening selector collects opening headings plus the first two prose
+paragraphs, skipping any later headings. This deterministic candidate matches
+the title-plus-first-paragraph-or-two workflow without a word heuristic. The
+reducer removes trailing sentences and may remove a one-sentence second
+paragraph as a unit while retaining at least one earlier prose sentence.
 
 - [ ] **Step 4: Run selector and Markdown tests**
 
@@ -504,7 +525,9 @@ if selection is not None:
     manifest["sample_selection"] = dict(selection)
 ```
 
-It updates `snapshot.provenance["narration"]["current_sha256"]` only after accepted artifacts and manifests have been written, using `snapshot.provenance_report["narration"]["current_sha256"]`.
+It updates `snapshot.provenance["narration"]["current_sha256"]` only after
+accepted artifacts and manifests have been written, using `snapshot.sha256`
+as the authoritative immutable narration hash.
 
 - [ ] **Step 6: Rewrite `run_render` as a thin composition without changing its signature**
 
@@ -818,6 +841,10 @@ authoring/audio/.venv/bin/python authoring/audio/scripts/narrate.py sample \
 
 Explain that only explicit overrides add `--voice` and/or `--speed`, opening samples are at most 30 seconds, paragraph samples are complete and unlimited by the opening cap, and all paths are supplied by the caller rather than discovered by Python.
 
+Document that normal voice validation checks only for a non-empty identifier;
+the Kokoro backend reports whether an explicit identifier exists. The fixed
+four-voice audition batch retains its whitelist.
+
 - [ ] **Step 3: Run documentation consistency checks**
 
 Run:
@@ -847,7 +874,17 @@ git status --short
 
 Expected: all audio and preserved chapter-wrapper tests pass; `git diff --check` exits 0; status shows only deliberate task changes plus the known pre-existing working-tree edits.
 
-- [ ] **Step 5: Commit only documentation and any final focused test hunk**
+- [ ] **Step 5: Run the real cached/offline opening-sample smoke test**
+
+Use the existing Chapter One `narration.md`, omit voice and speed overrides,
+and write a fresh ignored directory under `authoring/audio/output/`. Prefix the
+command with `HF_HUB_OFFLINE=1`. Do not invoke `render` or synthesize a full
+chapter. Verify the WAV with `ffprobe` and a full `ffmpeg` decode; inspect the
+MP3, duration, `opening_sample` render kind, narration SHA-256, and exact chunk
+manifest; listen to the complete sample for basic intelligibility and obvious
+artifacts. Leave generated output ignored and untracked.
+
+- [ ] **Step 6: Commit only documentation and any final focused test hunk**
 
 ```bash
 git add -p AGENTS.md authoring/audio/README.md \
