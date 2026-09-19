@@ -133,6 +133,45 @@ class RenderConfigurationTests(unittest.TestCase):
                     self.assertEqual(exit_code, 0)
                     self.assertEqual(render.call_args.args[2:4], (expected_voice, expected_speed))
 
+    def test_sample_cli_resolves_defaults_overrides_and_paragraph(self):
+        cases = (
+            ([], "bm_george", 0.96, None),
+            (["--voice", "bm_lewis"], "bm_lewis", 0.96, None),
+            (["--speed", "0.92"], "bm_george", 0.92, None),
+            (
+                ["--voice", "bm_lewis", "--speed", "1.0", "--paragraph", "3"],
+                "bm_lewis",
+                1.0,
+                3,
+            ),
+        )
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            settings_path = root / "settings.yaml"
+            settings_path.write_text(yaml.safe_dump(self.settings), encoding="utf-8")
+            narration_path = root / "narration.md"
+            narration_path.write_text("# Chapter\n\nOpening prose.\n", encoding="utf-8")
+            output_path = root / "sample.wav"
+            for overrides, expected_voice, expected_speed, paragraph in cases:
+                with self.subTest(overrides=overrides):
+                    with patch.object(
+                        narrate, "run_sample", return_value=output_path, create=True
+                    ) as sample:
+                        exit_code = main(
+                            [
+                                "--settings", str(settings_path),
+                                "sample", str(narration_path),
+                                "--output", str(output_path),
+                                *overrides,
+                            ]
+                        )
+                    self.assertEqual(exit_code, 0)
+                    self.assertEqual(
+                        sample.call_args.args[2:4],
+                        (expected_voice, expected_speed),
+                    )
+                    self.assertEqual(sample.call_args.kwargs["paragraph"], paragraph)
+
 
 class SampleSelectionTests(unittest.TestCase):
     def setUp(self):
@@ -824,12 +863,284 @@ class FakeKokoroModel:
         yield FakeGeneration(FakeMlxArray(np.array([0.0, 0.25, -0.25], dtype=np.float32)), self.sample_rate)
 
 
+class DurationKokoroModel(FakeKokoroModel):
+    def __init__(self, durations_by_text, sample_rate=10):
+        super().__init__(sample_rate)
+        self.durations_by_text = durations_by_text
+
+    def generate(self, *, text, voice, speed, lang_code):
+        if lang_code != "b":
+            raise AssertionError("British language code was not passed")
+        self.requests.append((text, voice, speed, lang_code))
+        seconds = self.durations_by_text[text]
+        audio = np.full(
+            round(seconds * self.sample_rate), 0.25, dtype=np.float32
+        )
+        yield FakeGeneration(FakeMlxArray(audio), self.sample_rate)
+
+
 class FakeNumpyKokoroModel(FakeKokoroModel):
     def generate(self, *, text, voice, speed, lang_code):
         if lang_code != "b":
             raise AssertionError("British language code was not passed to the model")
         self.requests.append((text, voice, speed, lang_code))
         yield FakeGeneration(np.array([0.0, 0.25, -0.25], dtype=np.float32), self.sample_rate)
+
+
+class SampleRenderingTests(unittest.TestCase):
+    def setUp(self):
+        self.temporary_directory = TemporaryDirectory()
+        self.temp_dir = Path(self.temporary_directory.name)
+        self.source = self.temp_dir / "chapter.md"
+        self.source.write_text(
+            "# Chapter One\n\n## Before Hogwarts\n\n"
+            "First sentence. Second sentence.\n\nThird sentence.\n\n"
+            "Fourth paragraph.\n",
+            encoding="utf-8",
+        )
+        self.narration = self.temp_dir / "narration.md"
+        narrate.prepare_narration(self.source, self.narration)
+        self.pronunciations = self.temp_dir / "pronunciations.yaml"
+        self.pronunciations.write_text(
+            "version: 1\nsubstitutions: []\n", encoding="utf-8"
+        )
+        self.settings = {
+            "engine": "kokoro",
+            "model": "mlx-community/Kokoro-82M-bf16",
+            "language": "british-english",
+            "lang_code": "b",
+            "voice": "bm_george",
+            "speed": 0.96,
+            "chunking": {"max_words": 160},
+            "pauses": {
+                "opening_ms": 0,
+                "continuation_ms": 0,
+                "paragraph_ms": 0,
+                "section_ms": 0,
+                "chapter_ms": 0,
+                "closing_ms": 0,
+            },
+            "output": {"intermediate": "wav", "listening_copy": "mp3"},
+        }
+        self.output = self.temp_dir / "sample.wav"
+        self.mp3 = self.temp_dir / "sample.mp3"
+        self.manifest_path = self.temp_dir / "render-manifest.yaml"
+        self.chunk_manifest_path = self.temp_dir / "chunks" / "chunk-manifest.yaml"
+
+    def tearDown(self):
+        self.temporary_directory.cleanup()
+
+    @staticmethod
+    def _evidence():
+        return RuntimeEvidence("Device(gpu, 0)", True, {}, "mlx.core.array")
+
+    def test_opening_retries_in_memory_and_finalizes_only_accepted_candidate(self):
+        model = DurationKokoroModel(
+            {
+                "Chapter One": 2,
+                "Before Hogwarts": 2,
+                "First sentence. Second sentence.": 31,
+                "Third sentence.": 5,
+                "First sentence.": 20,
+            }
+        )
+        load_count = 0
+
+        def load(_model_id):
+            nonlocal load_count
+            load_count += 1
+            return model
+
+        with patch.object(
+            narrate, "write_pcm16_wav", wraps=narrate.write_pcm16_wav
+        ) as wav_writer:
+            narrate.run_sample(
+                self.narration,
+                self.output,
+                "bm_george",
+                0.96,
+                self.settings,
+                self.pronunciations,
+                manifest_path=self.manifest_path,
+                chunk_manifest_path=self.chunk_manifest_path,
+                model_loader=load,
+                evidence_provider=self._evidence,
+            )
+
+        manifest = yaml.safe_load(self.manifest_path.read_text(encoding="utf-8"))
+        chunks = yaml.safe_load(
+            self.chunk_manifest_path.read_text(encoding="utf-8")
+        )
+        narration_hash = hashlib.sha256(self.narration.read_bytes()).hexdigest()
+        self.assertEqual(load_count, 1)
+        self.assertEqual(wav_writer.call_count, 1)
+        self.assertLessEqual(inspect_wav(self.output)["duration_seconds"], 30.0)
+        self.assertEqual(manifest["render_kind"], "opening_sample")
+        self.assertEqual(manifest["narration"]["current_sha256"], narration_hash)
+        self.assertEqual(
+            [chunk["text"] for chunk in chunks["chunks"]],
+            ["Chapter One", "Before Hogwarts", "First sentence."],
+        )
+        requested_text = [request[0] for request in model.requests]
+        self.assertIn("First sentence. Second sentence.", requested_text)
+        self.assertIn("Third sentence.", requested_text)
+        self.assertEqual(requested_text[-1], "First sentence.")
+        self.assertFalse(any(self.output.parent.glob("*rejected*.wav")))
+
+    def test_paragraph_sample_uses_pronunciation_and_has_no_duration_limit(self):
+        self.pronunciations.write_text(
+            "version: 1\nsubstitutions:\n"
+            "  - term: Hogwarts\n"
+            "    replacement: Hog-warts\n"
+            "    reason: test\n",
+            encoding="utf-8",
+        )
+        self.narration.write_text(
+            "# Chapter One\n\nFirst paragraph.\n\nHogwarts remains.\n\nThird paragraph.\n",
+            encoding="utf-8",
+        )
+        full_hash = hashlib.sha256(self.narration.read_bytes()).hexdigest()
+        model = DurationKokoroModel({"Hog-warts remains.": 35})
+
+        narrate.run_sample(
+            self.narration,
+            self.output,
+            "bm_george",
+            0.96,
+            self.settings,
+            self.pronunciations,
+            paragraph=2,
+            manifest_path=self.manifest_path,
+            chunk_manifest_path=self.chunk_manifest_path,
+            model_loader=lambda _model_id: model,
+            evidence_provider=self._evidence,
+        )
+
+        manifest = yaml.safe_load(self.manifest_path.read_text(encoding="utf-8"))
+        self.assertEqual(manifest["render_kind"], "paragraph_sample")
+        self.assertEqual(manifest["sample_selection"]["paragraph_number"], 2)
+        self.assertEqual(manifest["narration"]["current_sha256"], full_hash)
+        self.assertEqual([request[0] for request in model.requests], ["Hog-warts remains."])
+        self.assertGreater(inspect_wav(self.output)["duration_seconds"], 30.0)
+
+    def test_selection_errors_happen_before_model_loading_or_artifacts(self):
+        headings_only = self.temp_dir / "headings.md"
+        headings_only.write_text("# Chapter\n\n## Section\n", encoding="utf-8")
+        cases = (
+            (self.temp_dir / "missing.md", None),
+            (self.narration, 0),
+            (self.narration, -1),
+            (self.narration, 99),
+            (headings_only, None),
+        )
+        for markdown, paragraph in cases:
+            with self.subTest(markdown=markdown.name, paragraph=paragraph):
+                load_count = 0
+
+                def load(_model_id):
+                    nonlocal load_count
+                    load_count += 1
+                    return FakeKokoroModel(10)
+
+                with self.assertRaises((FileNotFoundError, ValueError)):
+                    narrate.run_sample(
+                        markdown,
+                        self.output,
+                        "bm_george",
+                        0.96,
+                        self.settings,
+                        self.pronunciations,
+                        self.mp3,
+                        paragraph=paragraph,
+                        manifest_path=self.manifest_path,
+                        chunk_manifest_path=self.chunk_manifest_path,
+                        model_loader=load,
+                        evidence_provider=self._evidence,
+                    )
+                self.assertEqual(load_count, 0)
+                for path in (
+                    self.output,
+                    self.mp3,
+                    self.manifest_path,
+                    self.chunk_manifest_path,
+                ):
+                    self.assertFalse(path.exists())
+
+    def test_unshortenable_opening_writes_nothing_and_preserves_provenance(self):
+        provenance_path = narrate.narration_provenance_path(self.narration)
+        before = yaml.safe_load(provenance_path.read_text(encoding="utf-8"))
+        self.narration.write_text(
+            "# Chapter One\n\nOne exceptionally long sentence.\n", encoding="utf-8"
+        )
+        model = DurationKokoroModel(
+            {"Chapter One": 2, "One exceptionally long sentence.": 31}
+        )
+
+        with self.assertRaisesRegex(ValueError, "exceed 30 seconds"):
+            narrate.run_sample(
+                self.narration,
+                self.output,
+                "bm_george",
+                0.96,
+                self.settings,
+                self.pronunciations,
+                self.mp3,
+                manifest_path=self.manifest_path,
+                chunk_manifest_path=self.chunk_manifest_path,
+                model_loader=lambda _model_id: model,
+                evidence_provider=self._evidence,
+            )
+
+        for path in (
+            self.output,
+            self.mp3,
+            self.manifest_path,
+            self.chunk_manifest_path,
+        ):
+            self.assertFalse(path.exists())
+        after = yaml.safe_load(provenance_path.read_text(encoding="utf-8"))
+        self.assertEqual(
+            after["narration"]["current_sha256"],
+            before["narration"]["current_sha256"],
+        )
+
+    def test_sample_uses_one_immutable_narration_snapshot(self):
+        original_hash = hashlib.sha256(self.narration.read_bytes()).hexdigest()
+        path_type = type(self.narration)
+
+        class RacingPath(path_type):
+            def read_bytes(path_self):
+                snapshot = super().read_bytes()
+                super().write_text("# Replacement\n\nChanged prose.\n", encoding="utf-8")
+                return snapshot
+
+        model = DurationKokoroModel(
+            {
+                "Chapter One": 1,
+                "Before Hogwarts": 1,
+                "First sentence. Second sentence.": 2,
+                "Third sentence.": 1,
+            }
+        )
+        narrate.run_sample(
+            RacingPath(self.narration),
+            self.output,
+            "bm_george",
+            0.96,
+            self.settings,
+            self.pronunciations,
+            manifest_path=self.manifest_path,
+            chunk_manifest_path=self.chunk_manifest_path,
+            model_loader=lambda _model_id: model,
+            evidence_provider=self._evidence,
+        )
+
+        manifest = yaml.safe_load(self.manifest_path.read_text(encoding="utf-8"))
+        chunks = yaml.safe_load(
+            self.chunk_manifest_path.read_text(encoding="utf-8")
+        )
+        self.assertEqual(manifest["narration"]["current_sha256"], original_hash)
+        self.assertEqual(chunks["chunks"][0]["text"], "Chapter One")
 
 
 class AuditionTests(unittest.TestCase):

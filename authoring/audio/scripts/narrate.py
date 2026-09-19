@@ -1208,7 +1208,7 @@ def write_render_result(
     render_kind: str,
     selection: Mapping[str, object] | None = None,
 ) -> Path:
-    if render_kind not in {"full", "sample"}:
+    if render_kind not in {"full", "opening_sample", "paragraph_sample"}:
         raise ValueError(f"Unknown render kind: {render_kind}")
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -1351,6 +1351,101 @@ def run_render(
     )
 
 
+def run_sample(
+    markdown_path: Path,
+    output_path: Path,
+    voice: str,
+    speed: float,
+    settings: Mapping[str, object],
+    pronunciation_path: Path,
+    listening_copy: Path | None = None,
+    *,
+    paragraph: int | None = None,
+    max_duration_seconds: float = 30.0,
+    manifest_path: Path | None = None,
+    chunk_manifest_path: Path | None = None,
+    model_loader: Callable[[str], object] | None = None,
+    evidence_provider: Callable[[], RuntimeEvidence] | None = None,
+) -> Path:
+    validate_settings(settings)
+    render_spec = validate_render_spec(voice, speed)
+    if not np.isfinite(max_duration_seconds) or max_duration_seconds <= 0:
+        raise ValueError("max sample duration must be positive and finite")
+
+    snapshot = read_narration_snapshot(markdown_path)
+    if paragraph is None:
+        selected = select_opening_sample_blocks(snapshot.blocks)
+    else:
+        selected = select_prose_paragraph(snapshot.blocks, paragraph)
+
+    for warning in snapshot.warnings:
+        print(f"WARNING: {warning}", file=sys.stderr)
+    pronunciations = load_pronunciations(pronunciation_path)
+    model = (model_loader or _default_model_loader)(str(settings["model"]))
+
+    if paragraph is not None:
+        bundle = synthesize_blocks(
+            selected,
+            pronunciations,
+            settings,
+            model,
+            render_spec.voice,
+            render_spec.speed,
+        )
+        duration = len(bundle.audio) / bundle.sample_rate
+        render_kind = "paragraph_sample"
+        selection: dict[str, object] = {
+            "paragraph_number": paragraph,
+            "duration_seconds": duration,
+        }
+    else:
+        while True:
+            bundle = synthesize_blocks(
+                selected,
+                pronunciations,
+                settings,
+                model,
+                render_spec.voice,
+                render_spec.speed,
+            )
+            duration = len(bundle.audio) / bundle.sample_rate
+            if duration <= max_duration_seconds:
+                break
+            reduced = remove_final_prose_sentence(selected)
+            if reduced is None:
+                raise ValueError(
+                    "Opening headings and shortest prose sentence exceed "
+                    f"{max_duration_seconds:g} seconds"
+                )
+            selected = reduced
+        render_kind = "opening_sample"
+        selection = {
+            "selected_sentences": [
+                sentence
+                for block in selected
+                if block.kind is BlockKind.PARAGRAPH
+                for sentence in split_sentences(block.text)
+            ],
+            "duration_seconds": duration,
+        }
+
+    return write_render_result(
+        snapshot,
+        bundle,
+        output_path,
+        render_spec.voice,
+        render_spec.speed,
+        settings,
+        model,
+        listening_copy,
+        manifest_path,
+        chunk_manifest_path,
+        evidence_provider or collect_runtime_evidence,
+        render_kind=render_kind,
+        selection=selection,
+    )
+
+
 def _read_settings(path: Path) -> Mapping[str, object]:
     settings = yaml.safe_load(path.read_text(encoding="utf-8"))
     if not isinstance(settings, Mapping):
@@ -1404,6 +1499,15 @@ def build_parser() -> argparse.ArgumentParser:
     render.add_argument("--listening-copy", type=Path)
     render.add_argument("--manifest", type=Path)
     render.add_argument("--chunk-manifest", type=Path)
+    sample = commands.add_parser("sample")
+    sample.add_argument("markdown", type=Path)
+    sample.add_argument("--output", type=Path, required=True)
+    sample.add_argument("--voice")
+    sample.add_argument("--speed", type=float)
+    sample.add_argument("--paragraph", type=int)
+    sample.add_argument("--listening-copy", type=Path)
+    sample.add_argument("--manifest", type=Path)
+    sample.add_argument("--chunk-manifest", type=Path)
     return parser
 
 
@@ -1432,6 +1536,21 @@ def main(argv: Sequence[str] | None = None) -> int:
             )
             for record in records:
                 print(f"{record['wav_path']} ({record['duration_seconds']:.2f}s)")
+        elif args.command == "sample":
+            render_spec = resolve_render_spec(settings, args.voice, args.speed)
+            output = run_sample(
+                args.markdown,
+                args.output,
+                render_spec.voice,
+                render_spec.speed,
+                settings,
+                args.pronunciations,
+                args.listening_copy,
+                paragraph=args.paragraph,
+                manifest_path=args.manifest,
+                chunk_manifest_path=args.chunk_manifest,
+            )
+            print(output)
         else:
             render_spec = resolve_render_spec(settings, args.voice, args.speed)
             output = run_render(
