@@ -2,8 +2,8 @@ engine: kokoro
 model: mlx-community/Kokoro-82M-bf16
 language: british-english
 lang_code: b
-voice: null
-speed: null
+voice: bm_george
+speed: 0.96
 chunking:
   max_words: 160
 pauses:

@@ -50,6 +50,90 @@ MANUSCRIPT_PATH = (
 FIXTURE_PATH = REPOSITORY_ROOT / "authoring/audio/fixtures/audition-excerpt.txt"
 
 
+class RenderConfigurationTests(unittest.TestCase):
+    def setUp(self):
+        self.settings = {
+            "engine": "kokoro",
+            "model": "mlx-community/Kokoro-82M-bf16",
+            "language": "british-english",
+            "lang_code": "b",
+            "voice": "bm_george",
+            "speed": 0.96,
+            "chunking": {"max_words": 160},
+            "pauses": {
+                "opening_ms": 0,
+                "continuation_ms": 0,
+                "paragraph_ms": 0,
+                "section_ms": 0,
+                "chapter_ms": 0,
+                "closing_ms": 0,
+            },
+            "output": {"intermediate": "wav", "listening_copy": "mp3"},
+        }
+
+    def test_resolve_render_spec_uses_canonical_defaults(self):
+        self.assertEqual(
+            narrate.resolve_render_spec(self.settings, None, None),
+            SampleSpec("bm_george", 0.96),
+        )
+
+    def test_resolve_render_spec_applies_each_override_independently(self):
+        self.assertEqual(
+            narrate.resolve_render_spec(self.settings, "bm_lewis", None),
+            SampleSpec("bm_lewis", 0.96),
+        )
+        self.assertEqual(
+            narrate.resolve_render_spec(self.settings, None, 0.92),
+            SampleSpec("bm_george", 0.92),
+        )
+        self.assertEqual(
+            narrate.resolve_render_spec(self.settings, "bm_lewis", 1.0),
+            SampleSpec("bm_lewis", 1.0),
+        )
+
+    def test_normal_render_accepts_non_batch_voice_but_preserves_speed_range(self):
+        self.assertEqual(
+            narrate.validate_render_spec("bm_lewis", 0.96),
+            SampleSpec("bm_lewis", 0.96),
+        )
+        for speed in (0.89, 1.06):
+            with self.subTest(speed=speed):
+                with self.assertRaisesRegex(ValueError, "0.90 and 1.05"):
+                    narrate.validate_render_spec("bm_george", speed)
+
+    def test_audition_batch_still_rejects_non_batch_voice(self):
+        with self.assertRaisesRegex(ValueError, "Unsupported British voice"):
+            narrate._validate_sample_specs([SampleSpec("bm_lewis", 0.96)])
+
+    def test_render_cli_resolves_defaults_and_partial_overrides(self):
+        cases = (
+            ([], "bm_george", 0.96),
+            (["--voice", "bm_lewis"], "bm_lewis", 0.96),
+            (["--speed", "0.92"], "bm_george", 0.92),
+            (["--voice", "bm_lewis", "--speed", "1.0"], "bm_lewis", 1.0),
+        )
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            settings_path = root / "settings.yaml"
+            settings_path.write_text(yaml.safe_dump(self.settings), encoding="utf-8")
+            narration_path = root / "narration.md"
+            narration_path.write_text("# Chapter\n\nOpening prose.\n", encoding="utf-8")
+            output_path = root / "output.wav"
+            for overrides, expected_voice, expected_speed in cases:
+                with self.subTest(overrides=overrides):
+                    with patch.object(narrate, "run_render", return_value=output_path) as render:
+                        exit_code = main(
+                            [
+                                "--settings", str(settings_path),
+                                "render", str(narration_path),
+                                "--output", str(output_path),
+                                *overrides,
+                            ]
+                        )
+                    self.assertEqual(exit_code, 0)
+                    self.assertEqual(render.call_args.args[2:4], (expected_voice, expected_speed))
+
+
 class MarkdownPreparationTests(unittest.TestCase):
     def test_markdown_preparation_preserves_code_spans_and_strips_emphasis(self):
         self.assertEqual(
@@ -348,8 +432,8 @@ class AuditionTests(unittest.TestCase):
             "model": "mlx-community/Kokoro-82M-bf16",
             "language": "british-english",
             "lang_code": "b",
-            "voice": None,
-            "speed": None,
+            "voice": "bm_george",
+            "speed": 0.96,
             "chunking": {"max_words": 160},
             "pauses": {
                 "opening_ms": 0,
@@ -431,11 +515,16 @@ class AuditionTests(unittest.TestCase):
         self.assertEqual(manifest["model_revision"], "test-revision")
         self.assertEqual(manifest["fixture_sha256"], records[0]["fixture_sha256"])
 
-    def test_settings_require_canonical_voice_and_speed_to_remain_null(self):
-        with self.assertRaisesRegex(ValueError, "voice.*null"):
-            validate_settings(dict(self.settings, voice="bm_george"))
-        with self.assertRaisesRegex(ValueError, "speed.*null"):
-            validate_settings(dict(self.settings, speed=0.96))
+    def test_settings_require_valid_canonical_voice_and_speed(self):
+        for changes, message in (
+            ({"voice": None}, "voice"),
+            ({"voice": ""}, "voice"),
+            ({"speed": None}, "speed"),
+            ({"speed": 0.89}, "0.90 and 1.05"),
+        ):
+            with self.subTest(changes=changes):
+                with self.assertRaisesRegex(ValueError, message):
+                    validate_settings(dict(self.settings, **changes))
 
     def test_run_audition_merges_compatible_existing_manifest_by_output_path(self):
         initial = self._run_two_sample_audition()
@@ -591,8 +680,8 @@ class GeorgeCalibrationTests(unittest.TestCase):
             "model": "mlx-community/Kokoro-82M-bf16",
             "language": "british-english",
             "lang_code": "b",
-            "voice": None,
-            "speed": None,
+            "voice": "bm_george",
+            "speed": 0.96,
             "chunking": {"max_words": 160},
             "pauses": {
                 "opening_ms": 120,

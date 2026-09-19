@@ -494,10 +494,7 @@ def validate_settings(settings: Mapping[str, object]) -> None:
         raise ValueError("model must be mlx-community/Kokoro-82M-bf16")
     if settings.get("language") != "british-english" or settings.get("lang_code") != "b":
         raise ValueError("language must be british-english with lang_code b")
-    if settings.get("voice") is not None:
-        raise ValueError("voice must remain null in canonical settings")
-    if settings.get("speed") is not None:
-        raise ValueError("speed must remain null in canonical settings")
+    validate_render_spec(settings.get("voice"), settings.get("speed"))
     chunking = settings.get("chunking")
     if not isinstance(chunking, Mapping) or type(chunking.get("max_words")) is not int or chunking["max_words"] < 1:
         raise ValueError("chunking.max_words must be a positive integer")
@@ -506,6 +503,29 @@ def validate_settings(settings: Mapping[str, object]) -> None:
         raise ValueError("pauses must be a mapping")
     # Keep the validation shared with assembly, but fail before model loading.
     assemble_audio([RenderedChunk(BlockKind.PARAGRAPH, np.array([0.0]), True)], 1, pauses)
+
+
+def validate_render_spec(voice: object, speed: object) -> SampleSpec:
+    if not isinstance(voice, str) or not voice.strip():
+        raise ValueError("render voice must be a non-empty Kokoro voice identifier")
+    if (
+        not isinstance(speed, (int, float))
+        or isinstance(speed, bool)
+        or not 0.90 <= float(speed) <= 1.05
+    ):
+        raise ValueError("render speed must be between 0.90 and 1.05")
+    return SampleSpec(voice.strip(), float(speed))
+
+
+def resolve_render_spec(
+    settings: Mapping[str, object],
+    voice: str | None,
+    speed: float | None,
+) -> SampleSpec:
+    return validate_render_spec(
+        voice if voice is not None else settings.get("voice"),
+        speed if speed is not None else settings.get("speed"),
+    )
 
 
 def _validate_sample_specs(sample_specs: Sequence[SampleSpec]) -> None:
@@ -912,7 +932,7 @@ def run_render(
     settings: Mapping[str, object], pronunciation_path: Path, listening_copy: Path | None = None,
 ) -> Path:
     validate_settings(settings)
-    _validate_sample_specs([SampleSpec(voice, speed)])
+    validate_render_spec(voice, speed)
     pronunciations = load_pronunciations(pronunciation_path)
     blocks = [SpeechBlock(block.kind, apply_pronunciations(block.text, pronunciations)) for block in markdown_to_blocks(markdown_path.read_text(encoding="utf-8"))]
     chunks = chunk_blocks(blocks, settings["chunking"]["max_words"])  # type: ignore[index]
@@ -970,8 +990,8 @@ def build_parser() -> argparse.ArgumentParser:
     render = commands.add_parser("render")
     render.add_argument("markdown", type=Path)
     render.add_argument("--output", type=Path, required=True)
-    render.add_argument("--voice", required=True)
-    render.add_argument("--speed", type=float, required=True)
+    render.add_argument("--voice")
+    render.add_argument("--speed", type=float)
     render.add_argument("--listening-copy", type=Path)
     return parser
 
@@ -997,7 +1017,16 @@ def main(argv: Sequence[str] | None = None) -> int:
             for record in records:
                 print(f"{record['wav_path']} ({record['duration_seconds']:.2f}s)")
         else:
-            output = run_render(args.markdown, args.output, args.voice, args.speed, settings, args.pronunciations, args.listening_copy)
+            render_spec = resolve_render_spec(settings, args.voice, args.speed)
+            output = run_render(
+                args.markdown,
+                args.output,
+                render_spec.voice,
+                render_spec.speed,
+                settings,
+                args.pronunciations,
+                args.listening_copy,
+            )
             print(output)
     except Exception as error:
         parser.error(str(error))
