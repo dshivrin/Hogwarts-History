@@ -40,6 +40,13 @@ All other existing repository infrastructure outside `authoring/` is protected
 as well. Do not run generators, formatters, or completion workflows that may
 rewrite protected files unless a task explicitly authorizes those changes.
 
+## Narration editing
+
+Before preparing, creating, improving, or editing narration, making a chapter
+TTS-ready, or editing `narration.md`, read and follow
+`authoring/audio/AGENT-NARRATION-EDITING.md`. If a persistent `narration.md`
+already exists, preparation must never overwrite or replace it.
+
 ## Research problems found during authoring
 
 If authoring work reveals bad or contradictory evidence, a likely extraction

@@ -6,6 +6,10 @@ research layers. `narration-settings.yaml` supplies the canonical voice, speed,
 model, language, chunking, and pause settings for normal full and sample
 renders; CLI voice and speed flags are optional per-run overrides.
 
+For day-to-day prompts, see [`NARRATION-COMMANDS.md`](NARRATION-COMMANDS.md).
+Agents preparing or editing narration must follow
+[`AGENT-NARRATION-EDITING.md`](AGENT-NARRATION-EDITING.md).
+
 ## Install
 
 Use the repository's Apple Silicon CPython 3.12 and install only into the
