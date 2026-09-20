@@ -130,16 +130,6 @@ def read_pcm16(path: Path) -> tuple[np.ndarray, int]:
     return np.frombuffer(frames, dtype="<i2"), sample_rate
 
 
-def write_pcm16_compat(writer, captured, path, audio, sample_rate=None):
-    """Supply the assembly rate omitted by the stock ``run_render`` call."""
-    if sample_rate is None:
-        assemblies = captured["assemblies"]
-        if not assemblies:
-            raise RuntimeError("Cannot infer sample rate before audio assembly")
-        sample_rate = assemblies[-1]["sample_rate"]
-    return writer(path, audio, sample_rate)
-
-
 def select_matching_assembly(assemblies, rendered, sample_rate):
     """Return the chapter assembly, excluding validation-only dummy calls."""
     matches = [
@@ -250,6 +240,9 @@ def render() -> dict[str, object]:
     narrate.validate_settings(settings)
     pronunciations = narrate.load_pronunciations(PRONUNCIATIONS_PATH)
     source_markdown = SOURCE_PATH.read_text(encoding="utf-8")
+    provenance_report, provenance_warnings, _provenance_path, _provenance = (
+        narrate.inspect_narration_provenance(SOURCE_PATH)
+    )
     unsupported = [
         line
         for line in source_markdown.splitlines()
@@ -279,7 +272,6 @@ def render() -> dict[str, object]:
     original_loader = narrate._default_model_loader
     original_synthesize = narrate.synthesize_chunks
     original_assemble = narrate.assemble_audio
-    original_write_pcm16_wav = narrate.write_pcm16_wav
 
     def capturing_loader(model_id: str):
         model = original_loader(model_id)
@@ -311,19 +303,9 @@ def render() -> dict[str, object]:
         )
         return assembled
 
-    def compatible_write_pcm16_wav(path, audio, sample_rate=None):
-        return write_pcm16_compat(
-            original_write_pcm16_wav,
-            captured,
-            path,
-            audio,
-            sample_rate,
-        )
-
     narrate._default_model_loader = capturing_loader
     narrate.synthesize_chunks = capturing_synthesize
     narrate.assemble_audio = capturing_assemble
-    narrate.write_pcm16_wav = compatible_write_pcm16_wav
     cli_exit = narrate.main(
         [
             "--settings",
@@ -440,7 +422,7 @@ def render() -> dict[str, object]:
         encoding="utf-8",
     )
 
-    warnings: list[str] = []
+    warnings: list[str] = list(provenance_warnings)
     if max(
         (join["effective_zero_gap_ms"] for join in join_inspection["joins"]),
         default=0,
@@ -451,6 +433,7 @@ def render() -> dict[str, object]:
 
     report = {
         "status": "rendered_pending_final_repository_audit",
+        **provenance_report,
         "source": {
             "path": str(SOURCE_PATH),
             "sha256": sha256_path(SOURCE_PATH),
@@ -556,7 +539,7 @@ def render() -> dict[str, object]:
         },
         "warnings": warnings,
         "deviations": [
-            "The unchanged stock render command does not persist intermediate chunks or runtime evidence. This task-local wrapper captured the same render call's in-memory chunks and runtime facts without changing the renderer."
+            "This task-local wrapper captures in-memory chunks, detailed join evidence, independent probes, and full-decode results beyond the canonical render manifest."
         ],
     }
     REPORT_PATH.write_text(

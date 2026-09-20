@@ -1,0 +1,79 @@
+schema_version: 1
+status: technically_verified_human_listen_pending
+created: 2026-09-20
+chapter:
+  number: 1
+  title: Before Hogwarts
+  approved_revision: 7
+sample:
+  kind: opening
+  selected_sentences: 3
+  submitted_chunks: 2
+source:
+  approved_path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/final-draft-candidate-revision-07.md
+  approved_sha256: 471ee8304bfd81c4c538b8ce74c8762448a197b1c7d33e7584b83ef1c6e855ed
+  approved_status: current
+  narration_path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/narration.md
+  narration_prepared_sha256: 4e56b34c8b6b69760af1d07b84b60d6a2bf0f1b02c55aed65545c58824ac3fe4
+  narration_current_sha256: e4fec52e9b99eea2b5bc6e78af93e5fdf1af8ada676f1fddfed4be4889596a20
+render:
+  engine: kokoro
+  model: mlx-community/Kokoro-82M-bf16
+  model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+  voice: bm_george
+  language: british-english
+  lang_code: b
+  speed: 0.96
+  chunk_max_words: 160
+  generation_command: HF_HUB_OFFLINE=1 authoring/audio/.venv/bin/python authoring/audio/scripts/narrate.py sample authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/narration.md --output authoring/audio/output/chapter-01-opening-sample-20260920-104452/chapter-01-opening-sample.wav --listening-copy authoring/audio/output/chapter-01-opening-sample-20260920-104452/chapter-01-opening-sample.mp3 --manifest authoring/audio/output/chapter-01-opening-sample-20260920-104452/render-manifest.yaml --chunk-manifest authoring/audio/output/chapter-01-opening-sample-20260920-104452/chunks/chunk-manifest.yaml
+  duration_seconds: 27.875
+outputs:
+  wav:
+    path: authoring/audio/output/chapter-01-opening-sample-20260920-104452/chapter-01-opening-sample.wav
+    sha256: 76ce6391aae98dfc85f955011b6e0d9947762cdb09b8c2dafece18c346984ccf
+    size_bytes: 1338044
+    codec: pcm_s16le
+    sample_rate: 24000
+    channels: 1
+  mp3:
+    path: authoring/audio/output/chapter-01-opening-sample-20260920-104452/chapter-01-opening-sample.mp3
+    sha256: 3210742e1b1d0e77ffb6fe59bfd4e27ab5c0f0d5428e56e3bcf248efba17d78f
+    size_bytes: 111980
+    codec: mp3
+    sample_rate: 24000
+    channels: 1
+    bit_rate: 32137
+versions:
+  python: 3.12.13
+  mlx_audio: 0.5.3
+  mlx: 0.32.2
+  misaki: 0.9.4
+  pyyaml: 6.0.2
+  numpy: 2.5.3
+  ffmpeg: 9.0.1
+  ffprobe: 9.0.1
+runtime_evidence:
+  device: Device(gpu, 0)
+  gpu_selected: true
+  device_name: Apple M4 Pro
+  architecture: applegpu_g16s
+  audio_array_type: mlx.core.array
+  active_memory_bytes: 327774648
+  cache_memory_bytes: 4654480
+  peak_memory_bytes: 3046139992
+verification:
+  source_manuscript_current: true
+  renderer_warnings: 0
+  shared_audio_tests: 69_of_69_passed
+  wav_full_decode: true
+  mp3_full_decode: true
+  wav_probe: passed
+  mp3_probe: passed
+  duration_within_opening_sample_cap: true
+  finite_audio: true
+  human_full_listen: false
+artifacts:
+  render_manifest: authoring/audio/output/chapter-01-opening-sample-20260920-104452/render-manifest.yaml
+  chunk_manifest: authoring/audio/output/chapter-01-opening-sample-20260920-104452/chunks/chunk-manifest.yaml
+limitations:
+  - Subjective pronunciation, delivery, pacing, and audible artifact review require a human full listen.
