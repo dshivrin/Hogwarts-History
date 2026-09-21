@@ -186,8 +186,58 @@ chapters:
     number: 5
     slug: the-departure-of-salazar-slytherin
     title: The Departure of Salazar Slytherin
-    status: planned
+    status: drafted
     draft: draft-01
+    working_revision:
+      revision: 1
+      status: drafted
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/05-the-departure-of-salazar-slytherin/evidence-synthesis-revision-01.md
+          sha256: bf8d8951f4d6f8f2711ebf3bcb5f4e6dbf89dd6415721fa88f496f94497a5ee5
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/05-the-departure-of-salazar-slytherin/outline-revision-01.md
+          sha256: cb38c15b055b6457270f7a32359932d3a62b94b8f56a86edf200c211b23445da
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/05-the-departure-of-salazar-slytherin/draft-revision-01.md
+          sha256: b48ae9de66b34cd359176243fb379466ce7febe09ddef30450feeac782a5a7d3
+      comparison_baselines:
+        - chapter: 1
+          revision: 8
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-08.md
+          sha256: 09b092f259b898814cb71ad35fd193d86a5f073413a9e6643b409fec3963797f
+        - chapter: 2
+          revision: 7
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/draft-revision-07.md
+          sha256: 1d62b9edf9c56f19586d92745a276cddc0a09ed60580a34efe9b39fe284cd08e
+        - chapter: 3
+          revision: 2
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/draft-revision-02.md
+          sha256: 13a759500686c771943b952fb174438901dae9717e3f69eb5650a08154fd1e20
+        - chapter: 4
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/04-the-four-houses/draft-revision-01.md
+          sha256: 2ddfbc22b2802425e9298b2795628cb7cc83d87aa150d606785e47af6ff90fbc
+    workflow_history:
+      - status: evidence_selected
+        date: 2026-09-21
+        note: Created a focused sixteen-entry evidence selection after compact-index queries and bounded direct source review.
+      - status: evidence_reviewed
+        date: 2026-09-21
+        note: Revision 01 synthesis passed with every selected evidence ID reconciled, exactly one disposition per claim, and no blocking verification item.
+      - status: outlined
+        date: 2026-09-21
+        note: Created the matching Revision 01 outline from the validated consolidated claims.
+      - status: outline_approved
+        date: 2026-09-21
+        note: The user approved the six-part Chapter 5 architecture and explicitly directed progression through the outline to a first prose draft without a separate approval stop.
+      - status: drafted
+        date: 2026-09-21
+        note: Created the Revision 01 first prose draft with later Chamber confirmation explicitly separated from reconstructed pre-1984 Bagshot knowledge; no post-draft audit was run.
   - id: 6
     number: 6
     slug: a-castle-unlike-any-other

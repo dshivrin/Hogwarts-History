@@ -1,0 +1,199 @@
+schema_version: 1
+chapter:
+  id: 5
+  number: 5
+  slug: the-departure-of-salazar-slytherin
+  title: The Departure of Salazar Slytherin
+edition: unified-expanded
+target_revision: 1
+status: evidence_selected
+review_date: 2026-09-21
+research_basis:
+  - targeted compact-index queries for founders-rift, salazar-slytherin, chamber-of-secrets, heir-of-slytherin, parseltongue, basilisk, muggle-born-students, and pure-blood-prejudice
+  - direct review of every selected canonical YAML record
+  - bounded direct review of novel PDF pages 407-409, 1765-1767, 530-532, and 536-546 for the dispute, Hat tradition, hidden entrance, Chamber, and Basilisk
+  - direct review of the complete official A01 Chamber of Secrets snapshot
+  - comparison against the exact Chapter 1-4 baselines recorded in brief.md
+selection_principle: >-
+  Select the smallest evidence set that can distinguish accepted pre-1984
+  history, continuing school tradition, later discovery about founder-era facts,
+  and later historical consequences. Chamber-crisis episodes are excluded
+  unless they directly confirm a founder-era claim.
+
+selected_evidence:
+  - id: cos-ch09-004
+    source: Harry Potter and the Chamber of Secrets, chapter 9
+    source_locator: PDF pages 407-408, founding-history lecture
+    event_chronology: founder era
+    knowledge_access: reconstructed Bagshot narrative candidate
+    confidence: high
+    evidence_class: historical testimony
+    why_it_matters: Establishes several years of harmony, a growing rift, Slytherin's all-magical-family restriction, his distrust of pupils of Muggle parentage, a serious argument with Gryffindor, and Slytherin leaving.
+    limitations: Summarizes a complex dispute, names no primary sources, and does not say whether Slytherin left voluntarily or under compulsion.
+
+  - id: ootp-ch11-003
+    source: Harry Potter and the Order of the Phoenix, chapter 11
+    source_locator: PDF pages 1765-1767, Sorting Hat song
+    event_chronology: founder era as remembered by a continuing school tradition
+    knowledge_access: attributed tradition available to reconstructed narrative; exact later wording unavailable to Bagshot
+    confidence: high
+    evidence_class: later Hogwarts tradition
+    why_it_matters: Adds a progression from early coexistence to discord, House conflict, duelling, fighting, Slytherin's departure, and the continuation of Hogwarts with three founders.
+    limitations: Poetic and compressed testimony, not a dated chronicle; it does not identify combatants, incidents, injuries, duration, or cause for each clash.
+
+  - id: cos-ch09-005
+    source: Harry Potter and the Chamber of Secrets, chapter 9
+    source_locator: PDF page 408, Chamber legend lecture
+    event_chronology: alleged founder-era construction and intended future use
+    knowledge_access: pre-1984 school legend available to reconstructed narrative
+    confidence: medium
+    evidence_class: attributed tradition
+    why_it_matters: Gives the pre-confirmation tradition of a hidden chamber unknown to the other founders, a sealed horror, a true heir, and a future purge of pupils deemed unworthy.
+    limitations: The speaker explicitly distinguishes the story from reliable history and rejects it as unverified legend.
+
+  - id: cos-ch09-006
+    source: Harry Potter and the Chamber of Secrets, chapter 9
+    source_locator: PDF pages 408-409, search-and-denial exchange
+    event_chronology: repeated searches before the 1990s
+    knowledge_access: reconstructed Bagshot narrative candidate for the pre-1984 search tradition
+    confidence: medium
+    evidence_class: historical testimony
+    why_it_matters: Establishes repeated searches by learned witches and wizards and a succession of Hogwarts leaders, with no accepted evidence found.
+    limitations: Names no searchers or dates; the conclusion that the Chamber did not exist was later disproved.
+
+  - id: cos-ch11-004
+    source: Harry Potter and the Chamber of Secrets, chapter 11
+    source_locator: PDF pages 444-447, student discussion after the Dueling Club
+    event_chronology: longstanding founder and House lore observed in 1992
+    knowledge_access: later confirmation of a pre-existing tradition
+    confidence: medium
+    evidence_class: school lore and character testimony
+    why_it_matters: Links Salazar Slytherin's reputation to Parseltongue and the serpent emblem of his House.
+    limitations: The immediate explanation comes from pupils and includes rumor; it does not by itself prove Chamber access or descent.
+
+  - id: ext-a01-001
+    source: A01, Chamber of Secrets, official Rowling original
+    source_locator: paragraphs 1-4
+    event_chronology: founder era
+    knowledge_access: later official clarification only
+    confidence: high
+    evidence_class: later retrospective confirmation
+    why_it_matters: States that the other founders did not know of the Chamber, identifies its final founder-era purpose as a Basilisk lair, restricts control to Slytherin or his descendants, and makes entry Parselmouth-only.
+    limitations: Published in 2015; cannot enter Bagshot's knowledge. It also says Slytherin was forced out, conflicting in specificity with the earlier neutral account that he left.
+
+  - id: ext-a01-002
+    source: A01, Chamber of Secrets, official Rowling original
+    source_locator: paragraph 6
+    event_chronology: eighteenth-century castle alteration
+    knowledge_access: later official clarification only
+    confidence: high
+    evidence_class: later retrospective confirmation
+    why_it_matters: Explains that plumbing threatened the original entrance and that Corvinus Gaunt secretly preserved access beneath a new bathroom.
+    limitations: Gives no exact year or magical method and proves that the later entrance was not unchanged founder-era architecture.
+
+  - id: ext-a01-003
+    source: A01, Chamber of Secrets, official Rowling original
+    source_locator: final paragraph
+    event_chronology: repeated searches over centuries
+    knowledge_access: later official clarification only
+    confidence: high
+    evidence_class: later retrospective confirmation
+    why_it_matters: Confirms the searches and supplies Parselmouth-only access as the reason they failed.
+    limitations: Names no searchers or dates and cannot be voiced as Bagshot's explanation.
+
+  - id: cos-ch16-006
+    source: Harry Potter and the Chamber of Secrets, chapter 16
+    source_locator: PDF pages 530-532, bathroom entrance
+    event_chronology: 1993 discovery of an older mechanism
+    knowledge_access: later discovery about an earlier institution
+    confidence: high
+    evidence_class: direct observation and ghost testimony
+    why_it_matters: Confirms a snake-marked, Parseltongue-activated entrance concealed in a bathroom sink.
+    limitations: Does not establish who adapted the plumbing-linked entrance or when.
+
+  - id: cos-ch16-007
+    source: Harry Potter and the Chamber of Secrets, chapter 16
+    source_locator: PDF pages 532-535, subterranean route
+    event_chronology: 1993 discovery of an older route
+    knowledge_access: later discovery about an earlier institution
+    confidence: high
+    evidence_class: direct observation
+    why_it_matters: Confirms deep tunnels, serpent controls, and physical remains consistent with a giant serpent.
+    limitations: The route's position under the lake is a character inference; observed plumbing does not date the original construction.
+
+  - id: cos-ch17-001
+    source: Harry Potter and the Chamber of Secrets, chapter 17
+    source_locator: PDF pages 536-537, central Chamber
+    event_chronology: 1993 observation of an older space
+    knowledge_access: later discovery about an earlier institution
+    confidence: high
+    evidence_class: direct observation
+    why_it_matters: Confirms the Chamber as a monumental serpent-decorated room with a founder-linked statue.
+    limitations: Direct observation alone does not date every feature or prove that Slytherin built each part personally.
+
+  - id: cos-ch17-004
+    source: Harry Potter and the Chamber of Secrets, chapter 17
+    source_locator: PDF pages 542 and 545, Riddle's descent and Parselmouth claims
+    event_chronology: twentieth-century claims about founder descent
+    knowledge_access: post-1984 testimony; later editorial use only
+    confidence: medium
+    evidence_class: self-interested character testimony
+    why_it_matters: Connects an identified claimant to the heir tradition, Slytherin descent, and Parseltongue.
+    limitations: Riddle's descent and rarity claims are self-reported in this passage and should not bear the Chamber argument alone.
+
+  - id: cos-ch17-006
+    source: Harry Potter and the Chamber of Secrets, chapter 17
+    source_locator: PDF pages 545-546, statue and Basilisk release
+    event_chronology: 1993 activation of an older mechanism
+    knowledge_access: later discovery about an earlier institution
+    confidence: high
+    evidence_class: direct observation
+    why_it_matters: Confirms a Parseltongue-responsive inner mechanism and the Basilisk concealed within the Chamber.
+    limitations: Does not prove whether later heirs altered any mechanism.
+
+  - id: cos-ch07-003
+    source: Harry Potter and the Chamber of Secrets, chapter 7
+    source_locator: PDF pages 375-378, slur and explanation
+    event_chronology: 1992 school life
+    knowledge_access: later historical event; editorial use only
+    confidence: high
+    evidence_class: direct observation and character testimony
+    why_it_matters: Shows blood-status prejudice persisting among pupils while Hogwarts continues to admit and recognise highly capable Muggle-born students.
+    limitations: One conflict does not define all pupils or Slytherin House and does not establish official policy.
+
+  - id: gof-ch08-003
+    source: Harry Potter and the Goblet of Fire, chapter 8
+    source_locator: PDF page 1031, Malfoy family attitude
+    event_chronology: 1994 wizarding society
+    knowledge_access: later historical event; editorial use only
+    confidence: high
+    evidence_class: narrative observation
+    why_it_matters: Confirms that blood-status hierarchy persisted beyond Hogwarts in an elite adult family.
+    limitations: Describes one family's prejudice, not universal wizarding belief.
+
+  - id: dh-ch11-003
+    source: Harry Potter and the Deathly Hallows, chapter 11
+    source_locator: PDF page 3151, Ministry notice and Lupin's explanation
+    event_chronology: 1997 Ministry regime
+    knowledge_access: later historical event; editorial use only
+    confidence: high
+    evidence_class: official propaganda and character testimony
+    why_it_matters: Shows a later regime turning ancestry ideology into registration and punishment, demonstrating the doctrine's political afterlife.
+    limitations: The Ministry's biological claim is propaganda; detailed wartime history belongs elsewhere.
+
+searched_but_not_selected:
+  - topic: detailed 1940s and 1990s Chamber attacks
+    disposition: defer
+    reason: Later crises prove the Chamber's reality but their victims, investigations, and governance consequences belong in later historical treatment.
+  - topic: complete Gaunt genealogy and Slytherin relics
+    disposition: defer
+    reason: The heir tradition can be explained without a family history or relic catalogue.
+  - topic: Basilisk species history and creature-law detail
+    disposition: defer
+    reason: Only the monster's identity and control mechanism are necessary here.
+  - topic: later Slytherin pupils and collective moral reputation
+    disposition: omit
+    reason: Later conduct cannot establish Salazar Slytherin's intentions or define every member of his House.
+  - topic: Chamber use after 1993 and Horcrux destruction
+    disposition: defer
+    reason: It adds no necessary founder-era claim and would turn the chapter into modern plot summary.
