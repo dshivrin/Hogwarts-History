@@ -2,6 +2,18 @@
 
 Status: NOT PERFORMED
 
+## Revision and synthesis gate
+
+- Audited manuscript revision:
+- Matching synthesis path and target revision:
+- Matching outline path and target revision:
+- Synthesis verdict is `PASS`:
+- No unresolved `blocking` verification item entered the outline or prose:
+- Every selected evidence ID is reconciled in the synthesis:
+- Every outlined claim exists in the matching synthesis:
+- Every prose claim is supported by evidence or identified as bounded editorial
+  inference:
+
 ## Claim-to-evidence review
 
 | Claim or passage | Evidence IDs | Support status | Notes |

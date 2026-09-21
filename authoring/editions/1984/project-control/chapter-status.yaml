@@ -18,13 +18,45 @@ chapters:
     status: editor_approved
     draft: draft-01
     approved_manuscript:
-      revision: 7
-      path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/final-draft-candidate-revision-07.md
-      sha256: 471ee8304bfd81c4c538b8ce74c8762448a197b1c7d33e7584b83ef1c6e855ed
+      revision: 8
+      path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-08.md
+      sha256: 09b092f259b898814cb71ad35fd193d86a5f073413a9e6643b409fec3963797f
+    working_revision:
+      revision: 8
+      status: editor_approved
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/evidence-synthesis-revision-08.md
+          sha256: 87146770b68ac8d4d5bc9448f0eeaad4994c7840050f6c23b1db73475c1b4a4b
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/outline-revision-08.md
+          sha256: a7050c547401b80ee19de5e85cabce36a492b6164b84ed9cab96cd9e5fac6275
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-08.md
+          sha256: 09b092f259b898814cb71ad35fd193d86a5f073413a9e6643b409fec3963797f
+      comparison_baselines:
+        - chapter: 1
+          revision: 7
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/final-draft-candidate-revision-07.md
+          sha256: 471ee8304bfd81c4c538b8ce74c8762448a197b1c7d33e7584b83ef1c6e855ed
+        - chapter: 2
+          revision: 6
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/final-draft-candidate-revision-06.md
+          sha256: b4b8c8cfc5a94169545ff7d159c02821f05723877ba8051fa28224ca83c30e43
+        - chapter: 3
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/draft.md
+          sha256: 15eeaa6e4cb8683c3e7e66862a3a7a27e6df96df8d8cf62df5fe05e0cb4aeef0
     workflow_history:
       - status: editor_approved
         date: 2026-09-19
         note: Revision 07 received explicit final editorial sign-off; its approved manuscript path and SHA-256 are recorded above.
+      - status: editor_approved
+        date: 2026-09-21
+        note: Revision 08 received explicit approval after its fact, style, and continuity audits passed; the approved manuscript pointer now records revision 08.
   - id: 2
     number: 2
     slug: the-four-founders
@@ -32,9 +64,38 @@ chapters:
     status: editor_approved
     draft: draft-01
     approved_manuscript:
-      revision: 6
-      path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/final-draft-candidate-revision-06.md
-      sha256: b4b8c8cfc5a94169545ff7d159c02821f05723877ba8051fa28224ca83c30e43
+      revision: 7
+      path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/draft-revision-07.md
+      sha256: 1d62b9edf9c56f19586d92745a276cddc0a09ed60580a34efe9b39fe284cd08e
+    working_revision:
+      revision: 7
+      status: editor_approved
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/evidence-synthesis-revision-07.md
+          sha256: 1deee6b437f348b26f9612abd591fdc3b0a22985d7fb5c04a6dc0057a5866803
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/outline-revision-07.md
+          sha256: 8cccf57644cc53ee9e24b8733457f41aef045f5968e1f81ee82baa6651e80dd3
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/draft-revision-07.md
+          sha256: 1d62b9edf9c56f19586d92745a276cddc0a09ed60580a34efe9b39fe284cd08e
+      comparison_baselines:
+        - chapter: 1
+          revision: 8
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-08.md
+          sha256: 09b092f259b898814cb71ad35fd193d86a5f073413a9e6643b409fec3963797f
+        - chapter: 2
+          revision: 6
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/final-draft-candidate-revision-06.md
+          sha256: b4b8c8cfc5a94169545ff7d159c02821f05723877ba8051fa28224ca83c30e43
+        - chapter: 3
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/draft.md
+          sha256: 15eeaa6e4cb8683c3e7e66862a3a7a27e6df96df8d8cf62df5fe05e0cb4aeef0
     workflow_history:
       - status: evidence_selected
         date: 2026-09-18
@@ -54,12 +115,48 @@ chapters:
       - status: editor_approved
         date: 2026-09-19
         note: Final-draft candidate Revision 06 received explicit final editorial sign-off after its fact, evidence, style, cross-chapter continuity and narration-preflight audits passed; its approved path and SHA-256 are recorded above.
+      - status: editor_approved
+        date: 2026-09-21
+        note: Revision 07 received explicit approval after its fact, style, and continuity audits passed; the approved manuscript pointer now records revision 07.
   - id: 3
     number: 3
     slug: the-founding-of-hogwarts
     title: The Founding of Hogwarts
-    status: outlined
+    status: editor_approved
     draft: draft-01
+    approved_manuscript:
+      revision: 2
+      path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/draft-revision-02.md
+      sha256: 13a759500686c771943b952fb174438901dae9717e3f69eb5650a08154fd1e20
+    working_revision:
+      revision: 2
+      status: editor_approved
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/evidence-synthesis-revision-02.md
+          sha256: 8b23ad438ac2a754da8e0219365b2ad4a39c35abb552b54399ba8d42703baf67
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/outline-revision-02.md
+          sha256: 6fd52f2512d17e998fa5fdf77a7881798111a0bd9ea1a6e7db4e9e1e6d2e5c3f
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/draft-revision-02.md
+          sha256: 13a759500686c771943b952fb174438901dae9717e3f69eb5650a08154fd1e20
+      comparison_baselines:
+        - chapter: 1
+          revision: 8
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-08.md
+          sha256: 09b092f259b898814cb71ad35fd193d86a5f073413a9e6643b409fec3963797f
+        - chapter: 2
+          revision: 7
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/draft-revision-07.md
+          sha256: 1d62b9edf9c56f19586d92745a276cddc0a09ed60580a34efe9b39fe284cd08e
+        - chapter: 3
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/draft.md
+          sha256: 15eeaa6e4cb8683c3e7e66862a3a7a27e6df96df8d8cf62df5fe05e0cb4aeef0
     workflow_history:
       - status: evidence_selected
         date: 2026-09-19
@@ -70,6 +167,15 @@ chapters:
       - status: outlined
         date: 2026-09-19
         note: Prepared the proposed outline with separate event-chronology and knowledge-access classifications and explicit Bagshot, editorial-addition, and addendum layers; editorial review is pending.
+      - status: outline_approved
+        date: 2026-09-20
+        note: The user supplied and explicitly authorized the chapter architecture in the Chapter 3 research-and-drafting run brief, directing drafting to proceed without a separate approval stop.
+      - status: drafted
+        date: 2026-09-20
+        note: Created evidence-selection.yaml, evidence-gaps.md, outline.md, and draft.md; Draft 01 is evidence-backed and ready for editorial review, not final.
+      - status: editor_approved
+        date: 2026-09-21
+        note: Revision 02 received explicit approval after its fact, style, and continuity audits passed; its approved manuscript path and SHA-256 are recorded above.
   - id: 4
     number: 4
     slug: the-four-houses

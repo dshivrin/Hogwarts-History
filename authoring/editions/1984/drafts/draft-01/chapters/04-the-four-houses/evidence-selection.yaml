@@ -1,0 +1,299 @@
+schema_version: 1
+chapter:
+  id: 4
+  number: 4
+  slug: the-four-houses
+  title: The Four Houses
+edition: unified-expanded
+target_revision: 1
+status: evidence_reviewed
+review_date: 2026-09-21
+research_basis:
+  - targeted compact-index queries for houses, individual Houses, sorting, sorting-hat, hatstall, house membership, common rooms, dormitories, house tables, house points, House Cup, Heads of House, prefects, house ghosts, rivalry, competition, and family expectations
+  - direct review of each selected canonical YAML record
+  - bounded direct review of novel PDF pages 1093-1094, 1765-1767, 110-114, and 3549 where song wording, Sorting judgment, and family expectation required context
+  - comparison against the exact approved Chapter 1-3 baselines recorded in brief.md
+selection_principle: >-
+  Curate evidence that explains historical development. Modern examples are
+  selected only when they establish what House membership came to organize or
+  expose the limits of stereotypes; they do not date those practices to the
+  founder era.
+
+selected_evidence:
+  - id: cos-ch09-003
+    source: Harry Potter and the Chamber of Secrets, chapter 9
+    source_locator: PDF page 407, lines 22-30
+    event_chronology: founder era
+    knowledge_access: reconstructed Bagshot narrative candidate
+    confidence: high
+    evidence_class: character_testimony
+    why_it_matters: Names the founders, connects their names to the four Houses, and supplies the firm historical frame beneath later Hat tradition.
+    limitations: Binns names no sources and does not explain the House system's original operation.
+
+  - id: cos-ch09-004
+    source: Harry Potter and the Chamber of Secrets, chapter 9
+    source_locator: PDF pages 407-408, lines 31-38 and 2-4
+    event_chronology: founder era
+    knowledge_access: reconstructed Bagshot narrative candidate
+    confidence: high
+    evidence_class: character_testimony
+    why_it_matters: Establishes that the founders sought magical children together and locates Slytherin's ancestry restriction within the early educational dispute.
+    limitations: Does not prove that each founder personally selected every pupil or that Slytherin's restriction became school policy.
+
+  - id: gof-ch12-002
+    source: Harry Potter and the Goblet of Fire, chapter 12
+    source_locator: PDF pages 1093-1094, lines 141-184
+    event_chronology: founder era as remembered by a continuing school tradition
+    knowledge_access: attributed tradition available to reconstructed narrative
+    confidence: high
+    evidence_class: later_hogwarts_tradition
+    why_it_matters: Gives the clearest compact tradition that each founder formed a House around preferred virtues, divided favourites while alive, and helped empower Gryffindor's hat to continue choosing.
+    limitations: A compressed ceremonial song is not a dated institutional record; its wording must not be treated as a literal transcript.
+
+  - id: gof-ch12-003
+    source: Harry Potter and the Goblet of Fire, chapter 12
+    source_locator: PDF pages 1091, 1095, and 1097, lines 69-86, 187-199, and 257-264
+    event_chronology: mature school; exact origin unknown
+    knowledge_access: Harry-era confirmation
+    confidence: high
+    evidence_class: directly_established_fact
+    why_it_matters: Establishes annual Sorting procedure, changing songs, name roll, stool, House-table placement, and the fact that siblings need not share a House.
+    limitations: Does not date the procedure or explain individual decision rules.
+
+  - id: ootp-ch11-003
+    source: Harry Potter and the Order of the Phoenix, chapter 11
+    source_locator: PDF pages 1765-1767
+    event_chronology: founder era as remembered by a continuing school tradition
+    knowledge_access: attributed tradition available to reconstructed narrative
+    confidence: high
+    evidence_class: later_hogwarts_tradition
+    why_it_matters: Contrasts the four selection positions, claims that separate Houses initially contained disagreement, and records the Hat's own warning that division later became conflict.
+    limitations: Poetic eyewitness claim; fighting, departure, and the rupture remain reserved for Chapter 5.
+
+  - id: ext-a02-001
+    source: A02, The Sorting Hat, official Rowling original
+    source_locator: opening paragraph, anchor "The famous Hogwarts Sorting Hat gives an account" to "each founder's particular preferences in students"
+    event_chronology: founder era; exact date unknown
+    knowledge_access: later official clarification and attributed tradition
+    confidence: high
+    evidence_class: later_hogwarts_tradition
+    why_it_matters: Separates the legend of Gryffindor's ownership from the stronger claim that all four founders jointly enchanted the Hat for House selection.
+    limitations: Modern retrospective source; ownership and genesis are explicitly legendary and undated.
+
+  - id: ext-a02-002
+    source: A02, The Sorting Hat, official Rowling original
+    source_locator: second paragraph, anchor "The Sorting Hat is one of the cleverest enchanted objects" to "respond to the thoughts of the wearer"
+    event_chronology: continuing operation; origin assigned to founder tradition
+    knowledge_access: later official clarification of an older institution
+    confidence: high
+    evidence_class: directly_established_fact
+    why_it_matters: Explains that the Hat contains the founders' intelligence, speaks, reads minds through Legilimency, and responds to a wearer's thoughts.
+    limitations: Gives no technical limits or method by which founder intelligence was preserved.
+
+  - id: ext-a02-003
+    source: A02, The Sorting Hat, official Rowling original
+    source_locator: third paragraph, anchor "The Sorting Hat is notorious for refusing to admit" to "many centuries it has been at work"
+    event_chronology: centuries of institutional use
+    knowledge_access: later official clarification of an older institution
+    confidence: high
+    evidence_class: directly_established_fact
+    why_it_matters: Qualifies simple stereotypes by distinguishing apparent mismatch from acknowledged error and establishes long institutional continuity.
+    limitations: Supplies no quantified error count or formal appeal process and itself uses broad House stereotypes.
+
+  - id: ps-ch07-002
+    source: Harry Potter and the Philosopher's Stone, chapter 7
+    source_locator: PDF pages 107-108, first-year briefing before the Great Hall
+    event_chronology: mature school; exact origin unknown
+    knowledge_access: Harry-era confirmation
+    confidence: medium
+    evidence_class: directly_established_fact
+    why_it_matters: Defines House membership as a pupil's school family and links it to classes, dormitories, common rooms, points, and the House Cup.
+    limitations: Confirms modern practice only; it does not date any feature to the founder era.
+
+  - id: ps-ch06-005
+    source: Harry Potter and the Philosopher's Stone, chapter 6
+    source_locator: PDF pages 100-101, lines 30-33 and 1-12
+    event_chronology: 1991 pre-Sorting expectations
+    knowledge_access: Harry-era confirmation
+    confidence: medium
+    evidence_class: character_testimony
+    why_it_matters: Shows that House reputations and family expectations already shape pupils before formal assignment.
+    limitations: Student rumor and expectation are evidence of social identity, not official House definition.
+
+  - id: hbp-ch04-005
+    source: Harry Potter and the Half-Blood Prince, chapter 4
+    source_locator: PDF page 2473, extracted lines 354-376
+    event_chronology: pre-1984 family history recalled after 1984
+    knowledge_access: later testimony about pre-1984 practice
+    confidence: high
+    evidence_class: character_testimony
+    why_it_matters: States that House affiliation often follows family patterns but not always, with Sirius and Regulus Black as the explicit contrast.
+    limitations: Slughorn's statement is anecdotal, not a demographic record or hereditary rule.
+
+  - id: dh-ch33-005
+    source: Harry Potter and the Deathly Hallows, chapter 33
+    source_locator: PDF page 3549, extracted lines 357-414
+    event_chronology: Marauder-era arrival and Sorting memories
+    knowledge_access: later recovered memory of pre-1984 events
+    confidence: high
+    evidence_class: character_testimony
+    why_it_matters: Gives a concrete cohort in which family tradition, personal preference, House assignment, and exception interact; also shows a Slytherin prefect without establishing the office's origin.
+    limitations: A memory sample, not a complete Sorting register or proof that prefects were always organized by House.
+
+  - id: ootp-ch19-002
+    source: Harry Potter and the Order of the Phoenix, chapter 19
+    source_locator: PDF page 1953, extracted lines 50-61
+    event_chronology: 1991 Sorting recalled in 1995
+    knowledge_access: Harry-era confirmation
+    confidence: high
+    evidence_class: character_testimony
+    why_it_matters: Shows the Hat seriously weighing Ravenclaw and Gryffindor for one pupil, evidence that more than one House can fit.
+    limitations: A pupil's recollection, not the original Hat dialogue.
+
+  - id: ext-a20-001
+    source: A20, Hatstall, official Rowling original
+    source_locator: opening paragraph, anchor "An archaic Hogwarts term for any new student" to "perhaps once every fifty years"
+    event_chronology: longstanding institutional terminology; origin unknown
+    knowledge_access: later official clarification
+    confidence: high
+    evidence_class: directly_established_fact
+    why_it_matters: Establishes rare prolonged Sortings and an institutional vocabulary for difficult decisions.
+    limitations: The approximate frequency and five-minute threshold come from a 2015 retrospective without a historical register.
+
+  - id: ext-a20-003
+    source: A20, Hatstall, official Rowling original
+    source_locator: paragraph on Neville Longbottom, anchor "In Neville's case" to "resulted in triumph for the Hat"
+    event_chronology: 1991 Sorting
+    knowledge_access: later official clarification of Harry-era practice
+    confidence: high
+    evidence_class: character_testimony
+    why_it_matters: Shows a pupil requesting Hufflepuff while the Hat insists on Gryffindor, proving that preference may be heard without controlling the result.
+    limitations: Does not disclose the complete criteria or original exchange.
+
+  - id: ext-a20-004
+    source: A20, Hatstall, official Rowling original
+    source_locator: final paragraph, McGonagall clause
+    event_chronology: Minerva McGonagall's pre-1984 school years
+    knowledge_access: later official clarification of pre-1984 practice
+    confidence: high
+    evidence_class: later_hogwarts_tradition
+    why_it_matters: Provides a pre-1984 true Hatstall between Ravenclaw and Gryffindor, reinforcing that House criteria overlap.
+    limitations: Duplicates ext-a12-001 and gives no contemporary ceremony record.
+
+  - id: ext-a20-005
+    source: A20, Hatstall, official Rowling original
+    source_locator: final paragraph, Pettigrew clause
+    event_chronology: Peter Pettigrew's pre-1984 school years
+    knowledge_access: later official clarification of pre-1984 practice
+    confidence: high
+    evidence_class: later_hogwarts_tradition
+    why_it_matters: Records a prolonged Gryffindor-Slytherin decision and helps prevent later conduct from being treated as a simple disproof of initial House fit.
+    limitations: Gives no reason for the alternatives and no exact date or duration.
+
+  - id: cc-p1-a1-s02-003
+    source: Harry Potter and the Cursed Child, Part 1 Act 1 Scene 2
+    source_locator: PDF page 17, normalized characters 1081-1099
+    event_chronology: Harry's 1991 Sorting recalled in 2017
+    knowledge_access: post-1984 character testimony; later editorial use only
+    confidence: high
+    evidence_class: character_testimony
+    why_it_matters: Supplies explicit later testimony that the Hat takes a pupil's feelings into account.
+    limitations: Preference is not an unconditional right to select a House; Bagshot has no demonstrated access and the testimony is retrospective.
+
+  - id: cos-ch05-005
+    source: Harry Potter and the Chamber of Secrets, chapter 5
+    source_locator: PDF pages 348-349, lines 16-31 and 7-22
+    event_chronology: mature school; exact origin unknown
+    knowledge_access: Harry-era confirmation
+    confidence: high
+    evidence_class: directly_established_fact
+    why_it_matters: Shows Head of House responsibility for discipline and the House-point system's term boundary.
+    limitations: One exceptional incident cannot establish the office's origin or complete disciplinary jurisdiction.
+
+  - id: poa-ch07-001
+    source: Harry Potter and the Prisoner of Azkaban, chapter 7
+    source_locator: PDF pages 675 and 679-680
+    event_chronology: mature school; exact origin unknown
+    knowledge_access: Harry-era confirmation
+    confidence: high
+    evidence_class: directly_established_fact
+    why_it_matters: Shows that House membership shapes class groupings while pupils still learn across House boundaries; also links classroom discipline to collective points.
+    limitations: A single Gryffindor-Slytherin class does not establish the full scheduling system or its age.
+
+  - id: ps-ch15-002
+    source: Harry Potter and the Philosopher's Stone, chapter 15
+    source_locator: PDF pages 218-219, lines 17-32 and 1-24
+    event_chronology: mature school; exact origin unknown
+    knowledge_access: Harry-era confirmation
+    confidence: high
+    evidence_class: directly_established_fact
+    why_it_matters: Demonstrates collective consequences, public standings, the House Cup incentive, and visible point hourglasses.
+    limitations: The deduction is exceptional and dates neither the system nor the hourglasses.
+
+  - id: ps-ch17-005
+    source: Harry Potter and the Philosopher's Stone, chapter 17
+    source_locator: PDF pages 270-272, lines 22-27, 1-29, and 1-27
+    event_chronology: mature school; exact origin unknown
+    knowledge_access: Harry-era confirmation
+    confidence: high
+    evidence_class: directly_established_fact
+    why_it_matters: Establishes the House Cup as a public annual result that reshapes the Great Hall's ceremonial display.
+    limitations: The last-minute awards are episode-specific and do not define ordinary scoring rules.
+
+  - id: poa-ch12-004
+    source: Harry Potter and the Prisoner of Azkaban, chapter 12
+    source_locator: PDF page 777, lines 5-10
+    event_chronology: mature school; exact origin unknown
+    knowledge_access: Harry-era confirmation
+    confidence: high
+    evidence_class: directly_established_fact
+    why_it_matters: Shows inter-House competition affecting workload, planning, and collective attention through Cup standings.
+    limitations: Does not date House Quidditch or establish that rivalry began with the founders.
+
+  - id: ootp-ch19-005
+    source: Harry Potter and the Order of the Phoenix, chapter 19
+    source_locator: PDF page 1956, extracted lines 155-204 and 304-315
+    event_chronology: 1995 House culture
+    knowledge_access: later editorial addition
+    confidence: high
+    evidence_class: directly_established_fact
+    why_it_matters: Provides a concrete late example of House identity performed through badges, colours, enchanted supporter objects, song, and hostile rivalry.
+    limitations: A targeted harassment episode is not a neutral or ancient school custom.
+
+  - id: ext-a06-002
+    source: A06, Hogwarts Ghosts, official Rowling original
+    source_locator: second paragraph, anchor "Each of the four Hogwarts houses has its own ghost" to "covered in silver bloodstains"
+    event_chronology: mature school; origin unknown
+    knowledge_access: later official confirmation
+    confidence: high
+    evidence_class: directly_established_fact
+    why_it_matters: Establishes House-linked ghost identity as part of the mature institution.
+    limitations: Gives no origin, selection process, or date; detailed ghost history belongs to Chapter 12.
+
+  - id: ext-b09-005
+    source: B09, Bloomsbury post-Deathly Hallows web chat preservation transcript
+    source_locator: response on later Slytherin House divisions
+    event_chronology: comparison between earlier and post-2017 Slytherin composition
+    knowledge_access: post-1984 later editorial evidence
+    confidence: medium
+    evidence_class: character_testimony
+    why_it_matters: Offers a retrospective claim that Slytherin's composition and pure-blood identity changed while its reputation persisted.
+    limitations: Authority-D preservation carrier, no enrolment data or dates, and no independent corroboration; do not advance as firm history.
+
+searched_but_not_selected:
+  - topic: common-room architecture and entrance mechanisms
+    disposition: defer
+    reason: Modern spatial details are abundant but do not explain the origin of Houses; Chapter 6 owns castle development.
+  - topic: prefect duties and prefect-specific travel arrangements
+    disposition: defer
+    reason: Evidence confirms a mature office but does not establish founder-era House organization; Chapter 8 owns governance.
+  - topic: detailed House ghost biographies
+    disposition: defer
+    reason: The four-House linkage is enough here; Chapter 12 owns biographies and institutional memory.
+  - topic: detailed Quidditch matches and team histories
+    disposition: defer
+    reason: One bounded competition example suffices; Chapter 14 owns the sport's history.
+  - topic: altered-timeline Sorting choice
+    evidence_id: cc-p1-a2-s09-001
+    disposition: omit
+    reason: The testimony occurs only in an altered timeline and adds no reliable primary-history rule.

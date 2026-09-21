@@ -1,8 +1,9 @@
 # Chapter 3 Preparation Package — The Founding of Hogwarts
 
-Status: evidence dossier and proposed outline only. No chapter prose has been
-drafted. The outline is `outlined`, not `outline_approved`, and remains subject
-to editorial review.
+Status: preserved 2026-09-19 preparation dossier. The 2026-09-20 chapter-run
+brief supplied the approved structure and authorised drafting without a further
+approval stop. Current selections, gaps, approved outline, and prose are in
+`evidence-selection.yaml`, `evidence-gaps.md`, `outline.md`, and `draft.md`.
 
 ## Governing scope
 
@@ -420,7 +421,11 @@ longer remain merely personal preferences. Chapter 4 can then explain how those
 preferences became Houses; Chapter 5 can narrate the rupture without Chapter 3
 duplicating it.
 
-## Proposed outline
+## Superseded preparatory outline
+
+This outline records the earlier unified-edition proposal. It was superseded by
+the narrower structure and reconstructed-edition scope in `outline.md`. In
+particular, the proposed labour addendum below was not carried into Draft 01.
 
 ### I. More Than a Thousand Years Ago
 
@@ -617,7 +622,7 @@ later account.
   founder remembrance.
 - **Chapter 13:** annual Sorting songs and ceremonial development.
 
-## Review judgement
+## Historical review judgement
 
 The evidence is sufficient for an outline but not for prose. The historical
 spine is strong: broad age, joint foundation, remote castle, active recruitment,
@@ -627,5 +632,6 @@ outline therefore integrates the Book and Quill, Pensieve legend, caretaker,
 and Hat tradition as identifiable later additions, while isolating the weaker
 and ethically substantial house-elf claim in one addendum.
 
-No prose should be drafted until the editor reviews this outline and explicitly
-advances Chapter 3 from `outlined` to `outline_approved`.
+This was the judgement at the end of the 2026-09-19 preparation pass. The
+2026-09-20 user brief subsequently supplied the required approval and directed
+the run to continue through Draft 01.

@@ -32,6 +32,17 @@ knowledge are related but not identical.
     chronology, perspective, or reading flow.
 13. Evidence must not be rejected solely because its source or subject postdates
     1984.
+14. For each new numbered manuscript revision `NN`, evidence must be
+    consolidated and validated in `evidence-synthesis-revision-NN.md` before
+    `outline-revision-NN.md` is created; both must correspond to the resulting
+    manuscript revision.
+15. Generic `outline.md`, generic `draft.md`, and outline material embedded in
+    preparation packages remain valid historical artifacts. When revision `NN`
+    is active, its exact matching revisioned synthesis and outline take
+    precedence and generic material must not silently substitute for either.
+16. Approved manuscripts and unapproved working comparison baselines are
+    distinct. Using a working revision for comparison does not approve it or
+    replace the approved manuscript pointer.
 
 ## Open editorial decision
 

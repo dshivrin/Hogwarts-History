@@ -7,6 +7,11 @@ Unified Expanded Edition bible, editorial policy, and edition style guide, and r
 into working rules. Chapter 1 supplies the voice baseline; later chapters may
 test the rules but may not change them locally.
 
+Evidence consolidation and stage gates are governed by
+`authoring/shared/evidence-policy.md` and
+`authoring/shared/chapter-workflow.md`. This style lock governs their prose-stage
+application rather than restating their evidence mechanics.
+
 ## Core baseline
 
 - **Audience:** Readers interested in the history and lore of Hogwarts; within
@@ -148,6 +153,10 @@ test the rules but may not change them locally.
   natural point and reduce the earlier occurrence to a brief contextual mention
   or remove it. Do not impose a mechanical one-mention limit or replace
   repetition with an “in other words” paragraph.
+- During review, assign every paragraph a short paragraph-purpose label. Treat
+  substantially identical labels as a consolidation warning unless the later
+  paragraph demonstrably adds a new consequence, distinction, contradiction,
+  chronology, or context.
 - Each section must perform a historical task and move the argument forward.
   Do not let an opening catalogue pre-empt later development or let one section
   end by summarising an argument the next section immediately restates. Avoid
@@ -165,6 +174,11 @@ test the rules but may not change them locally.
 - Never pad to meet a target length or invent comparable detail to make uneven
   biographies symmetrical. A short section is preferable to unsupported
   completeness.
+- Prefer positive history: establish what happened or what the evidence
+  supports before stating a meaningful limitation. Normally state one material
+  qualification once beside the claim it governs. Do not multiply caveats,
+  invent speculative possibilities merely to reject them, or turn missing
+  evidence into reader-facing filler.
 - Do not use drafting-room language such as “briefly used here”, “the source
   record tells us”, “the later consequences belong elsewhere”, “as established
   above”, or claims about what an editor, chapter, ledger, or prose passage
@@ -178,12 +192,19 @@ Before delivery, perform and record:
 2. a Bagshot-knowledge and editorial-addition attribution scan;
 3. an event-ownership and chronology check against neighbouring chapters;
 4. a claims-versus-evidence check;
-5. a folklore and provenance check; and
-6. a redundancy and narrative-flow pass that deletes or merges actual
-   repetition, confirms that each remaining recurrence adds something, checks
-   that sections advance and temporal pivots are clear, and ensures the final
-   transition respects the next chapter's verified scope without sacrificing
-   meaningful evidence distinctions merely to shorten the prose.
+5. a folklore and provenance check;
+6. a sentence-and-paragraph repetition check that removes restatement,
+   duplicated examples, repeated caveats, and repeated mini-conclusions;
+7. a chapter-level conceptual repetition check using paragraph-purpose labels
+   and section purposes;
+8. a cross-chapter repetition check against the exact baselines recorded in the
+   matching synthesis and audits; and
+9. a dedicated compression and narrative-flow pass that merges or removes
+   actual redundancy, confirms that each remaining recurrence adds something,
+   checks that sections advance and temporal pivots are clear, and ensures the
+   final transition respects the next chapter's verified scope without
+   sacrificing concrete history or meaningful evidence distinctions merely to
+   shorten the prose.
 
 Preserve Chapter 1's voice as the baseline, not every redundant device in an
 earlier revision. Historical truthfulness, readability, a consistent narrator,

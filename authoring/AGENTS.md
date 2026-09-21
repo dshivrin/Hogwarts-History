@@ -4,6 +4,15 @@ These instructions apply to every agent working anywhere under `authoring/`.
 The repository outside this directory is the canonical research/evidence layer.
 Authoring work consumes that layer; it does not rewrite it.
 
+## Required workflow authorities
+
+Before evidence selection, synthesis, outlining, drafting, revision, or audit
+work, read `authoring/shared/evidence-policy.md`,
+`authoring/shared/chapter-workflow.md`,
+`authoring/runtime/authoring-contract.md`, and the active draft's
+`style-lock.md`. Those files contain the operational rules; this file routes
+agents to them rather than duplicating them.
+
 ## Allowed work
 
 An authoring agent may:

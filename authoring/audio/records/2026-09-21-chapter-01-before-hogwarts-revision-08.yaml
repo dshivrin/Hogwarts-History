@@ -1,0 +1,90 @@
+schema_version: 1
+status: technically_verified_human_listen_pending
+created: 2026-09-21T09:20:00+03:00
+chapter:
+  number: 1
+  title: Before Hogwarts
+  approved_revision: 8
+source:
+  approved_path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-08.md
+  approved_sha256: 09b092f259b898814cb71ad35fd193d86a5f073413a9e6643b409fec3963797f
+  approved_size_bytes: 13539
+narration:
+  path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/narration.md
+  sha256: b007920847dcfb9485bd443a3eec932ca0ce58edcd16278466fa750c90047386
+  size_bytes: 11533
+  preparation_source_revision: 7
+  preparation_source_path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/final-draft-candidate-revision-07.md
+  prepared_sha256: 4e56b34c8b6b69760af1d07b84b60d6a2bf0f1b02c55aed65545c58824ac3fe4
+  current_represents_approved_revision: 8
+  update_method: persistent narration deliberately edited for revision 8; prepare was not rerun
+  provenance_path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/narration-provenance.yaml
+  provenance_sha256: 1e6e997f16e5f47a64a14eb2bef68838ce7cf927af09636ec0dfbd936cd57b31
+render:
+  engine: kokoro
+  model: mlx-community/Kokoro-82M-bf16
+  model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+  voice: bm_george
+  language: british-english
+  lang_code: b
+  speed: 0.96
+  chunk_max_words: 160
+  chunk_count: 21
+  duration_seconds: 737.975
+configuration:
+  narration_settings_sha256: 194d4e311fa95fc9cf1ce0309d396272def8849b0f2927300eaf16d8f8382abe
+  pronunciation_guide_sha256: 3023282372fd3ff4b6e2a7a6a510396e72b623cad8a9bfd292b18dc2bb207510
+outputs:
+  wav:
+    path: authoring/audio/output/chapter-01-before-hogwarts-revision-08-20260921-092000/chapter-01-before-hogwarts-revision-08.wav
+    sha256: f6d5bc87c053c57fbb8241665e4ea547eb8353c09187e1dfcd3cb2c4a470d644
+    size_bytes: 35422844
+    codec: pcm_s16le
+    sample_rate: 24000
+    channels: 1
+    bit_rate: 384000
+  mp3:
+    path: authoring/audio/output/chapter-01-before-hogwarts-revision-08-20260921-092000/chapter-01-before-hogwarts-revision-08.mp3
+    sha256: 783525226a79247cdfb0ce33737ec2a13fe025af2d0fdf04e8312d47098c4250
+    size_bytes: 2952332
+    codec: mp3
+    sample_rate: 24000
+    channels: 1
+    bit_rate: 32004
+versions:
+  python: 3.12.13
+  mlx_audio: 0.5.3
+  mlx: 0.32.2
+  misaki: 0.9.4
+  pyyaml: 6.0.2
+  numpy: 2.5.3
+  ffmpeg: 9.0.1
+  macos: 27.0
+runtime_evidence:
+  device: Device(gpu, 0)
+  gpu_selected: true
+  device_name: Apple M4 Pro
+  architecture: applegpu_g16s
+  audio_array_type: mlx.core.array
+  peak_memory_bytes: 3398753212
+verification:
+  approved_hash_match: true
+  narration_hash_matches_provenance_current: true
+  single_chapter_title: true
+  subtitles_absent: true
+  internal_metadata_absent: true
+  chunk_reconstruction: 21_chunks_once_in_order
+  shared_audio_tests: 69_of_69_passed
+  wav_full_decode: true
+  mp3_full_decode: true
+  metal_runtime_confirmed: true
+  human_full_listen: false
+artifacts:
+  render_manifest: authoring/audio/output/chapter-01-before-hogwarts-revision-08-20260921-092000/render-manifest.yaml
+  render_manifest_sha256: 6577ab6a0eb6af140efa58be684024ab97f8e14404b96b3c5e48072bf6ec254e
+  chunk_manifest: authoring/audio/output/chapter-01-before-hogwarts-revision-08-20260921-092000/chunks/chunk-manifest.yaml
+  chunk_manifest_sha256: ad473bee0d8f31836caf88c1f9feeaa14ccd36a44a0592ec57c5d1b6ad6f2806
+limitations:
+  - Subjective pronunciation, delivery, pacing, and audible-artifact review require a human full listen.
+  - The renderer retains immutable preparation lineage to revision 7; this record separately identifies the approved revision 8 manuscript represented by the deliberately updated persistent narration.
+  - The initial sandboxed render attempt failed before synthesis because no Metal device was available; the successful render used the Apple GPU outside that sandbox constraint.

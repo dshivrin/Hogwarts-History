@@ -1,0 +1,122 @@
+schema_version: 1
+chapter:
+  id: 3
+  number: 3
+  slug: the-founding-of-hogwarts
+  title: The Founding of Hogwarts
+edition: reconstructed-1984-foundation
+status: evidence_reviewed
+review_date: 2026-09-20
+research_basis:
+  - authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/preparation-package.md
+  - targeted compact-index queries for concealment, muggle-repelling, unplottable, apparition, school-site, scotland, castle, first-pupils, and founder-era
+  - direct review of selected canonical YAML, bounded novel PDF passages, and complete local external-source snapshots
+claims:
+  - id: C3-01
+    claim: Hogwarts was founded more than a thousand years ago, but no precise year is established.
+    classification: A
+    event_chronology: founder era; exact year unknown
+    knowledge_access: reconstructed_narrative
+    evidence_ids: [cos-ch09-003, gof-ch12-002]
+    limitations: No reviewed evidence supports a foundation year or a narrower century.
+  - id: C3-02
+    claim: Gryffindor, Hufflepuff, Ravenclaw, and Slytherin jointly built the castle in a remote place away from Muggle attention during an age of persecution.
+    classification: A
+    event_chronology: foundation
+    knowledge_access: reconstructed_narrative
+    evidence_ids: [cos-ch09-003]
+    limitations: Joint responsibility does not establish personal masonry, named builders, spells, duration, or a surviving original plan.
+  - id: C3-03
+    claim: Hogwarts is in Scotland, but the evidence does not disclose an exact site.
+    classification: A
+    event_chronology: enduring location
+    knowledge_access: later_clarification_of_pre_1984_fact
+    evidence_ids: [ext-b11-001, ext-b15-001]
+    limitations: Both carriers are authority-D preservation transcripts published after 1984; one is journalistic paraphrase and one preserves a direct answer.
+  - id: C3-04
+    claim: The founders sought children who showed magic, brought them to the castle, educated them, and worked together for several years.
+    classification: A
+    event_chronology: earliest operation
+    knowledge_access: reconstructed_narrative
+    evidence_ids: [cos-ch09-004]
+    limitations: Ages, cohort size, catchment, transport, timetable, curriculum, and a seven-year structure are not established.
+  - id: C3-05
+    claim: Hogwarts was concealed from Muggles; a Muggle approaching the school would see a dangerous ruin rather than the castle.
+    classification: A
+    event_chronology: established by the period described in the reconstructed book; origin unknown
+    knowledge_access: reconstructed_narrative
+    evidence_ids: [gof-ch11-005]
+    limitations: The passage does not date this particular enchantment or assign it to the founders.
+  - id: C3-06
+    claim: Unplottability is described as a possible concealment method for a magical school, but is not explicitly confirmed for Hogwarts in the reviewed passage.
+    classification: E
+    event_chronology: not applicable
+    knowledge_access: excluded
+    evidence_ids: [gof-ch11-005]
+    limitations: Do not state that Hogwarts is Unplottable from this evidence.
+  - id: C3-07
+    claim: Anti-Apparition protections existed at Hogwarts in the modern school.
+    classification: A
+    event_chronology: modern school; founder-era origin unknown
+    knowledge_access: reserved_for_later_chapter
+    evidence_ids: [gof-ch15-006, gof-ch29-001, hbp-ch04-001]
+    limitations: No reviewed evidence connects the protections to the foundation.
+  - id: C3-08
+    claim: At the castle's completion, the founders placed the Book of Admittance and Quill of Acceptance in a locked tower as Hogwarts's enduring selection mechanism.
+    classification: A
+    event_chronology: foundation and continuing operation
+    knowledge_access: later_clarification_of_pre_1984_fact
+    evidence_ids: [ext-a03-001, ext-a03-002, ext-a03-003, ext-a03-004]
+    limitations: The maker, precise magic, invitation process, transport, and relationship to founder travel are not stated.
+  - id: C3-09
+    claim: "The founders' personal search for pupils and the Book and Quill can coexist: selection of a name does not itself find, contact, or transport a child."
+    classification: B
+    event_chronology: earliest operation
+    knowledge_access: bounded_editorial_inference
+    evidence_ids: [cos-ch09-004, ext-a03-001, ext-a03-002]
+    limitations: No source describes the operational relationship or sequence in detail.
+  - id: C3-10
+    claim: Hankerton Humble is remembered as a caretaker appointed by all four founders.
+    classification: A
+    event_chronology: founder era
+    knowledge_access: later_clarification_of_pre_1984_fact
+    evidence_ids: [ext-a16-003]
+    limitations: The source does not call him the first caretaker or establish a larger original staff.
+  - id: C3-11
+    claim: Tradition holds that the founders jointly enchanted Gryffindor's hat so pupil selection could continue after their deaths.
+    classification: C
+    event_chronology: founder era; exact timing unknown
+    knowledge_access: attributed_tradition
+    evidence_ids: [gof-ch12-002, ootp-ch11-003, ext-a02-001, ext-a02-002]
+    limitations: Detailed House criteria, mechanics, ceremony, and later behaviour belong to Chapters 4 and 13.
+  - id: C3-12
+    claim: The Hogwarts Pensieve predates the school, and an unsubstantiated legend places its discovery at the chosen site.
+    classification: C
+    event_chronology: pre-foundation object and founder-era legend
+    knowledge_access: later_clarification_and_tradition
+    evidence_ids: [ext-a17-002, ext-a17-003]
+    limitations: Already treated in Chapter 1; omitted from Chapter 3 to avoid repetition and because it does not establish the reason for choosing the site.
+source_register:
+  novel_passages:
+    - source: Harry Potter and the Chamber of Secrets, chapter 9
+      evidence_ids: [cos-ch09-003, cos-ch09-004, cos-ch09-005]
+    - source: Harry Potter and the Goblet of Fire, chapters 11 and 12
+      evidence_ids: [gof-ch11-005, gof-ch12-002]
+    - source: Harry Potter and the Order of the Phoenix, chapter 11
+      evidence_ids: [ootp-ch11-003]
+    - source: Fantastic Beasts and Where to Find Them, chapter 2
+      evidence_ids: [fb-ch02-004]
+  official_retrospective_sources:
+    - source_id: A02
+      evidence_ids: [ext-a02-001, ext-a02-002]
+    - source_id: A03
+      evidence_ids: [ext-a03-001, ext-a03-002, ext-a03-003, ext-a03-004, ext-a03-005, ext-a03-006]
+    - source_id: A16
+      evidence_ids: [ext-a16-003]
+    - source_id: A17
+      evidence_ids: [ext-a17-002, ext-a17-003]
+  preservation_transcripts:
+    - source_id: B11
+      evidence_ids: [ext-b11-001]
+    - source_id: B15
+      evidence_ids: [ext-b15-001]

@@ -1,0 +1,86 @@
+schema_version: 1
+status: technically_verified_human_listen_pending
+created: 2026-09-21T09:20:00+03:00
+chapter:
+  number: 3
+  title: The Founding of Hogwarts
+  approved_revision: 2
+source:
+  approved_path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/draft-revision-02.md
+  approved_sha256: 13a759500686c771943b952fb174438901dae9717e3f69eb5650a08154fd1e20
+  approved_size_bytes: 10654
+narration:
+  path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/narration.md
+  sha256: d3c716c9ac43af97563f21a7f3b41fc5942d0ddafc717806c32296c6992d8e7b
+  size_bytes: 9129
+  prepared_sha256: d3c716c9ac43af97563f21a7f3b41fc5942d0ddafc717806c32296c6992d8e7b
+  preparation_source_revision: 2
+  provenance_path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/narration-provenance.yaml
+  provenance_sha256: 05e4b4d669d66bd536360fbe15495112c69b963c62ef65e5c85fadb529529034
+render:
+  engine: kokoro
+  model: mlx-community/Kokoro-82M-bf16
+  model_revision: a71e4d38b236d968966a2002c4c895dbd12b1c3c
+  voice: bm_george
+  language: british-english
+  lang_code: b
+  speed: 0.96
+  chunk_max_words: 160
+  chunk_count: 21
+  duration_seconds: 574.225
+configuration:
+  narration_settings_sha256: 194d4e311fa95fc9cf1ce0309d396272def8849b0f2927300eaf16d8f8382abe
+  pronunciation_guide_sha256: 3023282372fd3ff4b6e2a7a6a510396e72b623cad8a9bfd292b18dc2bb207510
+outputs:
+  wav:
+    path: authoring/audio/output/chapter-03-the-founding-of-hogwarts-revision-02-20260921-092000/chapter-03-the-founding-of-hogwarts-revision-02.wav
+    sha256: d905ce85cc5e668e4f4cea55a723f858315d3c10904e2afb0494394d43e7d332
+    size_bytes: 27562844
+    codec: pcm_s16le
+    sample_rate: 24000
+    channels: 1
+    bit_rate: 384000
+  mp3:
+    path: authoring/audio/output/chapter-03-the-founding-of-hogwarts-revision-02-20260921-092000/chapter-03-the-founding-of-hogwarts-revision-02.mp3
+    sha256: 6c3c8815fa088a34a8b0859e077d7dc018aedccb7eb5981b5e511390f730b900
+    size_bytes: 2297420
+    codec: mp3
+    sample_rate: 24000
+    channels: 1
+    bit_rate: 32007
+versions:
+  python: 3.12.13
+  mlx_audio: 0.5.3
+  mlx: 0.32.2
+  misaki: 0.9.4
+  pyyaml: 6.0.2
+  numpy: 2.5.3
+  ffmpeg: 9.0.1
+  macos: 27.0
+runtime_evidence:
+  device: Device(gpu, 0)
+  gpu_selected: true
+  device_name: Apple M4 Pro
+  architecture: applegpu_g16s
+  audio_array_type: mlx.core.array
+  peak_memory_bytes: 3335898472
+verification:
+  approved_hash_match: true
+  narration_hash_matches_prepared_and_current: true
+  single_chapter_title: true
+  subtitles_absent: true
+  internal_metadata_absent: true
+  chunk_reconstruction: 21_chunks_once_in_order
+  shared_audio_tests: 69_of_69_passed
+  wav_full_decode: true
+  mp3_full_decode: true
+  metal_runtime_confirmed: true
+  human_full_listen: false
+artifacts:
+  render_manifest: authoring/audio/output/chapter-03-the-founding-of-hogwarts-revision-02-20260921-092000/render-manifest.yaml
+  render_manifest_sha256: e3260004d1f6199d0b691fc3a8b211298ec3896d3a2688dda76b978fce34be8b
+  chunk_manifest: authoring/audio/output/chapter-03-the-founding-of-hogwarts-revision-02-20260921-092000/chunks/chunk-manifest.yaml
+  chunk_manifest_sha256: 6e426fd332bba9a0fdbd2be3ca8d5200b4a401ce51fcf96c1b73d3ebef249d48
+limitations:
+  - Subjective pronunciation, delivery, pacing, and audible-artifact review require a human full listen.
+  - The initial sandboxed Chapter 1 attempt established that Metal was unavailable in the sandbox; this successful render used the Apple GPU outside that sandbox constraint.

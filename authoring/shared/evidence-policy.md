@@ -52,6 +52,81 @@ Bagshot's plausible knowledge; a lower-authority carrier may still preserve
 useful testimony; and a duplicate may strengthen a claim without deserving
 repeated prose.
 
+## Evidence consolidation
+
+Raw selected evidence is not chapter structure. Before outlining, consolidate
+the selected evidence into the smallest set of historically meaningful claims
+that preserves every material distinction. The number of evidence entries does
+not determine the amount of prose: several entries may support one claim, while
+one unusually consequential source may require substantial treatment.
+
+Similarity alone is not enough to merge entries. For each proposed group,
+determine whether the sources:
+
+- establish the same fact;
+- independently confirm it;
+- add a distinct detail or chronology;
+- limit or qualify its interpretation;
+- conflict with it; or
+- merely concern the same subject while supporting different claims.
+
+Conceptual consolidation must never erase provenance. Retain every evidence ID
+and assign each source its function under the claim it supports. Use source
+roles such as `establishes`, `independently_confirms`, `adds_detail`,
+`adds_chronology`, `limits_interpretation`,
+`later_retrospective_confirmation`, `attributed_tradition`, and `conflicts`.
+These roles describe a source's contribution; they do not replace the existing
+confidence, chronology, knowledge-access, or authority classifications.
+
+Each consolidated claim must state the historical conclusion, classification,
+supporting evidence with source roles, limitations, intended primary section,
+cross-chapter status, and exactly one disposition:
+
+- `advance_to_outline` — supported and in scope for the current revision;
+- `omit_from_revision` — unnecessary or unsupported material excluded from the
+  current revision;
+- `defer` — valid or potentially useful material reserved for another chapter
+  or revision; or
+- `blocked_pending_verification` — material that cannot advance until a
+  specified source question is resolved.
+
+## Verification without assumption
+
+If the relationship between sources cannot be established from inspected
+material, record `VERIFY_SOURCE_RELATIONSHIP`. If a claim depends on source
+content that has not been inspected, record `VERIFY_SOURCE`. Each entry must
+identify the evidence and source IDs, the exact passage or fact to inspect, the
+exact question, why the answer matters, the affected claim, and one scope:
+
+- `blocking` — the affected claim cannot enter an outline or manuscript until
+  the question is resolved;
+- `omittable` — exclude the unsupported detail; an independently supported
+  remainder of the claim may proceed; or
+- `deferable` — move the affected claim or material to deferred evidence and
+  exclude it from the current outline and manuscript.
+
+Never fill an unresolved relationship or missing passage from memory,
+inference, assumed canon, fan-maintained reference material, or similarity of
+wording. An unresolved item blocks only the material it governs unless that
+material is necessary to the chapter's chronology, argument, or structure.
+
+## Evidence-coverage reconciliation
+
+Every evidence ID in the chapter's selected evidence must appear in at least
+one of:
+
+- a consolidated claim;
+- a source-verification item; or
+- deferred evidence.
+
+An ID may appear in more than one destination. The requirement is coverage,
+not a one-to-one partition. A synthesis with an orphaned selected evidence ID
+cannot pass validation.
+
+Deferred evidence must retain the evidence ID, the reason for deferral, and the
+likely future topic or chapter. Deferral preserves relevant evidence without
+forcing it into the current manuscript or discarding it.
+
 ## Required chapter-level classifications
 
 For every material chapter claim, record both:

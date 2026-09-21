@@ -63,6 +63,14 @@ The existing twenty-chapter structure in
 editor explicitly revises it. Substantial later developments may be placed in
 chapter addenda without changing that structure.
 
-Evidence selection and review precede outlining. An outline must be reviewed
-before it becomes `outline_approved`, and prose drafting may begin only after
-that approval.
+Evidence selection and review precede evidence synthesis. A synthesis must
+consolidate selected evidence into validated historical claims before any new
+outline or prose is created. An outline must be built from that validated claim
+set and reviewed before it becomes `outline_approved`; prose drafting may begin
+only after that approval.
+
+Existing manuscripts, approved artifacts, and historical working files remain
+part of the editorial record and must not be overwritten by a new revision. An
+approved manuscript remains authoritative until explicit editorial approval
+replaces it. An audited but unapproved revision may serve as a working
+comparison baseline without becoming the approved manuscript.
