@@ -1,5 +1,22 @@
 # Project instructions
 
+## Canonical repository runtime
+
+Repository Python tooling uses `.venv/bin/python`. Do not use `python` or
+`python3` to determine whether repository dependencies are installed. Prefer
+supported root `just` recipes when available. The audiobook and fan-work
+environments remain separate and keep their own interpreter rules.
+
+Before writing a repository helper script:
+
+1. inspect the root `Justfile`;
+2. inspect the active tooling and runtime documentation;
+3. search the existing `scripts/` tree.
+
+Routine repository operations must use permanent tooling when it exists. Do not
+create disposable Python files for supported queries, status inspection, hash
+verification, validation, or extraction.
+
 `authoring/AGENTS.md` governs every task under `authoring/` and takes
 precedence for authoring work. Do not modify the research/evidence layer
 outside `authoring/` while preparing narration.

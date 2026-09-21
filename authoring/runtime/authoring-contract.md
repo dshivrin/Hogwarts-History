@@ -44,3 +44,19 @@ writer prompt.
 Chapter tasks must follow the state model and artifact sequence in
 `authoring/shared/chapter-workflow.md`. Research defects found in the process are
 recorded in authoring artifacts rather than repaired in canonical research files.
+
+## Read-only startup and control checks
+
+Before beginning an authorized chapter task, use the permanent command surface:
+
+```sh
+just doctor
+just author-status CHAPTER_NUMBER
+just author-next
+```
+
+Use `just chapter-approved CHAPTER_NUMBER` to resolve the authoritative approved
+artifact. Use `just chapter-hashes CHAPTER_NUMBER` to inspect recorded and current
+hashes, and `just verify-chapter CHAPTER_NUMBER` to fail on missing or mismatched
+controlled artifacts. These commands inspect state only; they never advance a
+chapter, create a brief, or modify an approved pointer.

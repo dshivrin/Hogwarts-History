@@ -8,6 +8,10 @@ default:
 tools:
     ./scripts/check-cli-tools.sh
 
+# Check the maintained repository runtime without changing it
+doctor:
+    .venv/bin/python scripts/project_doctor.py
+
 # Install Python dependencies into the existing virtual environment
 setup:
     .venv/bin/python -m pip install -r requirements.txt
@@ -104,3 +108,39 @@ query-dupes *tags:
 # Query indexed entries by one tag
 query-entries tag:
     .venv/bin/python scripts/query_entries.py --tag "{{tag}}"
+
+# Query indexed evidence using reusable query_entries.py filters
+query *args:
+    .venv/bin/python scripts/query_entries.py {{args}}
+
+# Show one chapter's authoring state
+author-status chapter:
+    .venv/bin/python scripts/authoring_status.py status "{{chapter}}"
+
+# Show the next planned chapter after the highest started chapter
+author-next:
+    .venv/bin/python scripts/authoring_status.py next
+
+# Resolve one chapter's approved manuscript pointer
+chapter-approved chapter:
+    .venv/bin/python scripts/authoring_status.py approved "{{chapter}}"
+
+# Display recorded and current hashes for one chapter
+chapter-hashes chapter:
+    .venv/bin/python scripts/authoring_status.py hashes "{{chapter}}"
+
+# Verify recorded authoring paths and hashes for one chapter
+verify-chapter chapter:
+    .venv/bin/python scripts/authoring_status.py verify "{{chapter}}"
+
+# Show bounded read-only context for one chapter
+author-brief-context chapter:
+    .venv/bin/python scripts/authoring_status.py brief-context "{{chapter}}"
+
+# Extract an inclusive text-PDF page range
+extract-text pdf start end output:
+    .venv/bin/python scripts/extract_pages.py --pdf "{{pdf}}" --start-page "{{start}}" --end-page "{{end}}" --output "{{output}}"
+
+# Render an inclusive PDF page range as JPEG images with Poppler
+render-pages pdf start end prefix resolution="180":
+    pdftoppm -f "{{start}}" -l "{{end}}" -jpeg -r "{{resolution}}" "{{pdf}}" "{{prefix}}"

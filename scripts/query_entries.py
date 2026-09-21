@@ -14,9 +14,12 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(description=__doc__, allow_abbrev=False)
     parser.add_argument("--root", type=Path, default=ROOT)
-    parser.add_argument("--tag")
+    parser.add_argument("--id", dest="entry_id")
+    parser.add_argument("--source")
+    parser.add_argument("--chapter")
+    parser.add_argument("--tag", action="append", dest="tags")
     parser.add_argument("--classification")
     parser.add_argument("--reference-type")
     parser.add_argument("--confidence")
@@ -36,8 +39,17 @@ def load_yaml(path: Path) -> dict:
 
 def matches(row: dict, args: argparse.Namespace) -> bool:
     tags = {str(tag) for tag in row.get("tags") or []}
+    requested_tags = {str(tag) for tag in args.tags or []}
+    chapter = str(args.chapter or "").lower()
+    chapter_fields = " ".join(
+        str(row.get(key) or "")
+        for key in ("source_unit", "output_yaml", "title")
+    ).lower()
     checks = [
-        args.tag is None or args.tag in tags,
+        not requested_tags or requested_tags.issubset(tags),
+        args.source is None
+        or args.source in {row.get("source_id"), row.get("source_unit")},
+        not chapter or chapter in chapter_fields,
         args.classification is None or row.get("classification") == args.classification,
         args.reference_type is None or row.get("reference_type") == args.reference_type,
         args.confidence is None or row.get("confidence") == args.confidence,
@@ -51,6 +63,8 @@ def query(root: Path, args: argparse.Namespace) -> dict:
     entry_index = load_yaml(root / "project-control" / "entry-index.yaml")
     rows = []
     for entry_id, row in sorted((entry_index.get("by_entry") or {}).items()):
+        if args.entry_id is not None and entry_id != args.entry_id:
+            continue
         if not isinstance(row, dict) or not matches(row, args):
             continue
         rows.append(
@@ -70,7 +84,11 @@ def query(root: Path, args: argparse.Namespace) -> dict:
 
     return {
         "query": {
-            "tag": args.tag,
+            "id": args.entry_id,
+            "source": args.source,
+            "chapter": args.chapter,
+            "tag": (args.tags or [None])[0] if len(args.tags or []) <= 1 else None,
+            "tags": args.tags or [],
             "classification": args.classification,
             "reference_type": args.reference_type,
             "confidence": args.confidence,

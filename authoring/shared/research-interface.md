@@ -24,7 +24,7 @@ edition's `table-of-contents.yaml`.
 ```text
 concept
 ↓
-query_entries.py / just query-entries
+just query / just query-entries
 ↓
 candidate evidence IDs
 ↓
@@ -39,11 +39,20 @@ For a common tag, use the stable command surface:
 just query-entries <tag>
 ```
 
-For narrower combinations supported by the underlying query tool, use
-`scripts/query_entries.py` with classification, reference-type, confidence,
-source-unit, output-YAML, or result-limit filters. Query results provide evidence
-IDs and `output_yaml` paths; open only the exact canonical YAML records needed to
-assess the claim.
+For entry, source, chapter/source-unit, or combined-tag lookup, use the reusable
+query interface:
+
+```sh
+just query --id <entry-id>
+just query --source <source-id>
+just query --chapter <chapter-or-source-unit>
+just query --tag <tag> --tag <second-tag>
+```
+
+The underlying tool also supports classification, reference-type, confidence,
+source-unit, output-YAML, and result-limit filters. Query results provide
+evidence IDs and `output_yaml` paths; open only the exact canonical YAML records
+needed to assess the claim.
 
 Use duplicate and corroboration lookup after likely tags are known:
 
@@ -73,3 +82,20 @@ decisions.
 
 If source review exposes a research defect or gap, record it in the chapter's
 authoring artifacts. Do not edit the research layer from an authoring task.
+
+## Authoring control and integrity
+
+Use the read-only authoring commands instead of parsing chapter control data or
+recreating hash scripts:
+
+```sh
+just author-status <chapter-number>
+just author-next
+just chapter-approved <chapter-number>
+just chapter-hashes <chapter-number>
+just verify-chapter <chapter-number>
+just author-brief-context <chapter-number>
+```
+
+`author-brief-context` prints bounded orientation only. It does not create or
+overwrite `brief.md` or any other authoring artifact.
