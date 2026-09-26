@@ -1,0 +1,205 @@
+schema_version: 1
+chapter:
+  id: 6
+  number: 6
+  slug: a-castle-unlike-any-other
+  title: A Castle Unlike Any Other
+edition: unified-expanded
+target_revision: 1
+status: evidence_selected
+review_date: 2026-09-22
+research_basis:
+  - targeted compact-index queries for magical-architecture, castle, Great Hall, staircases, doors, corridors, castle-navigation, concealed routes, hidden rooms, Room of Requirement, moving routes, towers, dungeons, plumbing, and architectural alteration
+  - direct inspection of the generated explicit Hogwarts: A History reference index
+  - duplicate and corroboration queries for the Great Hall ceiling, changing stairs and doors, responsive rooms, mapping limits, and layered Chamber architecture
+  - direct review of every selected canonical YAML record and its limitations
+  - comparison against the exact approved Chapter 1-5 baselines recorded in brief.md
+selection_principle: >-
+  Select the smallest set that supports a historical argument about Hogwarts as
+  changing, responsive, and layered architecture. Choose representative
+  examples that change the argument; defer room lists, crisis narratives,
+  grounds geography, and material owned by later thematic chapters.
+
+selected_evidence:
+  - id: ps-ch07-001
+    source: Harry Potter and the Philosopher's Stone, chapter 7
+    source_locator: PDF page 110, Great Hall entry before the Sorting
+    event_chronology: mature Hogwarts; enchantment origin undated
+    knowledge_access: original-book-core fact explicitly attributed to Hogwarts: A History
+    confidence: high
+    evidence_class: explicit_hogwarts_a_history_reference
+    why_it_matters: Establishes that the Great Hall ceiling is enchanted to resemble the outside sky and explicitly identifies Hogwarts: A History as the source.
+    limitations: Does not date, name the makers of, or explain the mechanism of the enchantment.
+
+  - id: ps-ch08-001
+    source: Harry Potter and the Philosopher's Stone, chapter 8
+    source_locator: PDF page 123, first-week navigation description
+    event_chronology: observed in 1991; origins undated
+    knowledge_access: Harry-era confirmation of established castle conditions
+    confidence: high
+    evidence_class: direct_narrative_observation
+    why_it_matters: Gives the strongest compact evidence for 142 staircases, route changes, a vanishing step, doors requiring unusual interaction, apparent doors that are walls, and mobile portraits and armour.
+    limitations: Does not prove that every staircase moves, date any feature, or distinguish deliberate design from later enchantment.
+
+  - id: poa-ch06-002
+    source: Harry Potter and the Prisoner of Azkaban, chapter 6
+    source_locator: PDF pages 655-657, route to North Tower
+    event_chronology: observed in 1993; route origins undated
+    knowledge_access: Harry-era confirmation
+    confidence: high
+    evidence_class: direct_narrative_observation
+    why_it_matters: Shows experienced pupils still struggling to find a tower classroom and records portrait-guided wayfinding plus a trapdoor that supplies a ladder when approached.
+    limitations: Does not date the route, portrait installation, trapdoor, or ladder enchantment.
+
+  - id: gof-ch25-005
+    source: Harry Potter and the Goblet of Fire, chapter 25
+    source_locator: PDF page 1337, tapestry shortcut and trick step
+    event_chronology: observed in 1995; origins undated
+    knowledge_access: Harry-era confirmation
+    confidence: high
+    evidence_class: direct_narrative_observation
+    why_it_matters: Demonstrates a concealed staircase shortcut and a recurring step hazard that navigation depends on remembering rather than merely seeing.
+    limitations: Does not identify an exact floor plan, maker, date, or purpose for the trick step.
+
+  - id: ootp-ch17-002
+    source: Harry Potter and the Order of the Phoenix, chapter 17
+    source_locator: PDF page 1909, Gryffindor dormitory staircase
+    event_chronology: founder-era rule enforced by a later-observed enchantment
+    knowledge_access: pre-1984 rule explicitly attributed to Hogwarts: A History; physical operation observed later
+    confidence: high
+    evidence_class: explicit_hogwarts_a_history_reference_and_observation
+    why_it_matters: Shows architecture actively enforcing an inherited institutional rule by converting a staircase into a slide for a disallowed user.
+    limitations: The observation is limited to the Gryffindor girls' dormitory staircase and does not date the present mechanism or prove equivalent design in every House.
+
+  - id: poa-ch10-003
+    source: Harry Potter and the Prisoner of Azkaban, chapter 10
+    source_locator: PDF pages 733-734, first activation of the Marauder's Map
+    event_chronology: map observed in 1993; creation date not established by this entry
+    knowledge_access: later observation of a magical map whose origin is not dated here
+    confidence: high
+    evidence_class: direct_narrative_observation
+    why_it_matters: Establishes that Hogwarts can be represented magically in considerable detail, including occupants and secret passages, creating a useful contrast with later blind spots.
+    limitations: Does not identify the mapmakers or date here and does not prove that every route or room appears on the map.
+
+  - id: gof-ch23-004
+    source: Harry Potter and the Goblet of Fire, chapter 23
+    source_locator: PDF page 1296, Dumbledore's chamber-pot room anecdote
+    event_chronology: encounter before or during 1994; room origin undated
+    knowledge_access: Harry-era headmaster testimony; later editorial use only
+    confidence: high
+    evidence_class: character_testimony
+    why_it_matters: Records even a headmaster encountering an unknown room that supplied what he needed and later vanished, establishing limits on official knowledge of the castle.
+    limitations: The visit is reported in conversation rather than directly observed in the chapter, and the room is not yet named there.
+
+  - id: ootp-ch18-005
+    source: Harry Potter and the Order of the Phoenix, chapter 18
+    source_locator: PDF page 1941, Dobby's explanation of the Come and Go Room
+    event_chronology: operation observed in 1995; origin undated
+    knowledge_access: later house-elf testimony and Harry-era confirmation
+    confidence: high
+    evidence_class: character_testimony
+    why_it_matters: Names the Room of Requirement, states that real need governs appearance, and explains that the room equips itself for the seeker's need while remaining unknown to most.
+    limitations: Dobby is the principal source for the rule and the passage does not establish who created the room or when.
+
+  - id: ootp-ch18-006
+    source: Harry Potter and the Order of the Phoenix, chapter 18
+    source_locator: PDF page 1943, seventh-floor entrance and defensive classroom configuration
+    event_chronology: observed in 1995; origin undated
+    knowledge_access: Harry-era confirmation
+    confidence: high
+    evidence_class: direct_narrative_observation
+    why_it_matters: Gives a repeatable access procedure and shows the same blank wall producing a fully equipped room for a particular purpose.
+    limitations: The defensive contents belong to one requested configuration and are not permanent furnishings.
+
+  - id: hbp-ch21-004
+    source: Harry Potter and the Half-Blood Prince, chapter 21
+    source_locator: PDF page 2796, failed access and Marauder's Map blind spot
+    event_chronology: observed in 1997; underlying room older but undated
+    knowledge_access: Harry-era confirmation; later editorial use only
+    confidence: high
+    evidence_class: observation_and_reasoned_character_inference
+    why_it_matters: Shows that an imprecise seeker may fail to enter the desired configuration and that the active room can escape the Marauder's Map, qualifying any claim that Hogwarts is completely mappable.
+    limitations: The Unplottable explanation is Hermione's reasoned proposal rather than a technical account from a creator or custodian.
+
+  - id: hbp-ch24-005
+    source: Harry Potter and the Half-Blood Prince, chapter 24
+    source_locator: PDF page 2858, Room of Hidden Things
+    event_chronology: generations of accumulation observed in 1997; starting date unknown
+    knowledge_access: Harry-era confirmation of a long-lived condition
+    confidence: high
+    evidence_class: direct_narrative_observation
+    why_it_matters: Shows one configuration holding objects hidden by generations, turning a responsive room into an unintended archive of school inhabitants.
+    limitations: Individual objects are unevenly identified and the passage does not date the room's origin or earliest deposit.
+
+  - id: ext-a14-003
+    source: A14, The Mirror of Erised, official Rowling original
+    source_locator: second paragraph, Mirror storage in the Room of Requirement
+    event_chronology: approximately a century of storage before Dumbledore retrieved the Mirror
+    knowledge_access: later official retrospective about pre-1984 use
+    confidence: high
+    evidence_class: later_retrospective_confirmation
+    why_it_matters: Provides the strongest bounded chronology for long-term pre-Harry use of the Room of Requirement as concealed storage.
+    limitations: “A century or so” is approximate and the account does not identify who placed the Mirror there or how the room was accessed.
+
+  - id: ext-a01-002
+    source: A01, Chamber of Secrets, official Rowling original
+    source_locator: paragraph 6, eighteenth-century plumbing alteration
+    event_chronology: founder-era access overlaid by eighteenth-century plumbing
+    knowledge_access: later official retrospective only
+    confidence: high
+    evidence_class: later_retrospective_confirmation
+    why_it_matters: Gives the clearest dated example of new construction threatening an older route and of a later inhabitant secretly adapting the old entrance beneath new facilities.
+    limitations: Gives no exact year, plan, or magical method; Chapter 5 owns the surrounding Chamber narrative.
+
+  - id: ootp-ch27-001
+    source: Harry Potter and the Order of the Phoenix, chapter 27
+    source_locator: PDF page 2146, classroom eleven adapted for Firenze
+    event_chronology: room refitted in 1996
+    knowledge_access: later historical event; editorial use only
+    confidence: high
+    evidence_class: direct_narrative_observation
+    why_it_matters: Supplies a rare explicit example of a little-used existing room being magically reconfigured into a forest-like environment for a new user and purpose.
+    limitations: Does not establish whether the change was permanent, who performed each charm, or whether classroom eleven itself was responsive.
+
+  - id: ext-b01-003
+    source: B01, Scholastic.com live chat preservation transcript
+    source_locator: 2000 floor-plan question and answer
+    event_chronology: author commentary published in 2000 about the fictional castle
+    knowledge_access: later out-of-universe editorial commentary only
+    confidence: medium
+    evidence_class: preservation_transcription
+    why_it_matters: Attributes the absence of a fixed Hogwarts floor plan to moving staircases and rooms.
+    limitations: Authority-D preservation carrier; informal author commentary rather than an in-universe historical record or technical plan.
+
+  - id: ext-b03-001
+    source: B03, AOL live chat preservation transcript
+    source_locator: 2000 map-or-blueprint question and answer
+    event_chronology: author commentary published in 2000 about the fictional castle
+    knowledge_access: later out-of-universe editorial commentary only
+    confidence: medium
+    evidence_class: preservation_transcription
+    why_it_matters: Independently repeats the claim that shifting staircases, unexpectedly appearing rooms, and other moving features defeat a fixed blueprint.
+    limitations: Authority-D preservation carrier and conceptual duplicate of ext-b01-003; use only as corroboration for an editorial conclusion.
+
+searched_but_not_selected:
+  - topic: common rooms, dormitories, kitchens, offices, towers, dungeons, bathrooms, and classroom catalogue
+    disposition: defer
+    reason: Representative thresholds and routes advance the architectural argument; a comprehensive inventory would duplicate Houses, education, pupil life, governance, and later thematic chapters.
+  - topic: external tunnels to Hogsmeade, the Shrieking Shack, the grounds, and the lake
+    disposition: defer
+    reason: The surrounding geography and external boundaries belong to Chapter 7; Chapter 6 retains only internal architectural implications.
+  - topic: portraits, ghosts, and poltergeists as residents or agents
+    disposition: defer
+    reason: Their nature and institutional memory belong to Chapter 12; portrait-guided navigation appears only incidentally in poa-ch06-002.
+  - topic: general protective enchantments, anti-Apparition, Muggle concealment, and battle defenses
+    disposition: defer
+    reason: Protection may be mentioned only where inseparable from a threshold; a defence survey belongs later.
+  - topic: Chamber discovery, Basilisk, victims, and later crises
+    disposition: defer
+    reason: Chapter 5 owns the Chamber narrative. Chapter 6 reuses only ext-a01-002 for the distinct historical function of showing architectural layering.
+  - topic: Room of Requirement wartime refuge, moving exit, cabinet breach, and battle use
+    disposition: defer
+    reason: The selected evidence already establishes responsiveness, mapping limits, and accumulation without turning the chapter into modern crisis history.
+  - topic: house-elf labour and kitchen operation beneath the Great Hall
+    disposition: defer
+    reason: The reconstruction's documented silence and later chapter boundaries make this unsuitable for the current architectural argument.

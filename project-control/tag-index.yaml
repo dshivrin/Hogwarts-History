@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-09-17'
+updated: '2026-09-23'
 tags:
   '1402':
     entries:
@@ -3723,6 +3723,11 @@ tags:
     output_yaml:
     - sources/book-02/chapter-10-the-rogue-bludger.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
+  collective-performance:
+    entries:
+    - ps-ch07-003
+    output_yaml:
+    - sources/book-01/chapter-07-sorting-hat.yaml
   colloportus:
     entries:
     - ootp-ch35-003
@@ -5165,6 +5170,7 @@ tags:
   death:
     entries:
     - beedle-ch04-001
+    - beedle-ch04-007
     - ext-b17-001
     - ootp-ch38-006
     output_yaml:
@@ -9206,9 +9212,11 @@ tags:
     - sources/external/interviews/b01-scholastic-com-live-chat.yaml
   ghost-lore:
     entries:
+    - beedle-ch04-007
     - dh-ch31-002
     output_yaml:
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   ghost-society:
     entries:
     - cos-ch08-001
@@ -9223,6 +9231,7 @@ tags:
     - sources/book-02/chapter-09-the-writing-on-the-wall.yaml
   ghosts:
     entries:
+    - beedle-ch04-007
     - cc-p1-a2-s14-001
     - cc-p1-a2-s19-002
     - cc-p2-a3-s09-003
@@ -9259,6 +9268,7 @@ tags:
     - sources/book-07/chapter-17-bathilda-s-secret.yaml
     - sources/book-07/chapter-34-the-forest-again.yaml
     - sources/book-07/chapter-36-the-flaw-in-the-plan.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
     - sources/book-cc/chapter-33-p1-a2-s14.yaml
     - sources/book-cc/chapter-38-p1-a2-s19.yaml
     - sources/book-cc/chapter-48-p2-a3-s09.yaml
@@ -9744,6 +9754,7 @@ tags:
     - poa-ch15-006
     - poa-ch22-005
     - ps-ch07-001
+    - ps-ch07-003
     - ps-ch10-002
     - ps-ch12-001
     - ps-ch12-003
@@ -11626,6 +11637,7 @@ tags:
     - sources/book-06/chapter-13-the-secret-riddle.yaml
   historical-method:
     entries:
+    - ext-a17-005
     - hbp-ch13-002
     - hbp-ch17-003
     - hbp-ch20-001
@@ -11636,6 +11648,7 @@ tags:
     - sources/book-06/chapter-17-a-sluggish-memory.yaml
     - sources/book-06/chapter-20-lord-voldemort-s-request.yaml
     - sources/book-06/chapter-23-horcruxes.yaml
+    - sources/external/official-rowling/a17-pensieve.yaml
   historical-practice:
     entries:
     - ext-a21-002
@@ -13693,6 +13706,7 @@ tags:
     entries:
     - dh-ch08-001
     - ps-ch07-002
+    - ps-ch07-003
     output_yaml:
     - sources/book-01/chapter-07-sorting-hat.yaml
     - sources/book-07/chapter-08-the-wedding.yaml
@@ -16805,6 +16819,7 @@ tags:
     - cos-ch13-004
     - dh-ch33-002
     - ext-a17-004
+    - ext-a17-005
     - gof-ch30-002
     - hbp-ch10-004
     - hbp-ch17-003
@@ -19684,6 +19699,7 @@ tags:
     - ext-a17-002
     - ext-a17-003
     - ext-a17-004
+    - ext-a17-005
     - gof-ch30-002
     - hbp-ch10-004
     - hbp-ch13-001
@@ -20301,12 +20317,14 @@ tags:
     - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   portrait-lore:
     entries:
+    - beedle-ch04-007
     - cc-p2-a4-s04-002
     - dh-ch09-006
     - ext-a05-001
     - ext-a05-002
     output_yaml:
     - sources/book-07/chapter-09-a-place-to-hide.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
     - sources/book-cc/chapter-64-p2-a4-s04.yaml
     - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   portrait-mobility:
@@ -20340,6 +20358,7 @@ tags:
     - sources/external/official-rowling/a05-hogwarts-portraits.yaml
   portraits:
     entries:
+    - beedle-ch04-007
     - cc-p1-a2-s08-001
     - cc-p1-a2-s08-002
     - cc-p1-a2-s14-001
@@ -20388,6 +20407,7 @@ tags:
     - sources/book-07/chapter-31-the-battle-of-hogwarts.yaml
     - sources/book-07/chapter-32-the-elder-wand.yaml
     - sources/book-07/chapter-33-the-prince-s-tale.yaml
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
     - sources/book-cc/chapter-27-p1-a2-s08.yaml
     - sources/book-cc/chapter-33-p1-a2-s14.yaml
     - sources/book-cc/chapter-64-p2-a4-s04.yaml
@@ -20857,6 +20877,11 @@ tags:
     output_yaml:
     - sources/book-05/chapter-21-the-eye-of-the-snake.yaml
     - sources/book-07/chapter-11-the-bribe.yaml
+  preserved-memory:
+    entries:
+    - ext-a17-005
+    output_yaml:
+    - sources/external/official-rowling/a17-pensieve.yaml
   press-access:
     entries:
     - gof-ch24-004
@@ -20895,6 +20920,7 @@ tags:
   privacy:
     entries:
     - ext-a17-004
+    - ext-a17-005
     - ext-a23-003
     output_yaml:
     - sources/external/official-rowling/a17-pensieve.yaml
@@ -23630,6 +23656,11 @@ tags:
     - ext-a17-003
     output_yaml:
     - sources/external/official-rowling/a17-pensieve.yaml
+  school-song:
+    entries:
+    - ps-ch07-003
+    output_yaml:
+    - sources/book-01/chapter-07-sorting-hat.yaml
   school-songs:
     entries:
     - ootp-ch30-003
@@ -23714,9 +23745,11 @@ tags:
     - cos-ch08-004
     - cos-ch11-001
     - cos-ch12-003
+    - ps-ch07-003
     - ps-ch10-002
     - ps-ch12-003
     output_yaml:
+    - sources/book-01/chapter-07-sorting-hat.yaml
     - sources/book-01/chapter-10-halloween.yaml
     - sources/book-01/chapter-12-mirror-of-erised.yaml
     - sources/book-02/chapter-08-the-deathday-party.yaml
@@ -25929,6 +25962,7 @@ tags:
   start-of-term-banquet:
     entries:
     - ps-ch07-002
+    - ps-ch07-003
     output_yaml:
     - sources/book-01/chapter-07-sorting-hat.yaml
   start-of-term-feast:
@@ -26915,6 +26949,11 @@ tags:
     - ootp-ch14-003
     output_yaml:
     - sources/book-05/chapter-14-percy-and-padfoot.yaml
+  subconscious:
+    entries:
+    - ext-a17-005
+    output_yaml:
+    - sources/external/official-rowling/a17-pensieve.yaml
   substitute-teacher:
     entries:
     - gof-ch24-001
@@ -30162,6 +30201,11 @@ tags:
     - fb-ch07-007
     output_yaml:
     - sources/book-fb/chapter-07-bestiary-i-to-q.yaml
+  wizarding-photographs:
+    entries:
+    - beedle-ch04-007
+    output_yaml:
+    - sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   wizarding-politics:
     entries:
     - dh-ch18-006

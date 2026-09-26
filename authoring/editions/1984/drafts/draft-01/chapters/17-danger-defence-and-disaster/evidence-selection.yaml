@@ -1,0 +1,288 @@
+schema_version: 1
+chapter:
+  id: 17
+  number: 17
+  slug: danger-defence-and-disaster
+  title: Danger, Defence and Disaster
+edition: unified-expanded
+target_revision: 1
+status: evidence_selected
+selected_at: 2026-09-23
+selection_principle: >-
+  Select evidence only when it reveals a Hogwarts mechanism of prevention,
+  containment, supervision, recovery, crisis response or adaptation, or when a
+  failure exposes an assumption on which such a mechanism depended. Prefer
+  historically informative cases to exhaustive incident lists. Preserve the
+  1984 knowledge boundary and keep later observations, later historical
+  discoveries and later crises explicit. Defer material already owned by the
+  grounds, governance, education, pupil-life, portrait, Quidditch and
+  Tournament chapters unless Chapter 17 gives it a demonstrably new
+  risk-management function.
+cutoff_key:
+  1: pre-1984 / original-book candidate
+  2: later-carried historical evidence about pre-1984 Hogwarts
+  3: post-1984 observation useful for reconstructing an older institution
+  4: later editorial history
+  5: exclude from the 1984 reconstruction
+
+selected_evidence:
+  - id: poa-ch09-001
+    cluster: standing_protections
+    cutoff_classification: "1 — pre-1984 / original-book candidate"
+    confidence: high
+    rationale: "Explicit attribution to Hogwarts: A History for protections beyond walls, anti-Apparition and guarded routes."
+  - id: gof-ch11-005
+    cluster: standing_protections
+    cutoff_classification: "1 — pre-1984 / original-book candidate"
+    confidence: high
+    rationale: "Explicit attribution to Hogwarts: A History for concealment from Muggle discovery; does not prove Unplottability."
+  - id: ext-a04-001
+    cluster: standing_protections
+    cutoff_classification: "2 — later-carried historical evidence about pre-1984 Hogwarts"
+    confidence: high
+    rationale: Later official retrospective describing anti-Apparition protection of castle and grounds as longstanding.
+  - id: hbp-ch18-003
+    cluster: standing_protections
+    cutoff_classification: "3 — post-1984 observation useful for reconstructing an older institution"
+    confidence: high
+    rationale: Demonstrates that the anti-Apparition restriction can be locally and temporarily relaxed under supervision.
+
+  - id: ps-ch08-003
+    cluster: restriction_containment_and_supervision
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: A clearly dated, temporary corridor prohibition; not evidence of an old permanent boundary.
+  - id: ps-ch09-007
+    cluster: restriction_containment_and_supervision
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Shows a one-year hazard contained behind a locked route and warning rather than removed.
+  - id: ps-ch15-005
+    cluster: restriction_containment_and_supervision
+    cutoff_classification: "3 — post-1984 observation useful for reconstructing an older institution"
+    confidence: high
+    rationale: Shows supervised access, grouping and distress signals within a normally forbidden area.
+  - id: poa-ch18-003
+    cluster: restriction_containment_and_supervision
+    cutoff_classification: "2 — later-carried historical evidence about pre-1984 Hogwarts"
+    confidence: high
+    rationale: Establishes a headmaster-authorised containment route created for a dangerous pupil condition.
+  - id: poa-ch18-007
+    cluster: restriction_containment_and_supervision
+    cutoff_classification: "2 — later-carried historical evidence about pre-1984 Hogwarts"
+    confidence: high
+    rationale: Records a near-fatal bypass of that containment and a secrecy response, but no recorded physical reform.
+  - id: poa-ch06-006
+    cluster: restriction_containment_and_supervision
+    cutoff_classification: "3 — post-1984 observation useful for reconstructing an older institution"
+    confidence: high
+    rationale: Representative supervised creature lesson in which procedure, not removal of danger, is the first safeguard.
+
+  - id: poa-ch06-007
+    cluster: recovery_and_accountability
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Links a lesson injury to hospital care, witness evidence, teacher accountability and governor notification.
+  - id: cos-ch10-005
+    cluster: recovery_and_accountability
+    cutoff_classification: "3 — post-1984 observation useful for reconstructing an older institution"
+    confidence: high
+    rationale: Demonstrates extensive internal treatment, overnight recovery and matron control of access.
+  - id: ootp-ch32-001
+    cluster: recovery_and_accountability
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Establishes a limit of internal care through transfer to St Mungo's after severe spell injury.
+  - id: cos-ch16-002
+    cluster: recovery_and_accountability
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Shows staff cultivating a magical remedy for victims while the underlying threat remained unresolved.
+
+  - id: beedle-ch02-004
+    cluster: pantomime_incident_and_staff_accountability
+    cutoff_classification: "2 — later-carried historical evidence about pre-1984 Hogwarts"
+    confidence: high
+    rationale: Establishes dangerous creature use, fire, injury and evacuation in a pre-1984 staff-led activity.
+  - id: beedle-ch02-005
+    cluster: pantomime_incident_and_staff_accountability
+    cutoff_classification: "2 — later-carried historical evidence about pre-1984 Hogwarts"
+    confidence: high
+    rationale: Establishes hospital consequences, Kettleburn's probation and Dippet's prohibition of future pantomimes.
+  - id: beedle-ch02-006
+    cluster: pantomime_incident_and_staff_accountability
+    cutoff_classification: "2 — later-carried historical evidence about pre-1984 Hogwarts"
+    confidence: high
+    rationale: Gives the later claim of sixty-two probation periods while leaving their dates and conditions unknown.
+  - id: ext-a13-002
+    cluster: pantomime_incident_and_staff_accountability
+    cutoff_classification: "2 — later-carried historical evidence about pre-1984 Hogwarts"
+    confidence: high
+    rationale: Later official carrier of Kettleburn's exceptional probation history.
+
+  - id: cos-ch09-006
+    cluster: chamber_and_unlocated_threat
+    cutoff_classification: "2 — later-carried historical evidence about pre-1984 Hogwarts"
+    confidence: medium
+    rationale: Preserves the institutional claim that repeated expert and headmaster searches found no Chamber, later disproved.
+  - id: cos-ch13-007
+    cluster: chamber_and_unlocated_threat
+    cutoff_classification: "2 — later-carried historical evidence about pre-1984 Hogwarts"
+    confidence: high
+    rationale: Provides a 1943 leadership decision shaped by attacks, death and possible Ministry closure.
+  - id: cos-ch14-004
+    cluster: chamber_and_unlocated_threat
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Shows escalating 1992 restrictions, escorts, cancelled activities and a renewed closure threat.
+  - id: cos-ch16-004
+    cluster: chamber_and_unlocated_threat
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Shows teacher escort and patrol as behavioural control when the danger could not be located.
+  - id: cos-ch16-005
+    cluster: chamber_and_unlocated_threat
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Shows dormitory confinement, staff notification and evacuation planning after escalation.
+  - id: cos-ch17-006
+    cluster: chamber_and_unlocated_threat
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Supplies later knowledge of the hidden threat and its access mechanism; unavailable to a 1984 reconstruction.
+
+  - id: ps-ch04-005
+    cluster: external_threats_and_security_tradeoffs
+    cutoff_classification: "2 — later-carried historical evidence about pre-1984 Hogwarts"
+    confidence: medium
+    rationale: Later oral testimony for Hogwarts's First-War safety reputation and Dumbledore's deterrent role, not its exact protections.
+  - id: poa-ch09-002
+    cluster: external_threats_and_security_tradeoffs
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Shows concentration of pupils, delegated guarding, messaging and staff search during an internal-entry crisis.
+  - id: poa-ch09-004
+    cluster: external_threats_and_security_tradeoffs
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Shows the headmaster limiting an external security force at the castle threshold.
+  - id: poa-ch13-007
+    cluster: external_threats_and_security_tradeoffs
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: A current password list defeats an access control that distinguishes credentials rather than identity or intent.
+  - id: poa-ch19-007
+    cluster: external_threats_and_security_tradeoffs
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: An unregistered Animagus form evades the surrounding guards, exposing a detection assumption.
+  - id: poa-ch22-002
+    cluster: external_threats_and_security_tradeoffs
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: The external protective force becomes a danger to pupils and is removed.
+
+  - id: hbp-ch08-002
+    cluster: wartime_hardening_and_internal_breach
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Records chained and enchanted gates, wall jinxes and resistance to ordinary unlocking during wartime hardening.
+  - id: hbp-ch08-006
+    cluster: wartime_hardening_and_internal_breach
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Explicitly identifies strengthened fortifications and adds behaviour-dependent reporting rules.
+  - id: hbp-ch11-007
+    cluster: wartime_hardening_and_internal_breach
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Shows screening at entry and inspection of deliveries during exceptional threat.
+  - id: hbp-ch12-006
+    cluster: wartime_hardening_and_internal_breach
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: A cursed object nearly reaches Hogwarts through a pupil despite external screening.
+  - id: hbp-ch12-007
+    cluster: wartime_hardening_and_internal_breach
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Shows isolation, specialist inspection, witness statements and medical follow-up after the failure.
+  - id: hbp-ch27-005
+    cluster: wartime_hardening_and_internal_breach
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: A paired Vanishing Cabinet creates a route from an external shop to a concealed room inside the school.
+  - id: hbp-ch29-003
+    cluster: wartime_hardening_and_internal_breach
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Defender debrief shows that known passages and corridors were covered while an unknown internal route defeated the plan.
+
+  - id: dh-ch30-004
+    cluster: siege_evacuation_and_recovery
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Shows improvised evacuation through a hidden passage because ordinary magical travel was constrained.
+  - id: dh-ch30-006
+    cluster: siege_evacuation_and_recovery
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Separates castle resources from protections actively invoked by staff during siege.
+  - id: dh-ch31-001
+    cluster: siege_evacuation_and_recovery
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Shows evacuation, age-based removal, adult volunteer choice and assigned defence sectors.
+  - id: dh-ch32-001
+    cluster: siege_evacuation_and_recovery
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Records physical and magical defences being breached under sustained attack.
+  - id: dh-ch33-001
+    cluster: siege_evacuation_and_recovery
+    cutoff_classification: "4 — later editorial history"
+    confidence: high
+    rationale: Shows the Great Hall converted to triage and mourning during a ceasefire; it does not establish later restoration.
+
+excluded_candidates:
+  - id: ext-a27-004
+    cutoff_classification: "5 — exclude from the 1984 reconstruction"
+    reason: Hogwarts-specific wolf-cub account is undated; it cannot safely be placed before 1984 and Chapter 7 owns the grounds context.
+  - id: cos-ch15-005
+    cutoff_classification: "4 — later editorial history"
+    reason: Acromantula colony location is already owned by Chapter 7 and adds no distinct institutional response here.
+  - id: cos-ch15-006
+    cutoff_classification: "2 — later-carried historical evidence about pre-1984 Hogwarts"
+    reason: Hagrid's introduction of Aragog and later relocation are already fully developed in Chapter 7; retain only as a cross-chapter callback if required.
+  - id: fb-ch05-002
+    cutoff_classification: "4 — later editorial history"
+    reason: Harry's marginal annotation corroborates the colony but adds no new Hogwarts risk-management mechanism.
+  - id: fb-ch08-006
+    cutoff_classification: "5 — exclude from the 1984 reconstruction"
+    reason: General werewolf lore is not Hogwarts-specific and would import creature background without an institutional function.
+  - id: gof-ch12-005
+    cutoff_classification: "3 — post-1984 observation useful for reconstructing an older institution"
+    reason: General start-of-term rule evidence duplicates Chapters 7 and 10; more specific rules are selected.
+  - id: ps-ch10-003
+    cutoff_classification: "4 — later editorial history"
+    reason: Troll evacuation is illustrative but redundant beside better-documented crisis responses.
+  - id: hbp-ch24-004
+    cutoff_classification: "4 — later editorial history"
+    reason: Severe spell injury adds spectacle but no unique institutional mechanism beyond treatment already selected.
+  - id: dh-ch31-004
+    cutoff_classification: "4 — later editorial history"
+    reason: Portraits, passages and defensive movement overlap Chapter 12 and the selected siege evidence.
+  - id: dh-ch32-002
+    cutoff_classification: "4 — later editorial history"
+    reason: Additional battle detail risks narrative recap and is not needed to establish adaptive use of castle resources.
+  - corpus: Quidditch Through the Ages
+    cutoff_classification: "5 — exclude from the 1984 reconstruction"
+    reason: No unique Hogwarts safety evidence was found that justifies reopening Chapter 14's subject.
+
+research_layer_gaps:
+  - No direct Hogwarts-specific evidence in the selected corpus establishes that the school is Unplottable.
+  - No source dates the institution of the standing concealment or anti-Apparition protections.
+  - No selected source defines a general emergency code, staff probation procedure or cumulative safety policy.
+  - No contemporary institutional record independently corroborates the first opening of the Chamber.
+  - No source identifies the exact measures behind Hogwarts's First-War reputation for safety.
+  - No selected evidence establishes post-Battle restoration beyond immediate triage and continued use of the castle.

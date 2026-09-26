@@ -1,0 +1,85 @@
+schema_version: 1
+chapter:
+  id: 13
+  number: 13
+  slug: customs-ceremonies-and-traditions
+  title: Customs, Ceremonies and Traditions
+edition: unified-expanded
+target_revision: 1
+status: evidence_selected
+selected_at: 2026-09-23
+selection_principle: >-
+  Select evidence only when it establishes, corroborates, changes, limits, or
+  provides a historically significant exception to a Hogwarts communal custom.
+  Keep annual practice separate from one-off events, later observation separate
+  from 1984 knowledge, and ceremonial function separate from unsupported origin
+  stories.
+chronology_key:
+  A: securely pre-1984 event or condition
+  B: pre-1984 event reported or explained only by a later source
+  C: post-1984 observed practice that may confirm recurrence but not origin
+  D: post-1984 exceptional event
+  E: undated retrospective statement
+
+selected_evidence:
+  - {id: ext-a04-002, cluster: journey_standardisation, chronology: B, confidence: high}
+  - {id: ext-a04-004, cluster: journey_standardisation, chronology: B, confidence: medium}
+  - {id: ext-a04-005, cluster: journey_standardisation, chronology: B, confidence: high}
+  - {id: ps-ch06-001, cluster: journey_standardisation, chronology: C, confidence: high}
+  - {id: ps-ch06-006, cluster: first_year_arrival, chronology: C, confidence: high}
+  - {id: ps-ch06-007, cluster: first_year_arrival, chronology: C, confidence: high}
+  - {id: poa-ch05-005, cluster: first_year_arrival, chronology: C, confidence: high}
+  - {id: gof-ch11-006, cluster: first_year_arrival, chronology: C, confidence: high}
+
+  - {id: ps-ch07-002, cluster: sorting_ceremony, chronology: C, confidence: medium}
+  - {id: ps-ch07-003, cluster: school_song, chronology: C, confidence: high}
+  - {id: cos-ch05-004, cluster: sorting_ceremony, chronology: C, confidence: high}
+  - {id: gof-ch12-003, cluster: sorting_ceremony, chronology: C, confidence: high}
+  - {id: ootp-ch11-004, cluster: sorting_song_change, chronology: C, confidence: medium}
+  - {id: hbp-ch08-003, cluster: sorting_song_change, chronology: C, confidence: high}
+
+  - {id: gof-ch12-005, cluster: opening_feast_and_notices, chronology: C, confidence: high}
+  - {id: ootp-ch11-005, cluster: opening_feast_and_notices, chronology: C, confidence: high}
+
+  - {id: ps-ch10-002, cluster: halloween, chronology: C, confidence: medium}
+  - {id: cos-ch08-004, cluster: halloween, chronology: C, confidence: high}
+  - {id: poa-ch08-006, cluster: halloween, chronology: C, confidence: high}
+
+  - {id: ps-ch12-003, cluster: christmas, chronology: C, confidence: high}
+  - {id: cos-ch11-001, cluster: christmas, chronology: C, confidence: high}
+  - {id: cos-ch12-003, cluster: christmas, chronology: C, confidence: high}
+  - {id: poa-ch03-004, cluster: holiday_residence_and_easter, chronology: C, confidence: high}
+  - {id: poa-ch11-004, cluster: christmas, chronology: C, confidence: high}
+  - {id: poa-ch11-005, cluster: christmas, chronology: C, confidence: high}
+  - {id: hbp-ch15-001, cluster: christmas, chronology: C, confidence: high}
+  - {id: ootp-ch29-001, cluster: holiday_residence_and_easter, chronology: C, confidence: high}
+
+  - {id: ps-ch15-002, cluster: house_competition, chronology: C, confidence: high}
+  - {id: ps-ch17-005, cluster: house_competition, chronology: C, confidence: high}
+  - {id: poa-ch22-005, cluster: house_competition, chronology: C, confidence: high}
+  - {id: cos-ch18-003, cluster: exceptional_awards, chronology: D, confidence: high}
+  - {id: cos-ch18-007, cluster: crisis_alters_cycle, chronology: D, confidence: high}
+  - {id: ps-ch17-006, cluster: departure, chronology: C, confidence: high}
+
+  - {id: ootp-ch19-005, cluster: informal_house_performance, chronology: D, confidence: high}
+
+  - {id: beedle-ch02-001, cluster: dippet_pantomime, chronology: B, confidence: high}
+  - {id: beedle-ch02-002, cluster: dippet_pantomime, chronology: B, confidence: high}
+  - {id: beedle-ch02-003, cluster: dippet_pantomime, chronology: B, confidence: high}
+  - {id: beedle-ch02-004, cluster: dippet_pantomime, chronology: B, confidence: high}
+  - {id: beedle-ch02-005, cluster: dippet_pantomime, chronology: B, confidence: high}
+  - {id: ext-a13-003, cluster: dippet_pantomime, chronology: B, confidence: high}
+
+  - {id: gof-ch15-005, cluster: triwizard_ceremonies, chronology: D, confidence: high}
+  - {id: gof-ch16-007, cluster: triwizard_ceremonies, chronology: D, confidence: high}
+  - {id: gof-ch22-001, cluster: yule_ball, chronology: D, confidence: high}
+  - {id: gof-ch22-002, cluster: yule_ball, chronology: D, confidence: high}
+  - {id: gof-ch23-002, cluster: yule_ball, chronology: D, confidence: high}
+  - {id: gof-ch37-003, cluster: mourning_adaptation, chronology: D, confidence: high}
+  - {id: hbp-ch30-003, cluster: memorial_ceremony, chronology: D, confidence: high}
+
+  - {id: ootp-ch38-002, cluster: accidental_memorial, chronology: D, confidence: high}
+  - {id: cos-ch13-003, cluster: one_off_not_tradition, chronology: D, confidence: medium}
+  - {id: ext-b10-003, cluster: rejected_hypothetical_graduation, chronology: D, confidence: low}
+
+research_layer_gaps: []

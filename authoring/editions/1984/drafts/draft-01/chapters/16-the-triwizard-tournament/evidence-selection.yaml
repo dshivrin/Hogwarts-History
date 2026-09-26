@@ -1,0 +1,60 @@
+schema_version: 1
+chapter:
+  id: 16
+  number: 16
+  slug: the-triwizard-tournament
+  title: The Triwizard Tournament
+edition: unified-expanded
+target_revision: 1
+status: evidence_selected
+selected_at: 2026-09-23
+selection_principle: >-
+  Select only evidence that establishes or materially limits the Tournament's
+  purpose, three-school structure, representation of schools by champions,
+  historical judging and danger, discontinuation, or revival. Give exceptional
+  weight to the 1792 account explicitly attributed to Hogwarts: A History.
+  Treat the densely documented 1994-95 Tournament as explanatory and
+  comparative evidence, never as an automatic statement of ancient practice.
+  Preserve the later Hogwarts-Beauxbatons victory totals only as an unresolved
+  source tension, not as a basis for chronology or calculation.
+chronology_key:
+  A: direct or explicitly attributed pre-1984 historical evidence
+  B: pre-1984 history carried by post-1984 testimony
+  C: post-1984 mature or revival practice that may illuminate but not establish older procedure
+  D: post-1984 exceptional event or failure
+  E: undated later retrospective statement
+
+selected_evidence:
+  - {id: gof-ch12-007, cluster: purpose_and_origin, chronology: B, confidence: high}
+  - {id: gof-ch23-005, cluster: purpose_and_origin, chronology: C, confidence: high}
+  - {id: gof-ch37-005, cluster: purpose_and_origin, chronology: D, confidence: high}
+  - {id: ext-a29-004, cluster: purpose_and_origin, chronology: E, confidence: high}
+
+  - {id: gof-ch15-005, cluster: three_school_structure_and_hosting, chronology: C, confidence: high}
+  - {id: gof-ch15-007, cluster: three_school_structure_and_hosting, chronology: C, confidence: high}
+  - {id: gof-ch16-001, cluster: three_school_structure_and_hosting, chronology: C, confidence: high}
+  - {id: gof-ch17-002, cluster: three_school_structure_and_hosting, chronology: D, confidence: high}
+
+  - {id: gof-ch16-002, cluster: champions_and_selection, chronology: C, confidence: high}
+  - {id: gof-ch16-003, cluster: champions_and_selection, chronology: C, confidence: high}
+  - {id: gof-ch17-001, cluster: champions_and_selection, chronology: D, confidence: high}
+  - {id: gof-ch17-003, cluster: champions_and_selection, chronology: D, confidence: high}
+  - {id: gof-ch22-002, cluster: champions_and_selection, chronology: C, confidence: high}
+
+  - {id: gof-ch17-006, cluster: trials_and_judgement, chronology: C, confidence: high}
+  - {id: gof-ch20-007, cluster: trials_and_judgement, chronology: C, confidence: high}
+  - {id: gof-ch24-006, cluster: trials_and_judgement, chronology: D, confidence: high}
+  - {id: gof-ch26-007, cluster: trials_and_judgement, chronology: C, confidence: high}
+
+  - {id: gof-ch31-003, cluster: danger_and_discontinuation, chronology: C, confidence: high}
+  - {id: gof-ch31-006, cluster: danger_and_discontinuation, chronology: C, confidence: high}
+  - {id: gof-ch32-002, cluster: danger_and_discontinuation, chronology: D, confidence: high}
+  - {id: gof-ch35-002, cluster: danger_and_discontinuation, chronology: D, confidence: high}
+
+  - {id: gof-ch15-003, cluster: incident_1792_and_source_method, chronology: A, confidence: high}
+  - {id: beedle-fm-004, cluster: incident_1792_and_source_method, chronology: E, confidence: high}
+
+  - {id: gof-ch17-004, cluster: revival_and_reform, chronology: D, confidence: high}
+  - {id: cc-p1-a1-s10-002, cluster: revival_and_reform, chronology: E, confidence: high}
+
+research_layer_gaps: []

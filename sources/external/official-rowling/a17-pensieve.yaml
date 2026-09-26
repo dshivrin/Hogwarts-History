@@ -271,3 +271,69 @@ entries:
             disposition: distinct
     confidence: high
     limitations: This is a general wizarding custom rather than a dated Hogwarts event; its relevance rests on the article's explicit contrast with the school Pensieve.
+
+  - id: ext-a17-005
+    source_file: resources/external/official-rowling/harrypotter-com/a17-pensieve.md
+    source_id: A17
+    source_url: https://www.harrypotter.com/writing-by-jk-rowling/pensieve
+    source_section: null
+    pdf_page: null
+    printed_page: null
+    extracted_text_lines: null
+    text_anchor:
+      start_phrase: The perceived dangers of the Pensieve relate to its power over memory or thought.
+      end_phrase: a second party, is able to enter the memories and move around within them.
+      local_occurrence_note: Second body paragraph, between the physical description and the discussion of thought-sorting.
+    nearby_context: The article explains why Pensieves are feared before distinguishing memory recreation from the more difficult sorting of thoughts and ideas.
+    match_terms:
+      - re-liveable-memories
+      - subconscious-detail
+      - second-party-entry
+      - movement-within-memory
+    quote_excerpt_short: memories so that they become re-liveable
+    source_note: A Pensieve recreates memories from details retained in the subconscious, allowing the owner or a second party to enter and move within them.
+    reference_type: magical_architecture
+    era_classification: unknown_or_uncertain
+    topic_tags:
+      - pensieve
+      - memory-magic
+      - preserved-memory
+      - subconscious
+      - historical-method
+      - privacy
+    candidate_part: Institutional Life and Governance
+    candidate_chapter: Portraits, Ghosts, and the School's Memory
+    candidate_section: Memory Made Visible
+    reason_for_placement: Establishes the mechanics and privacy implications of the preserved-memory form used at Hogwarts.
+    relevance_to_hogwarts_a_history: Supports a carefully attributed comparison between entered memory, written testimony, portraits, and ghosts without treating the memory as a conscious person.
+    duplicate_check:
+      possible_duplicate: false
+      duplicate_of: null
+      notes: Indexed Pensieve entries show particular uses; this official explanation uniquely adds subconscious detail, second-party entry, and movement within a recreated memory.
+      audit:
+        query_tags:
+          - pensieve
+          - memory-magic
+        candidates:
+          - id: dh-ch33-002
+            disposition: distinct
+          - id: ext-a17-004
+            disposition: distinct
+          - id: gof-ch30-002
+            disposition: corroborating
+          - id: hbp-ch10-004
+            disposition: corroborating
+          - id: hbp-ch17-003
+            disposition: corroborating
+          - id: hbp-ch20-001
+            disposition: distinct
+          - id: hbp-ch22-007
+            disposition: corroborating
+          - id: hbp-ch23-002
+            disposition: corroborating
+          - id: ootp-ch24-004
+            disposition: distinct
+          - id: ootp-ch26-005
+            disposition: distinct
+    confidence: high
+    limitations: This undated technical explanation does not establish that every retained detail is historically accurate, immune to alteration, consciously noticed, or available to Hogwarts pupils.

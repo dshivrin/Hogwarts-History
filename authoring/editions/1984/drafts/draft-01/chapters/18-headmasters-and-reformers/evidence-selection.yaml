@@ -1,0 +1,104 @@
+schema_version: 1
+chapter:
+  id: 18
+  number: 18
+  slug: headmasters-and-reformers
+  canonical_title: Headmasters and Reformers
+  manuscript_heading: Headmasters and Headmistresses
+edition: unified-expanded
+target_revision: 1
+status: evidence_reviewed
+review_date: 2026-09-25
+selection_principle: >-
+  Select evidence only when it establishes or materially limits the continuity,
+  power, delegation, judgement, influence, appointment, removal or external
+  constraint of the Headmaster or Headmistress. Reuse evidence from Chapters 8,
+  12, 15 and 17 only where its analytical function changes from governance,
+  institutional memory, external relations or safety to comparison between the
+  office and an individual holder. Preserve gaps rather than manufacture a
+  continuous list or constitutional system.
+cutoff_key:
+  1: reconstructed pre-1984 knowledge
+  2: later-carried history about pre-1984 Hogwarts
+  3: post-1984 observation useful for reconstructing an older institution
+  4: later editorial history
+  5: excluded or deferred
+selected_evidence:
+  - {id: cos-ch09-006, cluster: office_continuity, cutoff_classification: 2, confidence: medium}
+  - {id: ext-a01-003, cluster: office_continuity, cutoff_classification: 2, confidence: high}
+  - {id: ootp-ch22-006, cluster: office_continuity, cutoff_classification: 2, confidence: high}
+  - {id: ext-a17-001, cluster: office_continuity, cutoff_classification: 2, confidence: high}
+  - {id: ext-a05-003, cluster: office_continuity, cutoff_classification: 2, confidence: high}
+  - {id: ootp-ch22-002, cluster: office_continuity, cutoff_classification: 3, confidence: high}
+  - {id: ext-a16-005, cluster: earlier_headship, cutoff_classification: 2, confidence: high}
+
+  - {id: beedle-ch02-005, cluster: dippet_internal_authority, cutoff_classification: 2, confidence: high}
+  - {id: beedle-ch02-006, cluster: dippet_internal_authority, cutoff_classification: 2, confidence: high}
+  - {id: cos-ch13-005, cluster: dippet_chamber_crisis, cutoff_classification: 2, confidence: medium}
+  - {id: cos-ch13-007, cluster: dippet_chamber_crisis, cutoff_classification: 2, confidence: high}
+  - {id: cos-ch17-003, cluster: dippet_chamber_crisis, cutoff_classification: 2, confidence: high}
+  - {id: hbp-ch20-003, cluster: dippet_staffing, cutoff_classification: 2, confidence: high}
+
+  - {id: poa-ch18-003, cluster: dumbledore_transformative_discretion, cutoff_classification: 2, confidence: high}
+  - {id: poa-ch18-007, cluster: dumbledore_transformative_discretion, cutoff_classification: 2, confidence: high}
+  - {id: ps-ch04-007, cluster: dumbledore_transformative_discretion, cutoff_classification: 2, confidence: high}
+  - {id: poa-ch05-007, cluster: dumbledore_staffing, cutoff_classification: 4, confidence: high}
+  - {id: poa-ch17-003, cluster: dumbledore_staffing, cutoff_classification: 4, confidence: high}
+  - {id: gof-ch24-002, cluster: dumbledore_staffing, cutoff_classification: 4, confidence: medium}
+  - {id: gof-ch24-007, cluster: dumbledore_staffing, cutoff_classification: 4, confidence: high}
+  - {id: hbp-ch20-007, cluster: dumbledore_staffing, cutoff_classification: 2, confidence: high}
+  - {id: hbp-ch08-005, cluster: dumbledore_staffing, cutoff_classification: 4, confidence: high}
+  - {id: gof-ch36-005, cluster: dumbledore_autonomy_and_influence, cutoff_classification: 4, confidence: high}
+  - {id: poa-ch09-004, cluster: dumbledore_access_and_security, cutoff_classification: 4, confidence: high}
+  - {id: hbp-ch18-003, cluster: dumbledore_access_and_security, cutoff_classification: 4, confidence: high}
+  - {id: ps-ch06-003, cluster: dumbledore_personal_influence, cutoff_classification: 2, confidence: high}
+
+  - {id: cos-ch14-005, cluster: governors_and_ministry, cutoff_classification: 4, confidence: high}
+  - {id: cos-ch14-006, cluster: governors_and_ministry, cutoff_classification: 4, confidence: high}
+  - {id: cos-ch14-007, cluster: governors_and_ministry, cutoff_classification: 4, confidence: medium}
+  - {id: cos-ch18-005, cluster: governors_and_ministry, cutoff_classification: 4, confidence: high}
+  - {id: beedle-ch02-009, cluster: governors_and_ministry, cutoff_classification: 4, confidence: high}
+  - {id: ootp-ch02-003, cluster: governors_and_ministry, cutoff_classification: 4, confidence: high}
+
+  - {id: ootp-ch15-001, cluster: umbridge_fragmented_authority, cutoff_classification: 4, confidence: high}
+  - {id: ootp-ch19-007, cluster: umbridge_fragmented_authority, cutoff_classification: 4, confidence: high}
+  - {id: ootp-ch26-006, cluster: umbridge_fragmented_authority, cutoff_classification: 4, confidence: high}
+  - {id: ootp-ch26-007, cluster: umbridge_fragmented_authority, cutoff_classification: 4, confidence: high}
+  - {id: ootp-ch28-001, cluster: umbridge_fragmented_authority, cutoff_classification: 4, confidence: high}
+
+  - {id: dh-ch12-001, cluster: snape_wartime_headship, cutoff_classification: 4, confidence: high}
+  - {id: dh-ch30-005, cluster: snape_wartime_headship, cutoff_classification: 4, confidence: high}
+  - {id: dh-ch33-006, cluster: snape_wartime_headship, cutoff_classification: 4, confidence: high}
+
+  - {id: ps-ch04-002, cluster: delegation_and_succession, cutoff_classification: 3, confidence: high}
+  - {id: cos-ch05-005, cluster: delegation_and_succession, cutoff_classification: 4, confidence: high}
+  - {id: hbp-ch12-001, cluster: delegation_and_succession, cutoff_classification: 4, confidence: high}
+  - {id: hbp-ch29-005, cluster: delegation_and_succession, cutoff_classification: 4, confidence: high}
+  - {id: hbp-ch29-006, cluster: delegation_and_succession, cutoff_classification: 4, confidence: high}
+  - {id: dh-ch30-004, cluster: delegation_and_succession, cutoff_classification: 4, confidence: high}
+excluded_or_deferred:
+  - ids: [cos-ch13-006, ext-a05-004]
+    reason: Office architecture and portrait observation are already owned by Chapters 6 and 12 and add no distinct authority claim here.
+  - ids: [ootp-ch06-005]
+    reason: Phineas Nigellus's reported unpopularity is biographical reputation without enough institutional detail; his secure former-head status is already carried by ootp-ch22-002.
+  - ids: [cos-ch18-003]
+    reason: Special House points show one head exercising ceremonial discretion but add little beyond stronger examples and risk repeating Chapters 4 and 13.
+  - ids: [poa-ch21-001]
+    reason: External legal limits are already established in Chapter 8; Chapter 18 uses more direct school-status and Ministry-intervention evidence.
+  - ids: [ootp-ch17-001, ootp-ch25-003, ootp-ch26-002, ootp-ch27-006, ootp-ch28-002, ootp-ch28-003]
+    reason: These add detailed Umbridge-era controls after the selected entries establish the distinct offices and boundary conflicts; defer to avoid allowing the exceptional period to dominate.
+  - ids: [dh-ch30-006, dh-ch31-001]
+    reason: Battle defence and evacuation are fully owned by Chapter 17; Chapter 18 retains only the transfer of practical authority and delegated planning.
+  - ids: [beedle-fm-004, beedle-ch04-003]
+    reason: Post-war McGonagall material confirms later headmistress status but is unnecessary once immediate succession and delegated authority are established.
+  - ids: [ext-b09-007]
+    reason: Snape's post-war portrait dispute concerns later commemoration rather than the powers and limits of his wartime headship.
+  - ids: [cc-p1-a2-s20-003, cc-p1-a1-s07-004, cc-p2-a3-s14-004]
+    reason: Altered-timeline governance cannot establish the primary institutional history.
+source_search_notes:
+  compact_indexes: Queried headmaster, headmistress, headmaster-authority, headmastership, deputy-headmistress, governors, staff appointments, educational decrees, High Inquisitor, Dippet, Dumbledore, Umbridge, Snape and McGonagall concepts.
+  novels: Screened all seven novel source families; directly inspected pivotal Dippet, Dumbledore, governor, Umbridge, Snape and McGonagall passages.
+  companion_books: Screened Beedle evidence for Dippet, Kettleburn, governors and later McGonagall material; selected only institutionally consequential entries.
+  official_external: Screened official portrait, Pensieve, Chamber, Lupin, Peeves, Lockhart and McGonagall sources; selected the entries that materially establish continuity or exercised authority.
+  interviews_and_cursed_child: Screened; later portrait commentary and altered-timeline governance were excluded or deferred.
+  earlier_chapters: Compared every selected cluster with Chapters 8, 12, 15 and 17 and searched earlier draft evidence comments for repeated IDs.

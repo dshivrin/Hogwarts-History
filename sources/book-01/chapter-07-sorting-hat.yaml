@@ -91,3 +91,66 @@ entries:
     notes: No earlier YAML seed files were present in this workspace when checked.
   confidence: medium
   limitations: 'The chapter confirms the ceremony in Harry-era practice but does not state its origin, age, or whether Hogwarts: A History covers it.'
+- id: ps-ch07-003
+  source_file: pdfs/harrypotter.pdf
+  book: Harry Potter and the Philosopher's Stone
+  chapter: Chapter Seven - The Sorting Hat
+  chapter_start_pdf_page: 107
+  chapter_end_pdf_page: 122
+  pdf_page: 119-120
+  printed_page: not available
+  extracted_text_lines: PDF page 119, lines 409-416; PDF page 120, lines 431-435
+  text_anchor:
+    start_phrase: before we go to bed, let us sing the school song
+    end_phrase: he was one of those who clapped loudest
+    local_occurrence_note: Dumbledore leads the assembled school in the school song after the start-of-term notices.
+  nearby_context: >-
+    At the close of the 1991 start-of-term feast, Dumbledore calls for the
+    school song, displays its words in a golden ribbon, tells everyone to choose
+    a favourite tune, conducts the final singers and then dismisses the pupils
+    to bed.
+  match_terms:
+  - school song
+  - favourite tune
+  - golden ribbon
+  - Great Hall
+  - start-of-term feast
+  - collective singing
+  quote_excerpt_short: Everyone pick their favorite tune
+  source_note: >-
+    The assembled school sings common words to individually chosen tunes after
+    the opening notices, so the observed performance combines an institutionally
+    led song with deliberately informal collective participation.
+  reference_type: institutional_custom
+  era_classification: harry_era_confirmation
+  topic_tags:
+  - school-song
+  - collective-performance
+  - start-of-term-banquet
+  - great-hall
+  - school-traditions
+  - institutional-custom
+  candidate_part: Ceremonies and School Traditions
+  candidate_chapter: Customs, Ceremonies and Traditions
+  candidate_section: Songs and Collective Performance
+  reason_for_placement: >-
+    The passage directly records a school-wide musical performance attached to
+    the close of the opening feast and distinguishes common words from
+    individually selected tunes.
+  relevance_to_hogwarts_a_history: >-
+    This supplies direct evidence for the school song as an observed communal
+    practice and for the unusually participatory manner of its 1991
+    performance.
+  duplicate_check:
+    possible_duplicate: false
+    duplicate_of: null
+    notes: >-
+      The Sorting Hat's song is a separate performance with a different
+      institutional speaker and function; no other atomic entry records the
+      Hogwarts school song.
+  confidence: high
+  limitations: >-
+    This is one observed performance in 1991. It does not establish the song's
+    origin, age, frequency, use at every opening feast, fixed lyrics in other
+    periods, or a permanent rule that every performance used individually
+    chosen tunes.

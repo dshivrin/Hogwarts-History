@@ -1,0 +1,94 @@
+schema_version: 1
+chapter:
+  id: 9
+  number: 9
+  slug: a-hogwarts-education
+  title: A Hogwarts Education
+edition: unified-expanded
+target_revision: 1
+status: evidence_reviewed
+review_date: 2026-09-22
+research_basis:
+  - authoritative contents, authoring workflow, evidence policy, Draft-01 style lock, and Chapter 8 approved baseline
+  - concept searches across the complete structured corpus for admission, lessons, subjects, books, homework, examinations, qualifications, course choice, teaching methods, and curriculum change
+  - direct inspection of every selected canonical YAML record and its complete underlying PDF passage or external-source snapshot
+  - visual inspection of the scan-only Fantastic Beasts pages establishing textbook approval and publication history
+  - review of explicit Hogwarts: A History references, open questions, duplicate clusters, and Chapters 1–8 for overlap
+selection_principle: >-
+  Select evidence only when it establishes or materially limits the structure,
+  content, method, assessment, or historical development of Hogwarts education.
+  Pupil experience advances only when it reveals an educational mechanism.
+
+selected_evidence:
+  - {id: ext-a03-002, cluster: admission_selection, chronology: B, confidence: high}
+  - {id: ext-a03-003, cluster: admission_selection, chronology: B, confidence: high}
+  - {id: ext-a03-004, cluster: admission_selection, chronology: B, confidence: high}
+  - {id: ext-b01-002, cluster: admission_notification, chronology: E, confidence: medium}
+  - {id: ps-ch04-002, cluster: admission_notification, chronology: D, confidence: high}
+  - {id: dh-ch33-003, cluster: admission_notification, chronology: B, confidence: medium}
+  - {id: ps-ch04-006, cluster: seven_year_structure, chronology: C, confidence: medium}
+  - {id: ps-ch05-002, cluster: first_year_preparation, chronology: D, confidence: high}
+  - {id: ext-a18-001, cluster: common_curriculum, chronology: D, confidence: high}
+  - {id: ext-a18-002, cluster: electives, chronology: D, confidence: high}
+  - {id: cos-ch14-002, cluster: electives, chronology: D, confidence: high}
+  - {id: ext-a18-003, cluster: advanced_and_specialist_study, chronology: D, confidence: high}
+  - {id: ps-ch10-001, cluster: pedagogy, chronology: D, confidence: high}
+  - {id: cos-ch06-003, cluster: pedagogy, chronology: D, confidence: high}
+  - {id: poa-ch07-007, cluster: pedagogy, chronology: D, confidence: high}
+  - {id: ootp-ch12-003, cluster: pedagogy, chronology: D, confidence: high}
+  - {id: ootp-ch18-003, cluster: pedagogy, chronology: D, confidence: high}
+  - {id: ootp-ch12-006, cluster: documented_curriculum_change, chronology: D, confidence: high}
+  - {id: ps-ch16-001, cluster: ordinary_assessment, chronology: D, confidence: high}
+  - {id: poa-ch16-003, cluster: ordinary_assessment, chronology: D, confidence: high}
+  - {id: ootp-ch28-007, cluster: owl_continuity, chronology: B, confidence: medium}
+  - {id: ootp-ch31-002, cluster: public_examinations, chronology: D, confidence: high}
+  - {id: ootp-ch31-003, cluster: public_examinations, chronology: D, confidence: high}
+  - {id: ootp-ch31-004, cluster: public_examinations, chronology: D, confidence: high}
+  - {id: hbp-ch05-006, cluster: results_and_grades, chronology: D, confidence: high}
+  - {id: ootp-ch29-003, cluster: careers_and_course_choice, chronology: D, confidence: high}
+  - {id: ootp-ch29-004, cluster: careers_and_course_choice, chronology: D, confidence: high}
+  - {id: hbp-ch09-001, cluster: newt_course_entry, chronology: D, confidence: high}
+  - {id: hbp-ch11-001, cluster: advanced_study, chronology: D, confidence: high}
+  - {id: poa-ch16-001, cluster: advanced_study, chronology: D, confidence: high}
+  - {id: fb-ch00-003, cluster: curriculum_continuity, chronology: B, confidence: high}
+  - {id: fb-ch01-001, cluster: curriculum_continuity, chronology: A, confidence: high}
+  - {id: hbp-ch20-003, cluster: curriculum_continuity, chronology: B, confidence: high}
+  - {id: ootp-ch37-006, cluster: documented_curriculum_change, chronology: B, confidence: high}
+  - {id: ext-a12-002, cluster: examination_continuity, chronology: B, confidence: high}
+
+chronology_key:
+  A: directly usable pre-1984 documentary evidence
+  B: pre-1984 event or condition established through later testimony or commentary
+  C: later observation of a potentially older practice with continuity unproven
+  D: post-1984 observation, procedure, or development
+  E: uncertain or internally conflicting chronology
+
+excluded_or_deferred:
+  - ids: [ext-a03-001]
+    reason: The founder attribution for the Book and Quill would repeat Chapters 2 and 3 and does not establish the founders' curriculum.
+  - ids: [ext-a03-005, ext-a03-006]
+    reason: The Neville illustration and Squib boundary add admissions biography and social-policy detail without improving the educational structure required here.
+  - ids: [poa-ch04-004]
+    reason: The elective list is already established by an official summary and the second-year selection scene; Hermione's exceptional course load risks drifting into Chapter 10.
+  - ids: [ext-a18-004]
+    reason: The author's early planning notes describe out-of-world creative development, not an in-world earlier Hogwarts curriculum.
+  - ids: [ootp-ch12-002, hbp-ch05-007]
+    reason: Informal explanations of course consequences are superseded by observed career advice, official results, and actual sixth-year placement.
+  - ids: [gof-ch15-002, ootp-ch31-001]
+    reason: Workload anxiety and revision culture belong primarily to Chapter 10 once the educational mechanisms are established elsewhere.
+  - ids: [poa-ch16-004, poa-ch16-005]
+    reason: Teacher-specific examination scenes would turn the assessment section into a catalogue without adding a distinct institutional mechanism.
+  - ids: [ext-a12-003]
+    reason: McGonagall's Animagus training is exceptional mentorship and cannot establish ordinary Transfiguration progression.
+  - ids: [cc-p1-a1-s07-004, cc-p2-a3-s14-004]
+    reason: Altered-timeline school evidence cannot establish the primary educational history.
+
+source_search_notes:
+  novels: All seven novels were searched by concept and selected records were checked against the complete bounded PDF passages.
+  fantastic_beasts: The complete structured entries were screened; scan-only pages 7 and 9 were rendered and visually inspected for the textbook relationship.
+  quidditch_through_the_ages: Screened; useful material concerns sport history rather than the educational framework of this chapter.
+  tales_of_beedle_the_bard: Screened; no entry materially improves the selected account of curriculum structure or examination progression.
+  official_external: Complete admitted snapshots on admissions, school subjects, McGonagall, and relevant professors were screened; A03, A12, and A18 material was selected.
+  preserved_interviews: Screened with authority distinctions retained; B01 is used only for age, annual notification, and its explicit conflict with A03.
+  cursed_child: Completed structured evidence screened; altered-timeline material excluded and later primary-timeline material unnecessary.
+  explicit_hogwarts_a_history: Screened; no explicit citation supplies a curriculum or examination structure strong enough to add to the selected set.

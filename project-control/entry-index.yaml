@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-09-17'
+updated: '2026-09-23'
 by_entry:
   ps-ch01-001:
     title: 'The Wizarding War and Hogwarts Memory: Secrecy Strains After Voldemort''s
@@ -519,6 +519,20 @@ by_entry:
     - house-system
     - institutional-custom
     - sorting-ceremony
+    - start-of-term-banquet
+    source_unit: ps-ch07
+    output_yaml: sources/book-01/chapter-07-sorting-hat.yaml
+  ps-ch07-003:
+    title: 'Customs, Ceremonies and Traditions: Songs and Collective Performance'
+    classification: harry_era_confirmation
+    reference_type: institutional_custom
+    confidence: high
+    tags:
+    - collective-performance
+    - great-hall
+    - institutional-custom
+    - school-song
+    - school-traditions
     - start-of-term-banquet
     source_unit: ps-ch07
     output_yaml: sources/book-01/chapter-07-sorting-hat.yaml
@@ -20334,6 +20348,20 @@ by_entry:
     - wizarding-law
     source_unit: beedle-ch04
     output_yaml: sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+  beedle-ch04-007:
+    title: 'Portraits, Ghosts, and the School''s Memory: The Limits of Living Memory'
+    classification: later_editorial_note
+    reference_type: portrait_or_ghost_lore
+    confidence: high
+    tags:
+    - death
+    - ghost-lore
+    - ghosts
+    - portrait-lore
+    - portraits
+    - wizarding-photographs
+    source_unit: beedle-ch04
+    output_yaml: sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   beedle-ch05-001:
     title: 'Named In-Universe Sources: The Tales of Beedle the Bard'
     classification: pre_1984_historical_candidate
@@ -25908,6 +25936,20 @@ by_entry:
     - privacy
     source_unit: A17
     output_yaml: sources/external/official-rowling/a17-pensieve.yaml
+  ext-a17-005:
+    title: 'Portraits, Ghosts, and the School''s Memory: Memory Made Visible'
+    classification: unknown_or_uncertain
+    reference_type: magical_architecture
+    confidence: high
+    tags:
+    - historical-method
+    - memory-magic
+    - pensieve
+    - preserved-memory
+    - privacy
+    - subconscious
+    source_unit: A17
+    output_yaml: sources/external/official-rowling/a17-pensieve.yaml
   ext-a18-001:
     title: 'Education and Curriculum: First-year compulsory subjects'
     classification: harry_era_confirmation
@@ -29088,6 +29130,8 @@ by_tag:
   colin-creevey:
   - cos-ch10-006
   - dh-ch34-001
+  collective-performance:
+  - ps-ch07-003
   colloportus:
   - ootp-ch35-003
   colony:
@@ -29782,6 +29826,7 @@ by_tag:
   - dh-ch23-004
   death:
   - beedle-ch04-001
+  - beedle-ch04-007
   - ext-b17-001
   - ootp-ch38-006
   death-chamber:
@@ -31725,6 +31770,7 @@ by_tag:
   ghost-formation:
   - ext-b01-005
   ghost-lore:
+  - beedle-ch04-007
   - dh-ch31-002
   ghost-society:
   - cos-ch08-001
@@ -31732,6 +31778,7 @@ by_tag:
   - cos-ch09-002
   - ps-ch08-005
   ghosts:
+  - beedle-ch04-007
   - cc-p1-a2-s14-001
   - cc-p1-a2-s19-002
   - cc-p2-a3-s09-003
@@ -32013,6 +32060,7 @@ by_tag:
   - poa-ch15-006
   - poa-ch22-005
   - ps-ch07-001
+  - ps-ch07-003
   - ps-ch10-002
   - ps-ch12-001
   - ps-ch12-003
@@ -32919,6 +32967,7 @@ by_tag:
   historical-instruction:
   - hbp-ch13-001
   historical-method:
+  - ext-a17-005
   - hbp-ch13-002
   - hbp-ch17-003
   - hbp-ch20-001
@@ -33930,6 +33979,7 @@ by_tag:
   institutional-custom:
   - dh-ch08-001
   - ps-ch07-002
+  - ps-ch07-003
   institutional-growth:
   - ext-a44-003
   institutional-history:
@@ -35380,6 +35430,7 @@ by_tag:
   - cos-ch13-004
   - dh-ch33-002
   - ext-a17-004
+  - ext-a17-005
   - gof-ch30-002
   - hbp-ch10-004
   - hbp-ch17-003
@@ -36730,6 +36781,7 @@ by_tag:
   - ext-a17-002
   - ext-a17-003
   - ext-a17-004
+  - ext-a17-005
   - gof-ch30-002
   - hbp-ch10-004
   - hbp-ch13-001
@@ -37007,6 +37059,7 @@ by_tag:
   - cc-p1-a2-s10-002
   - ext-a05-002
   portrait-lore:
+  - beedle-ch04-007
   - cc-p2-a4-s04-002
   - dh-ch09-006
   - ext-a05-001
@@ -37025,6 +37078,7 @@ by_tag:
   portrait-training:
   - ext-a05-003
   portraits:
+  - beedle-ch04-007
   - cc-p1-a2-s08-001
   - cc-p1-a2-s08-002
   - cc-p1-a2-s14-001
@@ -37272,6 +37326,8 @@ by_tag:
   prejudice:
   - dh-ch11-005
   - ootp-ch21-002
+  preserved-memory:
+  - ext-a17-005
   press-access:
   - gof-ch24-004
   prewett-family:
@@ -37289,6 +37345,7 @@ by_tag:
   - gof-ch34-004
   privacy:
   - ext-a17-004
+  - ext-a17-005
   - ext-a23-003
   private-instruction:
   - poa-ch20-005
@@ -38574,6 +38631,8 @@ by_tag:
   - hbp-ch06-003
   school-site:
   - ext-a17-003
+  school-song:
+  - ps-ch07-003
   school-songs:
   - ootp-ch30-003
   school-spectators:
@@ -38612,6 +38671,7 @@ by_tag:
   - cos-ch08-004
   - cos-ch11-001
   - cos-ch12-003
+  - ps-ch07-003
   - ps-ch10-002
   - ps-ch12-003
   school-train:
@@ -39648,6 +39708,7 @@ by_tag:
   - ootp-ch11-005
   start-of-term-banquet:
   - ps-ch07-002
+  - ps-ch07-003
   start-of-term-feast:
   - hbp-ch08-003
   statue:
@@ -40098,6 +40159,8 @@ by_tag:
   - ootp-ch31-006
   sturgis-podmore:
   - ootp-ch14-003
+  subconscious:
+  - ext-a17-005
   substitute-teacher:
   - gof-ch24-001
   substitutions:
@@ -41607,6 +41670,8 @@ by_tag:
   - beedle-ch01-003
   wizarding-pets:
   - fb-ch07-007
+  wizarding-photographs:
+  - beedle-ch04-007
   wizarding-politics:
   - dh-ch18-006
   - dh-ch35-006

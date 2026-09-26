@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-09-17'
+updated: '2026-09-23'
 entries:
 - entry_id: ps-ch01-001
   canonical_topic: the-wizarding-war-and-hogwarts-memory-secrecy-strains-after-voldemort-s-fall
@@ -567,6 +567,22 @@ entries:
   source_note: McGonagall presents the Sorting as a start-of-term ceremony for first-years
     before the assembled school, explains the four Houses, and links House membership
     to classes, dormitories, common rooms, points, and the House Cup.
+  output_yaml: sources/book-01/chapter-07-sorting-hat.yaml
+- entry_id: ps-ch07-003
+  canonical_topic: customs-ceremonies-and-traditions-songs-and-collective-performance
+  tags:
+  - collective-performance
+  - great-hall
+  - institutional-custom
+  - school-song
+  - school-traditions
+  - start-of-term-banquet
+  book: Harry Potter and the Philosopher's Stone
+  chapter_number: 7
+  chapter_title: Chapter Seven - The Sorting Hat
+  source_note: The assembled school sings common words to individually chosen tunes
+    after the opening notices, so the observed performance combines an institutionally
+    led song with deliberately informal collective participation.
   output_yaml: sources/book-01/chapter-07-sorting-hat.yaml
 - entry_id: ps-ch08-001
   canonical_topic: changing-staircases-and-responsive-doors-navigating-the-castle
@@ -21955,6 +21971,22 @@ entries:
     first Unforgivable classification of Cruciatus, Imperius, and Avada Kedavra to
     1717.
   output_yaml: sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
+- entry_id: beedle-ch04-007
+  canonical_topic: portraits-ghosts-and-the-school-s-memory-the-limits-of-living-memory
+  tags:
+  - death
+  - ghost-lore
+  - ghosts
+  - portrait-lore
+  - portraits
+  - wizarding-photographs
+  book: The Tales of Beedle the Bard
+  chapter_number: 4
+  chapter_title: Babbitty Rabbitty and Her Cackling Stump and Commentary
+  source_note: An editorial footnote distinguishes moving photographs, speaking portraits,
+    and ghosts described as transparent, moving, talking, thinking versions of dead
+    witches and wizards.
+  output_yaml: sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
 - entry_id: beedle-ch05-001
   canonical_topic: named-in-universe-sources-the-tales-of-beedle-the-bard
   tags:
@@ -28412,6 +28444,23 @@ entries:
   chapter_title: null
   source_note: Pensieves are conventionally buried with their owners, including remaining
     thoughts and memories, unless the owner directed otherwise.
+  output_yaml: sources/external/official-rowling/a17-pensieve.yaml
+  source_id: A17
+  source_url: https://www.harrypotter.com/writing-by-jk-rowling/pensieve
+- entry_id: ext-a17-005
+  canonical_topic: portraits-ghosts-and-the-school-s-memory-memory-made-visible
+  tags:
+  - historical-method
+  - memory-magic
+  - pensieve
+  - preserved-memory
+  - privacy
+  - subconscious
+  book: null
+  chapter_number: null
+  chapter_title: null
+  source_note: A Pensieve recreates memories from details retained in the subconscious,
+    allowing the owner or a second party to enter and move within them.
   output_yaml: sources/external/official-rowling/a17-pensieve.yaml
   source_id: A17
   source_url: https://www.harrypotter.com/writing-by-jk-rowling/pensieve

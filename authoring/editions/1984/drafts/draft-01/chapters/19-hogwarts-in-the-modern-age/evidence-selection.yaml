@@ -1,0 +1,112 @@
+schema_version: 1
+chapter:
+  id: 19
+  number: 19
+  slug: hogwarts-in-the-modern-age
+  title: Hogwarts in the Modern Age
+edition: unified-expanded
+target_revision: 1
+status: evidence_reviewed
+review_date: 2026-09-26
+selection_principle: >-
+  Select evidence only when it establishes or materially limits what changed,
+  persisted, or became newly consequential as Hogwarts operated in the
+  twentieth-century wizarding world through 1984. Earlier evidence supplies
+  inherited context only. Reuse from Chapters 9, 10, 15, 17 and 18 requires a
+  distinct longitudinal or modern-institution function, and heavily owned
+  material is deferred even when relevant.
+source_access_key:
+  1: directly available to the reconstructed pre-1984 account or explicit original-book core
+  2: pre-1984 event preserved only by later testimony
+  3: post-1984 observation demonstrating an older practice without dating its origin
+  4: later editorial history
+  5: excluded or deferred
+selected_evidence:
+  - {id: ext-a01-002, cluster: inherited_material_layers, source_access: 2, confidence: high}
+  - {id: ext-a04-002, cluster: inherited_national_transport, source_access: 2, confidence: high}
+  - {id: ext-a04-003, cluster: inherited_national_transport, source_access: 2, confidence: high}
+  - {id: ext-a04-004, cluster: inherited_national_transport, source_access: 2, confidence: medium}
+  - {id: ext-a04-005, cluster: inherited_national_transport, source_access: 2, confidence: high}
+  - {id: ext-a19-001, cluster: inherited_national_transport, source_access: 2, confidence: high}
+  - {id: ext-a19-002, cluster: inherited_national_transport, source_access: 2, confidence: high}
+
+  - {id: hbp-ch13-004, cluster: twentieth_century_admissions, source_access: 2, confidence: medium}
+  - {id: hbp-ch13-005, cluster: twentieth_century_admissions, source_access: 2, confidence: high}
+  - {id: hbp-ch13-006, cluster: twentieth_century_admissions, source_access: 2, confidence: high}
+  - {id: ps-ch04-004, cluster: twentieth_century_admissions, source_access: 2, confidence: medium}
+  - {id: dh-ch33-003, cluster: twentieth_century_admissions, source_access: 2, confidence: medium}
+  - {id: dh-ch33-004, cluster: twentieth_century_admissions, source_access: 2, confidence: medium}
+
+  - {id: ext-a12-002, cluster: administrative_continuity, source_access: 2, confidence: high}
+  - {id: cos-ch13-002, cluster: administrative_continuity, source_access: 2, confidence: high}
+  - {id: ootp-ch28-007, cluster: administrative_continuity, source_access: 2, confidence: medium}
+  - {id: ootp-ch31-002, cluster: administrative_continuity, source_access: 3, confidence: high}
+
+  - {id: cos-ch13-005, cluster: 1943_public_crisis, source_access: 2, confidence: medium}
+  - {id: cos-ch13-007, cluster: 1943_public_crisis, source_access: 2, confidence: high}
+  - {id: cos-ch17-003, cluster: 1943_public_crisis, source_access: 2, confidence: high}
+
+  - {id: ext-a10-001, cluster: exceptional_accommodation, source_access: 2, confidence: high}
+  - {id: poa-ch18-003, cluster: exceptional_accommodation, source_access: 2, confidence: high}
+
+  - {id: ps-ch01-002, cluster: first_wizarding_war, source_access: 2, confidence: medium}
+  - {id: ps-ch04-005, cluster: first_wizarding_war, source_access: 2, confidence: medium}
+
+  - {id: gof-ch28-003, cluster: technology_and_material_modernity, source_access: 1, confidence: high}
+  - {id: ext-a45-002, cluster: technology_and_material_modernity, source_access: 2, confidence: high}
+  - {id: ext-a45-003, cluster: technology_and_material_modernity, source_access: 3, confidence: high}
+  - {id: ext-a45-004, cluster: technology_and_material_modernity, source_access: 3, confidence: high}
+
+excluded_or_deferred:
+  - ids: [ext-a10-001, poa-ch18-003]
+    disposition: defer
+    reason: >-
+      The Lupin accommodation is highly relevant to adaptation, but Chapters 17
+      and 18 already use it to analyse containment and the capacity of a head to
+      alter school arrangements around an exceptional pupil. Reuse here would
+      repeat rather than change its institutional function.
+  - ids: [ext-a45-003, ext-a45-004]
+    disposition: omit_from_revision
+    reason: >-
+      Wizarding radio and enchanted automobiles establish selective adoption in
+      wider society but supply no Hogwarts use, introduction date, or school
+      policy. They limit an inference but do not warrant a chapter section.
+  - ids: [ext-a01-002]
+    disposition: defer
+    reason: >-
+      Eighteenth-century plumbing is already used by Chapters 5 and 6, including
+      for architectural layering. Chapter 19 may state only the inherited
+      conclusion without repeating the incident.
+  - ids: [ext-a04-002, ext-a04-003, ext-a04-004, ext-a04-005, ext-a19-001, ext-a19-002]
+    disposition: advance_to_outline_as_compact_context
+    reason: >-
+      Chapter 15 owns the full transport history. Chapter 19 uses no episode or
+      route description, only the bounded fact that national standardisation
+      and concealed infrastructure were inherited before the twentieth century.
+  - ids: [ext-a12-002, cos-ch13-002, ootp-ch28-007, ootp-ch31-002]
+    disposition: advance_to_outline_as_compact_continuity
+    reason: >-
+      Chapters 9 and 10 own examinations and pupil offices. Chapter 19 uses these
+      examples only to show repeated twentieth-century operation without an
+      origin date; it must not explain duties, procedures or educational effect.
+source_search_notes:
+  compact_indexes: >-
+    Queried modern and twentieth-century terms, administration, admissions,
+    transport, Hogwarts Express, communication, owl post, examinations, O.W.L.s,
+    N.E.W.T.s, prefects, Head Boy, Head Girl, Deputy Headmistress, records,
+    Ministry, governors, technology, electricity, First Wizarding War, Dippet,
+    Dumbledore, Riddle, Lupin and Hagrid.
+  permanent_tooling: >-
+    Used scripts/query_entries.py through the maintained .venv and direct
+    read-only inspection of canonical source YAML; no disposable helper script
+    or research-layer write was created.
+  direct_source_review: >-
+    Inspected the complete official Rowling source snapshots for the Hogwarts
+    Express, King's Cross, technology and Remus Lupin, plus canonical novel
+    records for admissions, 1943, examinations, wartime testimony and the
+    Hogwarts: A History technology statement.
+  overlap_review: >-
+    Compared candidate functions and evidence comments against Chapters 9, 10,
+    15, 17 and 18. Chapter 20 has no workspace yet, so its canonical table-of-
+    contents boundary controls the reservation of Dippet-to-Dumbledore
+    biography and transition chronology.

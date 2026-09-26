@@ -30,7 +30,7 @@ chapters:
           sha256: 87146770b68ac8d4d5bc9448f0eeaad4994c7840050f6c23b1db73475c1b4a4b
         outline:
           path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/outline-revision-08.md
-          sha256: a7050c547401b80ee19de5e85cabce36a492b6164b84ed9cab96cd9e5fac6275
+          sha256: ab39a57a924de92e79f0d631a498dba428715105d39dd0cfd145052e86d19f60
         manuscript:
           path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-08.md
           sha256: 09b092f259b898814cb71ad35fd193d86a5f073413a9e6643b409fec3963797f
@@ -57,6 +57,9 @@ chapters:
       - status: editor_approved
         date: 2026-09-21
         note: Revision 08 received explicit approval after its fact, style, and continuity audits passed; the approved manuscript pointer now records revision 08.
+      - status: editor_approved
+        date: 2026-09-22
+        note: Reconciled the Revision 08 outline's recorded SHA-256 with the committed artifact; the approved manuscript and its hash were unchanged.
   - id: 2
     number: 2
     slug: the-four-founders
@@ -76,7 +79,7 @@ chapters:
           sha256: 1deee6b437f348b26f9612abd591fdc3b0a22985d7fb5c04a6dc0057a5866803
         outline:
           path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/outline-revision-07.md
-          sha256: 8cccf57644cc53ee9e24b8733457f41aef045f5968e1f81ee82baa6651e80dd3
+          sha256: 5ba741d1c50008a25795acb2903be8864b9c01f162a62a60925315cc259f9232
         manuscript:
           path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/draft-revision-07.md
           sha256: 1d62b9edf9c56f19586d92745a276cddc0a09ed60580a34efe9b39fe284cd08e
@@ -118,6 +121,9 @@ chapters:
       - status: editor_approved
         date: 2026-09-21
         note: Revision 07 received explicit approval after its fact, style, and continuity audits passed; the approved manuscript pointer now records revision 07.
+      - status: editor_approved
+        date: 2026-09-22
+        note: Reconciled the Revision 07 outline's recorded SHA-256 with the committed artifact; the approved manuscript and its hash were unchanged.
   - id: 3
     number: 3
     slug: the-founding-of-hogwarts
@@ -180,17 +186,76 @@ chapters:
     number: 4
     slug: the-four-houses
     title: The Four Houses
-    status: planned
+    status: editor_approved
     draft: draft-01
+    approved_manuscript:
+      revision: 1
+      path: authoring/editions/1984/drafts/draft-01/chapters/04-the-four-houses/draft-revision-01.md
+      sha256: 2ddfbc22b2802425e9298b2795628cb7cc83d87aa150d606785e47af6ff90fbc
+    working_revision:
+      revision: 1
+      status: editor_approved
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/04-the-four-houses/evidence-synthesis-revision-01.md
+          sha256: f0be51bce893de7a4571d092ebe3e019fdfcf6045f53b260899fa48fea1dec04
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/04-the-four-houses/outline-revision-01.md
+          sha256: 64d331bc29c119a421e8bdfe5e5d177ed372cb04b97346a9fcc383e0bcf5045b
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/04-the-four-houses/draft-revision-01.md
+          sha256: 2ddfbc22b2802425e9298b2795628cb7cc83d87aa150d606785e47af6ff90fbc
+      comparison_baselines:
+        - chapter: 1
+          revision: 8
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-08.md
+          sha256: 09b092f259b898814cb71ad35fd193d86a5f073413a9e6643b409fec3963797f
+        - chapter: 2
+          revision: 7
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/draft-revision-07.md
+          sha256: 1d62b9edf9c56f19586d92745a276cddc0a09ed60580a34efe9b39fe284cd08e
+        - chapter: 3
+          revision: 2
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/draft-revision-02.md
+          sha256: 13a759500686c771943b952fb174438901dae9717e3f69eb5650a08154fd1e20
+    workflow_history:
+      - status: evidence_selected
+        date: 2026-09-21
+        note: Created the Chapter 4 evidence selection for Revision 01.
+      - status: evidence_reviewed
+        date: 2026-09-21
+        note: Revision 01 synthesis passed with selected evidence reconciled and no blocking verification item.
+      - status: outlined
+        date: 2026-09-21
+        note: Created the matching Revision 01 outline from the validated consolidated claims.
+      - status: outline_approved
+        date: 2026-09-21
+        note: The user's instruction to proceed approved the proposed Chapter 4 outline for drafting.
+      - status: drafted
+        date: 2026-09-21
+        note: Created the Revision 01 manuscript from the approved outline.
+      - status: audited
+        date: 2026-09-22
+        note: Reconciled the existing Revision 01 fact, style, and continuity audits, all of which record PASS with no required revisions; explicit editorial approval remains pending.
+      - status: editor_approved
+        date: 2026-09-22
+        note: Revision 01 received explicit editorial approval after its fact, style, and continuity audits passed; the approved manuscript pointer and SHA-256 are recorded above.
   - id: 5
     number: 5
     slug: the-departure-of-salazar-slytherin
     title: The Departure of Salazar Slytherin
-    status: drafted
+    status: editor_approved
     draft: draft-01
+    approved_manuscript:
+      revision: 1
+      path: authoring/editions/1984/drafts/draft-01/chapters/05-the-departure-of-salazar-slytherin/draft-revision-01.md
+      sha256: b48ae9de66b34cd359176243fb379466ce7febe09ddef30450feeac782a5a7d3
     working_revision:
       revision: 1
-      status: drafted
+      status: editor_approved
       artifacts:
         evidence_synthesis:
           path: authoring/editions/1984/drafts/draft-01/chapters/05-the-departure-of-salazar-slytherin/evidence-synthesis-revision-01.md
@@ -238,54 +303,558 @@ chapters:
       - status: drafted
         date: 2026-09-21
         note: Created the Revision 01 first prose draft with later Chamber confirmation explicitly separated from reconstructed pre-1984 Bagshot knowledge; no post-draft audit was run.
+      - status: audited
+        date: 2026-09-22
+        note: Revision 01 passed separate fact, style, and continuity audits, including chronology, narrator, boundary, source-access, and repetition checks; explicit editorial approval remains pending.
+      - status: editor_approved
+        date: 2026-09-22
+        note: Revision 01 received explicit editorial approval after its fact, style, and continuity audits passed; the approved manuscript pointer and SHA-256 are recorded above.
   - id: 6
     number: 6
     slug: a-castle-unlike-any-other
     title: A Castle Unlike Any Other
-    status: planned
+    status: editor_approved
     draft: draft-01
+    approved_manuscript:
+      revision: 1
+      path: authoring/editions/1984/drafts/draft-01/chapters/06-a-castle-unlike-any-other/draft-revision-01.md
+      sha256: 6e5422c8ae98b123c6b752820ea40480374851e324c51c8a24bf4df4a20a4399
+    working_revision:
+      revision: 1
+      status: editor_approved
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/06-a-castle-unlike-any-other/evidence-synthesis-revision-01.md
+          sha256: 9c397403e4a1a17da9172a080a33ba82db2b02811f357dcee32a5ecfb3bc51e3
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/06-a-castle-unlike-any-other/outline-revision-01.md
+          sha256: 3207926051e0c7f85712ce8cc67485d36a01c7abd53813ca86507dc1882fb739
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/06-a-castle-unlike-any-other/draft-revision-01.md
+          sha256: 6e5422c8ae98b123c6b752820ea40480374851e324c51c8a24bf4df4a20a4399
+      comparison_baselines:
+        - chapter: 1
+          revision: 8
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-08.md
+          sha256: 09b092f259b898814cb71ad35fd193d86a5f073413a9e6643b409fec3963797f
+        - chapter: 2
+          revision: 7
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/draft-revision-07.md
+          sha256: 1d62b9edf9c56f19586d92745a276cddc0a09ed60580a34efe9b39fe284cd08e
+        - chapter: 3
+          revision: 2
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/draft-revision-02.md
+          sha256: 13a759500686c771943b952fb174438901dae9717e3f69eb5650a08154fd1e20
+        - chapter: 4
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/04-the-four-houses/draft-revision-01.md
+          sha256: 2ddfbc22b2802425e9298b2795628cb7cc83d87aa150d606785e47af6ff90fbc
+        - chapter: 5
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/05-the-departure-of-salazar-slytherin/draft-revision-01.md
+          sha256: b48ae9de66b34cd359176243fb379466ce7febe09ddef30450feeac782a5a7d3
+    workflow_history:
+      - status: evidence_selected
+        date: 2026-09-22
+        note: Created a focused sixteen-entry evidence selection after compact-index, explicit-reference, duplicate, and direct canonical-record review.
+      - status: evidence_reviewed
+        date: 2026-09-22
+        note: Revision 01 synthesis passed with all selected evidence reconciled, later evidence kept outside reconstructed Bagshot knowledge, and no blocking verification item.
+      - status: outlined
+        date: 2026-09-22
+        note: Created the matching five-part Revision 01 outline; explicit human outline approval is required before drafting prose.
+      - status: outline_approved
+        date: 2026-09-22
+        note: The user explicitly approved Chapter 6 Outline Revision 01, authorizing the matching Revision 01 prose draft.
+      - status: drafted
+        date: 2026-09-22
+        note: Created the Revision 01 manuscript from the approved five-part outline with evidence and source-access metadata preserved.
+      - status: audited
+        date: 2026-09-22
+        note: Revision 01 passed separate fact, style, and continuity audits after a fresh-context review and correction pass; explicit editorial approval remains pending.
+      - status: editor_approved
+        date: 2026-09-22
+        note: Revision 01 received explicit editorial approval after its fact, style, and continuity audits passed; the approved manuscript pointer and SHA-256 are recorded above.
   - id: 7
     number: 7
     slug: the-grounds-and-their-boundaries
     title: The Grounds and Their Boundaries
-    status: planned
+    status: audited
     draft: draft-01
+    working_revision:
+      revision: 1
+      status: audited
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/07-the-grounds-and-their-boundaries/evidence-synthesis-revision-01.md
+          sha256: 3ffb45a43c01f371e2035ec9f510a785fc8c9e86244733cee6a89f54f0aea449
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/07-the-grounds-and-their-boundaries/outline-revision-01.md
+          sha256: eed0380e1576423119d71edadecf45c99008afb5cb7c5cc092a63624654c991c
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/07-the-grounds-and-their-boundaries/draft-revision-01.md
+          sha256: 38d87a369db8e3bd3c6bd0cddd96ec85a058b05f9394559a066740cb9293d84d
+      comparison_baselines:
+        - chapter: 1
+          revision: 8
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-08.md
+          sha256: 09b092f259b898814cb71ad35fd193d86a5f073413a9e6643b409fec3963797f
+        - chapter: 2
+          revision: 7
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/draft-revision-07.md
+          sha256: 1d62b9edf9c56f19586d92745a276cddc0a09ed60580a34efe9b39fe284cd08e
+        - chapter: 3
+          revision: 2
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/draft-revision-02.md
+          sha256: 13a759500686c771943b952fb174438901dae9717e3f69eb5650a08154fd1e20
+        - chapter: 4
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/04-the-four-houses/draft-revision-01.md
+          sha256: 2ddfbc22b2802425e9298b2795628cb7cc83d87aa150d606785e47af6ff90fbc
+        - chapter: 5
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/05-the-departure-of-salazar-slytherin/draft-revision-01.md
+          sha256: b48ae9de66b34cd359176243fb379466ce7febe09ddef30450feeac782a5a7d3
+        - chapter: 6
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/06-a-castle-unlike-any-other/draft-revision-01.md
+          sha256: 6e5422c8ae98b123c6b752820ea40480374851e324c51c8a24bf4df4a20a4399
+    workflow_history:
+      - status: evidence_selected
+        date: 2026-09-22
+        note: Selected 43 existing canonical evidence entries after compact-index and duplicate queries across all admitted source classes; no research-layer entries were created or modified.
+      - status: evidence_reviewed
+        date: 2026-09-22
+        note: Revision 01 synthesis passed with all selected evidence reconciled, chronology and knowledge access separated, and no unresolved blocking verification item.
+      - status: outlined
+        date: 2026-09-22
+        note: Revision 01 paragraph-level outline created from the passing synthesis; research is ready for editorial review and prose remains unauthorized.
+      - status: outline_approved
+        date: 2026-09-22
+        note: The user explicitly approved continuation under the canonical title, authorizing the matching Revision 01 prose draft; the Quidditch pitch remains bounded to landscape infrastructure and alteration.
+      - status: drafted
+        date: 2026-09-22
+        note: Created the Revision 01 manuscript from the approved paragraph-level outline with evidence and source-access metadata preserved.
+      - status: audited
+        date: 2026-09-22
+        note: Revision 01 passed separate fact, style, and continuity audits; explicit editorial approval remains pending.
   - id: 8
     number: 8
     slug: the-governance-of-hogwarts
     title: The Governance of Hogwarts
-    status: planned
+    status: editor_approved
     draft: draft-01
+    approved_manuscript:
+      revision: 1
+      path: authoring/editions/1984/drafts/draft-01/chapters/08-the-governance-of-hogwarts/draft-revision-01.md
+      sha256: 4e907cb66d9bc7433755aa2f084bf35bb46c12ed59b2daa04b45bc52423b7bd9
+    working_revision:
+      revision: 1
+      status: editor_approved
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/08-the-governance-of-hogwarts/evidence-synthesis-revision-01.md
+          sha256: 0d72b739bdc173eca77f9b0ad8a80bf413fb127da966a1383609bd4b503803c3
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/08-the-governance-of-hogwarts/outline-revision-01.md
+          sha256: 4eea144001a6b7a237b86c087e6f51614603ffeabbc8b79cb537acfb25a92ea1
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/08-the-governance-of-hogwarts/draft-revision-01.md
+          sha256: 4e907cb66d9bc7433755aa2f084bf35bb46c12ed59b2daa04b45bc52423b7bd9
+      comparison_baselines:
+        - chapter: 1
+          revision: 8
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-08.md
+          sha256: 09b092f259b898814cb71ad35fd193d86a5f073413a9e6643b409fec3963797f
+        - chapter: 2
+          revision: 7
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/draft-revision-07.md
+          sha256: 1d62b9edf9c56f19586d92745a276cddc0a09ed60580a34efe9b39fe284cd08e
+        - chapter: 3
+          revision: 2
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/draft-revision-02.md
+          sha256: 13a759500686c771943b952fb174438901dae9717e3f69eb5650a08154fd1e20
+        - chapter: 4
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/04-the-four-houses/draft-revision-01.md
+          sha256: 2ddfbc22b2802425e9298b2795628cb7cc83d87aa150d606785e47af6ff90fbc
+        - chapter: 5
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/05-the-departure-of-salazar-slytherin/draft-revision-01.md
+          sha256: b48ae9de66b34cd359176243fb379466ce7febe09ddef30450feeac782a5a7d3
+        - chapter: 6
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/06-a-castle-unlike-any-other/draft-revision-01.md
+          sha256: 6e5422c8ae98b123c6b752820ea40480374851e324c51c8a24bf4df4a20a4399
+        - chapter: 7
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/07-the-grounds-and-their-boundaries/draft-revision-01.md
+          sha256: 38d87a369db8e3bd3c6bd0cddd96ec85a058b05f9394559a066740cb9293d84d
+    workflow_history:
+      - status: evidence_selected
+        date: 2026-09-22
+        note: Selected eighteen existing canonical entries after bounded searches and direct passage inspection; no research-layer entry was created or modified.
+      - status: evidence_reviewed
+        date: 2026-09-22
+        note: Revision 01 synthesis passed with all selected evidence reconciled, chronology and knowledge access separated, and no unresolved blocking verification item.
+      - status: outlined
+        date: 2026-09-22
+        note: Created the matching Revision 01 outline from the passing synthesis.
+      - status: outline_approved
+        date: 2026-09-22
+        note: The user explicitly approved the evidence selection, risks, central argument, exclusions, and proposed Chapter 8 outline.
+      - status: drafted
+        date: 2026-09-22
+        note: Created the Revision 01 manuscript from the approved outline with evidence and source-access comments after every substantive paragraph.
+      - status: audited
+        date: 2026-09-22
+        note: Revision 01 passed separate fact, style, chronology, causation, repetition, compression, and continuity checks; explicit editorial approval remains pending.
+      - status: editor_approved
+        date: 2026-09-22
+        note: Revision 01 received explicit editorial approval after its fact, style, and continuity audits passed; the approved manuscript pointer and SHA-256 are recorded above.
   - id: 9
     number: 9
     slug: a-hogwarts-education
     title: A Hogwarts Education
-    status: planned
+    status: audited
     draft: draft-01
+    working_revision:
+      revision: 1
+      status: audited
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/09-a-hogwarts-education/evidence-synthesis-revision-01.md
+          sha256: 10531cb42d8f5ef3173186808adb68457d9a5f7c00d0945797ccb2420b4802a0
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/09-a-hogwarts-education/outline-revision-01.md
+          sha256: c0bfad7e59d274e445411e1cf3e80c95fa69784d5d5ed0f896e6d6d4c9900603
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/09-a-hogwarts-education/draft-revision-01.md
+          sha256: 9e2c6005c83040b42f8d149eb5f7314aa58392d2b9102da19b1680670bf5ac27
+      comparison_baselines:
+        - chapter: 1
+          revision: 8
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-08.md
+          sha256: 09b092f259b898814cb71ad35fd193d86a5f073413a9e6643b409fec3963797f
+        - chapter: 2
+          revision: 7
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/draft-revision-07.md
+          sha256: 1d62b9edf9c56f19586d92745a276cddc0a09ed60580a34efe9b39fe284cd08e
+        - chapter: 3
+          revision: 2
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/draft-revision-02.md
+          sha256: 13a759500686c771943b952fb174438901dae9717e3f69eb5650a08154fd1e20
+        - chapter: 4
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/04-the-four-houses/draft-revision-01.md
+          sha256: 2ddfbc22b2802425e9298b2795628cb7cc83d87aa150d606785e47af6ff90fbc
+        - chapter: 5
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/05-the-departure-of-salazar-slytherin/draft-revision-01.md
+          sha256: b48ae9de66b34cd359176243fb379466ce7febe09ddef30450feeac782a5a7d3
+        - chapter: 6
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/06-a-castle-unlike-any-other/draft-revision-01.md
+          sha256: 6e5422c8ae98b123c6b752820ea40480374851e324c51c8a24bf4df4a20a4399
+        - chapter: 7
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/07-the-grounds-and-their-boundaries/draft-revision-01.md
+          sha256: 38d87a369db8e3bd3c6bd0cddd96ec85a058b05f9394559a066740cb9293d84d
+        - chapter: 8
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/08-the-governance-of-hogwarts/draft-revision-01.md
+          sha256: 4e907cb66d9bc7433755aa2f084bf35bb46c12ed59b2daa04b45bc52423b7bd9
+    workflow_history:
+      - status: evidence_selected
+        date: 2026-09-22
+        note: Selected thirty-five existing canonical entries after concept searches across all admitted source families and direct inspection of their complete records and source passages; no research-layer entry was created or modified.
+      - status: evidence_reviewed
+        date: 2026-09-22
+        note: Revision 01 synthesis passed with all selected evidence reconciled, chronology and knowledge access separated, the admission-trigger conflict preserved, and no unresolved blocking verification item.
+      - status: outlined
+        date: 2026-09-22
+        note: Created the matching 28-paragraph Revision 01 outline from the passing synthesis; prose remains unauthorised pending explicit editorial approval.
+      - status: outline_approved
+        date: 2026-09-23
+        note: The user explicitly approved the validated Revision 01 evidence synthesis and 28-paragraph outline, authorising prose drafting.
+      - status: drafted
+        date: 2026-09-23
+        note: Created the Revision 01 manuscript from the approved outline with evidence and source-access comments after every substantive paragraph.
+      - status: audited
+        date: 2026-09-23
+        note: Revision 01 passed separate fact, style, chronology, knowledge-access, repetition, compression, and continuity checks; explicit final editorial approval remains pending.
   - id: 10
     number: 10
     slug: the-life-of-a-pupil
     title: The Life of a Pupil
-    status: planned
+    status: audited
     draft: draft-01
+    working_revision:
+      revision: 1
+      status: audited
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/10-the-life-of-a-pupil/evidence-synthesis-revision-01.md
+          sha256: 6b3fda178ab2d183a3a1e3abde02abbfc67b7f2d8088e70ce2cdce3b4600457e
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/10-the-life-of-a-pupil/outline-revision-01.md
+          sha256: 55f745eaca9d401d64a344144106b629bc05f7f31859adb7b48055d538bc43d4
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/10-the-life-of-a-pupil/draft-revision-01.md
+          sha256: f287f2f9cf9ebb5b880635ad06f45dcaa5dde9aee2ab4832e2e603817f08984d
+      comparison_baselines:
+        - chapter: 1
+          revision: 8
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/01-before-hogwarts/draft-revision-08.md
+          sha256: 09b092f259b898814cb71ad35fd193d86a5f073413a9e6643b409fec3963797f
+        - chapter: 2
+          revision: 7
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/02-the-four-founders/draft-revision-07.md
+          sha256: 1d62b9edf9c56f19586d92745a276cddc0a09ed60580a34efe9b39fe284cd08e
+        - chapter: 3
+          revision: 2
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/03-the-founding-of-hogwarts/draft-revision-02.md
+          sha256: 13a759500686c771943b952fb174438901dae9717e3f69eb5650a08154fd1e20
+        - chapter: 4
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/04-the-four-houses/draft-revision-01.md
+          sha256: 2ddfbc22b2802425e9298b2795628cb7cc83d87aa150d606785e47af6ff90fbc
+        - chapter: 5
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/05-the-departure-of-salazar-slytherin/draft-revision-01.md
+          sha256: b48ae9de66b34cd359176243fb379466ce7febe09ddef30450feeac782a5a7d3
+        - chapter: 6
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/06-a-castle-unlike-any-other/draft-revision-01.md
+          sha256: 6e5422c8ae98b123c6b752820ea40480374851e324c51c8a24bf4df4a20a4399
+        - chapter: 7
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/07-the-grounds-and-their-boundaries/draft-revision-01.md
+          sha256: 38d87a369db8e3bd3c6bd0cddd96ec85a058b05f9394559a066740cb9293d84d
+        - chapter: 8
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/08-the-governance-of-hogwarts/draft-revision-01.md
+          sha256: 4e907cb66d9bc7433755aa2f084bf35bb46c12ed59b2daa04b45bc52423b7bd9
+        - chapter: 9
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/09-a-hogwarts-education/draft-revision-01.md
+          sha256: 9e2c6005c83040b42f8d149eb5f7314aa58392d2b9102da19b1680670bf5ac27
+    workflow_history:
+      - status: evidence_selected
+        date: 2026-09-23
+        note: Selected sixty-seven existing canonical entries after concept searches across every admitted source family, direct inspection of consequential novel passages, and visual verification of the Beedle pantomime account; no research-layer entry was created or modified.
+      - status: evidence_reviewed
+        date: 2026-09-23
+        note: Revision 01 synthesis passed with eighteen claims, all selected evidence reconciled, chronology and knowledge access separated, and no unresolved blocking verification item.
+      - status: outlined
+        date: 2026-09-23
+        note: Created the matching 33-paragraph Revision 01 outline from the passing synthesis; prose remains unauthorised pending explicit editorial approval.
+      - status: outline_approved
+        date: 2026-09-23
+        note: The user explicitly approved the validated Revision 01 evidence synthesis and 33-paragraph outline, authorising prose drafting.
+      - status: drafted
+        date: 2026-09-23
+        note: Created the Revision 01 manuscript from the approved outline with evidence and source-access comments after every substantive paragraph.
+      - status: audited
+        date: 2026-09-23
+        note: Revision 01 passed separate fact, style, chronology, knowledge-access, repetition, compression, and continuity checks; explicit final editorial approval remains pending.
   - id: 11
     number: 11
     slug: the-library-and-the-preservation-of-knowledge
     title: The Library and the Preservation of Knowledge
-    status: planned
+    status: audited
     draft: draft-01
+    working_revision:
+      revision: 1
+      status: audited
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/11-the-library-and-the-preservation-of-knowledge/evidence-synthesis-revision-01.md
+          sha256: 39683ad57d64e1b133ee739124776f5ed5a6e9febdccc71ecd847d929e53c96f
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/11-the-library-and-the-preservation-of-knowledge/outline-revision-01.md
+          sha256: 8f7c76f3e0d634932666da873022616598ad6bd2af1a126a4b178c749c671c13
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/11-the-library-and-the-preservation-of-knowledge/draft-revision-01.md
+          sha256: 481a63f29dfde053e4e231253bd8c64bcfffc8b871bb42c06473a36950340a3e
+      comparison_baselines:
+        - chapter: 8
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/08-the-governance-of-hogwarts/draft-revision-01.md
+          sha256: 4e907cb66d9bc7433755aa2f084bf35bb46c12ed59b2daa04b45bc52423b7bd9
+        - chapter: 9
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/09-a-hogwarts-education/draft-revision-01.md
+          sha256: 9e2c6005c83040b42f8d149eb5f7314aa58392d2b9102da19b1680670bf5ac27
+        - chapter: 10
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/10-the-life-of-a-pupil/draft-revision-01.md
+          sha256: f287f2f9cf9ebb5b880635ad06f45dcaa5dde9aee2ab4832e2e603817f08984d
+    workflow_history:
+      - status: evidence_selected
+        date: 2026-09-23
+        note: Selected forty-six canonical evidence entries after indexed searches across textbooks, library use, research, restriction, dangerous knowledge, records, cultural reading and censorship; no research-layer entry was modified.
+      - status: evidence_reviewed
+        date: 2026-09-23
+        note: Revision 01 synthesis passed with twelve claims, all selected evidence reconciled, chronology and knowledge access separated, and no unresolved blocking verification item.
+      - status: outlined
+        date: 2026-09-23
+        note: Created the matching 35-paragraph Revision 01 outline from the passing synthesis; prose remained unauthorised pending explicit human approval.
+      - status: outline_approved
+        date: 2026-09-23
+        note: The user explicitly approved the validated Revision 01 outline, authorising prose drafting.
+      - status: drafted
+        date: 2026-09-23
+        note: Created the Revision 01 manuscript from the approved outline with evidence and source-access comments after every substantive paragraph.
+      - status: audited
+        date: 2026-09-23
+        note: Revision 01 passed separate fact, style, chronology, knowledge-access, repetition, compression and continuity checks; explicit final editorial approval remains pending.
   - id: 12
     number: 12
     slug: portraits-ghosts-and-the-memory-of-hogwarts
     title: Portraits, Ghosts and the Memory of Hogwarts
-    status: planned
+    status: audited
     draft: draft-01
+    working_revision:
+      revision: 1
+      status: audited
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/12-portraits-ghosts-and-the-memory-of-hogwarts/evidence-synthesis-revision-01.md
+          sha256: 1792f08836bc2670e03ba5ed883f565ac401b65bdfcc62a273e934411c8aefd8
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/12-portraits-ghosts-and-the-memory-of-hogwarts/outline-revision-01.md
+          sha256: 4be3a6672235a39d4ddcb69402de95d7a62eb0ea54e2cecedf3642189f2a9481
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/12-portraits-ghosts-and-the-memory-of-hogwarts/draft-revision-01.md
+          sha256: 3d9f34e99f888fb7a6cc05752b5d70b59de5afaa62139ad250f964094425d0f2
+      comparison_baselines:
+        - chapter: 4
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/04-the-four-houses/draft-revision-01.md
+          sha256: 2ddfbc22b2802425e9298b2795628cb7cc83d87aa150d606785e47af6ff90fbc
+        - chapter: 11
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/11-the-library-and-the-preservation-of-knowledge/draft-revision-01.md
+          sha256: 481a63f29dfde053e4e231253bd8c64bcfffc8b871bb42c06473a36950340a3e
+    workflow_history:
+      - status: evidence_selected
+        date: 2026-09-23
+        note: Created the Revision 01 evidence selection from the approved Chapter 12 research package after closing its two identified canonical source gaps.
+      - status: evidence_reviewed
+        date: 2026-09-23
+        note: Revision 01 synthesis passed with fourteen claims, all fifty-five selected evidence IDs reconciled, chronology and knowledge access separated, and no unresolved blocking verification item.
+      - status: outlined
+        date: 2026-09-23
+        note: Created the matching 27-paragraph Revision 01 outline from the passing synthesis; prose remains unauthorised pending explicit editorial approval.
+      - status: outline_approved
+        date: 2026-09-23
+        note: The user explicitly approved Chapter 12 Outline Revision 01, authorising a future matching prose draft; no prose was created in this approval step.
+      - status: drafted
+        date: 2026-09-23
+        note: Created the Revision 01 manuscript from the approved 27-paragraph outline with evidence and source-access comments after every substantive paragraph.
+      - status: audited
+        date: 2026-09-23
+        note: Revision 01 passed separate fact, style, chronology, knowledge-access, repetition, compression and continuity audits; explicit final editorial approval remains pending.
   - id: 13
     number: 13
     slug: customs-ceremonies-and-traditions
     title: Customs, Ceremonies and Traditions
-    status: planned
+    status: audited
     draft: draft-01
+    working_revision:
+      revision: 1
+      status: audited
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/13-customs-ceremonies-and-traditions/evidence-synthesis-revision-01.md
+          sha256: 844529df15ce259117b7dfe2cb652068822c72f5c76995da7db148158a1a5503
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/13-customs-ceremonies-and-traditions/outline-revision-01.md
+          sha256: ca258dc0fc892ed8a8255db6315d303cae3978a73ad3dccfd286de72ef118a75
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/13-customs-ceremonies-and-traditions/draft-revision-01.md
+          sha256: ae13629ba7beb083fca3f063b3f46c173b80c0a68d99c1ef82d2c631d26bb6d7
+      comparison_baselines:
+        - chapter: 4
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/04-the-four-houses/draft-revision-01.md
+          sha256: 2ddfbc22b2802425e9298b2795628cb7cc83d87aa150d606785e47af6ff90fbc
+        - chapter: 6
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/06-a-castle-unlike-any-other/draft-revision-01.md
+          sha256: 6e5422c8ae98b123c6b752820ea40480374851e324c51c8a24bf4df4a20a4399
+        - chapter: 10
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/10-the-life-of-a-pupil/draft-revision-01.md
+          sha256: f287f2f9cf9ebb5b880635ad06f45dcaa5dde9aee2ab4832e2e603817f08984d
+        - chapter: 12
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/12-portraits-ghosts-and-the-memory-of-hogwarts/draft-revision-01.md
+          sha256: 3d9f34e99f888fb7a6cc05752b5d70b59de5afaa62139ad250f964094425d0f2
+    workflow_history:
+      - status: evidence_selected
+        date: 2026-09-23
+        note: Selected fifty canonical evidence entries after a dedicated customs-and-ceremonies research pass; the school-song gap was then closed as explicitly requested by the user.
+      - status: evidence_reviewed
+        date: 2026-09-23
+        note: Revision 01 synthesis passed with eighteen claims, all fifty selected evidence IDs reconciled, chronology and knowledge access separated, and no unresolved blocking verification item.
+      - status: outlined
+        date: 2026-09-23
+        note: Created the matching nine-part Revision 01 outline from the passing synthesis.
+      - status: outline_approved
+        date: 2026-09-23
+        note: The user explicitly approved sections 1–9, retained the pantomime as the historical pivot, requested a short transport treatment, and required the school song to be indexed and integrated before drafting.
+      - status: drafted
+        date: 2026-09-23
+        note: Created the Revision 01 manuscript from the approved outline with evidence and source-access comments after every substantive paragraph.
+      - status: audited
+        date: 2026-09-23
+        note: Revision 01 passed separate fact, style, chronology, knowledge-access, repetition, compression and continuity audits; explicit final editorial approval remains pending.
   - id: 14
     number: 14
     slug: quidditch-at-hogwarts
@@ -314,17 +883,191 @@ chapters:
     number: 18
     slug: headmasters-and-reformers
     title: Headmasters and Reformers
-    status: planned
+    status: audited
     draft: draft-01
+    working_revision:
+      revision: 1
+      status: audited
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/18-headmasters-and-reformers/evidence-synthesis-revision-01.md
+          sha256: 08b93abd7ad9df65ad38c286b1d1444981bbadabe7755bdea59f1b69436942a1
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/18-headmasters-and-reformers/outline-revision-01.md
+          sha256: 467dfb261440dea9045de6025e11fad69701693a06334f73fce7f817eef1d1c8
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/18-headmasters-and-reformers/draft-revision-01.md
+          sha256: 5336cb074d1dad3a1f3eb06c7feba0465bc1c57962bbf66c0d7e901acfe4ff75
+      comparison_baselines:
+        - chapter: 8
+          revision: 1
+          kind: approved
+          path: authoring/editions/1984/drafts/draft-01/chapters/08-the-governance-of-hogwarts/draft-revision-01.md
+          sha256: 4e907cb66d9bc7433755aa2f084bf35bb46c12ed59b2daa04b45bc52423b7bd9
+        - chapter: 12
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/12-portraits-ghosts-and-the-memory-of-hogwarts/draft-revision-01.md
+          sha256: 3d9f34e99f888fb7a6cc05752b5d70b59de5afaa62139ad250f964094425d0f2
+        - chapter: 15
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/15-hogwarts-and-the-wider-wizarding-world/draft-revision-01.md
+          sha256: 8f75adb1efbb24aadd6c5405f02409394e9f3aaab4fc38273c3470d171d1f4cc
+        - chapter: 17
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/17-danger-defence-and-disaster/draft-revision-01.md
+          sha256: 93a90bd258362cb4ec08f60d18c750083a473599ece0e2dc1939d7d17ffd1697
+    workflow_history:
+      - status: evidence_selected
+        date: 2026-09-25
+        note: Selected forty-six existing canonical entries after compact-index searches, direct inspection of pivotal source passages, and overlap review against Chapters 8, 12, 15 and 17; no research-layer file was modified.
+      - status: evidence_reviewed
+        date: 2026-09-25
+        note: Revision 01 synthesis passed with twelve claims, all forty-six selected evidence IDs reconciled, chronology and knowledge access separated, and no unresolved blocking verification item.
+      - status: outlined
+        date: 2026-09-25
+        note: Created the matching Revision 01 evidence-to-argument map and 52-paragraph outline; explicit human approval is required before drafting prose.
+      - status: outline_approved
+        date: 2026-09-25
+        note: The user explicitly approved Outline Revision 01 for prose drafting, including its institutional treatment of Dippet and Dumbledore, the Hagrid decision split, and the protected Chapter 20 boundary.
+      - status: drafted
+        date: 2026-09-25
+        note: Created draft-revision-01.md from the approved outline with all forty-six selected evidence IDs preserved in adjacent manuscript metadata.
+      - status: audited
+        date: 2026-09-25
+        note: Revision 01 passed separate fact and evidence, style and repetition, and continuity audits after the dedicated compression and narrative-flow pass; explicit final editorial approval remains pending.
   - id: 19
     number: 19
     slug: hogwarts-in-the-modern-age
     title: Hogwarts in the Modern Age
-    status: planned
+    status: audited
     draft: draft-01
+    working_revision:
+      revision: 1
+      status: audited
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/19-hogwarts-in-the-modern-age/evidence-synthesis-revision-01.md
+          sha256: fb4c3c6071def95529025087e7fd6722ec1ac90fcb4fe4c61769eb658987d36c
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/19-hogwarts-in-the-modern-age/outline-revision-01.md
+          sha256: 8537b3223b77b7227241f148a3269c1a68fee24f651b65508b4bc169506d83c9
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/19-hogwarts-in-the-modern-age/draft-revision-01.md
+          sha256: e0cc5062378e45fff88a0b9ad364a6cfe74bfb5aff9630c6912dd947531fcdb3
+      comparison_baselines:
+        - chapter: 9
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/09-a-hogwarts-education/draft-revision-01.md
+          sha256: 9e2c6005c83040b42f8d149eb5f7314aa58392d2b9102da19b1680670bf5ac27
+        - chapter: 10
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/10-the-life-of-a-pupil/draft-revision-01.md
+          sha256: f287f2f9cf9ebb5b880635ad06f45dcaa5dde9aee2ab4832e2e603817f08984d
+        - chapter: 15
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/15-hogwarts-and-the-wider-wizarding-world/draft-revision-01.md
+          sha256: 8f75adb1efbb24aadd6c5405f02409394e9f3aaab4fc38273c3470d171d1f4cc
+        - chapter: 17
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/17-danger-defence-and-disaster/draft-revision-01.md
+          sha256: 93a90bd258362cb4ec08f60d18c750083a473599ece0e2dc1939d7d17ffd1697
+        - chapter: 18
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/18-headmasters-and-reformers/draft-revision-01.md
+          sha256: 5336cb074d1dad3a1f3eb06c7feba0465bc1c57962bbf66c0d7e901acfe4ff75
+    workflow_history:
+      - status: evidence_selected
+        date: 2026-09-26
+        note: Selected twenty-eight canonical entries after permanent compact-index queries, direct inspection of pivotal official and novel sources, and overlap review against Chapters 9, 10, 15, 17 and 18; no research-layer file was modified.
+      - status: evidence_reviewed
+        date: 2026-09-26
+        note: Revision 01 synthesis passed with eight claims, all twenty-eight selected evidence IDs reconciled, chronology and knowledge access separated, and no unresolved blocking verification item.
+      - status: outlined
+        date: 2026-09-26
+        note: Created the matching Revision 01 outline with twenty-seven planned paragraphs; explicit human approval is required before drafting prose.
+      - status: outline_approved
+        date: 2026-09-26
+        note: The user explicitly approved Outline Revision 01 and directed drafting with its proposed argument, source-access plan and Chapter 9, 10, 15, 17, 18 and 20 ownership boundaries intact.
+      - status: drafted
+        date: 2026-09-26
+        note: Created draft-revision-01.md from the approved twenty-seven-paragraph outline, with paragraph-level evidence and source-access metadata and without restoring the deferred Lupin material.
+      - status: audited
+        date: 2026-09-26
+        note: Revision 01 passed separate fact and source-access, style and repetition, and continuity and ownership audits after the prescribed compression pass; explicit prose approval remains pending.
   - id: 20
     number: 20
     slug: from-dippet-to-dumbledore
     title: From Dippet to Dumbledore
-    status: planned
+    status: audited
     draft: draft-01
+    working_revision:
+      revision: 1
+      status: audited
+      artifacts:
+        evidence_synthesis:
+          path: authoring/editions/1984/drafts/draft-01/chapters/20-from-dippet-to-dumbledore/evidence-synthesis-revision-01.md
+          sha256: 8de7b1d168c2da498d176901890951f7f3d2c0f217e6fb49ab5a52d2d6c3bdf2
+        outline:
+          path: authoring/editions/1984/drafts/draft-01/chapters/20-from-dippet-to-dumbledore/outline-revision-01.md
+          sha256: 4a45738596c614ffb8a9c97dd8c836cc524ff8e23c7ac0e850ab1d5b1973d661
+        manuscript:
+          path: authoring/editions/1984/drafts/draft-01/chapters/20-from-dippet-to-dumbledore/draft-revision-01.md
+          sha256: 0b088475692e600ff938c147f5e076f5f6fe304bd9dfac080f03ae35808313f7
+      comparison_baselines:
+        - chapter: 9
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/09-a-hogwarts-education/draft-revision-01.md
+          sha256: 9e2c6005c83040b42f8d149eb5f7314aa58392d2b9102da19b1680670bf5ac27
+        - chapter: 10
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/10-the-life-of-a-pupil/draft-revision-01.md
+          sha256: f287f2f9cf9ebb5b880635ad06f45dcaa5dde9aee2ab4832e2e603817f08984d
+        - chapter: 15
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/15-hogwarts-and-the-wider-wizarding-world/draft-revision-01.md
+          sha256: 8f75adb1efbb24aadd6c5405f02409394e9f3aaab4fc38273c3470d171d1f4cc
+        - chapter: 17
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/17-danger-defence-and-disaster/draft-revision-01.md
+          sha256: 93a90bd258362cb4ec08f60d18c750083a473599ece0e2dc1939d7d17ffd1697
+        - chapter: 18
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/18-headmasters-and-reformers/draft-revision-01.md
+          sha256: 5336cb074d1dad3a1f3eb06c7feba0465bc1c57962bbf66c0d7e901acfe4ff75
+        - chapter: 19
+          revision: 1
+          kind: working
+          path: authoring/editions/1984/drafts/draft-01/chapters/19-hogwarts-in-the-modern-age/draft-revision-01.md
+          sha256: e0cc5062378e45fff88a0b9ad364a6cfe74bfb5aff9630c6912dd947531fcdb3
+    workflow_history:
+      - status: evidence_selected
+        date: 2026-09-26
+        note: Selected twenty-five canonical entries after permanent repository queries, direct inspection of pivotal official and novel sources, and overlap review against Chapters 9, 10, 15, 17, 18 and 19; no research-layer file was modified.
+      - status: evidence_reviewed
+        date: 2026-09-26
+        note: Revision 01 synthesis passed with nine claims, all twenty-five selected evidence IDs reconciled, chronology and knowledge access separated, two entries explicitly deferred, and no unresolved blocking verification item.
+      - status: outlined
+        date: 2026-09-26
+        note: Created the matching Revision 01 outline with twenty-six planned paragraphs; explicit human approval is required before drafting prose.
+      - status: outline_approved
+        date: 2026-09-26
+        note: The user explicitly approved Outline Revision 01 for prose drafting with the succession gap, 1943 decision split, case-specific accommodations, wartime evidence limits, mixed inheritance and strict 1984 boundary intact.
+      - status: drafted
+        date: 2026-09-26
+        note: Created draft-revision-01.md from the approved twenty-six-paragraph outline with adjacent evidence and source-access metadata, all twenty-three advancing evidence IDs represented and both deferred IDs excluded.
+      - status: audited
+        date: 2026-09-26
+        note: Revision 01 passed separate fact and source-access, style and repetition, and continuity and ownership audits after the prescribed compression pass; explicit prose approval remains pending.

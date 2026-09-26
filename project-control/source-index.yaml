@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-09-17'
+updated: '2026-09-23'
 processed_units:
 - source_unit_id: ps-ch01
   source_file: pdfs/harrypotter.pdf
@@ -83,7 +83,7 @@ processed_units:
   output_yaml: sources/book-01/chapter-07-sorting-hat.yaml
   processed_at: '2026-06-09'
   explicit_reference_count: 1
-  candidate_entry_count: 2
+  candidate_entry_count: 3
   boundary_summary: Used indexed page range; extracted only pages 107-122.
 - source_unit_id: ps-ch08
   source_file: pdfs/harrypotter.pdf
@@ -2436,7 +2436,7 @@ processed_units:
   output_yaml: sources/book-beedle/chapter-04-babbitty-rabbitty.yaml
   processed_at: '2026-08-15'
   explicit_reference_count: 0
-  candidate_entry_count: 6
+  candidate_entry_count: 7
   boundary_summary: Used indexed page range; extracted only pages 39-52.
 - source_unit_id: beedle-ch05
   source_file: pdfs/Beedle The Bard_text.pdf
@@ -4865,7 +4865,7 @@ processed_units:
   output_yaml: sources/external/official-rowling/a17-pensieve.yaml
   processed_at: '2026-08-15'
   explicit_reference_count: 0
-  candidate_entry_count: 4
+  candidate_entry_count: 5
   boundary_summary: Read the complete acquired Markdown snapshot.
   source_kind: external_markdown
   source_id: A17

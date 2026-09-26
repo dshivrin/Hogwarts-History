@@ -1,0 +1,131 @@
+schema_version: 1
+chapter:
+  id: 10
+  number: 10
+  slug: the-life-of-a-pupil
+  title: The Life of a Pupil
+edition: unified-expanded
+target_revision: 1
+status: evidence_reviewed
+review_date: 2026-09-23
+research_basis:
+  - authoritative contents, authoring workflow, evidence policy, Draft-01 style lock, and Chapter 9 audited working baseline
+  - concept searches across the complete structured corpus for daily routine, House residence, meals, homework, recreation, friendship, correspondence, Hogsmeade, holidays, discipline, prefects, health, material life, and economic difference
+  - direct inspection of every selected canonical YAML record and bounded inspection of the most consequential underlying novel passages
+  - rendered visual inspection of The Tales of Beedle the Bard PDF pages 26-28 covering Dumbledore's Christmas pantomime account
+  - screening of Fantastic Beasts, Quidditch Through the Ages, Beedle, official Rowling sources, preserved interviews, explicit Hogwarts: A History references, duplicate clusters, open questions, and Chapters 1-9 for overlap
+selection_principle: >-
+  Select evidence only when it establishes or materially limits recurring
+  residential, social, temporal, disciplinary, communicative, medical, or
+  material experience at Hogwarts. Isolated plot events advance only when
+  they reveal a wider lived practice, a bounded historical example, or an
+  exceptional contrast that the chapter must explicitly label.
+
+selected_evidence:
+  - {id: ps-ch07-002, cluster: house_as_home, chronology: C, confidence: medium}
+  - {id: ps-ch08-001, cluster: castle_navigation, chronology: D, confidence: high}
+  - {id: ps-ch08-002, cluster: castle_navigation, chronology: D, confidence: high}
+  - {id: ps-ch08-004, cluster: daily_rhythm, chronology: D, confidence: high}
+  - {id: ps-ch08-006, cluster: daily_rhythm, chronology: D, confidence: high}
+  - {id: gof-ch13-001, cluster: daily_rhythm, chronology: D, confidence: high}
+  - {id: hbp-ch11-001, cluster: older_pupil_workload, chronology: D, confidence: high}
+  - {id: ps-ch09-005, cluster: after_hours_boundaries, chronology: D, confidence: high}
+  - {id: cos-ch05-006, cluster: house_as_home, chronology: D, confidence: medium}
+  - {id: ootp-ch17-002, cluster: house_as_home, chronology: B, confidence: high}
+  - {id: ootp-ch13-001, cluster: house_as_home, chronology: D, confidence: high}
+  - {id: ootp-ch12-001, cluster: house_as_home, chronology: D, confidence: high}
+  - {id: poa-ch13-006, cluster: house_as_home, chronology: D, confidence: high}
+  - {id: cos-ch06-001, cluster: great_hall_and_post, chronology: D, confidence: high}
+  - {id: ootp-ch25-001, cluster: great_hall_and_post, chronology: D, confidence: high}
+  - {id: ps-ch12-003, cluster: great_hall_and_holidays, chronology: D, confidence: high}
+  - {id: poa-ch11-005, cluster: great_hall_and_holidays, chronology: D, confidence: high}
+  - {id: ps-ch17-005, cluster: great_hall_and_house_cup, chronology: D, confidence: high}
+  - {id: gof-ch12-005, cluster: great_hall_announcements, chronology: D, confidence: high}
+  - {id: ps-ch14-001, cluster: homework_and_revision, chronology: D, confidence: medium}
+  - {id: gof-ch14-006, cluster: homework_and_revision, chronology: D, confidence: high}
+  - {id: gof-ch20-004, cluster: homework_and_revision, chronology: D, confidence: high}
+  - {id: ootp-ch14-005, cluster: homework_and_revision, chronology: D, confidence: high}
+  - {id: ootp-ch16-003, cluster: homework_and_revision, chronology: D, confidence: medium}
+  - {id: ootp-ch29-001, cluster: homework_and_revision, chronology: D, confidence: high}
+  - {id: ootp-ch31-001, cluster: homework_and_revision, chronology: D, confidence: high}
+  - {id: hbp-ch25-001, cluster: homework_and_revision, chronology: D, confidence: high}
+  - {id: ps-ch16-002, cluster: recreation, chronology: D, confidence: high}
+  - {id: ootp-ch19-005, cluster: recreation_and_rivalry, chronology: D, confidence: high}
+  - {id: ootp-ch28-007, cluster: pre_1984_social_life, chronology: B, confidence: medium}
+  - {id: ootp-ch29-006, cluster: pre_1984_social_life, chronology: B, confidence: medium}
+  - {id: hbp-ch23-003, cluster: pre_1984_social_life, chronology: B, confidence: high}
+  - {id: cos-ch07-003, cluster: social_difference, chronology: D, confidence: high}
+  - {id: cos-ch02-004, cluster: correspondence, chronology: D, confidence: high}
+  - {id: poa-ch01-003, cluster: correspondence, chronology: D, confidence: high}
+  - {id: ootp-ch29-002, cluster: correspondence_exception, chronology: D, confidence: high}
+  - {id: poa-ch01-005, cluster: hogsmeade, chronology: D, confidence: high}
+  - {id: poa-ch03-005, cluster: hogsmeade, chronology: D, confidence: high}
+  - {id: poa-ch08-003, cluster: hogsmeade, chronology: D, confidence: high}
+  - {id: ootp-ch16-001, cluster: hogsmeade, chronology: D, confidence: high}
+  - {id: poa-ch14-002, cluster: hogsmeade_and_discipline, chronology: D, confidence: high}
+  - {id: beedle-ch02-001, cluster: pre_1984_christmas, chronology: B, confidence: high}
+  - {id: beedle-ch02-002, cluster: pre_1984_christmas, chronology: B, confidence: high}
+  - {id: beedle-ch02-004, cluster: pre_1984_christmas, chronology: B, confidence: high}
+  - {id: beedle-ch02-005, cluster: pre_1984_christmas, chronology: B, confidence: high}
+  - {id: ps-ch12-001, cluster: holidays, chronology: D, confidence: medium}
+  - {id: cos-ch11-001, cluster: holidays, chronology: D, confidence: high}
+  - {id: poa-ch03-004, cluster: holidays, chronology: D, confidence: high}
+  - {id: ps-ch14-007, cluster: ordinary_discipline, chronology: D, confidence: high}
+  - {id: ps-ch15-004, cluster: ordinary_discipline, chronology: D, confidence: high}
+  - {id: gof-ch13-006, cluster: ordinary_discipline, chronology: D, confidence: high}
+  - {id: ootp-ch13-006, cluster: exceptional_abuse, chronology: D, confidence: high}
+  - {id: hbp-ch24-006, cluster: ordinary_discipline, chronology: D, confidence: high}
+  - {id: ext-a32-003, cluster: pre_1984_discipline, chronology: B, confidence: high}
+  - {id: ps-ch06-002, cluster: prefect_hierarchy, chronology: D, confidence: high}
+  - {id: ootp-ch10-002, cluster: prefect_hierarchy, chronology: D, confidence: high}
+  - {id: ootp-ch21-003, cluster: prefect_hierarchy, chronology: D, confidence: high}
+  - {id: poa-ch06-002, cluster: castle_navigation, chronology: D, confidence: high}
+  - {id: gof-ch25-005, cluster: castle_navigation, chronology: D, confidence: high}
+  - {id: cos-ch10-005, cluster: health_and_care, chronology: D, confidence: high}
+  - {id: cos-ch13-001, cluster: health_and_care, chronology: D, confidence: high}
+  - {id: hbp-ch19-001, cluster: health_and_care, chronology: D, confidence: high}
+  - {id: ps-ch06-006, cluster: material_life, chronology: D, confidence: high}
+  - {id: poa-ch04-005, cluster: material_life, chronology: D, confidence: medium}
+  - {id: ext-a21-001, cluster: material_life, chronology: C, confidence: high}
+  - {id: hbp-ch13-006, cluster: economic_difference, chronology: B, confidence: high}
+  - {id: gof-ch10-007, cluster: economic_difference, chronology: D, confidence: high}
+
+chronology_key:
+  A: directly usable pre-1984 documentary evidence
+  B: pre-1984 event or condition established through later testimony, memory, or commentary
+  C: later observation or undated commentary on a potentially older practice with continuity unproven
+  D: post-1984 observation, procedure, or development
+  E: uncertain or internally conflicting chronology
+
+excluded_or_deferred:
+  - ids: [ext-a07-001, ext-a07-002, ext-a07-003, ext-a07-004, cos-ch12-005, dh-ch29-005]
+    reason: Detailed common-room entrances and interiors exceed the lived-experience need and risk repeating Chapter 6 architecture.
+  - ids: [gof-ch21-006, gof-ch12-004, ootp-ch13-002, ootp-ch14-001, ootp-ch18-004]
+    reason: Kitchen and service-labour evidence would reopen the draft-wide decision to preserve silence on Hogwarts house-elf servitude.
+  - ids: [hbp-ch25-002, cc-p2-a4-s09-001]
+    reason: A decades-old Gobstones clipping and altered-timeline Exploding Snap scene are too thin to establish a general extracurricular or games culture.
+  - ids: [poa-ch10-004, ootp-ch20-001, gof-ch25-001]
+    reason: Secret-passage incidents establish exceptional evasion more strongly than ordinary pupil movement and are already available to the castle chapters.
+  - ids: [ootp-ch17-003, ootp-ch28-004, ootp-ch29-005]
+    reason: Umbridge-era communication surveillance is adequately represented by the concrete inspected parcel and should not dominate ordinary correspondence.
+  - ids: [ootp-ch28-002, ootp-ch29-007, dh-ch30-002]
+    reason: Inquisitorial Squad powers, proposed whipping, and Carrow-era coercion are exceptional governance or wartime material; only the blood quill is retained as the necessary exceptional-abuse contrast.
+  - ids: [ext-a37-001]
+    reason: The official extension-charm account calls enhanced Hogwarts trunks standard but does not date the practice; ordinary luggage handling is independently supported without this uncertain claim.
+  - ids: [beedle-ch00-002]
+    reason: Shared childhood familiarity with Beedle is valid cultural evidence but unnecessary unless the chapter develops reading culture beyond the stronger residential argument.
+  - ids: [fb-ch07-002]
+    reason: Creature-licensing context adds little to the direct school pet evidence and would pull the section into general creature law.
+  - ids: [cc-p1-a2-s08-004, cc-p2-a3-s10-001]
+    reason: Altered-timeline discipline and Hogsmeade material cannot establish primary-timeline practice.
+
+source_search_notes:
+  novels: All seven novels were searched across the structured corpus by concept; selected records were inspected in canonical YAML and consequential passages were checked against bounded PDF extracts.
+  fantastic_beasts: Complete structured entries were screened; student marginalia and pet-law context are colorful but do not materially improve the residential reconstruction.
+  quidditch_through_the_ages: Complete structured entries were screened; relevant material concerns sport history and governance rather than ordinary pupil life, so later match-day observations are used only for social culture.
+  tales_of_beedle_the_bard: Complete structured entries were screened; the Dippet-era pantomime entries were selected and PDF pages 26-28 were rendered and visually inspected.
+  official_external: Relevant official sources on pets, common rooms, trunks, and Lockhart were screened; the pet rule and pre-1984 detention were selected, while architectural and undated trunk details were deferred.
+  preserved_interviews: Screened; no authority-D transcript materially improves the selected reconstruction beyond stronger novel, memory, or official evidence.
+  cursed_child: Screened; altered-timeline school-life evidence was excluded and later primary-timeline material was unnecessary.
+  pensieve_evidence: Riddle-era and Marauders-era memories were inspected and selected only for the social, economic, disciplinary, or relational conditions they actually show.
+  explicit_hogwarts_a_history: Screened; the founder-attributed gendered dormitory rule was selected with its later-access limitation retained.

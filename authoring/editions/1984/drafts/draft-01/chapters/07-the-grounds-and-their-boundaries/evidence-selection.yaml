@@ -1,0 +1,99 @@
+schema_version: 1
+chapter:
+  id: 7
+  number: 7
+  slug: the-grounds-and-their-boundaries
+  title: The Grounds and Their Boundaries
+edition: unified-expanded
+target_revision: 1
+status: evidence_reviewed
+review_date: 2026-09-22
+research_basis:
+  - approved Chapter 6 and its exact closing transition
+  - authoritative contents, chronology, source-access policy, evidence schema, confidence rules, and Draft-01 style lock
+  - compact-index queries across all admitted novels, companion books, official retrospective sources, preservation sources, and completed Cursed Child extraction
+  - duplicate and corroboration queries for lake arrival, lake inhabitants, Forest paths and autonomy, grounds structures, boundaries, the Whomping Willow, and Quidditch-field alteration
+  - direct inspection of every selected canonical YAML entry and its limitations
+selection_principle: >-
+  Select evidence only when it explains Hogwarts as a physical, magical,
+  institutional, inhabited, bounded, or historically altered place. Creature,
+  curriculum, sport, tournament, and war evidence advances only for that spatial
+  function.
+
+selected_evidence:
+  - {id: ps-ch06-007, cluster: landscape_and_arrival, chronology: C, confidence: high}
+  - {id: cos-ch05-002, cluster: landscape_and_arrival, chronology: C, confidence: medium}
+  - {id: poa-ch05-005, cluster: landscape_and_arrival, chronology: C, confidence: high}
+  - {id: ext-a09-001, cluster: lake, chronology: C, confidence: high}
+  - {id: ext-a09-002, cluster: lake, chronology: C, confidence: high}
+  - {id: ext-a09-003, cluster: lake, chronology: C, confidence: high}
+  - {id: ext-a09-004, cluster: lake, chronology: C, confidence: high}
+  - {id: ps-ch16-002, cluster: lake, chronology: C, confidence: high}
+  - {id: gof-ch26-006, cluster: lake, chronology: C, confidence: high}
+  - {id: gof-ch26-007, cluster: lake, chronology: D, confidence: high}
+  - {id: fb-ch07-004, cluster: lake, chronology: B, confidence: high}
+  - {id: ps-ch04-001, cluster: working_grounds, chronology: C, confidence: high}
+  - {id: ps-ch14-005, cluster: working_grounds, chronology: D, confidence: medium}
+  - {id: cos-ch06-002, cluster: working_grounds, chronology: C, confidence: high}
+  - {id: ps-ch09-002, cluster: working_grounds, chronology: C, confidence: high}
+  - {id: ps-ch11-004, cluster: working_grounds, chronology: C, confidence: high}
+  - {id: ootp-ch31-005, cluster: working_grounds, chronology: D, confidence: high}
+  - {id: ps-ch15-004, cluster: forbidden_forest, chronology: C, confidence: high}
+  - {id: ps-ch15-005, cluster: forbidden_forest, chronology: C, confidence: high}
+  - {id: ps-ch15-006, cluster: forbidden_forest, chronology: A, confidence: high}
+  - {id: cos-ch15-004, cluster: forbidden_forest, chronology: C, confidence: high}
+  - {id: cos-ch15-005, cluster: forbidden_forest, chronology: C, confidence: high}
+  - {id: cos-ch15-006, cluster: forbidden_forest, chronology: B, confidence: high}
+  - {id: ootp-ch21-001, cluster: forbidden_forest, chronology: C, confidence: high}
+  - {id: ootp-ch27-002, cluster: forbidden_forest, chronology: C, confidence: high}
+  - {id: ootp-ch30-007, cluster: forbidden_forest, chronology: C, confidence: high}
+  - {id: ootp-ch33-004, cluster: forbidden_forest, chronology: D, confidence: high}
+  - {id: ootp-ch33-005, cluster: forbidden_forest, chronology: C, confidence: high}
+  - {id: hbp-ch22-005, cluster: forbidden_forest, chronology: C, confidence: high}
+  - {id: fb-ch05-006, cluster: forbidden_forest, chronology: B, confidence: high}
+  - {id: gof-ch11-005, cluster: boundaries, chronology: A, confidence: high}
+  - {id: poa-ch09-001, cluster: boundaries, chronology: A, confidence: high}
+  - {id: gof-ch15-006, cluster: boundaries, chronology: C, confidence: high}
+  - {id: gof-ch29-001, cluster: boundaries, chronology: C, confidence: high}
+  - {id: hbp-ch28-005, cluster: boundaries, chronology: C, confidence: high}
+  - {id: hbp-ch08-002, cluster: boundaries, chronology: D, confidence: high}
+  - {id: ext-a04-001, cluster: boundaries, chronology: B, confidence: high}
+  - {id: poa-ch10-002, cluster: historical_change, chronology: B, confidence: high}
+  - {id: gof-ch28-004, cluster: historical_change, chronology: D, confidence: high}
+  - {id: gof-ch31-002, cluster: historical_change, chronology: D, confidence: high}
+  - {id: gof-ch31-005, cluster: historical_change, chronology: D, confidence: high}
+  - {id: cc-p1-a2-s05-001, cluster: later_continuity, chronology: D, confidence: high}
+  - {id: cc-p2-a3-s11-001, cluster: later_continuity, chronology: D, confidence: high}
+
+chronology_key:
+  A: pre-1984 / original-book candidate
+  B: pre-1984 fact established by later source
+  C: later observation of an undated feature
+  D: post-1984 historical development
+  E: uncertain
+
+excluded_or_deferred:
+  - ids: [qtta-ch05-001, qtta-ch06-001]
+    reason: General pitch siting and dimensions do not establish the Hogwarts pitch's date, exact dimensions, or enchantments; reserve for Chapter 14.
+  - ids: [ext-a09-005, gof-ch26-005]
+    reason: The 1995 second-task staging is useful only as a brief example of exceptional lake use; detailed tournament procedure belongs to Chapter 16.
+  - ids: [fb-ch03-005]
+    reason: General safe-habitat practice is context, not proof that Hogwarts was legally or deliberately constituted as a creature reserve before 1984.
+  - ids: [fb-ch05-001, fb-ch05-002]
+    reason: Acromantula taxonomy and Harry-copy marginalia add little to the place argument once the Hogwarts colony and its origin are established directly.
+  - ids: [poa-ch04-007, ootp-ch24-002, hbp-ch08-006]
+    reason: Crisis security corroborates changing protection but would pull the chapter into war and governance detail.
+  - ids: [hbp-ch08-007]
+    reason: Grawp's later mountain cave is not securely located within Hogwarts grounds.
+  - ids: [ext-a27-004]
+    reason: The intelligent-wolf-cub account is undated/uncertain and unnecessary to the argument.
+  - ids: [cc-p2-a3-s09-001, cc-p2-a3-s19-002]
+    reason: Altered-timeline or later-crisis material cannot establish primary Hogwarts landscape history.
+
+source_search_notes:
+  novels: All seven novels were included through corpus-wide tag and duplicate queries.
+  fantastic_beasts: Used only to explain already attested centaur and merpeople status; not used to populate Hogwarts by inference.
+  quidditch_through_the_ages: Relevant pitch entries screened and deferred as general rather than Hogwarts-specific.
+  tales_of_beedle_the_bard: Screened; no evidence materially advanced the landscape argument.
+  official_external: A04 and A09 selected; lower-authority interview material was unnecessary.
+  cursed_child: Extraction is complete and admissible; two primary-timeline later-continuity entries are selected only as post-1984 editorial evidence.

@@ -1,0 +1,144 @@
+schema_version: 1
+chapter:
+  id: 20
+  number: 20
+  slug: from-dippet-to-dumbledore
+  title: From Dippet to Dumbledore
+edition: unified-expanded
+target_revision: 1
+status: evidence_reviewed
+review_date: 2026-09-26
+selection_principle: >-
+  Select evidence only when it establishes or materially limits the chronology,
+  overlap, succession, school-facing judgement or institutional consequences of
+  the Dippet and Dumbledore periods through 1984. Biographical evidence advances
+  only when it changes the history of Hogwarts. Reuse from Chapters 9, 10, 15,
+  17, 18 and 19 requires a distinct chronological or inheritance function.
+source_access_key:
+  1: directly available to the reconstructed pre-1984 account or explicit original-book core
+  2: pre-1984 event preserved only by later testimony, memory or retrospective
+  3: post-1984 observation demonstrating an older condition without dating its origin
+  4: later editorial history
+  5: excluded or deferred
+selected_evidence:
+  - {id: beedle-ch02-001, cluster: dippet_school_context, source_access: 2, confidence: high}
+  - {id: beedle-ch02-002, cluster: dumbledore_under_dippet, source_access: 2, confidence: high}
+  - {id: beedle-ch02-005, cluster: dippet_school_context, source_access: 2, confidence: high}
+  - {id: beedle-ch02-006, cluster: cross_tenure_staff_continuity, source_access: 2, confidence: high}
+
+  - {id: hbp-ch13-003, cluster: dumbledore_teacher_and_riddle, source_access: 2, confidence: high}
+  - {id: hbp-ch13-004, cluster: dumbledore_teacher_and_riddle, source_access: 2, confidence: medium}
+  - {id: hbp-ch17-004, cluster: dumbledore_teacher_and_riddle, source_access: 2, confidence: medium}
+  - {id: hbp-ch17-005, cluster: 1943_and_riddle, source_access: 2, confidence: medium}
+
+  - {id: cos-ch13-005, cluster: 1943_under_dippet, source_access: 2, confidence: medium}
+  - {id: cos-ch13-007, cluster: 1943_under_dippet, source_access: 2, confidence: high}
+  - {id: cos-ch17-003, cluster: 1943_hagrid_outcome, source_access: 2, confidence: high}
+  - {id: ps-ch04-007, cluster: 1943_hagrid_outcome, source_access: 2, confidence: high}
+
+  - {id: hbp-ch20-003, cluster: succession_bracket, source_access: 2, confidence: high}
+  - {id: hbp-ch20-007, cluster: succession_bracket, source_access: 2, confidence: high}
+  - {id: ps-ch06-003, cluster: dumbledore_public_stature, source_access: 3, confidence: high}
+  - {id: dh-ch02-005, cluster: dumbledore_public_stature, source_access: 2, confidence: high}
+
+  - {id: ext-a10-001, cluster: dumbledore_exceptional_accommodation, source_access: 2, confidence: high}
+  - {id: poa-ch18-003, cluster: dumbledore_exceptional_accommodation, source_access: 2, confidence: high}
+  - {id: poa-ch18-007, cluster: accommodation_limit, source_access: 2, confidence: high}
+  - {id: hbp-ch25-004, cluster: dumbledore_protective_staffing, source_access: 2, confidence: high}
+  - {id: ext-a33-001, cluster: dumbledore_protective_staffing, source_access: 2, confidence: high}
+
+  - {id: ps-ch01-002, cluster: first_wizarding_war, source_access: 2, confidence: medium}
+  - {id: ps-ch04-005, cluster: first_wizarding_war, source_access: 2, confidence: medium}
+
+  - {id: dh-ch35-006, cluster: deferred_private_career_rationale, source_access: 2, confidence: high}
+  - {id: gof-ch30-004, cluster: deferred_wartime_activity, source_access: 2, confidence: high}
+excluded_or_deferred:
+  - ids: [dh-ch35-006]
+    disposition: defer
+    reason: >-
+      Dumbledore's private explanation that Hogwarts teaching felt safer than
+      political power is biographically suggestive but is disclosed in a
+      posthumous private encounter and is unnecessary to establish his long
+      teaching career or school-facing decisions. It must not become an
+      omniscient motive in Revision 01.
+  - ids: [gof-ch30-004]
+    disposition: defer
+    reason: >-
+      Dumbledore's defence of Snape at a postwar proceeding concerns First-War
+      intelligence and legal aftermath. The record selected here does not date
+      Snape's Hogwarts appointment or establish the proceeding before the 1984
+      boundary, so it cannot safely advance as Chapter 20 school chronology.
+  - ids: [beedle-ch02-008, beedle-ch02-009]
+    disposition: defer
+    reason: >-
+      The later library dispute and governor campaign belong to Chapters 11 and
+      18 and fall outside the reconstructed 1984 period. They do not clarify the
+      Dippet-to-Dumbledore transition.
+  - ids: [cc-p2-a4-s13-001]
+    disposition: omit_from_revision
+    reason: >-
+      Hagrid's 1981 retrieval of Harry under Dumbledore's instruction is an
+      external rescue operation rather than a documented change at Hogwarts.
+  - ids: [ext-b23-001]
+    disposition: omit_from_revision
+    reason: >-
+      An approximate age from an authority-D preservation transcript adds
+      longevity but no recoverable tenure date or institutional consequence.
+  - ids: [hbp-ch13-003, hbp-ch13-004]
+    disposition: advance_to_outline_with_new_function
+    reason: >-
+      Chapters 9 and 19 own admissions and outward institutional reach. Chapter
+      20 uses only the 1938 scene's evidence that Dumbledore was already a
+      Hogwarts teacher and that his long school relationship with Riddle began
+      before the Dippet crisis.
+  - ids: [beedle-ch02-001, beedle-ch02-002, beedle-ch02-005, beedle-ch02-006]
+    disposition: advance_to_outline_with_new_function
+    reason: >-
+      Chapters 10, 17 and 18 own festivity, disaster response and headmasterial
+      authority. Chapter 20 uses the incident to place Dippet and Dumbledore in
+      one administration and Kettleburn across both tenures.
+  - ids: [cos-ch13-005, cos-ch13-007, cos-ch17-003, ps-ch04-007, hbp-ch17-005]
+    disposition: advance_to_outline_with_new_function
+    reason: >-
+      Chapters 17, 18 and 19 own danger, authority and public consequence.
+      Chapter 20 uses 1943 as the point where Dippet, Dumbledore, Riddle and
+      Hagrid interact and leave an inheritance that crosses administrations.
+  - ids: [ext-a10-001, poa-ch18-003, poa-ch18-007]
+    disposition: advance_to_outline_with_new_function
+    reason: >-
+      Chapters 15, 17 and 18 own boundary, containment and constitutional
+      discretion. Chapter 20 uses the case as a dated stage in Dumbledore's
+      headship and compares it with Hagrid and Trelawney to test a personal,
+      case-specific pattern.
+  - ids: [ps-ch01-002, ps-ch04-005]
+    disposition: advance_to_outline_with_new_function
+    reason: >-
+      Chapters 17 and 19 own safety and wartime institutional significance.
+      Chapter 20 asks how the incumbent's pre-existing personal reputation
+      affected the historical character of his headship.
+source_search_notes:
+  compact_indexes: >-
+    Queried Armando Dippet, Albus Dumbledore, headmastership, Hogwarts
+    headmaster, Tom Riddle, first Chamber opening, Hagrid, Remus Lupin,
+    student accommodation, staff appointments, Sybill Trelawney, First
+    Wizarding War, magical reputation and Grindelwald.
+  duplicate_queries: >-
+    Queried duplicate candidates for Dippet/Dumbledore, the first Chamber
+    opening and Hagrid expulsion, Lupin accommodation, Dumbledore and the First
+    Wizarding War, teacher appointments, and Dumbledore/Grindelwald reputation.
+  permanent_tooling: >-
+    Used the root Justfile's maintained query commands and the repository .venv,
+    plus direct read-only inspection of canonical source YAML and exact source
+    passages. No disposable helper script or research-layer write was created.
+  direct_source_review: >-
+    Inspected the complete official Rowling snapshots for Remus Lupin and Sybill
+    Trelawney; the canonical novel records and pivotal source passages for the
+    Dippet-era pantomime, 1938 Riddle visit, 1943 crisis, both teaching requests,
+    Lupin accommodation, Trelawney appointment, 1945 reputation and First-War
+    safety testimony; and the authority-D longevity transcript before excluding
+    it.
+  overlap_review: >-
+    Compared candidate evidence and analytical functions against Chapters 9,
+    10, 15, 17, 18 and 19 using their exact working manuscripts and recorded
+    hashes.
+

@@ -1,0 +1,72 @@
+schema_version: 1
+chapter:
+  id: 8
+  number: 8
+  slug: the-governance-of-hogwarts
+  title: The Governance of Hogwarts
+edition: unified-expanded
+target_revision: 1
+status: evidence_reviewed
+review_date: 2026-09-22
+research_basis:
+  - authoritative contents, authoring workflow, evidence policy, Draft-01 style lock, and Chapter 7 audited working baseline
+  - compact-index searches across governance, headmaster authority, school governors, Ministry intervention, staff authority, discipline, school closure, and teacher appointments
+  - direct inspection of every selected canonical YAML entry and the underlying source passages
+  - review of explicit Hogwarts: A History references, open questions, duplicate clusters, and Chapters 1–7 for overlap
+selection_principle: >-
+  Select evidence only when it establishes or materially limits an office,
+  governing power, supervisory relationship, delegated authority, or documented
+  change in the governance of Hogwarts. Character incidents advance only for
+  that institutional function.
+
+selected_evidence:
+  - {id: beedle-ch02-005, cluster: headmaster_internal_authority, chronology: B, confidence: high}
+  - {id: beedle-ch02-006, cluster: headmaster_internal_authority, chronology: B, confidence: high}
+  - {id: hbp-ch20-003, cluster: appointments_and_retention, chronology: B, confidence: high}
+  - {id: hbp-ch20-007, cluster: appointments_and_retention, chronology: B, confidence: high}
+  - {id: ps-ch04-007, cluster: appointments_and_retention, chronology: B, confidence: high}
+  - {id: gof-ch24-007, cluster: appointments_and_retention, chronology: D, confidence: high}
+  - {id: cos-ch05-005, cluster: delegated_staff_authority, chronology: C, confidence: high}
+  - {id: cos-ch14-006, cluster: governor_oversight, chronology: D, confidence: high}
+  - {id: cos-ch18-005, cluster: governor_oversight, chronology: D, confidence: high}
+  - {id: hbp-ch29-006, cluster: governor_oversight, chronology: D, confidence: high}
+  - {id: cos-ch13-007, cluster: ministry_boundary, chronology: B, confidence: high}
+  - {id: poa-ch21-001, cluster: ministry_boundary, chronology: D, confidence: high}
+  - {id: ootp-ch02-003, cluster: ministry_boundary, chronology: D, confidence: high}
+  - {id: gof-ch36-005, cluster: ministry_boundary, chronology: D, confidence: high}
+  - {id: ootp-ch15-001, cluster: umbridge_change, chronology: D, confidence: high}
+  - {id: ootp-ch19-007, cluster: umbridge_change, chronology: D, confidence: high}
+  - {id: ootp-ch26-006, cluster: umbridge_change, chronology: D, confidence: high}
+  - {id: ootp-ch26-007, cluster: umbridge_change, chronology: D, confidence: high}
+
+chronology_key:
+  A: directly usable pre-1984 evidence
+  B: pre-1984 event established through later testimony or commentary
+  C: Harry-era observation of a potentially older practice
+  D: post-1984 historical development or later editorial evidence
+  E: uncertain
+
+excluded_or_deferred:
+  - ids: [ootp-ch17-002]
+    reason: The dormitory-access rule is explicitly attributed to Hogwarts: A History but is already used substantially in Chapter 6 and does not advance the governance argument enough to warrant repetition.
+  - ids: [beedle-ch02-007, beedle-ch02-008, beedle-ch02-009]
+    reason: Governor pressure concerning a library book belongs to Chapter 11's history of knowledge and censorship.
+  - ids: [ootp-ch28-001]
+    reason: The office's rejection of Umbridge is second-hand evidence and its architectural function belongs to Chapter 6.
+  - ids: [ootp-ch28-002, ootp-ch17-001]
+    reason: The Inquisitorial Squad and student-organization ban add exceptional pupil-life detail after the decrees have already established the relevant Ministry intervention.
+  - ids: [poa-ch11-001]
+    reason: The Buckbeak committee concerns creature law and is unnecessary once the headmaster-Minister limit is established directly.
+  - ids: [ootp-ch33-004, ootp-ch33-005]
+    reason: Centaur jurisdiction was used substantially in Chapter 7 and must not be repeated.
+  - ids: [cc-p1-a1-s07-004, cc-p2-a3-s14-004]
+    reason: Altered-timeline governance cannot establish the primary institutional history.
+
+source_search_notes:
+  novels: All seven novels were searched; selected entries were inspected in canonical YAML and underlying PDF passages.
+  fantastic_beasts: Screened; no entry materially improves the selected account of offices or jurisdiction.
+  quidditch_through_the_ages: Screened; institutional material belongs to sport history rather than this chapter.
+  tales_of_beedle_the_bard: Two Dippet-era entries selected for headmaster rules and staff probation; library material deferred.
+  official_external: Screened; later official interpretation was unnecessary once direct narrative evidence was selected.
+  cursed_child: Completed extraction screened; altered-timeline material excluded and later primary-timeline material unnecessary.
+  explicit_hogwarts_a_history: No explicit reference directly establishes the core governance structure.

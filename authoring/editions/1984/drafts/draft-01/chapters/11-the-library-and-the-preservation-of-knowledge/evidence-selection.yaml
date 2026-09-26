@@ -1,0 +1,101 @@
+schema_version: 1
+chapter:
+  id: 11
+  number: 11
+  slug: the-library-and-the-preservation-of-knowledge
+  title: The Library and the Preservation of Knowledge
+working_title: The Library and the Written Store
+edition: unified-expanded
+target_revision: 1
+status: evidence_selected
+review_date: 2026-09-23
+research_basis:
+  - Chapter 11 editorial instructions, authoritative contents, authoring workflow, evidence policy, and Draft-01 style lock
+  - indexed concept searches across the complete structured corpus for books, textbooks, library use, research, restriction, dangerous knowledge, records, cultural reading, and censorship
+  - direct inspection of every selected canonical YAML record and the generated explicit Hogwarts: A History reference appendix
+  - Chapter 10 audited working manuscript as the entry-point baseline, with Chapters 8 and 9 screened for governance and curriculum overlap
+selection_principle: >-
+  Select evidence only when it establishes or materially limits the use,
+  preservation, organisation, restriction, circulation, age, cultural role,
+  or governance of written knowledge at Hogwarts. Named works advance only
+  when they demonstrate a larger institutional function. Later procedures
+  remain later evidence unless an older fact is independently supported.
+
+selected_evidence:
+  - {id: ps-ch05-002, cluster: textbooks_and_curriculum, chronology: C, confidence: high}
+  - {id: cos-ch04-001, cluster: textbooks_and_curriculum, chronology: C, confidence: high}
+  - {id: cos-ch04-006, cluster: textbooks_and_curriculum, chronology: C, confidence: high}
+  - {id: fb-ch00-003, cluster: textbooks_and_curriculum, chronology: B, confidence: high}
+  - {id: ps-ch06-004, cluster: independent_reading, chronology: C, confidence: high}
+  - {id: ps-ch14-001, cluster: ordinary_library_use, chronology: C, confidence: medium}
+  - {id: cos-ch11-005, cluster: ordinary_library_use, chronology: C, confidence: high}
+  - {id: ootp-ch24-006, cluster: ordinary_library_use, chronology: C, confidence: high}
+  - {id: qtta-fm-002, cluster: circulation, chronology: C, confidence: high}
+  - {id: ps-ch12-004, cluster: independent_research_and_restriction, chronology: C, confidence: high}
+  - {id: ps-ch13-001, cluster: independent_research_and_old_books, chronology: C, confidence: high}
+  - {id: ps-ch14-002, cluster: independent_research, chronology: C, confidence: high}
+  - {id: poa-ch11-003, cluster: independent_research_and_old_material, chronology: C, confidence: high}
+  - {id: gof-ch20-001, cluster: independent_research, chronology: C, confidence: high}
+  - {id: gof-ch26-002, cluster: research_limits_and_restriction, chronology: C, confidence: high}
+  - {id: hbp-ch25-002, cluster: historical_research, chronology: B, confidence: high}
+  - {id: hbp-ch30-002, cluster: historical_research, chronology: B, confidence: high}
+  - {id: ps-ch12-005, cluster: restricted_section, chronology: C, confidence: high}
+  - {id: cos-ch09-007, cluster: restricted_section, chronology: C, confidence: high}
+  - {id: cos-ch10-001, cluster: restricted_section, chronology: C, confidence: high}
+  - {id: hbp-ch18-002, cluster: dangerous_knowledge, chronology: C, confidence: high}
+  - {id: cos-ch12-004, cluster: dangerous_knowledge, chronology: C, confidence: high}
+  - {id: hbp-ch23-004, cluster: dangerous_knowledge, chronology: B, confidence: high}
+  - {id: dh-ch06-006, cluster: dangerous_knowledge_and_removal, chronology: C, confidence: high}
+  - {id: qtta-fm-004, cluster: circulation_and_cultural_reading, chronology: C, confidence: high}
+  - {id: qtta-fm-005, cluster: book_protection, chronology: C, confidence: high}
+  - {id: ps-ch07-001, cluster: hogwarts_a_history, chronology: C, confidence: high}
+  - {id: cos-ch09-001, cluster: hogwarts_a_history, chronology: C, confidence: high}
+  - {id: poa-ch09-001, cluster: hogwarts_a_history, chronology: C, confidence: high}
+  - {id: gof-ch11-005, cluster: hogwarts_a_history, chronology: C, confidence: high}
+  - {id: gof-ch15-003, cluster: hogwarts_a_history, chronology: C, confidence: high}
+  - {id: gof-ch28-003, cluster: hogwarts_a_history, chronology: C, confidence: high}
+  - {id: ootp-ch17-002, cluster: hogwarts_a_history, chronology: B, confidence: high}
+  - {id: ootp-ch23-001, cluster: hogwarts_a_history, chronology: C, confidence: high}
+  - {id: dh-ch06-004, cluster: hogwarts_a_history, chronology: C, confidence: high}
+  - {id: cos-ch08-002, cluster: administrative_records, chronology: C, confidence: high}
+  - {id: hbp-ch24-006, cluster: administrative_records, chronology: B, confidence: high}
+  - {id: hbp-ch17-006, cluster: school_records_and_research, chronology: B, confidence: medium}
+  - {id: beedle-fm-004, cluster: later_archives, chronology: C, confidence: high}
+  - {id: beedle-fm-002, cluster: cultural_reading, chronology: B, confidence: high}
+  - {id: dh-ch07-007, cluster: cultural_reading, chronology: B, confidence: high}
+  - {id: beedle-ch03-001, cluster: textual_transmission, chronology: B, confidence: high}
+  - {id: beedle-ch02-007, cluster: collection_control, chronology: C, confidence: high}
+  - {id: beedle-ch02-008, cluster: collection_control, chronology: C, confidence: high}
+  - {id: ootp-ch26-002, cluster: exceptional_information_control, chronology: D, confidence: high}
+  - {id: ootp-ch26-003, cluster: exceptional_information_control, chronology: D, confidence: high}
+
+chronology_key:
+  A: directly usable pre-1984 documentary evidence
+  B: older event, work, record, or condition established through later testimony, memory, or commentary
+  C: post-1984 ordinary observation or institutional case with continuity unproven
+  D: exceptional post-1984 political, wartime, or emergency condition
+  E: uncertain or internally conflicting chronology
+
+excluded_or_deferred:
+  - ids: [ps-ch11-003]
+    reason: Snape's asserted rule against taking library books outside school is contested within the scene and lacks sufficient corroboration for ordinary policy.
+  - ids: [hbp-ch09-005, hbp-ch16-006]
+    reason: The old Advanced Potion-Making copy belongs to a classroom stock, not a demonstrated library holding; retain only as a possible contrast if later needed.
+  - ids: [beedle-ch01-004]
+    reason: Beatrix Bloxam concerns publishing and family reading rather than Hogwarts collection governance.
+  - ids: [ext-a17-001]
+    reason: The school Pensieve is non-written and belongs more naturally to Chapter 12's treatment of institutional memory.
+  - ids: [cc-p1-a1-s19-001]
+    reason: The much-later Sonnets of a Sorcerer claim is too remote and uncorroborated to establish earlier Restricted Section policy.
+  - ids: [ootp-ch25-007, ootp-ch26-001]
+    reason: The Quibbler's publication and arrival are background to the selected exceptional possession ban; the chapter does not need the full press campaign.
+
+source_search_notes:
+  novels: All seven novels were searched through the structured corpus; selected records were inspected in canonical YAML.
+  fantastic_beasts: The approved-textbook foreword was selected as the strongest older curricular anchor.
+  quidditch_through_the_ages: The library plate and foreword were selected for circulation, popularity, stewardship, and protection evidence.
+  tales_of_beedle_the_bard: Cultural transmission, the later archive, and the Malfoy collection challenge were selected with chronology limits retained.
+  official_external: The Pensieve account was screened and deferred to Chapter 12 because it is non-written institutional memory.
+  preserved_interviews: Screened; no authority-D interview improves the chapter's institutional case beyond stronger primary carriers.
+  cursed_child: Screened; the later banned-book claim was deferred as too remote to establish earlier policy.
+  explicit_hogwarts_a_history: Every indexed explicit reference was screened and selected so the work's use, ownership, authority, repetition, and omissions can be assessed together.

@@ -1,0 +1,114 @@
+schema_version: 1
+chapter:
+  id: 12
+  number: 12
+  slug: portraits-ghosts-and-the-memory-of-hogwarts
+  title: Portraits, Ghosts and the Memory of Hogwarts
+working_title: The Living Memory of Hogwarts
+edition: unified-expanded
+target_revision: 1
+status: evidence_selected
+review_date: 2026-09-23
+research_basis:
+  - approved Chapter 12 research package, including its evidence inventory, gap audit, ambiguity review, paragraph-level architecture, and editorial recommendation
+  - direct inspection of every selected canonical YAML record, including the newly indexed A17 Pensieve-mechanics passage and Beedle photograph/portrait/ghost footnote
+  - Chapter 11 working manuscript as the entry-point baseline and Chapter 4 approved manuscript as the boundary for Sorting Hat origins and House consequences
+selection_principle: >-
+  Select evidence only when it establishes or materially limits a distinct
+  responsive form of Hogwarts memory: ghosts as surviving witnesses, portraits
+  as constructed likenesses, trained head portraits as succession support, the
+  Sorting Hat as founder-associated judgement, or Pensieve memories as
+  revisitable evidence. Keep later behaviour in the later layer, attribute
+  traditions and retrospective explanations, and reject any inference from
+  responsiveness to identity, consciousness, omniscience, resurrection, or
+  continuous pre-1984 institutional practice.
+
+selected_evidence:
+  - {id: ps-ch08-002, cluster: ghosts_in_school_life, chronology: C, confidence: high}
+  - {id: cos-ch08-005, cluster: ghosts_in_school_life, chronology: C, confidence: high}
+  - {id: poa-ch08-006, cluster: ghosts_in_school_life, chronology: C, confidence: high}
+  - {id: ext-a06-001, cluster: ghosts_in_school_life, chronology: E, confidence: high}
+  - {id: ext-a06-002, cluster: house_ghosts, chronology: E, confidence: high}
+  - {id: ext-a06-003, cluster: house_ghosts, chronology: E, confidence: high}
+  - {id: ext-a06-004, cluster: house_ghosts, chronology: B, confidence: high}
+  - {id: ext-a06-007, cluster: house_ghosts, chronology: E, confidence: high}
+  - {id: ps-ch08-005, cluster: binns, chronology: C, confidence: high}
+  - {id: cos-ch09-002, cluster: binns, chronology: C, confidence: high}
+  - {id: ext-a06-006, cluster: binns, chronology: E, confidence: high}
+  - {id: cos-ch08-001, cluster: ghost_testimony_and_limits, chronology: C, confidence: high}
+  - {id: gof-ch25-004, cluster: ghost_testimony_and_limits, chronology: B, confidence: medium}
+  - {id: ootp-ch38-006, cluster: ghost_testimony_and_limits, chronology: C, confidence: high}
+  - {id: dh-ch31-002, cluster: founder_era_ghost_witness, chronology: B, confidence: high}
+  - {id: beedle-ch04-001, cluster: death_boundary, chronology: A, confidence: high}
+  - {id: beedle-ch04-007, cluster: death_boundary, chronology: C, confidence: high}
+
+  - {id: ext-a05-001, cluster: ordinary_portrait_mechanics, chronology: E, confidence: high}
+  - {id: ext-a05-002, cluster: ordinary_portrait_limits, chronology: E, confidence: high}
+  - {id: poa-ch08-004, cluster: portrait_gatekeepers, chronology: C, confidence: high}
+  - {id: poa-ch08-007, cluster: portrait_gatekeepers, chronology: D, confidence: high}
+  - {id: poa-ch09-003, cluster: portrait_gatekeepers, chronology: D, confidence: high}
+  - {id: poa-ch11-006, cluster: portrait_social_network, chronology: C, confidence: high}
+  - {id: gof-ch17-007, cluster: portrait_social_network, chronology: C, confidence: high}
+  - {id: dh-ch15-007, cluster: portrait_mobility_limits, chronology: C, confidence: high}
+
+  - {id: cos-ch13-006, cluster: headmaster_portrait_chronology, chronology: B, confidence: high}
+  - {id: ext-a05-003, cluster: headmaster_portrait_training, chronology: E, confidence: high}
+  - {id: ootp-ch22-002, cluster: headmaster_portrait_service, chronology: D, confidence: high}
+  - {id: ootp-ch22-006, cluster: headmaster_portrait_service, chronology: C, confidence: high}
+  - {id: ootp-ch23-002, cluster: headmaster_portrait_service, chronology: D, confidence: high}
+  - {id: dh-ch10-001, cluster: linked_headmaster_frames, chronology: C, confidence: high}
+  - {id: dh-ch16-002, cluster: portrait_bias, chronology: D, confidence: high}
+  - {id: dh-ch36-006, cluster: portrait_continuity_limits, chronology: D, confidence: high}
+
+  - {id: gof-ch12-002, cluster: sorting_hat_founder_tradition, chronology: B, confidence: high}
+  - {id: ootp-ch11-003, cluster: sorting_hat_founder_tradition, chronology: B, confidence: high}
+  - {id: ext-a02-001, cluster: sorting_hat_founder_tradition, chronology: B, confidence: high}
+  - {id: ext-a02-002, cluster: sorting_hat_active_judgement, chronology: E, confidence: high}
+  - {id: ext-a02-003, cluster: sorting_hat_active_judgement, chronology: E, confidence: high}
+  - {id: dh-ch33-005, cluster: sorting_hat_pre_1984_operation, chronology: B, confidence: high}
+  - {id: gof-ch12-003, cluster: sorting_hat_songs, chronology: C, confidence: high}
+  - {id: ootp-ch11-004, cluster: sorting_hat_warnings, chronology: C, confidence: medium}
+
+  - {id: gof-ch30-002, cluster: pensieve_mechanics, chronology: C, confidence: high}
+  - {id: ootp-ch28-006, cluster: pensieve_mechanics, chronology: C, confidence: high}
+  - {id: ext-a17-005, cluster: pensieve_mechanics, chronology: E, confidence: high}
+  - {id: hbp-ch10-004, cluster: memory_as_historical_evidence, chronology: B, confidence: high}
+  - {id: hbp-ch13-002, cluster: memory_as_historical_evidence, chronology: B, confidence: high}
+  - {id: hbp-ch17-003, cluster: memory_as_historical_evidence, chronology: C, confidence: high}
+  - {id: hbp-ch20-001, cluster: altered_memory_and_source_gaps, chronology: B, confidence: high}
+  - {id: hbp-ch20-006, cluster: altered_memory_and_source_gaps, chronology: B, confidence: high}
+  - {id: hbp-ch22-007, cluster: memory_acquisition_and_privacy, chronology: C, confidence: high}
+  - {id: hbp-ch23-002, cluster: memory_acquisition_and_privacy, chronology: C, confidence: high}
+  - {id: ext-a17-001, cluster: hogwarts_pensieve_archive, chronology: B, confidence: high}
+  - {id: ext-a17-004, cluster: hogwarts_pensieve_archive, chronology: E, confidence: high}
+  - {id: ext-a17-002, cluster: pensieve_antiquity, chronology: B, confidence: high}
+  - {id: ext-a17-003, cluster: pensieve_founder_legend, chronology: B, confidence: high}
+
+chronology_key:
+  A: directly usable pre-1984 evidence or general proposition explicitly available by 1984
+  B: older event, object, tradition, or condition established through a later carrier
+  C: post-1984 ordinary observation, explanation, or editorial note with continuity unproved
+  D: exceptional post-1984 crisis, wartime, or emergency condition
+  E: undated retrospective explanation or otherwise uncertain chronology
+
+excluded_or_deferred:
+  - ids: [cos-ch11-006]
+    reason: Ghost petrification is a striking physical anomaly but does not materially advance the chapter's institutional-memory argument.
+  - ids: [hbp-ch24-003]
+    reason: Myrtle's later observation of one pupil duplicates the stronger testimony examples without improving chronology or reliability analysis.
+  - ids: [ootp-ch24-004, ootp-ch28-007]
+    reason: The portable Pensieve and one Marauders-era scene add examples but are unnecessary once mechanics, historical method, and chronology are separately established.
+  - ids: [ext-a05-004]
+    reason: Sleeping-listener lore is useful background but the selected training, service, and bias evidence carries the institutional claim more directly.
+  - ids: [dh-ch33-002, hbp-ch29-005]
+    reason: Battle observation and immediate portrait appearance are later exceptional details not required for the bounded succession argument.
+  - ids: [ps-ch07-002]
+    reason: Chapter 13 owns the Sorting ceremony; Chapter 12 selects only evidence bearing on preserved judgement, songs, warning, and pre-1984 operation.
+  - ids: [cc-p1-a2-s08-002, cc-p1-a2-s10-002, cc-p2-a4-s04-002]
+    reason: Much-later dramatic or altered-timeline portrait formulations are unnecessary because primary-narrative and official explanatory evidence establish the required distinctions.
+
+source_search_notes:
+  canonical_scope: The complete corpus search recorded in the approved research package was not expanded.
+  new_gap_entries: ext-a17-005 and beedle-ch04-007 were added solely to close the two approved VERIFY_SOURCE gaps.
+  chronology: Most operational portrait, ghost, and Pensieve evidence remains a later unified-edition layer; it is not silently projected into 1984.
+  chapter_boundaries: Chapter 4 retains the House argument, Chapter 11 the written store, Chapter 13 the recurring ceremony, and Chapter 12 the mechanisms and limits of responsive memory.

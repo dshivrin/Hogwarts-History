@@ -1,0 +1,82 @@
+schema_version: 1
+chapter_id: 13
+reviewed_at: 2026-09-23
+canonical_questions: project-control/structured-sources/open-questions.yaml
+editorial_overlay: resources/external/open-questions-scapping/hogwarts-open-questions-enriched.yaml
+note: >-
+  Chapter-local review only. This file does not replace or modify either
+  canonical source. Keys preserve canonical question IDs.
+questions:
+  sorting-ceremony-001:
+    classification: partially_answered
+    evidence_ids: [ext-a02-001, gof-ch12-003]
+    result: Founder-era Hat tradition is established, but the date of the mature ceremony remains unknown.
+  sorting-ceremony-002:
+    classification: partially_answered
+    evidence_ids: [ps-ch06-007, poa-ch05-005, gof-ch11-006]
+    result: Later sources explicitly call the lake route a first-year tradition; no source dates its origin.
+  sorting-ceremony-003:
+    classification: unresolved_actual_gap
+    evidence_ids: [ps-ch06-007, gof-ch11-006]
+    result: The route and boat limit are observed, but no founder or date is supplied.
+  sorting-ceremony-004:
+    classification: unresolved_after_local_search
+    evidence_ids: [ps-ch07-001]
+    result: The explicit book reference concerns the Great Hall ceiling, not Sorting custom.
+  feasts-and-school-traditions-003:
+    classification: partially_answered
+    evidence_ids: [ext-a04-002, ext-a04-004, ext-a04-005]
+    result: The need for standardised travel followed the 1692 Statute and the train later became compulsory; its exact adoption date and acquisition remain uncertain.
+  feasts-and-school-traditions-004:
+    classification: unresolved_out_of_scope
+    evidence_ids: []
+    result: Barrier safeguards do not materially advance this chapter's institutional-custom argument.
+  feasts-and-school-traditions-005:
+    classification: partially_answered
+    evidence_ids: [ps-ch06-006]
+    result: Luggage is taken separately to the school; the responsible person or magic is unidentified.
+  feasts-and-school-traditions-006:
+    classification: partially_answered
+    evidence_ids: [ps-ch10-002, cos-ch08-004, poa-ch08-006]
+    result: Three consecutive Harry-era years establish a recurring feast, including 'usual' decoration; no origin is documented.
+  feasts-and-school-traditions-007:
+    classification: partially_answered
+    evidence_ids: [ps-ch12-003, ootp-ch21-003, hbp-ch15-001]
+    result: Staff, prefect and Hagrid participation is observed, but no complete responsibility or enchantment mechanism is established.
+  feasts-and-school-traditions-008:
+    classification: unresolved_actual_gap
+    evidence_ids: [cos-ch08-004, poa-ch08-006]
+    result: Dancing skeletons are reported as anticipated and one ghost performance is observed; authorisation and regularity remain unknown.
+  feasts-and-school-traditions-009:
+    classification: partially_answered
+    evidence_ids: [poa-ch08-006]
+    result: A ghost performance occurred at one Halloween feast; no evidence makes it a regular arrangement.
+  feasts-and-school-traditions-010:
+    classification: partially_answered
+    evidence_ids: [ps-ch12-003, cos-ch11-001, cos-ch12-003, poa-ch11-004, hbp-ch15-001]
+    result: Repeated observations and 'usual' language establish standing Harry-era practices; origins remain unknown.
+  feasts-and-school-traditions-011:
+    classification: partially_answered
+    evidence_ids: [ps-ch12-003, hbp-ch15-001, ootp-ch21-003]
+    result: Hagrid, McGonagall, Flitwick and prefects are observed participating, but no general duty allocation is proved.
+  feasts-and-school-traditions-012:
+    classification: partially_answered
+    evidence_ids: [ps-ch15-002, ps-ch17-005, poa-ch22-005]
+    result: Later recurrence and public ceremony are secure; age and ordinary award limits remain unknown.
+  feasts-and-school-traditions-013:
+    classification: partially_answered_out_of_scope
+    evidence_ids: [ps-ch17-006]
+    result: The notes were distributed in 1992; issuer and legal relationship remain governance questions.
+  feasts-and-school-traditions-014:
+    classification: unresolved_after_local_search
+    evidence_ids: [ps-ch17-006]
+    result: Lake crossing and controlled barrier exit are observed once at departure and cannot be universalised.
+  feasts-and-school-traditions-024:
+    classification: partially_answered
+    evidence_ids: [cos-ch13-003]
+    result: The event is explicitly Lockhart's idea during a crisis; no broader precedent was found.
+  feasts-and-school-traditions-038:
+    classification: partially_answered_actual_gap
+    evidence_ids: [beedle-ch02-001, beedle-ch02-002, beedle-ch02-005]
+    result: The headmaster, teachers, outcome and lasting ban are established; the exact school year remains unknown.
+
